@@ -1,0 +1,20 @@
+[
+  {
+    "id": "voobly",
+    "name": "Voobly",
+    "url": "https://www.voobly.com",
+    "match_url": "https://www.voobly.com/match/view/"
+  },
+  {
+    "id": "vooblycn",
+    "name": "Voobly China",
+    "url": "http://www.vooblycn.com",
+    "match_url": "http://www.vooblycn.com/match/view/"
+  },
+  {
+    "id": "qq",
+    "name": "QQ AoC",
+    "url": "http://aocrec.com",
+    "match_url": "http://aocrec.com/"
+  }
+]

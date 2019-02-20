@@ -1,0 +1,89 @@
+[
+  {
+    "id": "kotd",
+    "name": "King of the Desert",
+    "tournaments": [
+      "kotdaoc",
+      "kotd2"
+    ]
+  },
+  {
+    "id": "moa2v2",
+    "name": "Masters of Arabia 2v2",
+    "tournaments": [
+      "moa2v2"
+    ]
+  },
+  {
+    "id": "moa5",
+    "name": "Masters of Arena 5",
+    "tournaments": [
+      "MoA5S1",
+      "MoA5S2"
+    ]
+  },
+  {
+    "id": "egc",
+    "name": "EGC #1: Strike the Balance",
+    "tournaments": [
+      "vooblyofficial-egcrrnew",
+      ["egc1-final", "EGC #1 Final"]
+    ]
+  },
+  {
+    "id": "loth",
+    "name": "Legacy of the Huns 2",
+    "tournaments": [
+      "loth2q",
+      "loth2f"
+    ]
+  },
+  {
+    "id": "boa",
+    "name": "Battle of Africa",
+    "tournaments": [
+      "boa_qual",
+      ["boa_swiss", "Battle of Africa Swiss Stage"],
+      "boa_ko"
+    ]
+  },
+  {
+    "id": "nac1",
+    "name": "Nili's Apartment Cup",
+    "tournaments": [
+      "NAC_AoE",
+      ["nac_elim", "Nili's Apartment Cup Elimination"]
+    ]
+  },
+  {
+    "id": "nac2",
+    "name": "Nili's Apartment Cup 2",
+    "tournaments": [
+      "nac2q1",
+      "nac2q2",
+      "NAC2_Group",
+      "NAC2_Playoffs"
+    ]
+  },
+  {
+    "id": "wc",
+    "name": "World Cup",
+    "tournaments": [
+      "aoe2worldcup"
+    ]
+  },
+  {
+    "id": "ecl",
+    "name": "Escape Champions League",
+    "tournaments": [
+      "escapeaoe-ECLQual",
+      "escapeaoe-ECLEUE1",
+      "escapeaoe-ECLEUE2",
+      "escapeaoe-ECLAfrica1",
+      "escapeaoe-ECLAfrica2",
+      "escapeaoe-ECLMidEast1",
+      "escapeaoe-ECLMidEast2",
+      "escapeaoe-ECLAsia1"
+    ]
+  }
+]

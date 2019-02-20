@@ -1,0 +1,33 @@
+# manual series entry for tournaments without Challonge brackets
+
+tournament_id,series_id,round_id,p1,p2,score,played
+
+# Battle of Africa - Swiss Stage
+
+boa_swiss,1015,1,aM,China A,3-1,2018-03-17
+boa_swiss,1014,1,Suomi,NaBs,3-2,2018-03-17
+boa_swiss,1013,1,LoS,TyRanT,0-3,2018-03-18
+boa_swiss,1012,1,SY,VNA,2-3,2018-03-17
+boa_swiss,1011,2,SY,China A,3-0,2018-03-25
+boa_swiss,1010,2,Suomi,TyRanT,2-3,2018-03-25
+boa_swiss,1009,2,aM,VNA,3-0,2018-03-25
+boa_swiss,1008,2,LoS,NaBs,3-1,2018-03-23
+boa_swiss,1007,3,SY,LoS,3-2,2018-03-30
+boa_swiss,1006,3,Suomi,VNA,3-1,2018-03-30
+boa_swiss,1005,3,NaBs,China A,2-3,2018-04-01
+boa_swiss,1004,3,aM,TyRanT,3-0,2018-04-01
+boa_swiss,1003,4,Suomi,China A,3-1,2018-04-08
+boa_swiss,1002,4,LoS,VNA,3-1,2018-04-07
+boa_swiss,1001,4,SY,TyRanT,2-3,2018-04-08
+boa_swiss,1000,5,SY,LoS,3-2,2018-04-14
+
+# Nili's Apartment Cup - Final Elimination Stage
+
+nac_elim,1000,1,TaToH,JorDan_23,4-1,2018-07-14
+nac_elim,1001,1,MbL40C,TaToH,4-1,2018-07-14
+nac_elim,1002,1,Liereyy,MbL40C,5-0,2018-07-15
+nac_elim,1003,2,TheViper,Liereyy,5-2,2018-07-15
+
+# Every Game Counts #1 - Grand Final
+
+egc1_final,1000,1,TheViper,Liereyy,5-1,2017-05-20
