@@ -14,6 +14,7 @@ setup(
         'data/events/events.json',
         'data/events/series.json',
         'data/datasets/*.json',
+        'data/constants.json',
         'data/platforms.json'
     ]},
     install_requires=[

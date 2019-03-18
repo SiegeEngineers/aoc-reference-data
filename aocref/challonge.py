@@ -99,7 +99,7 @@ def get_tournament(session, tournament_id):
 
     manual = _get_manual_tournament(tournament_id)
     if manual:
-        LOGGER.info("falling back to manual data for %s (no Challonge bracket)", tournament_id)
+        LOGGER.debug("falling back to manual data for %s (no Challonge bracket)", tournament_id)
         return manual
 
     data = session.get(CHALLONGE_API_URL.format(tournament_id), params={

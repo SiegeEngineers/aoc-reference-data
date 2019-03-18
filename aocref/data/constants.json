@@ -1,0 +1,71 @@
+{
+  "game_types": {
+    "0": "Random Map",
+    "1": "Regicide",
+    "2": "Deathmatch",
+    "3": "Scenario",
+    "4": "Campaign",
+    "5": "King of the Hill",
+    "6": "Wonder Race",
+    "7": "Defend the Wonder",
+    "8": "Turbo Random"
+  },
+  "starting_resources": {
+    "0": "Standard",
+    "1": "Low",
+    "2": "Medium",
+    "3": "High"
+  },
+  "victory_conditions": {
+    "0": "Standard",
+    "1": "Conquest",
+    "2": "Time Limit",
+    "3": "Score Limit",
+    "4": "Custom"
+  },
+  "map_reveal_choices": {
+    "0": "Normal",
+    "1": "Explored",
+    "2": "All Visible"
+  },
+  "starting_ages": {
+    "0": "Dark",
+    "1": "Feudal",
+    "2": "Castle",
+    "3": "Imperial",
+    "4": "Post-Imperial",
+    "6": "Post-Imperial"
+  },
+  "difficulties": {
+    "0": "Hardest",
+    "1": "Hard",
+    "2": "Moderate",
+    "3": "Standard",
+    "4": "Easiest"
+  },
+  "speeds": {
+    "100": "Slow",
+    "150": "Standard",
+    "178": "Standard",
+    "200": "Fast",
+    "237": "Fast"
+  },
+  "map_sizes": {
+    "120": "Tiny",
+    "144": "Small",
+    "168": "Medium",
+    "200": "Normal",
+    "220": "Large",
+    "240": "Giant"
+  },
+  "player_colors": {
+    "0": "Blue",
+    "1": "Red",
+    "2": "Green",
+    "3": "Yellow",
+    "4": "Teal",
+    "5": "Purple",
+    "6": "Gray",
+    "7": "Orange"
+  }
+}

@@ -4,7 +4,7 @@ import json
 
 import requests_cache
 
-from aocref import model, get_metadata, list_metadata
+from aocref import model, get_metadata, list_metadata, get_class_by_tablename
 from aocref import challonge
 
 
@@ -26,6 +26,8 @@ def bootstrap(session):
 
     for platform in json.loads(open(get_metadata('platforms.json'), 'r').read()):
         add_platform(session, platform)
+
+    add_constants(session, json.loads(open(get_metadata('constants.json'), 'r').read()))
 
 
 def add_platform(session, data):
@@ -105,3 +107,15 @@ def add_dataset(session, dataset_id, data):
             description=info['description']['team_bonus']
         ))
         session.commit()
+
+
+def add_constants(session, data):
+    """Add constants."""
+    for category, choices in data.items():
+            cls = get_class_by_tablename(model.BASE, category)
+            if not cls:
+                continue
+            for constant_id, constant_name in choices.items():
+                constant = cls(id=constant_id, name=constant_name)
+                session.add(constant)
+    session.commit()

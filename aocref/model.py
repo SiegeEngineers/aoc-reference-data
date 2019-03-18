@@ -109,3 +109,66 @@ class CivilizationBonus(BASE):
             ['civilization_id', 'dataset_id'], ['civilizations.id', 'civilizations.dataset_id']
         ),
     )
+
+
+class GameType(BASE):
+    """Game type."""
+    __tablename__ = 'game_types'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+
+
+class StartingResources(BASE):
+    """Starting resoruces."""
+    __tablename__ = 'starting_resources'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+
+
+class VictoryCondition(BASE):
+    """ictory conditions."""
+    __tablename__ = 'victory_conditions'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+
+
+class MapRevealChoice(BASE):
+    """Map reveal choices."""
+    __tablename__ = 'map_reveal_choices'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+
+
+class StartingAge(BASE):
+    """Starting Ages."""
+    __tablename__ = 'starting_ages'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+
+
+class Difficulty(BASE):
+    """Difficulties."""
+    __tablename__ = 'difficulties'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+
+
+class Speed(BASE):
+    """Speeds."""
+    __tablename__ = 'speeds'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+
+
+class MapSize(BASE):
+    """Map sizes."""
+    __tablename__ = 'map_sizes'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+
+
+class PlayerColor(BASE):
+    """Player color."""
+    __tablename__ = 'player_colors'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
