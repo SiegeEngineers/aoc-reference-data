@@ -1,0 +1,286 @@
+/* ************************************ */
+/* NC17v3_Valley */
+/* ************************************ */
+
+<PLAYER_SETUP>
+
+random_placement
+
+<LAND_GENERATION>
+
+base_terrain DESERT
+
+create_player_lands
+{
+terrain_type GRASS
+base_size 14
+land_percent 100
+set_zone_by_team
+other_zone_avoidance_distance 18
+base_elevation 2
+}
+
+create_land
+{
+terrain_type DESERT
+base_size 4
+land_percent 100
+top_border  33
+bottom_border 33
+left_border 33
+right_border 33
+}
+
+<TERRAIN_GENERATION>
+
+create_terrain WATER
+{
+base_terrain DESERT
+land_percent 2
+number_of_clumps 80
+spacing_to_other_terrain_types 2
+}
+
+create_terrain PALM_DESERT
+{
+base_terrain GRASS
+land_percent 11
+number_of_clumps 14
+set_avoid_player_start_areas     
+set_scale_by_groups
+spacing_to_other_terrain_types 3
+}
+
+<ELEVATION_GENERATION>
+
+create_elevation 2
+{
+base_terrain GRASS
+number_of_tiles 1000000
+number_of_clumps 100
+}
+
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+set_place_for_every_player
+group_placement_radius 18
+min_distance_to_players 0
+max_distance_to_players 0
+}
+
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 6
+}
+
+if REGICIDE
+
+create_object VILLAGER
+{
+number_of_objects 7
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object KING
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object CASTLE
+{
+set_place_for_every_player
+min_distance_to_players 10
+max_distance_to_players 11
+}
+
+endif
+
+create_object SCOUT
+{
+number_of_objects 1
+set_place_for_every_player
+min_distance_to_players 7
+max_distance_to_players 9
+}
+
+create_object GOLD
+{
+number_of_objects 7
+number_of_groups 2
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 13
+max_distance_to_players 16
+min_distance_group_placement 7
+max_distance_to_other_zones 7
+terrain_to_place_on GRASS
+}
+
+create_object STONE
+{
+number_of_objects 5
+number_of_groups 2
+group_placement_radius 2  
+set_tight_grouping 
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 18
+min_distance_group_placement 7
+max_distance_to_other_zones 7
+terrain_to_place_on GRASS
+}
+
+create_object SHEEP
+{
+number_of_objects 4
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 9
+max_distance_to_players 10
+}
+
+create_object SHEEP
+{
+number_of_objects 2
+number_of_groups 2
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 24
+terrain_to_place_on GRASS
+}
+
+create_object BOAR
+{
+number_of_objects 1
+set_loose_grouping  
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 15
+max_distance_to_players 19
+}
+
+create_object BOAR
+{
+number_of_objects 1
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 15
+max_distance_to_players 19
+}
+
+create_object DEER
+{
+number_of_groups 9999
+number_of_objects 3
+group_placement_radius 3
+set_loose_grouping
+set_gaia_object_only
+temp_min_distance_group_placement 15
+terrain_to_place_on DESERT
+}
+
+create_object SHEEP
+{
+number_of_groups 9999
+number_of_objects 2
+set_loose_grouping
+set_gaia_object_only
+temp_min_distance_group_placement 20
+min_distance_to_players 30
+terrain_to_place_on DESERT
+}
+
+create_object FORAGE
+{
+number_of_groups 9999
+number_of_objects 4
+group_placement_radius 2
+set_close_grouping
+set_gaia_object_only
+temp_min_distance_group_placement 20
+terrain_to_place_on DESERT
+}
+
+create_object SHORE_FISH
+{
+number_of_groups 9999
+number_of_objects 2
+group_placement_radius 1
+set_close_grouping
+set_gaia_object_only
+temp_min_distance_group_placement 1
+temp_max_distance_group_placement 2
+resource_delta 50
+terrain_to_place_on WATER
+}
+
+create_object PALMTREE
+{
+number_of_objects 3
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 4
+max_distance_to_players 5
+min_distance_group_placement 2
+}
+
+create_object PALMTREE
+{
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 8
+min_distance_group_placement 2
+}
+
+create_object GOLD
+{
+number_of_objects 3
+number_of_groups 2    
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+min_distance_to_players 45
+set_scaling_to_map_size
+temp_min_distance_group_placement 25
+min_distance_group_placement 12
+terrain_to_place_on GRASS
+}
+
+create_object STONE
+{
+number_of_objects 3
+number_of_groups 1    
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+min_distance_to_players 45
+set_scaling_to_map_size
+temp_min_distance_group_placement 30
+min_distance_group_placement 12
+terrain_to_place_on GRASS
+}
+
+create_object RELIC
+{
+number_of_objects 8
+min_distance_to_players 25
+min_distance_group_placement 5
+temp_min_distance_group_placement 30
+terrain_to_place_on DESERT
+}

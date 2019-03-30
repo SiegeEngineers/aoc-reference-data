@@ -1,0 +1,63 @@
+WiC Version 3.0 Changelog:
+
+This update is aiming for fixing the occurring resource problems.
+
+- Resources should be more fair now, however they might spawn closer to the shoreline on some water maps now.
+
+- Added Duopoly to single maps. Duopoly_v2
+
+- Carribbean removed max_distance_to_other_zones completely on 4v4 and 3v3.
+- Edited sheep spawn distance
+- Gold and Stone should be fine now.
+
+Eldorado:
+
+- Removed Water around the borders.
+- Added Deers(MR) again
+- Boars are still limited to 1x or 2x (Never 3x).
+- Updated the wood (Improved).
+- Elevation removed on 1v1 on Eldorado.
+- Gold resources will ALWAYS spawn in the middle of the map now.
+- Minor updates/fixes.
+
+- MegaRandom Mode: edited max_distance_to_other_zones on 4v4 and 3v3.
+
+- Acropolis removed extra resources on the map (Deer and Boar).
+- Edited boar spawning distance on 3v3 and 4v4 to spawn right next to TC.
+- Edited the straggler trees around TC to make space for Boars.
+
+- Ancient Lake decreased stone groups from 3 to 2. Removed extra resources from the map.
+
+- Two Rivers removed max_distance_to_other_zones on 4v4 and 3v3.
+
+- Reservoir edited resource zones and spawn distances.
+
+- Islands removed max_distance_to_other_zones completely on 4v4 and 3v3.
+
+- Shorelands (regular/standard) edited the resources on the islands.
+
+- Shorelands(MR) removed the extra resources on the islands for balance.
+
+- Sand Maze decreased the spawning distance for sheeps from 12-30 to 12-25.
+
+- Flood replaced shallow connections with Beach terrain. Fixed the water (Dock placements).
+
+- Changes from WiC 2.0:
+
+WiC_Duopoly_v2, WiC_AP_Two_Rivers_v2, WiC_Ancient Lake_v3, WiC_Caribbean_v3, WiC_Islands_v3(MR), WiC_Map_Pack_v3, -
+WiC_Reservoir_v3, WiC_Sand_Maze_v2, WiC_Shorelands_v2, WiC_Shorelands_v3(MR), WiC_Team Islands_v3(MR) -
+WiC_Team_Acropolis_v3 and WiC_Team_Continental_v3, WiC_Flood_v2(MR), El_Dorado_v5(MR)
+
+- Every map should have balanced resources now. That is the goal.
+
+
+
+
+
+
+
+
+
+
+
+

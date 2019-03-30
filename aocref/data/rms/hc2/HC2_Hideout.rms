@@ -1,0 +1,315 @@
+/* ************ HC2_Hideout ************ */
+/*
+ Based on the Hideout map from ECL - only tiny edits
+ edited by AlgernonR
+ all HiddenCup maps are carefully edited to prevent bugged resources
+ */
+
+<PLAYER_SETUP>
+random_placement
+
+<LAND_GENERATION>
+
+base_terrain GRASS
+
+create_player_lands {
+  terrain_type GRASS2
+  land_percent 16
+  base_size 12
+  top_border 18
+  bottom_border 18
+  left_border 18
+  right_border 18
+  clumping_factor 15
+  other_zone_avoidance_distance 16
+}
+
+create_land {
+  terrain_type FOREST
+  land_percent 90
+  top_border 20
+  bottom_border 20
+  right_border 20
+  left_border 20
+  clumping_factor 15
+  other_zone_avoidance_distance 0
+  zone 52
+}
+
+
+<TERRAIN_GENERATION>
+
+create_terrain FOREST {
+  base_terrain GRASS
+  land_percent 4
+  number_of_clumps 8
+  set_avoid_player_start_areas
+  set_scale_by_groups
+}
+
+
+<ELEVATION_GENERATION>
+
+create_elevation 4 {
+  base_terrain GRASS
+  number_of_clumps 10
+  number_of_tiles 1000
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+
+<OBJECTS_GENERATION>
+
+create_object OAKTREE {
+  number_of_objects 2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 4
+  max_distance_to_players 5
+  min_distance_group_placement 2
+}
+
+create_object OAKTREE {
+  number_of_objects 3
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 6
+  max_distance_to_players 8
+  min_distance_group_placement 2
+}
+
+create_object OAKTREE {
+  number_of_objects 30
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_to_players 8
+}
+
+create_object TOWN_CENTER {
+  set_place_for_every_player
+  group_placement_radius 18
+  min_distance_to_players 0
+  max_distance_to_players 0
+}
+
+create_object PALISADE_WALL {
+  set_place_for_every_player
+  min_distance_to_players 17
+  max_distance_to_players 17
+}
+
+
+create_object VILLAGER {
+  set_place_for_every_player
+  min_distance_to_players 6
+  max_distance_to_players 7
+}
+
+create_object SCOUT {
+  number_of_objects 1
+  set_place_for_every_player
+  min_distance_to_players 8
+  max_distance_to_players 9
+}
+
+if REGICIDE
+  create_object VILLAGER {
+    number_of_objects 7
+    set_place_for_every_player
+    min_distance_to_players 6
+    max_distance_to_players 7
+  }
+
+  create_object KING {
+    set_place_for_every_player
+    min_distance_to_players 6
+    max_distance_to_players 7
+  }
+
+  create_object CASTLE {
+    set_place_for_every_player
+    min_distance_to_players 10
+    max_distance_to_players 11
+  }
+endif
+
+create_object SHEEP
+{
+number_of_objects 1
+set_place_for_every_player
+min_distance_to_players 9
+max_distance_to_players 10
+}
+
+create_object SHEEP
+{
+number_of_objects 3
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 9
+max_distance_to_players 10
+}
+
+create_object SHEEP 
+{
+  number_of_objects 2
+  number_of_groups  2
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 14
+  max_distance_to_players 21
+  min_distance_group_placement 3
+}
+
+create_object DEER {
+  number_of_objects 4
+  group_placement_radius 3
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 16
+  max_distance_to_players 20
+}
+
+create_object BOAR {
+  number_of_objects 1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 15
+  max_distance_to_players 20
+  min_distance_group_placement 3
+}
+
+create_object BOAR {
+  number_of_objects 1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 15
+  max_distance_to_players 20
+  min_distance_group_placement 3
+}
+
+create_object FORAGE {
+  number_of_objects 6
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 10
+  max_distance_to_players 12
+  min_distance_group_placement 5
+}
+
+create_object GOLD {
+  number_of_objects 7
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 12
+  max_distance_to_players 15
+  min_distance_group_placement 7
+  max_distance_to_other_zones 7
+}
+
+create_object STONE {
+  number_of_objects 5
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 12
+  max_distance_to_players 15
+  min_distance_group_placement 7
+  max_distance_to_other_zones 7
+}
+
+create_object GOLD {
+  number_of_objects 4
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 19
+  max_distance_to_players 27
+  min_distance_group_placement 9
+  max_distance_to_other_zones 7
+}
+
+create_object GOLD {
+  number_of_objects 4
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 24
+  max_distance_to_players 32
+  min_distance_group_placement 9
+  max_distance_to_other_zones 7
+}
+
+create_object STONE {
+  number_of_objects 4
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 21
+  max_distance_to_players 29
+  min_distance_group_placement 9
+  max_distance_to_other_zones 7
+}
+
+create_object GOLD {
+  number_of_objects 3
+  number_of_groups 2
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 40
+  set_scaling_to_map_size
+  temp_min_distance_group_placement 20
+  min_distance_group_placement 12
+  terrain_to_place_on GRASS
+}
+
+create_object STONE {
+  number_of_objects 3
+  number_of_groups 1
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 40
+  set_scaling_to_map_size
+  temp_min_distance_group_placement 20
+  min_distance_group_placement 12
+  terrain_to_place_on GRASS
+}
+
+create_object WOLF {
+  number_of_groups 3
+  number_of_objects 1
+  set_loose_grouping
+  set_scaling_to_map_size
+  set_gaia_object_only
+  temp_min_distance_group_placement 10
+  min_distance_to_players 40
+}
+
+create_object RELIC {
+  number_of_objects 5
+  min_distance_to_players 25
+  min_distance_group_placement 5
+  temp_min_distance_group_placement 20
+}
+
+create_object HAWK
+{
+  number_of_objects 4
+  set_gaia_object_only
+  set_scaling_to_map_size
+}

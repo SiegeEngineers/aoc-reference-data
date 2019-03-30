@@ -1,0 +1,304 @@
+/* ************************************ */
+/* NC17v3_Seize_the_Hump */
+/* ************************************ */
+
+<PLAYER_SETUP>
+grouped_by_team
+
+<LAND_GENERATION>
+
+base_terrain DESERT
+
+create_player_lands
+{
+terrain_type GRASS
+land_percent 11
+base_size 10
+set_zone_by_team
+other_zone_avoidance_distance 14
+bottom_border 2
+top_border 2
+left_border 2
+right_border 2hc
+}
+
+create_land
+{
+terrain_type DIRT3
+land_percent 70
+base_size 8
+base_elevation 3
+other_zone_avoidance_distance 14
+bottom_border 9
+top_border 9
+left_border 9
+right_border 9
+}
+
+<TERRAIN_GENERATION>
+
+create_terrain SHALLOW
+{
+base_terrain DESERT
+land_percent 100
+number_of_clumps 100
+height_limits 0 0
+spacing_to_other_terrain_types 1
+}
+
+create_terrain SHALLOW
+{
+base_terrain DESERT
+land_percent 100
+number_of_clumps 100
+height_limits 0 0
+spacing_to_other_terrain_types 1
+}
+
+create_terrain FOREST
+{
+base_terrain DIRT3
+land_percent 5
+number_of_clumps 12
+clumping_factor 25
+spacing_to_other_terrain_types 4
+set_avoid_player_start_areas    
+set_scale_by_groups
+}
+
+create_terrain PINE_FOREST
+{
+base_terrain GRASS
+land_percent 1
+number_of_clumps 14
+clumping_factor 20
+spacing_to_other_terrain_types 2
+set_avoid_player_start_areas    
+set_scale_by_groups
+}
+
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+set_place_for_every_player
+group_placement_radius 18
+min_distance_to_players 0
+max_distance_to_players 0
+}
+
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 6
+}
+
+create_object SCOUT
+{
+number_of_objects 1
+set_place_for_every_player
+min_distance_to_players 7
+max_distance_to_players 9
+}
+
+if REGICIDE
+
+create_object VILLAGER
+{
+number_of_objects 7
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object KING
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object CASTLE
+{
+set_place_for_every_player
+min_distance_to_players 10
+max_distance_to_players 11
+}
+
+endif
+
+create_object SHEEP
+{
+number_of_objects 4
+number_of_groups 1
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 9
+max_distance_to_players 10
+}
+
+create_object SHEEP
+{
+number_of_objects 2
+number_of_groups 1
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 25
+}
+
+create_object SHEEP
+{
+number_of_objects 2
+number_of_groups 1
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 25
+}
+
+create_object DEER
+{
+number_of_objects 4
+number_of_groups 1
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 11
+max_distance_to_players 14
+}
+
+create_object BOAR
+{
+number_of_objects 1
+number_of_groups 1
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 11
+max_distance_to_players 16
+}
+
+create_object BOAR
+{
+number_of_objects 1
+number_of_groups 1
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 11
+max_distance_to_players 16
+}
+
+create_object DEER
+{
+terrain_to_place_on DIRT3
+number_of_objects 3
+number_of_groups 3
+set_loose_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 25
+min_distance_group_placement 6
+}
+
+create_object GOLD
+{
+terrain_to_place_on DIRT3
+number_of_objects 5
+number_of_groups 6    
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 16
+min_distance_group_placement 7
+}
+
+create_object STONE
+{
+terrain_to_place_on DIRT3
+number_of_objects 3
+number_of_groups 5   
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 18
+min_distance_group_placement 7
+}
+
+create_object FORAGE
+{
+terrain_to_place_on DIRT3
+number_of_objects 6
+number_of_groups 3
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 25
+min_distance_group_placement 7
+}
+
+create_object WOLF
+{
+terrain_to_place_on DIRT3
+number_of_groups 2
+number_of_objects 1
+set_loose_grouping
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 20
+}
+
+create_object PINETREE
+{
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 4
+max_distance_to_players 5
+min_distance_group_placement 2
+}
+
+create_object PINETREE
+{
+number_of_objects 3
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 8
+min_distance_group_placement 2
+}
+
+create_object RELIC
+{
+terrain_to_place_on DIRT3
+number_of_objects 5
+temp_min_distance_group_placement 20
+}
+
+<ELEVATION_GENERATION>
+
+create_elevation 5
+{   
+base_terrain DIRT3
+number_of_clumps 15
+number_of_tiles 8000
+set_scale_by_groups
+set_scale_by_size           
+}
+
+create_elevation 7
+{   
+base_terrain DIRT3
+number_of_clumps 5
+number_of_tiles 3000
+set_scale_by_groups
+set_scale_by_size           
+}

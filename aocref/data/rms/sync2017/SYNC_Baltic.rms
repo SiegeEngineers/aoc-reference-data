@@ -1,0 +1,440 @@
+/* ************************************ */
+/* NC17v3_Baltic */
+/* ************************************ */
+
+<PLAYER_SETUP>
+
+random_placement
+
+<LAND_GENERATION>
+
+start_random
+percent_chance 30 #define FROZEN_MAP
+end_random
+
+if FROZEN_MAP
+base_terrain SNOW
+else           
+base_terrain GRASS2
+endif
+
+create_land
+{
+terrain_type WATER
+land_percent 100
+left_border 11
+right_border 11
+top_border 11
+bottom_border 11
+zone 16
+}
+
+create_player_lands 
+{ 
+if FROZEN_MAP
+terrain_type SNOW
+else           
+terrain_type GRASS2
+endif
+land_percent 50
+base_size 10
+other_zone_avoidance_distance 10
+set_zone_by_team
+}
+
+<TERRAIN_GENERATION>
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps 999
+spacing_to_other_terrain_types 2
+land_percent 100
+}
+
+if FROZEN_MAP
+
+create_terrain SNOW_FOREST
+{
+base_terrain SNOW
+spacing_to_other_terrain_types 3
+land_percent 8
+number_of_clumps 12
+set_avoid_player_start_areas     
+set_scale_by_groups
+}
+
+else
+
+create_terrain PINE_FOREST
+{
+base_terrain GRASS2
+spacing_to_other_terrain_types 3
+land_percent 8
+number_of_clumps 12
+set_avoid_player_start_areas     
+set_scale_by_groups
+}
+
+endif
+
+if FROZEN_MAP
+
+create_terrain SNOW_FOREST
+{
+base_terrain SNOW
+spacing_to_other_terrain_types 3
+land_percent 1
+number_of_clumps 3
+set_avoid_player_start_areas     
+set_scale_by_groups
+}
+
+else
+
+create_terrain PINE_FOREST
+{
+base_terrain GRASS2
+spacing_to_other_terrain_types 3
+land_percent 1
+number_of_clumps 3
+set_avoid_player_start_areas     
+set_scale_by_groups
+}
+
+endif
+
+<OBJECTS_GENERATION>
+
+if FROZEN_MAP
+
+create_object SNOWPINETREE
+{
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 4
+max_distance_to_players 5
+min_distance_group_placement 2
+}
+
+create_object SNOWPINETREE
+{
+number_of_objects 3
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 8
+min_distance_group_placement 2
+}
+
+create_object SNOWPINETREE
+{
+number_of_objects 30
+set_gaia_object_only
+set_scaling_to_map_size
+min_distance_to_players 20
+}
+
+else
+
+create_object PINETREE
+{
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 4
+max_distance_to_players 5
+min_distance_group_placement 2
+}
+
+create_object PINETREE
+{
+number_of_objects 3
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 8
+min_distance_group_placement 2
+}
+
+create_object PINETREE
+{
+number_of_objects 25
+set_gaia_object_only
+set_scaling_to_map_size
+min_distance_to_players 20
+}
+
+endif
+
+create_object TOWN_CENTER
+{
+set_place_for_every_player
+group_placement_radius 18
+min_distance_to_players 0
+max_distance_to_players 0
+}
+
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object SCOUT
+{
+number_of_objects 1
+set_place_for_every_player
+min_distance_to_players 8
+max_distance_to_players 9
+}
+
+if REGICIDE
+
+create_object VILLAGER
+{
+number_of_objects 7
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object KING
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object CASTLE
+{
+set_place_for_every_player
+min_distance_to_players 10
+max_distance_to_players 11
+}
+
+endif
+
+create_object SHEEP
+{
+number_of_objects 4
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 9
+max_distance_to_players 10
+}
+
+create_object SHEEP
+{
+number_of_objects 2
+number_of_groups  2
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 27
+min_distance_group_placement 3
+}
+
+create_object DEER
+{
+number_of_objects 4
+group_placement_radius 3
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 18
+max_distance_to_players 22
+}
+
+create_object BOAR
+{
+number_of_objects 1
+set_loose_grouping  
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 16
+max_distance_to_players 21
+min_distance_group_placement 3
+}
+
+create_object BOAR
+{
+number_of_objects 1
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 16
+max_distance_to_players 22
+min_distance_group_placement 3
+}
+
+create_object FORAGE
+{
+number_of_objects 6
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 11
+max_distance_to_players 12
+min_distance_group_placement 5
+}
+
+create_object SHORE_FISH
+{
+number_of_objects 25
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 4
+min_distance_group_placement 3
+}
+
+create_object SALMON
+{
+number_of_objects 18
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 6
+min_distance_group_placement 3
+terrain_to_place_on MED_WATER
+}
+
+create_object TUNA
+{
+number_of_objects 12
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 6
+min_distance_group_placement 3
+terrain_to_place_on MED_WATER
+}
+
+create_object GOLD
+{
+number_of_objects 7
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 13
+max_distance_to_players 16
+min_distance_group_placement 8
+max_distance_to_other_zones 7
+}
+
+create_object GOLD
+{
+number_of_objects 4
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 19
+max_distance_to_players 26
+min_distance_group_placement 9
+max_distance_to_other_zones 7
+}
+
+create_object GOLD
+{
+number_of_objects 4
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 26
+max_distance_to_players 33
+min_distance_group_placement 9
+max_distance_to_other_zones 7
+}
+
+create_object STONE
+{
+number_of_objects 5
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 19
+min_distance_group_placement 8
+max_distance_to_other_zones 7
+}
+
+create_object STONE
+{
+number_of_objects 4
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 22
+max_distance_to_players 29
+min_distance_group_placement 9
+max_distance_to_other_zones 7
+}
+
+create_object WOLF
+{
+number_of_groups 3
+number_of_objects 1
+set_loose_grouping
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 15
+min_distance_to_players 40
+} 
+
+create_object RELIC
+{
+number_of_objects 5
+min_distance_to_players 25
+min_distance_group_placement 5
+temp_min_distance_group_placement 20
+}
+
+create_object GOLD
+{
+number_of_objects 3
+number_of_groups 2    
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+min_distance_to_players 50
+set_scaling_to_map_size
+temp_min_distance_group_placement 30
+min_distance_group_placement 15
+}
+
+create_object STONE
+{
+number_of_objects 3
+number_of_groups 1    
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+min_distance_to_players 50
+set_scaling_to_map_size
+temp_min_distance_group_placement 30
+min_distance_group_placement 15
+}
+
+<ELEVATION_GENERATION>
+
+create_elevation 5
+{      
+base_terrain GRASS
+number_of_clumps 10
+number_of_tiles 1500
+set_scale_by_groups
+set_scale_by_size           
+}
+
+<CLIFF_GENERATION>
+min_number_of_cliffs 3
+max_number_of_cliffs 9
+min_length_of_cliff 3
+max_length_of_cliff 7

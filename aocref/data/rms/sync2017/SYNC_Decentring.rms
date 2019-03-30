@@ -1,0 +1,266 @@
+/* ************************************ */
+/* NC17v3_Decentring */
+/* ************************************ */
+
+<PLAYER_SETUP>
+
+random_placement
+
+<LAND_GENERATION>
+
+base_terrain WATER
+	
+create_player_lands
+{
+terrain_type GRASS2
+land_percent 100
+top_border 25
+right_border 25
+bottom_border 25
+left_border 25
+base_size 6
+}
+
+<TERRAIN_GENERATION>
+
+create_terrain GRASS3
+{
+base_terrain WATER
+land_percent 100
+spacing_to_other_terrain_types 12
+}
+
+create_terrain WATER
+{
+base_terrain GRASS2
+land_percent 100
+set_avoid_player_start_areas
+}
+	
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps 999
+land_percent 100
+spacing_to_other_terrain_types 3
+set_scale_by_groups
+}
+	
+create_terrain GRASS
+{
+base_terrain GRASS3
+land_percent 100
+}
+	
+create_terrain FOREST
+{
+base_terrain GRASS
+land_percent 8
+number_of_clumps 11
+set_scale_by_groups
+clumping_factor	75
+spacing_to_other_terrain_types 3
+}
+	
+create_terrain GRASS3
+{
+base_terrain GRASS
+land_percent 9
+number_of_clumps 20
+set_scale_by_groups
+}
+
+<OBJECTS_GENERATION>
+
+create_object FOREST_TREE
+{
+number_of_objects 7
+number_of_groups 4
+set_gaia_object_only
+set_place_for_every_player
+terrain_to_place_on GRASS2
+set_tight_grouping
+max_distance_to_players 12
+min_distance_group_placement 2
+max_distance_to_other_zones 2
+}
+
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players 2
+max_distance_to_players 6
+}
+
+create_object TRANSPORT_SHIP
+{
+number_of_objects 1
+set_place_for_every_player
+terrain_to_place_on BEACH
+max_distance_to_players 11
+}
+
+if REGICIDE
+
+create_object VILLAGER
+{
+number_of_objects 7
+set_place_for_every_player
+max_distance_to_players 7
+}
+
+create_object KING
+{
+set_place_for_every_player
+max_distance_to_players 7
+}
+
+endif
+
+create_object SHEEP
+{
+number_of_objects 4
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+max_distance_to_players 7
+}
+
+create_object SHEEP
+{
+number_of_objects 2
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+max_distance_to_players 12
+}
+
+create_object DEER
+{
+number_of_objects 4
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 8
+max_distance_to_players 12
+group_placement_radius 2
+}
+
+create_object GOLD
+{
+number_of_objects 3
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+max_distance_to_players 10
+min_distance_group_placement 2
+}
+
+create_object STONE
+{
+number_of_objects 2
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+max_distance_to_players 10
+min_distance_group_placement 2
+}
+
+create_object RELIC
+{
+number_of_objects 5
+min_distance_to_players 20
+min_distance_group_placement 5
+temp_min_distance_group_placement 30
+}
+
+create_object GOLD
+{
+number_of_objects 5
+number_of_groups 7
+set_tight_grouping
+group_placement_radius 3
+set_gaia_object_only
+set_scaling_to_map_size
+min_distance_group_placement 10
+temp_min_distance_group_placement 26
+terrain_to_place_on GRASS3
+}
+
+create_object STONE
+{
+number_of_objects 4
+number_of_groups 4
+set_tight_grouping
+group_placement_radius 3
+set_gaia_object_only
+set_scaling_to_map_size
+min_distance_group_placement 12
+temp_min_distance_group_placement 28
+terrain_to_place_on GRASS3
+}
+
+create_object DEER
+{
+number_of_objects 4
+number_of_groups 3
+set_scaling_to_map_size
+set_gaia_object_only
+group_placement_radius 2
+set_loose_grouping
+min_distance_to_players 20
+min_distance_group_placement 3
+temp_min_distance_group_placement 30
+terrain_to_place_on GRASS3
+}
+
+create_object SHEEP
+{
+number_of_objects 2
+number_of_groups 5
+set_scaling_to_map_size
+set_gaia_object_only
+group_placement_radius 2
+set_loose_grouping
+min_distance_to_players 20
+min_distance_group_placement 3
+temp_min_distance_group_placement 20
+terrain_to_place_on BEACH
+}
+
+create_object FORAGE
+{
+number_of_objects 6
+number_of_groups 3
+set_scaling_to_map_size
+set_gaia_object_only
+group_placement_radius 2
+set_tight_grouping
+min_distance_to_players 20
+min_distance_group_placement 3
+temp_min_distance_group_placement 30
+max_distance_to_other_zones 3
+terrain_to_place_on GRASS3
+}
+
+create_object SHORE_FISH
+{
+number_of_objects 35
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 4
+min_distance_group_placement 3
+}
+
+create_object TUNA
+{
+number_of_objects 30
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 4
+min_distance_group_placement 3
+terrain_to_place_on MED_WATER
+}
+

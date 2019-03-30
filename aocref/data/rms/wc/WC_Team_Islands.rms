@@ -1,0 +1,380 @@
+/* ************************************ */
+/* NC17v3_Team_Islands */
+/* ************************************ */
+
+<PLAYER_SETUP>
+
+random_placement
+
+<LAND_GENERATION>
+
+base_terrain WATER
+
+create_player_lands 
+{
+terrain_type GRASS
+land_percent 42
+base_size 14
+left_border 6
+right_border 6
+top_border 6
+bottom_border 6
+set_zone_by_team
+other_zone_avoidance_distance 22
+}
+
+<TERRAIN_GENERATION>
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps 999
+spacing_to_other_terrain_types 2
+land_percent 100
+}
+
+create_terrain FOREST
+{
+base_terrain GRASS
+spacing_to_other_terrain_types 5
+land_percent 6
+number_of_clumps 8
+set_avoid_player_start_areas
+set_scale_by_groups
+}
+
+create_terrain PINE_FOREST
+{
+base_terrain GRASS
+spacing_to_other_terrain_types 3
+land_percent 1
+number_of_clumps 3
+set_avoid_player_start_areas
+set_scale_by_groups
+}
+
+<OBJECTS_GENERATION>
+
+create_object PINETREE
+{
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 4
+max_distance_to_players 5
+min_distance_group_placement 2
+}
+
+create_object PINETREE
+{
+number_of_objects 3
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 8
+min_distance_group_placement 2
+}
+
+create_object PINETREE
+{
+number_of_objects 25
+set_gaia_object_only
+set_scaling_to_map_size
+min_distance_to_players 20
+}
+
+create_object TOWN_CENTER
+{
+set_place_for_every_player
+group_placement_radius 18
+min_distance_to_players 0
+max_distance_to_players 0
+}
+
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object SCOUT
+{
+number_of_objects 1
+set_place_for_every_player
+min_distance_to_players 8
+max_distance_to_players 9
+}
+
+if REGICIDE
+
+create_object VILLAGER
+{
+number_of_objects 7
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object KING
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object CASTLE
+{
+set_place_for_every_player
+min_distance_to_players 10
+max_distance_to_players 11
+}
+
+endif
+
+create_object SHEEP
+{
+number_of_objects 4
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 9
+max_distance_to_players 10
+}
+
+create_object SHEEP
+{
+number_of_objects 2
+number_of_groups  2
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 25
+min_distance_group_placement
+}
+
+create_object DEER
+{
+number_of_objects 4
+group_placement_radius 3
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 19
+max_distance_to_players 22
+}
+
+create_object BOAR
+{
+number_of_objects 1
+set_loose_grouping  
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 15
+max_distance_to_players 20
+}
+
+create_object BOAR
+{
+number_of_objects 1
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 15
+max_distance_to_players 20
+}
+
+create_object BOAR
+{
+number_of_groups 1
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 33
+max_distance_to_players 38
+}
+
+create_object GOLD
+{
+number_of_objects 7
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 13
+max_distance_to_players 16
+min_distance_group_placement 8
+max_distance_to_other_zones 7
+}
+
+create_object GOLD
+{
+number_of_objects 4
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 19
+max_distance_to_players 25
+min_distance_group_placement 9
+max_distance_to_other_zones 7
+}
+
+create_object GOLD
+{
+number_of_objects 4
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 26
+max_distance_to_players 31
+min_distance_group_placement 9
+max_distance_to_other_zones 7
+}
+
+create_object STONE
+{
+number_of_objects 5
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 19
+min_distance_group_placement 8
+max_distance_to_other_zones 7
+}
+
+create_object STONE
+{
+number_of_objects 4
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 21
+max_distance_to_players 29
+min_distance_group_placement 9
+max_distance_to_other_zones 7
+}
+
+create_object FORAGE
+{
+number_of_objects 6
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 10
+max_distance_to_players 12
+min_distance_group_placement 5
+max_distance_to_other_zones 3
+}
+
+create_object SHORE_FISH
+{
+number_of_objects 35
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 4
+min_distance_group_placement 3
+}
+
+create_object SALMON
+{
+number_of_objects 30
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 6
+min_distance_group_placement 3
+terrain_to_place_on MED_WATER
+}
+
+create_object MARLIN1
+{
+number_of_objects 15
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 6
+min_distance_group_placement 3
+terrain_to_place_on MED_WATER
+}
+
+create_object RELIC
+{
+number_of_objects 5
+min_distance_to_players 25
+min_distance_group_placement 5
+temp_min_distance_group_placement 25
+}
+
+<ELEVATION_GENERATION>
+
+create_elevation 7
+{
+base_terrain GRASS
+number_of_clumps 12
+number_of_tiles 1200
+set_scale_by_groups
+set_scale_by_size           
+}
+
+<CONNECTION_GENERATION>
+create_connect_teams_lands
+{
+replace_terrain GRASS ROAD2
+replace_terrain GRASS2 ROAD2
+replace_terrain GRASS3 ROAD2
+replace_terrain GRASS_SNOW ROAD2
+replace_terrain DIRT_SNOW ROAD2
+replace_terrain SNOW ROAD2
+replace_terrain WATER GRASS
+replace_terrain MED_WATER GRASS
+replace_terrain DEEP_WATER GRASS
+replace_terrain BEACH GRASS
+replace_terrain FOREST ROAD2
+replace_terrain PALM_DESERT ROAD2
+replace_terrain PINE_FOREST ROAD2
+replace_terrain SNOW_FOREST ROAD2
+replace_terrain DESERT ROAD2
+replace_terrain DIRT ROAD2
+replace_terrain DIRT2 ROAD2
+replace_terrain DIRT3 ROAD2
+terrain_cost WATER 5
+terrain_cost MED_WATER 7
+terrain_cost DEEP_WATER 15
+terrain_cost FOREST 7
+terrain_cost PALM_DESERT 7
+terrain_cost PINE_FOREST 7  
+terrain_cost SNOW_FOREST 7  
+terrain_cost DESERT 5
+terrain_cost DIRT 5
+terrain_cost DIRT2 5
+terrain_cost DIRT3 5
+terrain_cost DIRT_SNOW 5
+terrain_cost GRASS 2
+terrain_cost SNOW 2
+terrain_cost GRASS2 2
+terrain_cost GRASS3 2
+terrain_cost GRASS_SNOW 2
+terrain_cost BEACH 4
+terrain_cost ROAD2 1
+terrain_size WATER 6 1
+terrain_size DEEP_WATER 6 1
+terrain_size GRASS 1 0
+terrain_size GRASS2 1 0
+terrain_size GRASS3 1 0
+terrain_size SNOW 1 0
+terrain_size GRASS_SNOW 1 0
+terrain_size FOREST 3 1
+terrain_size PALM_DESERT 3 1
+terrain_size PINE_FOREST 3 1
+terrain_size SNOW_FOREST 3 1
+terrain_size DESERT 0 0
+terrain_size DIRT 0 0
+terrain_size DIRT2 0 0
+terrain_size DIRT3 0 0
+terrain_size DIRT_SNOW 0 0
+terrain_size ROAD2 0 0
+}

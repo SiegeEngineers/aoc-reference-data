@@ -1,0 +1,23 @@
+WiC Version 4.0 Changelog:
+
+- Ancient Lake edited.
+- Fixed zones and resources on 2v2 Carribbean.
+- Fixed stone on 1v1 on Reservoir.
+- Resource and zones on different map sizes fixed.
+
+- WiC_Ancient Lake_v4, WiC_Caribbean_v4, WiC_Reservoir_v4, WiC_Map_Pack_v4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

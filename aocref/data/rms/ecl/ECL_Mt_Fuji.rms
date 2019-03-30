@@ -1,0 +1,291 @@
+/* ************ ECL MOUNT FUJI ************ */
+/*
+ * Mount Fuji map for the ECL, used in the East Asia region.
+ */
+
+
+/* Sling nerf constants. */
+#const TRIBUTE_INEFFICIENCY 46
+#const BANKING 17
+#const COINAGE 23
+#const COINAGE_IMP_DISABLER 224
+
+
+<PLAYER_SETUP>
+random_placement
+
+/* Sling nerfs */
+effect_percent MOD_RESOURCE TRIBUTE_INEFFICIENCY ATTR_SET 40
+effect_amount DISABLE_TECH BANKING ATTR_DISABLE 17
+effect_amount DISABLE_TECH COINAGE ATTR_DISABLE 23
+effect_amount DISABLE_TECH COINAGE_IMP_DISABLER ATTR_DISABLE 224
+
+/* Map Revealer Line of Sight */
+effect_amount SET_ATTRIBUTE MAP_REVEALER ATTR_LINE_OF_SIGHT 0
+
+
+<LAND_GENERATION>
+
+base_terrain GRASS3
+
+create_player_lands {
+	terrain_type GRASS3
+	land_percent 5
+	base_size 9
+}
+
+create_land {
+	terrain_type GRASS_SNOW
+	land_percent 100
+	top_border 20
+	bottom_border 20
+	right_border 20
+	left_border 20
+}
+
+
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+	base_terrain GRASS3
+	land_percent 15
+	number_of_clumps 32
+	set_scale_by_groups
+	set_avoid_player_start_areas
+	spacing_to_other_terrain_types 3
+}
+create_terrain SNOW
+{
+	base_terrain GRASS_SNOW
+	land_percent 100
+	height_limits 7 7
+}
+create_terrain DIRT3
+{
+	base_terrain GRASS3
+	land_percent 5
+	number_of_clumps 24
+	set_scale_by_groups
+}
+create_terrain SNOW_FOREST
+{
+	base_terrain GRASS_SNOW
+	land_percent 3
+	number_of_clumps 75
+	set_scale_by_groups
+}
+
+
+<ELEVATION_GENERATION>
+
+create_elevation 7 {
+	base_terrain GRASS_SNOW
+	number_of_tiles 10000
+	set_scale_by_groups
+	spacing 3
+}
+
+
+<OBJECTS_GENERATION>
+create_object TOWN_CENTER
+{
+	set_place_for_every_player
+	min_distance_to_players 0
+	max_distance_to_players 0
+}
+create_object VILLAGER
+{
+	set_place_for_every_player
+	min_distance_to_players 6
+	max_distance_to_players 6
+}
+create_object SCOUT
+{
+	set_place_for_every_player
+	min_distance_to_players 7
+	max_distance_to_players 9
+}
+
+if REGICIDE
+  create_object VILLAGER {
+    number_of_objects             7
+    set_place_for_every_player
+    min_distance_to_players       6
+    max_distance_to_players       6
+  }
+
+  create_object KING {
+    set_place_for_every_player
+    min_distance_to_players       6
+    max_distance_to_players       6
+  }
+
+  create_object CASTLE {
+    set_place_for_every_player
+    min_distance_to_players    10
+    max_distance_to_players    10
+  }
+endif
+
+create_object GOLD /* primary */
+{
+  	number_of_objects          7
+  	group_placement_radius     3
+  	set_tight_grouping
+  	set_gaia_object_only
+  	set_place_for_every_player
+  	min_distance_to_players    12
+  	max_distance_to_players    16
+  	min_distance_group_placement  7
+}
+create_object STONE /* primary */
+{
+	number_of_objects 5
+	group_placement_radius 3
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players    12
+  	max_distance_to_players    16
+	min_distance_group_placement  7
+}
+
+if DEATH_MATCH
+else
+create_object SHEEP
+{
+   	number_of_objects 4
+   	set_loose_grouping
+   	set_gaia_object_only
+   	set_place_for_every_player
+   	min_distance_to_players    9
+   	max_distance_to_players    11
+}
+create_object SHEEP
+{
+   	number_of_objects 2
+	number_of_groups 2
+   	set_loose_grouping
+   	set_gaia_object_only
+   	set_place_for_every_player
+   	min_distance_to_players    14
+   	max_distance_to_players    30
+}
+create_object WOLF
+{
+	number_of_objects 3
+	set_place_for_every_player
+	set_gaia_object_only
+	min_distance_to_players 30
+	max_distance_to_players 40
+}
+create_object FORAGE
+{
+	number_of_objects 6
+	set_tight_grouping
+	group_placement_radius 4
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 10
+	max_distance_to_players 12
+}
+create_object BOAR
+{
+	number_of_objects 2
+	set_place_for_every_player
+	set_gaia_object_only
+	min_distance_to_players 16
+	max_distance_to_players 22
+}
+create_object DEER
+{
+	number_of_objects 4
+	set_place_for_every_player
+	set_gaia_object_only
+	set_loose_grouping
+	min_distance_to_players 18
+	max_distance_to_players 24
+}
+create_object PINETREE
+{
+  	number_of_objects             2
+  	set_gaia_object_only
+  	set_place_for_every_player
+  	min_distance_to_players       4
+  	max_distance_to_players       5
+  	min_distance_group_placement  2
+}
+create_object PINETREE
+{
+  	number_of_objects             3
+  	set_gaia_object_only
+  	set_place_for_every_player
+  	min_distance_to_players       6
+ 	max_distance_to_players       8
+  	min_distance_group_placement  2
+}
+endif
+
+create_object GOLD /* extra */
+{
+	number_of_objects 4
+	number_of_groups 6
+	group_variance 1
+	set_tight_grouping
+	group_placement_radius 3
+	set_gaia_object_only
+	set_scaling_to_map_size
+	min_distance_group_placement 3
+	temp_min_distance_group_placement 15
+	min_distance_to_players 20
+	terrain_to_place_on GRASS_SNOW
+}
+create_object STONE /* extra */
+{
+	number_of_objects 4
+	number_of_groups 3
+	group_variance 1
+	set_tight_grouping
+	group_placement_radius 3
+	set_gaia_object_only
+	set_scaling_to_map_size
+	min_distance_group_placement 3
+	temp_min_distance_group_placement 20
+	min_distance_to_players 20
+	terrain_to_place_on GRASS_SNOW
+}
+create_object STONE /* mountain */
+{
+	number_of_objects 7
+	number_of_groups 2
+	group_variance 1
+	set_tight_grouping
+	group_placement_radius 3
+	set_gaia_object_only
+	set_scaling_to_map_size
+	min_distance_group_placement 3
+	temp_min_distance_group_placement 10
+	terrain_to_place_on SNOW
+}
+create_object SHORE_FISH
+{
+	number_of_objects 100
+	set_scaling_to_map_size
+	temp_min_distance_group_placement 5
+}
+
+create_object RELIC {
+	number_of_objects 5
+	min_distance_to_players 25
+	set_gaia_object_only
+  min_distance_group_placement 5
+	temp_min_distance_group_placement 25
+}
+
+create_object MAP_REVEALER {
+  number_of_objects 9999
+  set_gaia_object_only
+  temp_min_distance_group_placement 1
+  min_distance_group_placement 2
+  terrain_to_place_on PINE_FOREST
+}

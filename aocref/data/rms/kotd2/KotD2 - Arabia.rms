@@ -1,0 +1,606 @@
+/*
+
+	KotD2 - Arabia by Chrazini
+	Created: 29-10-2018
+	Version: 1.3
+
+	Theme: Middle East
+	Style: Land
+
+	Please report bugs or requests on either:
+	Steam: https://steamcommunity.com/id/chrazini
+	Discord: Chrazini#5687
+	AoEZone: https://www.aoezone.net/members/chrazini.48855/
+
+	Changelog 04-11-2018 | Version 1.0
+	• Initial release.
+
+	Changelog 09-11-2018 | Version 1.1
+	• Increased the amount of wood on the map.
+
+	Changelog 12-11-2018 | Version 1.2
+	• Boars spawn slightly closer to the players.
+	• Slightly more terrain variation has been added.
+
+	Changelog 14-11-2018 | Version 1.3
+	• The clumping factor of the forests have been decreased.
+	• Gold, stone and berries will spawn further apart.
+
+*/
+
+#const BASE_TERRAIN 14
+#const SPAWN_TERRAIN 14
+
+#const FOREST_A 13
+#const FOREST_B 41
+
+#const TERRAIN_A 6
+#const TERRAIN_B 6
+#const TERRAIN_C 3
+
+#const S_STRAGGLER 351
+#const O_STRAGGLER 351
+
+#const SHRUB 1059 
+
+#const HERDABLE_A 1060
+#const UNGULATE_A 1019
+#const UNGULATE_B 1026
+#const LUREABLE_A 48
+#const PREDATOR_A 1029
+
+#const BIRD_A 917
+#const BIRD_B 1028
+
+/* Custom Constants */
+#const TREE_PALM 351
+#const TREE_ACACIA 1063
+
+#const RUG 711
+#const CACTUS 709
+#const WILD_CAMEL 884
+#const ANIMAL_SKELETON 1091
+
+<PLAYER_SETUP>
+	random_placement
+
+	effect_amount GAIA_UPGRADE_UNIT TREE_ACACIA TREE_PALM 0
+
+<LAND_GENERATION>
+	base_terrain BASE_TERRAIN
+
+	create_player_lands
+	{
+		terrain_type							SPAWN_TERRAIN
+		number_of_tiles							32
+		base_size								10
+		clumping_factor							15
+		top_border								4
+		left_border								4
+		right_border							4
+		bottom_border							4
+	}
+
+<ELEVATION_GENERATION>
+	create_elevation 5
+	{	
+		base_terrain							BASE_TERRAIN
+		if TINY_MAP
+			number_of_tiles						3072
+			number_of_clumps					rnd(64,64)
+		elseif SMALL_MAP
+			number_of_tiles						2560
+			number_of_clumps					rnd(46,50)
+		elseif MEDIUM_MAP
+			number_of_tiles						3072
+			number_of_clumps					rnd(46,50)
+		elseif LARGE_MAP
+			number_of_tiles						4096
+			number_of_clumps					rnd(46,50)
+		elseif HUGE_MAP
+			number_of_tiles						4608
+			number_of_clumps					rnd(46,50)
+		elseif GIGANTIC_MAP
+			number_of_tiles						5120
+			number_of_clumps					rnd(46,50)
+		endif
+	}
+
+<TERRAIN_GENERATION>
+	create_terrain FOREST_A
+	{
+		base_terrain							BASE_TERRAIN
+		land_percent							11
+		number_of_clumps						12
+		set_scale_by_groups
+		set_avoid_player_start_areas
+	}
+
+	create_terrain FOREST_B
+	{
+		base_terrain							BASE_TERRAIN
+		number_of_tiles							128
+		number_of_clumps						5
+		clumping_factor							rnd(20,40)
+		set_scale_by_size
+		set_scale_by_groups
+		set_avoid_player_start_areas
+		spacing_to_other_terrain_types			6
+	}
+
+	create_terrain TERRAIN_A
+	{
+		base_terrain							BASE_TERRAIN
+		land_percent							rnd(12,14)
+		number_of_clumps						rnd(4,6)
+		clumping_factor							rnd(40,80)
+		set_scale_by_groups
+	}
+
+	create_terrain TERRAIN_B
+	{
+		base_terrain							BASE_TERRAIN
+		land_percent							rnd(6,8)
+		number_of_clumps						rnd(6,8)
+		clumping_factor							rnd(0,20)
+		set_scale_by_groups
+	}
+
+	create_terrain TERRAIN_C
+	{
+		base_terrain							BASE_TERRAIN
+		land_percent							rnd(4,6)
+		number_of_clumps						rnd(4,6)
+		clumping_factor							rnd(40,80)
+		set_scale_by_groups
+	}
+
+<OBJECTS_GENERATION>
+	create_object O_STRAGGLER
+	{
+		number_of_objects						4096
+		terrain_to_place_on						FOREST_B
+	}
+
+	create_object TOWN_CENTER
+	{
+		set_place_for_every_player
+		min_distance_to_players					0
+		max_distance_to_players					0
+	}		
+
+	create_object RUG
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						2
+		min_distance_to_players					0
+		max_distance_to_players					3
+		temp_min_distance_group_placement		1
+	}		
+
+	create_object VILLAGER
+	{
+		set_place_for_every_player
+
+		if REGICIDE
+			number_of_objects					10
+		else
+			number_of_objects					1
+		endif
+
+		min_distance_to_players					6
+		max_distance_to_players					7
+		temp_min_distance_group_placement		1
+	}
+
+	if REGICIDE
+		create_object CASTLE
+		{
+			set_place_for_every_player
+			min_distance_to_players				12
+			max_distance_to_players				14
+			max_distance_to_other_zones			16
+		}
+
+		create_object KING
+		{
+			set_place_for_every_player
+			min_distance_to_players				8
+			max_distance_to_players				10
+		}		
+
+		create_object QUEEN
+		{
+			set_place_for_every_player
+			min_distance_to_players				8
+			max_distance_to_players				10
+		}	
+	else
+		create_object SCOUT
+		{
+			set_place_for_every_player
+			min_distance_to_players				7
+			max_distance_to_players				9
+		}
+	endif
+
+	create_object S_STRAGGLER
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+
+
+		if DEATH_MATCH
+			number_of_objects					1
+		else
+			number_of_objects					2
+		endif
+
+		min_distance_to_players					4
+		max_distance_to_players					5
+		min_distance_group_placement			2
+	}
+	
+	create_object S_STRAGGLER
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+
+		if DEATH_MATCH
+			number_of_groups					1
+		else
+			number_of_objects					2
+		endif
+
+		min_distance_to_players					6
+		max_distance_to_players					7
+		min_distance_group_placement			2
+	}
+	
+	create_object S_STRAGGLER
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		min_distance_to_players					8
+		max_distance_to_players					8
+		temp_min_distance_group_placement		2
+	}
+
+	create_object HERDABLE_A
+	{
+		set_place_for_every_player
+		set_loose_grouping
+		min_distance_to_players					3
+		max_distance_to_players					3
+	}
+
+	create_object HERDABLE_A
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						3
+		set_loose_grouping
+		min_distance_to_players					10
+		max_distance_to_players					10
+	}
+
+	create_object HERDABLE_A
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						2
+		number_of_groups						2
+		group_placement_radius					2
+		set_loose_grouping
+		min_distance_to_players					16
+		max_distance_to_players					26
+		max_distance_to_other_zones				4
+		min_distance_group_placement			2
+		temp_min_distance_group_placement		12
+	}
+
+	create_object LUREABLE_A
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						2
+		min_distance_to_players					16
+		max_distance_to_players					20
+		max_distance_to_other_zones				4
+		min_distance_group_placement			2
+		temp_min_distance_group_placement		12
+	}
+
+	create_object UNGULATE_A
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						3
+		set_loose_grouping
+		group_placement_radius					4
+		min_distance_to_players					16
+		max_distance_to_players					20
+		min_distance_group_placement			2
+	}
+
+	create_object UNGULATE_B
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						4
+		set_loose_grouping
+		group_placement_radius					4
+		min_distance_to_players					38
+		max_distance_to_players					42
+		min_distance_group_placement			2
+	}
+
+	create_object PREDATOR_A
+	{
+		number_of_objects						1
+		number_of_groups						rnd(2,4)
+		group_variance							2
+		set_loose_grouping
+		group_placement_radius					7
+		min_distance_to_players					32
+		set_scaling_to_map_size
+		min_distance_group_placement			2
+		temp_min_distance_group_placement		16
+	}
+
+	create_object BIRD_A
+	{
+		number_of_objects						rnd(4,6)
+		set_scaling_to_map_size
+	}
+
+	create_object BIRD_B
+	{
+		number_of_objects						rnd(2,4)
+		set_scaling_to_map_size
+	}
+
+	create_object CACTUS
+	{
+		number_of_objects						rnd(3,5)
+		number_of_groups						6
+		group_placement_radius					7
+		set_loose_grouping
+		min_distance_to_players					14
+		set_scaling_to_map_size
+		min_distance_group_placement			1
+		temp_min_distance_group_placement		24
+	}
+
+	create_object ANIMAL_SKELETON
+	{
+		number_of_objects						4
+		min_distance_to_players					24
+		set_scaling_to_map_size
+		min_distance_group_placement			1
+		temp_min_distance_group_placement		24
+		terrain_to_place_on						BASE_TERRAIN
+	}
+
+	create_object WILD_CAMEL
+	{
+		number_of_objects						4
+		number_of_groups						1
+		group_placement_radius					7
+		set_loose_grouping
+		min_distance_to_players					36
+		set_scaling_to_map_size
+		min_distance_group_placement			1
+		temp_min_distance_group_placement		24
+	}
+
+	create_object O_STRAGGLER
+	{
+		number_of_objects						32
+		min_distance_to_players					20
+		set_scaling_to_map_size
+		min_distance_group_placement			2
+	}
+
+	create_object SHRUB
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						6
+		set_tight_grouping
+		min_distance_to_players					10
+		max_distance_to_players					12
+		min_distance_group_placement			6
+	}
+
+	create_object GOLD
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						7
+		set_tight_grouping
+		min_distance_to_players					12
+		max_distance_to_players					16
+		min_distance_group_placement			10
+	}
+
+	create_object GOLD
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						4
+		set_tight_grouping
+		min_distance_to_players					18
+		max_distance_to_players					22
+		min_distance_group_placement			10
+	}
+
+	create_object GOLD
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						4
+		set_tight_grouping
+		min_distance_to_players					24
+		max_distance_to_players					28
+		min_distance_group_placement			10
+	}
+
+	create_object STONE
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						5
+		set_tight_grouping
+		min_distance_to_players					14
+		max_distance_to_players					18
+		min_distance_group_placement			10
+	}
+
+	create_object STONE
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects						4
+		set_tight_grouping
+		min_distance_to_players					22
+		max_distance_to_players					28
+		min_distance_group_placement			10
+	}
+
+	create_object RELIC
+	{
+		if TINY_MAP
+			number_of_objects						5
+			temp_min_distance_group_placement		20
+		elseif SMALL_MAP
+			number_of_objects						5
+			temp_min_distance_group_placement		22
+		elseif MEDIUM_MAP
+			number_of_objects						5
+			temp_min_distance_group_placement		24
+		elseif LARGE_MAP
+			number_of_objects						5
+			temp_min_distance_group_placement		26
+		elseif HUGE_MAP
+			number_of_objects						5
+			temp_min_distance_group_placement		28
+		elseif GIGANTIC_MAP
+			number_of_objects						7
+			temp_min_distance_group_placement		32
+		endif
+		
+		min_distance_to_players						32
+		max_distance_to_other_zones					6
+		min_distance_group_placement				6
+	}
+
+	create_object SHRUB
+	{
+		number_of_objects							5
+
+		if LARGE_MAP
+			number_of_groups						1
+		elseif HUGE_MAP
+			number_of_groups						2
+		elseif GIGANTIC_MAP
+			number_of_groups						4
+		else
+			number_of_groups						0
+		endif
+
+		set_tight_grouping
+		min_distance_to_players						38
+		min_distance_group_placement				8
+
+		if LARGE_MAP
+			temp_min_distance_group_placement		18
+		elseif HUGE_MAP
+			temp_min_distance_group_placement		20
+		elseif GIGANTIC_MAP
+			temp_min_distance_group_placement		24
+		endif
+	}
+
+	create_object GOLD
+	{
+		if TINY_MAP
+			number_of_objects						3
+			number_of_groups						2
+		elseif SMALL_MAP
+			number_of_objects						3
+			number_of_groups						3
+		elseif MEDIUM_MAP
+			number_of_objects						3
+			number_of_groups						4
+		elseif LARGE_MAP
+			number_of_objects						3
+			number_of_groups						5
+		elseif HUGE_MAP
+			number_of_objects						4
+			number_of_groups						4
+		elseif GIGANTIC_MAP
+			number_of_objects						5
+			number_of_groups						4
+		endif		
+
+		set_tight_grouping
+		min_distance_to_players						40
+		min_distance_group_placement				8
+
+		if TINY_MAP
+			temp_min_distance_group_placement		16
+		elseif SMALL_MAP
+			temp_min_distance_group_placement		18
+		elseif MEDIUM_MAP
+			temp_min_distance_group_placement		20
+		elseif LARGE_MAP
+			temp_min_distance_group_placement		22
+		elseif HUGE_MAP
+			temp_min_distance_group_placement		24
+		elseif GIGANTIC_MAP
+			temp_min_distance_group_placement		28
+		endif
+	}
+
+	create_object STONE
+	{
+		if TINY_MAP
+			number_of_objects						3
+			number_of_groups						2
+		elseif SMALL_MAP
+			number_of_objects						3
+			number_of_groups						3
+		elseif MEDIUM_MAP
+			number_of_objects						3
+			number_of_groups						4
+		elseif LARGE_MAP
+			number_of_objects						3
+			number_of_groups						5
+		elseif HUGE_MAP
+			number_of_objects						4
+			number_of_groups						4
+		elseif GIGANTIC_MAP
+			number_of_objects						5
+			number_of_groups						4
+		endif		
+
+		set_tight_grouping
+		min_distance_to_players						40
+		min_distance_group_placement				8
+
+		if TINY_MAP
+			temp_min_distance_group_placement		16
+		elseif SMALL_MAP
+			temp_min_distance_group_placement		18
+		elseif MEDIUM_MAP
+			temp_min_distance_group_placement		20
+		elseif LARGE_MAP
+			temp_min_distance_group_placement		22
+		elseif HUGE_MAP
+			temp_min_distance_group_placement		24
+		elseif GIGANTIC_MAP
+			temp_min_distance_group_placement		28
+		endif
+	}

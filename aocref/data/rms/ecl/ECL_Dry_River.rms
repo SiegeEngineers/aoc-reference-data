@@ -1,0 +1,2088 @@
+/* ************ ECL DRY RIVER ************ */
+/*
+ * Dry River map used in the Middle East stage of the ECL.
+ * Author: Teutonic Tanks
+ */
+
+
+/* Sling nerf constants. */
+#const TRIBUTE_INEFFICIENCY 46
+#const BANKING 17
+#const COINAGE 23
+#const COINAGE_IMP_DISABLER 224
+
+#const AT_PLAYER 0
+#const AT_COLOR 1
+#const AT_TEAM 2
+#const ZEBRA 1019
+#const ACACIAFOREST 41
+#const OSTRICH 1026
+#const CROCODILE 1031
+#const GOAT 1060
+#const ELEPHANT 936
+#const LION 1029
+#const STORK 1028
+
+start_random
+  percent_chance 25 #define LEFTRIGHT1
+  percent_chance 25 #define TOPBOTTOM1
+  percent_chance 25 #define LEFTRIGHT2
+  percent_chance 25 #define TOPBOTTOM2
+end_random
+
+
+<PLAYER_SETUP>
+direct_placement
+
+/* Sling nerfs */
+effect_percent MOD_RESOURCE TRIBUTE_INEFFICIENCY ATTR_SET 40
+effect_amount DISABLE_TECH BANKING ATTR_DISABLE 17
+effect_amount DISABLE_TECH COINAGE ATTR_DISABLE 23
+effect_amount DISABLE_TECH COINAGE_IMP_DISABLER ATTR_DISABLE 224
+
+
+<LAND_GENERATION>
+
+base_terrain DESERT
+
+if LEFTRIGHT1
+create_land {
+  terrain_type DESERT
+  base_size 4
+  land_percent 100
+  top_border  0
+  bottom_border 0
+  left_border 28
+  right_border 28
+  other_zone_avoidance_distance 0
+	base_elevation 0
+}
+
+create_land {
+  terrain_type DIRT
+  base_size 4
+  land_percent 100
+  top_border  0
+  bottom_border 0
+  left_border 72
+  right_border 0
+  other_zone_avoidance_distance 0
+
+		base_elevation 2
+}
+
+create_land {
+  terrain_type DIRT
+  base_size 4
+  land_percent 100
+  top_border  0
+  bottom_border 0
+  left_border 0
+  right_border 72
+  other_zone_avoidance_distance 0
+	base_elevation 2
+}
+
+  if 2_PLAYER_GAME
+		create_land {
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(49,50)
+			assign_to AT_PLAYER 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(49,50)
+			assign_to AT_PLAYER 2 0 0
+			base_elevation 2
+		}
+  endif
+
+  if 4_PLAYER_GAME
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,210) rnd(32,33)
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+
+		}
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(65,66)
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+
+		}
+
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(32,33)
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(65,66)
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+
+		}
+
+
+  endif
+
+  if 6_PLAYER_GAME
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(24,25)
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(49,50)
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(74,75)
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(24,25)
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(49,50)
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(74,75)
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+
+  endif
+
+  if 8_PLAYER_GAME
+
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(19,20)
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(39,40)
+
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(59,60)
+
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(79,80)
+
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(19,20)
+
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(39,40)
+
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(59,60)
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(79,80)
+
+			assign_to AT_TEAM 2 0 0
+		base_elevation 2
+		}
+
+
+  endif
+
+endif
+
+if LEFTRIGHT2
+
+create_land
+{
+  terrain_type DESERT
+  base_size 4
+  land_percent 100
+  top_border  0
+  bottom_border 0
+  left_border 28
+  right_border 28
+  other_zone_avoidance_distance 0
+
+		base_elevation 0
+}
+
+
+create_land
+{
+  terrain_type DIRT
+  base_size 4
+  land_percent 100
+  top_border  0
+  bottom_border 0
+  left_border 72
+  right_border 0
+  other_zone_avoidance_distance 0
+
+		base_elevation 2
+}
+
+create_land
+{
+  terrain_type DIRT
+  base_size 4
+  land_percent 100
+  top_border  0
+  bottom_border 0
+  left_border 0
+  right_border 72
+  other_zone_avoidance_distance 0
+
+		base_elevation 2
+}
+
+  if 2_PLAYER_GAME
+
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(49,50)
+			assign_to AT_PLAYER 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(49,50)
+			assign_to AT_PLAYER 1 0 0
+			base_elevation 2
+		}
+  endif
+
+  if 4_PLAYER_GAME
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,210) rnd(32,33)
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+
+		}
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(65,66)
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+
+		}
+
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(32,33)
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(65,66)
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+
+		}
+
+
+  endif
+
+  if 6_PLAYER_GAME
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(24,25)
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(49,50)
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(74,75)
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(24,25)
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(49,50)
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(74,75)
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+
+  endif
+
+  if 8_PLAYER_GAME
+
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(19,20)
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(39,40)
+
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(59,60)
+
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(79,80)
+
+
+			assign_to AT_TEAM 2 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(19,20)
+
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(39,40)
+
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(59,60)
+
+			assign_to AT_TEAM 1 0 0
+			base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(79,80)
+
+			assign_to AT_TEAM 1 0 0
+		base_elevation 2
+		}
+
+
+  endif
+
+endif
+
+if TOPBOTTOM1
+
+
+create_land
+{
+  terrain_type DESERT
+  base_size 4
+  land_percent 100
+  top_border  28
+  bottom_border 28
+  left_border 0
+  right_border 0
+  other_zone_avoidance_distance 0
+base_elevation 0
+
+}
+
+
+create_land
+{
+  terrain_type DIRT
+  base_size 4
+  land_percent 100
+  top_border  72
+  bottom_border 0
+  left_border 0
+  right_border 0
+  other_zone_avoidance_distance 0
+
+
+		base_elevation 2
+}
+
+create_land
+{
+  terrain_type DIRT
+  base_size 4
+  land_percent 100
+  top_border  0
+  bottom_border 72
+  left_border 0
+  right_border 0
+  other_zone_avoidance_distance 0
+
+
+		base_elevation 2
+}
+
+
+
+  if 2_PLAYER_GAME
+
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(49,50) rnd(19,20)
+			assign_to AT_PLAYER 1 0 0
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(49,50) rnd(79,80)
+			assign_to AT_PLAYER 2 0 0
+
+
+		base_elevation 2
+		}
+  endif
+
+  if 4_PLAYER_GAME
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(32,33) rnd(19,20)
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(65,66) rnd(19,20)
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(32,33) rnd(79,80)
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+
+		}
+
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(65,66) rnd(79,80)
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+
+		}
+
+
+  endif
+
+  if 6_PLAYER_GAME
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(24,25) rnd(19,20)
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(49,50) rnd(19,20)
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(74,75) rnd(19,20)
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(24,25) rnd(79,80)
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(49,50) rnd(79,80)
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(74,75) rnd(79,80)
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+
+  endif
+
+  if 8_PLAYER_GAME
+
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(19,20)
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(39,40) rnd(19,20)
+
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(59,60) rnd(19,20)
+
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(19,20)
+
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(79,80)
+
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(39,40) rnd(79,80)
+
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(59,60) rnd(79,80)
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(79,80)
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+
+  endif
+
+endif
+
+if TOPBOTTOM2
+
+
+create_land
+{
+  terrain_type DESERT
+  base_size 4
+  land_percent 100
+  top_border  28
+  bottom_border 28
+  left_border 0
+  right_border 0
+  other_zone_avoidance_distance 0
+base_elevation 0
+
+}
+
+
+create_land
+{
+  terrain_type DIRT
+  base_size 4
+  land_percent 100
+  top_border  72
+  bottom_border 0
+  left_border 0
+  right_border 0
+  other_zone_avoidance_distance 0
+
+
+		base_elevation 2
+}
+
+create_land
+{
+  terrain_type DIRT
+  base_size 4
+  land_percent 100
+  top_border  0
+  bottom_border 72
+  left_border 0
+  right_border 0
+  other_zone_avoidance_distance 0
+
+
+		base_elevation 2
+}
+
+
+
+  if 2_PLAYER_GAME
+
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(49,50) rnd(19,20)
+			assign_to AT_PLAYER 2 0 0
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(49,50) rnd(79,80)
+			assign_to AT_PLAYER 1 0 0
+
+
+		base_elevation 2
+		}
+  endif
+
+  if 4_PLAYER_GAME
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(32,33) rnd(19,20)
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(65,66) rnd(19,20)
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(32,33) rnd(79,80)
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+
+		}
+
+
+	create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(65,66) rnd(79,80)
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+
+		}
+
+
+  endif
+
+  if 6_PLAYER_GAME
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(24,25) rnd(19,20)
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(49,50) rnd(19,20)
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(74,75) rnd(19,20)
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(24,25) rnd(79,80)
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(49,50) rnd(79,80)
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(74,75) rnd(79,80)
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+
+  endif
+
+  if 8_PLAYER_GAME
+
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(19,20)
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(39,40) rnd(19,20)
+
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(59,60) rnd(19,20)
+
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(19,20)
+
+
+			assign_to AT_TEAM 2 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(19,20) rnd(79,80)
+
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(39,40) rnd(79,80)
+
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(59,60) rnd(79,80)
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+		create_land
+		{
+			terrain_type DIRT
+			if TINY_MAP
+				number_of_tiles 100
+				base_size 5
+			else
+				number_of_tiles 125
+				base_size 5
+			endif
+			land_position rnd(79,80) rnd(79,80)
+
+			assign_to AT_TEAM 1 0 0
+
+
+		base_elevation 2
+		}
+
+
+  endif
+
+endif
+
+
+<TERRAIN_GENERATION>
+
+create_terrain ACACIAFOREST
+{
+  base_terrain DESERT
+land_percent 100
+number_of_clumps 10000
+  set_avoid_player_start_areas
+spacing_to_other_terrain_types 3
+height_limits 1 1
+}
+
+create_terrain WATER
+{
+  base_terrain DESERT
+land_percent 4
+
+		if TINY_MAP
+			number_of_clumps 53
+		elseif SMALL_MAP
+			number_of_clumps 79
+		elseif MEDIUM_MAP
+			number_of_clumps 105
+		elseif LARGE_MAP
+			number_of_clumps 150
+		else
+			number_of_clumps 180
+		endif
+spacing_to_other_terrain_types 1
+}
+
+
+create_terrain PALM_DESERT
+{
+  base_terrain DIRT
+land_percent 7
+number_of_clumps 13
+  set_avoid_player_start_areas
+  set_scale_by_groups
+spacing_to_other_terrain_types 1
+}
+
+create_terrain PALM_DESERT
+{
+  base_terrain                   DIRT
+  spacing_to_other_terrain_types 3
+  land_percent                   1
+  number_of_clumps               3
+  set_avoid_player_start_areas
+  set_scale_by_groups
+}
+
+
+/* ****************************************************** */
+
+<ELEVATION_GENERATION>
+
+create_elevation  2
+{
+	base_terrain DIRT
+	number_of_tiles 1000000
+	number_of_clumps 100
+
+}
+
+create_elevation 1
+{
+	base_terrain DESERT
+
+		if TINY_MAP
+			number_of_tiles 146
+		elseif SMALL_MAP
+			number_of_tiles 219
+		elseif MEDIUM_MAP
+			number_of_tiles 292
+		elseif LARGE_MAP
+			number_of_tiles 417
+		else
+			number_of_tiles 500
+		endif
+
+	number_of_clumps 3
+ 	set_scale_by_groups
+	set_scale_by_size
+}
+
+
+<OBJECTS_GENERATION>
+
+/* ****************************************************** */
+
+create_object TOWN_CENTER
+{
+     set_place_for_every_player
+     group_placement_radius 18
+     min_distance_to_players 0
+     max_distance_to_players 0
+}
+
+create_object VILLAGER
+{
+     set_place_for_every_player
+     min_distance_to_players 6
+     max_distance_to_players 6
+}
+
+create_object SCOUT
+{
+  number_of_objects 1
+  set_place_for_every_player
+  min_distance_to_players 7
+  max_distance_to_players 9
+}
+
+if REGICIDE
+create_object VILLAGER
+{
+  number_of_objects             7
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+endif
+
+create_object PALM_FOREST_TREE
+{
+  number_of_objects             3
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       4
+  max_distance_to_players       5
+  min_distance_group_placement  2
+
+  terrain_to_place_on       DIRT
+}
+create_object PALM_FOREST_TREE
+{
+  number_of_objects             2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       8
+  min_distance_group_placement  2
+
+  terrain_to_place_on       DIRT
+}
+
+/* NEAR GOLD */
+
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    11
+  max_distance_to_players    15
+  min_distance_group_placement 4
+  max_distance_to_other_zones  7
+
+  terrain_to_place_on       DIRT
+}
+
+/* MEDIUM GOLD */
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+
+  terrain_to_place_on       DIRT
+}
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    25
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+
+  terrain_to_place_on       DIRT
+}
+
+
+/* NEAR STONE */
+
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+
+  terrain_to_place_on       DIRT
+}
+
+/* FAR STONE */
+
+create_object STONE
+{
+  number_of_objects          4
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    20
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+
+  terrain_to_place_on       DIRT
+}
+
+
+create_object GOAT
+{
+   number_of_objects 4
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    9
+   max_distance_to_players    10
+
+  terrain_to_place_on       DIRT
+}
+
+create_object GOAT
+{
+   number_of_objects 2
+   number_of_groups  2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    14
+   max_distance_to_players    21
+  terrain_to_place_on       DIRT
+}
+
+create_object ELEPHANT
+{
+  number_of_objects          1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    18
+  terrain_to_place_on       DIRT
+}
+
+create_object ELEPHANT
+{
+  number_of_objects          1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    18
+  terrain_to_place_on       DIRT
+}
+
+create_object OSTRICH
+{
+  number_of_objects          3
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    15
+  set_loose_grouping
+  max_distance_to_players    25
+  terrain_to_place_on        DESERT
+}
+
+
+/*  Middle RES */
+
+
+create_object ZEBRA
+{
+number_of_groups 9999
+  number_of_objects          5
+  group_placement_radius     3
+  set_loose_grouping
+  set_gaia_object_only
+  min_distance_to_players    30
+   temp_min_distance_group_placement 30
+   temp_max_distance_group_placement 32
+terrain_to_place_on DESERT
+}
+
+create_object CROCODILE
+{
+number_of_groups 50
+  number_of_objects          1
+  group_placement_radius     0
+  set_loose_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size
+  temp_min_distance_group_placement 8
+  min_distance_to_players    37
+terrain_to_place_on ACACIAFOREST
+
+}
+
+create_object LION
+{
+number_of_groups 3
+  number_of_objects          1
+  group_placement_radius     0
+  set_loose_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size
+  temp_min_distance_group_placement 35
+  min_distance_to_players    40
+terrain_to_place_on DIRT
+
+}
+
+create_object SHORE_FISH
+{
+number_of_groups 9999
+  number_of_objects          1
+  group_placement_radius     0
+  set_close_grouping
+  set_gaia_object_only
+  temp_max_distance_group_placement 0
+
+  temp_min_distance_group_placement 0
+resource_delta 100
+terrain_to_place_on WATER
+}
+
+
+
+create_object RELIC
+{
+  number_of_groups                    10
+  number_of_objects                    1
+  set_gaia_object_only
+  min_distance_group_placement 25
+  max_distance_group_placement 40
+  terrain_to_place_on 			DESERT
+
+}
+
+
+
+create_object GOLD
+{
+number_of_objects 3
+number_of_groups 2
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+min_distance_to_players 40
+set_scaling_to_map_size
+temp_min_distance_group_placement 35
+min_distance_group_placement 15
+terrain_to_place_on DIRT
+}
+
+create_object STONE
+{
+number_of_objects 3
+number_of_groups 1
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+min_distance_to_players 30
+set_scaling_to_map_size
+temp_min_distance_group_placement 30
+min_distance_group_placement 12
+terrain_to_place_on DIRT
+}
+
+
+
+
+create_object STORK
+{
+   number_of_objects 10
+   set_scaling_to_map_size
+}

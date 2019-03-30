@@ -1,0 +1,372 @@
+/* based on Forgotten Empires' Socotra (ver. September 2015) 
+modified by swissboyy */
+
+#include_drs random_map.def 
+
+#const STARTING_STONE 93
+#const SET_ATTRIBUTE 0
+#const MOD_RESOURCE 1
+#const ATTR_SET 0
+
+<PLAYER_SETUP>
+  random_placement 
+	ai_info_map_type ARABIA 0 0 0
+	effect_amount MOD_RESOURCE STARTING_STONE ATTR_SET -180
+
+start_random
+percent_chance 50
+#define SAVCA
+percent_chance 50
+#define POUST
+end_random
+
+<LAND_GENERATION>
+base_terrain LEAVES
+
+if SAVCA
+create_player_lands
+{
+     terrain_type DESERT
+     land_percent 100
+     base_size 10
+     border_fuzziness 20
+     clumping_factor 20
+     left_border 25
+     right_border 25
+     top_border 25
+     bottom_border 25
+     zone 1
+}
+
+elseif POUST
+
+create_player_lands
+{
+     terrain_type DIRT3
+     land_percent 100
+     base_size 10
+     border_fuzziness 20
+     clumping_factor 20
+     left_border 25
+     right_border 25
+     top_border 25
+     bottom_border 25
+     zone 1
+}
+
+endif
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+create_terrain PALM_DESERT
+{
+  base_terrain                   LEAVES
+  spacing_to_other_terrain_types 2
+  land_percent                   100
+  number_of_clumps               100
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+
+
+create_terrain PALM_DESERT
+{
+if SAVCA
+  base_terrain                   DESERT
+elseif POUST
+  base_terrain                   DIRT3
+endif
+  spacing_to_other_terrain_types 4
+  land_percent                   2
+  number_of_clumps               10
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+if SAVCA
+
+create_terrain GRASS3
+{
+  base_terrain                   DESERT
+  land_percent                   3
+  number_of_clumps               10
+  set_scale_by_groups
+}
+
+endif
+
+if POUST
+
+create_terrain DIRT
+{
+  base_terrain                   DIRT3
+  spacing_to_other_terrain_types 4
+  land_percent                   7
+  number_of_clumps               20
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+endif
+
+<OBJECTS_GENERATION>
+
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+ }
+
+create_object SCOUT
+{
+  number_of_objects             1
+  set_place_for_every_player
+  min_distance_to_players       7
+  max_distance_to_players       9
+ }
+
+if LUDIKRIS_MAP
+create_object RELIC
+{
+   number_of_objects            250
+   min_distance_to_players     25
+   temp_min_distance_group_placement 80
+  max_distance_to_other_zones 4
+}
+else
+create_object RELIC
+{
+   number_of_objects            250
+   min_distance_to_players     25
+   temp_min_distance_group_placement 20
+  max_distance_to_other_zones 4
+}
+endif
+
+if REGICIDE
+
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       8
+}
+
+create_object WATCH_TOWER
+{
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    12
+}
+endif
+
+#const ZEBRA 1019
+#const OSTRICH 1026
+
+create_object ZEBRA
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    4
+  max_distance_to_players    8
+}
+
+create_object OSTRICH
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    4
+  max_distance_to_players    8
+}
+
+#const ELEPHANT 936
+
+create_object ELEPHANT
+{
+  number_of_groups			 2
+  number_of_objects          1
+  group_placement_radius     3
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    8
+  max_distance_to_players    10
+}
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    7
+  max_distance_to_players    12
+  temp_min_distance_group_placement  5
+  max_distance_to_other_zones 4
+}
+
+create_object GOLD
+{
+  number_of_objects          3
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    7
+  max_distance_to_players    12
+  temp_min_distance_group_placement  5
+  max_distance_to_other_zones 4
+}
+
+create_object GOLD
+{
+  number_of_objects          3
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    7
+  max_distance_to_players    11
+  temp_min_distance_group_placement  5
+  max_distance_to_other_zones 4
+}
+
+create_object GOLD
+{
+  number_of_objects          3
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    7
+  max_distance_to_players    13
+  temp_min_distance_group_placement  5
+  max_distance_to_other_zones 4
+}
+
+/* DISTANT GOLD AND STONE */
+
+create_object GOLD
+{
+  number_of_groups 180
+  number_of_objects 4
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 30
+  temp_min_distance_group_placement 45
+  max_distance_to_other_zones 4
+}
+
+create_object GOLD
+{
+  number_of_groups 180
+  number_of_objects 3
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 30
+  temp_min_distance_group_placement 45
+  max_distance_to_other_zones 4
+}
+
+#const DRAGONTREE 1051
+create_object DRAGONTREE 
+{
+  number_of_objects             2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       4
+  max_distance_to_players       5
+  min_distance_group_placement  2
+}
+create_object DRAGONTREE 
+{
+  number_of_objects             3
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       8
+  min_distance_group_placement  2
+}
+
+#const STORK 1028
+
+create_object STORK
+{
+   number_of_objects         4
+   set_scaling_to_map_size
+}
+
+create_object DRAGONTREE 
+{
+  number_of_objects          20
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_to_players    8
+}
+
+#const LION 1029
+#const CROCODILE 1031
+
+if SAVCA
+create_object CROCODILE
+elseif POUST
+create_object LION
+endif
+{
+     number_of_groups 30
+     set_loose_grouping
+        number_of_objects 1
+     set_gaia_object_only
+     temp_min_distance_group_placement 20
+     min_distance_to_players 32
+}
+
+
+/* ****************************************************** */
+
+<ELEVATION_GENERATION>
+
+if SAVCA
+
+create_elevation        4
+{
+  base_terrain                DESERT
+  number_of_clumps 		14
+  number_of_tiles 		2000
+  set_scale_by_groups
+  set_scale_by_size           
+}
+
+else
+
+create_elevation        4
+{
+  base_terrain                DIRT3
+  number_of_clumps 		14
+  number_of_tiles 		2000
+  set_scale_by_groups
+  set_scale_by_size           
+}
+
+endif

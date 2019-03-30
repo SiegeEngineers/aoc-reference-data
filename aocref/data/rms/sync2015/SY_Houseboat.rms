@@ -1,0 +1,256 @@
+/* ***** YO_Houseboat ***** */
+/* ***** Made by Yo-Dan ***** */
+/* ***** Version 1.3 ***** */
+
+
+
+start_random
+	percent_chance 50
+		#const ISLAND 11 /* Dirt2 */
+		#const STRIP 9 /* Grass3 */
+		#const LAND 0 /* Grass */
+	percent_chance 25
+		#const ISLAND 6 /* Dirt */
+		#const STRIP 3 /* Dirt3 */
+		#const LAND 12 /* Grass2 */
+	percent_chance 25
+		#const ISLAND 14 /* Desert */
+		#const STRIP 14 /* Desert */
+		#const LAND 6 /* Dirt */
+end_random
+
+
+
+/* **************************************** */
+<PLAYER_SETUP>
+
+
+ random_placement
+
+
+
+/* **************************************** */
+<LAND_GENERATION>
+
+base_terrain WATER
+
+create_player_lands /* Generates tiny islands in water */
+{
+     terrain_type ISLAND
+	number_of_tiles 1
+     base_size 4
+     border_fuzziness 100
+     clumping_factor 15
+     other_zone_avoidance_distance 8
+	left_border 12
+	right_border 12
+	top_border 12
+	bottom_border 12
+}
+
+create_land /* Covers all water with land except 8 away from island */
+{
+	terrain_type STRIP
+	land_percent 100
+	other_zone_avoidance_distance 8
+}
+
+
+
+/* **************************************** */
+<TERRAIN_GENERATION>
+
+
+create_terrain LAND /* Covers the create land command except a strip arouond each lake */
+{
+	base_terrain STRIP
+	land_percent 100
+	spacing_to_other_terrain_types 5
+}
+
+create_terrain FOREST
+{
+	base_terrain LAND
+	land_percent 20
+	number_of_clumps 60
+	set_scale_by_groups
+	spacing_to_other_terrain_types 2
+}
+
+
+
+/* **************************************** */
+<OBJECTS_GENERATION>
+
+
+/* ***** Beginning Objects ***** */
+
+create_object TOWN_CENTER
+{
+	set_place_for_every_player
+	min_distance_to_players 0
+	max_distance_to_players 0
+}
+
+create_object VILLAGER
+{
+	set_place_for_every_player
+	min_distance_to_players 3
+	max_distance_to_players 5
+}
+
+create_object TRANSPORT_SHIP
+{
+	set_place_for_every_player
+	min_distance_to_players 6
+	max_distance_to_players 9
+}
+
+create_object SCOUT
+{
+	number_of_objects 1
+	set_place_for_every_player
+	min_distance_to_players 3
+	max_distance_to_players 5
+}
+
+create_object SHEEP
+{
+	number_of_objects 2
+	set_place_for_every_player
+	set_gaia_object_only
+	min_distance_to_players 3
+	max_distance_to_players 5
+}
+
+create_object OAKTREE
+{
+	number_of_objects 2
+	set_place_for_every_player
+	set_gaia_object_only
+	min_distance_to_players 3
+	max_distance_to_players 5
+}
+
+if REGICIDE
+create_object KING
+{
+	number_of_objects 1
+	set_place_for_every_player
+	min_distance_to_players 3
+	max_distance_to_players 5
+}
+endif
+
+/* ***** Player Resources ***** */
+
+create_object GOLD /* Should generate four groups around each player */
+{
+	number_of_objects 2
+	number_of_groups 4
+	set_scaling_to_player_number
+	set_tight_grouping
+	temp_min_distance_group_placement 17
+	terrain_to_place_on STRIP
+}
+
+create_object STONE /* Should generate four groups around each player */
+{
+	number_of_objects 2
+	number_of_groups 4
+	set_scaling_to_player_number
+	set_tight_grouping
+	temp_min_distance_group_placement 17
+	terrain_to_place_on STRIP
+}
+
+create_object FORAGE /* Should generate four groups around each player */
+{
+	number_of_objects 2
+	number_of_groups 4
+	set_scaling_to_player_number
+	set_tight_grouping
+	temp_min_distance_group_placement 17
+	terrain_to_place_on STRIP
+}
+
+create_object SHEEP /* Should generate four groups around each player */
+{
+	number_of_objects 2
+	number_of_groups 8
+	set_loose_grouping
+	set_scaling_to_player_number
+	temp_min_distance_group_placement 17
+	terrain_to_place_on STRIP
+}
+
+create_object SHORE_FISH
+{
+	number_of_objects 50
+	set_scaling_to_player_number
+	temp_min_distance_group_placement 5
+}
+
+/* ***** Extra Resources ***** */
+
+create_object SNAPPER
+{
+	number_of_objects 100
+	max_distance_to_other_zones 2
+	temp_min_distance_group_placement 6
+}
+
+create_object GOLD
+{
+	number_of_objects 3
+	number_of_groups 3
+	set_scaling_to_player_number
+	set_tight_grouping
+	max_distance_to_other_zones 6
+	min_distance_group_placement 2
+	temp_min_distance_group_placement 15
+	terrain_to_place_on LAND
+}
+
+create_object STONE
+{
+	number_of_objects 3
+	number_of_groups 2
+	set_scaling_to_player_number
+	set_tight_grouping
+	max_distance_to_other_zones 6
+	min_distance_group_placement 2
+	temp_min_distance_group_placement 15
+	terrain_to_place_on LAND
+}
+	
+/* ***** Other ***** */
+
+create_object RELIC
+{
+	number_of_objects 5
+	terrain_to_place_on LAND
+	temp_min_distance_group_placement 30
+	max_distance_to_other_zones 5
+}
+
+create_object HAWK
+{
+	number_of_objects 6
+	set_scaling_to_map_size
+}
+
+
+
+/* **************************************** */
+<ELEVATION_GENERATION>
+
+
+create_elevation 6
+{
+	base_terrain LAND
+	number_of_tiles 500
+	number_of_clumps 10
+	set_scale_by_size
+	set_scale_by_groups
+}

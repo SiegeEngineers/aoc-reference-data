@@ -21,13 +21,17 @@ def bootstrap(session):
         os.environ.get('CHALLONGE_KEY')
     )
 
-    for event in challonge.get_events(challonge_session):
+    events = list(challonge.get_events(challonge_session))
+
+    for event in events:
         add_event(session, event)
 
     for platform in json.loads(open(get_metadata('platforms.json'), 'r').read()):
         add_platform(session, platform)
 
     add_constants(session, json.loads(open(get_metadata('constants.json'), 'r').read()))
+
+    add_event_maps(session, [event['id'] for event in events])
 
 
 def add_platform(session, data):
@@ -37,15 +41,22 @@ def add_platform(session, data):
     session.commit()
 
 
-#def add_map(session, data):
-#    pass
-    # zr: bool
-    # version: ??
-    # UP flags
-    # custom or builtin
-    # code
-    # pack
-    # aoe2map id
+def add_event_maps(session, event_ids):
+    """Add event maps."""
+    id = 0
+    for event_id in list_metadata('rms'):
+        if event_id not in event_ids:
+            continue
+        for filename in list_metadata(os.path.join('rms', event_id)):
+            rms = model.EventMap(
+                id=id,
+                name=filename.replace('.rms', ''),
+                zr=filename.startswith('ZR@'),
+                event_id=event_id
+            )
+            session.add(rms)
+            id += 1
+    session.commit()
 
 
 def add_event(session, data):
@@ -85,6 +96,13 @@ def add_dataset(session, dataset_id, data):
     )
     session.add(dataset)
     session.commit()
+
+    for map_id, name in data['maps'].items():
+        session.add(model.Map(
+            id=map_id,
+            dataset=dataset,
+            name=name
+        ))
 
     for civilization_id, info in data['civilizations'].items():
         civilization = model.Civilization(

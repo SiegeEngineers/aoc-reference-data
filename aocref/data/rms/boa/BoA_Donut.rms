@@ -1,0 +1,344 @@
+/* based on Biz' Icy Forest v3
+modified and renamed by swissboyy */
+
+#const ACACIAFOREST 41
+#const ZEBRA 1019
+#const GOATTEE 1060
+#const BAOBABTREE 1052
+#const RHINO 1139
+#const ORANGESHRUB 1059
+
+<PLAYER_SETUP>
+random_placement
+
+<LAND_GENERATION>
+base_terrain SHALLOW
+
+create_land {
+	terrain_type ACACIAFOREST
+	land_percent 33
+	left_border 20
+	right_border 20
+	bottom_border 20
+	top_border 20
+	clumping_factor 100
+	border_fuzziness 4
+}
+
+create_player_lands {
+	terrain_type DIRT3
+	land_percent 30
+	if TINY_MAP
+		border_fuzziness 8
+		base_size 10
+	else
+		border_fuzziness 4
+		base_size 15
+	endif
+	if TINY_MAP
+		left_border 14
+		right_border 14
+		bottom_border 14
+		top_border 14
+	elseif SMALL_MAP
+		left_border 11
+		right_border 11
+		bottom_border 11
+		top_border 11
+	elseif MEDIUM_MAP
+		left_border 9
+		right_border 9
+		bottom_border 9
+		top_border 9
+	else
+		left_border 8
+		right_border 8
+		bottom_border 8
+		top_border 8
+	endif
+	other_zone_avoidance_distance 15
+	clumping_factor 100
+}
+
+<TERRAIN_GENERATION>
+create_terrain DIRT {
+	base_terrain SHALLOW
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain LEAVES {
+	base_terrain ACACIAFOREST
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 2
+}
+
+create_terrain SHALLOW {
+	base_terrain ACACIAFOREST
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain ACACIAFOREST {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain LEAVES {
+	base_terrain ACACIAFOREST
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 2
+}
+
+create_terrain SHALLOW {
+	base_terrain ACACIAFOREST
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain ACACIAFOREST {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain LEAVES {
+	base_terrain ACACIAFOREST
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 2
+}
+
+create_terrain SHALLOW {
+	base_terrain ACACIAFOREST
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain ACACIAFOREST {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain LEAVES {
+	base_terrain ACACIAFOREST
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain DIRT3 {
+	base_terrain ACACIAFOREST
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain ACACIAFOREST {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain ACACIAFOREST {
+	base_terrain DIRT
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 3
+}
+
+create_terrain LEAVES {
+	base_terrain SHALLOW
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain DIRT3 {
+	base_terrain SHALLOW
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain SHALLOW {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain DIRT2 {
+	base_terrain DIRT3
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 2
+}
+
+<OBJECTS_GENERATION>
+create_object TOWN_CENTER {
+	set_place_for_every_player
+	max_distance_to_players 0
+}
+
+create_object VILLAGER {
+	set_place_for_every_player
+	min_distance_to_players 6
+	max_distance_to_players 6
+}
+
+if REGICIDE
+	create_object KING {
+		set_place_for_every_player
+		min_distance_to_players 9
+		max_distance_to_players 9
+	}
+else
+	create_object SCOUT {
+		set_place_for_every_player
+		min_distance_to_players 9
+		max_distance_to_players 9
+	}
+endif
+
+create_object ORANGESHRUB {
+	number_of_objects 6
+	group_placement_radius 2
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 10
+	max_distance_to_players 12
+	min_distance_group_placement 4
+	terrain_to_place_on DIRT2
+}
+
+create_object GOATTEE {
+	number_of_objects 1
+	number_of_groups 4
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 8
+	max_distance_to_players 8
+}
+
+create_object GOATTEE {
+	number_of_objects 2
+	number_of_groups 2
+	set_loose_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 12
+	max_distance_to_players 20
+	terrain_to_place_on DIRT2
+}
+
+/* "BOARS" */
+create_object RHINO
+{
+	number_of_groups				2
+	number_of_objects				1
+	set_loose_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players			16
+	max_distance_to_players			18
+	terrain_to_place_on DIRT2
+}
+
+create_object GOLD {
+	number_of_objects 7
+	group_placement_radius			3
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 12
+	max_distance_to_players 16
+	min_distance_group_placement 7
+	max_distance_to_other_zones 6
+	terrain_to_place_on DIRT2
+}
+
+create_object GOLD {
+	number_of_objects				7
+	group_placement_radius			3
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players			18
+	max_distance_to_players			20
+	min_distance_group_placement	7
+	max_distance_to_other_zones 3
+	terrain_to_place_on DIRT2
+}
+
+create_object STONE {
+	number_of_objects 5
+	group_placement_radius 2
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 10
+	max_distance_to_players 18
+	min_distance_group_placement 7
+	max_distance_to_other_zones 3
+	terrain_to_place_on DIRT2
+}
+
+create_object STONE {
+	number_of_objects 4
+	group_placement_radius 2
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 18
+	max_distance_to_players 27
+	min_distance_group_placement 7
+	max_distance_to_other_zones 2
+	terrain_to_place_on DIRT2
+}
+
+create_object BAOBABTREE {
+	number_of_objects 2
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 4
+	max_distance_to_players 5
+	min_distance_group_placement 2
+}
+
+create_object BAOBABTREE {
+	number_of_objects 3
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 6
+	max_distance_to_players 8
+	min_distance_group_placement 2
+}
+
+create_object ZEBRA {
+	number_of_objects				3
+	group_placement_radius			3
+	set_loose_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players			14
+	max_distance_to_players			18
+	min_distance_group_placement	9
+	terrain_to_place_on DIRT2
+}
+
+create_object RELIC {
+	set_place_for_every_player
+	set_gaia_object_only
+	terrain_to_place_on DIRT2
+	min_distance_to_players 20
+	max_distance_to_players 30
+}

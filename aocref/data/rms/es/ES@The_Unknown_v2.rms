@@ -1,0 +1,4276 @@
+/* ****************** ES@THE_UNKNOWN ******************** */
+/* ***************** Ensemble Studios ******************* */
+/* ********** http://www.ensemblestudios.com ************ */
+/* ****************************************************** */
+
+<PLAYER_SETUP>
+random_placement
+
+/* Select Base Terrain */
+start_random
+percent_chance             38
+#define			WATER_MAP
+percent_chance    	   27
+#define			FOREST_MAP
+percent_chance		   35
+#define			LAND_MAP
+end_random
+
+/* Select Tileset */
+start_random
+percent_chance		   40
+#define			GRASS_TILE
+percent_chance	           20
+#define			TROPICAL_TILE
+percent_chance		   20
+#define			SNOW_TILE
+percent_chance		   20
+#define			DESERT_TILE
+end_random
+
+/* Select Player Land Avoidance */
+start_random
+percent_chance    	   20
+#define			SMALL_AVOIDANCE
+percent_chance    	   30
+#define			MEDIUM_AVOIDANCE
+percent_chance		   20
+#define			LARGE_AVOIDANCE
+percent_chance		   15
+#define			XLARGE_AVOIDANCE
+percent_chance		   15
+#define			NO_AVOIDANCE
+end_random
+
+/* Select Player Land Borders */
+start_random
+percent_chance    	   30
+#define			NO_LEFT
+percent_chance    	   25
+#define			SMALL_LEFT
+percent_chance		   20
+#define			MEDIUM_LEFT
+percent_chance		   15
+#define			LARGE_LEFT
+percent_chance		   10
+#define			XLARGE_LEFT
+end_random
+
+start_random
+percent_chance    	   30
+#define			NO_RIGHT
+percent_chance    	   25
+#define			SMALL_RIGHT
+percent_chance		   20
+#define			MEDIUM_RIGHT
+percent_chance		   15
+#define			LARGE_RIGHT
+percent_chance		   10
+#define			XLARGE_RIGHT
+end_random
+
+start_random
+percent_chance    	   30
+#define			NO_TOP
+percent_chance    	   25
+#define			SMALL_TOP
+percent_chance		   20
+#define			MEDIUM_TOP
+percent_chance		   15
+#define			LARGE_TOP
+percent_chance		   10
+#define			XLARGE_TOP
+end_random
+
+start_random
+percent_chance    	   30
+#define			NO_BOTTOM
+percent_chance    	   25
+#define			SMALL_BOTTOM
+percent_chance		   20
+#define			MEDIUM_BOTTOM
+percent_chance		   15
+#define			LARGE_BOTTOM
+percent_chance		   10
+#define			XLARGE_BOTTOM
+end_random
+
+/* Select Border Fuziness */
+start_random
+percent_chance          30
+#define			BORDER1
+percent_chance          30
+#define			BORDER2
+percent_chance          30
+#define			BORDER3
+percent_chance          10
+#define			BORDER4
+end_random
+
+/* Select Clumping Factor */
+start_random
+percent_chance          30
+#define			CLUMPING1
+percent_chance          40
+#define			CLUMPING2
+percent_chance          20
+#define			CLUMPING3
+percent_chance          10
+#define			CLUMPING4
+end_random
+
+/* Select Player Land Zoning */
+start_random
+percent_chance    	   10
+#define			SINGLE_ZONE
+percent_chance    	   15
+#define			SEPARATE_ZONE
+percent_chance		   60
+#define			RANDOM_ZONE
+percent_chance		   15
+#define			TEAM_ZONE
+end_random
+
+/* Select Player Land Base Size */
+start_random
+percent_chance		   10
+#define			SMALL_BASE_SIZE
+percent_chance		   35
+#define			MEDIUM_BASE_SIZE
+percent_chance		   35
+#define			LARGE_BASE_SIZE
+percent_chance		   20
+#define			XLARGE_BASE_SIZE
+end_random
+
+/* Select Other Lands */
+start_random
+percent_chance          8
+#define			OTHERLARGE_1
+end_random
+
+start_random
+percent_chance          13
+#define			OTHERMEDIUM_1
+end_random
+
+start_random
+percent_chance          13
+#define			OTHERMEDIUM_2
+end_random
+
+start_random
+percent_chance          13
+#define			OTHERMEDIUM_3
+end_random
+
+start_random
+percent_chance          18
+#define			OTHERSMALL_1
+end_random
+
+start_random
+percent_chance          18
+#define			OTHERSMALL_2
+end_random
+
+start_random
+percent_chance          18
+#define			OTHERSMALL_3
+end_random
+
+start_random
+percent_chance          18
+#define			OTHERSMALL_4
+end_random
+
+start_random
+percent_chance          18
+#define			OTHERSMALL_5
+end_random
+
+/* Select Water in the forest */
+start_random
+percent_chance          17
+#define			SMALL_FOREST_LAKE1
+end_random
+
+start_random
+percent_chance          17
+#define			SMALL_FOREST_LAKE2
+end_random
+
+start_random
+percent_chance          17
+#define			SMALL_FOREST_LAKE3
+end_random
+
+start_random
+percent_chance          13
+#define			MEDIUM_FOREST_LAKE1
+end_random
+
+start_random
+percent_chance          13
+#define			MEDIUM_FOREST_LAKE2
+end_random
+
+start_random
+percent_chance          10
+#define			LARGE_FOREST_LAKE1
+end_random
+
+/* Select Forest Lake Size */
+start_random
+percent_chance		   20
+#define			SMALL_FOREST_LAKE_SIZE
+percent_chance		   30
+#define			MEDIUM_FOREST_LAKE_SIZE
+percent_chance		   30
+#define			LARGE_FOREST_LAKE_SIZE
+percent_chance		   20
+#define			XLARGE_FOREST_LAKE_SIZE
+end_random
+
+/* Select Frozen Lakes */
+start_random
+percent_chance		   35
+#define			FROZEN_LAKES
+percent_chance		   65
+#define			THAWED_LAKES
+end_random
+
+/* Select Other Land Size */
+start_random
+percent_chance		   20
+#define			SMALL_OTHER_LAND_SIZE
+percent_chance		   30
+#define			MEDIUM_OTHER_LAND_SIZE
+percent_chance		   30
+#define			LARGE_OTHER_LAND_SIZE
+percent_chance		   20
+#define			XLARGE_OTHER_LAND_SIZE
+end_random
+
+/* Select Elevation Level */
+start_random
+percent_chance    	   25
+#define			HIGH_ELEVATION
+percent_chance    	   25
+#define			LOW_ELEVATION
+percent_chance		   40
+#define			NORMAL_ELEVATION
+percent_chance		   10
+#define			NO_ELEVATION
+end_random
+
+/* Select Cliff Level */
+start_random
+percent_chance    	   10
+#define			HIGH_CLIFF
+percent_chance    	   40
+#define			LOW_CLIFF
+percent_chance		   30
+#define			NORMAL_CLIFF
+percent_chance		   20
+#define			NO_CLIFF
+end_random
+
+/* Select Connection Information */
+start_random
+percent_chance    	   30
+#define			NO_CONNECTIONS
+percent_chance    	   20
+#define			ALL_CONNECTIONS
+percent_chance		   30
+#define			TEAM_CONNECTIONS
+percent_chance		   20
+#define			ALL_PLAYERS_CONNECTIONS
+end_random
+
+start_random
+percent_chance    	   30
+#define			NARROW_CONNECTIONS
+percent_chance    	   25
+#define			WIDE_CONNECTIONS
+percent_chance		   45
+#define			MEDIUM_CONNECTIONS
+end_random
+
+/* Select Player Land Percent */
+start_random
+percent_chance		   10
+#define			LAND1
+percent_chance		   10
+#define			LAND2
+percent_chance		   10
+#define			LAND3
+percent_chance		   10
+#define			LAND4
+percent_chance		   10
+#define			LAND5
+percent_chance		   10
+#define			LAND6
+percent_chance		   10
+#define			LAND7
+percent_chance		   10
+#define			LAND8
+percent_chance		   10
+#define			LAND9
+percent_chance		   10
+#define			LAND10
+end_random
+
+/* Select Forest Level */
+
+if LAND_MAP
+
+start_random
+percent_chance		50
+#define			STANDARD_FOREST
+percent_chance		28
+#define			HIGH_FOREST
+percent_chance		2
+#define			EXTRA_HIGH_FOREST
+percent_chance		18
+#define			LOW_FOREST
+percent_chance		2
+#define			EXTRA_LOW_FOREST
+end_random
+
+else
+
+if LAND1
+
+start_random
+percent_chance		0
+#define			STANDARD_FOREST
+percent_chance		0
+#define			HIGH_FOREST
+percent_chance		0
+#define			EXTRA_HIGH_FOREST
+percent_chance		90
+#define			LOW_FOREST
+percent_chance		10
+#define			EXTRA_LOW_FOREST
+end_random
+
+elseif LAND2
+
+start_random
+percent_chance		40
+#define			STANDARD_FOREST
+percent_chance		0
+#define			HIGH_FOREST
+percent_chance		0
+#define			EXTRA_HIGH_FOREST
+percent_chance		50
+#define			LOW_FOREST
+percent_chance		10
+#define			EXTRA_LOW_FOREST
+end_random
+
+elseif LAND3
+
+start_random
+percent_chance		60
+#define			STANDARD_FOREST
+percent_chance		0
+#define			HIGH_FOREST
+percent_chance		0
+#define			EXTRA_HIGH_FOREST
+percent_chance		35
+#define			LOW_FOREST
+percent_chance		5
+#define			EXTRA_LOW_FOREST
+end_random
+
+elseif LAND4
+
+start_random
+percent_chance		60
+#define			STANDARD_FOREST
+percent_chance		5
+#define			HIGH_FOREST
+percent_chance		0
+#define			EXTRA_HIGH_FOREST
+percent_chance		30
+#define			LOW_FOREST
+percent_chance		5
+#define			EXTRA_LOW_FOREST
+end_random
+
+else
+
+start_random
+percent_chance		50
+#define			STANDARD_FOREST
+percent_chance		28
+#define			HIGH_FOREST
+percent_chance		2
+#define			EXTRA_HIGH_FOREST
+percent_chance		18
+#define			LOW_FOREST
+percent_chance		2
+#define			EXTRA_LOW_FOREST
+end_random
+
+endif
+endif
+
+start_random
+percent_chance		15
+#define			LOW_FOREST_CLUMPS
+percent_chance		60
+#define			NORMAL_FOREST_CLUMPS
+percent_chance		25
+#define			HIGH_FOREST_CLUMPS
+end_random
+
+if LAND_MAP
+
+start_random
+percent_chance		50
+#define			STANDARD_PLAYER_TREES
+percent_chance		28
+#define			HIGH_PLAYER_TREES
+percent_chance		2
+#define			EXTRA_HIGH_PLAYER_TREES
+percent_chance		18
+#define			LOW_PLAYER_TREES
+percent_chance		2
+#define			EXTRA_LOW_PLAYER_TREES
+end_random
+
+else
+
+if LAND10
+
+start_random
+percent_chance		0
+#define			STANDARD_PLAYER_TREES
+percent_chance		0
+#define			HIGH_PLAYER_TREES
+percent_chance		0
+#define			EXTRA_HIGH_PLAYER_TREES
+percent_chance		90
+#define			LOW_PLAYER_TREES
+percent_chance		10
+#define			EXTRA_LOW_PLAYER_TREES
+end_random
+
+elseif LAND9
+
+start_random
+percent_chance		40
+#define			STANDARD_PLAYER_TREES
+percent_chance		0
+#define			HIGH_PLAYER_TREES
+percent_chance		0
+#define			EXTRA_HIGH_PLAYER_TREES
+percent_chance		50
+#define			LOW_PLAYER_TREES
+percent_chance		10
+#define			EXTRA_LOW_PLAYER_TREES
+end_random
+
+elseif LAND8
+
+start_random
+percent_chance		60
+#define			STANDARD_PLAYER_TREES
+percent_chance		0
+#define			HIGH_PLAYER_TREES
+percent_chance		0
+#define			EXTRA_HIGH_PLAYER_TREES
+percent_chance		35
+#define			LOW_PLAYER_TREES
+percent_chance		5
+#define			EXTRA_LOW_PLAYER_TREES
+end_random
+
+elseif LAND7
+
+start_random
+percent_chance		60
+#define			STANDARD_PLAYER_TREES
+percent_chance		5
+#define			HIGH_PLAYER_TREES
+percent_chance		0
+#define			EXTRA_HIGH_PLAYER_TREES
+percent_chance		30
+#define			LOW_PLAYER_TREES
+percent_chance		5
+#define			EXTRA_LOW_PLAYER_TREES
+end_random
+
+else
+
+start_random
+percent_chance		50
+#define			STANDARD_PLAYER_TREES
+percent_chance		28
+#define			HIGH_PLAYER_TREES
+percent_chance		2
+#define			EXTRA_HIGH_PLAYER_TREES
+percent_chance		18
+#define			LOW_PLAYER_TREES
+percent_chance		2
+#define			EXTRA_LOW_PLAYER_TREES
+end_random
+
+endif
+endif
+
+
+/* Select Patch Level */
+start_random
+percent_chance		40
+#define			STANDARD_PATCH
+percent_chance		25
+#define			HIGH_PATCH
+percent_chance		5
+#define			EXTRA_HIGH_PATCH
+percent_chance		25
+#define			LOW_PATCH
+percent_chance		5
+#define			EXTRA_LOW_PATCH
+end_random
+
+start_random
+percent_chance		25
+#define			LOW_PATCH_CLUMPS
+percent_chance		50
+#define			NORMAL_PATCH_CLUMPS
+percent_chance		25
+#define			HIGH_PATCH_CLUMPS
+end_random
+
+/* Select Forage Level */
+start_random
+percent_chance		40
+#define			STANDARD_FORAGE_GROUPS
+percent_chance		30
+#define			HIGH_FORAGE_GROUPS
+percent_chance		8
+#define			EXTRA_HIGH_FORAGE_GROUPS
+percent_chance		20
+#define			LOW_FORAGE_GROUPS
+percent_chance		1
+#define			EXTRA_LOW_FORAGE_GROUPS
+percent_chance		1
+#define			NO_FORAGE_GROUPS
+end_random
+
+start_random
+percent_chance		40
+#define			STANDARD_FORAGE
+percent_chance		25
+#define			HIGH_FORAGE
+percent_chance		5
+#define			EXTRA_HIGH_FORAGE
+percent_chance		25
+#define			LOW_FORAGE
+percent_chance		5
+#define			EXTRA_LOW_FORAGE
+end_random
+
+start_random
+percent_chance		40
+#define			STANDARD_RANDOM_FORAGE
+percent_chance		30
+#define			HIGH_RANDOM_FORAGE
+percent_chance		8
+#define			EXTRA_HIGH_RANDOM_FORAGE
+percent_chance		20
+#define			LOW_RANDOM_FORAGE
+percent_chance		1
+#define			EXTRA_LOW_RANDOM_FORAGE
+percent_chance		1
+#define			NO_RANDOM_FORAGE
+end_random
+
+/* Select Sheep or Turkey Level */
+start_random
+percent_chance		40
+#define			STANDARD_SHEEP_GROUPS
+percent_chance		30
+#define			HIGH_SHEEP_GROUPS
+percent_chance		8
+#define			EXTRA_HIGH_SHEEP_GROUPS
+percent_chance		20
+#define			LOW_SHEEP_GROUPS
+percent_chance		1
+#define			EXTRA_LOW_SHEEP_GROUPS
+percent_chance		1
+#define			NO_SHEEP_GROUPS
+end_random
+
+start_random
+percent_chance		40
+#define			STANDARD_SHEEP
+percent_chance		30
+#define			HIGH_SHEEP
+percent_chance		8
+#define			EXTRA_HIGH_SHEEP
+percent_chance		20
+#define			LOW_SHEEP
+percent_chance		2
+#define			EXTRA_LOW_SHEEP
+end_random
+
+/* Select Deer Level */
+start_random
+percent_chance		40
+#define			STANDARD_DEER_GROUPS
+percent_chance		30
+#define			HIGH_DEER_GROUPS
+percent_chance		8
+#define			EXTRA_HIGH_DEER_GROUPS
+percent_chance		20
+#define			LOW_DEER_GROUPS
+percent_chance		1
+#define			EXTRA_LOW_DEER_GROUPS
+percent_chance		1
+#define			NO_DEER_GROUPS
+end_random
+
+start_random
+percent_chance		40
+#define			STANDARD_DEER
+percent_chance		30
+#define			HIGH_DEER
+percent_chance		8
+#define			EXTRA_HIGH_DEER
+percent_chance		20
+#define			LOW_DEER
+percent_chance		2
+#define			EXTRA_LOW_DEER
+end_random
+
+/* Select Boar or Javelina Level */
+start_random
+percent_chance		40
+#define			STANDARD_BOAR_GROUPS
+percent_chance		23
+#define			HIGH_BOAR_GROUPS
+percent_chance		6
+#define			EXTRA_HIGH_BOAR_GROUPS
+percent_chance		23
+#define			LOW_BOAR_GROUPS
+percent_chance		6
+#define			EXTRA_LOW_BOAR_GROUPS
+percent_chance		2
+#define			NO_BOAR_GROUPS
+end_random
+
+start_random
+percent_chance		40
+#define			STANDARD_BOAR
+percent_chance		30
+#define			HIGH_BOAR
+percent_chance		8
+#define			EXTRA_HIGH_BOAR
+percent_chance		20
+#define			LOW_BOAR
+percent_chance		2
+#define			EXTRA_LOW_BOAR
+end_random
+
+/* Select Shore Fish Level */
+start_random
+percent_chance		40
+#define			STANDARD_SHORE_FISH
+percent_chance		30
+#define			HIGH_SHORE_FISH
+percent_chance		8
+#define			EXTRA_HIGH_SHORE_FISH
+percent_chance		20
+#define			LOW_SHORE_FISH
+percent_chance		2
+#define			EXTRA_LOW_SHORE_FISH
+percent_chance		0
+#define			NO_SHORE_FISH
+end_random
+
+/* Select Normal Fish Level */
+start_random
+percent_chance		40
+#define			STANDARD_FISH
+percent_chance		30
+#define			HIGH_FISH
+percent_chance		8
+#define			EXTRA_HIGH_FISH
+percent_chance		20
+#define			LOW_FISH
+percent_chance		2
+#define			EXTRA_LOW_FISH
+percent_chance		0
+#define			NO_FISH
+end_random
+
+/* Select Marlin Fish Level */
+start_random
+percent_chance		40
+#define			STANDARD_MARLIN
+percent_chance		30
+#define			HIGH_MARLIN
+percent_chance		8
+#define			EXTRA_HIGH_MARLIN
+percent_chance		20
+#define			LOW_MARLIN
+percent_chance		2
+#define			EXTRA_LOW_MARLIN
+percent_chance		0
+#define			NO_MARLIN
+end_random
+
+/* Select Wolf or Jaguar Level */
+start_random
+percent_chance		40
+#define			STANDARD_WOLVES
+percent_chance		13
+#define			HIGH_WOLVES
+percent_chance		2
+#define			EXTRA_HIGH_WOLVES
+percent_chance		25
+#define			LOW_WOLVES
+percent_chance		10
+#define			EXTRA_LOW_WOLVES
+percent_chance		10
+#define			NO_WOLVES
+end_random
+
+/* Select Gold Level */
+start_random
+percent_chance		40
+#define			STANDARD_PLAYER_GOLD
+percent_chance		27
+#define			HIGH_PLAYER_GOLD
+percent_chance		6
+#define			EXTRA_HIGH_PLAYER_GOLD
+percent_chance		24
+#define			LOW_PLAYER_GOLD
+percent_chance		3
+#define			EXTRA_LOW_PLAYER_GOLD
+percent_chance		0
+#define			NO_PLAYER_GOLD
+end_random
+
+start_random
+percent_chance		40
+#define			STANDARD_RANDOM_GOLD
+percent_chance		27
+#define			HIGH_RANDOM_GOLD
+percent_chance		6
+#define			EXTRA_HIGH_RANDOM_GOLD
+percent_chance		24
+#define			LOW_RANDOM_GOLD
+percent_chance		3
+#define			EXTRA_LOW_RANDOM_GOLD
+percent_chance		0
+#define			NO_RANDOM_GOLD
+end_random
+
+/* Select Stone Level */
+start_random
+percent_chance		40
+#define			STANDARD_PLAYER_STONE
+percent_chance		27
+#define			HIGH_PLAYER_STONE
+percent_chance		6
+#define			EXTRA_HIGH_PLAYER_STONE
+percent_chance		24
+#define			LOW_PLAYER_STONE
+percent_chance		3
+#define			EXTRA_LOW_PLAYER_STONE
+percent_chance		0
+#define			NO_PLAYER_STONE
+end_random
+
+start_random
+percent_chance		40
+#define			STANDARD_RANDOM_STONE
+percent_chance		30
+#define			HIGH_RANDOM_STONE
+percent_chance		8
+#define			EXTRA_HIGH_RANDOM_STONE
+percent_chance		20
+#define			LOW_RANDOM_STONE
+percent_chance		2
+#define			EXTRA_LOW_RANDOM_STONE
+percent_chance		0
+#define			NO_RANDOM_STONE
+end_random
+
+/* Select Hawk or Macaw Level */
+start_random
+percent_chance		40
+#define			STANDARD_HAWK
+percent_chance		23
+#define			HIGH_HAWK
+percent_chance		6
+#define			EXTRA_HIGH_HAWK
+percent_chance		23
+#define			LOW_HAWK
+percent_chance		6
+#define			EXTRA_LOW_HAWK
+percent_chance		2
+#define			NO_HAWK
+end_random
+
+/* Select Relic Level */
+start_random
+percent_chance		40
+#define			STANDARD_RELIC
+percent_chance		20
+#define			HIGH_RELIC
+percent_chance		10
+#define			EXTRA_HIGH_RELIC
+percent_chance		15
+#define			LOW_RELIC
+percent_chance		5
+#define			EXTRA_LOW_RELIC
+percent_chance		10
+#define			NO_RELIC
+end_random
+
+/* Select Player Starting Resources */
+start_random
+percent_chance		98
+#define			ONE_TC
+percent_chance		2
+#define			NO_TC
+percent_chance		0
+#define			TWO_TC
+percent_chance		0
+#define			THREE_TC
+end_random
+
+start_random
+percent_chance		92
+#define			ONE_SCOUT
+percent_chance		4
+#define			NO_SCOUT
+percent_chance		4
+#define			TWO_SCOUT
+end_random
+
+/* ****************************************************** */
+<LAND_GENERATION>
+
+if WATER_MAP
+   base_terrain WATER
+elseif LAND_MAP
+   if GRASS_TILE
+      base_terrain GRASS
+   elseif TROPICAL_TILE
+      base_terrain GRASS3
+   elseif SNOW_TILE
+      base_terrain SNOW
+   elseif DESERT_TILE
+      base_terrain DESERT
+   endif
+elseif FOREST_MAP
+   if GRASS_TILE
+      base_terrain FOREST
+   elseif TROPICAL_TILE
+      base_terrain JUNGLE
+   elseif SNOW_TILE
+      base_terrain SNOW_FOREST
+   elseif DESERT_TILE
+      base_terrain PALM_DESERT
+   endif
+endif
+
+if OTHERLARGE_1
+create_land
+{
+   if WATER_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif FOREST_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif LAND_MAP
+      if SNOW_TILE
+         if FROZEN_LAKES
+            terrain_type ICE
+         else
+            terrain_type WATER
+         endif
+      else
+      terrain_type WATER
+      endif
+   endif
+   
+   if SMALL_OTHER_LAND_SIZE
+      land_percent  18
+   elseif MEDIUM_OTHER_LAND_SIZE
+      land_percent  20
+   elseif LARGE_OTHER_LAND_SIZE
+      land_percent  22
+   elseif XLARGE_OTHER_LAND_SIZE
+      land_percent  24
+   endif
+   
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if OTHERMEDIUM_1
+create_land
+{
+   if WATER_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif FOREST_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif LAND_MAP
+      if SNOW_TILE
+         if FROZEN_LAKES
+            terrain_type ICE
+         else
+            terrain_type WATER
+         endif
+      else
+      terrain_type WATER
+      endif
+   endif
+   
+   if SMALL_OTHER_LAND_SIZE
+      land_percent  10
+   elseif MEDIUM_OTHER_LAND_SIZE
+      land_percent  12
+   elseif LARGE_OTHER_LAND_SIZE
+      land_percent  14
+   elseif XLARGE_OTHER_LAND_SIZE
+      land_percent  16
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if OTHERMEDIUM_2
+create_land
+{
+   if WATER_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif FOREST_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif LAND_MAP
+      if SNOW_TILE
+         if FROZEN_LAKES
+            terrain_type ICE
+         else
+            terrain_type WATER
+         endif
+      else
+      terrain_type WATER
+      endif
+   endif
+   
+   if SMALL_OTHER_LAND_SIZE
+      land_percent  16
+   elseif MEDIUM_OTHER_LAND_SIZE
+      land_percent  14
+   elseif LARGE_OTHER_LAND_SIZE
+      land_percent  12
+   elseif XLARGE_OTHER_LAND_SIZE
+      land_percent  10
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if OTHERMEDIUM_3
+create_land
+{
+   if WATER_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif FOREST_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif LAND_MAP
+      if SNOW_TILE
+         if FROZEN_LAKES
+            terrain_type ICE
+         else
+            terrain_type WATER
+         endif
+      else
+      terrain_type WATER
+      endif
+   endif
+   
+   if SMALL_OTHER_LAND_SIZE
+      land_percent  12
+   elseif MEDIUM_OTHER_LAND_SIZE
+      land_percent  10
+   elseif LARGE_OTHER_LAND_SIZE
+      land_percent  16
+   elseif XLARGE_OTHER_LAND_SIZE
+      land_percent  14
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if OTHERSMALL_1
+create_land
+{
+   if WATER_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif FOREST_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif LAND_MAP
+      if SNOW_TILE
+         if FROZEN_LAKES
+            terrain_type ICE
+         else
+            terrain_type WATER
+         endif
+      else
+      terrain_type WATER
+      endif
+   endif
+   
+   if SMALL_OTHER_LAND_SIZE
+      land_percent  5
+   elseif MEDIUM_OTHER_LAND_SIZE
+      land_percent  6
+   elseif LARGE_OTHER_LAND_SIZE
+      land_percent  7
+   elseif XLARGE_OTHER_LAND_SIZE
+      land_percent  8
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if OTHERSMALL_2
+create_land
+{
+   if WATER_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif FOREST_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif LAND_MAP
+      if SNOW_TILE
+         if FROZEN_LAKES
+            terrain_type ICE
+         else
+            terrain_type WATER
+         endif
+      else
+      terrain_type WATER
+      endif
+   endif
+   
+   if SMALL_OTHER_LAND_SIZE
+      land_percent  5
+   elseif MEDIUM_OTHER_LAND_SIZE
+      land_percent  6
+   elseif LARGE_OTHER_LAND_SIZE
+      land_percent  7
+   elseif XLARGE_OTHER_LAND_SIZE
+      land_percent  8
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if OTHERSMALL_3
+create_land
+{
+   if WATER_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif FOREST_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif LAND_MAP
+      if SNOW_TILE
+         if FROZEN_LAKES
+            terrain_type ICE
+         else
+            terrain_type WATER
+         endif
+      else
+      terrain_type WATER
+      endif
+   endif
+   
+   if SMALL_OTHER_LAND_SIZE
+      land_percent  6
+   elseif MEDIUM_OTHER_LAND_SIZE
+      land_percent  7
+   elseif LARGE_OTHER_LAND_SIZE
+      land_percent  8
+   elseif XLARGE_OTHER_LAND_SIZE
+      land_percent  5
+   endif
+if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if OTHERSMALL_4
+create_land
+{
+   if WATER_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif FOREST_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif LAND_MAP
+      if SNOW_TILE
+         if FROZEN_LAKES
+            terrain_type ICE
+         else
+            terrain_type WATER
+         endif
+      else
+      terrain_type WATER
+      endif
+   endif
+   
+   if SMALL_OTHER_LAND_SIZE
+      land_percent  7
+   elseif MEDIUM_OTHER_LAND_SIZE
+      land_percent  8
+   elseif LARGE_OTHER_LAND_SIZE
+      land_percent  5
+   elseif XLARGE_OTHER_LAND_SIZE
+      land_percent  6
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if OTHERSMALL_5
+create_land
+{
+   if WATER_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif FOREST_MAP
+      if GRASS_TILE
+         terrain_type GRASS
+      elseif TROPICAL_TILE
+         terrain_type GRASS3
+      elseif SNOW_TILE
+         terrain_type GRASS_SNOW
+      elseif DESERT_TILE
+         terrain_type DIRT
+      endif 
+   elseif LAND_MAP
+      if SNOW_TILE
+         if FROZEN_LAKES
+            terrain_type ICE
+         else
+            terrain_type WATER
+         endif
+      else
+      terrain_type WATER
+      endif
+   endif
+   
+   if SMALL_OTHER_LAND_SIZE
+      land_percent  8
+   elseif MEDIUM_OTHER_LAND_SIZE
+      land_percent  7
+   elseif LARGE_OTHER_LAND_SIZE
+      land_percent  6
+   elseif XLARGE_OTHER_LAND_SIZE
+      land_percent  5
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if FOREST_MAP
+
+if SMALL_FOREST_LAKE1
+create_land
+{
+   if SNOW_TILE
+      if FROZEN_LAKES
+         terrain_type ICE
+      else
+         terrain_type WATER
+      endif
+   else
+      terrain_type WATER
+   endif
+      
+   if SMALL_FOREST_LAKE_SIZE
+      land_percent 1
+   elseif MEDIUM_FOREST_LAKE_SIZE
+      land_percent 2
+   elseif LARGE_FOREST_LAKE_SIZE
+      land_percent 3
+   elseif XLARGE_FOREST_LAKE_SIZE
+      land_percent 4
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if SMALL_FOREST_LAKE2
+create_land
+{
+   if SNOW_TILE
+      if FROZEN_LAKES
+         terrain_type ICE
+      else
+         terrain_type WATER
+      endif
+   else
+      terrain_type WATER
+   endif
+      
+   if SMALL_FOREST_LAKE_SIZE
+      land_percent 4
+   elseif MEDIUM_FOREST_LAKE_SIZE
+      land_percent 3
+   elseif LARGE_FOREST_LAKE_SIZE
+      land_percent 2
+   elseif XLARGE_FOREST_LAKE_SIZE
+      land_percent 1
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if SMALL_FOREST_LAKE3
+create_land
+{
+   if SNOW_TILE
+      if FROZEN_LAKES
+         terrain_type ICE
+      else
+         terrain_type WATER
+      endif
+   else
+      terrain_type WATER
+   endif
+      
+   if SMALL_FOREST_LAKE_SIZE
+      land_percent 2
+   elseif MEDIUM_FOREST_LAKE_SIZE
+      land_percent 1
+   elseif LARGE_FOREST_LAKE_SIZE
+      land_percent 4
+   elseif XLARGE_FOREST_LAKE_SIZE
+      land_percent 3
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if MEDIUM_FOREST_LAKE1
+create_land
+{
+   if SNOW_TILE
+      if FROZEN_LAKES
+         terrain_type ICE
+      else
+         terrain_type WATER
+      endif
+   else
+      terrain_type WATER
+   endif
+      
+   if SMALL_FOREST_LAKE_SIZE
+      land_percent 1
+   elseif MEDIUM_FOREST_LAKE_SIZE
+      land_percent 2
+   elseif LARGE_FOREST_LAKE_SIZE
+      land_percent 4
+   elseif XLARGE_FOREST_LAKE_SIZE
+      land_percent 6
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if MEDIUM_FOREST_LAKE2
+create_land
+{
+   if SNOW_TILE
+      if FROZEN_LAKES
+         terrain_type ICE
+      else
+         terrain_type WATER
+      endif
+   else
+      terrain_type WATER
+   endif
+      
+   if SMALL_FOREST_LAKE_SIZE
+      land_percent 5
+   elseif MEDIUM_FOREST_LAKE_SIZE
+      land_percent 4
+   elseif LARGE_FOREST_LAKE_SIZE
+      land_percent 3
+   elseif XLARGE_FOREST_LAKE_SIZE
+      land_percent 2
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+
+if LARGE_FOREST_LAKE1
+create_land
+{
+   if SNOW_TILE
+      if FROZEN_LAKES
+         terrain_type ICE
+      else
+         terrain_type WATER
+      endif
+   else
+      terrain_type WATER
+   endif
+      
+   if SMALL_FOREST_LAKE_SIZE
+      land_percent 2
+   elseif MEDIUM_FOREST_LAKE_SIZE
+      land_percent 4
+   elseif LARGE_FOREST_LAKE_SIZE
+      land_percent 6
+   elseif XLARGE_FOREST_LAKE_SIZE
+      land_percent 9
+   endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+}
+endif
+endif
+
+/* PLAYER LANDS */
+create_player_lands 
+{ 
+   if GRASS_TILE
+      terrain_type GRASS
+   elseif TROPICAL_TILE
+      terrain_type GRASS3
+   elseif SNOW_TILE
+      terrain_type GRASS_SNOW
+   elseif DESERT_TILE
+      terrain_type DIRT
+   endif
+
+if LAND1
+   land_percent                     78
+elseif LAND2
+   land_percent                     72
+elseif LAND3
+   land_percent                     66
+elseif LAND4
+   land_percent                     60
+elseif LAND5
+   land_percent                     54
+elseif LAND6
+   land_percent                     48
+elseif LAND7
+   land_percent                     42
+elseif LAND8
+   land_percent                     36
+elseif LAND9
+   land_percent                     30
+elseif LAND10
+   land_percent                     24
+endif
+
+if SMALL_BASE_SIZE
+   base_size                         10
+elseif MEDIUM_BASE_SIZE
+   base_size                         14
+elseif LARGE_BASE_SIZE
+   base_size                         18
+elseif XLARGE_BASE_SIZE
+   base_size                         22
+endif
+
+   if BORDER1
+      border_fuzziness                 4
+   elseif BORDER2
+      border_fuzziness                 7
+   elseif BORDER3
+      border_fuzziness                 10
+   elseif BORDER4
+      border_fuzziness                 13
+   endif
+   
+   if CLUMPING1
+      clumping_factor                  3
+   elseif CLUMPING2
+      clumping_factor                  6
+   elseif CLUMPING3
+      clumping_factor                  9
+   elseif CLUMPING4
+      clumping_factor                  12
+   endif
+
+if SMALL_AVOIDANCE
+   other_zone_avoidance_distance    4
+elseif MEDIUM_AVOIDANCE
+   other_zone_avoidance_distance    8
+elseif LARGE_AVOIDANCE
+   other_zone_avoidance_distance    12
+elseif XLARGE_AVOIDANCE
+   other_zone_avoidance_distance    16
+elseif NO_AVOIDANCE
+   other_zone_avoidance_distance    0
+endif
+
+if TEAM_ZONE
+   set_zone_by_team
+elseif RANDOM_ZONE
+   set_zone_randomly
+elseif SEPARATE_ZONE
+elseif SINGLE_ZONE
+   zone 1
+endif
+
+if NO_LEFT
+   left_border   0
+elseif SMALL_LEFT
+   left_border   3
+elseif MEDIUM_LEFT
+   left_border   6
+elseif LARGE_LEFT
+   left_border   9
+elseif XLARGE_LEFT
+   left_border   12
+endif
+
+if NO_RIGHT
+   right_border   0
+elseif SMALL_RIGHT
+   right_border   3
+elseif MEDIUM_RIGHT
+   right_border   6
+elseif LARGE_RIGHT
+   right_border   9
+elseif XLARGE_RIGHT
+   right_border   12
+endif
+
+if NO_TOP
+   top_border   0
+elseif SMALL_TOP
+   top_border   3
+elseif MEDIUM_TOP
+   top_border   6
+elseif LARGE_TOP
+   top_border   9
+elseif XLARGE_TOP
+   top_border   12
+endif
+
+if NO_BOTTOM
+   bottom_border   0
+elseif SMALL_BOTTOM
+   bottom_border   3
+elseif MEDIUM_BOTTOM
+   bottom_border   6
+elseif LARGE_BOTTOM
+   bottom_border   9
+elseif XLARGE_BOTTOM
+   bottom_border   12
+endif
+
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+/* MIXING WATER */
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps               3
+spacing_to_other_terrain_types 3
+land_percent 3
+set_scale_by_groups
+}
+
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+number_of_clumps               6
+spacing_to_other_terrain_types 5
+land_percent 2
+set_scale_by_groups
+}
+
+/* PRIMARY FOREST */
+
+if GRASS_TILE
+   create_terrain FOREST
+elseif TROPICAL_TILE
+   create_terrain JUNGLE
+elseif SNOW_TILE
+   create_terrain SNOW_FOREST
+elseif DESERT_TILE
+   create_terrain PALM_DESERT
+endif
+{
+  if GRASS_TILE
+     base_terrain                GRASS
+  elseif TROPICAL_TILE
+     base_terrain                GRASS3
+  elseif SNOW_TILE
+     base_terrain                GRASS_SNOW
+  elseif DESERT_TILE
+     base_terrain                DIRT
+  endif
+
+  spacing_to_other_terrain_types 4
+
+if LAND10
+
+if STANDARD_FOREST
+   land_percent                   6
+elseif HIGH_FOREST
+   land_percent                   7
+elseif EXTRA_HIGH_FOREST
+   land_percent                   8
+elseif LOW_FOREST
+   land_percent                   5
+elseif EXTRA_LOW_FOREST
+   land_percent                   4
+endif
+
+elseif LAND9
+
+if STANDARD_FOREST
+   land_percent                   7
+elseif HIGH_FOREST
+   land_percent                   8
+elseif EXTRA_HIGH_FOREST
+   land_percent                   9
+elseif LOW_FOREST
+   land_percent                   6
+elseif EXTRA_LOW_FOREST
+   land_percent                   5
+endif
+
+elseif LAND8
+
+if STANDARD_FOREST
+   land_percent                   8
+elseif HIGH_FOREST
+   land_percent                   9
+elseif EXTRA_HIGH_FOREST
+   land_percent                   10
+elseif LOW_FOREST
+   land_percent                   7
+elseif EXTRA_LOW_FOREST
+   land_percent                   6
+endif
+
+elseif LAND7
+
+if STANDARD_FOREST
+   land_percent                   9
+elseif HIGH_FOREST
+   land_percent                   10
+elseif EXTRA_HIGH_FOREST
+   land_percent                   11
+elseif LOW_FOREST
+   land_percent                   8
+elseif EXTRA_LOW_FOREST
+   land_percent                   7
+endif
+
+elseif LAND6
+
+if STANDARD_FOREST
+   land_percent                   10
+elseif HIGH_FOREST
+   land_percent                   11
+elseif EXTRA_HIGH_FOREST
+   land_percent                   12
+elseif LOW_FOREST
+   land_percent                   9
+elseif EXTRA_LOW_FOREST
+   land_percent                   8
+endif
+
+elseif LAND5
+
+if STANDARD_FOREST
+   land_percent                   11
+elseif HIGH_FOREST
+   land_percent                   12
+elseif EXTRA_HIGH_FOREST
+   land_percent                   13
+elseif LOW_FOREST
+   land_percent                   10
+elseif EXTRA_LOW_FOREST
+   land_percent                   9
+endif
+
+elseif LAND4
+
+if STANDARD_FOREST
+   land_percent                   12
+elseif HIGH_FOREST
+   land_percent                   13
+elseif EXTRA_HIGH_FOREST
+   land_percent                   14
+elseif LOW_FOREST
+   land_percent                   11
+elseif EXTRA_LOW_FOREST
+   land_percent                   10
+endif
+
+elseif LAND3
+
+if STANDARD_FOREST
+   land_percent                   12
+elseif HIGH_FOREST
+   land_percent                   13
+elseif EXTRA_HIGH_FOREST
+   land_percent                   14
+elseif LOW_FOREST
+   land_percent                   11
+elseif EXTRA_LOW_FOREST
+   land_percent                   10
+endif
+
+elseif LAND2
+
+if STANDARD_FOREST
+   land_percent                   13
+elseif HIGH_FOREST
+   land_percent                   14
+elseif EXTRA_HIGH_FOREST
+   land_percent                   15
+elseif LOW_FOREST
+   land_percent                   12
+elseif EXTRA_LOW_FOREST
+   land_percent            	  11       
+endif
+
+elseif LAND1
+
+if STANDARD_FOREST
+   land_percent                   13
+elseif HIGH_FOREST
+   land_percent                   14
+elseif EXTRA_HIGH_FOREST
+   land_percent                   15
+elseif LOW_FOREST
+   land_percent                   12
+elseif EXTRA_LOW_FOREST
+   land_percent                  11
+endif
+
+endif
+
+
+if LOW_FOREST_CLUMPS
+   number_of_clumps               11
+elseif NORMAL_FOREST_CLUMPS
+   number_of_clumps               14
+elseif HIGH_FOREST_CLUMPS
+   number_of_clumps               17
+endif
+
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* PRIMARY FOREST EXTRA */
+
+if DESERT_TILE
+create_terrain PALM_DESERT
+{     
+  base_terrain                DESERT
+  
+  spacing_to_other_terrain_types 5
+
+if LAND1
+
+if STANDARD_FOREST
+   land_percent                   4
+elseif HIGH_FOREST
+   land_percent                   5
+elseif EXTRA_HIGH_FOREST
+   land_percent                   6
+elseif LOW_FOREST
+   land_percent                   3
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND2
+
+if STANDARD_FOREST
+   land_percent                   4
+elseif HIGH_FOREST
+   land_percent                   4
+elseif EXTRA_HIGH_FOREST
+   land_percent                   5
+elseif LOW_FOREST
+   land_percent                   3
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND3
+
+if STANDARD_FOREST
+   land_percent                   3
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   4
+elseif LOW_FOREST
+   land_percent                   3
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND4
+
+if STANDARD_FOREST
+   land_percent                   3
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   4
+elseif LOW_FOREST
+   land_percent                   3
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND5
+
+if STANDARD_FOREST
+   land_percent                   3
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   2
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND6
+
+if STANDARD_FOREST
+   land_percent                   3
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   2
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND7
+
+if STANDARD_FOREST
+   land_percent                   2
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   2
+elseif EXTRA_LOW_FOREST
+   land_percent                   1
+endif
+
+elseif LAND8
+
+if STANDARD_FOREST
+   land_percent                   2
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   2
+elseif EXTRA_LOW_FOREST
+   land_percent                   1
+endif
+
+elseif LAND9
+
+if STANDARD_FOREST
+   land_percent                   2
+elseif HIGH_FOREST
+   land_percent                   2
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   1
+elseif EXTRA_LOW_FOREST
+   land_percent                   1
+endif
+
+elseif LAND10
+
+if STANDARD_FOREST
+   land_percent                   2
+elseif HIGH_FOREST
+   land_percent                   2
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   1
+elseif EXTRA_LOW_FOREST
+   land_percent                   1
+endif
+
+endif
+
+if LOW_FOREST_CLUMPS
+   number_of_clumps               5
+elseif NORMAL_FOREST_CLUMPS
+   number_of_clumps               6
+elseif HIGH_FOREST_CLUMPS
+   number_of_clumps               7
+endif
+
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+endif
+
+if SNOW_TILE
+create_terrain SNOW_FOREST
+{     
+  base_terrain                GRASS_SNOW
+  
+  spacing_to_other_terrain_types 5
+
+if LAND1
+
+if STANDARD_FOREST
+   land_percent                   4
+elseif HIGH_FOREST
+   land_percent                   5
+elseif EXTRA_HIGH_FOREST
+   land_percent                   6
+elseif LOW_FOREST
+   land_percent                   3
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND2
+
+if STANDARD_FOREST
+   land_percent                   4
+elseif HIGH_FOREST
+   land_percent                   4
+elseif EXTRA_HIGH_FOREST
+   land_percent                   5
+elseif LOW_FOREST
+   land_percent                   3
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND3
+
+if STANDARD_FOREST
+   land_percent                   3
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   4
+elseif LOW_FOREST
+   land_percent                   3
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND4
+
+if STANDARD_FOREST
+   land_percent                   3
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   4
+elseif LOW_FOREST
+   land_percent                   3
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND5
+
+if STANDARD_FOREST
+   land_percent                   3
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   2
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND6
+
+if STANDARD_FOREST
+   land_percent                   3
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   2
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+elseif LAND7
+
+if STANDARD_FOREST
+   land_percent                   2
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   2
+elseif EXTRA_LOW_FOREST
+   land_percent                   1
+endif
+
+elseif LAND8
+
+if STANDARD_FOREST
+   land_percent                   2
+elseif HIGH_FOREST
+   land_percent                   3
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   2
+elseif EXTRA_LOW_FOREST
+   land_percent                   1
+endif
+
+elseif LAND9
+
+if STANDARD_FOREST
+   land_percent                   2
+elseif HIGH_FOREST
+   land_percent                   2
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   1
+elseif EXTRA_LOW_FOREST
+   land_percent                   1
+endif
+
+elseif LAND10
+
+if STANDARD_FOREST
+   land_percent                   2
+elseif HIGH_FOREST
+   land_percent                   2
+elseif EXTRA_HIGH_FOREST
+   land_percent                   3
+elseif LOW_FOREST
+   land_percent                   1
+elseif EXTRA_LOW_FOREST
+   land_percent                   1
+endif
+
+endif
+
+if LOW_FOREST_CLUMPS
+   number_of_clumps               5
+elseif NORMAL_FOREST_CLUMPS
+   number_of_clumps               6
+elseif HIGH_FOREST_CLUMPS
+   number_of_clumps               7
+endif
+
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+endif
+
+/* PRIMARY PATCH */
+
+if GRASS_TILE
+   create_terrain DIRT
+elseif TROPICAL_TILE
+   create_terrain DIRT
+elseif SNOW_TILE
+   create_terrain GRASS_SNOW
+elseif DESERT_TILE
+   create_terrain DIRT3
+endif
+{
+  if GRASS_TILE
+     base_terrain                GRASS
+  elseif TROPICAL_TILE
+     base_terrain                GRASS3
+  elseif SNOW_TILE
+     base_terrain                SNOW
+  elseif DESERT_TILE
+     base_terrain                DESERT
+  endif
+
+  spacing_to_other_terrain_types 5
+
+if STANDARD_PATCH
+   land_percent                   8
+elseif HIGH_PATCH
+   land_percent                   10
+elseif EXTRA_HIGH_PATCH
+   land_percent                   13
+elseif LOW_PATCH
+   land_percent                   6
+elseif EXTRA_LOW_PATCH
+   land_percent                   4
+endif
+
+if LOW_PATCH_CLUMPS
+   number_of_clumps               7
+elseif NORMAL_PATCH_CLUMPS
+   number_of_clumps               10
+elseif HIGH_PATCH_CLUMPS
+   number_of_clumps               13
+endif
+
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* SECONDARY FOREST */
+
+if GRASS_TILE
+   create_terrain FOREST
+elseif TROPICAL_TILE
+   create_terrain JUNGLE
+elseif SNOW_TILE
+   create_terrain SNOW_FOREST
+elseif DESERT_TILE
+   create_terrain PALM_DESERT
+endif
+{
+  if GRASS_TILE
+     base_terrain                GRASS
+  elseif TROPICAL_TILE
+     base_terrain                GRASS3
+  elseif SNOW_TILE
+     base_terrain                SNOW
+  elseif DESERT_TILE
+     base_terrain                DIRT
+  endif
+
+  spacing_to_other_terrain_types 3
+
+if STANDARD_FOREST
+   land_percent                   4
+elseif HIGH_FOREST
+   land_percent                   5
+elseif EXTRA_HIGH_FOREST
+   land_percent                   6
+elseif LOW_FOREST
+   land_percent                   3
+elseif EXTRA_LOW_FOREST
+   land_percent                   2
+endif
+
+if LOW_FOREST_CLUMPS
+   number_of_clumps               3
+elseif NORMAL_FOREST_CLUMPS
+   number_of_clumps               5
+elseif HIGH_FOREST_CLUMPS
+   number_of_clumps               7
+endif
+  
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* SECONDARY PATCH */
+
+if GRASS_TILE
+   create_terrain GRASS3
+elseif TROPICAL_TILE
+   create_terrain SHALLOW
+elseif SNOW_TILE
+   create_terrain ICE
+elseif DESERT_TILE
+   create_terrain DIRT
+endif
+{
+  if GRASS_TILE
+     base_terrain                GRASS
+  elseif TROPICAL_TILE
+     base_terrain                GRASS3
+  elseif SNOW_TILE
+     base_terrain                GRASS_SNOW
+  elseif DESERT_TILE
+     base_terrain                DESERT
+  endif
+
+  if STANDARD_PATCH
+   land_percent                   3
+  elseif HIGH_PATCH
+   land_percent                   4
+  elseif EXTRA_HIGH_PATCH
+   land_percent                   5
+  elseif LOW_PATCH
+   land_percent                   2
+  elseif EXTRA_LOW_PATCH
+   land_percent                   1
+  endif
+
+  if LOW_PATCH_CLUMPS
+   number_of_clumps               3
+  elseif NORMAL_FOREST_CLUMPS
+   number_of_clumps               5
+  elseif HIGH_PATCH_CLUMPS
+   number_of_clumps               7
+  endif
+
+  set_avoid_player_start_areas     
+  spacing_to_other_terrain_types 3
+  set_scale_by_size
+  
+  if TROPICAL_TILE
+     height_limits 0 0
+     set_flat_terrain_only
+  endif
+
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+/* PLAYER START OBJECTS */
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  if NO_TC
+     number_of_objects          0
+  elseif ONE_TC
+     number_of_objects          1
+  endif
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+if ONE_SCOUT
+create_object SCOUT
+{
+  number_of_objects             1
+  set_place_for_every_player
+  min_distance_to_players       8
+  max_distance_to_players       12
+}
+endif
+
+if TWO_SCOUT
+create_object SCOUT
+{
+  number_of_objects             2
+  set_place_for_every_player
+  min_distance_to_players       8
+  max_distance_to_players       12
+}
+endif
+
+create_object RELIC
+{
+  if NO_RELIC
+     number_of_objects            0
+  elseif EXTRA_LOW_RELIC          
+     number_of_objects            2
+  elseif LOW_RELIC                
+     number_of_objects            5
+  elseif STANDARD_RELIC             
+     number_of_objects            7
+  elseif HIGH_RELIC               
+     number_of_objects            9
+  elseif EXTRA_HIGH_RELIC
+     number_of_objects            12
+     set_scaling_to_map_size
+  endif  
+  
+  min_distance_to_players     25
+  temp_min_distance_group_placement 20
+}
+
+/* SPECIAL STUFF FOR REGICIDE */
+
+if REGICIDE
+create_object VILLAGER
+{
+  number_of_objects             7
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object CASTLE
+{
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    10
+}
+
+endif
+
+/*  Regicide games require a Castle, King and more villagers.  Other 
+game types, such as Defend the Wonder, are handled automatically. */
+
+/* NEAR SHEEP or TURKEY */
+
+if NO_SHEEP_GROUPS
+else
+   if TROPICAL_TILE
+      create_object TURKEY
+   else
+      create_object SHEEP
+   endif
+{
+   
+   number_of_groups           1
+   
+   if STANDARD_SHEEP
+      number_of_objects          4
+      group_placement_radius     4
+   elseif HIGH_SHEEP
+      number_of_objects          5
+      group_placement_radius     5
+   elseif EXTRA_HIGH_SHEEP
+      number_of_objects          7
+      group_placement_radius     7
+   elseif LOW_SHEEP
+      number_of_objects          3
+      group_placement_radius     3
+   elseif EXTRA_LOW_SHEEP
+      number_of_objects          1
+      group_placement_radius     2
+   endif
+
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    10
+   max_distance_to_players    14
+   min_distance_group_placement  5
+}
+
+   if TROPICAL_TILE
+      create_object TURKEY
+   else
+      create_object SHEEP
+   endif
+{
+   if STANDARD_SHEEP_GROUPS
+      number_of_groups           2
+   elseif HIGH_SHEEP_GROUPS
+      number_of_groups           3
+   elseif EXTRA_HIGH_SHEEP_GROUPS
+      number_of_groups           3
+   elseif LOW_SHEEP_GROUPS
+      number_of_groups           1
+   elseif EXTRA_LOW_SHEEP_GROUPS
+      number_of_groups           1
+   endif
+   
+   if STANDARD_SHEEP
+      number_of_objects          2
+   elseif HIGH_SHEEP
+      number_of_objects          2
+   elseif EXTRA_HIGH_SHEEP
+      number_of_objects          3
+   elseif LOW_SHEEP
+      number_of_objects          2
+   elseif EXTRA_LOW_SHEEP
+      number_of_objects          1
+   endif
+
+   group_placement_radius     3
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    16
+   max_distance_to_players    20
+   min_distance_group_placement  5
+}
+endif
+
+/* NEAR FORAGE */
+
+if NO_FORAGE_GROUPS
+else
+   create_object FORAGE
+   {
+   if EXTRA_LOW_FORAGE
+     number_of_objects          3
+     group_placement_radius     2
+   elseif LOW_FORAGE
+     number_of_objects          4
+     group_placement_radius     2
+   elseif STANDARD_FORAGE
+     number_of_objects          6
+     group_placement_radius     3
+   elseif HIGH_FORAGE
+     number_of_objects          7
+     group_placement_radius     4
+   elseif EXTRA_HIGH_FORAGE
+     number_of_objects          9
+     group_placement_radius     5
+   endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+
+  min_distance_to_players    9
+  max_distance_to_players    12
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+endif
+
+/* NEAR GOLD */
+
+if NO_PLAYER_GOLD
+else
+   create_object GOLD
+   {
+   if EXTRA_LOW_PLAYER_GOLD
+     number_of_objects          2
+     group_placement_radius     1
+   elseif LOW_PLAYER_GOLD
+     number_of_objects          4
+     group_placement_radius     2
+   elseif STANDARD_PLAYER_GOLD
+     number_of_objects          6
+     group_placement_radius     3
+   elseif HIGH_PLAYER_GOLD
+     number_of_objects          8
+     group_placement_radius     4
+   elseif EXTRA_HIGH_PLAYER_GOLD
+     number_of_objects          10
+     group_placement_radius     5
+   endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  number_of_groups 1
+
+  min_distance_to_players    10
+  max_distance_to_players    14
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+endif
+
+/* MEDIUM GOLD */
+
+if NO_PLAYER_GOLD
+else
+   create_object GOLD
+   {
+   if EXTRA_LOW_PLAYER_GOLD
+     number_of_objects          2
+     group_placement_radius     1
+   elseif LOW_PLAYER_GOLD
+     number_of_objects          3
+     group_placement_radius     2
+   elseif STANDARD_PLAYER_GOLD
+     number_of_objects          4
+     group_placement_radius     2
+   elseif HIGH_PLAYER_GOLD
+     number_of_objects          5
+     group_placement_radius     3
+   elseif EXTRA_HIGH_PLAYER_GOLD
+     number_of_objects          6
+     group_placement_radius     3
+   endif
+   
+   number_of_groups 1
+   set_tight_grouping   
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    15
+   max_distance_to_players    20
+   min_distance_group_placement  7
+   max_distance_to_other_zones  7
+}
+endif
+
+/* NEAR STONE */
+
+if NO_PLAYER_STONE
+else
+create_object STONE
+{
+   if EXTRA_LOW_PLAYER_STONE
+     number_of_objects          2
+     group_placement_radius     1
+   elseif LOW_PLAYER_STONE
+     number_of_objects          3
+     group_placement_radius     2
+   elseif STANDARD_PLAYER_STONE
+     number_of_objects          4
+     group_placement_radius     2
+   elseif HIGH_PLAYER_STONE
+     number_of_objects          5
+     group_placement_radius     3
+   elseif EXTRA_HIGH_PLAYER_STONE
+     number_of_objects          6
+     group_placement_radius     3
+   endif
+
+  number_of_groups 1
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    20
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+endif
+
+/* FAR GOLD */
+
+if NO_PLAYER_GOLD
+else
+   create_object GOLD
+   {
+   if EXTRA_LOW_PLAYER_GOLD
+     number_of_objects          2
+     group_placement_radius     1
+   elseif LOW_PLAYER_GOLD
+     number_of_objects          3
+     group_placement_radius     2
+   elseif STANDARD_PLAYER_GOLD
+     number_of_objects          4
+     group_placement_radius     2
+   elseif HIGH_PLAYER_GOLD
+     number_of_objects          5
+     group_placement_radius     3
+   elseif EXTRA_HIGH_PLAYER_GOLD
+     number_of_objects          6
+     group_placement_radius     3
+   endif
+
+   number_of_groups 1   
+   set_tight_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    20
+   max_distance_to_players    30
+   min_distance_group_placement  7
+   max_distance_to_other_zones  7
+}
+endif
+
+/* MEDIUM STONE */
+
+if NO_PLAYER_STONE
+else
+create_object STONE
+{
+   if EXTRA_LOW_PLAYER_STONE
+     number_of_objects          2
+     group_placement_radius     1
+   elseif LOW_PLAYER_STONE
+     number_of_objects          3
+     group_placement_radius     2
+   elseif STANDARD_PLAYER_STONE
+     number_of_objects          4
+     group_placement_radius     2
+   elseif HIGH_PLAYER_STONE
+     number_of_objects          5
+     group_placement_radius     3
+   elseif EXTRA_HIGH_PLAYER_STONE
+     number_of_objects          6
+     group_placement_radius     3
+   endif
+
+  number_of_groups 1
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    20
+  max_distance_to_players    27
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+endif
+
+/* Stuff to hunt. */
+
+if NO_DEER_GROUPS
+else
+create_object DEER
+{
+   if STANDARD_DEER
+      number_of_objects          4
+      group_variance             1
+      group_placement_radius     3
+   elseif HIGH_DEER
+      number_of_objects          6
+      group_variance             1
+      group_placement_radius     3
+   elseif EXTRA_HIGH_DEER
+      number_of_objects          7
+      group_variance             2
+      group_placement_radius     3
+   elseif LOW_DEER
+      number_of_objects          3
+      group_variance             1
+      group_placement_radius     3
+   elseif EXTRA_LOW_DEER
+      number_of_objects          2
+      group_variance             0
+      group_placement_radius     3
+   endif
+  
+   if STANDARD_DEER_GROUPS
+      number_of_groups 1
+   elseif HIGH_DEER_GROUPS
+      number_of_groups 1
+   elseif EXTRA_HIGH_DEER_GROUPS
+      number_of_groups 2
+   elseif LOW_DEER_GROUPS
+      number_of_groups 1
+   elseif EXTRA_LOW_DEER_GROUPS
+      number_of_groups 1
+   endif
+
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    14
+   max_distance_to_players    30
+}
+endif
+
+if NO_BOAR_GROUPS
+else
+if TROPICAL_TILE
+   create_object JAVELINA
+else
+   create_object BOAR
+endif
+{
+  if STANDARD_BOAR
+      number_of_objects          1
+      number_of_groups           2
+      group_placement_radius     3
+   elseif HIGH_BOAR
+      number_of_objects          1
+      number_of_groups           3
+      group_placement_radius     3
+   elseif EXTRA_HIGH_BOAR
+      number_of_objects          2
+      number_of_groups           2
+      group_placement_radius     3
+   elseif LOW_BOAR
+      number_of_objects          1
+      group_placement_radius     3
+   elseif EXTRA_LOW_BOAR
+      number_of_objects          1
+      group_placement_radius     3
+   endif
+  
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    16
+   max_distance_to_players    22
+}
+endif
+
+/* WOLVES or JAGUARS */
+
+if NO_WOLVES
+else
+if TROPICAL_TILE
+   create_object JAGUAR
+else
+   create_object WOLF
+endif
+{
+  if STANDARD_WOLVES
+     number_of_objects          2
+  elseif HIGH_WOLVES
+     number_of_objects          3  
+  elseif EXTRA_HIGH_WOLVES
+     number_of_objects          4
+  elseif LOW_WOLVES
+     number_of_objects          1
+  elseif EXTRA_LOW_WOLVES
+     number_of_objects          1
+  endif
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_group_placement 12
+  min_distance_to_players    24
+  max_distance_to_players    40
+}
+endif
+
+/* RESOURCES BY MAP */
+
+if NO_FORAGE_GROUPS
+else
+
+if LARGE_MAP
+create_object FORAGE
+{
+  if EXTRA_LOW_RANDOM_FORAGE
+    number_of_groups           1    
+    number_of_objects          3
+    group_placement_radius     3
+  elseif LOW_RANDOM_FORAGE
+    number_of_groups           1    
+    number_of_objects          4
+    group_placement_radius     3
+  elseif STANDARD_RANDOM_FORAGE
+    number_of_groups           1    
+    number_of_objects          5
+    group_placement_radius     3
+  elseif HIGH_RANDOM_FORAGE
+    number_of_groups           2    
+    number_of_objects          4
+    group_placement_radius     3
+  elseif EXTRA_HIGH_RANDOM_FORAGE
+    number_of_groups           3    
+    number_of_objects          4
+    group_placement_radius     3
+  endif
+  
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  7
+}
+endif
+
+if HUGE_MAP
+create_object FORAGE
+{
+  if EXTRA_LOW_RANDOM_FORAGE
+    number_of_groups           1    
+    number_of_objects          5
+    group_placement_radius     3
+  elseif LOW_RANDOM_FORAGE
+    number_of_groups           2    
+    number_of_objects          4
+    group_placement_radius     3
+  elseif STANDARD_RANDOM_FORAGE
+    number_of_groups           2    
+    number_of_objects          5
+    group_placement_radius     3
+  elseif HIGH_RANDOM_FORAGE
+    number_of_groups           2    
+    number_of_objects          6
+    group_placement_radius     3
+  elseif EXTRA_HIGH_RANDOM_FORAGE
+    number_of_groups           3    
+    number_of_objects          4
+    group_placement_radius     3
+  endif
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  7
+}
+endif
+
+if GIGANTIC_MAP
+create_object FORAGE
+{
+  if EXTRA_LOW_RANDOM_FORAGE
+    number_of_groups           2    
+    number_of_objects          5
+    group_placement_radius     3
+  elseif LOW_RANDOM_FORAGE
+    number_of_groups           3    
+    number_of_objects          4
+    group_placement_radius     3
+  elseif STANDARD_RANDOM_FORAGE
+    number_of_groups           3    
+    number_of_objects          5
+    group_placement_radius     3
+  elseif HIGH_RANDOM_FORAGE
+    number_of_groups           3    
+    number_of_objects          6
+    group_placement_radius     3
+  elseif EXTRA_HIGH_RANDOM_FORAGE
+    number_of_groups           4    
+    number_of_objects          4
+    group_placement_radius     3
+  endif
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  7
+}
+endif
+
+endif
+
+if LARGE_MAP
+create_object DEER
+{
+   if STANDARD_DEER
+      number_of_groups           1    
+      number_of_objects          5
+      group_placement_radius     3
+   elseif HIGH_DEER
+      number_of_groups           2    
+      number_of_objects          4
+      group_placement_radius     3
+   elseif EXTRA_HIGH_DEER
+      number_of_groups           3    
+      number_of_objects          4
+      group_placement_radius     3
+   elseif LOW_DEER
+      number_of_groups           1    
+      number_of_objects          4
+      group_placement_radius     3
+   elseif EXTRA_LOW_DEER
+      number_of_groups           1    
+      number_of_objects          3
+      group_placement_radius     3
+   endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  10
+}
+endif
+
+if HUGE_MAP
+create_object DEER
+{
+   if STANDARD_DEER
+      number_of_groups           2    
+      number_of_objects          5
+      group_placement_radius     3
+   elseif HIGH_DEER
+      number_of_groups           2    
+      number_of_objects          6
+      group_placement_radius     3
+   elseif EXTRA_HIGH_DEER
+      number_of_groups           3    
+      number_of_objects          5
+      group_placement_radius     3
+   elseif LOW_DEER
+      number_of_groups           2    
+      number_of_objects          4
+      group_placement_radius     3
+   elseif EXTRA_LOW_DEER
+      number_of_groups           1    
+      number_of_objects          5
+      group_placement_radius     3
+   endif
+  
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  10
+}
+
+create_object BOAR
+{
+   if STANDARD_BOAR
+      number_of_groups           2    
+      number_of_objects          1
+      group_placement_radius     3
+   elseif HIGH_BOAR
+      number_of_groups           2    
+      number_of_objects          1
+      group_placement_radius     3
+   elseif EXTRA_HIGH_BOAR
+      number_of_groups           3    
+      number_of_objects          1
+      group_placement_radius     3
+   elseif LOW_BOAR
+      number_of_groups           1    
+      number_of_objects          1
+      group_placement_radius     3
+   elseif EXTRA_LOW_BOAR
+      number_of_groups           1    
+      number_of_objects          1
+      group_placement_radius     3
+   endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  10
+}
+endif
+
+if GIGANTIC_MAP
+create_object DEER
+{
+   if STANDARD_DEER
+      number_of_groups           3    
+      number_of_objects          5
+      group_placement_radius     3
+   elseif HIGH_DEER
+      number_of_groups           4    
+      number_of_objects          5
+      group_placement_radius     3
+   elseif EXTRA_HIGH_DEER
+      number_of_groups           6    
+      number_of_objects          5
+      group_placement_radius     3
+   elseif LOW_DEER
+      number_of_groups           2    
+      number_of_objects          4
+      group_placement_radius     3
+   elseif EXTRA_LOW_DEER
+      number_of_groups           1    
+      number_of_objects          5
+      group_placement_radius     3
+   endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  10
+}
+create_object BOAR
+{
+   if STANDARD_BOAR
+      number_of_groups           3    
+      number_of_objects          1
+      group_placement_radius     3
+   elseif HIGH_BOAR
+      number_of_groups           4    
+      number_of_objects          1
+      group_placement_radius     3
+   elseif EXTRA_HIGH_BOAR
+      number_of_groups           5   
+      number_of_objects          1
+      group_placement_radius     3
+   elseif LOW_BOAR
+      number_of_groups           2    
+      number_of_objects          1
+      group_placement_radius     3
+   elseif EXTRA_LOW_BOAR
+      number_of_groups           1    
+      number_of_objects          1
+      group_placement_radius     3
+   endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  10
+}
+endif
+
+/* EXTRA GOLD */
+
+if TINY_MAP
+if NO_RANDOM_GOLD
+else
+create_object GOLD
+{
+  if EXTRA_LOW_RANDOM_GOLD
+     number_of_groups           1    
+     number_of_objects          3
+     group_placement_radius     2
+  elseif LOW_RANDOM_GOLD
+     number_of_groups           2    
+     number_of_objects          2
+     group_placement_radius     1
+  elseif STANDARD_RANDOM_GOLD
+     number_of_groups           2    
+     number_of_objects          3
+     group_placement_radius     2
+  elseif HIGH_RANDOM_GOLD
+     number_of_groups           2    
+     number_of_objects          4
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_GOLD
+     number_of_groups           3    
+     number_of_objects          3
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if SMALL_MAP
+if NO_RANDOM_GOLD
+else
+create_object GOLD
+{
+  if EXTRA_LOW_RANDOM_GOLD
+     number_of_groups           1    
+     number_of_objects          3
+     group_placement_radius     2
+  elseif LOW_RANDOM_GOLD
+     number_of_groups           2    
+     number_of_objects          2
+     group_placement_radius     1
+  elseif STANDARD_RANDOM_GOLD
+     number_of_groups           2    
+     number_of_objects          3
+     group_placement_radius     2
+  elseif HIGH_RANDOM_GOLD
+     number_of_groups           2    
+     number_of_objects          4
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_GOLD
+     number_of_groups           3    
+     number_of_objects          3
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if MEDIUM_MAP
+if NO_RANDOM_GOLD
+else
+create_object GOLD
+{
+  if EXTRA_LOW_RANDOM_GOLD
+     number_of_groups           1    
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_GOLD
+     number_of_groups           2    
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     1
+  elseif STANDARD_RANDOM_GOLD
+     number_of_groups           3    
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_GOLD
+     number_of_groups           4    
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_GOLD
+     number_of_groups           5    
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  endif
+ 
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if LARGE_MAP
+if NO_RANDOM_GOLD
+else
+create_object GOLD
+{
+  if EXTRA_LOW_RANDOM_GOLD
+     number_of_groups           1    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_GOLD
+     number_of_groups           2    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     1
+  elseif STANDARD_RANDOM_GOLD
+     number_of_groups           3    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_GOLD
+     number_of_groups           4    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_GOLD
+     number_of_groups           5    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  endif
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if HUGE_MAP
+if NO_RANDOM_GOLD
+else
+create_object GOLD
+{
+  if EXTRA_LOW_RANDOM_GOLD
+     number_of_groups           2    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_GOLD
+     number_of_groups           3    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     1
+  elseif STANDARD_RANDOM_GOLD
+     number_of_groups           4    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_GOLD
+     number_of_groups           5    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_GOLD
+     number_of_groups           6    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if GIGANTIC_MAP
+if NO_RANDOM_GOLD
+else
+create_object GOLD
+{
+  if EXTRA_LOW_RANDOM_GOLD
+     number_of_groups           3    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_GOLD
+     number_of_groups           4    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     1
+  elseif STANDARD_RANDOM_GOLD
+     number_of_groups           5    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_GOLD
+     number_of_groups           6    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_GOLD
+     number_of_groups           7    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+/* EXTRA STONE */
+
+if TINY_MAP
+if NO_RANDOM_STONE
+else
+create_object STONE
+{
+  if EXTRA_LOW_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          2
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  elseif STANDARD_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          5
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          6
+     group_variance             1
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if SMALL_MAP
+if NO_RANDOM_STONE
+else
+create_object STONE
+{
+  if EXTRA_LOW_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          2
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  elseif STANDARD_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          5
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_STONE
+     number_of_groups           1    
+     number_of_objects          6
+     group_variance             1
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if MEDIUM_MAP
+if NO_RANDOM_STONE
+else
+create_object STONE
+{
+  if EXTRA_LOW_RANDOM_STONE
+     number_of_groups           2    
+     number_of_objects          2
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_STONE
+     number_of_groups           2    
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  elseif STANDARD_RANDOM_STONE
+     number_of_groups           2    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_STONE
+     number_of_groups           2    
+     number_of_objects          5
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_STONE
+     number_of_groups           2    
+     number_of_objects          6
+     group_variance             1
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if LARGE_MAP
+if NO_RANDOM_STONE
+else
+create_object STONE
+{
+  if EXTRA_LOW_RANDOM_STONE
+     number_of_groups           3    
+     number_of_objects          2
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_STONE
+     number_of_groups           3   
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  elseif STANDARD_RANDOM_STONE
+     number_of_groups           3    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_STONE
+     number_of_groups           3   
+     number_of_objects          5
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_STONE
+     number_of_groups           3    
+     number_of_objects          6
+     group_variance             1
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if HUGE_MAP
+if NO_RANDOM_STONE
+else
+create_object STONE
+{
+  if EXTRA_LOW_RANDOM_STONE
+     number_of_groups           4    
+     number_of_objects          2
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_STONE
+     number_of_groups           4   
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  elseif STANDARD_RANDOM_STONE
+     number_of_groups           4    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_STONE
+     number_of_groups           4   
+     number_of_objects          5
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_STONE
+     number_of_groups           4    
+     number_of_objects          6
+     group_variance             1
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+if GIGANTIC_MAP
+if NO_RANDOM_STONE
+else
+create_object STONE
+{
+  if EXTRA_LOW_RANDOM_STONE
+     number_of_groups           5    
+     number_of_objects          2
+     group_variance             1
+     group_placement_radius     2
+  elseif LOW_RANDOM_STONE
+     number_of_groups           5   
+     number_of_objects          3
+     group_variance             1
+     group_placement_radius     2
+  elseif STANDARD_RANDOM_STONE
+     number_of_groups           5    
+     number_of_objects          4
+     group_variance             1
+     group_placement_radius     2
+  elseif HIGH_RANDOM_STONE
+     number_of_groups           5   
+     number_of_objects          5
+     group_variance             1
+     group_placement_radius     2
+  elseif EXTRA_HIGH_RANDOM_STONE
+     number_of_groups           5    
+     number_of_objects          6
+     group_variance             1
+     group_placement_radius     2
+  endif
+
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  14
+}
+endif
+endif
+
+/* These are the straggler trees near every Town Center. */
+
+if GRASS_TILE
+   create_object OAKTREE
+elseif TROPICAL_TILE
+   create_object JUNGLE_TREE
+elseif SNOW_TILE
+   create_object SNOW_PINE_TREE
+elseif DESERT_TILE
+   create_object PALMTREE
+endif
+{
+  if EXTRA_LOW_PLAYER_TREES
+     number_of_objects             1
+  elseif LOW_PLAYER_TREES
+     number_of_objects             1
+  elseif STANDARD_PLAYER_TREES
+     number_of_objects             2
+  elseif HIGH_PLAYER_TREES
+     number_of_objects             3
+  elseif EXTRA_HIGH_PLAYER_TREES
+     number_of_objects             3
+  endif
+  
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       4
+  max_distance_to_players       5
+  min_distance_group_placement  2
+}
+
+if GRASS_TILE
+   create_object OAKTREE
+elseif TROPICAL_TILE
+   create_object JUNGLE_TREE
+elseif SNOW_TILE
+   create_object SNOW_PINE_TREE
+elseif DESERT_TILE
+   create_object PALMTREE
+endif
+{
+   if EXTRA_LOW_PLAYER_TREES
+     number_of_objects             1
+  elseif LOW_PLAYER_TREES
+     number_of_objects             2
+  elseif STANDARD_PLAYER_TREES
+     number_of_objects             3
+  elseif HIGH_PLAYER_TREES
+     number_of_objects             3
+  elseif EXTRA_HIGH_PLAYER_TREES
+     number_of_objects             4
+  endif
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       8
+  min_distance_group_placement  2
+}
+
+/* More wildlife.  Birds have no affect on gameplay, but make 
+the map more interesting. */
+
+/* FISH */
+
+if WATER_MAP
+create_object MARLIN1
+{
+  
+  if NO_MARLIN
+     number_of_objects                   0
+  elseif EXTRA_LOW_MARLIN
+     number_of_objects                   4
+  elseif LOW_MARLIN
+     number_of_objects                   7
+  elseif STANDARD_MARLIN
+     number_of_objects                   10
+  elseif HIGH_MARLIN
+     number_of_objects                   13
+  elseif EXTRA_HIGH_MARLIN
+     number_of_objects                   16
+  endif
+                    
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         7
+  min_distance_group_placement  7
+}
+
+create_object SNAPPER
+{
+  if NO_FISH
+     number_of_objects                   0
+  elseif EXTRA_LOW_FISH
+     number_of_objects                   5
+  elseif LOW_FISH
+     number_of_objects                   10
+  elseif STANDARD_FISH
+     number_of_objects                   12
+  elseif HIGH_FISH
+     number_of_objects                   15
+  elseif EXTRA_HIGH_FISH
+     number_of_objects                   20
+  endif
+
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+  min_distance_group_placement  4
+} 
+
+create_object SNAPPER
+{
+  if NO_FISH
+     number_of_objects			 0
+  elseif EXTRA_LOW_FISH
+     number_of_objects                   5
+  elseif LOW_FISH
+     number_of_objects                   10
+  elseif STANDARD_FISH
+     number_of_objects                   13
+  elseif HIGH_FISH
+     number_of_objects                   15
+  elseif EXTRA_HIGH_FISH
+     number_of_objects                   20
+  endif
+
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+  min_distance_group_placement  4
+} 
+
+create_object SHORE_FISH
+{
+  if NO_SHORE_FISH
+     number_of_objects                   0
+  elseif EXTRA_LOW_SHORE_FISH
+     number_of_objects                   5
+  elseif LOW_SHORE_FISH
+     number_of_objects                   15
+  elseif STANDARD_SHORE_FISH
+     number_of_objects                   25
+  elseif HIGH_SHORE_FISH
+     number_of_objects                   35
+  elseif EXTRA_HIGH_SHORE_FISH
+     number_of_objects                   45
+  endif
+
+  set_scaling_to_map_size
+  min_distance_group_placement         2
+  set_gaia_object_only
+}
+
+else
+create_object SNAPPER
+{
+  if NO_FISH
+     number_of_objects                   0
+  elseif EXTRA_LOW_FISH
+     number_of_objects                   3
+  elseif LOW_FISH
+     number_of_objects                   6
+  elseif STANDARD_FISH
+     number_of_objects                   9
+  elseif HIGH_FISH
+     number_of_objects                   12
+  elseif EXTRA_HIGH_FISH
+     number_of_objects                   15
+  endif
+
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+  min_distance_group_placement  4
+} 
+
+create_object SNAPPER
+{
+  if NO_FISH
+     number_of_objects			 0
+  elseif EXTRA_LOW_FISH
+     number_of_objects                   3
+  elseif LOW_FISH
+     number_of_objects                   6
+  elseif STANDARD_FISH
+     number_of_objects                   9
+  elseif HIGH_FISH
+     number_of_objects                   12
+  elseif EXTRA_HIGH_FISH
+     number_of_objects                   15
+  endif
+
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+  min_distance_group_placement  4
+} 
+
+create_object SHORE_FISH
+{
+  if NO_SHORE_FISH
+     number_of_objects                   0
+  elseif EXTRA_LOW_SHORE_FISH
+     number_of_objects                   5
+  elseif LOW_SHORE_FISH
+     number_of_objects                   10
+  elseif STANDARD_SHORE_FISH
+     number_of_objects                   15
+  elseif HIGH_SHORE_FISH
+     number_of_objects                   25
+  elseif EXTRA_HIGH_SHORE_FISH
+     number_of_objects                   30
+  endif
+
+  set_scaling_to_map_size
+  min_distance_group_placement         3
+  set_gaia_object_only
+}
+endif
+
+/* BIRDS */
+
+if NO_HAWK
+else
+   if TROPICAL_TILE
+      create_object MACAW
+   else
+      create_object HAWK
+   endif
+   {
+   if EXTRA_LOW_HAWK
+      number_of_objects                   2
+   elseif LOW_HAWK
+      number_of_objects                   4
+   elseif STANDARD_HAWK
+      number_of_objects                   6
+   elseif HIGH_HAWK
+      number_of_objects                   8
+   elseif EXTRA_HIGH_HAWK
+      number_of_objects                   10
+   endif
+  
+   set_scaling_to_map_size
+   }
+endif
+
+/* EXTRA WOLVES */
+
+if NO_WOLVES
+else
+   if TROPICAL_TILE
+      create_object JAGUAR
+   else
+      create_object WOLF
+   endif
+   {
+      if EXTRA_LOW_WOLVES
+         number_of_objects                   0
+      elseif LOW_WOLVES
+         number_of_objects                   1
+      elseif STANDARD_WOLVES
+         number_of_objects                   2
+      elseif HIGH_WOLVES
+         number_of_objects                   2
+      elseif EXTRA_HIGH_WOLVES
+         number_of_objects                   3
+      endif
+
+      number_of_groups          3
+      set_loose_grouping
+      set_scaling_to_map_size
+      set_gaia_object_only
+      min_distance_group_placement 12
+      min_distance_to_players    40
+      max_distance_to_players    120
+   } 
+endif
+
+/*  These are the lone trees scattered across the map.  
+It makes the map look more believable than if there 
+were just forests and no straggler trees. */
+
+if GRASS_TILE
+   create_object OAKTREE
+elseif TROPICAL_TILE
+   create_object JUNGLE_TREE
+elseif SNOW_TILE
+   create_object SNOW_PINE_TREE
+elseif DESERT_TILE
+   create_object PALMTREE
+endif
+{
+  number_of_objects          15
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_to_players    8
+}
+
+if GRASS_TILE
+   create_object PINETREE
+elseif TROPICAL_TILE
+   create_object JUNGLE_TREE
+elseif SNOW_TILE
+   create_object SNOW_PINE_TREE
+elseif DESERT_TILE
+   create_object PALMTREE
+endif
+{
+  number_of_objects          15
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_to_players    8
+}
+
+/* These are extra non-player sheep */
+if EXTRA_HIGH_SHEEP_GROUPS
+   if TROPICAL_TILE
+      create_object TURKEY
+   else
+      create_object SHEEP
+   endif
+   {
+   
+   number_of_groups 4   
+
+   if STANDARD_SHEEP
+      number_of_objects          2
+   elseif HIGH_SHEEP
+      number_of_objects          2
+   elseif EXTRA_HIGH_SHEEP
+      number_of_objects          3
+   elseif LOW_SHEEP
+      number_of_objects          2
+   elseif EXTRA_LOW_SHEEP
+      number_of_objects          1
+   endif
+
+   set_loose_grouping
+   set_scaling_to_map_size
+   set_gaia_object_only
+   min_distance_group_placement 10
+   min_distance_to_players    40
+   max_distance_to_players    120
+   }
+endif
+
+/* ****************************************************** */
+/* ********************* ELEVATION ********************** */
+/* ****************************************************** */
+
+if NO_ELEVATION
+else
+<ELEVATION_GENERATION>
+create_elevation        7
+{
+
+   if GRASS_TILE
+      base_terrain GRASS
+   elseif TROPICAL_TILE
+      base_terrain GRASS3
+   elseif SNOW_TILE
+      base_terrain SNOW
+   elseif DESERT_TILE
+      base_terrain DESERT
+   endif
+
+  if NORMAL_ELEVATION
+     number_of_clumps 		14
+     number_of_tiles 		2000
+  elseif HIGH_ELEVATION
+     number_of_clumps 		20
+     number_of_tiles 		3000
+  elseif LOW_ELEVATION
+     number_of_clumps 		10
+     number_of_tiles 		1000
+  endif
+
+  set_scale_by_groups     
+  set_scale_by_size      
+}
+endif
+
+/* ****************************************************** */
+/* *********************** CLIFFS *********************** */
+/* ****************************************************** */
+
+if NO_CLIFF
+else
+<CLIFF_GENERATION>
+
+if LOW_CLIFF
+   min_number_of_cliffs 3
+   max_number_of_cliffs 6
+elseif NORMAL_CLIFF
+   min_number_of_cliffs 5
+   max_number_of_cliffs 8
+elseif HIGH_CLIFF
+   min_number_of_cliffs 7
+   max_number_of_cliffs 10
+endif
+min_length_of_cliff  4
+max_length_of_cliff  10
+cliff_curliness      10
+min_distance_cliffs  3  
+endif
+
+/* ****************************************************** */
+/* ********************* CONNECTIONS ******************** */
+/* ****************************************************** */
+
+if FOREST_MAP
+   <CONNECTION_GENERATION>
+   if ALL_PLAYERS_CONNECTIONS
+      create_connect_all_players_land
+   else
+      create_connect_all_lands
+   endif  
+   { 
+   if GRASS_TILE
+      replace_terrain FOREST GRASS
+      terrain_size    FOREST  4 2
+   elseif TROPICAL_TILE
+      replace_terrain JUNGLE GRASS3
+      terrain_size    JUNGLE  4 2
+   elseif SNOW_TILE
+      replace_terrain SNOW_FOREST SNOW
+      terrain_size    SNOW_FOREST  4  2
+   elseif DESERT_TILE
+      replace_terrain PALM_DESERT DESERT
+      terrain_size    PALM_DESERT  4  2
+   endif
+   }
+endif
+
+if NO_CONNECTIONS
+else
+<CONNECTION_GENERATION>
+if ALL_CONNECTIONS
+   create_connect_all_lands
+elseif TEAM_CONNECTIONS
+   create_connect_teams_lands
+elseif ALL_PLAYERS_CONNECTIONS
+   create_connect_all_players_land
+endif		
+{
+
+  if SNOW_TILE
+     replace_terrain WATER         ICE
+     replace_terrain MED_WATER     ICE
+     replace_terrain DEEP_WATER    ICE
+  else
+     replace_terrain WATER         SHALLOW
+     replace_terrain MED_WATER     SHALLOW
+     replace_terrain DEEP_WATER    SHALLOW
+  endif
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+
+  if NARROW_CONNECTIONS
+     terrain_size    WATER         2       1
+     terrain_size    MED_WATER     2       1
+     terrain_size    DEEP_WATER    2       1  
+  elseif MEDIUM_CONNECTIONS
+     terrain_size    WATER         4       1
+     terrain_size    MED_WATER     4       1
+     terrain_size    DEEP_WATER    4       1
+  elseif WIDE_CONNECTIONS
+     terrain_size    WATER         6       2
+     terrain_size    MED_WATER     6       2
+     terrain_size    DEEP_WATER    6       2
+  endif
+}
+/* END OF MAP */

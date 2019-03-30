@@ -3,10 +3,17 @@
     "id": "kotd",
     "name": "King of the Desert",
     "tournaments": [
-      "kotdaoc",
+      "kotdaoc"
+    ]
+  },
+  {
+    "id": "kotd2",
+    "name": "King of the Desert 2",
+    "tournaments": [
       "kotd2"
     ]
   },
+
   {
     "id": "moa2v2",
     "name": "Masters of Arabia 2v2",
@@ -84,6 +91,14 @@
       "escapeaoe-ECLMidEast1",
       "escapeaoe-ECLMidEast2",
       "escapeaoe-ECLAsia1"
+    ]
+  },
+  {
+    "id": "hc2",
+    "name": "Hidden Cup 2",
+    "tournaments": [
+      "HiddenCup2Qual",
+      "HiddenCup2"
     ]
   }
 ]

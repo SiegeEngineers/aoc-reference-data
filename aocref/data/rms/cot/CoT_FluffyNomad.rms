@@ -1,0 +1,298 @@
+/* Fluffy Nomad made by The_Prophet for CoT Tournament */
+
+/* ************************************ */
+<PLAYER_SETUP>
+  random_placement
+  nomad_resources
+
+<LAND_GENERATION>
+
+base_terrain GRASS
+
+create_player_lands
+{
+  terrain_type GRASS2
+start_random
+  percent_chance 50
+  land_percent                     52
+ percent_chance 50
+  land_percent                     60
+end_random
+base_size                        8
+start_random
+percent_chance 25
+    left_border                    8
+    top_border                     8
+    bottom_border                  8
+percent_chance 25
+    left_border                    8
+    top_border                     8
+    right_border                   8
+percent_chance 25
+    right_border                   8
+    left_border                    8
+    bottom_border                  8
+percent_chance 25
+    right_border                   8
+    top_border                     8
+    bottom_border                  8
+end_random
+border_fuzziness                 15
+zone                             1
+other_zone_avoidance_distance    7
+clumping_factor                 15
+}
+
+
+/* *********************************** */
+<TERRAIN_GENERATION>
+
+create_terrain WATER
+{
+base_terrain GRASS
+spacing_to_other_terrain_types 2
+land_percent 100
+}
+
+create_terrain WATER
+{
+base_terrain GRASS
+spacing_to_other_terrain_types 2
+land_percent 100
+}
+
+create_terrain WATER
+{
+base_terrain GRASS
+spacing_to_other_terrain_types 2
+land_percent 100
+}
+
+create_terrain PINE_FOREST
+{
+base_terrain GRASS2
+land_percent 12
+number_of_clumps 34
+spacing_to_other_terrain_types 4
+  clumping_factor                25
+}
+
+/* MIXING WATER */
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps 6
+spacing_to_other_terrain_types 3
+land_percent 40
+}
+
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+number_of_clumps 6
+spacing_to_other_terrain_types 5
+land_percent 5
+}
+
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+number_of_clumps 20
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+create_terrain MED_WATER
+{
+base_terrain DEEP_WATER
+number_of_clumps 30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+create_terrain WATER
+{
+base_terrain MED_WATER
+number_of_clumps 30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       10
+  max_distance_to_players       30
+ }
+
+create_object RELIC
+{
+   number_of_objects            5
+   min_distance_to_players     25
+   temp_min_distance_group_placement 20
+}
+
+/* SPECIAL STUFF FOR REGICIDE */
+
+if REGICIDE
+create_object VILLAGER
+{
+  number_of_objects             7
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+endif
+
+/* NEAR FORAGE */
+
+create_object FORAGE
+{
+  number_of_objects          5
+  number_of_groups	     150
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement  45
+}
+
+create_object GOLD
+{
+  number_of_objects          5
+  number_of_groups	     150
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement  25
+  max_distance_to_other_zones 7
+ }
+
+create_object STONE
+{
+  number_of_objects          4
+  number_of_groups	     150
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement  35
+  max_distance_to_other_zones 7
+ }
+
+create_object SHEEP
+{
+   number_of_objects 1
+   number_of_groups  150
+   set_loose_grouping
+   set_gaia_object_only
+  temp_min_distance_group_placement  17
+} 
+
+create_object DEER
+{
+  number_of_objects          4
+  number_of_groups	     150
+  group_placement_radius     3
+  set_loose_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement  30
+}
+
+create_object BOAR
+{
+  number_of_objects          1
+  number_of_groups		150
+  set_loose_grouping  
+  set_gaia_object_only
+  temp_min_distance_group_placement  25
+}
+
+create_object HAWK
+{
+   number_of_objects         6
+   set_scaling_to_map_size
+}
+
+create_object PINETREE
+{
+  number_of_objects          30
+  set_gaia_object_only
+  set_scaling_to_map_size
+  temp_min_distance_group_placement  15
+}
+
+create_object SALMON
+{
+  number_of_objects 140
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 5
+     min_distance_group_placement 7
+terrain_to_place_on WATER
+}
+
+create_object SNAPPER
+{
+  number_of_objects 140
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 4
+     min_distance_group_placement 7
+terrain_to_place_on WATER
+}
+
+create_object SALMON
+{
+  number_of_objects 140
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 5
+     min_distance_group_placement 9
+terrain_to_place_on MED_WATER
+}
+
+create_object SNAPPER
+{
+  number_of_objects 140
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 5
+     min_distance_group_placement 9
+terrain_to_place_on DEEP_WATER
+}
+
+create_object SHORE_FISH
+{
+  number_of_objects                   25
+  set_scaling_to_map_size
+  set_gaia_object_only
+ min_distance_group_placement  3
+}
+
+
+/* ****************************************************** */
+
+
+<ELEVATION_GENERATION>
+
+create_elevation        4
+{
+  base_terrain GRASS2
+  number_of_clumps 		14
+  number_of_tiles 		2000
+  set_scale_by_groups
+  set_scale_by_size           
+}

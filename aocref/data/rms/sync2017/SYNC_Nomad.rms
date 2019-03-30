@@ -1,0 +1,354 @@
+/* ************************************ */
+/* NC17v3_Nomad */
+/* ************************************ */
+
+<PLAYER_SETUP>
+
+random_placement
+nomad_resources
+ai_info_map_type NOMAD 1 0 1
+
+<LAND_GENERATION>
+
+base_terrain WATER
+
+start_random
+percent_chance 30
+#define DESERT_MAP
+end_random
+
+create_player_lands 
+{
+if DESERT_MAP
+terrain_type DIRT
+else
+terrain_type GRASS
+endif
+land_percent 61
+base_size 9
+start_random
+percent_chance 25
+top_border 12
+bottom_border 12
+left_border 12
+percent_chance 25
+top_border 12
+bottom_border 12
+right_border 12
+percent_chance 25
+top_border 12
+right_border 12
+left_border 12
+percent_chance 25
+bottom_border 12
+left_border 12
+right_border 12
+end_random
+zone 1
+clumping_factor 11
+other_zone_avoidance_distance 7
+}
+
+<TERRAIN_GENERATION>
+
+if DESERT_MAP
+
+create_terrain PALM_DESERT
+{
+base_terrain DIRT
+spacing_to_other_terrain_types 4
+land_percent 7
+number_of_clumps 8
+set_avoid_player_start_areas     
+set_scale_by_groups
+clumping_factor 25
+}
+
+create_terrain PALM_DESERT
+{
+base_terrain DIRT
+spacing_to_other_terrain_types 4
+land_percent 1
+number_of_clumps 3
+set_avoid_player_start_areas     
+set_scale_by_groups
+clumping_factor 25
+}
+
+create_terrain DESERT
+{
+base_terrain DIRT
+number_of_clumps 8
+spacing_to_other_terrain_types 2
+land_percent 4
+set_scale_by_size
+}
+
+create_terrain DIRT3
+{
+base_terrain DIRT
+number_of_clumps 20
+spacing_to_other_terrain_types 2
+land_percent 2
+set_scale_by_size
+}
+
+else
+
+create_terrain FOREST
+{
+base_terrain GRASS
+spacing_to_other_terrain_types 4
+land_percent 7
+number_of_clumps 8
+set_avoid_player_start_areas     
+set_scale_by_groups
+clumping_factor 25
+}
+
+create_terrain PINE_FOREST
+{
+base_terrain GRASS
+spacing_to_other_terrain_types 4
+land_percent 1
+number_of_clumps 3
+set_avoid_player_start_areas     
+set_scale_by_groups
+clumping_factor 25
+}
+
+create_terrain DIRT
+{
+base_terrain GRASS
+number_of_clumps 8
+spacing_to_other_terrain_types 2
+land_percent 4
+set_scale_by_size
+}
+
+create_terrain GRASS3
+{
+base_terrain GRASS
+number_of_clumps 20
+spacing_to_other_terrain_types 2
+land_percent 2
+set_scale_by_size
+}
+
+endif
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps 999
+spacing_to_other_terrain_types 3
+land_percent 100
+}
+
+<OBJECTS_GENERATION>
+
+create_object RELIC
+{
+number_of_objects 5
+temp_min_distance_group_placement 25
+}
+
+create_object SHEEP
+{
+number_of_objects 4
+number_of_groups 5
+group_placement_radius 3
+set_loose_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 30
+}
+
+create_object BOAR
+{
+number_of_objects 1
+number_of_groups 5
+set_loose_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 28
+}
+
+create_object DEER
+{
+number_of_objects 3
+number_of_groups 3
+group_placement_radius 3
+set_loose_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 32
+}
+
+create_object FORAGE
+{
+number_of_objects 5
+number_of_groups 3
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 32
+min_distance_group_placement 9
+}
+
+create_object GOLD
+{
+number_of_objects 7
+number_of_groups 5
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 20
+min_distance_group_placement 8
+}
+
+create_object STONE
+{
+number_of_objects 5
+number_of_groups 5
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_scaling_to_map_size
+temp_min_distance_group_placement 20
+min_distance_group_placement 8
+}
+
+create_object SHORE_FISH
+{
+number_of_objects 30
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 5
+min_distance_group_placement 4
+terrain_to_place_on WATER
+}
+
+create_object DORADO
+{
+number_of_objects 12
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 7
+min_distance_group_placement 4
+terrain_to_place_on MED_WATER
+}
+
+create_object SALMON
+{
+number_of_objects 12
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 8
+min_distance_group_placement 5
+terrain_to_place_on MED_WATER
+}
+
+create_object MARLIN1
+{
+number_of_objects 8
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 9
+min_distance_group_placement 6
+terrain_to_place_on MED_WATER
+}
+
+create_object VILLAGER
+{
+set_place_for_every_player
+temp_min_distance_group_placement 15
+min_distance_group_placement 3
+min_distance_to_players 15
+max_distance_to_players 60
+}
+
+if REGICIDE
+
+create_object VILLAGER
+{
+number_of_groups 7
+number_of_objects 1
+set_place_for_every_player
+temp_min_distance_group_placement 15
+min_distance_group_placement 3
+min_distance_to_players 15
+max_distance_to_players 60
+}
+
+create_object KING
+{
+set_place_for_every_player
+max_distance_to_players 20
+}
+
+endif
+
+<ELEVATION_GENERATION>
+
+create_elevation 7
+{
+if DESERT_MAP
+base_terrain DIRT
+else
+base_terrain GRASS
+endif
+number_of_clumps 8
+number_of_tiles 1200
+set_scale_by_groups
+set_scale_by_size           
+}
+
+<CONNECTION_GENERATION>
+
+create_connect_all_players_land
+{
+replace_terrain WATER SHALLOW
+replace_terrain MED_WATER SHALLOW
+replace_terrain DEEP_WATER SHALLOW
+terrain_cost WATER 7
+terrain_cost MED_WATER 9
+terrain_cost DEEP_WATER 15
+terrain_cost FOREST 7
+terrain_cost PINE_FOREST 7
+terrain_cost PALM_DESERT 7
+terrain_cost SNOW_FOREST 7
+terrain_cost JUNGLE 7
+terrain_cost SHALLOW 3
+terrain_cost DESERT 2
+terrain_cost DIRT 2
+terrain_cost DIRT2 2
+terrain_cost DIRT3 2
+terrain_cost DIRT_SNOW 2
+terrain_cost GRASS 2
+terrain_cost GRASS2 2
+terrain_cost GRASS3 2
+terrain_cost GRASS_SNOW 2
+terrain_cost SNOW 2
+terrain_cost BEACH 7
+terrain_size WATER 2 1
+terrain_size MED_WATER 2 1
+terrain_size DEEP_WATER 2 1  
+terrain_size GRASS 0 0
+terrain_size GRASS2 0 0
+terrain_size GRASS3 0 0
+terrain_size GRASS_SNOW 0 0
+terrain_size SNOW 0 0
+terrain_size DIRT 0 0
+terrain_size DIRT2 0 0
+terrain_size DIRT3 0 0
+terrain_size DIRT_SNOW 0 0
+terrain_size SNOW_FOREST 0 0
+terrain_size FOREST 0 0
+terrain_size PINE_FOREST 0 0
+terrain_size PALM_DESERT 0 0
+terrain_size JUNGLE 0 0
+terrain_size DESERT 0 0
+}

@@ -1,0 +1,373 @@
+/* ************************************ */
+/* NC17v3_JDGrossrox */
+/* ************************************ */
+
+<PLAYER_SETUP>
+
+random_placement
+
+<LAND_GENERATION>
+
+base_terrain GRASS2
+
+start_random
+percent_chance 50
+#define LEFTRIGHT
+percent_chance 50
+#define TOPBOTTOM
+end_random
+
+if LEFTRIGHT
+
+create_land
+{
+terrain_type JUNGLE
+land_percent 100
+border_fuzziness 15
+clumping_factor 20
+top_border 91
+bottom_border 0
+}
+
+create_land
+{
+terrain_type JUNGLE
+land_percent 100
+border_fuzziness 15
+clumping_factor 20
+top_border 0
+bottom_border 91
+}
+
+create_land
+{
+terrain_type WATER
+land_percent 100
+border_fuzziness 15
+clumping_factor 20
+left_border 0
+right_border 90
+}
+
+create_land
+{
+terrain_type WATER
+land_percent 100
+border_fuzziness 15
+clumping_factor 20
+left_border 90
+right_border 0
+}
+
+elseif TOPBOTTOM
+
+
+create_land
+{
+terrain_type WATER
+land_percent 100
+border_fuzziness 15
+clumping_factor 20
+top_border 90
+bottom_border 0
+}
+
+create_land
+{
+terrain_type WATER
+land_percent 100
+border_fuzziness 15
+clumping_factor 20
+top_border 0
+bottom_border 90
+}
+
+create_land
+{
+terrain_type JUNGLE
+land_percent 100
+border_fuzziness 15
+clumping_factor 20
+left_border 0
+right_border 91
+}
+
+create_land
+{
+terrain_type JUNGLE
+land_percent 100
+border_fuzziness 15
+clumping_factor 20
+left_border 91
+right_border 0
+}
+
+endif
+
+create_player_lands
+{
+terrain_type GRASS2
+land_percent 20
+base_size 11
+top_border 9
+bottom_border 9
+left_border 9
+right_border 9
+clumping_factor 15
+set_zone_by_team
+}
+
+<TERRAIN_GENERATION>
+
+create_terrain PINE_FOREST
+{
+base_terrain GRASS2
+land_percent 7
+number_of_clumps 10
+set_avoid_player_start_areas
+set_scale_by_groups
+spacing_to_other_terrain_types 4
+}
+
+create_terrain PINE_FOREST
+{
+base_terrain GRASS
+land_percent 1
+number_of_clumps 3
+set_avoid_player_start_areas
+set_scale_by_groups
+spacing_to_other_terrain_types 4
+}
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+land_percent 100
+number_of_clumps 1000
+spacing_to_other_terrain_types 3
+}
+
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+set_place_for_every_player
+group_placement_radius 18
+min_distance_to_players 0
+max_distance_to_players 0
+}
+
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 6
+}
+
+create_object SCOUT
+{
+number_of_objects 1
+set_place_for_every_player
+min_distance_to_players 7
+max_distance_to_players 9
+}
+
+create_object PINETREE
+{
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 4
+max_distance_to_players 5
+min_distance_group_placement 2
+}
+
+create_object PINETREE
+{
+number_of_objects 3
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 8
+min_distance_group_placement 2
+}
+
+if REGICIDE
+
+create_object VILLAGER
+{
+number_of_objects 7
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object KING
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object CASTLE
+{
+set_place_for_every_player
+min_distance_to_players 10
+max_distance_to_players 11
+}
+
+endif
+
+create_object SHEEP
+{
+number_of_objects 4
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 9
+max_distance_to_players 10
+}
+
+create_object SHEEP
+{
+number_of_objects 2
+number_of_groups  2
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 19
+}
+
+create_object DEER
+{
+number_of_objects 4
+group_placement_radius 3
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 16
+max_distance_to_players 19
+}
+
+create_object BOAR
+{
+number_of_objects 1
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 17
+}
+
+create_object BOAR
+{
+number_of_objects 1
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 17
+}
+
+create_object SHORE_FISH
+{
+number_of_objects 15
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 5
+min_distance_group_placement 3
+}
+
+create_object FORAGE
+{
+number_of_objects 5
+number_of_groups 1
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 10
+max_distance_to_players 12
+min_distance_group_placement 6
+}
+
+create_object GOLD
+{
+number_of_objects 6
+number_of_groups 2
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 12
+max_distance_to_players 15
+min_distance_group_placement 7
+temp_min_distance_group_placement 9
+}
+
+create_object STONE
+{
+number_of_objects 4
+number_of_groups 2
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 14
+max_distance_to_players 17
+min_distance_group_placement 7
+temp_min_distance_group_placement 9
+}
+
+create_object GOLD
+{
+number_of_objects 3
+number_of_groups 2    
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+min_distance_to_players 36
+set_scaling_to_map_size
+temp_min_distance_group_placement 22
+min_distance_group_placement 7
+}
+
+create_object STONE
+{
+number_of_objects 3
+number_of_groups 1    
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+min_distance_to_players 36
+set_scaling_to_map_size
+temp_min_distance_group_placement 26
+min_distance_group_placement 7
+}
+
+create_object RELIC
+{
+number_of_objects 5
+min_distance_to_players 25
+min_distance_group_placement 5
+temp_min_distance_group_placement 20
+}
+
+create_object SHORE_FISH
+{
+number_of_objects 15
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 5
+min_distance_group_placement 3
+}
+
+create_object SALMON
+{
+number_of_objects 15
+set_scaling_to_map_size
+set_gaia_object_only
+temp_min_distance_group_placement 7
+min_distance_group_placement 3
+terrain_to_place_on MED_WATER
+}
+

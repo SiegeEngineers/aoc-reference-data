@@ -1,0 +1,643 @@
+/* ************ ECL MESAS ************ */
+/*
+ * Mesas map for the ECL, used in the Americas region.
+ * This map won the Americas region of the map competition. Thanks to Zetnus
+ * for creating it!
+ *
+ * Author: Zetnus   zetnus@outlook.com
+ * Date created:  16 October 2015
+ * Last edit:   11 March 2019
+ * This map can be downloaded from:
+ * http://aok.heavengames.com/blacksmith/showfile.php?fileid=12576
+ */
+
+/*
+ * This map was created in response to the following request:
+ * Could you do a Southwest Mesas map? Desert map with sparse wood, lots of
+ * elevated self-enclosed cliffs and cliff plateaus with gold/stone at their
+ * foothills.
+ * Could make the lack of wood an interest gameplay feature also.
+ *
+ * If you want to learn about random map scripting, check out [Zetnus's] FAQ:
+ * http://aok.heavengames.com/cgi-bin/forums/display.cgi?action=ct&f=28,42485,,30
+ * and Updated New RMS Guide:
+ * http://aok.heavengames.com/blacksmith/showfile.php?fileid=12178
+ */
+
+
+/* Sling nerf constants. */
+#const TRIBUTE_INEFFICIENCY 46
+#const BANKING 17
+#const COINAGE 23
+#const COINAGE_IMP_DISABLER 224
+
+#const GRASS_CLIFFS 16
+#const DIRT_FOUNDATION 27
+
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+ai_info_map_type ARABIA 0 0 0
+
+/* Sling nerfs */
+effect_percent MOD_RESOURCE TRIBUTE_INEFFICIENCY ATTR_SET 40
+effect_amount DISABLE_TECH BANKING ATTR_DISABLE 17
+effect_amount DISABLE_TECH COINAGE ATTR_DISABLE 23
+effect_amount DISABLE_TECH COINAGE_IMP_DISABLER ATTR_DISABLE 224
+
+/* Map Revealer Line of Sight: set to 0 to avoid boar lure interference. */
+effect_amount SET_ATTRIBUTE MAP_REVEALER ATTR_LINE_OF_SIGHT 0
+
+
+/* ****************************************************** */
+<LAND_GENERATION>
+
+base_terrain DIRT_FOUNDATION
+
+/* Could do some more complicated ICE terrain formation */
+
+create_land {
+  terrain_type ICE
+  if
+    TINY_MAP base_size 25
+  elseif
+    SMALL_MAP base_size 30
+  elseif
+    MEDIUM_MAP base_size 35
+  elseif
+    LARGE_MAP base_size 40
+  elseif
+    HUGE_MAP base_size 45
+  elseif
+    GIGANTIC_MAP base_size 50
+  endif
+  land_percent 100
+  zone 1
+  land_position 50 50
+  left_border 18
+  top_border 18
+  right_border 18
+  bottom_border 18
+  other_zone_avoidance_distance 0
+  clumping_factor 1
+}
+
+create_player_lands {
+  terrain_type ICE
+  base_size 16
+  land_percent 18
+  zone 1
+  left_border 5
+  top_border 5
+  right_border 5
+  bottom_border 5
+  other_zone_avoidance_distance 0
+  clumping_factor 1
+}
+
+/* ****************************************************** */
+<ELEVATION_GENERATION>
+
+create_elevation 4 {
+  base_terrain ICE
+  number_of_tiles 2500
+  number_of_clumps 18
+  set_scale_by_groups
+  spacing 2
+}
+
+/* create_elevation 2 {
+  base_terrain ICE
+  number_of_tiles 500
+  number_of_clumps 18
+  set_scale_by_groups
+  spacing 2
+} */
+
+
+/* ****************************************************** */
+ <CLIFF_GENERATION>
+/* Cliff generation avoids the ICE and makes cliffs only on DIRT_FOUNDATION. */
+min_number_of_cliffs 500
+max_number_of_cliffs 500
+min_length_of_cliff 1
+max_length_of_cliff 15
+cliff_curliness 0
+min_distance_cliffs 0
+min_terrain_distance 0
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+/* Covers the ICE lands with DESERT terrain. */
+create_terrain DESERT {
+  base_terrain ICE
+  land_percent 100
+  number_of_clumps 999999
+}
+
+/*
+ * Only one DESERT terrain still leaves tiny patches of ice.
+ * This second command covers them.
+ * This command can be uncommented as an alternative to using Rocks to cover
+ * the remaining ICE patches, as is done in the object generation section.
+ */
+/* create_terrain DESERT {
+  base_terrain ICE
+  land_percent 100
+  number_of_clumps 999999
+} */
+
+/* Extra Forests */
+create_terrain LEAVES {
+	base_terrain  DESERT
+	number_of_tiles 200
+	number_of_clumps 2
+	spacing_to_other_terrain_types 10
+	clumping_factor 99
+	set_avoid_player_start_areas
+}
+
+create_terrain PALM_DESERT {
+  base_terrain LEAVES
+  land_percent 100
+  number_of_clumps 999999
+  spacing_to_other_terrain_types 0
+}
+
+create_terrain LEAVES {
+	base_terrain  DESERT
+	number_of_tiles 200
+	number_of_clumps 2
+	set_scale_by_groups
+	spacing_to_other_terrain_types 10
+	clumping_factor 99
+	set_avoid_player_start_areas
+}
+
+create_terrain PALM_DESERT {
+  base_terrain LEAVES
+  land_percent 100
+  number_of_clumps 999999
+  spacing_to_other_terrain_types 0
+}
+
+create_terrain LEAVES {
+	base_terrain  DESERT
+	number_of_tiles 200
+	number_of_clumps 2
+	set_scale_by_groups
+	spacing_to_other_terrain_types 10
+	clumping_factor 99
+	set_avoid_player_start_areas
+}
+
+create_terrain PALM_DESERT {
+  base_terrain LEAVES
+  land_percent 100
+  number_of_clumps 999999
+  spacing_to_other_terrain_types 0
+}
+
+/* Adds wood on player lands. */
+create_terrain PALM_DESERT {
+  base_terrain DESERT
+  land_percent 2
+  number_of_clumps 4
+  clumping_factor 99
+  set_scale_by_groups
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas
+}
+
+create_terrain BEACH {
+  base_terrain GRASS_CLIFFS
+  land_percent 100
+  number_of_clumps 999999
+}
+
+create_terrain BEACH {
+  base_terrain GRASS_CLIFFS
+  land_percent 100
+  number_of_clumps 999999
+}
+
+create_terrain BEACH {
+  base_terrain GRASS_CLIFFS
+  number_of_tiles 999999
+  number_of_clumps 999999
+}
+
+/* Places clumps of DIRT on the DESERT (which is covering the player lands). */
+create_terrain DIRT {
+  base_terrain DESERT
+  land_percent 20
+  number_of_clumps 25
+  set_scale_by_size
+  set_scale_by_groups
+}
+
+/* Places trees surrounding the cliffs. */
+create_terrain PALM_DESERT {
+  base_terrain DIRT_FOUNDATION
+  land_percent 23
+  number_of_clumps 40
+  set_scale_by_groups
+  spacing_to_other_terrain_types 0
+  set_avoid_player_start_areas
+}
+
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+
+create_connect_all_players_land {
+	replace_terrain PALM_DESERT DESERT
+	terrain_cost DIRT 1
+	terrain_cost DESERT 1
+	terrain_cost DIRT_FOUNDATION 1
+	terrain_cost PALM_DESERT 5
+	terrain_size PALM_DESERT 3 0
+}
+
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object ROCK {
+  number_of_objects 9999
+  terrain_to_place_on ICE
+}
+
+create_object CRATER {
+  number_of_objects 10
+  set_scaling_to_map_size
+  temp_min_distance_group_placement 16
+}
+
+create_object SKELETON {
+  number_of_objects 50
+  set_scaling_to_map_size
+  temp_min_distance_group_placement 12
+}
+
+create_object CACTUS {
+  number_of_objects 50
+  set_scaling_to_map_size
+  temp_min_distance_group_placement 9
+}
+
+create_object MOUNTAIN_3 {
+  number_of_objects 1
+  set_scaling_to_map_size
+  terrain_to_place_on DIRT
+  min_distance_to_players 18
+  min_distance_group_placement 3
+  temp_min_distance_group_placement 25
+}
+
+create_object MOUNTAIN_4 {
+  number_of_objects 1
+  set_scaling_to_map_size
+  terrain_to_place_on DIRT
+  min_distance_to_players 18
+  min_distance_group_placement 3
+  temp_min_distance_group_placement 25
+}
+
+
+/* PLAYER START OBJECTS */
+
+create_object TOWN_CENTER {
+  set_place_for_every_player
+  group_placement_radius  18
+  min_distance_to_players 0
+  max_distance_to_players 0
+}
+
+create_object VILLAGER {
+  set_place_for_every_player
+  min_distance_to_players 6
+  max_distance_to_players 6
+ }
+
+create_object SCOUT {
+  number_of_objects 1
+  set_place_for_every_player
+  min_distance_to_players 7
+  max_distance_to_players 9
+ }
+
+/* The standard number of relics is 5. */
+create_object RELIC {
+   number_of_objects 5
+   min_distance_to_players 25
+   temp_min_distance_group_placement 20
+   terrain_to_place_on DIRT
+}
+
+/* SPECIAL STUFF FOR REGICIDE */
+
+if REGICIDE
+  create_object VILLAGER {
+    number_of_objects 7
+    set_place_for_every_player
+    min_distance_to_players 6
+    max_distance_to_players 6
+  }
+
+  create_object KING {
+    set_place_for_every_player
+    min_distance_to_players 6
+    max_distance_to_players 6
+  }
+
+  create_object CASTLE {
+    set_place_for_every_player
+    min_distance_to_players 10
+    max_distance_to_players 10
+  }
+endif
+
+/* Map Revealers keep resources such as gold mines away from forests. */
+create_object MAP_REVEALER {
+  number_of_objects 9999
+  set_gaia_object_only
+  temp_min_distance_group_placement 1
+  min_distance_group_placement 2
+  terrain_to_place_on PALM_DESERT
+}
+
+/* Standard Resources */
+
+/* Near forage */
+create_object FORAGE {
+  number_of_objects 6
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 10
+  max_distance_to_players 12
+  min_distance_group_placement 6
+}
+
+/* Near gold */
+create_object GOLD {
+  number_of_objects 7
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 12
+  max_distance_to_players 16
+  min_distance_group_placement 7
+  max_distance_to_other_zones 7
+}
+
+/* Medium gold */
+create_object GOLD {
+  number_of_objects 4
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 18
+  max_distance_to_players 26
+  min_distance_group_placement 7
+  max_distance_to_other_zones 7
+  terrain_to_place_on DESERT
+}
+
+/* Far gold */
+create_object GOLD {
+  number_of_objects 4
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 25
+  max_distance_to_players 35
+  min_distance_group_placement 7
+  max_distance_to_other_zones 7
+  terrain_to_place_on DESERT
+}
+
+/* Near stone */
+create_object STONE {
+  number_of_objects 5
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 14
+  max_distance_to_players 18
+  min_distance_group_placement 7
+  max_distance_to_other_zones 7
+}
+
+/* Far stone */
+create_object STONE {
+  number_of_objects 4
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 20
+  max_distance_to_players 26
+  min_distance_group_placement 7
+  max_distance_to_other_zones 7
+  terrain_to_place_on DESERT
+}
+
+/* Livestock: may be TURKEY instead */
+create_object SHEEP {
+  number_of_objects 4
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 10
+  max_distance_to_players 12
+}
+
+create_object SHEEP {
+  number_of_objects 2
+  number_of_groups 2
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 14
+  max_distance_to_players 30
+  terrain_to_place_on DIRT
+}
+
+create_object SHEEP {
+  number_of_objects 2
+  number_of_groups 3
+  set_loose_grouping
+  set_gaia_object_only
+  min_distance_to_players 35
+  set_scaling_to_map_size
+  terrain_to_place_on DIRT
+}
+
+/* Pigs: may be JAVELINA instead */
+create_object BOAR {
+  number_of_objects 1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 16
+  max_distance_to_players 22
+  terrain_to_place_on DIRT
+}
+
+create_object BOAR {
+  number_of_objects 1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 16
+  max_distance_to_players 22
+  terrain_to_place_on DESERT
+}
+
+/* Trees near player start area */
+create_object PALMTREE {
+  number_of_objects 1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 4
+  max_distance_to_players 6
+  min_distance_group_placement 2
+}
+
+create_object PALMTREE {
+  number_of_objects 2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 6
+  max_distance_to_players 9
+  min_distance_group_placement 2
+}
+
+create_object PALMTREE {
+  number_of_objects 2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 6
+  max_distance_to_players 9
+  min_distance_group_placement 2
+}
+
+create_object PALMTREE {
+  number_of_objects 1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 6
+  max_distance_to_players 9
+  min_distance_group_placement 2
+}
+
+/* Predators: may be JAGUAR instead */
+create_object WOLF {
+  number_of_objects 2
+  set_gaia_object_only
+  set_place_for_every_player
+  temp_min_distance_group_placement 12
+  min_distance_group_placement 4
+  min_distance_to_players 30
+  max_distance_to_players 40
+}
+
+/* Additional Resources */
+create_object GOLD {
+  if TINY_MAP
+    number_of_groups 2
+    number_of_objects 3
+    min_distance_group_placement 9
+  elseif SMALL_MAP
+    number_of_groups 2
+    number_of_objects 3
+    min_distance_group_placement 9
+  elseif MEDIUM_MAP
+    number_of_groups 3
+    number_of_objects 3
+    group_variance 1
+    min_distance_group_placement 9
+  elseif LARGE_MAP
+    number_of_groups 3
+    number_of_objects 3
+    group_variance 1
+    min_distance_group_placement 9
+  elseif HUGE_MAP
+    number_of_groups 4
+    number_of_objects 4
+    group_variance 1
+    min_distance_group_placement 9
+  elseif GIGANTIC_MAP
+    number_of_groups 5
+    number_of_objects 4
+    group_variance 1
+    min_distance_group_placement 9
+  endif
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 18
+  terrain_to_place_on DIRT
+}
+
+create_object STONE {
+  if TINY_MAP
+    number_of_groups 1
+    min_distance_group_placement 9
+  elseif SMALL_MAP
+    number_of_groups 1
+    min_distance_group_placement 9
+  elseif MEDIUM_MAP
+    number_of_groups 2
+    min_distance_group_placement 9
+  elseif LARGE_MAP
+    number_of_groups 3
+    min_distance_group_placement 9
+  elseif HUGE_MAP
+    number_of_groups 4
+    min_distance_group_placement 9
+  elseif GIGANTIC_MAP
+    number_of_groups 5
+    min_distance_group_placement 9
+  endif
+  number_of_objects 4
+  group_variance 1
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 18
+  terrain_to_place_on DESERT
+}
+
+create_object FORAGE {
+  if TINY_MAP
+    number_of_groups 0
+  elseif SMALL_MAP
+    number_of_groups 0
+  elseif MEDIUM_MAP
+    number_of_groups 0
+  elseif LARGE_MAP
+    number_of_groups 1
+  elseif HUGE_MAP
+    number_of_groups 2
+  elseif GIGANTIC_MAP
+    number_of_groups 3
+  endif
+  number_of_objects 5
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 18
+  max_distance_to_players 120
+  min_distance_group_placement 7
+  temp_min_distance_group_placement 15
+  terrain_to_place_on DIRT
+}

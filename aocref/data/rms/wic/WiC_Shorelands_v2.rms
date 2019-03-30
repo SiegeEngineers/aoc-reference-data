@@ -1,0 +1,428 @@
+/* WiC_Map_Pack 2014 made by HJ. Version 1.0 21 maps.  */
+/* To be used in War is Coming AoC Tournament and for community after the event. */
+
+ <PLAYER_SETUP>
+
+ random_placement 
+
+ ///////////////////////////////////////////
+ 
+ <LAND_GENERATION> 
+ 
+  base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type                     DIRT 
+  land_percent                     30 
+  base_size                        20 
+  other_zone_avoidance_distance    5
+  left_border 4            
+  right_border 4
+  top_border 4
+  bottom_border 4    
+}
+
+<TERRAIN_GENERATION> 
+
+create_terrain PALM_DESERT
+{ 
+  base_terrain      DIRT
+  land_percent                   8 
+  number_of_clumps               8
+  spacing_to_other_terrain_types   4
+  set_avoid_player_start_areas 
+  set_scale_by_groups 
+}
+
+create_terrain  DESERT
+{ 
+  base_terrain      WATER
+  land_percent                   5 
+  number_of_clumps               4
+  spacing_to_other_terrain_types   4
+}
+
+create_terrain  MED_WATER
+{ 
+  base_terrain      WATER
+  land_percent                   30 
+  number_of_clumps               10
+  spacing_to_other_terrain_types   4
+set_scale_by_groups 
+}
+
+
+create_terrain PALM_DESERT 
+{ 
+  base_terrain      DESERT
+  land_percent                   35 
+  number_of_clumps               10
+  spacing_to_other_terrain_types   4
+}
+
+
+ <OBJECTS_GENERATION>
+ 
+create_object TOWN_CENTER 
+{ 
+     set_place_for_every_player 
+     min_distance_to_players 0 
+     max_distance_to_players 0 
+}
+
+/* Standard 3, 4 (Mayans), or 6 (Chinese) Villagers */ 
+create_object VILLAGER 
+{ 
+     set_place_for_every_player 
+     min_distance_to_players 3 
+     max_distance_to_players 6 
+} 
+
+create_object SCOUT /* This will create either a Scout Cavalry or an Eagle Warrior. */ 
+{ 
+     number_of_objects 1 
+     set_place_for_every_player 
+     min_distance_to_players 7 
+     max_distance_to_players 9 
+}
+
+create_object BAMBOO_FOREST_TREE
+{ 
+	number_of_objects 3
+     set_place_for_every_player
+	set_gaia_object_only 
+     min_distance_to_players 4 
+     max_distance_to_players 6 
+
+} 
+
+create_object FORAGE 
+{ 
+     number_of_objects 6 
+     group_placement_radius 3 
+     set_tight_grouping 
+     set_gaia_object_only 
+     set_place_for_every_player 
+     min_distance_to_players 10 
+     max_distance_to_players 12 
+     min_distance_group_placement 6 
+terrain_to_place_on DIRT
+
+} 
+
+create_object GOLD 
+{ 
+     number_of_objects 3
+     group_variance 1 
+     group_placement_radius 3 
+     set_tight_grouping 
+     set_gaia_object_only 
+     set_place_for_every_player 
+     min_distance_to_players 8 
+     max_distance_to_players 14 
+     min_distance_group_placement 4 
+terrain_to_place_on DIRT
+
+}
+
+create_object GOLD 
+{ 
+     number_of_objects 3
+     group_variance 1 
+     number_of_groups 2 
+     group_placement_radius 3 
+     set_tight_grouping 
+     set_gaia_object_only 
+     set_place_for_every_player 
+     min_distance_to_players 16 
+     max_distance_to_players 20 
+     min_distance_group_placement 4
+terrain_to_place_on DIRT
+
+}
+
+create_object GOLD 
+{ 
+     number_of_objects 3
+       group_variance 1 
+	 number_of_groups 1
+	set_tight_grouping
+	set_scaling_to_player_number
+	terrain_to_place_on DESERT
+}
+
+
+create_object DORADO
+{
+  number_of_objects                   6
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement        5
+
+}
+create_object TUNA
+{
+  number_of_objects                   6
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement        5
+
+}
+create_object SNAPPER
+{
+  number_of_objects                   6
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement        5
+
+} 
+
+
+create_object MARLIN1
+{
+  number_of_objects                    6
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement        5
+} 
+
+create_object MARLIN2
+{
+  number_of_objects                    6
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement        5
+} 
+
+
+create_object STONE 
+{ 
+     number_of_objects 3
+     group_variance 1 
+     number_of_groups 2 
+     group_placement_radius 2 
+     set_tight_grouping 
+     set_gaia_object_only 
+     set_place_for_every_player 
+     min_distance_to_players 12 
+     max_distance_to_players 18 
+     min_distance_group_placement 3 
+terrain_to_place_on DIRT
+} 
+
+
+create_object STONE
+{ 
+     number_of_objects 3
+     group_variance 1 
+	 number_of_groups 1
+	set_tight_grouping
+	set_scaling_to_player_number
+	terrain_to_place_on DESERT
+}
+
+create_object SHORE_FISH
+{
+  number_of_objects          		45
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_group_placement  	3
+  terrain_to_place_on			WATER
+}
+
+create_object DEER
+{
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     3
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    22
+}
+
+
+create_object BOAR
+{
+  number_of_objects          1
+  set_loose_grouping  
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    22
+}
+
+create_object BOAR
+{
+  number_of_objects          1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    22
+}
+
+
+create_object SHORE_FISH 
+{ 
+     number_of_objects 5 
+     number_of_groups 20 
+     group_placement_radius 1 
+     set_tight_grouping 
+     set_gaia_object_only 
+     set_place_for_every_player 
+     min_distance_to_players 10
+     max_distance_to_players 100 
+     min_distance_group_placement 10 
+}
+
+create_object SHEEP
+{
+   number_of_objects 4
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    10
+   max_distance_to_players    12
+}
+
+create_object SHEEP
+{
+   number_of_objects 2
+   number_of_groups  2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    14
+   max_distance_to_players    20
+}
+
+/* RELICS */
+
+if GOLDENHILL
+else
+start_random
+	percent_chance 15 #define RELICCOOL
+	percent_chance 35 #define RELICFEW
+	percent_chance 50 #define RELICBAD
+end_random
+endif
+
+create_object RELIC
+{
+if RELICCOOL
+  number_of_objects 1
+  number_of_groups 5
+elseif RELICFEW
+  number_of_objects 1
+  start_random
+  percent_chance 50
+  number_of_groups 5
+  percent_chance 50
+  number_of_groups 4
+  end_random
+elseif RELICBAD
+  number_of_objects 1
+  start_random
+  percent_chance 50
+  number_of_groups 3
+  percent_chance 50
+  number_of_groups 2
+  end_random
+endif
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 25
+  min_distance_group_placement 20
+}
+
+/* BIRDS */
+
+start_random
+	percent_chance 33 #define AVIAN_SQUAD_ONE
+	percent_chance 33 #define AVIAN_SQUAD_TWO
+	percent_chance 33 #define AVIAN_SQUAD_THREE
+	percent_chance 1 #define WHAT_IS_THAT
+end_random
+
+if AVIAN_SQUAD_ONE
+create_object HAWK
+{
+start_random
+   percent_chance 50
+   number_of_objects 4
+   percent_chance 50
+   number_of_objects 6
+end_random
+}
+create_object MACAW
+{
+start_random
+   percent_chance 50
+   number_of_objects 4
+   percent_chance 50
+   number_of_objects 6
+end_random
+}
+elseif AVIAN_SQUAD_TWO
+create_object HAWK
+{
+start_random
+   percent_chance 50
+   number_of_objects 4
+   percent_chance 50
+   number_of_objects 6
+end_random
+}
+elseif AVIAN_SQUAD_THREE
+create_object MACAW
+{
+start_random
+   percent_chance 50
+   number_of_objects 4
+   percent_chance 50
+   number_of_objects 6
+end_random
+}
+elseif WHAT_IS_THAT
+#const STORMY_DOG 862
+create_object STORMY_DOG
+{
+   number_of_objects 1
+}
+endif
+
+<CONNECTION_GENERATION> 
+
+create_connect_all_players_land 
+{ 
+      
+     replace_terrain WATER      SHALLOW 
+     terrain_cost    WATER     7 
+     terrain_cost    FOREST    4 
+     terrain_cost    GRASS    1 
+     terrain_cost    SNOW      3 
+
+     terrain_size    LEAVES         30       10 
+     terrain_size    SHALLOW         15       3 
+     terrain_size    DIRT         13       0 
+     terrain_size    GRASS_SNOW         5      1 
+} 
+
+
+ <ELEVATION_GENERATION>
+
+create_elevation 2 
+{ 
+     base_terrain DIRT 
+     number_of_clumps 14 
+     number_of_tiles 3000 
+     set_scale_by_groups 
+     set_scale_by_size 
+} 
+
+
+
+

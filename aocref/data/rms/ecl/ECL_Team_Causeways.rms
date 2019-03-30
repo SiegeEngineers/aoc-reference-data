@@ -1,0 +1,800 @@
+/* ************ TEAM CAUSEWAYS ************ */
+/*
+ * Team Causeways map for the ECL, used in the East Asia region.
+ * The map is the winning submission for this region of the map competition,
+ * submitted by Zetnus.
+ * The original comments are below.
+ * This map submission has been modified to include sling nerfs and to include
+ * only themeing for the East Asian region.
+ */
+
+/*
+ Version 2.1
+ Created: 2 December 2013
+ Last Update: 22 July 2018
+ By: Zetnus
+Zetnus@outlook.com
+This script can be downloaded from:
+[nowhere yet]
+
+Team islands with connections (the more players, the more connections)
+
+Basically I used the costal script as a base to try to recreate the team islands script.
+Then I added a series of thin shallows between the team islands.
+I hope you enjoy it!
+
+If you want to learn about random map scripting, check out my FAQ:
+http://aok.heavengames.com/cgi-bin/forums/display.cgi?action=ct&f=28,42485,,30
+and my Updated New RMS Guide:
+http://aok.heavengames.com/blacksmith/showfile.php?fileid=12178
+
+ */
+
+
+ai_info_map_type TEAM_ISLANDS 0 0 0
+
+/* Sling nerf constants. */
+#const TRIBUTE_INEFFICIENCY 46
+#const BANKING 17
+#const COINAGE 23
+#const COINAGE_IMP_DISABLER 224
+
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* Sling nerfs */
+effect_percent MOD_RESOURCE TRIBUTE_INEFFICIENCY ATTR_SET 40
+effect_amount DISABLE_TECH BANKING ATTR_DISABLE 17
+effect_amount DISABLE_TECH COINAGE ATTR_DISABLE 23
+effect_amount DISABLE_TECH COINAGE_IMP_DISABLER ATTR_DISABLE 224
+
+
+/* ****************************************************** */
+<LAND_GENERATION>
+
+base_terrain WATER
+
+
+create_player_lands
+{
+terrain_type                     GRASS2
+
+land_percent                     45
+base_size                        12
+border_fuzziness                 15
+start_random
+   percent_chance                  50
+      left_border                   7
+      right_border                  9
+   percent_chance                  50
+	left_border                   9
+      right_border                  7
+end_random
+start_random
+   percent_chance                  50
+      top_border                    7
+      bottom_border                 9
+   percent_chance                  50
+	top_border                    9
+      bottom_border                 7
+end_random
+  set_zone_by_team
+  other_zone_avoidance_distance    22
+}
+
+/* ****************************************************** */
+
+<ELEVATION_GENERATION>
+
+create_elevation        7
+{
+  base_terrain                GRASS2
+  number_of_clumps 		14
+  number_of_tiles 		1200
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+/* Notice that the elevation must be placed on a certain terrain, whichever is the base terrain for the map.
+If you use lots of different terrain, you may need to have multiple elevation statements. */
+
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+/* MIXING WATER */
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps               10
+spacing_to_other_terrain_types 2
+land_percent 40
+}
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps               30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+number_of_clumps               8
+spacing_to_other_terrain_types 3
+land_percent 20
+}
+
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+number_of_clumps               30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+create_terrain MED_WATER
+{
+base_terrain DEEP_WATER
+number_of_clumps               30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+create_terrain WATER
+{
+base_terrain MED_WATER
+number_of_clumps               30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+/* This adds deeper water to the shallow water.
+ Use small percentages and spacing of 1-3 tiles to make sure the shallow water
+  is closest to land and other waters are placed farther from land.
+   Experiment with different percentages of water so that there are not large expanses of one color. */
+
+/* PRIMARY FOREST */
+
+create_terrain PINE_FOREST
+{
+  base_terrain                   GRASS2
+  spacing_to_other_terrain_types 5
+  land_percent                   8
+  number_of_clumps               8
+  set_avoid_player_start_areas
+  set_scale_by_groups
+}
+
+
+/* PRIMARY PATCH */
+
+create_terrain GRASS3
+{
+  base_terrain                   GRASS2
+  number_of_clumps               10
+  spacing_to_other_terrain_types 1
+  land_percent                   9
+  set_scale_by_size
+}
+
+/* These patches and additional forests are used for variation.
+ Adding grass or dirt on top of the base terrain is really only for cosmetic purposes.
+  Forests affect how defensive the map can be and how hard it is to path from one town to another */
+
+/* SECONDARY FOREST */
+
+create_terrain BAMBOO
+{
+  base_terrain                   GRASS2
+  spacing_to_other_terrain_types 3
+  land_percent                   1
+  number_of_clumps               3
+  set_avoid_player_start_areas
+  set_scale_by_groups
+}
+
+/* SECONDARY PATCH */
+
+create_terrain DIRT3
+{
+  base_terrain                   GRASS2
+  number_of_clumps               24
+  spacing_to_other_terrain_types 1
+  land_percent                   2
+  set_scale_by_size
+}
+
+/* TERTIARY PATCH */
+
+create_terrain GRASS
+{
+  base_terrain                   GRASS2
+  number_of_clumps               30
+  spacing_to_other_terrain_types 1
+  land_percent                   2
+  set_scale_by_size
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+/* PLAYER START OBJECTS */
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+ }
+
+create_object SCOUT
+{
+  number_of_objects             1
+  set_place_for_every_player
+  min_distance_to_players       7
+  max_distance_to_players       9
+ }
+
+create_object RELIC
+{
+  number_of_objects            5
+  min_distance_to_players     25
+  min_distance_group_placement 5
+  temp_min_distance_group_placement 20
+}
+
+/* Each player starts with a Town Center, villagers and a scout.
+ The Map Generator knows that Chinese need 6 villagers and that Aztecs have an Eagle Warrior.
+  There are also 5 Relics placed on most map types. */
+
+/* SPECIAL STUFF FOR REGICIDE */
+
+if REGICIDE
+  create_object VILLAGER
+  {
+    number_of_objects             7
+    set_place_for_every_player
+    min_distance_to_players       6
+    max_distance_to_players       6
+  }
+
+  create_object KING
+  {
+    set_place_for_every_player
+    min_distance_to_players       6
+    max_distance_to_players       6
+  }
+
+  create_object CASTLE
+  {
+    set_place_for_every_player
+    min_distance_to_players    10
+    max_distance_to_players    10
+  }
+endif
+
+/*  Regicide games require a Castle, King and more villagers.
+ Other game types, such as Defend the Wonder, are handled automatically. */
+
+/* NEAR FORAGE */
+
+create_object FORAGE
+{
+  number_of_objects          6
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    12
+  min_distance_group_placement  6
+}
+
+/* On most maps, everyone gets berry bushes near their town */
+
+/* NEAR GOLD */
+
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    25
+  max_distance_to_players    35
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* Everyone gets 3 sets of gold mines.  Sometimes the far gold mine is really far (35 tiles)
+ from the player’s Town Center. */
+
+/* NEAR STONE */
+
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+
+create_object STONE
+{
+  number_of_objects          4
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    20
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* Place stone last since it is more important to start with berries and gold.
+  If the map runs out of room it might not place stone.
+    This is not ideal, but it is better than losing gold. */
+
+/* BAA BAA */
+
+create_object SHEEP
+{
+   number_of_objects 4
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    10
+   max_distance_to_players    12
+}
+create_object SHEEP
+{
+   number_of_objects 2
+   number_of_groups 2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    14
+   max_distance_to_players    30
+}
+
+/*  Sheep and Turkeys are small, so they are easy to place.
+ If you really want to confuse players, mix sheep and turkeys on a map. */
+
+create_object DEER
+{
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     3
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    30
+}
+
+create_object BOAR
+{
+  number_of_objects          1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    22
+}
+
+create_object BOAR
+{
+  number_of_objects          1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    22
+}
+
+/* Stuff to hunt. */
+
+create_object WOLF
+{
+  number_of_objects          2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_group_placement 12
+  min_distance_to_players    30
+  max_distance_to_players    40
+}
+
+/* Bad guys.  Leave them off if you want a rushing map. */
+
+/* RESOURCES BY MAP */
+
+/* ---Begin additional resources by map size--- */
+/* notice I have added a statement for LudiKRIS size */
+
+create_object GOLD
+{
+  if TINY_MAP
+    number_of_groups 2
+    number_of_objects 3
+  elseif SMALL_MAP
+    number_of_groups 2
+    number_of_objects 3
+  elseif MEDIUM_MAP
+    number_of_groups 3
+    number_of_objects 3
+    group_variance 1
+  elseif LARGE_MAP
+    number_of_groups 3
+    number_of_objects 3
+    group_variance 1
+  elseif HUGE_MAP
+    number_of_groups 4
+    number_of_objects 4
+    group_variance 1
+  elseif GIGANTIC_MAP
+    number_of_groups 5
+    number_of_objects 4
+    group_variance 1
+  endif
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 40
+  min_distance_group_placement 9
+}
+
+create_object STONE
+{
+  if TINY_MAP
+    number_of_groups 1
+  elseif SMALL_MAP
+    number_of_groups 1
+  elseif MEDIUM_MAP
+    number_of_groups 2
+  elseif LARGE_MAP
+    number_of_groups 3
+  elseif HUGE_MAP
+    number_of_groups 4
+  elseif GIGANTIC_MAP
+    number_of_groups 5
+  endif
+  number_of_objects 4
+  group_variance 1
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 40
+  min_distance_group_placement 9
+}
+
+create_object FORAGE
+{
+  if TINY_MAP
+    number_of_groups 0
+  elseif SMALL_MAP
+    number_of_groups 0
+  elseif MEDIUM_MAP
+    number_of_groups 0
+  elseif LARGE_MAP
+    number_of_groups 1
+  elseif HUGE_MAP
+    number_of_groups 2
+  elseif GIGANTIC_MAP
+    number_of_groups 3
+  endif
+  number_of_objects 5
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 40
+  max_distance_to_players 120
+  min_distance_group_placement 7
+}
+/* ---End of additional resources by map size--- */
+
+create_object DEER
+{
+   number_of_objects 6
+   number_of_groups 2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    35
+   min_distance_group_placement  5
+}
+
+create_object BOAR
+{
+   number_of_objects 2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    35
+   min_distance_group_placement  5
+}
+
+
+create_object BAMBOO_TREE
+{
+  number_of_objects             2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       4
+  max_distance_to_players       5
+  min_distance_group_placement  2
+}
+create_object PINETREE
+{
+  number_of_objects             3
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       8
+  min_distance_group_placement  2
+}
+
+/* These are the “straggler” trees near every Town Center. */
+
+
+create_object WOLF
+{
+  number_of_groups          3
+  set_loose_grouping
+  start_random
+  percent_chance 75
+	number_of_objects 1
+  percent_chance 25
+	number_of_objects 2
+  end_random
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement 12
+  min_distance_to_players    40
+  max_distance_to_players    120
+}
+
+create_object BAMBOO_TREE
+{
+  number_of_objects          30
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_to_players    8
+}
+
+/*  These are the lone trees scattered across the map.
+ It makes the map look more believable than if there were just forests and no straggler trees. */
+
+create_object TUNA
+{
+  number_of_objects                   20
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+}
+create_object SNAPPER
+{
+  number_of_objects                   15
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+}
+
+create_object SHORE_FISH
+{
+  number_of_objects                   25
+  set_scaling_to_map_size
+  min_distance_group_placement         4
+  set_gaia_object_only
+}
+
+create_object MARLIN1
+{
+  number_of_groups                      10
+  number_of_objects                     1
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement          10
+  max_distance_to_other_zones           7
+}
+
+create_object MARLIN2
+{
+  number_of_groups                      10
+  number_of_objects                     1
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement          10
+  max_distance_to_other_zones           7
+}
+
+/* Only the Marlin and the Shore fish have different amounts of food in them.
+   The other fish are just for variety. */
+
+
+
+ /* ************************************* */
+<CLIFF_GENERATION>
+
+min_number_of_cliffs 3
+max_number_of_cliffs 5
+min_length_of_cliff  4
+max_length_of_cliff  8
+cliff_curliness      10
+min_distance_cliffs  3
+
+/*  Cliffs work okay on land maps but are best left off island maps. */
+
+
+
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_all_players_land
+{
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+  terrain_cost    WATER         2
+  terrain_cost    MED_WATER     2
+  terrain_cost    DEEP_WATER    2
+  terrain_cost    FOREST        2
+  terrain_cost    PINE_FOREST   2
+  terrain_cost    PALM_DESERT   2
+  terrain_cost    SNOW_FOREST   2
+  terrain_cost    JUNGLE        2
+  terrain_cost    BAMBOO        2
+  terrain_cost    SHALLOW       2
+  terrain_cost    DESERT        2
+  terrain_cost    DIRT          2
+  terrain_cost    DIRT2         2
+  terrain_cost    DIRT3         2
+  terrain_cost    DIRT_SNOW     2
+  terrain_cost    GRASS         2
+  terrain_cost    GRASS2        2
+  terrain_cost    GRASS3        2
+  terrain_cost    GRASS_SNOW    2
+  terrain_cost    SNOW          2
+  terrain_cost    BEACH         2
+  terrain_size    WATER         2       0
+  terrain_size    MED_WATER     2       0
+  terrain_size    DEEP_WATER    2       0
+  terrain_size    GRASS         0       0
+  terrain_size    GRASS2        0       0
+  terrain_size    GRASS3        0       0
+  terrain_size    GRASS_SNOW    0       0
+  terrain_size    SNOW          0       0
+  terrain_size    DIRT          0       0
+  terrain_size    DIRT2         0       0
+  terrain_size    DIRT3         0       0
+  terrain_size    DIRT_SNOW     0       0
+  terrain_size    SNOW_FOREST   0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+  terrain_size    PALM_DESERT   0       0
+  terrain_size    JUNGLE        0       0
+  terrain_size    BAMBOO        0       0
+  terrain_size    DESERT        0       0
+}
+
+#const ROAD_MOSS 39
+#const ROAD_SNOW 38
+create_connect_teams_lands
+{
+  replace_terrain FOREST        ROAD_MOSS
+  replace_terrain PINE_FOREST   ROAD_MOSS
+  replace_terrain PALM_DESERT   ROAD_MOSS
+  replace_terrain SNOW_FOREST   ROAD_SNOW
+  replace_terrain JUNGLE        ROAD_MOSS
+  replace_terrain BAMBOO        ROAD_MOSS
+  replace_terrain DESERT        ROAD2
+  replace_terrain DIRT          ROAD2
+  replace_terrain DIRT2         ROAD_MOSS
+  replace_terrain DIRT3         ROAD_MOSS
+  replace_terrain DIRT_SNOW     ROAD_SNOW
+  replace_terrain GRASS         ROAD_MOSS
+  replace_terrain GRASS2        ROAD2
+  replace_terrain GRASS3        ROAD_MOSS
+  replace_terrain GRASS_SNOW    ROAD_SNOW
+  replace_terrain SNOW          ROAD_SNOW
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+  terrain_cost    WATER         18
+  terrain_cost    MED_WATER     18
+  terrain_cost    DEEP_WATER    18
+  terrain_cost    FOREST        8
+  terrain_cost    PINE_FOREST   8
+  terrain_cost    PALM_DESERT   8
+  terrain_cost    SNOW_FOREST   8
+  terrain_cost    JUNGLE        8
+  terrain_cost    BAMBOO        8
+  terrain_cost    SHALLOW       8
+  terrain_cost    DESERT        2
+  terrain_cost    DIRT          2
+  terrain_cost    DIRT2         2
+  terrain_cost    DIRT3         2
+  terrain_cost    DIRT_SNOW     2
+  terrain_cost    GRASS         2
+  terrain_cost    GRASS2        2
+  terrain_cost    GRASS3        2
+  terrain_cost    GRASS_SNOW    2
+  terrain_cost    SNOW          2
+  terrain_cost    BEACH         10
+  terrain_size    GRASS         1       0
+  terrain_size    GRASS2        1       0
+  terrain_size    GRASS3        1       0
+  terrain_size    GRASS_SNOW    1       0
+  terrain_size    SNOW          1       0
+  terrain_size    DIRT          1       0
+  terrain_size    DIRT2         1       0
+  terrain_size    DIRT3         1       0
+  terrain_size    DIRT_SNOW     1       0
+  terrain_size    SNOW_FOREST   3       1
+  terrain_size    FOREST        3       1
+  terrain_size    PINE_FOREST   3       1
+  terrain_size    PALM_DESERT   3       1
+  terrain_size    JUNGLE        3       1
+  terrain_size    BAMBOO        3       1
+  terrain_size    DESERT        1       0
+  terrain_size    WATER         2       0
+  terrain_size    MED_WATER     2       0
+  terrain_size    DEEP_WATER    2       0
+  terrain_size    SHALLOW       0       0
+}
+
+
+/* Terrain cost is used to make the connections try and go over land
+ and not through forests which looks fake,
+  unless you pave the connections with road, as in Black Forest. */

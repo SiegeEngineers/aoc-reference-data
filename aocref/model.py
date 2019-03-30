@@ -3,11 +3,11 @@
 # pylint: disable=too-few-public-methods
 
 from sqlalchemy import (
-    Boolean, DateTime, Column,
+    Boolean, DateTime, Column, UnicodeText,
     ForeignKey, Integer, String, ForeignKeyConstraint
 )
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, backref
 
 
 BASE = declarative_base()
@@ -109,6 +109,26 @@ class CivilizationBonus(BASE):
             ['civilization_id', 'dataset_id'], ['civilizations.id', 'civilizations.dataset_id']
         ),
     )
+
+
+class EventMap(BASE):
+    """Event map."""
+    __tablename__ = 'event_maps'
+    id = Column(Integer, primary_key=True)
+    event_id = Column(String, ForeignKey('events.id'))
+    event = relationship('Event', foreign_keys=event_id, backref='map_pack')
+    name = Column(String)
+    zr = Column(Boolean)
+    aoe2mapnet_id = Column(String)
+
+
+class Map(BASE):
+    """Builtin map."""
+    __tablename__ = 'maps'
+    id = Column(Integer, primary_key=True)
+    dataset_id = Column(Integer, ForeignKey('datasets.id'), primary_key=True)
+    dataset = relationship('Dataset', foreign_keys=[dataset_id])
+    name = Column(String)
 
 
 class GameType(BASE):

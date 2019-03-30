@@ -1,0 +1,6434 @@
+
+
+/* ************ ULTRA RANDOM ************ */
+/* VERSION 4.0 */
+/* OCT 05 BY ORCA */
+
+/* CHANGES TO VERSION 1.0 */ 
+/* EACH MAPTYPE IS TREATED SEPERATELY */ 
+/* SLIGHTLY MORE FOREST IN GENERAL */
+/* MORE LANDBASED MAPS */
+/* POPULAR MAPTYPES HAVE A HIGHER CHANCE TO APPEAR */ 
+/* NO MORE ARCHIPELAGO STYLE */
+/* WIDER RIVERS */ 
+/* BONUS ISLANDS MORE CENTRAL */
+/* MUCH MORE FOREST ON HIGHLANDSTYLE MAPS */
+/* BONUS SHEEP AND BOAR ARE MORE LIKELY */
+/* NEW MAPTYPE CONTINENT */
+/* NEW MAPTYPE CLEARING */
+/* NEW MAPTYPE OASIS */
+/* NEW MAPTYPE VANISHEDLAKE */
+/* NEW MAPTYPE ARTIFICIAL */
+/* NEW MAPTYPE HOMELAND */
+/* REMOVED POSSIBLE APPEARANCE OF CLOSE WOLF */
+/* REMOVED POSSIBLE APPEARANCE OF CLOSE TREES */
+/* REMOVED POSSIBLE APPEARANCE OF CLOSE GOLD OR STONE */
+/* FIXED CONNECTIONS ON BALTICSTYLE MAPS (NO MORE SWAMP) */
+/* FIXED TEAMISLANDSTYLE MAPS (NO MORE SAVE FISHING) */
+
+/* CHANGES TO VERSION 2.0 */ 
+/* NEW MAPTYPE LAKES */
+/* NEW MAPTYPE DESERT */
+/* NEW MAPTYPE WATERHOLE */ 
+/* NEW MAPTYPE ONTARIO */
+/* NEW MAPTYPE WOODLAND */
+/* MAPTYPE EIGHT CHANGED INTO ZERO */
+/* REFINED DISC */ 
+/* CHANGED FOREST ON VANISHED LAKE */
+/* REMOVED POSSIBLE APPERANCE OF BONUS ISLAND ON TEAMISLANDS */
+/* REMOVED POSSIBLE APPERANCE OF CONNECTIONS ON ISLANDS */  
+/* REMOVED POSSIBLE APPERANCE OF CLIFFS ON VANISHED LAKE */
+/* ENHANCED GOLD ON ARTIFICIAL MIGRATION AND ISLANDS */
+/* FIXED GOLD ISSUE ON CONTINENT */  
+/* ENHANCED BASE SIZE AND LOWERED MINIMUM DISTANCE ON ISLANDS */
+
+/* CHANGES TO VERSION 3.0 */
+/* NEW MAPTYPE TREASUREISLANDS */
+/* NEW MAPTYPE PLAINS */
+/* NEW MAPTYPE MARSH */
+/* NEW MAPTYPE ATLANTIC */
+/* NEW MAPTYPE ARCHIPEL */
+/* NEW MAPTYPE DESERTARABIA */
+/* DIFFERENT TERRAIN AND FOREST ARE USED FOR DIFFERENT MAPS */
+/* NO MORE HILLS AND CLIFFS ON WATERMAPS */
+/* FIXED SHORE_BUG */
+
+start_random 
+ percent_chance 100
+    #define MY_GREATLAKE
+
+  percent_chance 3
+    #define MY_TREASUREISLANDS
+  percent_chance 3
+    #define MY_PLAINS
+  percent_chance 3
+    #define MY_MARSH
+  percent_chance 3
+    #define MY_ATLANTIC
+  percent_chance 3
+    #define MY_ARCHIPEL
+  percent_chance 3
+    #define MY_DESERTARABIA
+  percent_chance 3
+    #define MY_WOODLAND
+  percent_chance 3
+    #define MY_ONTARIO
+  percent_chance 3
+    #define MY_WATERHOLE
+  percent_chance 3
+    #define MY_DESERT
+  percent_chance 3
+    #define MY_LAKES
+  percent_chance 3
+    #define MY_HOMELAND
+  percent_chance 3
+    #define MY_ARTIFICIAL
+  percent_chance 3
+    #define MY_GREATLAKE
+  percent_chance 3
+    #define MY_VANISHEDLAKE
+  percent_chance 3
+    #define MY_GHOSTSWAMP
+  percent_chance 3
+    #define MY_SEA
+  percent_chance 3
+    #define MY_OASIS
+  percent_chance 3
+    #define MY_CLEARING
+  percent_chance 3
+    #define MY_BLACKFOREST
+  percent_chance 3
+    #define MY_MONGOLIA
+  percent_chance 3
+    #define MY_GREENARABIA
+  percent_chance 3
+    #define MY_DISC
+  percent_chance 3
+    #define MY_ZERO
+  percent_chance 3
+    #define MY_ANATOLIA
+  percent_chance 3
+    #define MY_FAIRRIVERS
+  percent_chance 3
+    #define MY_PIZZA
+  percent_chance 3
+    #define MY_HIGHLAND
+  percent_chance 3
+    #define MY_TEAMISLANDS
+  percent_chance 3
+    #define MY_LANDMASS
+  percent_chance 4
+    #define MY_CONTINENT
+  percent_chance 3
+    #define MY_ISLANDS
+  percent_chance 3
+    #define MY_MIGRATION
+end_random 
+
+/* ****************************************************** */
+/* ******************** MY_TREASUREISLANDS ************** */
+/* ****************************************************** */
+
+if MY_TREASUREISLANDS
+#define WATERMAP
+#define GREENFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define NO_PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     100
+  base_size                        13
+  border_fuzziness                 15
+  clumping_factor                  15
+  left_border                      20
+  right_border                     20
+  top_border                       20
+  bottom_border                    0
+  zone 1
+  other_zone_avoidance_distance    7 
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      0
+  right_border                     0
+  top_border                       0
+  bottom_border                    80
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          330
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      0
+  right_border                     0
+  top_border                       0
+  bottom_border                    80
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          330
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      0
+  right_border                     0
+  top_border                       0
+  bottom_border                    80
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          331
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      0
+  right_border                     0
+  top_border                       0
+  bottom_border                    80
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          331
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      0
+  right_border                     80
+  top_border                       0
+  bottom_border                    0
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          330
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      0
+  right_border                     80
+  top_border                       0
+  bottom_border                    0
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          330
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      0
+  right_border                     80
+  top_border                       0
+  bottom_border                    0
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          331
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      0
+  right_border                     80
+  top_border                       0
+  bottom_border                    0
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          331
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      80
+  right_border                     0
+  top_border                       0
+  bottom_border                    0
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          330
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      80
+  right_border                     0
+  top_border                       0
+  bottom_border                    0
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          330
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      80
+  right_border                     0
+  top_border                       0
+  bottom_border                    0
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          331
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        1
+  left_border                      80
+  right_border                     0
+  top_border                       0
+  bottom_border                    0
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  land_id                          331
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  base_terrain                   GRASS
+  spacing_to_other_terrain_types 5
+  land_percent                   10
+  number_of_clumps               7
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  15
+  max_distance_to_other_zones   7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    25
+  max_distance_to_players    30
+  min_distance_group_placement  15
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    20
+  max_distance_to_players    25
+  min_distance_group_placement  15
+  max_distance_to_other_zones  7
+}
+
+/* RESOURCES FOR BONUS ISLANDS */ 
+create_object GOLD
+{
+  number_of_objects          5
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     330
+}
+
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     330
+}
+
+create_object GOLD
+{
+  number_of_objects          5
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     331
+}
+
+create_object STONE
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     331
+}
+
+/* ENDIF MY_TREASUREISLANDS */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_PLAINS ******************** */
+/* ****************************************************** */
+
+if MY_PLAINS
+#define LANDMAP
+#define DESERTFOREST
+#define NO_HILLS 
+#define NO_CLIFFS 
+#define PREDATORS 
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain DIRT
+
+create_player_lands 
+{ 
+  terrain_type  DIRT
+  land_percent                     60
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+/* PRIMARY FOREST */
+create_terrain PALM_DESERT
+{
+  base_terrain                   DIRT
+  spacing_to_other_terrain_types 8
+  land_percent                   7
+  number_of_clumps               10
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+create_terrain DIRT3
+{
+  base_terrain                   DIRT
+  number_of_clumps               16
+  spacing_to_other_terrain_types 0
+  land_percent                   5
+  set_scale_by_size
+}
+
+create_terrain DESERT
+{
+  base_terrain                   DIRT
+  number_of_clumps               24
+  spacing_to_other_terrain_types 1
+  land_percent                   2
+  set_scale_by_size
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object DEER
+{
+  set_place_for_every_player
+  number_of_objects          5
+  number_of_groups           1
+  set_loose_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  10
+  max_distance_to_other_zones   7
+  min_distance_to_players       40
+  max_distance_to_players       50
+}
+
+/* ENDIF MY_PLAINS */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_MARSH ************************ */
+/* ****************************************************** */
+
+if MY_MARSH
+#define WATERMAP
+#define SWAMPFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+start_random
+  percent_chance 50
+    create_player_lands 
+    { 
+      terrain_type  GRASS
+      land_percent                     65
+      base_size                        13
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    5
+      left_border                      6
+      right_border                     6
+      top_border                       0
+      bottom_border                    0
+      set_zone_randomly
+    }
+
+    /* BONUS ISLANDS MIDDLE */ 
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      20
+      right_border                     20
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+      land_id                          310
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      20
+      right_border                     20
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+      land_id                          310
+    }
+
+    /* BONUS ISLAND EDGE */ 
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      90
+      right_border                     0
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    3
+      land_id                          310
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      90
+      right_border                     0
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    3
+      land_id                          310
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      0
+      right_border                     90
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    3
+      land_id                          310
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      0
+      right_border                     90
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    3
+      land_id                          310
+    }
+
+/* OTHER LAYOUT */
+  percent_chance 50
+    create_player_lands 
+    { 
+      terrain_type  GRASS
+      land_percent                     65
+      base_size                        13
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    5
+      left_border                      0
+      right_border                     0
+      top_border                       6
+      bottom_border                    6
+      set_zone_randomly
+    }
+
+    /* BONUS ISLANDS MIDDLE */ 
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      20
+      right_border                     20
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+      land_id                          310
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      20
+      right_border                     20
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+      land_id                          310
+    }
+
+    /* BONUS ISLAND EDGE */ 
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      20
+      right_border                     20
+      top_border                       90
+      bottom_border                    0
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    3
+      land_id                          310
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      20
+      right_border                     20
+      top_border                       90
+      bottom_border                    0
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    3
+      land_id                          310
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      20
+      right_border                     20
+      top_border                       0
+      bottom_border                    90
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    3
+      land_id                          310
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        3
+      left_border                      20
+      right_border                     20
+      top_border                       0
+      bottom_border                    90
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    3
+      land_id                          310
+    }
+end_random
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain BAMBOO 
+{
+  land_percent                   11
+  number_of_clumps               10
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+create_terrain SHALLOW
+{ 
+  base_terrain   GRASS
+  land_percent                   5
+  number_of_clumps               5
+  clumping_factor                12
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       35
+  max_distance_to_players       50
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       25
+  max_distance_to_players       35
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* RESOURCES FOR BONUS ISLANDS */ 
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     310
+}
+
+create_object STONE 
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     310
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_all_lands
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         2
+  terrain_cost    MED_WATER     2
+  terrain_cost    DEEP_WATER    2
+  terrain_cost    GRASS         1
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         5       1
+  terrain_size    MED_WATER     5       1
+  terrain_size    DEEP_WATER    5       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+}
+
+/* ENDIF MY_MARSH */ 
+endif
+
+/* ****************************************************** */
+/* ******************** MY_ATLANTIC ********************* */
+/* ****************************************************** */
+
+if MY_ATLANTIC
+#define WATERMAP
+#define DARKFOREST
+#define HILLS 
+#define CLIFFS 
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain GRASS
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     25
+  right_border                     0
+  left_border                      0
+  top_border                       0
+  bottom_border                    0
+  base_size                        12
+  border_fuzziness                 15
+  clumping_factor                  15
+}
+
+/* WATER AT EDGE */
+start_random
+  percent_chance 50
+    create_land
+    {
+      terrain_type  WATER
+      land_percent                     10
+      right_border                     55
+      top_border                       55
+      base_size                        5
+      border_fuzziness                 15
+      clumping_factor                  3
+    }
+
+    create_land
+    {
+      terrain_type  WATER
+      land_percent                     10
+      left_border                      55
+      bottom_border                    55
+      base_size                        5
+      border_fuzziness                 15
+      clumping_factor                  3
+    }
+
+  percent_chance 50
+    create_land
+    {
+      terrain_type  WATER
+      land_percent                     10
+      left_border                      55
+      top_border                       55
+      base_size                        5
+      border_fuzziness                 15
+      clumping_factor                  3
+    }
+
+    create_land
+    {
+      terrain_type  WATER
+      land_percent                     10
+      right_border                     55
+      bottom_border                    55
+      base_size                        5
+      border_fuzziness                 15
+      clumping_factor                  3
+    }
+end_random
+
+/* WATER IN MIDDLE */
+    create_land
+    {
+      terrain_type  WATER
+      land_percent                     22
+      right_border                     20
+      left_border                      20
+      top_border                       20
+      bottom_border                    20
+      base_size                        10
+      border_fuzziness                 15
+      clumping_factor                  5
+    }
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+if GREENFOREST
+  create_terrain FOREST
+endif
+
+if DARKFOREST
+  create_terrain PINE_FOREST
+endif
+  {
+    land_percent                   7
+    number_of_clumps               7
+    clumping_factor                25
+    spacing_to_other_terrain_types 5
+    set_avoid_player_start_areas    
+    set_scale_by_groups
+  }
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       35
+  max_distance_to_players       50
+  min_distance_group_placement  20
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_teams_lands	
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    GRASS         2
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         6       1
+  terrain_size    MED_WATER     6       1
+  terrain_size    DEEP_WATER    6       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+}
+
+/* ENDIF MY_ATLANTIC */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_ARCHIPEL ********************* */
+/* ****************************************************** */
+
+if MY_ARCHIPEL
+#define WATERMAP
+#define SWAMPFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     40
+  base_size                        13
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+  left_border                      4
+  right_border                     4
+  top_border                       4
+  bottom_border                    4
+  set_zone_randomly
+}
+
+/* BONUS ISLANDS MIDDLE */ 
+
+if TINY_MAP
+  /* one less bonus islands for tiny */ 
+else
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        3
+  left_border                      25
+  right_border                     25
+  top_border                       25
+  bottom_border                    25
+  border_fuzziness                 15
+  clumping_factor                  11
+  other_zone_avoidance_distance    7
+  land_id                          290
+}
+/* ENDIF TINY_MAP */ 
+endif
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        3
+  left_border                      25
+  right_border                     25
+  top_border                       25
+  bottom_border                    25
+  border_fuzziness                 15
+  clumping_factor                  11
+  other_zone_avoidance_distance    7
+  land_id                          290
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+create_terrain BAMBOO 
+{
+  land_percent                   8
+  number_of_clumps               10
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    14
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       26
+  max_distance_to_players       36
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    20
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       22
+  max_distance_to_players       30
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* RESOURCES FOR BONUS ISLANDS */ 
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     290
+}
+
+create_object STONE 
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     290
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_teams_lands
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    GRASS         2
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         4       1
+  terrain_size    MED_WATER     4       1
+  terrain_size    DEEP_WATER    4       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+}
+
+/* ENDIF MY_ARCHIPEL */ 
+endif
+
+/* ****************************************************** */
+/* ******************** MY_DESERTARABIA ***************** */
+/* ****************************************************** */
+
+if MY_DESERTARABIA
+#define LANDMAP
+#define DESERTFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain DIRT
+
+create_player_lands 
+{ 
+  terrain_type  DIRT
+  land_percent                     60
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+/* PRIMARY FOREST */
+create_terrain PALM_DESERT
+{
+  base_terrain                   DIRT
+  spacing_to_other_terrain_types 5
+  land_percent                   14
+  number_of_clumps               11
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* PATCHES */
+create_terrain DESERT
+{
+  base_terrain                   DIRT
+  number_of_clumps               16
+  spacing_to_other_terrain_types 0
+  land_percent                   20
+  set_scale_by_size
+}
+
+create_terrain DIRT3
+{
+  base_terrain                   DIRT
+  number_of_clumps               24
+  spacing_to_other_terrain_types 1
+  land_percent                   2
+  set_scale_by_size
+}
+
+create_terrain GRASS3
+{
+  base_terrain                   DIRT
+  number_of_clumps               30
+  spacing_to_other_terrain_types 1
+  land_percent                   2
+  set_scale_by_size
+}
+
+/* OASES */
+create_terrain WATER
+{
+  base_terrain                   PALM_DESERT
+  spacing_to_other_terrain_types 1
+  land_percent                   2
+  number_of_clumps               16
+  set_avoid_player_start_areas
+  set_flat_terrain_only     
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ****************************************************** */
+<ELEVATION_GENERATION>
+
+create_elevation        7
+{   
+  base_terrain              DIRT
+  number_of_clumps 	    25
+  number_of_tiles 	    4000
+  set_scale_by_groups
+  set_scale_by_size           
+}
+
+/* ENDIF MY_DESERTARABIA */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_WOODLAND ********************* */
+/* ****************************************************** */
+
+if MY_WOODLAND
+#define LANDMAP
+#define DESERTFOREST
+#define HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain DIRT
+
+create_player_lands 
+{ 
+  terrain_type  DIRT
+  land_percent                     30
+  base_size                        14
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    10 
+}
+
+create_land 
+{
+  terrain_type                   PALM_DESERT  
+  land_percent                   3
+  right_border                   54
+  left_border                    24
+  top_border                     54
+  bottom_border                  24
+  border_fuzziness               15
+  other_zone_avoidance_distance  0
+  clumping_factor                15
+}
+
+create_land 
+{
+  terrain_type                   PALM_DESERT
+  land_percent                   3
+  right_border                   54
+  left_border                    24
+  top_border                     24
+  bottom_border                  54
+  border_fuzziness               15
+  other_zone_avoidance_distance  0
+  clumping_factor                15
+}
+
+create_land 
+{
+  terrain_type                   PALM_DESERT
+  land_percent                   3
+  right_border                   24
+  left_border                    54
+  top_border                     54
+  bottom_border                  24
+  border_fuzziness               15
+  other_zone_avoidance_distance  0
+  clumping_factor                15
+}
+
+create_land 
+{
+  terrain_type                   PALM_DESERT
+  land_percent                   3
+  right_border                   24
+  left_border                    54
+  top_border                     24
+  bottom_border                  54
+  border_fuzziness               15
+  other_zone_avoidance_distance  0
+  clumping_factor                15
+}
+
+/* MIDDLE */ 
+create_land 
+{
+  terrain_type                   DIRT3
+  land_percent                   1
+  right_border                   45
+  left_border                    45
+  top_border                     45
+  bottom_border                  45
+  border_fuzziness               15
+  other_zone_avoidance_distance  0
+  clumping_factor                15
+  land_id                        270
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PALM_DESERT
+{
+  base_terrain                   DIRT
+  spacing_to_other_terrain_types 5
+  land_percent                   13
+  number_of_clumps               9
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+create_terrain DIRT3
+{
+  base_terrain                   DIRT
+  number_of_clumps               8
+  spacing_to_other_terrain_types 0
+  land_percent                   3
+  set_scale_by_size
+}
+
+create_terrain DESERT
+{
+  base_terrain                   DIRT
+  number_of_clumps               12
+  spacing_to_other_terrain_types 1
+  land_percent                   1
+  set_scale_by_size
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* RECOURCES FOR MIDDLE */ 
+create_object GOLD
+{
+  terrain_to_place_on        DIRT3
+  number_of_objects          5
+  number_of_groups           2
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only 
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     270
+}
+
+create_object STONE
+{
+  terrain_to_place_on        DIRT3
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only 
+  min_distance_group_placement  7
+  max_distance_to_other_zones   0
+  place_on_specific_land_id     270
+}
+
+/* ENDIF MY_WOODLAND */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_ONTARIO ********************** */
+/* ****************************************************** */
+
+if MY_ONTARIO
+#define LANDMAP
+#define DARKFOREST
+#define HILLS 
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain GRASS
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     30
+  right_border                     4
+  left_border                      4
+  top_border                       4
+  bottom_border                    4
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+}
+
+start_random
+  percent_chance 50
+    create_land
+    {
+      terrain_type  WATER
+      land_percent                     10
+      right_border                     60
+      top_border                       60
+      base_size                        5
+      border_fuzziness                 15
+      clumping_factor                  10 
+    }
+
+    create_land
+    {
+      terrain_type  WATER
+      land_percent                     10
+      left_border                      60
+      bottom_border                    60
+      base_size                        5
+      border_fuzziness                 15
+      clumping_factor                  10
+    }
+
+  percent_chance 50
+    create_land
+    {
+      terrain_type  WATER
+      land_percent                     10
+      left_border                      60
+      top_border                       60
+      base_size                        5
+      border_fuzziness                 15
+      clumping_factor                  10
+    }
+
+    create_land
+    {
+      terrain_type  WATER
+      land_percent                     10
+      right_border                     60
+      bottom_border                    60
+      base_size                        5
+      border_fuzziness                 15
+      clumping_factor                  10
+    }
+end_random
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  land_percent                   13
+  number_of_clumps               7
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ENDIF MY_ONTARIO */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_WATERHOLE ******************** */
+/* ****************************************************** */
+
+if MY_WATERHOLE
+#define LANDMAP
+#define DARKFOREST
+#define HILLS
+#define CLIFFS
+#define PREDATORS 
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain GRASS
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     30
+  right_border                     4
+  left_border                      4
+  top_border                       4
+  bottom_border                    4
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+}
+
+create_land
+{
+  terrain_type  WATER
+  land_percent                     10
+  right_border                     35
+  left_border                      35
+  top_border                       35
+  bottom_border                    35
+  base_size                        10
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance     4 
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  land_percent                   14
+  number_of_clumps               10
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ENDIF MY_WATERHOLE */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_DESERT *********************** */
+/* ****************************************************** */
+
+if MY_DESERT
+#define DARKFOREST
+#define HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain GRASS
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     13
+  base_size                        8
+  border_fuzziness                 15
+  clumping_factor                  10
+}
+
+create_land
+{
+  terrain_type  DESERT
+  land_percent  30
+  left_border   20
+  right_border  20
+  top_border    20
+  bottom_border 20
+  base_size                        10
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    6
+}  
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  base_terrain GRASS
+  land_percent                   11
+  number_of_clumps               8
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+create_terrain PALM_DESERT
+{
+  base_terrain DESERT 
+  land_percent                   1
+  number_of_clumps               3
+  clumping_factor                20
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* PRIMARY PATCH */
+create_terrain DIRT
+{
+  base_terrain DESERT 
+  number_of_clumps               3
+  spacing_to_other_terrain_types 0
+  land_percent                   3
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* DESERT RESCOURCES */ 
+create_object GOLD
+{
+  terrain_to_place_on        DESERT
+  number_of_objects          7
+  number_of_groups           1
+  group_placement_radius     3
+  set_scaling_to_map_size
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       25
+  min_distance_group_placement  10
+  max_distance_to_other_zones  3
+}
+
+create_object STONE
+{
+  terrain_to_place_on        DESERT
+  number_of_objects          5
+  number_of_groups           1
+  group_placement_radius     3
+  set_scaling_to_map_size
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       25
+  min_distance_group_placement  10
+  max_distance_to_other_zones  3
+}
+
+create_object GOLD
+{
+  terrain_to_place_on        DESERT
+  number_of_objects          7
+  number_of_groups           2
+  group_placement_radius     3
+  set_scaling_to_map_size
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       25
+  min_distance_group_placement  10
+  max_distance_to_other_zones  3
+}
+
+create_object PALMTREE
+{
+  terrain_to_place_on        DESERT
+  number_of_objects          10
+  set_gaia_object_only
+  set_scaling_to_map_size
+}
+
+create_object WOLF
+{
+  terrain_to_place_on        DESERT
+  number_of_groups           2
+  number_of_objects          2
+  set_gaia_object_only
+  set_scaling_to_map_size
+}
+
+/* ENDIF MY_DESERT */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_LAKES ************************ */
+/* ****************************************************** */
+
+if MY_LAKES
+#define LANDMAP
+#define GREENFOREST
+#define HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     60
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+  zone 1
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  land_percent                   11
+  number_of_clumps               10
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_teams_lands
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    GRASS         2
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         4       1
+  terrain_size    MED_WATER     4       1
+  terrain_size    DEEP_WATER    4       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+}
+
+/* ENDIF MY_LAKES */
+endif
+
+/* ****************************************************** */
+/* ******************** HOMELAND ************************ */
+/* ****************************************************** */
+
+if MY_HOMELAND
+#define LANDMAP
+#define JUNGLEFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain JUNGLE
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     100
+  base_size                        14
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    15
+  set_zone_by_team 
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain JUNGLE
+{
+  land_percent                   16
+  number_of_clumps               8
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+
+start_random
+  percent_chance 50
+    create_connect_all_players_land
+    {   
+      replace_terrain JUNGLE        GRASS
+      terrain_cost    JUNGLE         5
+      terrain_size    JUNGLE         10      1
+    }
+
+  percent_chance 50
+    create_connect_all_players_land
+    {   
+      replace_terrain JUNGLE         GRASS
+      terrain_cost    JUNGLE         2
+      terrain_size    JUNGLE         5      1
+    }  
+end_random
+
+/* ENDIF MY_HOMELAND */
+endif
+
+/* ****************************************************** */
+/* ******************** ARTIFICIAL ********************** */
+/* ****************************************************** */
+
+if MY_ARTIFICIAL
+#define GREENFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     18
+  base_size                        13
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    20
+}
+
+create_land
+{
+  terrain_type  GRASS2
+  land_percent                     100
+  other_zone_avoidance_distance    5
+  land_id                          230
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  base_terrain  GRASS
+  land_percent                   4
+  number_of_clumps               6
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+create_terrain FOREST
+{
+  base_terrain  GRASS2
+  land_percent                   11
+  number_of_clumps               8
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    8
+  max_distance_to_players    12
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    14
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* RESOURCES FOR MIDDLE */ 
+create_object OAKTREE
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          1
+  number_of_groups           5
+  set_gaia_object_only
+  set_scaling_to_map_size  
+  place_on_specific_land_id     230
+}
+
+create_object GOLD
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          4
+  number_of_groups           3
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size  
+  min_distance_group_placement  15
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     230
+}
+
+create_object STONE
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  15
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     230
+}
+
+create_object SHEEP
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          2
+  number_of_groups           1
+  set_loose_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  10
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     230
+}
+
+create_object DEER
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          4
+  number_of_groups           1
+  set_loose_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  10
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     230
+}
+
+create_object WOLF
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          1
+  number_of_groups           1
+  set_loose_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  10
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     230
+}
+
+create_object GOLD
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          3
+  number_of_groups           2
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size  
+  min_distance_group_placement  15
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     230
+}
+
+create_object STONE
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  15
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     230
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_all_lands
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    GRASS         2
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         4       1
+  terrain_size    MED_WATER     4       1
+  terrain_size    DEEP_WATER    4       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+}
+
+/* ENDIF MY_ARTIFICIAL */ 
+endif
+
+/* ****************************************************** */
+/* ******************** GREATLAKE *********************** */
+/* ****************************************************** */
+
+if MY_GREATLAKE
+#define DARKFOREST
+#define HILLS
+#define CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+start_random
+  percent_chance 50
+    create_player_lands 
+    { 
+      terrain_type  GRASS
+      land_percent                     100
+      left_border                      6
+      right_border                     6
+      top_border                       6
+      bottom_border                    6
+      base_size                        13
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    5
+      set_zone_by_team    
+    }     
+ percent_chance 50
+    create_player_lands 
+    { 
+      terrain_type  GRASS
+      land_percent                     100
+      left_border                      0
+      right_border                     0
+      top_border                       0
+      bottom_border                    0
+      base_size                        13
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    5
+      set_zone_by_team    
+    }   
+end_random
+
+create_land
+{
+  terrain_type  WATER 
+  land_percent                     30
+  left_border                      25
+  right_border                     25
+  top_border                       25
+  bottom_border                    25
+  border_fuzziness                 15
+  clumping_factor                  11
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  land_percent                   10
+  number_of_clumps               9
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       25
+  max_distance_to_players       35
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_all_players_land
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    GRASS         2
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         2       1
+  terrain_size    MED_WATER     2       1
+  terrain_size    DEEP_WATER    2       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+}
+
+/* ENDIF MY_GREATLAKE */
+endif
+
+/* ****************************************************** */
+/* ******************** VANISHEDLAKE ******************** */
+/* ****************************************************** */
+
+if MY_VANISHEDLAKE
+#define JUNGLEFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     100
+  base_size                        13
+  border_fuzziness                 15
+  clumping_factor                  8
+  other_zone_avoidance_distance    5
+}
+
+create_land
+{
+  terrain_type  GRASS2
+  land_percent                     30
+  left_border                      22
+  right_border                     22
+  top_border                       22
+  bottom_border                    22
+  border_fuzziness                 15
+  clumping_factor                  12
+  other_zone_avoidance_distance    0
+  land_id                          190
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain JUNGLE
+{
+  base_terrain                GRASS
+  land_percent                   10
+  number_of_clumps               9
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+create_terrain JUNGLE
+{
+  base_terrain               GRASS2
+  land_percent                   2
+  number_of_clumps               3
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       25
+  max_distance_to_players       35
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* RESOURCES FOR MIDDLE */  
+create_object JUNGLE_TREE
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          1
+  number_of_groups           5
+  set_gaia_object_only
+  set_scaling_to_map_size  
+  place_on_specific_land_id     190
+}
+
+create_object STONE
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  18
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     190
+}
+
+create_object GOLD
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          3
+  number_of_groups           2
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size  
+  min_distance_group_placement  18
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     190
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_teams_lands
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    GRASS         2
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         6       1
+  terrain_size    MED_WATER     6       1
+  terrain_size    DEEP_WATER    6       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+}
+
+/* ENDIF MY_VANISHEDLAKE */
+endif
+
+/* ****************************************************** */
+/* ******************** GHOSTSWAMP ********************** */
+/* ****************************************************** */
+
+if MY_GHOSTSWAMP
+#define LANDMAP
+#define SWAMPFOREST
+#define NO_HILLS
+#define CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain GRASS
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     20
+  base_size                        13
+  border_fuzziness                 15
+  clumping_factor                  15
+}
+
+create_land
+{
+  terrain_type  SHALLOW
+  land_percent                     60
+  left_border                      20
+  right_border                     20
+  top_border                       20
+  bottom_border                    20
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    5
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain BAMBOO
+{
+  land_percent                   14
+  number_of_clumps               10
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object SHEEP
+{
+  number_of_objects             2
+  number_of_groups              1
+  terrain_to_place_on           SHALLOW
+  set_loose_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  7
+  max_distance_to_other_zones   3
+}
+
+/* ENDIF MY_GHOSTSWAMP */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_SEA ************************** */
+/* ****************************************************** */
+
+if MY_SEA
+#define LANDMAP
+#define DARKFOREST
+#define HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain GRASS
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     20
+  base_size                        13
+  border_fuzziness                 15
+  clumping_factor                  15
+}
+
+create_land
+{
+  terrain_type  WATER 
+  land_percent                     80
+  left_border                      15
+  right_border                     15
+  top_border                       15
+  bottom_border                    15
+  border_fuzziness                 15
+  clumping_factor                  5
+  other_zone_avoidance_distance    2
+}
+
+/* BONUS ISLANDS MIDDLE */ 
+start_random
+  percent_chance 50
+    create_land
+    {
+      terrain_type  GRASS2
+      land_percent                     1
+      base_size                        1
+      left_border                      25
+      right_border                     25
+      top_border                       25
+      bottom_border                    25
+      border_fuzziness                 15
+      clumping_factor                  8
+      other_zone_avoidance_distance    9
+      land_id                          170
+    }
+
+    create_land
+    {
+      terrain_type  GRASS2
+      land_percent                     1
+      base_size                        1
+      left_border                      25
+      right_border                     25
+      top_border                       25
+      bottom_border                    25
+      border_fuzziness                 15
+      clumping_factor                  8
+      other_zone_avoidance_distance    9
+      land_id                          170
+    }
+
+    create_land
+    {
+      terrain_type  GRASS2
+      land_percent                     1
+      base_size                        1
+      left_border                      25
+      right_border                     25
+      top_border                       25
+      bottom_border                    25
+      border_fuzziness                 15
+      clumping_factor                  8
+      other_zone_avoidance_distance    9
+      land_id                          170
+    }
+
+    create_land
+    {
+      terrain_type  GRASS2
+      land_percent                     1
+      base_size                        1
+      left_border                      25
+      right_border                     25
+      top_border                       25
+      bottom_border                    25
+      border_fuzziness                 15
+      clumping_factor                  8
+      other_zone_avoidance_distance    9
+      land_id                          170
+    }
+
+    create_land
+    {
+      terrain_type  GRASS2
+      land_percent                     1
+      base_size                        1
+      left_border                      25
+      right_border                     25
+      top_border                       25
+      bottom_border                    25
+      border_fuzziness                 15
+      clumping_factor                  8
+      other_zone_avoidance_distance    9
+      land_id                          170
+    }
+end_random
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  land_percent                   10
+  number_of_clumps               12
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+create_terrain PINE_FOREST
+{
+  base_terrain                   GRASS2
+  land_percent                   1
+  number_of_clumps               3
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* RESOURCES FOR BONUS ISLANDS */ 
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  0
+  terrain_to_place_on          GRASS2
+  place_on_specific_land_id    170
+}
+
+/* ENDIF MY_SEA */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_OASIS ************************ */
+/* ****************************************************** */
+
+if MY_OASIS
+#define LANDMAP
+#define DESERTFOREST
+#define HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain DIRT
+
+create_player_lands 
+{ 
+  terrain_type                     DIRT
+  land_percent                     30
+  base_size                        14
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    10 
+}
+
+/* POND */
+create_land 
+{
+  terrain_type                   WATER
+  land_percent                   10
+  right_border                   40
+  left_border                    40
+  top_border                     40
+  bottom_border                  40
+  border_fuzziness               15
+  other_zone_avoidance_distance  9
+  clumping_factor                15
+}
+
+/* TREES AROUND POND */
+create_land 
+{
+  terrain_type                   PALM_DESERT
+  land_percent                   30
+  right_border                   20
+  left_border                    20
+  top_border                     20
+  bottom_border                  20
+  border_fuzziness               15
+  other_zone_avoidance_distance  0
+  clumping_factor                15
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PALM_DESERT
+{
+  base_terrain                   DIRT
+  spacing_to_other_terrain_types 5
+  land_percent                   9
+  number_of_clumps               11
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+create_terrain DESERT
+{
+  base_terrain                   DIRT
+  number_of_clumps               12
+  spacing_to_other_terrain_types 0
+  land_percent                   7
+  set_scale_by_size
+}
+
+create_terrain DIRT3
+{
+  base_terrain                   DIRT
+  number_of_clumps               12
+  spacing_to_other_terrain_types 1
+  land_percent                   1
+  set_scale_by_size
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ENDIF MY_OASIS */
+endif
+
+/* ****************************************************** */
+/* ******************** CLEARING ************************ */
+/* ****************************************************** */
+
+if MY_CLEARING
+#define LANDMAP
+#define GREENFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+ 
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain FOREST
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     65
+  base_size                        13
+  border_fuzziness                 15
+  other_zone_avoidance_distance    8 
+  clumping_factor                  10
+  zone 1 
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  spacing_to_other_terrain_types 5
+  land_percent                   9
+  number_of_clumps               11
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ENDIF MY_CLEARING */
+endif
+
+/* ****************************************************** */
+/* ******************** BLACKFOREST ********************* */
+/* ****************************************************** */
+
+if MY_BLACKFOREST
+#define LANDMAP
+#define GREENFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain GRASS
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     30
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    9
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  land_percent                   35
+  number_of_clumps               35
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ENDIF MY_BLACKFOREST */
+endif
+
+/* ****************************************************** */
+/* ******************** MONGOLIA ************************ */
+/* ****************************************************** */
+
+if MY_MONGOLIA
+#define LANDMAP
+#define DARKFOREST
+#define NO_HILLS
+#define CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain DIRT
+
+create_player_lands 
+{ 
+  terrain_type  DIRT
+  land_percent                     30
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  base_terrain                   DIRT
+  land_percent                   18
+  number_of_clumps               13
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+create_terrain DIRT3
+{
+  base_terrain                   DIRT
+  number_of_clumps               24
+  spacing_to_other_terrain_types 0
+  land_percent                   6
+  set_scale_by_size
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object PINETREE
+{
+  terrain_to_place_on        DIRT
+  number_of_objects          20
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_to_players    10
+}
+
+/* ENDIF MY_MONGOLIA */
+endif
+
+/* ****************************************************** */
+/* ******************** GREENARABIA ********************* */
+/* ****************************************************** */
+
+if MY_GREENARABIA
+#define LANDMAP
+#define GREENFOREST
+#define HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain GRASS
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     30
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  land_percent                   20
+  number_of_clumps               14
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ENDIF MY_GREENARABIA */
+endif
+
+/* ****************************************************** */
+/* ******************** DISC **************************** */
+/* ****************************************************** */
+
+if MY_DISC
+#define LANDMAP
+#define DARKFOREST
+#define NO_CLIFFS 
+#define NO_HILLS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     100
+  left_border                      8
+  right_border                     8
+  top_border                       8
+  bottom_border                    8
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+  zone 1
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  land_percent                   13
+  number_of_clumps               12
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ENDIF MY_DISC */
+endif
+
+/* ****************************************************** */
+/* ******************** MY_ZERO ************************* */
+/* ****************************************************** */
+
+if MY_ZERO
+#define LANDMAP
+#define DARKFOREST
+#define HILLS
+#define CLIFFS 
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     100
+  base_size                        15
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    7
+  zone 1
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     4
+  base_size                        3
+  left_border                      42
+  right_border                     42
+  top_border                       42
+  bottom_border                    42
+  border_fuzziness                 15
+  clumping_factor                  15
+  land_id                          100
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  land_percent                   16
+  number_of_clumps               11
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* RESOURCES FOR BONUS ISLANDS */ 
+create_object GOLD
+{
+  number_of_objects          7
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   3
+  place_on_specific_land_id 100
+}
+
+create_object GOLD
+{
+  number_of_objects          5
+  number_of_groups           2
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   3
+  place_on_specific_land_id 100
+}
+
+create_object STONE
+{
+  number_of_objects          5
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones   3
+  place_on_specific_land_id 100
+}
+
+/* ENDIF MY_ZERO */
+endif
+ 
+/* ****************************************************** */
+/* ******************** ANATOLIA ************************ */
+/* ****************************************************** */
+
+if MY_ANATOLIA
+#define LANDMAP
+#define DARKFOREST
+#define HILLS
+#define CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     100
+  start_random
+    percent_chance 50
+      left_border                      8
+      right_border                     8
+      top_border                       0
+      bottom_border                    0
+    percent_chance 50
+      left_border                      0
+      right_border                     0
+      top_border                       8
+      bottom_border                    8
+  end_random
+  base_size                        10
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    8 
+  zone 1
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  land_percent                   14
+  number_of_clumps               11
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* ENDIF MY_ANATOLIA */
+endif
+
+/* ****************************************************** */
+/* ******************** FAIRRIVERS ********************** */
+/* ****************************************************** */
+
+if MY_FAIRRIVERS
+#define LANDMAP
+#define SWAMPFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+start_random
+  percent_chance 25
+    create_player_lands 
+    { 
+      terrain_type  GRASS
+      land_percent                     100
+      left_border                      0
+      right_border                     0
+      top_border                       8
+      bottom_border                    8
+      base_size                        13
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        1
+      left_border                      30
+      right_border                     30
+      top_border                       30
+      bottom_border                    30
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    7
+      land_id                          80
+    }
+
+  percent_chance 25
+    create_player_lands 
+    { 
+      terrain_type  GRASS
+      land_percent                     100
+      left_border                      8
+      right_border                     8
+      top_border                       0
+      bottom_border                    0
+      base_size                        13
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        1
+      left_border                      20
+      right_border                     20
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    7
+      land_id                          80
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        1
+      left_border                      20
+      right_border                     20
+      top_border                       20
+      bottom_border                    20
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    7
+      land_id                          80
+    }
+
+  percent_chance 50
+    create_player_lands 
+    { 
+      terrain_type  GRASS
+      land_percent                     100
+      left_border                      8
+      right_border                     8
+      top_border                       8
+      bottom_border                    8
+      base_size                        13
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+      set_zone_randomly
+    }
+end_random
+
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain BAMBOO
+{
+  land_percent                   9
+  number_of_clumps               12
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* RESOURCES FOR BONUS ISLANDS */ 
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  3
+  place_on_specific_land_id 80
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_all_lands
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    GRASS         2
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         2       1
+  terrain_size    MED_WATER     2       1
+  terrain_size    DEEP_WATER    2       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+}
+
+/* ****************************************************** */
+<ELEVATION_GENERATION>
+create_elevation        3
+{   
+  base_terrain                  GRASS
+  number_of_clumps 		10
+  number_of_tiles 		1000
+  set_scale_by_groups
+  set_scale_by_size           
+}
+
+/* ENDIF MYFAIRRIVERS */
+endif
+
+/* ****************************************************** */
+/* ******************** PIZZA *************************** */
+/* ****************************************************** */
+
+if MY_PIZZA
+#define LANDMAP
+#define GREENFOREST
+#define HILLS
+#define CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     100
+  base_size                        14
+  border_fuzziness                 15
+  clumping_factor                  15
+  start_random
+    percent_chance 50
+      other_zone_avoidance_distance    7
+    percent_chance 50
+      other_zone_avoidance_distance    9
+  end_random
+}
+
+start_random
+  percent_chance 25
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     2
+      base_size                        1
+      left_border                      35
+      right_border                     35
+      top_border                       35
+      bottom_border                    35
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    7
+      land_id                          70
+    }
+  percent_chance 25
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     3
+      base_size                        1
+      left_border                      35
+      right_border                     35
+      top_border                       35
+      bottom_border                    35
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    7
+      land_id                          70
+    }
+ percent_chance 25
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     5
+      base_size                        1
+      left_border                      35
+      right_border                     35
+      top_border                       35
+      bottom_border                    35
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    7
+      land_id                          71
+    }
+end_random
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  land_percent                   14
+  number_of_clumps               12
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* RESOURCES FOR BONUS ISLANDS */ 
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  3
+  place_on_specific_land_id 70
+}
+
+create_object STONE 
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  3
+  place_on_specific_land_id 70
+}
+
+create_object GOLD
+{
+  number_of_objects          5
+  number_of_groups           3
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  3
+  place_on_specific_land_id 71
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_all_lands
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    GRASS         2
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         2       1
+  terrain_size    MED_WATER     2       1
+  terrain_size    DEEP_WATER    2       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+}
+
+/* ENDIF MY_PIZZA */ 
+endif
+
+/* ****************************************************** */
+/* ******************** HIGHLAND ************************ */
+/* ****************************************************** */
+
+if MY_HIGHLAND
+#define LANDMAP
+#define GREENFOREST
+#define HILLS
+#define CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     100
+  base_size                        14
+  border_fuzziness                 15
+  clumping_factor                  15
+  start_random
+    percent_chance 50
+      other_zone_avoidance_distance    9
+    percent_chance 50
+      other_zone_avoidance_distance    7
+  end_random
+  set_zone_by_team
+}
+
+start_random 
+  percent_chance 50
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        1
+      left_border                      35
+      right_border                     35
+      top_border                       35
+      bottom_border                    35
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    7
+      land_id                          60
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     2
+      base_size                        1
+      left_border                      35
+      right_border                     35
+      top_border                       35
+      bottom_border                    35
+      border_fuzziness                 15
+      clumping_factor                  15
+      other_zone_avoidance_distance    7
+      land_id                          60
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        1
+      left_border                      22
+      right_border                     22
+      top_border                       22
+      bottom_border                    22
+      border_fuzziness                 15
+      clumping_factor                  10
+      other_zone_avoidance_distance    7
+      land_id                          60
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        1
+      left_border                      22
+      right_border                     22
+      top_border                       22
+      bottom_border                    22
+      border_fuzziness                 15
+      clumping_factor                  10
+      other_zone_avoidance_distance    7
+      land_id                          60
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     1
+      base_size                        1
+      left_border                      22
+      right_border                     22
+      top_border                       22
+      bottom_border                    22
+      border_fuzziness                 15
+      clumping_factor                  10
+      other_zone_avoidance_distance    7
+      land_id                          60
+    }
+end_random
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  land_percent                   15
+  number_of_clumps               13
+  clumping_factor                25
+  spacing_to_other_terrain_types 5
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* RESOURCES FOR BONUS ISLANDS */ 
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  0
+  place_on_specific_land_id 60
+}
+
+create_object STONE 
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  0
+  place_on_specific_land_id 60
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+start_random 
+  percent_chance 50
+    create_connect_all_players_land
+    { 
+      replace_terrain WATER         SHALLOW
+      replace_terrain MED_WATER     SHALLOW
+      replace_terrain DEEP_WATER    SHALLOW
+
+      terrain_cost    WATER         7
+      terrain_cost    MED_WATER     9
+      terrain_cost    DEEP_WATER    15
+      terrain_cost    GRASS         2
+      terrain_cost    FOREST        7
+      terrain_cost    PINE_FOREST   7
+      terrain_cost    BEACH         7
+      terrain_size    WATER         2       1
+      terrain_size    MED_WATER     2       1
+      terrain_size    DEEP_WATER    2       1
+      terrain_size    GRASS         0       0
+      terrain_size    FOREST        0       0
+      terrain_size    PINE_FOREST   0       0
+    } 
+
+  percent_chance 50
+    create_connect_all_players_land
+    { 
+      replace_terrain WATER         SHALLOW
+      replace_terrain MED_WATER     SHALLOW
+      replace_terrain DEEP_WATER    SHALLOW
+
+      terrain_cost    WATER         3
+      terrain_cost    MED_WATER     4
+      terrain_cost    DEEP_WATER    5
+      terrain_cost    GRASS         2
+      terrain_cost    FOREST        7
+      terrain_cost    PINE_FOREST   7
+      terrain_cost    BEACH         7
+      terrain_size    WATER         2       1
+      terrain_size    MED_WATER     2       1
+      terrain_size    DEEP_WATER    2       1
+      terrain_size    GRASS         0       0
+      terrain_size    FOREST        0       0
+      terrain_size    PINE_FOREST   0       0
+    }
+end_random
+
+/* ENDIF MY_HIGHLAND */
+endif
+
+/* ****************************************************** */
+/* ******************** TEAMISLANDS ********************* */
+/* ****************************************************** */
+
+if MY_TEAMISLANDS
+#define WATERMAP
+#define DARKFOREST
+#define HILLS
+#define CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     45
+  left_border                      8
+  right_border                     8
+  top_border                       8
+  bottom_border                    8
+  base_size                        13
+  border_fuzziness                 15
+  clumping_factor                  11
+  start_random
+    percent_chance 50
+      other_zone_avoidance_distance    18
+    percent_chance 50
+      other_zone_avoidance_distance    15
+  end_random
+  set_zone_by_team
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  land_percent                   8
+  number_of_clumps               10
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       25
+  max_distance_to_players       35
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+start_random
+  percent_chance 50
+    create_connect_all_players_land
+    { 
+      replace_terrain WATER         SHALLOW
+      replace_terrain MED_WATER     SHALLOW
+      replace_terrain DEEP_WATER    SHALLOW
+
+      terrain_cost    WATER         7
+      terrain_cost    MED_WATER     9
+      terrain_cost    DEEP_WATER    15
+      terrain_cost    GRASS         2
+      terrain_cost    FOREST        7
+      terrain_cost    PINE_FOREST   7
+      terrain_cost    BEACH         7
+      terrain_size    WATER         3       1
+      terrain_size    MED_WATER     3       1
+      terrain_size    DEEP_WATER    3       1
+      terrain_size    GRASS         0       0
+      terrain_size    FOREST        0       0
+      terrain_size    PINE_FOREST   0       0
+    } 
+end_random
+
+/* ENDIF MYTEAMISLANDS */
+endif
+
+/* ****************************************************** */
+/* ******************** LANDMASS ************************ */
+/* ****************************************************** */
+
+if MY_LANDMASS
+#define WATERMAP
+#define GREENFOREST
+#define HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     40
+  left_border                      8
+  right_border                     8
+  top_border                       8
+  bottom_border                    8
+  base_size                        13
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    8
+  zone 1
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  land_percent                   8
+  number_of_clumps               8
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       25
+  max_distance_to_players       35
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* ENDIF MYLANDMASS */
+endif
+
+/* ****************************************************** */
+/* ******************** CONTINENT *********************** */
+/* ****************************************************** */
+
+if MY_CONTINENT
+#define WATERMAP
+#define GREENFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  land_percent                     30
+  right_border                     8
+  left_border                      8
+  top_border                       8
+  bottom_border                    8
+  base_size                        13
+  border_fuzziness                 15
+  clumping_factor                  15
+  other_zone_avoidance_distance    7
+}
+
+create_land 
+{
+  other_zone_avoidance_distance    0
+  terrain_type GRASS2
+  base_terrain WATER
+
+  start_random
+    percent_chance 50
+      land_percent 13
+    percent_chance 50
+      land_percent 10
+  end_random
+
+  right_border                   25
+  left_border                    25
+  top_border                     25
+  bottom_border                  25
+  land_id                        30
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain FOREST
+{
+  base_terrain GRASS
+  land_percent                   6
+  number_of_clumps               9
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+create_terrain FOREST
+{
+  base_terrain GRASS2
+  land_percent                   2
+  number_of_clumps               3
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    14
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    20
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       24
+  max_distance_to_players       30
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    20
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       18
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* RESOURCES FOR MIDDLE */ 
+create_object OAKTREE
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          1
+  number_of_groups           5
+  set_gaia_object_only
+  set_scaling_to_map_size  
+  place_on_specific_land_id     30
+}
+
+create_object GOLD
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size  
+  min_distance_group_placement  13
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     30
+}
+
+create_object STONE
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  13
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     30
+}
+
+create_object SHEEP
+{
+  terrain_to_place_on GRASS2
+  number_of_objects          2
+  number_of_groups           1
+  set_loose_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size 
+  min_distance_group_placement  7
+  max_distance_to_other_zones   7
+  place_on_specific_land_id     30
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+create_connect_all_lands
+{ 
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    GRASS         2
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    BEACH         7
+  terrain_size    WATER         2       1
+  terrain_size    MED_WATER     2       1
+  terrain_size    DEEP_WATER    2       1
+  terrain_size    GRASS         0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+} 
+
+/* ENDIF MY_CONTINENT */
+endif
+
+/* ****************************************************** */
+/* ******************** ISLANDS ************************* */
+/* ****************************************************** */
+
+if MY_ISLANDS
+#define WATERMAP
+#define DARKFOREST
+#define NO_HILLS
+#define NO_CLIFFS
+#define NO_PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+if TINY_MAP
+  #define TINYCENTRAL
+  create_player_lands 
+  { 
+    terrain_type  GRASS
+    land_percent                     30
+    base_size                        13
+    border_fuzziness                 15
+    clumping_factor                  15
+    other_zone_avoidance_distance    9
+    left_border                      8
+    right_border                     8
+    top_border                       8
+    bottom_border                    8
+  }
+
+else
+  start_random
+    percent_chance 50
+      create_player_lands 
+      { 
+        terrain_type  GRASS
+        land_percent                     30
+        base_size                        13
+        border_fuzziness                 15
+        clumping_factor                  15
+        other_zone_avoidance_distance    9
+        left_border                      0
+        right_border                     0
+        top_border                       0
+        bottom_border                    0
+      }
+
+   percent_chance 50
+      #define TINYCENTRAL
+      create_player_lands 
+      { 
+        terrain_type  GRASS
+        land_percent                     30
+        base_size                        13
+        border_fuzziness                 15
+        clumping_factor                  15
+        other_zone_avoidance_distance    9
+        left_border                      8
+        right_border                     8
+        top_border                       8
+        bottom_border                    8
+      }
+  end_random
+
+/* ENDIF TINY */
+endif
+
+/* BONUS ISLANDS MIDDLE */ 
+
+if TINY_MAP
+  /* one less bonus islands for tiny */ 
+else
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        3
+  left_border                      25
+  right_border                     25
+  top_border                       25
+  bottom_border                    25
+  border_fuzziness                 15
+  clumping_factor                  11
+  other_zone_avoidance_distance    7
+  land_id                          20
+}
+/* ENDIF TINY_MAP */ 
+endif
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        3
+  left_border                      25
+  right_border                     25
+  top_border                       25
+  bottom_border                    25
+  border_fuzziness                 15
+  clumping_factor                  11
+  other_zone_avoidance_distance    7
+  land_id                          20
+}
+
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     1
+  base_size                        3
+  left_border                      25
+  right_border                     25
+  top_border                       25
+  bottom_border                    25
+  border_fuzziness                 15
+  clumping_factor                  11
+  other_zone_avoidance_distance    7
+  land_id                          21
+}
+
+if TINYCENTRAL
+  /* no bonus islands at edge */ 
+else
+/* BONUS ISLANDS EDGE */ 
+start_random
+  percent_chance 25
+    #define EDGEISLANDS
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     2
+      base_size                        3
+      left_border                      80
+      top_border                       50
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+      land_id                          22
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     2
+      base_size                        3
+      right_border                     80
+      bottom_border                    50
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+      land_id                          22
+    }
+
+  percent_chance 25
+    #define EDGEISLANDS
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     2
+      base_size                        3
+      top_border                       80
+      right_border                     50
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+      land_id                          22
+    }
+
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     2
+      base_size                        3
+      bottom_border                    80
+      left_border                      50
+      border_fuzziness                 15
+      clumping_factor                  11
+      other_zone_avoidance_distance    7
+      land_id                          22
+    }
+end_random
+
+/* ENDIF TINY_MAP */ 
+endif
+
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+if EDGEISLANDS
+  create_terrain PINE_FOREST
+  {
+    land_percent                   8
+    number_of_clumps               12
+    clumping_factor                25
+    spacing_to_other_terrain_types 3
+    set_avoid_player_start_areas    
+    set_scale_by_groups
+  }
+
+else
+
+  create_terrain PINE_FOREST
+  {
+    land_percent                   7
+    number_of_clumps               12
+    clumping_factor                25
+    spacing_to_other_terrain_types 3
+    set_avoid_player_start_areas    
+    set_scale_by_groups
+  }
+endif
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    8
+  max_distance_to_players    12
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       30
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    20
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       16
+  max_distance_to_players       30
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* RESOURCES FOR BONUS ISLANDS */ 
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  0
+  place_on_specific_land_id 20
+}
+
+create_object STONE 
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  0
+  place_on_specific_land_id 20
+}
+
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           2
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  0
+  place_on_specific_land_id 21
+}
+
+create_object GOLD
+{
+  number_of_objects          3
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement  7
+  max_distance_to_other_zones  0
+  place_on_specific_land_id 22
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+start_random
+  percent_chance 50
+    create_connect_all_players_land
+    { 
+      replace_terrain WATER         SHALLOW
+      replace_terrain MED_WATER     SHALLOW
+      replace_terrain DEEP_WATER    SHALLOW
+
+      terrain_cost    WATER         7
+      terrain_cost    MED_WATER     9
+      terrain_cost    DEEP_WATER    15
+      terrain_cost    GRASS         2
+      terrain_cost    FOREST        7
+      terrain_cost    PINE_FOREST   7
+      terrain_cost    BEACH         7
+      terrain_size    WATER         4       1
+      terrain_size    MED_WATER     4       1
+      terrain_size    DEEP_WATER    4       1
+      terrain_size    GRASS         0       0
+      terrain_size    FOREST        0       0
+      terrain_size    PINE_FOREST   0       0
+    }
+end_random
+
+/* ENDIF MY_ISLANDS */ 
+endif
+
+/* ****************************************************** */
+/* ******************** MIGRATION *********************** */
+/* ****************************************************** */
+
+if MY_MIGRATION
+#define WATERMAP
+#define DARKFOREST
+#define NO_HILLS
+#define CLIFFS
+#define NO_PREDATORS
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type  GRASS
+  start_random
+    percent_chance 50
+      land_percent                     15
+    percent_chance 50
+      land_percent                     20
+  end_random
+  base_size                        12
+  border_fuzziness                 15
+  clumping_factor                  11
+  start_random
+    percent_chance 50
+      other_zone_avoidance_distance    10
+    percent_chance 50 
+      other_zone_avoidance_distance    20
+  end_random
+}
+
+/* MAIN ISLAND */ 
+create_land
+{
+  terrain_type  GRASS
+  land_percent                     40 
+  start_random
+    percent_chance 50
+      left_border                      10
+      right_border                     10
+      top_border                       10
+      bottom_border                    10
+    percent_chance 50
+      left_border                      20
+      right_border                     20
+      top_border                       20
+      bottom_border                    20
+  end_random
+  border_fuzziness                 15
+  clumping_factor                  11
+  other_zone_avoidance_distance    7
+  land_id                          10
+}
+
+/* EDGE ISLANDS ONE FOR EACH TEAM TO BE FAIR */ 
+start_random
+  percent_chance 10
+    create_land
+    {
+      terrain_type  GRASS
+      land_percent                     3
+      base_size                        1
+      left_border                      80
+      top_border                       50
+      border_fuzziness                 15
+      clumping_factor                  5
+      other_zone_avoidance_distance    7
+      land_id                          11
+    }
+
+    create_land
+    {
+      land_percent                      3
+      base_size                         1
+      right_border                      80
+      bottom_border                     50
+      border_fuzziness                  15
+      clumping_factor                   5
+      other_zone_avoidance_distance     7
+      land_id                           11
+    }
+
+  percent_chance 10
+    create_land
+    {
+      land_percent                      3
+      base_size                         1
+      top_border                        80
+      right_border                      50
+      border_fuzziness                  15
+      clumping_factor                   5
+      other_zone_avoidance_distance     7
+      land_id                           11
+    }
+
+    create_land
+    {
+      land_percent                      3
+      base_size                         1
+      bottom_border                     80
+      left_border                       50
+      border_fuzziness                  15
+      clumping_factor                   5
+      other_zone_avoidance_distance     7
+      land_id                           11
+    }
+end_random
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+create_terrain PINE_FOREST
+{
+  land_percent                   8
+  number_of_clumps               10
+  clumping_factor                25
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    8
+  max_distance_to_players    12
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    14
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* RESOURCES FOR MIGRA ISLAND */ 
+create_object GOLD
+{
+  number_of_groups           1
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_group_placement  7
+  max_distance_to_other_zones   7
+  place_on_specific_land_id 10
+}
+
+create_object GOLD
+{
+  number_of_groups           2
+  number_of_objects          3
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_group_placement  7
+  max_distance_to_other_zones   7
+  place_on_specific_land_id 10
+}
+
+create_object STONE
+{
+  number_of_groups           1
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_group_placement  7
+  max_distance_to_other_zones   7
+  place_on_specific_land_id 10
+}
+
+create_object SHEEP
+{
+  number_of_objects 2
+  number_of_groups 1
+  set_loose_grouping
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_group_placement  7
+  max_distance_to_other_zones   7
+  place_on_specific_land_id 10
+}
+
+/* RESOURCES FOR EDGE ISLANDS */ 
+
+create_object GOLD
+{
+  number_of_groups           1
+  number_of_objects          3
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id  11
+}
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+  start_random 
+    percent_chance 50
+      create_connect_all_lands
+      { 
+        replace_terrain WATER         SHALLOW
+        replace_terrain MED_WATER     SHALLOW
+        replace_terrain DEEP_WATER    SHALLOW
+
+        terrain_cost    WATER         7
+        terrain_cost    MED_WATER     9
+        terrain_cost    DEEP_WATER    15
+        terrain_cost    GRASS         2
+        terrain_cost    FOREST        7
+        terrain_cost    PINE_FOREST   7
+        terrain_cost    BEACH         7
+        terrain_size    WATER         2       1
+        terrain_size    MED_WATER     2       1
+        terrain_size    DEEP_WATER    2       1
+        terrain_size    GRASS         0       0
+        terrain_size    FOREST        0       0
+        terrain_size    PINE_FOREST   0       0
+      }
+  end_random
+
+/* ENDIF MY_MIGRA */
+endif
+
+/* MAP INDEPENDENT STARTS HERE !!!!!!!!!!!!!!!!!!!!!!!!!! */ 
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+/* ****************************************************** */
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+/* WATER */ 
+create_terrain MED_WATER
+{
+base_terrain WATER
+
+start_random
+  percent_chance 50
+    number_of_clumps               12
+  percent_chance 50
+    number_of_clumps               15
+end_random
+
+start_random
+  percent_chance 33
+    spacing_to_other_terrain_types 1
+  percent_chance 33
+    spacing_to_other_terrain_types 2
+  percent_chance 34 
+    spacing_to_other_terrain_types 3
+end_random
+
+start_random
+  percent_chance 50
+    land_percent                   20
+  percent_chance 50 
+    land_percent                   30
+end_random
+}
+
+/* MAKE DOCK BUILDING POSSIBLE EVERYWHERE */ 
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps               30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+
+start_random
+  percent_chance 50
+    number_of_clumps               8
+  percent_chance 50
+    number_of_clumps               10
+end_random
+
+start_random
+  percent_chance 50
+    spacing_to_other_terrain_types 2
+  percent_chance 50
+    spacing_to_other_terrain_types 3
+end_random
+
+start_random
+  percent_chance 50
+    land_percent                   20
+  percent_chance 50 
+    land_percent                   25
+end_random
+}
+
+/* MAKE DOCK BUILDING POSSIBLE EVERYWHERE */ 
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+number_of_clumps               30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+/* MAKE DOCK BUILDING POSSIBLE EVERYWHERE */ 
+create_terrain MED_WATER
+{
+base_terrain DEEP_WATER
+number_of_clumps               30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+/* PRIMARY PATCH */
+create_terrain GRASS3
+{
+  number_of_clumps               8
+  spacing_to_other_terrain_types 0
+  land_percent                   6
+  set_scale_by_size
+}
+
+/* SECONDARY PATCH */
+create_terrain DIRT3
+{
+  number_of_clumps               24
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+}
+
+/* TERTIARY PATCH */
+create_terrain GRASS
+{
+  number_of_clumps               30
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+/* PLAYER START OBJECTS */
+
+start_random
+  percent_chance 99
+    create_object SCOUT
+    {
+      number_of_objects             1
+      set_place_for_every_player
+      min_distance_to_players       7
+      max_distance_to_players       9
+    }
+end_random
+
+/* SPECIAL STUFF FOR REGICIDE */
+if REGICIDE
+create_object VILLAGER
+{
+  number_of_objects             7
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object CASTLE
+{
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    10
+}
+endif
+
+/******************** RESOURCES ***********************/ 
+/************ PLAYER RESOURCES FOR LANDMAPS **********/ 
+
+if LANDMAP
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */ 
+create_object GOLD
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       25
+  max_distance_to_players       35
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           2
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+endif
+
+/********************** PLAYER RESOURCES MAP INDEPENDENT ********************/ 
+/* NEAR FORAGE */
+create_object FORAGE
+{
+  number_of_objects          6
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    12
+  min_distance_group_placement  6
+}
+end_random
+
+/* NEAR SHEEP */ 
+create_object SHEEP
+{
+   number_of_objects 4
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    10
+   max_distance_to_players    12
+} 
+
+/* FAR SHEEP */
+create_object SHEEP
+{
+   number_of_objects 2
+   number_of_groups 2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    14
+   max_distance_to_players    30
+}
+
+/* DEER */
+create_object DEER
+{
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     3
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    30
+}
+end_random
+
+/* BOAR */
+create_object BOAR
+{
+  number_of_objects          2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    22
+}
+
+/* WOLF */
+if PREDATORS
+  create_object WOLF
+  {
+    number_of_objects          2
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_group_placement 12
+    min_distance_to_players    30
+    max_distance_to_players    40
+  }
+endif
+
+/* STRAGGLER TREES */
+if GREENFOREST
+  create_object OAKTREE
+  { 
+    number_of_objects             3
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players       4
+    max_distance_to_players       6
+    min_distance_group_placement  4
+  }
+endif
+
+if DARKFOREST
+  create_object PINETREE
+  { 
+    number_of_objects             3
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players       4
+    max_distance_to_players       6
+    min_distance_group_placement  4
+  }
+endif
+
+if DESERTFOREST
+  create_object PALMTREE 
+  { 
+    number_of_objects             3
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players       4
+    max_distance_to_players       6
+    min_distance_group_placement  4
+  }
+endif
+
+if SWAMPFOREST
+  create_object BAMBOO_TREE
+  { 
+    number_of_objects             3
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players       4
+    max_distance_to_players       6
+    min_distance_group_placement  4
+  }
+endif
+
+if JUNGLEFOREST
+  create_object JUNGLE_TREE
+  { 
+    number_of_objects             3
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players       4
+    max_distance_to_players       6
+    min_distance_group_placement  4
+  }
+endif
+
+/******************* RESOURCES BY MAP (LAND ONLY) ***************************/
+if LANDMAP 
+  #define ADDRESOURCES
+endif 
+
+if ADDRESOURCES
+
+/* EXTRA FORAGE */
+
+if LARGE_MAP
+create_object FORAGE
+{
+  number_of_groups           1    
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  7
+}
+endif
+
+if HUGE_MAP
+create_object FORAGE
+{
+  number_of_groups           2    
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  7
+}
+endif
+
+if GIGANTIC_MAP
+create_object FORAGE
+{
+  number_of_groups           3    
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  max_distance_to_players       120
+  min_distance_group_placement  7
+}
+endif
+
+/* EXTRA GOLD */
+
+if TINY_MAP
+create_object GOLD
+{
+  number_of_groups           2    
+  number_of_objects          3
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if SMALL_MAP
+create_object GOLD
+{
+  number_of_groups           2    
+  number_of_objects          3
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if MEDIUM_MAP
+create_object GOLD
+{
+  number_of_groups           3    
+  number_of_objects          3
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if LARGE_MAP
+create_object GOLD
+{
+  number_of_groups           3    
+  number_of_objects          3
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if HUGE_MAP
+create_object GOLD
+{
+  number_of_groups           4    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if GIGANTIC_MAP
+create_object GOLD
+{
+  number_of_groups           5    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+/* EXTRA STONE */
+
+if TINY_MAP
+create_object STONE
+{
+  number_of_groups           1    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if SMALL_MAP
+create_object STONE
+{
+  number_of_groups           1    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if MEDIUM_MAP
+create_object STONE
+{
+  number_of_groups           2    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if LARGE_MAP
+create_object STONE
+{
+  number_of_groups           3    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if HUGE_MAP
+create_object STONE
+{
+  number_of_groups           4    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if GIGANTIC_MAP
+create_object STONE
+{
+  number_of_groups           5    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+/* ENDIF ADDRESOURCES */
+endif
+
+/************* BONUS SHEEP,BOAR AND DEER *********/ 
+if LANDMAP
+start_random 
+  percent_chance 50
+    create_object SHEEP
+    { 
+      number_of_objects 2
+      number_of_groups 1
+      set_loose_grouping
+      set_gaia_object_only
+      set_scaling_to_map_size
+      min_distance_group_placement  5
+      max_distance_to_other_zones   3
+    }
+end_random
+
+start_random 
+  percent_chance 10
+  create_object SHEEP
+  {
+    number_of_objects          2
+    number_of_groups           1
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players    14
+    max_distance_to_players    20
+  }
+end_random
+
+start_random 
+  percent_chance 10
+  create_object BOAR
+  {
+    number_of_objects          1   
+    number_of_groups           1   
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players    16
+    max_distance_to_players    22
+  }
+end_random
+
+start_random 
+  percent_chance 10
+    create_object DEER
+    { 
+      number_of_objects 5
+      number_of_groups 1
+      set_loose_grouping
+      set_gaia_object_only
+      set_scaling_to_map_size
+      min_distance_group_placement  5
+      max_distance_to_other_zones   3
+    }
+end_random
+endif
+
+/******************* MISC ***********************/
+/* RELICS */
+create_object RELIC
+{
+   number_of_objects            5
+   min_distance_to_players     25
+   temp_min_distance_group_placement 20
+}
+
+start_random
+  percent_chance 1
+    create_object RELIC
+    {
+      number_of_objects            5
+      min_distance_to_players     25
+      temp_min_distance_group_placement 20
+    }
+end_random
+
+/* STRAGGLER TREES */
+if GREENFOREST 
+  create_object OAKTREE
+  {
+    terrain_to_place_on        GRASS
+    number_of_objects          20
+    set_gaia_object_only
+    set_scaling_to_map_size
+    min_distance_to_players    10
+  }
+endif
+
+if DARKFOREST
+  create_object PINETREE
+  {
+    terrain_to_place_on        GRASS
+    number_of_objects          20
+    set_gaia_object_only
+    set_scaling_to_map_size
+    min_distance_to_players    10
+  }
+endif
+
+if DESERTFOREST
+  create_object PALMTREE
+  {
+    terrain_to_place_on        DIRT
+    number_of_objects          20
+    set_gaia_object_only
+    set_scaling_to_map_size
+    min_distance_to_players    10
+  }
+endif
+
+if SWAMPFOREST
+  create_object BAMBOO_TREE
+  {
+    terrain_to_place_on        GRASS
+    number_of_objects          20
+    set_gaia_object_only
+    set_scaling_to_map_size
+    min_distance_to_players    10
+  }
+endif
+
+if JUNGLEFOREST
+  create_object JUNGLE_TREE
+  {
+    terrain_to_place_on        GRASS
+    number_of_objects          20
+    set_gaia_object_only
+    set_scaling_to_map_size
+    min_distance_to_players    10
+  }
+endif
+
+/* BIRDS */ 
+create_object HAWK
+{
+   number_of_objects         6
+   set_scaling_to_map_size
+}
+
+/**************** FISH **********************/
+create_object SHORE_FISH
+{
+  number_of_objects                   25
+  set_scaling_to_map_size
+  min_distance_group_placement         5
+  set_gaia_object_only
+}
+
+create_object SNAPPER 
+{
+  terrain_to_place_on MED_WATER
+  number_of_groups                      16
+  number_of_objects                     1
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement          4
+  max_distance_to_other_zones           5
+} 
+
+create_object MARLIN1
+{
+  terrain_to_place_on DEEP_WATER
+  number_of_groups                     16
+  number_of_objects                     1
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement          4
+  max_distance_to_other_zones           4
+} 
+
+create_object DORADO
+{
+  terrain_to_place_on WATER
+  number_of_groups                      16
+  number_of_objects                     1
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement          4
+  max_distance_to_other_zones           5
+} 
+
+/* ****************************************************** */
+<ELEVATION_GENERATION>
+if HILLS
+  create_elevation        7
+  {   
+    base_terrain                GRASS
+    number_of_clumps 		14
+    number_of_tiles 		2000
+    set_scale_by_groups
+    set_scale_by_size           
+  }
+
+  create_elevation        7
+  {   
+    base_terrain                DIRT
+    number_of_clumps 		14
+    number_of_tiles 		2000
+    set_scale_by_groups
+    set_scale_by_size           
+  }
+endif
+
+/* ****************************************************** */
+<CLIFF_GENERATION>
+if CLIFFS
+  min_number_of_cliffs 5
+  max_number_of_cliffs 8
+  min_length_of_cliff  4
+  max_length_of_cliff  10
+  cliff_curliness      10
+  min_distance_cliffs  3  
+endif 
+
+if NO_CLIFFS
+  min_number_of_cliffs 0
+  max_number_of_cliffs 0
+endif
+
+if MY_MONGOLIA
+  min_number_of_cliffs 20
+  max_number_of_cliffs 25
+  min_length_of_cliff  4
+  max_length_of_cliff  10
+  cliff_curliness      20
+  min_distance_cliffs  3
+endif
+

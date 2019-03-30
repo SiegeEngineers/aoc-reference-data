@@ -1,0 +1,639 @@
+/* ECL_RIFT_ISLAND */
+/*
+ * Rift Island map used in the Africa stage for the ECL.
+ * This map is the winning submission for the Africa region of the map contest.
+ * For the final version, I removed parts of the script that were used for
+ * the ice version of the map, and I slightly changed the spacing between fish
+ * and the number of fish for large maps to make the fish generation more fair
+ * for players.
+ */
+
+/* Disputed_Fen v2 */
+/* Optimal for 3v3 &4v4 */
+
+/* Sling nerf constants. */
+#const TRIBUTE_INEFFICIENCY 46
+#const BANKING 17
+#const COINAGE 23
+#const COINAGE_IMP_DISABLER 224
+
+/* TERRAIN DICTIONARY */
+#const LANDA  14
+#const LANDB  6
+#const LANDC  9
+#const ISLELAND 0
+#const CONNECTION 2
+#const TREEA     13
+#const TREEB     10
+#const STRAGGLER 1063
+#const GAIASHEEP 1060
+#const GAIABOAR  1139
+#const GAIADEER  1019
+#const BUSHES 1059
+
+
+<PLAYER_SETUP>
+random_placement
+ai_info_map_type ARABIA 0 0 0
+
+/* Sling nerfs */
+effect_percent MOD_RESOURCE TRIBUTE_INEFFICIENCY ATTR_SET 40
+effect_amount DISABLE_TECH BANKING ATTR_DISABLE 17
+effect_amount DISABLE_TECH COINAGE ATTR_DISABLE 23
+effect_amount DISABLE_TECH COINAGE_IMP_DISABLER ATTR_DISABLE 224
+
+
+<LAND_GENERATION>
+base_terrain WATER
+
+create_land
+{
+  terrain_type          CONNECTION                 /* FEN */
+  land_percent					        100                /* ADJUST BY MAP SIZE */
+  if NORMAL_MAP
+    left_border                   32
+    right_border                  32
+    top_border                    32
+    bottom_border                 32
+  elseif MEDIUM_MAP
+    left_border                   30
+    right_border                  30
+    top_border                    30
+    bottom_border                 30
+  elseif SMALL_MAP
+    left_border                   30
+    right_border                  30
+    top_border                    30
+    bottom_border                 30
+  elseif TINY_MAP
+    left_border                   25
+    right_border                  25
+    top_border                    25
+    bottom_border                 25
+  else
+    left_border                   28
+    right_border                  28
+    top_border                    28
+    bottom_border                 28
+  endif
+  clumping_factor               12
+  other_zone_avoidance_distance  0
+  zone 1
+  land_id  1
+  base_elevation  0
+}
+
+create_player_lands
+{
+  terrain_type                  LANDA
+  land_percent                     100
+  base_size                        12
+  border_fuzziness                 25
+  clumping_factor                  15
+  if TINY_MAP
+    left_border                       7
+    right_border                      7
+    top_border                        7
+    bottom_border                     7
+  elseif MEDIUM_MAP
+    left_border                       7
+    right_border                      7
+    top_border                        7
+    bottom_border                     7
+  elseif NORMAL_MAP
+    left_border                       7
+    right_border                      7
+    top_border                        7
+    bottom_border                     7
+  else
+    left_border                       6
+    right_border                      6
+    top_border                        6
+    bottom_border                     6
+  endif
+  set_zone_by_team
+  if TINY_MAP
+    other_zone_avoidance_distance    3
+  elseif SMALL_MAP
+    other_zone_avoidance_distance    6
+  elseif MEDIUM_MAP
+    other_zone_avoidance_distance    6
+  elseif NORMAL_MAP
+    other_zone_avoidance_distance    8
+  else
+    other_zone_avoidance_distance    10
+  endif
+  base_elevation  1
+}
+
+
+<TERRAIN_GENERATION>
+
+/* MIXING WATER */
+create_terrain MED_WATER
+{
+  base_terrain WATER
+  if TINY_MAP
+    land_percent 5
+    number_of_clumps               15
+    spacing_to_other_terrain_types 0
+  elseif NORMAL_MAP
+    land_percent 4
+    number_of_clumps               25
+    spacing_to_other_terrain_types 0
+  elseif MEDIUM_MAP
+    land_percent 4
+    number_of_clumps               25
+    spacing_to_other_terrain_types 0
+  else
+    land_percent 3
+    number_of_clumps               30
+    spacing_to_other_terrain_types 1
+  endif
+  clumping_factor    80
+}
+
+/* ISLES IN MIDDLE */
+create_terrain ISLELAND
+{
+  base_terrain CONNECTION
+  number_of_clumps               25
+  land_percent                   4
+  spacing_to_other_terrain_types 2
+  set_scale_by_groups
+  clumping_factor    60
+}
+
+create_terrain SHALLOW
+{
+  base_terrain CONNECTION
+  number_of_clumps               30
+  spacing_to_other_terrain_types 1
+  land_percent 2
+}
+
+/* PRIMARY FOREST */
+create_terrain TREEA
+{
+  base_terrain                   LANDA
+  spacing_to_other_terrain_types 2
+  land_percent                   15
+  if MEDIUM_MAP
+    number_of_clumps               16
+  elseif SMALL MAP
+    number_of_clumps               17
+  elseif TINY_MAP
+    number_of_clumps               19
+  else
+    number_of_clumps               9
+  endif
+  set_avoid_player_start_areas
+  set_scale_by_groups
+  clumping_factor            80
+}
+
+/* PRIMARY PATCH */
+create_terrain LANDB
+{
+  base_terrain                   LANDA
+  number_of_clumps               20
+  land_percent                   8
+  set_scale_by_size
+}
+
+
+<ELEVATION_GENERATION>
+
+if NORMAL_MAP
+  create_elevation        7
+  {
+    base_terrain                LANDA
+    number_of_clumps 		25
+    number_of_tiles 		2700
+    set_scale_by_groups
+    set_scale_by_size
+  }
+elseif MEDIUM_MAP
+  create_elevation        7
+  {
+    base_terrain                LANDA
+    number_of_clumps 		25
+    number_of_tiles 		1800
+    set_scale_by_groups
+    set_scale_by_size
+  }
+elseif SMALL_MAP
+  create_elevation        7
+  {
+    base_terrain                LANDA
+    number_of_clumps 		25
+    number_of_tiles 		1500
+    set_scale_by_groups
+    set_scale_by_size
+  }
+elseif TINY_MAP
+  create_elevation        7
+  {
+    base_terrain                LANDA
+    number_of_clumps 		25
+    number_of_tiles 		1000
+    set_scale_by_groups
+    set_scale_by_size
+  }
+else
+  create_elevation        7
+  {
+    base_terrain                LANDA
+    number_of_clumps 		25
+    number_of_tiles 		4000
+    set_scale_by_groups
+    set_scale_by_size
+  }
+endif
+
+
+<CLIFF_GENERATION>
+
+min_number_of_cliffs 0
+max_number_of_cliffs 0
+min_length_of_cliff  4
+max_length_of_cliff  8
+cliff_curliness      10
+min_distance_cliffs  3
+
+
+<CONNECTION_GENERATION>
+
+create_connect_teams_lands
+{
+  replace_terrain WATER         CONNECTION
+  replace_terrain MED_WATER     CONNECTION
+  replace_terrain DEEP_WATER    CONNECTION
+  terrain_cost    WATER         1
+  terrain_cost    MED_WATER     1
+  terrain_cost    DEEP_WATER    1
+  terrain_cost    FOREST        5
+  terrain_cost    PALM_DESERT   5
+  terrain_cost    PINE_FOREST   5
+  terrain_cost    SNOW_FOREST   5
+  terrain_cost    DESERT        2
+  terrain_cost    DIRT          2
+  terrain_cost    DIRT2         2
+  terrain_cost    DIRT3         2
+  terrain_cost    DIRT_SNOW     2
+  terrain_cost    GRASS         2
+  terrain_cost    SNOW          2
+  terrain_cost    GRASS2        2
+  terrain_cost    GRASS3        2
+  terrain_cost    GRASS_SNOW    2
+  terrain_cost    BEACH         4
+  terrain_cost    ROAD2         1
+  terrain_cost    CONNECTION    3
+  terrain_size    WATER         8       1
+  terrain_size    DEEP_WATER    8       1
+  terrain_size    CONNECTION    8       1
+  terrain_size    GRASS         1       0
+  terrain_size    GRASS2        1       0
+  terrain_size    GRASS3        1       0
+  terrain_size    SNOW          1       0
+  terrain_size    GRASS_SNOW    1       0
+  terrain_size    FOREST        5       1
+  terrain_size    PALM_DESERT   5       1
+  terrain_size    PINE_FOREST   5       1
+  terrain_size    SNOW_FOREST   5       1
+  terrain_size    DESERT        0       0
+  terrain_size    DIRT          0       0
+  terrain_size    DIRT2         0       0
+  terrain_size    DIRT3         0       0
+  terrain_size    DIRT_SNOW     0       0
+  terrain_size    ROAD2         0       0
+}
+
+create_connect_all_players_land
+{
+
+  replace_terrain WATER         CONNECTION
+  replace_terrain MED_WATER     CONNECTION
+  replace_terrain DEEP_WATER    CONNECTION
+  replace_terrain TREEA         LANDA
+  terrain_cost    WATER         4
+  terrain_cost    MED_WATER     4
+  terrain_cost    DEEP_WATER    4
+  terrain_cost    CONNECTION    2
+  terrain_cost    TREEA         3
+  terrain_cost    DESERT        2
+  terrain_cost    DIRT          2
+  terrain_cost    DIRT2         2
+  terrain_cost    DIRT3         2
+  terrain_cost    DIRT_SNOW     2
+  terrain_cost    GRASS         2
+  terrain_cost    SNOW          2
+  terrain_cost    GRASS2        2
+  terrain_cost    GRASS3        2
+  terrain_cost    GRASS_SNOW    2
+
+  terrain_size    WATER         8       2
+  terrain_size    DEEP_WATER    8       2
+  terrain_size    MED_WATER     8       2
+  terrain_size    TREEA         8       2
+}
+
+
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object SPEARMAN
+{
+  number_of_objects             1
+  set_place_for_every_player
+  min_distance_to_players       7
+  max_distance_to_players       9
+}
+
+
+create_object RELIC
+{
+	number_of_objects				3
+	temp_min_distance_group_placement 7
+  terrain_to_place_on SHALLOW
+}
+
+create_object RELIC
+{
+	number_of_objects				1
+  set_scaling_to_player_number
+	temp_min_distance_group_placement 7
+  terrain_to_place_on SHALLOW
+}
+
+if REGICIDE
+  create_object VILLAGER
+  {
+    number_of_objects             7
+    set_place_for_every_player
+    min_distance_to_players       6
+    max_distance_to_players       7
+  }
+
+  create_object KING
+  {
+    set_place_for_every_player
+    min_distance_to_players       7
+    max_distance_to_players       9
+  }
+
+  create_object CASTLE
+  {
+    set_place_for_every_player
+    min_distance_to_players    10
+    max_distance_to_players    12
+  }
+endif
+
+/* NEAR FORAGE */
+
+create_object BUSHES
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    11
+  max_distance_to_players    14
+  min_distance_group_placement  6
+}
+
+/* NEAR GOLD */
+
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    13
+  max_distance_to_players    15
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    25
+  max_distance_to_players    30
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    30
+  max_distance_to_players    36
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    17
+  max_distance_to_players    20
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+
+create_object STONE
+{
+  number_of_objects          4
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    24
+  max_distance_to_players    30
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+
+/* BAA BAA */
+
+create_object GAIASHEEP
+{
+  number_of_objects 4
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    5
+  max_distance_to_players    7
+}
+
+create_object GAIASHEEP
+{
+  number_of_objects 2
+  number_of_groups 2
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    30
+}
+
+create_object GAIADEER
+{
+  number_of_groups          20
+  number_of_objects          5
+  set_loose_grouping
+  min_distance_group_placement 6
+  terrain_to_place_on ISLELAND
+  set_gaia_object_only
+  set_scaling_to_map_size
+}
+
+create_object GAIABOAR
+{
+  number_of_objects          1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    20
+}
+
+create_object GAIABOAR
+{
+  number_of_objects          1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    20
+}
+
+create_object STRAGGLER
+{
+  number_of_objects             2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       4
+  max_distance_to_players       5
+  min_distance_group_placement  2
+}
+
+create_object STRAGGLER
+{
+  number_of_objects             3
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       8
+  min_distance_group_placement  2
+}
+
+create_object STRAGGLER
+{
+  number_of_objects          10
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_to_players    8
+}
+
+/* FISH */
+if TINY_MAP
+  create_object MARLIN1
+  {
+    number_of_objects                   15
+    set_gaia_object_only
+    max_distance_to_other_zones         4
+    temp_min_distance_group_placement 10
+    terrain_to_place_on MED_WATER
+  }
+  create_object DORADO
+  {
+    number_of_objects                   15
+    set_gaia_object_only
+    min_distance_group_placement 3
+    temp_min_distance_group_placement 6
+  }
+  create_object TUNA
+  {
+    number_of_objects                   15
+    set_gaia_object_only
+    min_distance_group_placement 3
+    temp_min_distance_group_placement 6
+  }
+else
+  create_object DORADO
+  {
+    number_of_objects                   15
+    set_scaling_to_map_size
+    set_gaia_object_only
+    max_distance_to_other_zones         4
+    min_distance_group_placement 3
+    temp_min_distance_group_placement 10
+  }
+  create_object TUNA
+  {
+    number_of_objects                   15
+    set_scaling_to_map_size
+    set_gaia_object_only
+    max_distance_to_other_zones         4
+    min_distance_group_placement 3
+    temp_min_distance_group_placement 10
+  }
+  create_object MARLIN1
+  {
+    number_of_objects                   15
+    set_scaling_to_map_size
+    set_gaia_object_only
+    max_distance_to_other_zones         4
+    min_distance_group_placement 4
+    temp_min_distance_group_placement 10
+    terrain_to_place_on MED_WATER
+  }
+endif
+
+create_object SHORE_FISH
+{
+  number_of_objects                   10
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement  3
+}

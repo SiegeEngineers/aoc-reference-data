@@ -1,0 +1,413 @@
+
+/* Camel Turd by The_Prophet */
+
+/* ************************************ */
+<PLAYER_SETUP>
+  random_placement
+
+/* ****************************************************** */
+
+<LAND_GENERATION>
+
+base_terrain WATER
+
+create_player_lands
+{
+  terrain_type DIRT
+  land_percent 100
+  base_size 14
+  border_fuzziness 12
+zone 1
+other_zone_avoidance_distance 10
+bottom_border 25
+top_border 25
+left_border 25
+right_border 25
+}
+
+/* *********************************** */
+<TERRAIN_GENERATION>
+
+create_terrain DESERT
+{
+base_terrain WATER
+land_percent 30
+number_of_clumps	30
+  spacing_to_other_terrain_types 10
+}
+
+create_terrain PALM_DESERT
+{
+  base_terrain DESERT
+  land_percent                   10
+  number_of_clumps               30
+  clumping_factor                25
+  spacing_to_other_terrain_types 4
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+create_terrain PALM_DESERT
+{
+  base_terrain DIRT
+  land_percent                   4
+  number_of_clumps               10
+  clumping_factor                20
+  spacing_to_other_terrain_types 4
+  set_avoid_player_start_areas    
+  set_scale_by_groups
+}
+
+/* PRIMARY PATCH */
+
+create_terrain GRASS3
+{
+  base_terrain DIRT
+  number_of_clumps               27
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_groups
+}
+
+/* MIXING WATER */
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+number_of_clumps 6
+spacing_to_other_terrain_types 3
+land_percent 40
+}
+
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+number_of_clumps 6
+spacing_to_other_terrain_types 5
+land_percent 5
+}
+
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+number_of_clumps 20
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+create_terrain MED_WATER
+{
+base_terrain DEEP_WATER
+number_of_clumps 30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+create_terrain WATER
+{
+base_terrain MED_WATER
+number_of_clumps 30
+spacing_to_other_terrain_types 1
+land_percent 1
+}
+
+
+<OBJECTS_GENERATION>
+
+/* ********************************************************************** */
+
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+ }
+
+create_object SCOUT
+{
+  number_of_objects             1
+  set_place_for_every_player
+  min_distance_to_players       7
+  max_distance_to_players       9
+ }
+
+if REGICIDE
+create_object VILLAGER
+{
+  number_of_objects             7
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object CASTLE
+{
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    10
+}
+
+endif
+
+
+create_object SHEEP
+{
+   number_of_objects 4
+number_of_groups 1
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players 9
+   max_distance_to_players 12
+}
+
+create_object SHEEP
+{
+   number_of_objects 2
+number_of_groups 1
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players 12
+   max_distance_to_players 30
+}
+
+create_object SHEEP
+{
+   number_of_objects 2
+number_of_groups 1
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players 12
+   max_distance_to_players 30
+}
+
+create_object DEER
+{
+  number_of_objects 4
+  number_of_groups 1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 20
+  max_distance_to_players 24
+}
+
+create_object BOAR
+{
+  number_of_objects 1
+  number_of_groups 1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 16
+  max_distance_to_players 22
+}
+
+create_object BOAR
+{
+  number_of_objects 1
+  number_of_groups 1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 16
+  max_distance_to_players 22
+}
+
+
+/* NEAR GOLD */
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */
+create_object GOLD
+{
+  number_of_objects          5
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* NEAR STONE */
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+create_object STONE 
+{
+  number_of_objects          4
+  number_of_groups           1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+create_object GOLD
+{
+  number_of_objects 5
+  number_of_groups 100
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 20
+  max_distance_to_other_zones  4
+  terrain_to_place_on DESERT
+}
+
+create_object STONE
+{
+  number_of_objects 3
+  number_of_groups 100
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 20
+  max_distance_to_other_zones  4
+  terrain_to_place_on DESERT
+}
+
+/* RELICS */
+create_object RELIC
+{
+   number_of_objects            1
+   min_distance_to_players     20
+   max_distance_to_players     30
+   set_place_for_every_player
+}
+
+create_object RELIC
+{
+   number_of_objects            5
+   min_distance_to_players     25
+   temp_min_distance_group_placement 20
+}
+
+/* NEAR FORAGE */
+
+create_object FORAGE
+{
+  number_of_objects 6
+  number_of_groups 1
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 8
+  max_distance_to_players 18
+  min_distance_group_placement 4
+}
+
+create_object PINETREE
+{
+  number_of_objects 2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 4
+  max_distance_to_players 5
+  min_distance_group_placement 2
+}
+
+create_object PINETREE
+{
+  number_of_objects 3
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 6
+  max_distance_to_players 8
+  min_distance_group_placement 2
+}
+
+/* Captain Fin */
+
+create_object DORADO
+{
+  number_of_objects 190
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 5
+     temp_min_distance_group_placement 10
+}
+
+create_object SHORE_FISH
+{
+  number_of_objects 25
+     set_scaling_to_map_size
+     min_distance_group_placement 5
+     set_gaia_object_only
+}
+
+/* Captain Fin end */
+
+
+create_object HAWK
+{
+   number_of_objects 4
+}
+
+
+<ELEVATION_GENERATION>
+  create_elevation        2
+  {   
+    base_terrain                DIRT
+    number_of_clumps 		7
+    number_of_tiles 		600
+    set_scale_by_groups
+    set_scale_by_size           
+  }
+
+  create_elevation        3
+  {   
+    base_terrain                DESERT
+    number_of_clumps 		7
+    number_of_tiles 		600
+    set_scale_by_groups
+    set_scale_by_size           
+  }

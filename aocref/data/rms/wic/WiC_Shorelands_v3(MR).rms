@@ -1,0 +1,1033 @@
+/* WiC_Map_Pack 2014 made by HJ. Version 1.0 21 maps.  */
+/* To be used in War is Coming AoC Tournament and for community after the event. */
+
+#define MEGARANDOM_MODE
+
+ <PLAYER_SETUP>
+
+ random_placement 
+
+ ///////////////////////////////////////////
+ 
+ <LAND_GENERATION> 
+ 
+  base_terrain WATER
+
+create_player_lands 
+{ 
+  terrain_type                     DIRT 
+  land_percent                     30 
+  base_size                        20 
+  other_zone_avoidance_distance    5
+  left_border 4            
+  right_border 4
+  top_border 4
+  bottom_border 4    
+}
+
+<TERRAIN_GENERATION> 
+
+create_terrain PALM_DESERT
+{ 
+  base_terrain      DIRT
+  land_percent                   8 
+  number_of_clumps               8
+  spacing_to_other_terrain_types   4
+  set_avoid_player_start_areas 
+  set_scale_by_groups 
+}
+
+create_terrain  DESERT
+{ 
+  base_terrain      WATER
+  land_percent                   5 
+  number_of_clumps               4
+  spacing_to_other_terrain_types   4
+}
+
+create_terrain  MED_WATER
+{ 
+  base_terrain      WATER
+  land_percent                   30 
+  number_of_clumps               10
+  spacing_to_other_terrain_types   4
+set_scale_by_groups 
+}
+
+
+create_terrain PALM_DESERT 
+{ 
+  base_terrain      DESERT
+  land_percent                   35 
+  number_of_clumps               10
+  spacing_to_other_terrain_types   4
+}
+
+
+ <OBJECTS_GENERATION>
+
+/* ****************************************************** */
+
+/* 			MEGARANDOM MODE			           */
+
+/* ****************************************************** */
+
+if MEGARANDOM_MODE
+
+/* ****************************************************** */
+
+/* 			PLAYER STARTING OBJECTS			     */
+
+/* ****************************************************** */
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius 18
+  min_distance_to_players 0
+  max_distance_to_players 0
+}
+
+start_random
+	percent_chance 80 #define SCOUTS
+	percent_chance 20 #define SPEARMAN_
+end_random
+
+if SCOUTS
+create_object SCOUT
+{
+	start_random
+	percent_chance 65
+	number_of_objects 1
+	percent_chance 35
+	number_of_objects 2
+	end_random
+  set_place_for_every_player
+  min_distance_to_players 7
+  max_distance_to_players 9
+ }
+
+elseif SPEARMAN_
+create_object SPEARMAN
+{
+ number_of_objects 1
+ set_place_for_every_player
+ min_distance_to_players 7
+ max_distance_to_players 9
+}
+endif
+
+/* ****************************************************** */
+
+/* 				TOWERS				     */
+
+/* ****************************************************** */
+start_random
+	percent_chance 4 #define VEZICKA
+	percent_chance 4 #define MALAVEZICKA
+	percent_chance 92 #define NOTHING
+end_random
+start_random
+	percent_chance 50 #define JUSTONE
+	percent_chance 30 #define JUSTTWO
+	percent_chance 20 #define JUSTTHREE
+end_random
+
+if VEZICKA
+create_object WATCH_TOWER
+{
+if JUSTONE
+	number_of_objects 1
+elseif JUSTTWO
+	number_of_objects 2
+elseif JUSTTHREE
+	number_of_objects 3
+endif
+  set_place_for_every_player
+  if EL_DORADO
+  min_distance_to_players 1
+  max_distance_to_players 4
+  min_distance_group_placement 3
+  else
+  min_distance_to_players 13
+  max_distance_to_players 15
+  min_distance_group_placement 3
+  endif
+}
+elseif NOTHING
+elseif MALAVEZICKA
+create_object OUTPOST
+{
+if JUSTONE
+	number_of_objects 1
+elseif JUSTTWO
+	number_of_objects 2
+elseif JUSTTHREE
+	number_of_objects 3
+endif
+  set_place_for_every_player
+  if EL_DORADO
+  min_distance_to_players 1
+  max_distance_to_players 4
+  min_distance_group_placement 3
+  else
+  min_distance_to_players 13
+  max_distance_to_players 15
+  min_distance_group_placement 3
+endif
+}
+endif
+
+/* ****************************************************** */
+
+/* 				VILLAGERS				    */
+
+/* ****************************************************** */
+
+start_random
+	percent_chance 10 #define MOREVILLS
+	percent_chance 90 #define NORMALVILLS
+end_random
+if MOREVILLS
+create_object VILLAGER
+{
+  set_place_for_every_player
+	if NOTCMODE
+		if VEZICKA
+  min_distance_to_players 6
+  max_distance_to_players 6
+		elseif BUMVEZICKA
+  min_distance_to_players 6
+  max_distance_to_players 6
+		elseif MODERNIVEZICKA
+  min_distance_to_players 6
+  max_distance_to_players 6
+		else
+  min_distance_to_players 6
+  max_distance_to_players 15
+		endif
+	else
+  min_distance_to_players 6
+  max_distance_to_players 6
+	endif
+ }
+
+create_object VILLAGER
+{
+number_of_objects 3
+  set_place_for_every_player
+	if NOTCMODE
+		if VEZICKA
+  min_distance_to_players 6
+  max_distance_to_players 6
+		elseif BUMVEZICKA
+  min_distance_to_players 6
+  max_distance_to_players 6
+		elseif MODERNIVEZICKA
+  min_distance_to_players 6
+  max_distance_to_players 6
+		else
+  min_distance_to_players 6
+  max_distance_to_players 15
+		endif
+	else
+  min_distance_to_players 6
+  max_distance_to_players 6
+	endif
+ }
+elseif NORMALVILLS
+create_object VILLAGER
+{
+  set_place_for_every_player
+	if NOTCMODE
+		if VEZICKA
+  min_distance_to_players 6
+  max_distance_to_players 6
+		elseif BUMVEZICKA
+  min_distance_to_players 6
+  max_distance_to_players 6
+		elseif MODERNIVEZICKA
+  min_distance_to_players 6
+  max_distance_to_players 6
+		else
+  min_distance_to_players 6
+  max_distance_to_players 15
+		endif
+	else
+  min_distance_to_players 6
+  max_distance_to_players 6
+	endif
+ }
+endif
+
+/* ****************************************************** */
+
+/* 			STARTING BUILDINGS		     	    */
+
+/* ****************************************************** */
+
+
+start_random
+	percent_chance 8 #define HOUSE_GG
+end_random
+start_random
+	percent_chance 4 #define BARRACKS_GG
+	percent_chance 4 #define ARCHERY_GG
+	percent_chance 4 #define STABLE_GG
+	percent_chance 88 #define NONE_GG
+end_random
+
+if HOUSE_GG
+create_object HOUSE
+{
+if JUSTONE
+	number_of_objects 1
+elseif JUSTTWO
+	number_of_objects 2
+elseif JUSTTHREE
+	number_of_objects 3
+endif
+  set_loose_grouping
+  set_place_for_every_player
+  if EL_DORADO
+  min_distance_to_players 1
+  max_distance_to_players 4
+  min_distance_group_placement 3
+  else
+  min_distance_to_players 12
+  max_distance_to_players 12
+  endif
+}
+endif
+
+
+if BARRACKS_GG
+create_object BARRACKS
+{
+  set_place_for_every_player
+  if EL_DORADO
+  min_distance_to_players 1
+  max_distance_to_players 4
+  min_distance_group_placement 3
+  else
+  min_distance_to_players 8
+  max_distance_to_players 14
+  endif
+}
+elseif ARCHERY_GG
+create_object ARCHERY_RANGE
+{
+  set_place_for_every_player
+  if EL_DORADO
+  min_distance_to_players 1
+  max_distance_to_players 4
+  min_distance_group_placement 3
+  else
+  min_distance_to_players 8
+  max_distance_to_players 14
+  endif
+}
+elseif STABLE_GG
+create_object STABLE
+{
+  set_place_for_every_player
+  if EL_DORADO
+  min_distance_to_players 1
+  max_distance_to_players 4
+  min_distance_group_placement 3
+  else
+  min_distance_to_players 8
+  max_distance_to_players 14
+  endif
+}
+elseif NONE_GG
+endif
+
+/* ****************************************************** */
+
+/* 				SHEEPS				     */
+
+/* ****************************************************** */
+
+if DEATH_MATCH
+else
+start_random
+	percent_chance 5 #define FOODHUGE
+	percent_chance 10 #define FOODBIG
+	percent_chance 15 #define FOODCOOL
+	percent_chance 30 #define FOODNORMAL
+	percent_chance 20 #define FOODBAD
+	percent_chance 20 #define FOODTERRIBLE
+end_random
+
+create_object SHEEP
+{
+	if FOODHUGE
+   number_of_objects 8 /* 12 Sheep (%5) */
+	elseif FOODBIG
+   number_of_objects 8 /* 10 Sheep (%10) */
+	elseif FOODCOOL
+   number_of_objects 7 /* 9 Sheep (%10) */
+	elseif FOODNORMAL
+   number_of_objects 5 /* 8 Sheep (%30) */
+	elseif FOODBAD
+   number_of_objects 5 /* 7 Sheep (%20) */
+	elseif FOODTERRIBLE
+   number_of_objects 4 /* 6 Sheep (%20) */
+	endif
+number_of_groups 1
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players 2
+   max_distance_to_players 12
+}
+
+create_object SHEEP
+{
+	if FOODHUGE
+   number_of_objects 4
+	elseif FOODBIG
+   number_of_objects 2
+	elseif FOODCOOL
+   number_of_objects 2
+	elseif FOODNORMAL
+   number_of_objects 3
+	elseif FOODBAD
+   number_of_objects 2
+	elseif FOODTERRIBLE
+   number_of_objects 2
+	endif
+number_of_groups 1
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   if EL_DORADO
+   min_distance_to_players 12
+   max_distance_to_players 20
+   else
+   min_distance_to_players 12
+   max_distance_to_players 30
+   endif
+}
+
+
+/* ****************************************************** */
+
+/* 				DEERS				     	     */
+
+/* ****************************************************** */
+
+if DEATH_MATCH
+else
+if EL_DORADO
+start_random
+	percent_chance 100 #define JELENROCKS /* Limit EL_DORADO to 1 or 2 Boars. (Deers can not be spawned on EL_DORADO) */
+end_random
+else
+start_random
+	percent_chance 10 #define JELENROCKS
+	percent_chance 10 #define JELENULTRA
+	percent_chance 10 #define JELENNOTSOBIG
+	percent_chance 20 #define JELENCOOL
+	percent_chance 25 #define JELENNORMAL
+	percent_chance 15 #define JELENBAD
+	percent_chance 10 #define JELENSUCKS
+end_random
+endif
+create_object DEER
+{
+	if JELENROCKS
+number_of_objects 8 /* 8 Deers (%10) */
+number_of_groups 1
+	elseif JELENULTRA
+number_of_objects 7 /* 7 Deers (%10) */
+number_of_groups 1
+	elseif JELENNOTSOBIG
+number_of_objects 6 /* 6 Deers (%10) */
+number_of_groups 1
+	elseif JELENCOOL
+number_of_objects 5 /* 5 Deers (%20) */
+number_of_groups 1
+	elseif JELENNORMAL
+number_of_objects 4 /* 4 Deers (%25) */
+number_of_groups 1
+	elseif JELENBAD
+number_of_objects 3 /* 3 Deers (%15) */
+number_of_groups 1
+	elseif JELENSUCKS
+number_of_objects 2 /* 2 Deers (%10) */
+number_of_groups 1
+endif
+	endif
+	set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 10
+  max_distance_to_players 22
+endif
+}
+
+
+/* ****************************************************** */
+
+/* 				BOARS				           */
+
+/* ****************************************************** */
+
+if DEATH_MATCH
+else
+if JELENROCKS	/* Limit the boars to 1 or 2 if the Deers spawn is huge. */
+start_random
+	percent_chance 35 #define PIGNORMAL
+	percent_chance 65 #define PIGBAD
+end_random
+endif
+elseif JELENULTRA
+start_random
+	percent_chance 35 #define PIGNORMAL
+	percent_chance 65 #define PIGBAD
+end_random
+else
+start_random
+	percent_chance 15 #define PIGCOOL
+	percent_chance 50 #define PIGNORMAL
+	percent_chance 35 #define PIGBAD
+end_random
+endif
+endif
+create_object BOAR
+{
+if PIGCOOL
+   number_of_objects 3
+number_of_groups 1
+	elseif PIGNORMAL
+   number_of_objects 2
+number_of_groups 1
+	elseif PIGBAD
+   number_of_objects 1
+number_of_groups 1
+endif
+set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  if EL_DORADO
+  min_distance_to_players 4
+  max_distance_to_players 4
+  else
+  min_distance_to_players 12
+  max_distance_to_players 22
+endif
+}
+
+/* ****************************************************** */
+
+/* 				BERRIES				     */
+
+/* ****************************************************** */
+
+if DEATH_MATCH
+start_random
+	percent_chance 100 #define APPLESROTTEN
+end_random
+else
+start_random
+	percent_chance 2 #define APPLESHUGE
+	percent_chance 4 #define APPLESBIG
+	percent_chance 10 #define APPLESCOOL
+	percent_chance 34 #define APPLESNORMAL
+	percent_chance 25 #define APPLESBAD
+	percent_chance 15 #define APPLESTERRIBLE
+	percent_chance 10 #define APPLESROTTEN
+end_random
+endif
+
+/* NEAR FORAGE */
+
+create_object FORAGE
+{
+if APPLESHUGE
+  number_of_objects 10
+  number_of_groups 1
+elseif APPLESBIG
+  number_of_objects 6
+  number_of_groups 1
+elseif APPLESCOOL
+  number_of_objects 8
+  number_of_groups 1
+elseif APPLESNORMAL
+  number_of_objects 7
+  number_of_groups 1
+elseif APPLESBAD
+  number_of_objects 4
+  number_of_groups 1
+elseif APPLESTERRIBLE
+  number_of_objects 2
+  number_of_groups 1
+elseif APPLESROTTEN
+  number_of_objects 0
+  number_of_groups 0
+endif
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 8
+  max_distance_to_players 18
+  min_distance_group_placement 6
+}
+endif
+
+/* ****************************************************** */
+
+/* 				GOLD				           */
+
+/* ****************************************************** */
+
+if DEATH_MATCH
+start_random
+	percent_chance 100 #define GOLDLIKESHIT
+end_random
+else
+start_random
+	percent_chance 0 #define GOLDLIKESHIT
+	percent_chance 0 #define GOLDLIKECRAP
+	percent_chance 0 #define GOLDALOT
+	percent_chance 5 #define GOLDENOUGH
+	percent_chance 25 #define GOLDGOOD
+	percent_chance 25 #define GOLDNOTSOGOOD
+	percent_chance 25 #define GOLDTOOLITTLE
+	percent_chance 15 #define GOLDALMOSTGONE
+	percent_chance 5 #define RANOUTOFGOLDDAMMIT
+end_random
+endif
+
+if EL_DORADO
+else
+
+/* NEAR GOLD */
+
+create_object GOLD
+{
+     if GOLDENOUGH
+     number_of_objects 7
+     elseif GOLDGOOD
+     number_of_objects 6
+     elseif GOLDNOTSOGOOD
+     number_of_objects 5
+     elseif GOLDTOOLITTLE
+     number_of_objects 4
+     elseif GOLDALMOSTGONE
+     number_of_objects 4
+     elseif RANOUTOFGOLDDAMMIT
+     number_of_objects 3
+     endif
+     group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    12
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */
+
+create_object GOLD
+{
+     if GOLDENOUGH
+     number_of_objects 7
+     elseif GOLDGOOD
+     number_of_objects 6
+     elseif GOLDNOTSOGOOD
+     number_of_objects 5
+     elseif GOLDTOOLITTLE
+     number_of_objects 4
+     elseif GOLDALMOSTGONE
+     number_of_objects 4
+     elseif RANOUTOFGOLDDAMMIT
+     number_of_objects 3
+     endif
+     group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  if MFORUMBLE
+  min_distance_to_players    12
+  max_distance_to_players    18
+  else
+  min_distance_to_players    18
+  max_distance_to_players    26
+  endif
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+create_object GOLD
+{
+     if GOLDENOUGH
+     number_of_objects 7
+     elseif GOLDGOOD
+     number_of_objects 6
+     elseif GOLDNOTSOGOOD
+     number_of_objects 5
+     elseif GOLDTOOLITTLE
+     number_of_objects 4
+     elseif GOLDALMOSTGONE
+     number_of_objects 4
+     elseif RANOUTOFGOLDDAMMIT
+     number_of_objects 3
+     endif
+     group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+endif
+
+/* ****************************************************** */
+
+/* 				STONE				           */
+
+/* ****************************************************** */
+
+if DEATH_MATCH
+start_random
+	percent_chance 100 #define STONELIKESHIT
+end_random
+else
+start_random
+	percent_chance 0 #define STONELIKESHIT
+	percent_chance 0 #define STONELIKECRAP
+	percent_chance 0 #define STONEALOT
+	percent_chance 5 #define STONEENOUGH
+	percent_chance 25 #define STONEGOOD
+	percent_chance 25 #define STONENOTSOGOOD
+	percent_chance 25 #define STONETOOLITTLE
+	percent_chance 15 #define STONEALMOSTGONE
+	percent_chance 5 #define RANOUTOFSTONEDAMMIT
+end_random
+endif
+
+if EL_DORADO
+else
+
+/* NEAR STONE */
+
+create_object STONE
+{
+     if STONEENOUGH
+     number_of_objects 7
+     elseif STONEGOOD
+     number_of_objects 6
+     elseif STONENOTSOGOOD
+     number_of_objects 5
+     elseif STONETOOLITTLE
+     number_of_objects 4
+     elseif STONEALMOSTGONE
+     number_of_objects 4
+     elseif RANOUTOFSTONEDAMMIT
+     number_of_objects 3
+     endif
+     group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    14
+  max_distance_to_players    18
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+
+create_object STONE
+{
+     if STONEENOUGH
+     number_of_objects 7
+     elseif STONEGOOD
+     number_of_objects 6
+     elseif STONENOTSOGOOD
+     number_of_objects 5
+     elseif STONETOOLITTLE
+     number_of_objects 4
+     elseif STONEALMOSTGONE
+     number_of_objects 4
+     elseif RANOUTOFSTONEDAMMIT
+     number_of_objects 3
+     endif
+     group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       20
+  max_distance_to_players       26
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+endif
+
+/* ****************************************************** */
+
+/* 				END OF MEGARANDOM			     */
+
+/* ****************************************************** */
+
+endif
+
+create_object WOLF
+{
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 30
+max_distance_to_players 40
+min_distance_group_placement 20
+}
+
+create_object WOLF
+{
+number_of_groups          2
+set_loose_grouping
+number_of_objects 1
+set_scaling_to_map_size
+set_gaia_object_only
+min_distance_group_placement 12
+min_distance_to_players    40
+max_distance_to_players    120
+}
+
+start_random
+percent_chance 0 #define CAPTAINFINDECENT
+percent_chance 50 #define CAPTAINFINBAD
+percent_chance 50 #define CAPTAINFINOUCH
+end_random
+create_object DORADO
+{
+if CAPTAINFINDECENT
+  number_of_objects 13
+elseif CAPTAINFINBAD
+  number_of_objects 7
+elseif CAPTAINFINOUCH
+  number_of_objects 6
+endif
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 5
+     min_distance_group_placement 4
+}
+create_object TUNA
+{
+if CAPTAINFINDECENT
+  number_of_objects 13
+elseif CAPTAINFINBAD
+  number_of_objects 7
+elseif CAPTAINFINOUCH
+  number_of_objects 6
+endif
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 4
+     min_distance_group_placement 4
+}
+create_object SNAPPER
+{
+if CAPTAINFINDECENT
+  number_of_objects 13
+elseif CAPTAINFINBAD
+  number_of_objects 7
+elseif CAPTAINFINOUCH
+  number_of_objects 6
+endif
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 5
+     min_distance_group_placement 4
+}
+
+start_random
+percent_chance 50
+create_object MARLIN1
+{
+if CAPTAINFINDECENT
+  number_of_objects 5
+elseif CAPTAINFINBAD
+  number_of_objects 4
+elseif CAPTAINFINOUCH
+  number_of_objects 4
+endif
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement 10
+  max_distance_to_other_zones 7
+}
+percent_chance 50
+create_object MARLIN2
+{
+if CAPTAINFINDECENT
+  number_of_objects 5
+elseif CAPTAINFINBAD
+  number_of_objects 4
+elseif CAPTAINFINOUCH
+  number_of_objects 4
+endif
+  set_scaling_to_map_size
+  set_gaia_object_only
+  min_distance_group_placement 10
+  max_distance_to_other_zones 7
+}
+end_random
+
+
+create_object SHORE_FISH
+{
+  number_of_objects 25
+     set_scaling_to_map_size
+     min_distance_group_placement 5
+     set_gaia_object_only
+}
+
+create_object BAMBOO_FOREST_TREE
+{ 
+	number_of_objects 3
+     set_place_for_every_player
+	set_gaia_object_only 
+     min_distance_to_players 4 
+     max_distance_to_players 6 
+
+}
+
+/* RELICS */
+
+if GOLDENHILL
+else
+start_random
+	percent_chance 15 #define RELICCOOL
+	percent_chance 35 #define RELICFEW
+	percent_chance 50 #define RELICBAD
+end_random
+endif
+
+create_object RELIC
+{
+if RELICCOOL
+  number_of_objects 1
+  number_of_groups 5
+elseif RELICFEW
+  number_of_objects 1
+  start_random
+  percent_chance 50
+  number_of_groups 5
+  percent_chance 50
+  number_of_groups 4
+  end_random
+elseif RELICBAD
+  number_of_objects 1
+  start_random
+  percent_chance 50
+  number_of_groups 3
+  percent_chance 50
+  number_of_groups 2
+  end_random
+endif
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players 25
+  min_distance_group_placement 20
+}
+
+/* BIRDS */
+
+start_random
+	percent_chance 33 #define AVIAN_SQUAD_ONE
+	percent_chance 33 #define AVIAN_SQUAD_TWO
+	percent_chance 33 #define AVIAN_SQUAD_THREE
+	percent_chance 1 #define WHAT_IS_THAT
+end_random
+
+if AVIAN_SQUAD_ONE
+create_object HAWK
+{
+start_random
+   percent_chance 50
+   number_of_objects 4
+   percent_chance 50
+   number_of_objects 6
+end_random
+}
+create_object MACAW
+{
+start_random
+   percent_chance 50
+   number_of_objects 4
+   percent_chance 50
+   number_of_objects 6
+end_random
+}
+elseif AVIAN_SQUAD_TWO
+create_object HAWK
+{
+start_random
+   percent_chance 50
+   number_of_objects 4
+   percent_chance 50
+   number_of_objects 6
+end_random
+}
+elseif AVIAN_SQUAD_THREE
+create_object MACAW
+{
+start_random
+   percent_chance 50
+   number_of_objects 4
+   percent_chance 50
+   number_of_objects 6
+end_random
+}
+elseif WHAT_IS_THAT
+#const STORMY_DOG 862
+create_object STORMY_DOG
+{
+   number_of_objects 1
+}
+endif
+
+<CONNECTION_GENERATION> 
+
+create_connect_all_players_land 
+{ 
+      
+     replace_terrain WATER      SHALLOW 
+     terrain_cost    WATER     7 
+     terrain_cost    FOREST    4 
+     terrain_cost    GRASS    1 
+     terrain_cost    SNOW      3 
+
+     terrain_size    LEAVES         30       10 
+     terrain_size    SHALLOW         15       3 
+     terrain_size    DIRT         13       0 
+     terrain_size    GRASS_SNOW         5      1 
+} 
+
+
+ <ELEVATION_GENERATION>
+
+create_elevation 2 
+{ 
+     base_terrain DIRT 
+     number_of_clumps 14 
+     number_of_tiles 3000 
+     set_scale_by_groups 
+     set_scale_by_size 
+} 
+
+
+
+

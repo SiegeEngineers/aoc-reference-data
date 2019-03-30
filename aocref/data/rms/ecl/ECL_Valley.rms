@@ -1,0 +1,668 @@
+/* ************ ECL VALLEY ************ */
+/*
+ * Valley map for the ECL. This map is used in the qualifiers and in the
+ * Eastern Europe region.
+ * We use only 2 of the 5 possible biomes for inclusion in the Eastern Europe
+ * region.
+ * Note, if you wish to use this map for yourself, there was a bug in the
+ * snow/ice version of the map called RAMPOUCH. The deer should be restricted
+ * to the central valley, but instead the snow grass terrain is available across
+ * the entire map, not just the valley. I changed two instances of GRASS_SNOW
+ * to DIRT_SNOW to keep the dirt in the middle.
+ */
+
+
+/* Note: random_map.def is automatically included in every rms script */
+
+/* Sling nerf constants. */
+#const TRIBUTE_INEFFICIENCY 46
+#const BANKING 17
+#const COINAGE 23
+#const COINAGE_IMP_DISABLER 224
+
+/* The Forgotten Fauna */
+#const BRUCOUN 486
+#const SUPAK 917
+#const MLIKARNA 705
+#const MAMALLAMA 305
+
+/* Remove PRALES and KAKTUS to fit Eastern Europe theme. */
+start_random
+  percent_chance 33 #define SMRK
+  percent_chance 0 #define PRALES
+  percent_chance 0 #define KAKTUS
+  percent_chance 34 #define KOPRIVA
+  percent_chance 33 #define RAMPOUCH
+end_random
+
+
+/* ************************************************************************** */
+<PLAYER_SETUP>
+
+random_placement
+ai_info_map_type ARABIA 0 0 0
+
+/* Sling nerfs */
+effect_percent MOD_RESOURCE TRIBUTE_INEFFICIENCY ATTR_SET 40
+effect_amount DISABLE_TECH BANKING ATTR_DISABLE 17
+effect_amount DISABLE_TECH COINAGE ATTR_DISABLE 23
+effect_amount DISABLE_TECH COINAGE_IMP_DISABLER ATTR_DISABLE 224
+
+
+/* ************************************************************************** */
+<LAND_GENERATION>
+if SMRK
+  base_terrain DIRT3
+elseif PRALES
+  base_terrain DIRT3
+elseif KAKTUS
+  base_terrain DIRT3
+elseif KOPRIVA
+  base_terrain DIRT3
+elseif RAMPOUCH
+  base_terrain GRASS_SNOW
+endif
+
+create_player_lands
+{
+  if SMRK
+    terrain_type GRASS
+  elseif PRALES
+    terrain_type GRASS2
+  elseif KAKTUS
+    terrain_type DIRT
+  elseif KOPRIVA
+    terrain_type GRASS
+  elseif RAMPOUCH
+    terrain_type SNOW
+  endif
+  base_size 20
+  land_percent 100
+  set_zone_by_team
+  other_zone_avoidance_distance 10
+}
+
+
+/* ************************************************************************** */
+<ELEVATION_GENERATION>
+
+create_elevation 4
+{
+  if SMRK
+    base_terrain GRASS
+  elseif PRALES
+    base_terrain GRASS2
+  elseif KAKTUS
+    base_terrain DIRT
+  elseif KOPRIVA
+    base_terrain GRASS
+  elseif RAMPOUCH
+    base_terrain SNOW
+  endif
+  number_of_clumps 		15
+  number_of_tiles 		2200
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+
+/* ************************************************************************** */
+<TERRAIN_GENERATION>
+
+create_terrain BEACH
+{
+  base_terrain DIRT3
+  land_percent 100
+  number_of_clumps 100
+  spacing_to_other_terrain_types 2
+}
+
+create_terrain BEACH
+{
+  base_terrain DIRT3
+  land_percent 100
+  number_of_clumps 100
+  spacing_to_other_terrain_types 2
+}
+
+create_terrain ICE
+{
+  base_terrain GRASS_SNOW
+  land_percent 100
+  number_of_clumps 100
+  spacing_to_other_terrain_types 2
+}
+
+create_terrain ICE
+{
+  base_terrain GRASS_SNOW
+  land_percent 100
+  number_of_clumps 100
+  spacing_to_other_terrain_types 2
+}
+
+if RAMPOUCH
+create_terrain WATER
+{
+  base_terrain ICE
+if TINY_MAP
+number_of_tiles 80
+elseif MEDIUM_MAP
+number_of_tiles 120
+else
+number_of_tiles 160
+endif
+number_of_clumps 10
+}
+else
+create_terrain WATER
+{
+  base_terrain BEACH
+if TINY_MAP
+number_of_tiles 80
+elseif MEDIUM_MAP
+number_of_tiles 120
+else
+number_of_tiles 160
+endif
+number_of_clumps 10
+}
+endif
+
+if SMRK
+create_terrain PINE_FOREST
+elseif PRALES
+create_terrain JUNGLE
+elseif KAKTUS
+create_terrain PALM_DESERT
+elseif KOPRIVA
+create_terrain FOREST
+elseif RAMPOUCH
+create_terrain SNOW_FOREST
+endif
+{
+if SMRK
+  base_terrain GRASS
+elseif PRALES
+  base_terrain GRASS2
+elseif KAKTUS
+  base_terrain DIRT
+elseif KOPRIVA
+  base_terrain GRASS
+elseif RAMPOUCH
+  base_terrain SNOW
+endif
+  spacing_to_other_terrain_types 5
+  land_percent 12
+  number_of_clumps 20
+  set_avoid_player_start_areas
+  set_scale_by_groups
+}
+
+if SMRK
+create_terrain GRASS3
+elseif PRALES
+create_terrain LEAVES
+elseif KAKTUS
+create_terrain DESERT
+elseif KOPRIVA
+create_terrain GRASS3
+elseif RAMPOUCH
+create_terrain DIRT_SNOW
+endif
+{
+if SMRK
+  base_terrain GRASS
+elseif PRALES
+  base_terrain GRASS2
+elseif KAKTUS
+  base_terrain DIRT
+elseif KOPRIVA
+  base_terrain GRASS
+elseif RAMPOUCH
+  base_terrain SNOW
+endif
+  number_of_clumps 80
+  spacing_to_other_terrain_types 0
+start_random
+percent_chance 50
+  land_percent 20
+percent_chance 50
+  land_percent 16
+end_random
+  set_scale_by_size
+}
+
+if SMRK
+  create_terrain GRASS
+elseif PRALES
+  create_terrain GRASS2
+elseif KAKTUS
+  create_terrain DIRT
+elseif KOPRIVA
+  create_terrain GRASS
+elseif RAMPOUCH
+  create_terrain SNOW
+endif
+{
+if SMRK
+base_terrain GRASS3
+elseif PRALES
+base_terrain LEAVES
+elseif KAKTUS
+base_terrain DESERT
+elseif KOPRIVA
+base_terrain GRASS3
+elseif RAMPOUCH
+base_terrain DIRT_SNOW
+endif
+  number_of_clumps 50
+  spacing_to_other_terrain_types 0
+start_random
+percent_chance 50
+  land_percent 12
+percent_chance 50
+  land_percent 8
+end_random
+  set_scale_by_size
+}
+
+
+/* ************************************************************************** */
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+     set_place_for_every_player
+     group_placement_radius 18
+     min_distance_to_players 0
+     max_distance_to_players 0
+}
+
+create_object VILLAGER
+{
+     set_place_for_every_player
+     min_distance_to_players 6
+     max_distance_to_players 6
+}
+
+if REGICIDE
+
+create_object VILLAGER
+{
+     number_of_objects 7
+     set_place_for_every_player
+     min_distance_to_players 6
+     max_distance_to_players 6
+}
+
+endif
+
+create_object SCOUT
+{
+     number_of_objects 1
+     set_place_for_every_player
+     min_distance_to_players 7
+     max_distance_to_players 9
+}
+
+if REGICIDE
+
+create_object KING
+{
+     set_place_for_every_player
+     min_distance_to_players 6
+     max_distance_to_players 6
+}
+
+create_object CASTLE
+{
+     set_place_for_every_player
+     min_distance_to_players 9
+     max_distance_to_players 12
+}
+
+endif
+
+if PRALES
+create_object MAMALLAMA
+elseif RAMPOUCH
+create_object MLIKARNA
+elseif SMRK
+create_object MLIKARNA
+else
+create_object SHEEP
+endif
+{
+   number_of_objects 4
+   number_of_groups 1
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players 9
+   max_distance_to_players 11
+}
+
+if PRALES
+create_object MAMALLAMA
+elseif RAMPOUCH
+create_object MLIKARNA
+elseif SMRK
+create_object MLIKARNA
+else
+create_object SHEEP
+endif
+{
+   number_of_objects 2
+number_of_groups 2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players 14
+   max_distance_to_players 24
+}
+
+create_object DEER
+{
+start_random
+percent_chance 50
+  number_of_objects 4
+percent_chance 50
+  number_of_objects 3
+end_random
+  group_placement_radius 3
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+start_random
+percent_chance 50
+  min_distance_to_players 14
+  max_distance_to_players 18
+percent_chance 50
+  min_distance_to_players 25
+  max_distance_to_players 28
+end_random
+}
+
+if PRALES
+create_object JAVELINA
+else
+create_object BOAR
+endif
+{
+     number_of_objects          1
+     number_of_groups 		1
+     set_loose_grouping
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players    16
+     max_distance_to_players    22
+}
+
+if PRALES
+create_object JAVELINA
+else
+create_object BOAR
+endif
+{
+     number_of_objects          1
+     number_of_groups 		1
+     set_loose_grouping
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players    16
+     max_distance_to_players    22
+}
+
+create_object GOLD
+{
+     number_of_objects 5
+     number_of_groups 2
+     group_placement_radius 3
+     set_tight_grouping
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players 12
+     max_distance_to_players 18
+     min_distance_group_placement 4
+     max_distance_to_other_zones 7
+}
+
+create_object GOLD
+{
+     number_of_objects 4
+     number_of_groups 1
+     group_placement_radius 3
+     set_tight_grouping
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players 19
+     max_distance_to_players 25
+     min_distance_group_placement 4
+     max_distance_to_other_zones 7
+}
+
+create_object STONE
+{
+     number_of_objects 4
+     number_of_groups 2
+     group_placement_radius 3
+     set_tight_grouping
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players 12
+     max_distance_to_players 18
+     min_distance_group_placement 4
+     max_distance_to_other_zones 7
+}
+
+create_object STONE
+{
+     number_of_objects 4
+     number_of_groups 1
+     group_placement_radius 3
+     set_tight_grouping
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players 23
+     max_distance_to_players 28
+     min_distance_group_placement 4
+     max_distance_to_other_zones 7
+}
+
+create_object FORAGE
+{
+  number_of_objects 6
+  number_of_groups 1
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 10
+  max_distance_to_players 13
+  min_distance_group_placement 6
+}
+
+if SMRK
+create_object PINETREE
+elseif PRALES
+create_object JUNGLETREE
+elseif KAKTUS
+create_object PALMTREE
+elseif KOPRIVA
+create_object OAKTREE
+elseif RAMPOUCH
+create_object SNOWPINETREE
+endif
+{
+     number_of_objects             2
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players       4
+     max_distance_to_players       5
+     min_distance_group_placement  2
+}
+
+if SMRK
+create_object PINETREE
+elseif PRALES
+create_object JUNGLETREE
+elseif KAKTUS
+create_object PALMTREE
+elseif KOPRIVA
+create_object OAKTREE
+elseif RAMPOUCH
+create_object SNOWPINETREE
+endif
+{
+     number_of_objects             3
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players       6
+     max_distance_to_players       8
+     min_distance_group_placement  2
+}
+
+/* Far gold & stone */
+
+create_object GOLD
+{
+if TINY_MAP
+     number_of_groups           2
+     number_of_objects          4
+elseif SMALL_MAP
+     number_of_groups           2
+     number_of_objects          4
+elseif MEDIUM_MAP
+     number_of_groups           3
+     number_of_objects          4
+elseif LARGE_MAP
+     number_of_groups           4
+     number_of_objects          5
+elseif HUGE_MAP
+     number_of_groups           5
+     number_of_objects          5
+elseif GIGANTIC_MAP
+     number_of_groups           6
+     number_of_objects          6
+else
+     number_of_groups           24
+     number_of_objects          6
+endif
+     group_placement_radius     2
+     set_tight_grouping
+     set_gaia_object_only
+     min_distance_to_players       30
+     min_distance_group_placement  10
+}
+
+create_object STONE
+{
+if TINY_MAP
+     number_of_groups           2
+     number_of_objects          3
+elseif SMALL_MAP
+     number_of_groups           2
+     number_of_objects          3
+elseif MEDIUM_MAP
+     number_of_groups           3
+     number_of_objects          4
+elseif LARGE_MAP
+     number_of_groups           4
+     number_of_objects          4
+elseif HUGE_MAP
+     number_of_groups           5
+     number_of_objects          4
+elseif GIGANTIC_MAP
+     number_of_groups           6
+     number_of_objects          4
+else
+     number_of_groups           24
+     number_of_objects          4
+endif
+     group_placement_radius     2
+     set_tight_grouping
+     set_gaia_object_only
+     min_distance_to_players       30
+     min_distance_group_placement  10
+}
+
+if LUDIKRIS_MAP
+create_object RELIC
+{
+     number_of_objects 20
+      min_distance_to_players 25
+     temp_min_distance_group_placement 20
+}
+else
+create_object RELIC
+{
+     number_of_objects 5
+      min_distance_to_players 25
+     temp_min_distance_group_placement 20
+}
+endif
+
+if PRALES
+create_object JAGUAR
+elseif SMRK
+create_object BRUCOUN
+elseif RAMPOUCH
+create_object BRUCOUN
+else
+create_object WOLF
+endif
+{
+     number_of_groups 3
+     set_loose_grouping
+        number_of_objects 1
+  set_scaling_to_map_size
+     set_gaia_object_only
+     min_distance_group_placement 12
+     min_distance_to_players 40
+}
+
+if SMRK
+create_object PINETREE
+elseif PRALES
+create_object JUNGLETREE
+elseif KAKTUS
+create_object PALMTREE
+elseif KOPRIVA
+create_object OAKTREE
+elseif RAMPOUCH
+create_object SNOWPINETREE
+endif
+{
+  number_of_objects          30
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_to_players    8
+}
+
+create_object DEER
+{
+number_of_objects 4
+number_of_groups 100
+  set_gaia_object_only
+if SMRK
+terrain_to_place_on DIRT3
+elseif PRALES
+terrain_to_place_on DIRT3
+elseif KAKTUS
+terrain_to_place_on DIRT3
+elseif KOPRIVA
+terrain_to_place_on DIRT3
+elseif RAMPOUCH
+terrain_to_place_on GRASS_SNOW
+endif
+min_distance_group_placement 10
+}
+
+create_object SHORE_FISH
+{
+  number_of_objects                   25
+  set_scaling_to_map_size
+  set_gaia_object_only
+ min_distance_group_placement  3
+}

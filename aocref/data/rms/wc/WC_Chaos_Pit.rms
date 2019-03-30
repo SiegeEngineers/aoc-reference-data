@@ -1,0 +1,272 @@
+/* ************************************ */
+/* NC17v3_Chaos_Pit */
+/* ************************************ */
+
+<PLAYER_SETUP>
+
+random_placement
+
+<LAND_GENERATION>
+
+base_terrain GRASS3
+
+create_player_lands 
+{ 
+terrain_type GRASS2
+land_percent 100
+top_border 28
+bottom_border 28
+left_border 28
+right_border 27
+base_size 7
+base_elevation 0
+other_zone_avoidance_distance 8
+set_zone_by_team
+}
+
+<TERRAIN_GENERATION>
+
+create_terrain JUNGLE
+{
+base_terrain GRASS3
+land_percent 100
+height_limits 6 6
+}
+
+create_terrain GRASS
+{
+base_terrain GRASS3
+land_percent 100
+height_limits 7 7
+}
+
+create_terrain JUNGLE
+{
+base_terrain GRASS
+land_percent 6
+number_of_clumps 12
+set_scale_by_groups
+spacing_to_other_terrain_types 7
+}
+
+create_terrain JUNGLE
+{
+base_terrain GRASS3
+land_percent 3
+number_of_clumps 10
+set_scale_by_groups
+spacing_to_other_terrain_types 4
+}
+
+<OBJECTS_GENERATION>
+
+create_object JUNGLETREE
+{
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 4
+max_distance_to_players 5
+min_distance_group_placement 2
+}
+
+create_object JUNGLETREE
+{
+number_of_objects 3
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 8
+min_distance_group_placement 2
+}
+
+create_object TOWN_CENTER
+{
+set_place_for_every_player
+min_distance_to_players 0
+max_distance_to_players 0
+}
+
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object SCOUT
+{
+number_of_objects 1
+set_place_for_every_player
+min_distance_to_players 8
+max_distance_to_players 9
+}
+
+if REGICIDE
+
+create_object VILLAGER
+{
+number_of_objects 7
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object KING
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+}
+
+create_object CASTLE
+{
+set_place_for_every_player
+min_distance_to_players 10
+max_distance_to_players 11
+}
+
+endif
+
+create_object TURKEY
+{
+number_of_objects 4
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 7
+terrain_to_place_on GRASS2
+}
+
+create_object TURKEY
+{
+number_of_objects 2
+number_of_groups  2
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 9
+max_distance_to_players 11
+terrain_to_place_on GRASS2
+}
+
+create_object DEER
+{
+number_of_objects 3
+group_placement_radius 3
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 11
+max_distance_to_players 13
+temp_min_distance_group_placement 15
+terrain_to_place_on GRASS2
+}
+
+create_object DEER
+{
+number_of_objects 3
+group_placement_radius 3
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 15
+max_distance_to_players 18
+temp_min_distance_group_placement 15
+terrain_to_place_on GRASS2
+}
+
+create_object FORAGE
+{
+number_of_objects 6
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 9
+max_distance_to_players 11
+min_distance_group_placement 4
+terrain_to_place_on GRASS2
+}
+
+create_object STONE
+{
+number_of_objects 2
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 12
+max_distance_to_players 14
+temp_min_distance_group_placement 10
+min_distance_group_placement 3
+terrain_to_place_on GRASS2
+}
+
+create_object STONE
+{
+number_of_objects 2
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 15
+max_distance_to_players 18
+temp_min_distance_group_placement 10
+min_distance_group_placement 3
+terrain_to_place_on GRASS2
+}
+
+create_object RELIC
+{
+number_of_objects 5
+min_distance_to_players 20
+min_distance_group_placement 5
+temp_min_distance_group_placement 35
+terrain_to_place_on GRASS
+}
+
+create_object GOLD
+{
+number_of_objects 5
+number_of_groups 6
+set_tight_grouping
+group_placement_radius 3
+set_gaia_object_only
+set_scaling_to_map_size
+min_distance_group_placement 9
+temp_min_distance_group_placement 25
+terrain_to_place_on GRASS
+}
+
+create_object STONE
+{
+number_of_objects 4
+number_of_groups 4
+set_tight_grouping
+group_placement_radius 3
+set_gaia_object_only
+set_scaling_to_map_size
+min_distance_group_placement 9
+temp_min_distance_group_placement 25
+terrain_to_place_on GRASS
+}
+
+<ELEVATION_GENERATION>
+
+create_elevation 7
+{
+base_terrain GRASS3
+number_of_clumps 999
+number_of_tiles 99999
+set_scale_by_groups
+set_scale_by_size
+spacing 3         
+}
+
+<CLIFF_GENERATION>
+
+min_number_of_cliffs 5
+max_number_of_cliffs 10
+min_length_of_cliff 4
+max_length_of_cliff 7
+min_distance_cliff 15
