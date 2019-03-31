@@ -116,7 +116,7 @@ class EventMap(BASE):
     __tablename__ = 'event_maps'
     id = Column(Integer, primary_key=True)
     event_id = Column(String, ForeignKey('events.id'))
-    event = relationship('Event', foreign_keys=event_id, backref='map_pack')
+    event = relationship('Event', foreign_keys=event_id, backref='maps')
     name = Column(String)
     zr = Column(Boolean)
     aoe2mapnet_id = Column(String)

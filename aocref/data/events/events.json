@@ -100,5 +100,13 @@
       "HiddenCup2Qual",
       "HiddenCup2"
     ]
+  },
+  {
+    "id": "ae",
+    "name": "Aspiring Experts",
+    "tournaments": [
+      "AESiL",
+      "AEGL"
+    ]
   }
 ]
