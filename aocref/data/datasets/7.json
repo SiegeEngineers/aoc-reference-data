@@ -1,0 +1,1851 @@
+{
+  "dataset": {
+    "name": "Age of Empires II: Realms",
+    "version": "1.92"
+  },
+  "civilizations": {
+    "6": {
+      "name": "Chinese",
+      "description": {
+        "bonuses": [
+          "Start with +3 villagers but -50 wood, -200 food",
+          "Technologies cost -10% Feudal, -15% Castle, -20% Imperial Age",
+          "Town Centers support 10 population and +5 LOS",
+          "Demolition ships +25% hit points"
+        ],
+        "unique_units": [
+          "Chu Ko Nu (archer)"
+        ],
+        "team_bonus": "Farms +45 food",
+        "imperial_age_unique_techs": [
+          "Great Wall (Walls and towers +30% HP)",
+	  "Rocketry (+2P Chu Ko Nu attack, +4P scorpions)"
+        ]
+      }
+    },
+    "15": {
+      "name": "Aztecs",
+      "description": {
+        "bonuses": [
+          "Villagers carry +5",
+          "Military units created 15% faster",
+          "+5 Monk hit points for each Monastery technology",
+          "Start with +50 gold"
+        ],
+        "unique_units": [
+          "Jaguar Warrior (infantry)"
+        ],
+        "team_bonus": "Relics generate +33% gold",
+        "imperial_age_unique_techs": [
+          "Atlatl (Skirmishers +1 attack, +1 range)",
+          "Garland Wars (+4 infantry attack)"
+        ]
+      }
+    },
+    "16": {
+      "name": "Mayans",
+      "description": {
+        "bonuses": [
+          "Start with +1 villager, but -50 food",
+          "Resources last 15% longer",
+          "Archers cost -10% Feudal, -20% Castle, -30% Imperial Age"
+        ],
+        "unique_units": [
+          "Plumed Archer (archer)"
+        ],
+        "team_bonus": "Walls cost -50%",
+        "imperial_age_unique_techs": [
+          "Obsidian Arrows (Archers, Crossbowmen and Arbalests +5 attack vs. buildings)",
+          "El Dorado (Eagle Warriors have +40 hit points)"
+        ]
+      }
+    },
+    "37": {
+      "name": "Mandinkas",
+      "description": {
+        "bonuses": [
+          "Start with +200 gold, -150 food, +50 wood",
+          "Villagers cost 55 gold, return 40 on death",
+          "Camels attack 20% faster",
+          "Gold mines last 30% longer",
+          "Trade units 2X move speed in Castle Age"
+        ],
+        "unique_units": [
+          "Horon (Quick infantry)"
+        ],
+        "team_bonus": "Gold mines start revealed",
+        "imperial_age_unique_techs": [
+          "Salt Trade (Enable gold trickle)",
+          "Poison Arrows (Archer line +3 attack)"
+        ]
+      }
+    },
+    "22": {
+      "name": "Magyars",
+      "description": {
+        "bonuses": [
+          "Villagers kill wolves with 1 strike",
+          "Forging, Iron Casting, Blast Furnace free",
+          "Scout Cavalry, Light Cavalry, Hussar 15% cheaper"
+        ],
+        "unique_units": [
+          "Magyar Huszar (cavalry)"
+        ],
+        "team_bonus": "Foot archers (except skirmishers) +2 LOS",
+        "imperial_age_unique_techs": [
+          "Mercenaries (Magyar Huszars cost no gold)",
+          "Recurve Bow (Cavalry archers +1 range)"
+        ]
+      }
+    },
+    "12": {
+      "name": "Mongols",
+      "description": {
+        "bonuses": [
+          "Cavalry archers fire 20% faster",
+          "Light Cavalry, Hussar +30% hit points",
+          "Hunters work 50% faster"
+        ],
+        "unique_units": [
+          "Mangudai (cavalry archer)"
+        ],
+        "team_bonus": "Scout Cavalry, Light Cavalry, Hussar +2 line of sight",
+        "imperial_age_unique_techs": [
+          "Nomads (Destroyed houses don't lose their population room)",
+          "Drill (Siege Workshop units move 50% faster)"
+        ]
+      }
+    },
+    "9": {
+      "name": "Saracens",
+      "description": {
+        "bonuses": [
+          "Market trade cost only 5%",
+          "Market costs -75 wood",
+          "Transport Ships 2X hit points, capacity",
+          "Galleys attack 20% faster",
+          "Cavalry archers +3 attack vs. buildings"
+        ],
+        "unique_units": [
+          "Mameluke (camel)"
+        ],
+        "team_bonus": "Foot archers +1 attack vs. buildings",
+        "imperial_age_unique_techs": [
+          "Madrasah (Killed monks return 33% of their cost)",
+          "Zealotry (Camels, Mamelukes +30 hit points)"
+        ]
+      }
+    },
+    "33": {
+      "name": "Viets",
+      "description": {
+        "bonuses": [
+          "Villagers have +2/8 attack Castle/Imperial Age, +1 for TC techs (except Loom)",
+          "Archers (except Cav archers) move 10% faster",
+          "Trees last 50% longer",
+          "Can build Sea Walls and Gates",
+          "Castles, Town Centers, Monasteries, and Palisades regenerate",
+          "Elite Skirmisher upgrade free"
+        ],
+        "unique_units": [
+          "Th\u00e2n Co (Hand Cannon)",
+          "Diep Vien (Spy)"
+        ],
+        "team_bonus": "Infantry +2 LOS",
+        "imperial_age_unique_techs": [
+          "Hich Tuong Si (Archers +5 attack vs ships)",
+          "Tam Giao (Monks convert siege and buildings from range)"
+        ]
+      }
+    },
+    "34": {
+      "name": "Bulgars",
+      "description": {
+        "bonuses": [
+          "Can create cows from Town Centers",
+          "Spearman, skirmishers, and light cavalry are created 25% faster",
+          "Knights attack 15/20% faster in Castle/Imperial Age",
+          "Cavalry Archers +3 attack vs. spearmen"
+        ],
+        "unique_units": [
+          "Bagain (Cavalry)"
+        ],
+        "team_bonus": "Skirmishers +1 attack vs. cavalry archers",
+        "imperial_age_unique_techs": [
+          "Pirgos (Castles +3/5/10 armor)",
+          "Auxiliaries (Light cavalry gain bonus vs. archers, villagers)"
+        ]
+      }
+    },
+    "40": {
+      "name": "Malays",
+      "description": {
+        "bonuses": [
+          "Villagers gather food 10% faster",
+          "Man-at-arms, Long Swordsman upgrade free; Two-handed Swordsman upgrade available in Castle Age",
+          "Fishing ships move 20% more quickly",
+          "Galleys +1/2 range in Castle/Imperial Age",
+          "Can build Sea Towers"
+        ],
+        "unique_units": [
+          "Pesilat (Infantry)"
+        ],
+        "team_bonus": "Trade cog collisions reduced",
+        "imperial_age_unique_techs": [
+          "Silat Melayu (Militia line moves 10% faster)",
+          "Lantaka (Cannon units +10 attack)"
+        ]
+      }
+    },
+    "42": {
+      "name": "Dravidians",
+      "description": {
+        "bonuses": [
+          "Town Centers spawn 1 villager in Feudal/Castle Age; Town Centers built in Castle/Imperial Age spawn 2 villagers",
+          "Archer line benefits double from Bodkin Arrow, Bracer, Chemistry",
+          "Elephant Archers +15/20% hp in Castle/Imperial Age",
+          "Careening Free"
+        ],
+        "unique_units": [
+          "Varu (Cavalry)"
+        ],
+        "team_bonus": "Fishing traps hold +200 food",
+        "imperial_age_unique_techs": [
+          "Thirisadai (Warships +10% hp)",
+          "Wootz Steel (Infantry and cavalry +2 attack)"
+        ]
+      }
+    },
+    "30": {
+      "name": "Jurchens",
+      "description": {
+        "bonuses": [
+          "Houses, Docks, Markets, and Town Centers build 40% more quickly",
+          "Villagers +1/3 range in Dark/Feudal Age, benefit from Bodkin Arrow, Bracer, Chemistry",
+          "Berries last 40% longer",
+          "Petards -50% cost"
+        ],
+        "unique_units": [
+          "Tiefutu (Cavalry)"
+        ],
+        "team_bonus": "Dropsites build 50% faster",
+        "imperial_age_unique_techs": [
+          "Guaizi Ma (Mounted units +10 hp)",
+          "Sijiao Pao (Trebuchets +2 range)"
+        ]
+      }
+    },
+    "10": {
+      "name": "Turks",
+      "description": {
+        "bonuses": [
+          "Gunpowder units +25% hit points; researching gunpowder technologies costs -50%; Chemistry free",
+          "Gold miners work 20% faster",
+          "Light Cavalry and Hussar upgrades free"
+        ],
+        "unique_units": [
+          "Janissary (hand cannoneer)"
+        ],
+        "team_bonus": "Gunpowder units created 20% faster",
+        "imperial_age_unique_techs": [
+          "Sipahi (Cavalry Archers +20 HP)",
+          "Artillery (+2 range Bombard Towers, Bombard Cannons, Cannon Galleons)"
+        ]
+      }
+    },
+    "36": {
+      "name": "Moors",
+      "description": {
+        "bonuses": [
+          "Start with Berber Scout",
+          "Buildings (except farms) cost -10% wood in Feudal Age",
+          "Camels train 33% faster",
+          "Transport ships 25% faster",
+          "Scout Cavalry, Light Cavalry, Hussar attack 20% faster"
+        ],
+        "unique_units": [
+          "Camel Archer (Anti-Monk and Villager Mounted Archer)",
+          "Corsair (Boarding Ship)"
+        ],
+        "team_bonus": "Camels +4 LOS",
+        "imperial_age_unique_techs": [
+          "Dawah (Monks +1 range)",
+          "Blackguards (Spearmen, Knights +1 attack, +20 hp)"
+        ]
+      }
+    },
+    "2": {
+      "name": "Franks",
+      "description": {
+        "bonuses": [
+          "Castles cost -25%",
+          "Knights +25% hit points",
+          "Farm upgrades free (require Mill)",
+          "Foragers work 25% faster"
+        ],
+        "unique_units": [
+          "Throwing Axeman (infantry)"
+        ],
+        "team_bonus": "Knights +2 line of sight",
+        "imperial_age_unique_techs": [
+          "Chivalry (Stables work 40% faster)",
+          "Bearded Axe (+1 Throwing Axemen range)"
+        ]
+      }
+    },
+    "29": {
+      "name": "Balts",
+      "description": {
+        "bonuses": [
+          "Cavalry move 10/15% faster in Dark/Castle Age",
+          "Buildings +2 LOS",
+          "Knights cost -10% Castle, -15% Imperial Age",
+          "Fishing Ships 15% cheaper"
+        ],
+        "unique_units": [
+          "Vytis (mounted skirmisher)"
+        ],
+        "team_bonus": "Knights +2 attack vs gunpowder units",
+        "imperial_age_unique_techs": [
+          "Hillforts (Towers, Outposts cheaper; Voivods (Light Cavalry 5% faster, +0/2 armor)"
+        ]
+      }
+    },
+    "19": {
+      "name": "Italians",
+      "description": {
+        "bonuses": [
+          "Advancing to the next Age costs -15%",
+          "Dock techs cost -50%",
+          "Fishing Ships +2 LOS",
+          "Gunpowder units cost -20%"
+        ],
+        "unique_units": [
+          "Genoese Crossbowman (archer)",
+          "Condottiero (infantry)"
+        ],
+        "team_bonus": "Condottiero available in barracks",
+        "imperial_age_unique_techs": [
+          "Pavise (Genoese Crossbowman, archer line +1 armor/+1 pierce armor)",
+          "Silk Road (Trade units cost -50%)"
+        ]
+      }
+    },
+    "25": {
+      "name": "Khmers",
+      "description": {
+        "bonuses": [
+          "Scorpions +2 attack vs cavalry",
+          "Fishing Ships +15 carrying capacity",
+          "Archer line upgrades free",
+          "Military units -5% cost in Feudal Age"
+        ],
+        "unique_units": [
+          "Ballista Elephant (siege cavalry)"
+        ],
+        "team_bonus": "Scorpions +1 range",
+        "imperial_age_unique_techs": [
+          "Levy (Spearmen, Skirmishers, and Camels enabled at Town Center, Mining and Lumber Camps)",
+          "Ballista (Ballista Elephants and scorpions +1 range, no minimum range)"
+        ]
+      }
+    },
+    "21": {
+      "name": "Incas",
+      "description": {
+        "bonuses": [
+          "Start with a free llama",
+          "Villagers affected by Blacksmith upgrades",
+          "Houses support 10 population",
+          "Buildings cost -15% stone"
+        ],
+        "unique_units": [
+          "Kamayuk (infantry)",
+          "Slinger (archer)"
+        ],
+        "team_bonus": "Farms built +50% faster",
+        "imperial_age_unique_techs": [
+          "Andean Sling (Skirmishers and Slingers no minimum range)",
+          "Couriers (Kamayuks, Slingers, Eagles +1/2 armor.)"
+        ]
+      }
+    },
+    "18": {
+      "name": "Koreans",
+      "description": {
+        "bonuses": [
+          "Villagers +3 line of sight",
+          "Stone miners work 20% faster",
+          "Tower upgrades free (Bombard Tower requires Chemistry)",
+          "Tower range +1 Castle, +2 Imperial Age",
+          "Walls, Bombard Towers built 25% faster"
+        ],
+        "unique_units": [
+          "War Wagon (cavalry archer)",
+          "Turtle Ship (war ship)"
+        ],
+        "team_bonus": "Mangonels minimum range reduced",
+        "imperial_age_unique_techs": [
+          "Panokseon (Turtle Ships move 15% faster)",
+          "Shinkichon (+1 range Mangonels, Onagers, Siege Onagers)"
+        ]
+      }
+    },
+    "20": {
+      "name": "Hindustani",
+      "description": {
+        "bonuses": [
+          "Villagers cost -5% Dark, -10% Feudal, -15% Castle, -20% Imperial Age",
+          "Fishermen work +15% faster and carry +15",
+          "Camels +0/+1 armor",
+          "Elephant Archers cost -20f, -10g"
+        ],
+        "unique_units": [
+          "Gun Mahout (elephant hand cannon)",
+          "Imperial Camel (camel)"
+        ],
+        "team_bonus": "Camels +6 attack vs. buildings",
+        "imperial_age_unique_techs": [
+          "Sultans (All gold production +10% faster)",
+          "Shatagni (Hand Cannoneers, Gun Mahouts +1 range)"
+        ]
+      }
+    },
+    "26": {
+      "name": "Armenians",
+      "description": {
+        "bonuses": [
+          "10/60 wood, 8/50 food, 0/15 stone generate per minute in Dark/Imperial Age",
+          "Monks 20% cheaper in Imperial Age"
+        ],
+        "unique_units": [
+          "Ayrudzi (cavalry)"
+        ],
+        "team_bonus": "Monasteries work 20% faster",
+        "imperial_age_unique_techs": [
+          "Azatavrear (Knights and Castle units +1/1 armor)",
+          "Nizak (Cavalry +1 damage)"
+        ]
+      }
+    },
+    "35": {
+      "name": "Bohemians",
+      "description": {
+        "bonuses": [
+          "Archery Ranges cost -20%",
+          "+5 Villager hit points for each Age and Town Center technology",
+          "Heresy free (Requires Monastery)",
+          "Archers, hand cannoneers +1/2 pierce armor Castle/Imperial Age"
+        ],
+        "unique_units": [
+          "Taborite (Infantry)",
+          "Trestle Gun (Scorpion)",
+          "Wagenburg (Tower)"
+        ],
+        "team_bonus": "Barracks -10% cost",
+        "imperial_age_unique_techs": [
+          "Spanil\u00e9 J\u00edzdy (Villagers, Taborites +5 bonus vs. buildings)",
+          "Houfnice (Bombard Towers do 10 extra damage vs rams)"
+        ]
+      }
+    },
+    "11": {
+      "name": "Vikings",
+      "description": {
+        "bonuses": [
+          "Warships cost -10% Feudal Age, -15% Castle Age, -20% Imperial Age",
+          "Infantry +10% hit points Feudal, +15% Castle, +20% Imperial Age",
+          "Wheelbarrow, Hand Cart free",
+          "Halberdier upgrade 3x cost"
+        ],
+        "unique_units": [
+          "Berserk (infantry)",
+          "Longboat (warship)"
+        ],
+        "team_bonus": "Docks -15% cost",
+        "imperial_age_unique_techs": [
+          "Chieftains (Berserks gain attack bonus vs cavalry)",
+          "Berserkergang (Berserks regenerate faster)"
+        ]
+      }
+    },
+    "24": {
+      "name": "Chimus",
+      "description": {
+        "bonuses": [
+          "Infantry (except Eagle Warriors) +1/0 armor Feudal, +1/1 Castle, +2/1 Imperial Age",
+          "Masonry and Architecture free (Requires University)",
+          "Repairers work 2X faster",
+          "Villagers move 10% faster"
+        ],
+        "unique_units": [
+          "Chimor Warrior (infantry)"
+        ],
+        "team_bonus": "Blacksmiths work 33% faster",
+        "imperial_age_unique_techs": [
+          "Huacas (Increase building garrison room)",
+          "Tlacochtli (Skirmishers move 25% faster, +10 HP)"
+        ]
+      }
+    },
+    "1": {
+      "name": "Britons",
+      "description": {
+        "bonuses": [
+          "Town Centers cost -50% wood in Castle Age",
+          "Foot archers (except skirmishers) have +1 range Castle Age, +1 range Imperial Age (for +2 total)",
+          "Shepherds work 25% faster"
+        ],
+        "unique_units": [
+          "Longbowman (archer)"
+        ],
+        "team_bonus": "Archery Ranges work 20% faster",
+        "imperial_age_unique_techs": [
+          "Yeomen (+1 foot archer range; +2 tower attack)",
+          "Warwolf (Trebuchets do blast damage)"
+        ]
+      }
+    },
+    "17": {
+      "name": "Huns",
+      "description": {
+        "bonuses": [
+          "Do not need houses, but start with -100 wood",
+          "Cavalry Archers cost -10% Castle, -20% Imperial Age",
+          "Trebuchets +30% accuracy"
+        ],
+        "unique_units": [
+          "Tarkan (cavalry)"
+        ],
+        "team_bonus": "Stables work 20% faster",
+        "imperial_age_unique_techs": [
+          "Marauders (Create Tarkans at stables)",
+          "Atheism (+100 years Relic, Wonder victories; Spies/Treason costs -50%)"
+        ]
+      }
+    },
+    "38": {
+      "name": "Muisca",
+      "description": {
+        "bonuses": [
+          "Villagers work 6% faster",
+          "Projectiles move 30% more quickly"
+        ],
+        "unique_units": [
+          "Guecha (Archer)"
+        ],
+        "team_bonus": "Killed trash units return 10% of their cost.",
+        "imperial_age_unique_techs": [
+          "Usaque (Killed archers and infantry (except trash) return 20% of their cost)",
+          "Tejo (Eagle Warriors move 10% faster)"
+        ]
+      }
+    },
+    "3": {
+      "name": "Goths",
+      "description": {
+        "bonuses": [
+          "Infantry cost -35% starting in Feudal Age",
+          "Infantry +1 attack vs. buildings",
+          "Villagers +5 attack vs. wild boar; hunters carry +15 meat",
+          "+10 population in Imperial Age",
+          "+15 population for first Wonder"
+        ],
+        "unique_units": [
+          "Huskarl (infantry)"
+        ],
+        "team_bonus": "Barracks work 20% faster",
+        "imperial_age_unique_techs": [
+          "Anarchy (create Huskarls at Barracks)",
+          "Perfusion (Barracks work 100% faster)"
+        ]
+      }
+    },
+    "23": {
+      "name": "Slavs",
+      "description": {
+        "bonuses": [
+          "Farmers work +15% faster",
+          "Tracking Free",
+          "Siege units 15% cheaper"
+        ],
+        "unique_units": [
+          "Boyar (cavalry)"
+        ],
+        "team_bonus": "Military buildings provide +5 population",
+        "imperial_age_unique_techs": [
+          "Orthodoxy (Monks +3/3 armor)",
+          "Druzhina (Infantry damage adjacent units)"
+        ]
+      }
+    },
+    "14": {
+      "name": "Spanish",
+      "description": {
+        "bonuses": [
+          "Builders work 30% faster",
+          "Blacksmith upgrades don't cost gold",
+          "Cannon Galleons benefit from Ballistics (fire faster, more accurately)",
+          "Hand Cannoneers and Bombard Cannons fire 15% faster"
+        ],
+        "unique_units": [
+          "Conquistador (mounted hand cannoneer)",
+          "Missionary (mounted Monk)"
+        ],
+        "team_bonus": "Trade units generate +25% gold",
+        "imperial_age_unique_techs": [
+          "Inquisition (Monks convert faster)",
+          "Supremacy (villagers better in combat)"
+        ]
+      }
+    },
+    "4": {
+      "name": "Teutons",
+      "description": {
+        "bonuses": [
+          "Monks healing range 2X",
+          "Towers garrison 2X units",
+          "Murder Holes free",
+          "Farms cost -33%",
+          "Town Center garrison +10"
+        ],
+        "unique_units": [
+          "Teutonic Knight (infantry)"
+        ],
+        "team_bonus": "Units resist conversion",
+        "imperial_age_unique_techs": [
+          "Ironclad (siege weapons extra melee armor)",
+          "Crenellations (+3 range Castles; garrisoned infantry fire arrows)"
+        ]
+      }
+    },
+    "41": {
+      "name": "Turcomans",
+      "description": {
+        "bonuses": [
+          "Dropsites mobile, have less hp and armor",
+          "Cavalry +6 attack vs economic buildings",
+          "Free Scout/Camel/2 Cavalry Archers in Feudal/Castle/Imperial Age"
+        ],
+        "unique_units": [
+          "Ulan (Cavalry Archer)"
+        ],
+        "team_bonus": "Villagers can construct rams",
+        "imperial_age_unique_techs": [
+          "Siper (Cavalry archers +1 attack)",
+          "Bactrian Camelry (Camels +3 attack)"
+        ]
+      }
+    },
+    "7": {
+      "name": "Byzantines",
+      "description": {
+        "bonuses": [
+          "Buildings +10% HPs Dark, +20% Feudal, +30% Castle, +40% Imperial Age",
+          "Camels, skirmishers, Pikemen, Halberdiers cost -25%",
+          "Fire ships +20% attack",
+          "Advance to Imperial Age costs -33%",
+          "Town Watch free"
+        ],
+        "unique_units": [
+          "Cataphract (cavalry)"
+        ],
+        "team_bonus": "Monks +50% heal speed",
+        "imperial_age_unique_techs": [
+          "Greek Fire (Fire Ships +1 range)",
+          "Logistica (Cataphracts cause trample damage)"
+        ]
+      }
+    },
+    "5": {
+      "name": "Japanese",
+      "description": {
+        "bonuses": [
+          "Fishing Ships 2X hit points; +2P armor; work rate +5% Dark, +10% Feudal, +15% Castle, +20% Imperial Age",
+          "Mill, Lumber/Mining Camps cost -50%",
+          "Infantry attack 25% faster starting in Feudal Age"
+        ],
+        "unique_units": [
+          "Samurai (infantry)"
+        ],
+        "team_bonus": "Galleys +50% line of sight",
+        "imperial_age_unique_techs": [
+          "Yasama (Towers shoot extra arrows)",
+          "Kataparuto (Trebuchets fire, pack faster)"
+        ]
+      }
+    },
+    "31": {
+      "name": "Dutch",
+      "description": {
+        "bonuses": [
+          "Infantry +1 attack in Feudal Age",
+          "Castles +2000 hp",
+          "Farms smaller, -10 cost, -45 capacity",
+          "Cannon Galleon minimum range halved",
+          "Militia line cost -10 gold, +10 food"
+        ],
+        "unique_units": [
+          "Ruiter (Regenerating Cavalry)",
+          "Beguine (Healer)"
+        ],
+        "team_bonus": "Drop sites and Markets provide +5 population room",
+        "imperial_age_unique_techs": [
+          "Goedendag (Militia line +5 attack vs cavalry)",
+          "Merchants (Trade units +30 hp, markets work faster)"
+        ]
+      }
+    },
+    "28": {
+      "name": "Tufans",
+      "description": {
+        "bonuses": [
+          "Cavalier upgrade available in Castle age",
+          "Monks move 20% faster",
+          "Cavalier, Paladin upgrades researches 60% more quickly",
+          "Heavy Cavalry Archer upgrades cost no food",
+          "Stone lasts 40% longer"
+        ],
+        "unique_units": [
+          "Mastiff (war dog)"
+        ],
+        "team_bonus": "Monks +5 hit points",
+        "imperial_age_unique_techs": [
+          "Warrior Monks (Monks +5 monk armor)",
+          "Nancheng Breeds (Mastiffs, mounted units +20 hp)"
+        ]
+      }
+    },
+    "32": {
+      "name": "Bamars",
+      "description": {
+        "bonuses": [
+          "+10 food when completing farms",
+          "Foot Archers have 10/15/20% more health Feudal/Castle/Imperial Age",
+          "Monasteries -25% cost",
+          "Mangonels/Onagers +60/90 attack vs buildings",
+          "Archery Range technologies -30% cost"
+        ],
+        "unique_units": [
+          "Howdah (Cavalry)"
+        ],
+        "team_bonus": "Scorpions +15 attack vs. buildings",
+        "imperial_age_unique_techs": [
+          "Stockade (Palisades stronger, more expensive)",
+          "Pwe-kyaung (Monks regenerate faith faster)"
+        ]
+      }
+    },
+    "8": {
+      "name": "Persians",
+      "description": {
+        "bonuses": [
+          "Start with +50 wood, food",
+          "Town Center, Dock 2X hit points; work rate +10% Feudal, +15% Castle, +20% Imperial Age"
+        ],
+        "unique_units": [
+          "War Elephant (cavalry)"
+        ],
+        "team_bonus": "Knights +2 attack vs. archers",
+        "imperial_age_unique_techs": [
+          "Boiling Oil (Castles do extra damage vs rams)",
+          "Mahouts (War Elephants 30% faster)"
+        ]
+      }
+    },
+    "27": {
+      "name": "Helvetians",
+      "description": {
+        "bonuses": [
+          "Houses 40% cheaper",
+          "Spearman line +1 range",
+          "Skirmishers +1/2 attack Castle/Imperial Age",
+          "Skirmishers benefit from Parthian Tactics"
+        ],
+        "unique_units": [
+          "Pike Square (infantry)"
+        ],
+        "team_bonus": "Castles work 15% faster",
+        "imperial_age_unique_techs": [
+          "Close Order Drill (Spearmen, Pike Squares +1/1 armor)",
+          "Confederacy (Units +5 hp)"
+        ]
+      }
+    },
+    "39": {
+      "name": "Burgundians",
+      "description": {
+        "bonuses": [
+          "Dropsites work 2X faster",
+          "Blacksmith Techs cost 50% less food",
+          "Conscription free",
+          "Siege units move 15% faster",
+          "Town Centers +2 attack",
+          "Can access up to 3 other unique units"
+        ],
+        "unique_units": [
+          "Cranequinier (Cavalry Archer)"
+        ],
+        "team_bonus": "Unique units cheaper",
+        "imperial_age_unique_techs": [
+          "Standing Army (Swordsmen, knights, cranequiniers +1/0 armor)",
+          "Ordonnance Companies (Other unique units upgrade to elite)"
+        ]
+      }
+    },
+    "13": {
+      "name": "Celts",
+      "description": {
+        "bonuses": [
+          "Infantry move 15% faster",
+          "Lumberjacks work 15% faster",
+          "Siege weapons fire 20% faster",
+          "Sheep not converted if in 1 Celt unit's line of sight"
+        ],
+        "unique_units": [
+          "Woad Raider (infantry)"
+        ],
+        "team_bonus": "Siege Workshops work 20% faster",
+        "imperial_age_unique_techs": [
+          "Stronghold (Castles and towers fire 20% faster)",
+          "Furor Celtica (Siege Workshop units have +40% hit points)"
+        ]
+      }
+    }
+  },
+  "technologies": {
+    "27": "Elite Plumed Archer",
+    "46": "Elite Taborite",
+    "65": "Gillnets",
+    "87": "Bactrian Camelry",
+    "180": "Swiss Mercenaries",
+    "186": "Italian Mercenaries",
+    "187": "French Mercenaries",
+    "189": "Slavic Mercenaries",
+    "210": "Animal Husbandry",
+    "216": "Slaughterhouses",
+    "220": "Estolica",
+    "240": "Trestle Gun",
+    "357": "Elite Chimor Warrior",
+    "384": "Eagle Warrior",
+    "394": "Elite Vytis",
+    "395": "Elite Jinete",
+    "396": "Elite Mastiff",
+    "460": "Atlatl",
+    "461": "Warwolf",
+    "462": "Great Wall",
+    "463": "Chieftains",
+    "464": "Greek Fire",
+    "468": "Elite Genoese Crossbowman",
+    "472": "Elite Magyar Huszar",
+    "481": "Elite Elephant Archer",
+    "482": "Stronghold",
+    "483": "Marauders",
+    "484": "Yasama",
+    "485": "Obsidian Arrows",
+    "486": "Panokseon",
+    "487": "Nomads",
+    "488": "Boiling Oil",
+    "489": "Ironclad",
+    "490": "Madrasah",
+    "491": "Sipahi",
+    "492": "Inquisition",
+    "493": "Chivalry",
+    "494": "Pavise",
+    "499": "Silk Road",
+    "501": "Elite Jinete",
+    "502": "Elite Jinete",
+    "504": "Elite Boyar",
+    "506": "Sultans",
+    "507": "Shatagni",
+    "509": "Elite Kamayuk",
+    "512": "Orthodoxy",
+    "513": "Druzhina",
+    "514": "Mercenaries",
+    "515": "Recurve Bow",
+    "516": "Andean Sling",
+    "517": "Couriers",
+    "521": "Imperial Camel",
+    "523": "Estolica",
+    "525": "Revetments",
+    "526": "Hunting Dogs",
+    "527": "Fire Tower",
+    "529": "Britons",
+    "530": "Franks",
+    "531": "Goths",
+    "532": "Teutons",
+    "533": "Japanese",
+    "534": "Chinese",
+    "535": "Byzantines",
+    "536": "Persians",
+    "537": "Saracens",
+    "538": "Turks",
+    "539": "Vikings",
+    "540": "Mongols",
+    "541": "Celts",
+    "542": "Spanish",
+    "543": "Aztecs",
+    "544": "Mayans",
+    "545": "Huns",
+    "546": "Koreans",
+    "547": "Italians",
+    "548": "Hindustani",
+    "549": "Incas",
+    "550": "Magyars",
+    "551": "Slavs",
+    "559": "Chimus",
+    "560": "Khmers",
+    "561": "Armenians",
+    "562": "Helvetians",
+    "563": "Tufans",
+    "564": "Balts",
+    "566": "Levy",
+    "567": "Ballista",
+    "569": "Elite Ballista Elephant",
+    "570": "Close Order Drill",
+    "571": "Confederacy",
+    "573": "Elite Pike Square",
+    "576": "Tlacochtli",
+    "577": "Huacas",
+    "579": "Elite Chimor Warrior",
+    "581": "Azatavrear",
+    "582": "Nizak",
+    "585": "Elite Ayrudzi",
+    "586": "Warrior Monks",
+    "587": "Nancheng Breeds",
+    "589": "Elite Mastiff",
+    "590": "Hillforts",
+    "591": "Voivods",
+    "593": "Elite Vytis",
+    "599": "Guaizi Ma",
+    "600": "Sijiao Pao",
+    "602": "Arson",
+    "603": "Goedendag",
+    "604": "Merchants",
+    "606": "Elite Ruiter",
+    "607": "Moors",
+    "608": "Arrowslits",
+    "615": "Latin Rule",
+    "616": "Turcopoles",
+    "619": "Martyrdom",
+    "621": "Pharmacy",
+    "623": "Patronage",
+    "657": "Estolica",
+    "658": "Estolica",
+    "667": "Stockade",
+    "668": "Pwe-kyaung",
+    "670": "Elite Howdah",
+    "671": "Bamars",
+    "674": "Hich Tuong Si",
+    "675": "Tam Giao",
+    "677": "Elite Th\u00e2n Co",
+    "678": "Muisca",
+    "683": "Pirgos",
+    "684": "Auxiliaries",
+    "686": "Elite Bagain",
+    "688": "Bulgars",
+    "689": "Spanil\u00e9 J\u00edzdy",
+    "690": "Houfnice",
+    "692": "Elite Taborite",
+    "693": "Bohemians",
+    "704": "Trestle Gun",
+    "707": "Training Regimens",
+    "708": "Slave Corps",
+    "715": "Elite Tiefutu",
+    "716": "Dutch",
+    "782": "Viets",
+    "783": "Dawah",
+    "784": "Blackguards",
+    "786": "Elite Camel Archer",
+    "787": "Salt Trade",
+    "788": "Poison Arrows",
+    "790": "Elite Horon",
+    "792": "Elite Corsair Ship",
+    "794": "Ordonnance Companies",
+    "796": "Elite Cranequinier",
+    "797": "Burgundians",
+    "798": "British Mercenaries",
+    "799": "French Mercenaries",
+    "800": "Celtic Mercenaries",
+    "801": "Spanish Mercenaries",
+    "802": "German Mercenaries",
+    "803": "Gothic Mercenaries",
+    "804": "Norse Mercenaries",
+    "805": "Hunnic Mercenaries",
+    "806": "Italian Mercenaries",
+    "807": "Hungarian Mercenaries",
+    "808": "Slavic Mercenaries",
+    "809": "Baltic Mercenaries",
+    "810": "Swiss Mercenaries",
+    "811": "Dutch Mercenaries",
+    "812": "Bulgar Mercenaries",
+    "813": "Bohemian Mercenaries",
+    "814": "Mongol Mercenaries",
+    "831": "Silat Melayu",
+    "832": "Lantaka",
+    "834": "Elite Pesilat",
+    "835": "Malays",
+    "839": "Standing Army",
+    "840": "Usaque",
+    "841": "Tejo",
+    "843": "Elite Guecha",
+    "844": "Malays",
+    "846": "Jurchens",
+    "848": "Mandinkas",
+    "853": "Italian Contacts",
+    "854": "Imperial Favor",
+    "857": "Bedouin Warrior",
+    "859": "Arabian Steeds",
+    "860": "Shiva Swarupa",
+    "861": "Bhang",
+    "863": "Animal Husbandry",
+    "864": "Heavy Carrack",
+    "868": "Elite Gun Mahout",
+    "873": "Bactrian Camelry",
+    "874": "Siper",
+    "876": "Elite Ulan",
+    "877": "Turcomans",
+    "900": "Tepoztopilli",
+    "901": "Huitzilopochtli Worship",
+    "902": "Maize",
+    "903": "Estolica",
+    "922": "Wootz Steel",
+    "923": "Thirisadai",
+    "925": "Elite Varu",
+    "926": "Dravidians",
+    "939": "Animal Husbandry",
+    "940": "Slaughterhouses"
+  },
+  "objects": {
+    "1": "Legionary",
+    "2": "Th\u00e2n Co",
+    "26": "Dead crossbowman",
+    "29": "Elite Th\u00e2n Co",
+    "33": "Fortress",
+    "52": "Royal Janissary",
+    "55": "Beguine",
+    "61": "Dolphin",
+    "106": "Elite Ruiter",
+    "108": "Ruiter",
+    "111": "Dead knight",
+    "180": "Dead long swordman",
+    "184": "Condottiero",
+    "185": "Slinger",
+    "188": "Dragon",
+    "189": "Pesilat",
+    "190": "Fire Tower",
+    "193": "Vlad Dracula",
+    "203": "VMDL",
+    "206": "VMDL",
+    "207": "Imperial Camel",
+    "208": "TWAL",
+    "211": "Elite Chimor Warrior",
+    "213": "Ballista Elephant",
+    "215": "Elite Ballista Elephant",
+    "217": "Ayrudzi",
+    "219": "Elite Ayrudzi",
+    "221": "Pike Square",
+    "223": "Elite Pike Square",
+    "224": "Elite Chimor Warrior",
+    "225": "Ballista Elephant",
+    "226": "Elite Ballista Elephant",
+    "227": "Ayrudzi",
+    "228": "Elite Ayrudzi",
+    "229": "Pike Square",
+    "230": "Elite Pike Square",
+    "231": "Aqueduct",
+    "233": "Mastiff",
+    "237": "Elite Mastiff",
+    "246": "Osman",
+    "251": "Amphitheatre",
+    "263": "Colosseum",
+    "275": "Centurion",
+    "277": "Diep Vien",
+    "301": "Grass Patch",
+    "302": "Bush",
+    "303": "Seagulls",
+    "304": "Bonfire",
+    "306": "Shadow",
+    "307": "Cuauhtemoc",
+    "361": "Nordic Swordsman",
+    "362": "Ulan",
+    "370": "City Wall",
+    "378": "Osman",
+    "379": "Bagain",
+    "381": "Osman",
+    "382": "Skraeling",
+    "383": "Taborite",
+    "385": "Osman",
+    "386": "Elite Taborite",
+    "387": "Wagenburg",
+    "388": "Trestle Gun",
+    "421": "Heavy Carrack",
+    "423": "Marksman",
+    "425": "Elite Ulan",
+    "429": "Frederick Barbarossa",
+    "431": "Prithviraj",
+    "433": "Howdah",
+    "435": "Queen",
+    "437": "Amazon Archer",
+    "439": "Francesco Sforza",
+    "443": "Chand Bhai",
+    "444": "Khosrau",
+    "445": "Poenari Castle",
+    "452": "Dolphin",
+    "467": "Camel Archer",
+    "470": "Osman",
+    "471": "Osman",
+    "472": "Loot",
+    "480": "Elite Bagain",
+    "486": "Tiger",
+    "489": "Skraeling Hut",
+    "497": "Slave Trader",
+    "501": "Dead pikeman",
+    "535": "Corsair Ship",
+    "536": "Elite Corsair Ship",
+    "541": "Trestle Gun",
+    "547": "Dead light cavalry",
+    "572": "Elite Pesilat",
+    "574": "Gun Mahout",
+    "578": "Elite Gun Mahout",
+    "580": "Tiefutu",
+    "582": "Tiefutu",
+    "589": "Wooden Bridge B--Middle",
+    "622": "Elite Horon",
+    "623": "Rock 1",
+    "627": "Rock (Stone)",
+    "628": "Rock (Gold)",
+    "630": "Rock 2",
+    "631": "Temple of Heaven",
+    "633": "Cuauhtemoc",
+    "635": "Nihang",
+    "637": "Swiss Guard",
+    "638": "Duke D'Alencon",
+    "639": "Swiss Pikeman",
+    "641": "Free Company Headquarters",
+    "643": "Carrack",
+    "645": "Bedouin Camp",
+    "647": "Bedouin Scout",
+    "649": "Elite Vytis",
+    "651": "Vytis",
+    "653": "Elite Mastiff",
+    "679": "Mastiff",
+    "681": "Elite Pike Square",
+    "687": "Pike Square",
+    "693": "Elite Ayrudzi",
+    "695": "Builder Ship",
+    "699": "Ayrudzi",
+    "701": "Tiefutu",
+    "703": "Elite Ballista Elephant",
+    "705": "Cow",
+    "708": "Elite Tiefutu",
+    "724": "Ballista Elephant",
+    "727": "Elite Camel Archer",
+    "732": "Elite Chimor Warrior",
+    "734": "Chimor Warrior",
+    "748": "Cobra Car",
+    "749": "Almogavar",
+    "750": "Elite Ruiter",
+    "751": "Eagle Scout",
+    "753": "Eagle Warrior",
+    "756": "Cannon Mahout",
+    "760": "Lancer",
+    "762": "Slave Soldier",
+    "766": "Friar",
+    "769": "Elite Bagain",
+    "774": "Templar",
+    "778": "Bedouin Warrior",
+    "780": "Ranch",
+    "782": "Hajduk",
+    "784": "Doppelsoldner",
+    "786": "Goods",
+    "787": "Lumber",
+    "789": "Palisade Gate",
+    "790": "Palisade Gate",
+    "791": "Palisade Gate",
+    "792": "Palisade Gate",
+    "793": "Palisade Gate",
+    "794": "Palisade Gate",
+    "796": "Palisade Gate",
+    "797": "Palisade Gate",
+    "798": "Palisade Gate",
+    "800": "Palisade Gate",
+    "801": "Palisade Gate",
+    "802": "Palisade Gate",
+    "804": "Palisade Gate",
+    "811": "Bedouin Raider",
+    "815": "Vulture",
+    "823": "Horon",
+    "830": "Stradiot",
+    "834": "Penguin",
+    "836": "Elite Howdah",
+    "839": "Rock (Stone)",
+    "841": "Rock (Gold)",
+    "861": "Akali Outpost",
+    "866": "Genoese Crossbowman",
+    "867": "Templar Commandery",
+    "868": "Elite Genoese Crossbowman",
+    "869": "Magyar Huszar",
+    "870": "Abbey",
+    "871": "Elite Magyar Huszar",
+    "872": "Quimper Cathedral",
+    "873": "Elephant Archer",
+    "874": "Castellum",
+    "875": "Elite Elephant Archer",
+    "876": "Boyar",
+    "877": "Slave Market",
+    "878": "Elite Boyar",
+    "879": "Kamayuk",
+    "880": "Imperial Stable",
+    "881": "Elite Kamayuk",
+    "882": "Condottiero",
+    "883": "Cranequinier",
+    "884": "Wild Camel",
+    "885": "Siege Tower",
+    "888": "Varu",
+    "889": "Guecha",
+    "890": "Elite Guecha",
+    "891": "Elite Varu",
+    "893": "Cuauhtli",
+    "894": "Eastern Swordsman",
+    "895": "War Temple",
+    "896": "Waterfall",
+    "897": "Dromedary",
+    "898": "Elite Cranequinier",
+    "899": "Arch of Constantine",
+    "900": "Rain",
+    "901": "Flag F",
+    "902": "Smoke",
+    "904": "Wooden Bridge A--Top",
+    "905": "Wooden Bridge A--Middle",
+    "906": "Wooden Bridge A--Bottom",
+    "907": "Wooden Bridge B--Top",
+    "908": "Wooden Bridge B--Middle",
+    "909": "Wooden Bridge B--Bottom",
+    "910": "Impaled Corpse",
+    "948": "Elite Bagain",
+    "950": "Elite Mastiff",
+    "951": "Elite Bagain",
+    "1006": "Arnold von Winkelried",
+    "1007": "Willem van Gulik",
+    "1009": "Axayactl",
+    "1012": "\u00d1ancempinco",
+    "1020": "Montezuma",
+    "1025": "Ruga the Hun",
+    "1030": "Cuitlauac",
+    "1032": "Bappa Rawal",
+    "1034": "Huayna C\u00e1pac",
+    "1035": "Pachacuti",
+    "1040": "Tatzates",
+    "1041": "Tacaynamo",
+    "1042": "Ashot II the Iron",
+    "1043": "Swiss Pikeman",
+    "1044": "Swiss Guard",
+    "1048": "Rudolf von Erlach",
+    "1050": "Johann von Bayern",
+    "1052": "Wanyan Aguda",
+    "1064": "Itzcoatl",
+    "1069": "Razadarit",
+    "1100": "Spawner, Relic",
+    "1104": "Elite Ruiter",
+    "1107": "Worker",
+    "1108": "Spawner, Deer",
+    "1110": "Spawner, Boar",
+    "1112": "Spawner, Javelina",
+    "1114": "Trade Post",
+    "1153": "Invisible Wall",
+    "1154": "Asfin al-Armani Object",
+    "1190": "Fog Set All to 1",
+    "1191": "Fog Set All to 2",
+    "1194": "Bandit Camp",
+    "1204": "Dragon Nest",
+    "1205": "Dragon Nest",
+    "1206": "Dragon Nest",
+    "1207": "Dragon Nest",
+    "1208": "Dragon",
+    "1209": "Dragon",
+    "1210": "Dragon",
+    "1211": "Dragon",
+    "1216": "Bridge B--5",
+    "1217": "Bridge B--9",
+    "1218": "Bridge A--5",
+    "1219": "Bridge A--9",
+    "1227": "Manor",
+    "1233": "Quarry",
+    "1241": "Militia Guild",
+    "1272": "Vulture",
+    "1279": "Free Company Headquarters",
+    "1280": "Free Company Headquarters",
+    "1281": "Free Company Headquarters",
+    "1282": "Free Company Headquarters",
+    "1283": "Elite Mastiff",
+    "1284": "FHQ Central",
+    "1285": "FHQ Italian",
+    "1286": "FHQ Slavic",
+    "1287": "FHQ Vikiing",
+    "1297": "Cliffs set Lush",
+    "1317": "Genoese Crossbowman",
+    "1318": "Elite Genoese Crossbowman",
+    "1319": "Magyar Huszar",
+    "1320": "Elite Magyar Huszar",
+    "1321": "Boyar",
+    "1322": "Elite Boyar",
+    "1323": "Elite Vytis",
+    "1324": "Vytis",
+    "1325": "Elite Pike Square",
+    "1326": "Pike Square",
+    "1327": "Elite Ruiter",
+    "1328": "Ruiter",
+    "1329": "Bagain",
+    "1330": "Elite Bagain",
+    "1331": "Taborite",
+    "1332": "Elite Taborite",
+    "1356": "Elite Bagain",
+    "1396": "Timber Bridge A--Top",
+    "1397": "Timber Bridge A--Middle",
+    "1398": "Timber Bridge A--Bottom",
+    "1399": "Timber Bridge B--Top",
+    "1400": "Timber Bridge B--Middle",
+    "1401": "Timber Bridge B--Bottom",
+    "1402": "Timber Bridge B--5",
+    "1403": "Timber Bridge B--9",
+    "1404": "Timber Bridge A--5",
+    "1405": "Timber Bridge A--9",
+    "1425": "Jungle Ruins, Small",
+    "1426": "Jungle Ruins",
+    "1427": "Jungle Ruins, Large",
+    "1432": "Rock Arch A",
+    "1433": "Rock Arch B",
+    "1434": "Rock Arch C",
+    "1435": "Rock Arch D",
+    "1450": "Tisquesusa",
+    "1463": "Aachen Cathedral",
+    "1464": "Saint Vitus Catherdal",
+    "1465": "Mausoleum of Theoderic",
+    "1466": "Maria Laach Abbey",
+    "1467": "Todai-ji",
+    "1468": "Temple of Heaven",
+    "1469": "Hagia Sophia",
+    "1470": "Taq Kasra",
+    "1471": "Great Mosque of Samarra",
+    "1472": "Borgund Stave Church",
+    "1473": "The Golden Tent",
+    "1474": "Rock of Cashel",
+    "1475": "Torre Del Oro",
+    "1476": "Templo Mayor",
+    "1477": "Temple of the Jade Jaguar",
+    "1478": "Triumphal Arch",
+    "1479": "Hwangnyongsa Temple",
+    "1480": "San Lorenzo Cathedral",
+    "1481": "Srivilliputtur Divya Desam",
+    "1482": "Temple of the Sun",
+    "1483": "Hunyad Castle",
+    "1484": "Kizhi Church",
+    "1485": "Chan Chan Temple",
+    "1486": "Angkor Wat",
+    "1487": "Dzong Monastery",
+    "1488": "Doorwerth Castle",
+    "1489": "One Pillar Pagoda",
+    "1490": "Bulgar Cathedral",
+    "1491": "Karlstejn Castle",
+    "1493": "Pavilions",
+    "1522": "Sandstone Wall",
+    "1534": "Paved Bridge A--Top",
+    "1535": "Paved Bridge A--Middle",
+    "1536": "Paved Bridge A--Bottom",
+    "1537": "Paved Bridge B--Top",
+    "1538": "Paved Bridge B--Middle",
+    "1539": "Paved Bridge B--Bottom",
+    "1540": "Paved Bridge B--5",
+    "1541": "Paved Bridge B--9",
+    "1542": "Paved Bridge A--5",
+    "1543": "Paved Bridge A--9",
+    "1556": "Capture Point",
+    "1560": "Worker",
+    "1596": "Motte and Bailey",
+    "1597": "City Rampart",
+    "1601": "Cathedral",
+    "1602": "Cobblestone Bridge A--Top",
+    "1603": "Cobblestone Bridge A--Middle",
+    "1604": "Cobblestone Bridge A--Bottom",
+    "1605": "Cobblestone Bridge B--Top",
+    "1606": "Cobblestone Bridge B--Middle",
+    "1607": "Cobblestone Bridge B--Bottom",
+    "1608": "Cobblestone Bridge B--5",
+    "1609": "Cobblestone Bridge B--9",
+    "1610": "Cobblestone Bridge A--5",
+    "1611": "Cobblestone Bridge A--9",
+    "1612": "Cobblestone Bridge A--Cracked",
+    "1613": "Cobblestone Bridge A--Broken Top",
+    "1614": "Cobblestone Bridge A--Broken Bottom",
+    "1615": "Cobblestone Bridge B--Cracked",
+    "1616": "Cobblestone Bridge B--Broken Top",
+    "1617": "Cobblestone Bridge B--Broken Bottom",
+    "1619": "Ruined Castle",
+    "1620": "Pyramid",
+    "1623": "Bonsho Bell",
+    "1627": "Citadel",
+    "1640": "Message Post",
+    "1643": "Korsvirkeshus",
+    "1645": "Market Stall",
+    "1657": "Tents",
+    "1661": "Trade Shop",
+    "1664": "Longhouse",
+    "1667": "Ancient Wall",
+    "1668": "Ancient Fortification",
+    "1669": "Mossy Wall",
+    "1695": "Ruins",
+    "1696": "Ancient Tower",
+    "1697": "Ancient Bridge A--Top",
+    "1698": "Ancient Bridge A--Middle",
+    "1699": "Ancient Bridge A--Bottom",
+    "1700": "Ancient Bridge B--Top",
+    "1701": "Ancient Bridge B--Middle",
+    "1702": "Ancient Bridge B--Bottom",
+    "1703": "Ancient Bridge B--5",
+    "1704": "Ancient Bridge B--9",
+    "1705": "Ancient Bridge A--5",
+    "1706": "Ancient Bridge A--9",
+    "1707": "Ancient Bridge A--Cracked",
+    "1708": "Ancient Bridge A--Broken Top",
+    "1709": "Ancient Bridge A--Broken Bottom",
+    "1710": "Ancient Bridge B--Cracked",
+    "1711": "Ancient Bridge B--Broken Top",
+    "1712": "Ancient Bridge B--Broken Bottom",
+    "1725": "Bastion Wall",
+    "1796": "Silk Road Post (Food)",
+    "1797": "Silk Road Post (Wood)",
+    "1798": "Silk Road Post (Stone)",
+    "1799": "Silk Road Post (Gold)",
+    "1800": "Silk Road Post (All)",
+    "1921": "Cliffs set Granite",
+    "1922": "Cliffs set Steep",
+    "2007": "Cliffs set Icy",
+    "2037": "Constructible Road",
+    "2047": "Terrain Change - Grass 1",
+    "2048": "Terrain Change - Water, Shallow",
+    "2049": "Terrain Change - Beach",
+    "2050": "Terrain Change - Dirt 3",
+    "2051": "Terrain Change - Shallows",
+    "2052": "Terrain Change - Leaves",
+    "2053": "Terrain Change - Dirt 1",
+    "2054": "Terrain Change - Farm",
+    "2055": "Terrain Change - Farm, Dead",
+    "2056": "Terrain Change - Grass 3",
+    "2057": "Terrain Change - Forest",
+    "2058": "Terrain Change - Dirt 2",
+    "2059": "Terrain Change - Grass 2",
+    "2060": "Terrain Change - Palm Desert",
+    "2061": "Terrain Change - Desert",
+    "2062": "Terrain Change - Desert",
+    "2063": "Terrain Change - Grass 1 (Other)",
+    "2064": "Terrain Change - Jungle",
+    "2065": "Terrain Change - Bamboo",
+    "2066": "Terrain Change - Pine Forest",
+    "2067": "Terrain Change - Oak Forest",
+    "2068": "Terrain Change - Snow Forest",
+    "2069": "Terrain Change - Water, Deep",
+    "2070": "Terrain Change - Water, Medium",
+    "2071": "Terrain Change - Road",
+    "2072": "Terrain Change - Road, Broken",
+    "2073": "Terrain Change - Ice",
+    "2074": "Terrain Change - Building",
+    "2075": "Terrain Change - Water, Bridge",
+    "2076": "Terrain Change - Farm 1",
+    "2077": "Terrain Change - Farm 2",
+    "2078": "Terrain Change - Farm 3",
+    "2079": "Terrain Change - Snow",
+    "2080": "Terrain Change - Snow Dirt",
+    "2081": "Terrain Change - Snow Grass",
+    "2082": "Terrain Change - Ice (Other)",
+    "2083": "Terrain Change - Building (Snow)",
+    "2084": "Terrain Change - Beach (Ice)",
+    "2085": "Terrain Change - Road, Snow",
+    "2086": "Terrain Change - Road, Fungus",
+    "2087": "Terrain Change - Rock 1",
+    "2088": "Terrain Change - Unknown",
+    "2098": "Wild Camel",
+    "2102": "Asfin al-Armani Object",
+    "2161": "Rock Pile",
+    "2174": "Treasure Chest",
+    "2176": "Entryway",
+    "2177": "Entryway",
+    "2178": "Entryway",
+    "2179": "Entryway",
+    "2180": "Entryway",
+    "2181": "Entryway",
+    "2182": "Bumin Qaghan",
+    "2201": "Stone Hut",
+    "2248": "Cliffs set Jungle",
+    "2249": "Cliffs set Red",
+    "2250": "Cliffs set Sandy",
+    "2251": "Cliffs set Snowy",
+    "2252": "Cliffs set Volcanic",
+    "2326": "Wagenburg"
+  },
+  "terrain": {
+    "0": {
+      "name": "Grass",
+      "color": [
+        55,
+        236,
+        54
+      ]
+    },
+    "1": {
+      "name": "Water",
+      "color": [
+        19,
+        19,
+        19
+      ]
+    },
+    "2": {
+      "name": "Beach",
+      "color": [
+        137,
+        124,
+        88
+      ]
+    },
+    "3": {
+      "name": "Dirt 3",
+      "color": [
+        176,
+        107,
+        120
+      ]
+    },
+    "4": {
+      "name": "Shallows",
+      "color": [
+        227,
+        227,
+        227
+      ]
+    },
+    "5": {
+      "name": "Leaves",
+      "color": [
+        55,
+        236,
+        54
+      ]
+    },
+    "6": {
+      "name": "Dirt",
+      "color": [
+        176,
+        107,
+        120
+      ]
+    },
+    "7": {
+      "name": "Farm1",
+      "color": [
+        160,
+        159,
+        158
+      ]
+    },
+    "8": {
+      "name": "Farm2",
+      "color": [
+        160,
+        159,
+        158
+      ]
+    },
+    "9": {
+      "name": "Grass 3",
+      "color": [
+        55,
+        236,
+        54
+      ]
+    },
+    "10": {
+      "name": "Forest",
+      "color": [
+        197,
+        235,
+        53
+      ]
+    },
+    "11": {
+      "name": "Dirt 2",
+      "color": [
+        176,
+        107,
+        120
+      ]
+    },
+    "12": {
+      "name": "Grass 2",
+      "color": [
+        55,
+        236,
+        54
+      ]
+    },
+    "13": {
+      "name": "Palm Desert",
+      "color": [
+        197,
+        235,
+        53
+      ]
+    },
+    "14": {
+      "name": "Desert",
+      "color": [
+        137,
+        124,
+        88
+      ]
+    },
+    "15": {
+      "name": "Old Water",
+      "color": [
+        19,
+        19,
+        19
+      ]
+    },
+    "16": {
+      "name": "Old Grass",
+      "color": [
+        55,
+        236,
+        54
+      ]
+    },
+    "17": {
+      "name": "Jungle",
+      "color": [
+        197,
+        235,
+        53
+      ]
+    },
+    "18": {
+      "name": "Bamboo",
+      "color": [
+        197,
+        235,
+        53
+      ]
+    },
+    "19": {
+      "name": "Pine Forest",
+      "color": [
+        197,
+        235,
+        53
+      ]
+    },
+    "20": {
+      "name": "Oak Forest",
+      "color": [
+        197,
+        235,
+        53
+      ]
+    },
+    "21": {
+      "name": "Snow Forest",
+      "color": [
+        197,
+        235,
+        53
+      ]
+    },
+    "22": {
+      "name": "Water 2",
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    "23": {
+      "name": "Water 3",
+      "color": [
+        3,
+        3,
+        3
+      ]
+    },
+    "24": {
+      "name": "Road",
+      "color": [
+        176,
+        107,
+        120
+      ]
+    },
+    "25": {
+      "name": "Road 2",
+      "color": [
+        176,
+        107,
+        120
+      ]
+    },
+    "26": {
+      "name": "Ice",
+      "color": [
+        240,
+        240,
+        240
+      ]
+    },
+    "27": {
+      "name": "Foundation",
+      "color": [
+        176,
+        107,
+        120
+      ]
+    },
+    "28": {
+      "name": "Water Bridge",
+      "color": [
+        19,
+        19,
+        19
+      ]
+    },
+    "29": {
+      "name": "Farm Cnst1",
+      "color": [
+        160,
+        159,
+        158
+      ]
+    },
+    "30": {
+      "name": "Farm Cnst2",
+      "color": [
+        160,
+        159,
+        158
+      ]
+    },
+    "31": {
+      "name": "Farm Cnst3",
+      "color": [
+        160,
+        159,
+        158
+      ]
+    },
+    "32": {
+      "name": "Snow",
+      "color": [
+        55,
+        236,
+        54
+      ]
+    },
+    "33": {
+      "name": "Snow Dirt",
+      "color": [
+        176,
+        107,
+        120
+      ]
+    },
+    "34": {
+      "name": "Snow Grass",
+      "color": [
+        55,
+        236,
+        54
+      ]
+    },
+    "35": {
+      "name": "Ice 2",
+      "color": [
+        240,
+        240,
+        240
+      ]
+    },
+    "36": {
+      "name": "Snow Foundat",
+      "color": [
+        176,
+        107,
+        120
+      ]
+    },
+    "37": {
+      "name": "Ice Beach",
+      "color": [
+        240,
+        240,
+        240
+      ]
+    },
+    "38": {
+      "name": "Snow Road",
+      "color": [
+        176,
+        107,
+        120
+      ]
+    },
+    "39": {
+      "name": "Snow Road 2",
+      "color": [
+        176,
+        107,
+        192
+      ]
+    },
+    "40": {
+      "name": "Rock 1",
+      "color": [
+        155,
+        155,
+        155
+      ]
+    },
+    "41": {
+      "name": "Unknown",
+      "color": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "maps": {
+    "9": "Arabia",
+    "10": "Archipelago",
+    "11": "Baltic",
+    "12": "Black Forest",
+    "13": "Coastal",
+    "14": "Continental",
+    "15": "Crater Lake",
+    "16": "Fortress",
+    "17": "Gold Rush",
+    "18": "Highland",
+    "19": "Islands",
+    "20": "Mediterranean",
+    "21": "Migration",
+    "22": "Rivers",
+    "23": "Team Islands",
+    "24": "Full Random",
+    "25": "Scandinavia",
+    "26": "Mongolia",
+    "27": "Salt Marsh",
+    "28": "Yucatan",
+    "29": "Arena",
+    "30": "King of the Hill",
+    "31": "Oasis",
+    "32": "Ghost Lake",
+    "33": "Nomad"
+  }
+}
