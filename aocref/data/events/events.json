@@ -108,5 +108,12 @@
       "AESiL",
       "AEGL"
     ]
+  },
+  {
+    "id": "derac",
+    "name": "DemEyesRed Arena Cup",
+    "tournaments": [
+      "derac"
+    ]
   }
 ]

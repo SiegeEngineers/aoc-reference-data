@@ -21,7 +21,8 @@
     "1": "Conquest",
     "2": "Time Limit",
     "3": "Score Limit",
-    "4": "Custom"
+    "4": "Custom",
+    "11": "Last Man Standing"
   },
   "map_reveal_choices": {
     "0": "Normal",
