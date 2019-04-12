@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='aocref',
-    version='0.0.1',
+    version='0.0.2',
     description='Age of Empires II reference data.',
     url='https://github.com/siegeengineers/aoc-reference-data/',
     license='MIT',
