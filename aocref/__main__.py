@@ -13,7 +13,7 @@ from aocref.model import BASE
 def main():
     """Entry point."""
     parser = argparse.ArgumentParser()
-    parser.add_argument('url', default=os.environ.get('MGZ_DB'), help='database url')
+    parser.add_argument('url', help='database url')
     args = parser.parse_args()
 
     engine = create_engine(args.url, echo=False)

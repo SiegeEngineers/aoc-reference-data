@@ -7,12 +7,15 @@ Database model for AoC [reference data](https://en.wikipedia.org/wiki/Reference_
 - Datasets: Game edition (The Conquerors, Wololo Kingdoms, etc)
   - Civilizations
     - Bonuses
+  - Maps: Builtin maps
 - Events: Community events (NAC, ECL, etc)
   - Tournaments: Specific brackets belonging to an event
     - Rounds
       - Series: A set of matches and outcome
         - Participants: Team or single individual
+  - Maps: Event map pool
 - Platforms: Multiplayer platforms (Voobly, VooblyCN, Aoc QQ, etc)
+- Constants: Constants for match settings
 
 ## Schema
 
