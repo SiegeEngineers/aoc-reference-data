@@ -115,5 +115,56 @@
     "tournaments": [
       "derac"
     ]
+  },
+  {
+    "id": "da",
+    "name": "Doubles Age",
+    "tournaments": [
+        "DoublesAge",
+        "DoublesAgeGL",
+        "DoublesAgeSL"
+    ]
+  },
+  {
+    "id": "wic",
+    "name": "War is Coming",
+    "tournaments": [
+    ]
+  },
+  {
+    "id": "vas",
+    "name": "Voobly Arena Seasonal",
+    "tournaments": [
+    ]
+  },
+  {
+    "id": "sync2014",
+    "name": "SY Nations Cup 2014",
+    "tournaments": [
+    ]
+  },
+  {
+    "id": "sync2015",
+    "name": "SY Nations Cup 2015",
+    "tournaments": [
+    ]
+  },
+  {
+    "id": "sync2017",
+    "name": "SY Nations Cup 2017",
+    "tournaments": [
+    ]
+  },
+  {
+    "id": "wsvg",
+    "name": "World Series of Video Games",
+    "tournaments": [
+    ]
+  },
+  {
+    "id": "ms",
+    "name": "MembTV Showmatch",
+    "tournaments": [
+    ]
   }
 ]

@@ -18,7 +18,7 @@ def main():
 
     engine = create_engine(args.url, echo=False)
     session = sessionmaker(bind=engine)()
-    BASE.metadata.create_all(engine)
+    #BASE.metadata.create_all(engine)
     bootstrap(session)
 
 

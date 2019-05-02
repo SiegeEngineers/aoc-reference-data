@@ -4,6 +4,8 @@ import json
 
 import requests_cache
 
+from sqlalchemy.exc import IntegrityError
+
 from aocref import model, get_metadata, list_metadata, get_class_by_tablename
 from aocref import challonge
 
@@ -37,32 +39,51 @@ def bootstrap(session):
 def add_platform(session, data):
     """Add a platform."""
     platform = model.Platform(**data)
-    session.add(platform)
-    session.commit()
+    try:
+        session.add(platform)
+        session.commit()
+    except IntegrityError:
+        session.rollback()
+        return
 
 
 def add_event_maps(session, event_ids):
     """Add event maps."""
-    id = 0
+    #id = 0
     for event_id in list_metadata('rms'):
         if event_id not in event_ids:
+            print('tossing', event_id)
             continue
         for filename in list_metadata(os.path.join('rms', event_id)):
+            name = filename.replace('.rms', '')
+            has = session.query(model.EventMap).filter(model.EventMap.name==name, model.EventMap.event_id==event_id).one_or_none()
+            if has:
+                print('already in', filename)
+                continue
+            print('adding', filename)
             rms = model.EventMap(
-                id=id,
-                name=filename.replace('.rms', ''),
+                #id=id,
+                name=name,
                 zr=filename.startswith('ZR@'),
                 event_id=event_id
             )
-            session.add(rms)
-            id += 1
-    session.commit()
+            try:
+                session.add(rms)
+                session.commit()
+                #id += 1
+            except IntegrityError:
+                session.rollback()
 
 
 def add_event(session, data):
     """Add an event."""
     event = model.Event(id=data['id'], name=data['name'])
-    session.add(event)
+    try:
+        session.add(event)
+        session.commit()
+    except IntegrityError:
+        session.rollback()
+        return
 
     for tournament_data in data['tournaments']:
         tournament = model.Tournament(
@@ -94,8 +115,12 @@ def add_dataset(session, dataset_id, data):
         id=int(dataset_id),
         name=data['dataset']['name']
     )
-    session.add(dataset)
-    session.commit()
+    try:
+        session.add(dataset)
+        session.commit()
+    except IntegrityError:
+        session.rollback()
+        return
 
     for map_id, name in data['maps'].items():
         session.add(model.Map(
@@ -136,4 +161,8 @@ def add_constants(session, data):
             for constant_id, constant_name in choices.items():
                 constant = cls(id=constant_id, name=constant_name)
                 session.add(constant)
-    session.commit()
+    try:
+        session.commit()
+    except IntegrityError:
+        session.rollback()
+        return
