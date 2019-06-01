@@ -58,7 +58,6 @@ def add_event_maps(session, event_ids):
             name = filename.replace('.rms', '')
             has = session.query(model.EventMap).filter(model.EventMap.name==name, model.EventMap.event_id==event_id).one_or_none()
             if has:
-                print('already in', filename)
                 continue
             print('adding', filename)
             rms = model.EventMap(

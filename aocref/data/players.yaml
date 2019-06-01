@@ -1,0 +1,43 @@
+- name: MBL
+  platforms:
+    voobly:
+    - '123844441' # MbL40C
+    - '123422126' # MbDeD
+- name: BacT
+  platforms:
+    voobly:
+    - '123194539' # BacT
+    - '123945837' # 8euro
+    - '123219836' # FyruT
+- name: Vivi
+  platforms:
+    voobly:
+    - '123493096' # Reallydiao
+    - '123303397' # Fat_Dragon
+- name: Yo
+  platforms:
+    voobly:
+    - '123636492'
+    vooblycn:
+    - '123636492'
+- name: xiaofan
+  platforms:
+    voobly:
+    - '70212'
+    vooblycn:
+    - '70212'
+- name: St4rk
+  platforms:
+    voobly:
+    - '123409476' # VNA
+    - '125107343'
+- name: LaaaaaN
+  platforms:
+    voobly:
+    - '124116514' # ByT
+    - '123989026' # Heresy
+- name: Dogao
+  platforms:
+    voobly:
+      - '123186723' # GiveMeYourSmile
+      - '123444726' # dogao

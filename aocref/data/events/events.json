@@ -166,5 +166,11 @@
     "name": "MembTV Showmatch",
     "tournaments": [
     ]
+  },
+  {
+    "id": "wcl7",
+    "name": "World Clan League 7",
+    "tournaments": [
+    ]
   }
 ]
