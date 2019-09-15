@@ -117,7 +117,7 @@ class EventMap(BASE):
     id = Column(Integer, primary_key=True)
     event_id = Column(String, ForeignKey('events.id'))
     event = relationship('Event', foreign_keys=event_id, backref='maps')
-    name = Column(String)
+    name = Column(String, index=True)
     zr = Column(Boolean)
     aoe2mapnet_id = Column(String)
 
@@ -128,7 +128,7 @@ class Map(BASE):
     id = Column(Integer, primary_key=True)
     dataset_id = Column(Integer, ForeignKey('datasets.id'), primary_key=True)
     dataset = relationship('Dataset', foreign_keys=[dataset_id])
-    name = Column(String)
+    name = Column(String, index=True)
 
 
 class GameType(BASE):
