@@ -1,0 +1,1038 @@
+////////////////////////////////////////
+			/* change log */
+////////////////////////////////////////
+/*
+	1.0	-	1st test version
+	1.1	-	1v1 player lands not colour dependent
+			Removed Elephants and Rhinos in middle of map
+			Reduced amount of Fish 80 down to 38
+			Reduced Relics to 9
+			Added Eye Candy - Birds, Boulders & different Water types
+			Changed Player Starting Spot Terrain
+	1.2	-	Gave each player 2 small woodlines at the start
+	1.3 -	Increase starting ostriches to 6
+	1.4 -	Spawn 2 golds for players
+			More starting Stone
+			Woodlines now spawn correctly
+			Resources can't spawn in woodlines
+	1.5 -	Reduced chances of Boar spawning
+			Fixed water elevation that causes a valley generation between the left and right side
+			Made extra Golds spawn more equally (I think)
+	1.6 -	Scandi start (8 deer, 3 boar, no berries)
+			Starting Scout replaced with a Spearman
+	1.7 -	Starting Woodlines increased from 123 tiles to 175 tiles
+			Starting Stone removed
+			Reduced Relics to 7
+	1.8	-	Disabled fixed/pick positions	
+	1.9 -	For Two Pools Tournament:
+			 Removed water elevation
+			 Starting Spearman replaced with a Scout
+			 Starting Stone added
+			 Relics reduced to 5
+	
+	to-do	Regicice
+			Unequal starts
+*/
+
+#const TRIBUTE_INEFFICIENCY 46
+#const BANKING 17
+#const COINAGE 23
+#const COINAGE_IMP_DISABLER 224
+
+#const  DOLPHIN 61
+#const	HOME_A	5
+#const	HOME_B	9
+#const	HOME_C	12
+#const	HOME_D	24
+#const	HOME_E	25
+#const	HOME_F	32
+#const	HOME_G	34
+#const	HOME_H	36
+
+start_random
+	percent_chance 50
+		#define LINKS
+	percent_chance 50
+		#define REGS
+end_random
+
+<PLAYER_SETUP>
+direct_placement
+
+ai_info_map_type SCANDINAVIA 0 0 1
+
+/* Nerfing Sling */
+effect_percent MOD_RESOURCE TRIBUTE_INEFFICIENCY ATTR_SET 2147483647
+effect_amount DISABLE_TECH BANKING ATTR_DISABLE 17
+effect_amount DISABLE_TECH COINAGE ATTR_DISABLE 23
+effect_amount DISABLE_TECH COINAGE_IMP_DISABLER ATTR_DISABLE 224
+
+effect_amount SET_ATTRIBUTE MAP_REVEALER ATTR_LINE_OF_SIGHT 0
+
+////////////////////////////////////////////////////////////
+<LAND_GENERATION>
+base_terrain DIRT
+	create_land
+	{
+		terrain_type DESERT
+		land_percent 100
+		top_border 20
+		bottom_border 50
+		right_border 20
+		left_border 50
+		land_position 60 40
+		border_fuzziness 5
+		clumping_factor 1
+		zone 2
+		other_zone_avoidance_distance 0
+	}
+/* ocean */
+	create_land
+	{
+		terrain_type GRASS
+		land_percent 100
+		top_border 88
+		bottom_border -5
+		right_border -5
+		left_border -5
+		land_position 99 99		
+		border_fuzziness 35
+		clumping_factor 50
+		zone 1
+		other_zone_avoidance_distance 0
+	}	
+/* ocean */	
+	create_land
+	{
+		terrain_type GRASS
+		land_percent 100
+		top_border -5
+		bottom_border -5
+		right_border 88
+		left_border -5
+		land_position 1 1		
+		border_fuzziness 35
+		clumping_factor 50
+		zone 1
+		other_zone_avoidance_distance 0
+	}		
+/* player positions */
+if 2_PLAYER_GAME
+	create_land 
+	{
+		terrain_type HOME_A
+		number_of_tiles 350
+		base_size 8
+		border_fuzziness 100
+		clumping_factor 20
+		land_position rnd(30,35) rnd(30,40)		
+		if LINKS
+			assign_to AT_PLAYER 1 0 0
+		elseif REGS	
+			assign_to AT_PLAYER 2 0 0
+		endif
+	}
+
+	create_land 
+	{
+		terrain_type HOME_B
+		number_of_tiles 350
+		base_size 8
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(60,70) rnd(65,70)
+		if LINKS
+			assign_to AT_PLAYER 2 0 0
+		elseif REGS	
+			assign_to AT_PLAYER 1 0 0
+		endif
+	}
+elseif 4_PLAYER_GAME
+/* team 1 */
+	create_land 
+	{
+		terrain_type HOME_A
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(30,35) rnd(40,50)
+/*		if LINKS
+			assign_to AT_COLOR 1 0 0
+		elseif REGS	
+			assign_to AT_COLOR 2 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 1 0 0
+		elseif REGS	
+			assign_to AT_TEAM 2 0 0
+		endif
+	}
+	create_land 
+	{
+		terrain_type HOME_B
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(30,35) rnd(15,25)
+/*		if LINKS
+			assign_to AT_COLOR 3 0 0
+		elseif REGS	
+			assign_to AT_COLOR 4 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 1 0 0
+		elseif REGS	
+			assign_to AT_TEAM 2 0 0
+		endif
+	}
+/* team 2 */
+	create_land 
+	{
+		terrain_type HOME_C
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(50,60) rnd(65,70)
+/*		if LINKS
+			assign_to AT_COLOR 2 0 0
+		elseif REGS	
+			assign_to AT_COLOR 1 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 2 0 0
+		elseif REGS	
+			assign_to AT_TEAM 1 0 0
+		endif
+	}
+	create_land 
+	{
+		terrain_type HOME_D
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(75,85) rnd(65,70)
+/*		if LINKS
+			assign_to AT_COLOR 4 0 0
+		elseif REGS	
+			assign_to AT_COLOR 3 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 2 0 0
+		elseif REGS	
+			assign_to AT_TEAM 1 0 0
+		endif
+	}
+elseif 6_PLAYER_GAME
+/* team 1 */
+	create_land 
+	{
+		terrain_type HOME_A
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(25,30) rnd(50,60)
+/*		if LINKS
+			assign_to AT_COLOR 1 0 0
+		elseif REGS	
+			assign_to AT_COLOR 2 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 1 0 0
+		elseif REGS	
+			assign_to AT_TEAM 2 0 0
+		endif
+	}
+	create_land 
+	{
+		terrain_type HOME_B
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(25,30) rnd(30,40)
+/*		if LINKS
+			assign_to AT_COLOR 3 0 0
+		elseif REGS	
+			assign_to AT_COLOR 4 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 1 0 0
+		elseif REGS	
+			assign_to AT_TEAM 2 0 0
+		endif
+	}
+	create_land 
+	{
+		terrain_type HOME_C
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(25,30) rnd(10,20)
+/*		if LINKS
+			assign_to AT_COLOR 5 0 0
+		elseif REGS	
+			assign_to AT_COLOR 6 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 1 0 0
+		elseif REGS	
+			assign_to AT_TEAM 2 0 0
+		endif
+	}
+/* team 2 */
+	create_land 
+	{
+		terrain_type HOME_D
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(40,50) rnd(70,75)
+/*		if LINKS
+			assign_to AT_COLOR 2 0 0
+		elseif REGS	
+			assign_to AT_COLOR 1 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 2 0 0
+		elseif REGS	
+			assign_to AT_TEAM 1 0 0
+		endif
+	}
+	create_land 
+	{
+		terrain_type HOME_E
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(60,70) rnd(70,75)
+/*		if LINKS
+			assign_to AT_COLOR 4 0 0
+		elseif REGS	
+			assign_to AT_COLOR 3 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 2 0 0
+		elseif REGS	
+			assign_to AT_TEAM 1 0 0
+		endif
+	}
+	create_land 
+	{
+		terrain_type HOME_F
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(80,90) rnd(70,75)
+/*		if LINKS
+			assign_to AT_COLOR 6 0 0
+		elseif REGS	
+			assign_to AT_COLOR 5 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 2 0 0
+		elseif REGS	
+			assign_to AT_TEAM 1 0 0
+		endif
+	}
+else 8_PLAYER_GAME
+/* team 1 */
+	create_land 
+	{
+		terrain_type HOME_A
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(25,30) rnd(52,58)
+/*		if LINKS
+			assign_to AT_COLOR 1 0 0
+		elseif REGS	
+			assign_to AT_COLOR 2 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 1 0 0
+		elseif REGS	
+			assign_to AT_TEAM 2 0 0
+		endif 
+	}
+	create_land 
+	{
+		terrain_type HOME_B
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(25,30) rnd(38,44)
+/*		if LINKS
+			assign_to AT_COLOR 3 0 0
+		elseif REGS	
+			assign_to AT_COLOR 4 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 1 0 0
+		elseif REGS	
+			assign_to AT_TEAM 2 0 0
+		endif 
+	}
+	create_land 
+	{
+		terrain_type HOME_C
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(25,30) rnd(24,30)
+/*		if LINKS
+			assign_to AT_COLOR 5 0 0
+		elseif REGS	
+			assign_to AT_COLOR 6 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 1 0 0
+		elseif REGS	
+			assign_to AT_TEAM 2 0 0
+		endif 
+	}
+	create_land 
+	{
+		terrain_type HOME_D
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(25,30) rnd(10,16)
+/*		if LINKS
+			assign_to AT_COLOR 7 0 0
+		elseif REGS	
+			assign_to AT_COLOR 8 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 1 0 0
+		elseif REGS	
+			assign_to AT_TEAM 2 0 0
+		endif 
+	}
+/* team 2 */
+	create_land 
+	{
+		terrain_type HOME_E
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(46,52) rnd(70,75)
+/*		if LINKS
+			assign_to AT_COLOR 2 0 0
+		elseif REGS	
+			assign_to AT_COLOR 1 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 2 0 0
+		elseif REGS	
+			assign_to AT_TEAM 1 0 0
+		endif 
+	}
+	create_land 
+	{
+		terrain_type HOME_F
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(60,66) rnd(70,75)
+/*		if LINKS
+			assign_to AT_COLOR 4 0 0
+		elseif REGS	
+			assign_to AT_COLOR 3 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 2 0 0
+		elseif REGS	
+			assign_to AT_TEAM 1 0 0
+		endif 
+	}
+	create_land 
+	{
+		terrain_type HOME_G
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(72,78) rnd(70,75)
+/*		if LINKS
+			assign_to AT_COLOR 6 0 0
+		elseif REGS	
+			assign_to AT_COLOR 5 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 2 0 0
+		elseif REGS	
+			assign_to AT_TEAM 1 0 0
+		endif 
+	}
+	create_land 
+	{
+		terrain_type HOME_H
+		number_of_tiles 350
+		base_size 10
+		border_fuzziness 100
+		clumping_factor 8
+		land_position rnd(84,90) rnd(70,75)
+/*		if LINKS
+			assign_to AT_COLOR 8 0 0
+		elseif REGS	
+			assign_to AT_COLOR 7 0 0
+		endif */
+		if LINKS
+			assign_to AT_TEAM 2 0 0
+		elseif REGS	
+			assign_to AT_TEAM 1 0 0
+		endif 
+	}
+endif
+////////////////////////////////////////////////////////////
+<ELEVATION_GENERATION>
+	create_elevation 3
+	{
+		base_terrain DESERT
+		number_of_tiles 75
+		number_of_clumps 100
+		set_scale_by_size
+		set_scale_by_groups
+	}
+////////////////////////////////////////////////////////////
+<TERRAIN_GENERATION>
+	 create_terrain WATER
+	{
+		base_terrain GRASS
+		land_percent 100
+		number_of_clumps 999
+		spacing_to_other_terrain_types 0
+	} 
+	create_terrain MED_WATER
+	{
+		base_terrain WATER
+		land_percent 100
+		number_of_clumps 1
+		if TINY_MAP
+			spacing_to_other_terrain_types rnd(3,5)
+		elseif SMALL_MAP
+			spacing_to_other_terrain_types rnd(3,5)
+		elseif MEDIUM_MAP
+			spacing_to_other_terrain_types rnd(3,5)
+		elseif LARGE_MAP
+			spacing_to_other_terrain_types rnd(7,9)
+		elseif HUGE_MAP
+			spacing_to_other_terrain_types rnd(7,9)
+		elseif GIGANTIC_MAP
+			spacing_to_other_terrain_types rnd(7,9)
+		endif
+		clumping_factor 10
+	}
+	create_terrain DEEP_WATER
+	{
+		base_terrain MED_WATER
+		land_percent 5
+		number_of_clumps rnd(9,15)
+		spacing_to_other_terrain_types 2
+		clumping_factor 10
+	}
+	create_terrain ACACIA_FOREST
+	{
+		base_terrain DIRT
+		land_percent 8
+		number_of_clumps 20
+		spacing_to_other_terrain_types 5
+		set_avoid_player_start_areas
+	}
+	create_terrain PALM_DESERT
+	{
+		base_terrain HOME_A
+		number_of_tiles 175
+		number_of_clumps 2
+		set_avoid_player_start_areas
+	}
+	create_terrain PALM_DESERT
+	{
+		base_terrain HOME_B
+		number_of_tiles 175
+		number_of_clumps 2
+		set_avoid_player_start_areas
+	}
+	create_terrain PALM_DESERT
+	{
+		base_terrain HOME_C
+		number_of_tiles 175
+		number_of_clumps 2
+		set_avoid_player_start_areas
+	}
+	create_terrain PALM_DESERT
+	{
+		base_terrain HOME_D
+		number_of_tiles 175
+		number_of_clumps 2
+		set_avoid_player_start_areas
+	}
+	create_terrain PALM_DESERT
+	{
+		base_terrain HOME_E
+		number_of_tiles 175
+		number_of_clumps 2
+		set_avoid_player_start_areas
+	}
+	create_terrain PALM_DESERT
+	{
+		base_terrain HOME_F
+		number_of_tiles 175
+		number_of_clumps 2
+		set_avoid_player_start_areas
+	}
+	create_terrain PALM_DESERT
+	{
+		base_terrain HOME_G
+		number_of_tiles 175
+		number_of_clumps 2
+		set_avoid_player_start_areas
+	}
+	create_terrain PALM_DESERT
+	{
+		base_terrain HOME_H
+		number_of_tiles 175
+		number_of_clumps 2
+		set_avoid_player_start_areas
+	}
+	create_terrain BAOBAB_FOREST
+	{
+		base_terrain DESERT
+		land_percent 100
+		number_of_clumps 999
+		spacing_to_other_terrain_types 0
+		set_avoid_player_start_areas
+		clumping_factor 10
+	}
+	create_terrain BAOBAB_FOREST
+	{
+		base_terrain GRASS
+		land_percent 100
+		number_of_clumps 1
+		spacing_to_other_terrain_types 0
+		set_avoid_player_start_areas
+		clumping_factor 10
+	}
+////////////////////////////////////////////////////////////
+<OBJECTS_GENERATION>
+	create_object MAP_REVEALER
+	{
+		terrain_to_place_on PALM_DESERT
+		min_distance_group_placement 1
+		number_of_objects 999
+		set_gaia_object_only
+	}
+	create_object MAP_REVEALER
+	{
+		terrain_to_place_on ACACIA_FOREST
+		min_distance_group_placement 1
+		number_of_objects 999
+		set_gaia_object_only
+	}
+
+	create_object TOWN_CENTER
+	{
+		set_place_for_every_player
+		group_placement_radius     18
+		min_distance_to_players    0
+		max_distance_to_players    0
+	}
+	create_object VILLAGER
+	{
+		set_place_for_every_player
+		min_distance_to_players       6
+		max_distance_to_players       6
+	}
+	create_object SCOUT
+	{
+		set_place_for_every_player
+		min_distance_to_players       8
+		max_distance_to_players       10
+	}
+	create_object DRAGONTREE
+	{
+		number_of_objects             5
+		set_gaia_object_only
+		set_place_for_every_player
+		group_variance	1
+		min_distance_to_players       4
+		max_distance_to_players       7
+		min_distance_group_placement  2
+	}
+	create_object DLC_GOAT /* rest of goats */
+	{
+		number_of_objects				2
+		set_loose_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players			15
+		max_distance_to_players			20
+	}
+	create_object DLC_GOAT /* rest of goats */
+	{
+		number_of_objects				2
+		set_loose_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players			15
+		max_distance_to_players			20
+	}
+	create_object DLC_GOAT /* rest of goats */
+	{
+		number_of_objects				3
+		set_loose_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players			9
+		max_distance_to_players			10
+	}
+	create_object DLC_GOAT /* under tc */
+	{
+		number_of_objects				1
+		set_place_for_every_player
+		min_distance_to_players			9
+		max_distance_to_players			10
+	}
+	create_object BOAR
+	{
+		number_of_objects 1
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players    12
+		max_distance_to_players    15
+	}
+	create_object BOAR
+	{
+		number_of_objects 1
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players    20
+		max_distance_to_players    22
+	}
+	create_object BOAR
+	{
+		number_of_objects 1
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players    20
+		max_distance_to_players    22
+	}
+	create_object DLC_OSTRICH
+	{
+		number_of_objects 8
+		group_placement_radius 3
+		set_loose_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players 18
+		max_distance_to_players 20
+	} 
+	create_object GOLD
+	{
+		number_of_objects 7
+		set_gaia_object_only
+		set_place_for_every_player
+		set_tight_grouping
+		max_distance_to_players 13
+		min_distance_to_players 11	
+	}
+	create_object GOLD
+	{
+		number_of_objects 4
+		set_gaia_object_only
+		set_place_for_every_player
+		set_tight_grouping
+		max_distance_to_players 22
+		min_distance_to_players 18	
+	}	
+	create_object STONE
+	{
+		number_of_objects 3
+		set_gaia_object_only
+		set_place_for_every_player
+		set_tight_grouping
+		max_distance_to_players 13
+		min_distance_to_players 11	
+	}
+	create_object GOLD 
+	{
+		terrain_to_place_on DIRT
+		if TINY_MAP
+			number_of_groups		8
+			number_of_objects		3
+		elseif SMALL_MAP
+			number_of_groups		8
+			number_of_objects		3
+		elseif MEDIUM_MAP
+			number_of_groups		10
+			number_of_objects		4
+			group_variance			1
+		elseif LARGE_MAP
+			number_of_groups		12
+			number_of_objects		5
+			group_variance			1
+		elseif HUGE_MAP
+			number_of_groups		14
+			number_of_objects		5
+			group_variance			1
+		elseif GIGANTIC_MAP
+			number_of_groups		19
+			number_of_objects		5
+			group_variance			1
+		endif	
+		group_placement_radius 2
+		set_tight_grouping
+		set_gaia_object_only
+		min_distance_to_players	40
+		min_distance_group_placement 10
+		max_distance_to_other_zones 10
+	}
+	create_object STONE
+	{
+		terrain_to_place_on DIRT
+		if TINY_MAP
+			number_of_groups		4
+		elseif SMALL_MAP
+			number_of_groups		4
+		elseif MEDIUM_MAP
+			number_of_groups		6
+		elseif LARGE_MAP
+			number_of_groups		7
+		elseif HUGE_MAP
+			number_of_groups		9
+		elseif GIGANTIC_MAP
+			number_of_groups		13
+		endif
+		number_of_objects			4
+		group_variance				1
+		group_placement_radius		2
+		set_tight_grouping
+		set_gaia_object_only
+		min_distance_to_players	30
+		min_distance_group_placement 15
+		max_distance_to_other_zones 10
+	}	
+	create_object DLC_ZEBRA
+	{
+		terrain_to_place_on DIRT
+		number_of_objects 4
+		number_of_groups 15
+		group_variance 1
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 10
+		min_distance_to_players 40
+	}
+	create_object RELIC
+	{
+		terrain_to_place_on BAOBAB_FOREST
+		number_of_objects 5
+		set_gaia_object_only
+		min_distance_group_placement 3
+		if TINY_MAP
+			min_distance_to_players 10
+		elseif SMALL_MAP
+			min_distance_to_players 10
+		else
+			min_distance_to_players 30
+		endif
+		
+	}
+/*	create_object RELIC
+	{
+		terrain_to_place_on BAOBAB_FOREST
+		number_of_objects 3
+		set_gaia_object_only
+		min_distance_group_placement 5
+		min_distance_to_players 10
+	} */
+	create_object SHORE_FISH
+	{
+		number_of_objects 20
+		set_scaling_to_map_size
+		min_distance_group_placement 3
+		set_gaia_object_only
+	}
+	create_object DOLPHIN
+	{
+		number_of_objects 5
+		set_scaling_to_map_size
+		set_gaia_object_only
+		max_distance_to_other_zones 5
+		min_distance_group_placement 5
+	}
+	create_object GREAT_FISH_MARLIN
+	{
+		number_of_objects 5
+		set_scaling_to_map_size
+		set_gaia_object_only
+		max_distance_to_other_zones 5
+		min_distance_group_placement 5
+	}
+	create_object SALMON
+	{
+		number_of_objects 7
+		set_scaling_to_map_size
+		set_gaia_object_only
+		max_distance_to_other_zones 5
+		min_distance_group_placement 5
+	}
+	create_object TUNA
+	{
+		number_of_objects 7
+		set_scaling_to_map_size
+		set_gaia_object_only
+		max_distance_to_other_zones 5
+		min_distance_group_placement 5
+	}
+	create_object DORADO
+	{
+		number_of_objects 7
+		set_scaling_to_map_size
+		set_gaia_object_only
+		max_distance_to_other_zones 5
+		min_distance_group_placement 5
+	}
+	create_object SNAPPER
+	{
+		number_of_objects 7
+		set_scaling_to_map_size
+		set_gaia_object_only
+		max_distance_to_other_zones 5
+		min_distance_group_placement 5
+	}
+	create_object DLC_BOULDER_A
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_BOULDER_A
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_BOULDER_A
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_BOULDER_A
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_BOULDER_A
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_BOULDER_B
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_BOULDER_B
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_BOULDER_B
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_BOULDER_B
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_BOULDER_B
+	{
+		terrain_to_place_on DIRT
+		set_loose_grouping
+		set_gaia_object_only
+		set_avoid_player_start_areas
+		min_distance_group_placement 13
+		min_distance_to_players 20
+	}
+	create_object DLC_STORK
+	{
+		number_of_objects         4
+		set_scaling_to_map_size
+	}
+	create_object DLC_VULTURE
+	{
+		number_of_objects         4
+		set_scaling_to_map_size
+	}
+<CONNECTION_GENERATION>
+	create_connect_all_players_land
+	{
+		replace_terrain HOME_A DESERT
+		replace_terrain HOME_B DESERT
+		replace_terrain HOME_C DESERT
+		replace_terrain HOME_D DESERT
+		replace_terrain HOME_E DESERT
+		replace_terrain HOME_F DESERT
+		replace_terrain HOME_G DESERT
+		replace_terrain HOME_H DESERT
+		terrain_size HOME_A 500 0
+		terrain_size HOME_B 500 0
+		terrain_size HOME_C 500 0
+		terrain_size HOME_D 500 0
+		terrain_size HOME_E 500 0
+		terrain_size HOME_F 500 0
+		terrain_size HOME_G 500 0
+		terrain_size HOME_H 500 0 	

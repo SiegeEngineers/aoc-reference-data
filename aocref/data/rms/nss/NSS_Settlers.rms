@@ -1,0 +1,888 @@
+/* SETTLERS */
+/* a nomad map by HenkDeSuperNerd */
+
+
+start_random
+	percent_chance 25
+	#define TOPFLANK
+	percent_chance 25
+	#define TOPCORNER
+	percent_chance 25
+	#define RIGHTFLANK
+	percent_chance 25
+	#define RIGHTCORNER	
+end_random
+
+if 2_TEAM_GAME
+start_random
+	percent_chance 50
+	#define TEAM_ONE_TWO
+	percent_chance 50
+	#define TEAM_TWO_ONE
+end_random
+endif
+
+	#const RAINFOREST_TREE 1146
+
+<PLAYER_SETUP>
+direct_placement
+nomad_resources
+
+				effect_amount GAIA_UPGRADE_UNIT FOREST_TREE RAINFOREST_TREE 0
+
+
+
+<LAND_GENERATION>
+base_terrain SHALLOW
+
+
+/* neutral land */
+create_land
+{
+base_size 1
+top_border 17
+left_border 17
+right_border 17
+bottom_border 17
+start_random
+percent_chance 25
+land_position 25 25
+percent_chance 25
+land_position 25 75
+percent_chance 25
+land_position 75 75
+percent_chance 25
+land_position 75 25
+end_random
+terrain_type GRASS
+border_fuzziness 10
+clumping_factor 5
+}
+
+
+/* neutral land */
+create_land
+{
+land_position 60 60
+base_size 1
+if TINY_MAP
+top_border 32
+left_border 32
+right_border 32
+bottom_border 32
+elseif SMALL_MAP
+top_border 32
+left_border 32
+right_border 32
+bottom_border 32
+else
+top_border 35
+left_border 35
+right_border 35
+bottom_border 35
+endif
+terrain_type DESERT
+base_elevation 2
+border_fuzziness 30
+}
+
+
+if 2_PLAYER_GAME
+/* land 1 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 1 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 2 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position rnd(10,90) 1
+	elseif TOPCORNER
+		start_random
+		percent_chance 50
+		land_position 99 rnd(10,50)	
+		percent_chance 50
+		land_position rnd(50,90) 1
+		end_random		
+	elseif RIGHTFLANK
+	land_position 99 rnd(10,90)
+	elseif RIGHTCORNER
+		start_random
+		percent_chance 50
+		land_position 99 rnd(50,90)	
+		percent_chance 50
+		land_position rnd(50,90) 99
+		end_random
+	endif
+	
+	terrain_type BEACH
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1		
+	}
+
+/* land 2 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 2 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 1 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position rnd(10,90) 99
+	elseif TOPCORNER
+		start_random
+		percent_chance 50
+		land_position 1 rnd(50,90)	
+		percent_chance 50
+		land_position rnd(10,50) 99
+		end_random		
+	elseif RIGHTFLANK
+	land_position 1 rnd(10,90)
+	elseif RIGHTCORNER
+		start_random
+		percent_chance 50
+		land_position 1 rnd(10,50)	
+		percent_chance 50
+		land_position rnd(10,50) 1
+		end_random
+	endif
+
+	terrain_type BEACH	
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1	
+	}	
+	
+else
+/* land 1 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 1 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 2 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position 1 rnd(20,40)
+	elseif TOPCORNER
+	land_position rnd(20,40) 1
+	elseif RIGHTFLANK
+	land_position rnd(60,80) 1
+	elseif RIGHTCORNER
+	land_position 99 rnd(20,40)
+	endif
+	
+	terrain_type BEACH
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1		
+	}
+
+
+/* land 5 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 2 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 1 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position 99 rnd(60,80)
+	elseif TOPCORNER
+	land_position rnd(60,80) 99
+	elseif RIGHTFLANK
+	land_position rnd(20,40) 99
+	elseif RIGHTCORNER
+	land_position 1 rnd(60,80)
+	endif
+	
+	terrain_type BEACH
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1		
+	}	
+
+/* land 3 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 1 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 2 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position rnd(60,80) 1
+	elseif TOPCORNER
+	land_position 99 rnd(20,40)
+	elseif RIGHTFLANK
+	land_position 99 rnd(60,80)
+	elseif RIGHTCORNER
+	land_position rnd(60,80) 99
+	endif
+	
+	terrain_type BEACH
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1		
+	}
+
+	/* land 7 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 2 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 1 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position rnd(20,40) 99
+	elseif TOPCORNER
+	land_position 1 rnd(60,80)
+	elseif RIGHTFLANK
+	land_position 1 rnd(20,40)
+	elseif RIGHTCORNER
+	land_position rnd(20,40) 1
+	endif
+	
+	terrain_type BEACH
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1		
+	}
+
+
+	
+/* land 2 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 1 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 2 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position rnd(20,40) 1
+	elseif TOPCORNER
+	land_position rnd(60,80) 1
+	elseif RIGHTFLANK
+	land_position 99 rnd(20,40)
+	elseif RIGHTCORNER
+	land_position 99 rnd(60,80)
+	endif
+
+	terrain_type BEACH	
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1	
+	}
+
+/* land 6 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 2 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 1 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position rnd(60,80) 99
+	elseif TOPCORNER
+	land_position rnd(20,40) 99		
+	elseif RIGHTFLANK
+	land_position 1 rnd(60,80)
+	elseif RIGHTCORNER
+	land_position 1 rnd(20,40)
+	endif
+
+	terrain_type BEACH	
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1	
+	}
+
+	
+/* land 4 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 1 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 2 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position 99 rnd(20,40)
+	elseif TOPCORNER
+	land_position 99 rnd(60,80)
+	elseif RIGHTFLANK
+	land_position rnd(60,80) 99
+	elseif RIGHTCORNER
+	land_position rnd(20,40) 99
+	endif
+
+	terrain_type BEACH	
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1	
+	}
+
+/* land 8 */	
+	create_land
+	{
+	if TEAM_ONE_TWO
+	assign_to AT_TEAM 2 0 0
+	elseif TEAM_TWO_ONE
+	assign_to AT_TEAM 1 0 0
+	else
+	assign_to AT_TEAM -10 0 0
+	endif
+	
+	if TOPFLANK
+	land_position 1 rnd(60,80)
+	elseif TOPCORNER
+	land_position 1 rnd(20,40)
+	elseif RIGHTFLANK
+	land_position rnd(20,40) 1
+	elseif RIGHTCORNER
+	land_position rnd(60,80) 1
+	endif
+
+	terrain_type BEACH	
+	base_size 1
+	number_of_tiles 0
+	other_zone_avoidance_distance 1	
+	}	
+
+endif
+
+<ELEVATION_GENERATION>
+create_elevation 7
+{
+base_terrain DESERT
+number_of_clumps 20
+number_of_tiles 1000
+set_scale_by_groups
+set_scale_by_size
+}
+
+if TINY_MAP
+create_elevation 1
+{
+base_terrain GRASS
+number_of_clumps 16
+number_of_tiles 300
+}
+elseif SMALL_MAP
+create_elevation 1
+{
+base_terrain GRASS
+number_of_clumps 16
+number_of_tiles 300
+}
+elseif MEDIUM_MAP
+create_elevation 1
+{
+base_terrain GRASS
+number_of_clumps 16
+number_of_tiles 500
+}
+elseif LARGE_MAP
+create_elevation 1
+{
+base_terrain GRASS
+number_of_clumps 21
+number_of_tiles 800
+}
+create_elevation 6
+{
+base_terrain DESERT
+number_of_clumps 10
+number_of_tiles 1000
+set_scale_by_groups
+set_scale_by_size
+}
+else
+create_elevation 1
+{
+base_terrain GRASS
+number_of_clumps 30
+number_of_tiles 1500
+}
+create_elevation 6
+{
+base_terrain DESERT
+number_of_clumps 10
+number_of_tiles 1000
+set_scale_by_groups
+set_scale_by_size
+}
+endif
+
+
+
+<TERRAIN_GENERATION>
+
+create_terrain WATER
+{
+base_terrain SHALLOW
+land_percent 100
+number_of_clumps 2
+set_scale_by_groups
+spacing_to_other_terrain_types 1
+}
+
+
+/* islands */
+create_terrain DESERT
+{
+base_terrain WATER
+land_percent 6
+number_of_clumps 9
+set_scale_by_groups
+spacing_to_other_terrain_types 5
+}
+/* */
+
+create_terrain DESERT
+{
+base_terrain SHALLOW
+land_percent 100
+number_of_clumps 999
+set_scale_by_groups
+spacing_to_other_terrain_types 0
+}
+create_terrain DESERT
+{
+base_terrain SHALLOW
+land_percent 100
+number_of_clumps 999
+set_scale_by_groups
+spacing_to_other_terrain_types 0
+}
+create_terrain DESERT
+{
+base_terrain SHALLOW
+land_percent 100
+number_of_clumps 999
+set_scale_by_groups
+spacing_to_other_terrain_types 0
+}
+create_terrain DESERT
+{
+base_terrain SHALLOW
+land_percent 100
+number_of_clumps 999
+set_scale_by_groups
+spacing_to_other_terrain_types 0
+}
+create_terrain DESERT
+{
+base_terrain SHALLOW
+land_percent 100
+number_of_clumps 999
+set_scale_by_groups
+spacing_to_other_terrain_types 0
+}
+create_terrain DESERT
+{
+base_terrain SHALLOW
+land_percent 100
+number_of_clumps 99
+set_scale_by_groups
+spacing_to_other_terrain_types 0
+}
+
+
+
+create_terrain DESERT
+{
+base_terrain GRASS
+land_percent 100
+number_of_clumps 99
+set_scale_by_groups
+spacing_to_other_terrain_types 0
+}
+
+create_terrain DESERT
+{
+base_terrain GRASS
+land_percent 100
+number_of_clumps 99
+set_scale_by_groups
+spacing_to_other_terrain_types 0
+}
+
+create_terrain GRASS3
+{
+base_terrain DESERT
+land_percent 100
+number_of_clumps 99
+set_scale_by_groups
+if TINY_MAP
+spacing_to_other_terrain_types 6
+elseif SMALL_MAP
+spacing_to_other_terrain_types 7
+else
+spacing_to_other_terrain_types 8
+endif
+}
+
+create_terrain GRASS2
+{
+base_terrain GRASS3
+land_percent 100
+number_of_clumps 99
+set_scale_by_groups
+if TINY_MAP
+spacing_to_other_terrain_types 15
+elseif SMALL_MAP
+spacing_to_other_terrain_types 16
+elseif MEDIUM_MAP
+spacing_to_other_terrain_types 18
+elseif LARGE_MAP
+spacing_to_other_terrain_types 20
+else
+spacing_to_other_terrain_types 21
+endif
+}
+
+
+/* forests */
+
+create_terrain PALM_DESERT
+{
+base_terrain DESERT
+land_percent 1
+number_of_clumps 20
+set_scale_by_groups
+spacing_to_other_terrain_types 2
+}
+
+create_terrain JUNGLE
+{
+base_terrain GRASS3
+if TINY_MAP
+number_of_tiles 650
+number_of_clumps 12
+elseif SMALL_MAP
+number_of_tiles 800
+number_of_clumps 18
+elseif MEDIUM_MAP
+number_of_tiles 1100
+number_of_clumps 20
+elseif LARGE_MAP
+number_of_tiles 1400
+number_of_clumps 27
+else
+number_of_tiles 1600
+number_of_clumps 32
+endif
+spacing_to_other_terrain_types 1
+clumping_factor 50
+}
+
+create_terrain FOREST
+{
+base_terrain GRASS2
+if TINY_MAP
+number_of_tiles 250
+number_of_clumps 6
+elseif SMALL_MAP
+number_of_tiles 450
+number_of_clumps 9
+elseif MEDIUM_MAP
+number_of_tiles 650
+number_of_clumps 12
+elseif LARGE_MAP
+number_of_tiles 850
+number_of_clumps 15
+else 
+number_of_tiles 1400
+number_of_clumps 23
+endif
+spacing_to_other_terrain_types 3
+clumping_factor 50
+}
+
+/* mixing waters */
+
+create_terrain MED_WATER
+{
+base_terrain WATER
+land_percent 99
+number_of_clumps 20
+set_scale_by_groups
+spacing_to_other_terrain_types 2
+}
+
+create_terrain WATER
+{
+base_terrain MED_WATER
+land_percent 5
+number_of_clumps 20
+set_scale_by_groups
+spacing_to_other_terrain_types 0
+}
+
+create_terrain DEEP_WATER
+{
+base_terrain MED_WATER
+land_percent 15
+number_of_clumps 20
+set_scale_by_groups
+spacing_to_other_terrain_types 1
+}
+
+create_terrain MED_WATER
+{
+base_terrain DEEP_WATER
+land_percent 2
+number_of_clumps 20
+set_scale_by_groups
+spacing_to_other_terrain_types 1
+}
+
+<OBJECTS_GENERATION>
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players 0
+max_distance_to_players 3
+}
+
+if REGICIDE
+create_object KING
+{
+set_place_for_every_player
+min_distance_to_players 0
+max_distance_to_players 3
+}
+endif
+
+create_object TRANSPORT_SHIP
+{
+number_of_objects 1
+set_place_for_every_player
+min_distance_to_players 2
+max_distance_to_players 4
+}
+
+create_object PALM_FOREST_TREE
+{
+number_of_groups 15
+set_scaling_to_map_size
+set_gaia_object_only
+terrain_to_place_on DESERT
+min_distance_group_placement 1
+}
+
+create_object JUNGLE_TREE
+{
+number_of_groups 15
+set_scaling_to_map_size
+set_gaia_object_only
+terrain_to_place_on GRASS3
+min_distance_group_placement 1
+}
+
+create_object RAINFOREST_TREE
+{
+number_of_groups 15
+set_scaling_to_map_size
+set_gaia_object_only
+terrain_to_place_on GRASS2
+min_distance_group_placement 1
+}
+
+create_object RELIC
+{
+number_of_objects 5
+set_gaia_object_only
+min_distance_to_players 4
+temp_min_distance_group_placement 28
+min_distance_group_placement 2
+}
+
+
+/* fish */
+create_object SHORE_FISH
+{
+number_of_objects 28
+set_gaia_object_only
+min_distance_group_placement 3
+temp_min_distance_group_placement 6
+set_scaling_to_map_size
+}
+
+create_object FISH
+{
+number_of_objects 38
+set_gaia_object_only
+min_distance_group_placement 1
+temp_min_distance_group_placement 6
+set_scaling_to_map_size
+max_distance_to_other_zones 3
+}
+
+
+/* wild life */
+
+create_object TURKEY
+{
+number_of_objects 3
+group_variance 1
+number_of_groups 8
+set_scaling_to_map_size
+set_loose_grouping
+set_gaia_object_only
+terrain_to_place_on GRASS3
+temp_min_distance_group_placement 15
+}
+
+create_object BOAR
+{
+number_of_objects 7
+set_scaling_to_map_size
+set_gaia_object_only
+terrain_to_place_on GRASS3
+temp_min_distance_group_placement 22
+}
+
+create_object DEER
+{
+number_of_objects 4
+group_variance 1
+number_of_groups 5
+set_scaling_to_map_size
+set_loose_grouping
+set_gaia_object_only
+temp_min_distance_group_placement 15
+max_distance_to_other_zones 4
+}
+
+create_object JAGUAR
+{
+number_of_objects 2
+group_variance 1
+number_of_groups 6
+set_scaling_to_map_size
+group_placement_radius 2
+set_loose_grouping
+set_gaia_object_only
+temp_min_distance_group_placement 10
+terrain_to_place_on GRASS2
+}
+
+
+create_object FORAGE
+{
+number_of_objects 6
+number_of_groups 4
+set_scaling_to_map_size
+set_tight_grouping
+set_gaia_object_only
+max_distance_to_other_zones 4
+min_distance_group_placement 5
+temp_min_distance_group_placement 22
+}
+
+create_object GOLD
+{
+number_of_objects 3
+number_of_groups 4
+set_scaling_to_map_size
+set_tight_grouping
+set_gaia_object_only
+terrain_to_place_on DESERT
+min_distance_group_placement 11
+temp_min_distance_group_placement 25
+max_distance_to_other_zones 2
+}
+
+create_object GOLD
+{
+number_of_objects 3
+number_of_groups 3
+set_scaling_to_map_size
+set_tight_grouping
+set_gaia_object_only
+terrain_to_place_on GRASS3
+min_distance_group_placement 11
+temp_min_distance_group_placement 25
+}
+
+create_object STONE
+{
+number_of_objects 4
+number_of_groups 2
+set_scaling_to_map_size
+set_tight_grouping
+set_gaia_object_only
+terrain_to_place_on DESERT
+min_distance_group_placement 11
+temp_min_distance_group_placement 25
+max_distance_to_other_zones 2
+}
+
+create_object STONE
+{
+number_of_objects 4
+number_of_groups 2
+set_scaling_to_map_size
+set_tight_grouping
+set_gaia_object_only
+terrain_to_place_on GRASS3
+min_distance_group_placement 11
+temp_min_distance_group_placement 25
+}
+
+
+create_object GOLD
+{
+number_of_objects 6
+number_of_groups 2
+set_tight_grouping
+set_gaia_object_only
+terrain_to_place_on GRASS2
+min_distance_group_placement 7
+temp_min_distance_group_placement 14
+set_scaling_to_map_size
+}
+
+
+create_object MACAW
+{
+set_gaia_object_only
+number_of_objects 5
+set_scaling_to_map_size
+}

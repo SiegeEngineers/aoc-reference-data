@@ -1,0 +1,243 @@
+	#include_drs random_map.def 54000
+	#const RI_BOMBARDTOWER 64
+	#const S_WALL_TECH 189
+	#const F_WALL_TECH 194
+	#const P_WALL 72
+	#const P_GATE 792
+	#const RI_NOMADS 487	
+
+
+	/* ************************************************************************** */
+<PLAYER_SETUP>
+
+random_placement
+	effect_amount DISABLE_TECH S_WALL_TECH ATTR_DISABLE 189
+	effect_amount DISABLE_TECH F_WALL_TECH ATTR_DISABLE 194
+	effect_amount ENABLE_OBJECT P_WALL ATTR_DISABLE 72
+	effect_amount ENABLE_OBJECT P_GATE ATTR_DISABLE 792
+	effect_amount ENABLE_TECH RI_BOMBARDTOWER ATTR_DISABLE 64
+	effect_amount ENABLE_TECH RI_NOMADS ATTR_DISABLE 487	
+
+	<PLAYER_SETUP>
+	  random_placement
+
+	<LAND_GENERATION>
+	create_player_lands
+	{
+	terrain_type		GRASS2
+	land_percent		100
+	base_size		15
+	}
+
+	<TERRAIN_GENERATION>
+
+	create_terrain LEAVES
+	{
+	  base_terrain				GRASS2
+	  land_percent				35
+	  number_of_clumps			12
+	  clumping_factor			40
+	  set_scale_by_groups
+	  set_avoid_player_start_areas
+	  spacing_to_other_terrain_types	4
+	}
+
+
+	create_terrain FOREST
+	{
+	  base_terrain				GRASS2
+	  land_percent				18
+	  number_of_clumps			23
+	  set_scale_by_groups
+	  set_avoid_player_start_areas
+	}
+
+	<OBJECTS_GENERATION>
+
+	/* ******* LAND RESOURCES ************ */
+	/* 28 JUNE 99 */
+
+	/* PLAYER START OBJECTS */
+
+	create_object TOWN_CENTER
+	{
+	  set_place_for_every_player
+	  group_placement_radius     18
+	  min_distance_to_players    0
+	  max_distance_to_players    0
+	}
+
+	create_object VILLAGER
+	{
+	  set_place_for_every_player
+	  min_distance_to_players       6
+	  max_distance_to_players       6
+	 }
+
+	create_object SCOUT
+	{
+	  number_of_objects             1
+	  set_place_for_every_player
+	  min_distance_to_players       7
+	  max_distance_to_players       9
+	 }
+
+	 
+	/* SPECIAL STUFF FOR REGICIDE */
+	/* FORTRESS AND MIGRATION NEED TO BE UPDATED */
+
+	if REGICIDE
+
+	create_object KING
+	{
+	  set_place_for_every_player
+	  min_distance_to_players       6
+	  max_distance_to_players       6
+	}
+
+	endif
+
+	/* NEAR FORAGE */
+
+	create_object FORAGE
+	{
+	  number_of_objects          6
+	  group_placement_radius     3
+	  set_tight_grouping
+	  set_gaia_object_only
+	  set_place_for_every_player
+	  min_distance_to_players    10
+	  max_distance_to_players    12
+	  min_distance_group_placement  6
+	}
+
+	/* NEAR GOLD */
+
+	create_object GOLD
+	{
+	  number_of_objects          7
+	  group_placement_radius     3
+	  set_tight_grouping
+	  set_gaia_object_only
+	  set_place_for_every_player
+	  min_distance_to_players    12
+	  max_distance_to_players    16
+	  min_distance_group_placement  7
+	  max_distance_to_other_zones  7
+	}
+
+	/* NEAR STONE */
+
+	create_object STONE
+	{
+	  number_of_objects          5
+	  group_placement_radius     2  
+	  set_tight_grouping 
+	  set_gaia_object_only
+	  set_place_for_every_player
+	  min_distance_to_players    14
+	  max_distance_to_players    18
+	  min_distance_group_placement  7
+	  max_distance_to_other_zones  7
+	}
+
+
+	create_object GRAVE
+	{
+	   number_of_groups  110
+	   number_of_objects 6
+	   set_loose_grouping
+	   set_gaia_object_only
+	   terrain_to_place_on			LEAVES
+	   set_scaling_to_map_size
+	}
+
+	create_object SKELETON
+	{
+	   number_of_groups  90
+	   number_of_objects 6
+	   set_loose_grouping
+	   set_gaia_object_only
+	   terrain_to_place_on			LEAVES
+	   set_scaling_to_map_size
+	}
+
+	create_object RUINS
+	{
+	   number_of_objects 8
+	   set_gaia_object_only
+	   terrain_to_place_on			LEAVES
+	   set_scaling_to_map_size
+	}
+
+	create_object RELIC
+	{
+	   number_of_objects	8
+	   set_gaia_object_only
+	   terrain_to_place_on			LEAVES
+	   set_scaling_to_map_size
+	   min_distance_group_placement		10
+	}
+
+	create_object GOLD
+	{
+	   number_of_groups	9
+	   number_of_objects	3
+	   set_loose_grouping
+	   set_gaia_object_only
+	   terrain_to_place_on			LEAVES
+	   set_scaling_to_map_size
+	   min_distance_group_placement		8
+	}
+
+	create_object STONE
+	{
+	   number_of_groups	6
+	   number_of_objects	3
+	   set_loose_grouping
+	   set_gaia_object_only
+	   terrain_to_place_on			LEAVES
+	   set_scaling_to_map_size
+	   min_distance_group_placement		10
+	}
+
+	create_object SHORE_FISH
+	{
+	   number_of_objects	16
+	   set_gaia_object_only
+	   terrain_to_place_on			WATER
+	   set_scaling_to_map_size
+	   min_distance_group_placement		2
+	}
+
+	create_object SALMON
+	{
+	   number_of_objects	8
+	   set_gaia_object_only
+	   terrain_to_place_on			WATER
+	   set_scaling_to_map_size
+	   min_distance_group_placement		2
+	}
+
+	<ELEVATION_GENERATION>
+
+	create_elevation              	5
+	{
+	  base_terrain                	GRASS2
+	  number_of_clumps 		15
+	  number_of_tiles 		4000
+	  set_scale_by_groups
+	  set_scale_by_size           
+	}
+
+	create_elevation              	3
+	{
+	  base_terrain                	LEAVES
+	  number_of_clumps 		20
+	  number_of_tiles 		1700
+	  set_scale_by_groups
+	  set_scale_by_size           
+	}
+
+
+

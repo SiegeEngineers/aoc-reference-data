@@ -1,0 +1,541 @@
+/*
+
+	NSS_Mired by Chrazini
+	Created: 29-06-2018
+	Version: 1.3
+
+	Created for Nomad Summer Showdown 2019 by NerdRageQuit.
+
+	Please report bugs or requests on either:
+	Steam: https://steamcommunity.com/id/chrazini
+	Discord: Chrazini#5687
+	AoEZone: https://www.aoezone.net/members/chrazini.48855/
+
+	My ECL Submissions 2018: https://www.aoezone.net/threads/chrazinis-ecl-map-pack-2018.147734/
+	Voobly Workshop Item: https://www.voobly.com/gamemods/mod/1062/Chrazini-Random-Map-Pack
+
+	Changelog 16-07-2018 | Version 1.0
+	• Initial release.
+
+	Changelog 24-09-2018 | Version 1.1
+	• Changed some terrains for non-ZR@ version.
+	• Fixed an incorrect if-statement that could possibly cause issues.
+
+	Changelog 08-03-2019 | Version 1.2
+	• Corners have been rounded out.
+	• Removed the LOS of birds.
+	• Decreased the chance of bugged maps.
+	• Slightly more gold has been added.
+	• Added the ability to start the game in Sudden Death using "High Resources".
+	• Added a lot of comments to map script.
+
+	Changelog 16-04-2019 | Version 1.0
+	• Changed the theme to fit the NSS tournament.
+
+*/
+
+#const BASE_TERRAIN 0
+#const SPAWN_TERRAIN 4
+
+#const FOREST_A 19
+#const FOREST_B 17
+
+#const TERRAIN_A 9
+#const TERRAIN_B 12
+#const TERRAIN_C 3
+
+#const WATER_A 1
+#const WATER_B 23
+#const WATER_C 22
+
+#const S_STRAGGLER 1144
+#const O_STRAGGLER 350
+
+#const SHRUB 59
+
+#const HERDABLE_A 305
+#const UNGULATE_A 65
+#const LUREABLE_A 822 
+
+#const BIRD_A 1028
+#const BIRD_B 917
+
+#const NERITIC_A 1141 
+
+#const NOMAD_SCOUT 814
+#const GRASS_PATCH 301
+#const FLOWERS_A 334
+#const FLOWERS_B 335
+#const FLOWERS_C 336
+#const FLOWERS_D 337
+#const TREE_JUNGLE 414
+#const TREE_PINE 350
+
+<PLAYER_SETUP>
+	random_placement
+	nomad_resources
+
+	/* Changing pine trees to jungle trees */
+	effect_amount GAIA_UPGRADE_UNIT TREE_PINE TREE_JUNGLE 0
+
+	/* Remove LOS of birds */
+	effect_amount SET_ATTRIBUTE BIRD_A ATTR_LINE_OF_SIGHT 0
+	effect_amount SET_ATTRIBUTE BIRD_B ATTR_LINE_OF_SIGHT 0
+
+	/* Remove LOS of BUG_PREVENTER */
+	effect_amount SET_ATTRIBUTE BUG_PREVENTER ATTR_LINE_OF_SIGHT 0
+
+<LAND_GENERATION>
+	base_terrain BASE_TERRAIN
+
+	create_land 
+	{
+		terrain_type SPAWN_TERRAIN
+		land_percent 100
+		top_border 36
+		bottom_border 36
+		left_border 36
+		right_border 36
+	}
+
+	create_player_lands
+	{
+		terrain_type SPAWN_TERRAIN
+		land_percent 0
+		base_size 0
+		top_border 42
+		bottom_border 42
+		right_border 42
+		left_border 42
+	}
+
+	create_land
+	{
+		terrain_type FOREST_B
+		land_percent 100
+		base_size 2
+		land_position 90 10
+		top_border -10
+		left_border 80
+		right_border -10
+		bottom_border 80
+	}
+
+	create_land
+	{
+		terrain_type FOREST_B
+		land_percent 100
+		base_size 2
+		land_position 10 90
+		top_border 80
+		left_border -10
+		right_border 80
+		bottom_border -10
+	}
+
+	create_land
+	{
+		terrain_type FOREST_B
+		land_percent 100
+		base_size 2
+		land_position 90 90
+		top_border 80
+		left_border 80
+		right_border -10
+		bottom_border -10
+	}
+	
+	create_land
+	{
+		terrain_type FOREST_B
+		land_percent 100
+		base_size 2
+		land_position 10 10
+		top_border -10
+		left_border -10
+		right_border 80
+		bottom_border 80
+	}
+
+<ELEVATION_GENERATION>
+	create_elevation 2
+	{
+		base_terrain BASE_TERRAIN
+		number_of_tiles 4096
+		number_of_clumps 64
+		set_scale_by_size
+	}
+
+<TERRAIN_GENERATION>
+	create_terrain FOREST_A
+	{
+		base_terrain BASE_TERRAIN
+		land_percent 12
+		number_of_clumps 14
+		clumping_factor 64
+		set_scale_by_groups
+		spacing_to_other_terrain_types 8
+	}
+
+	create_terrain WATER_A
+	{
+		base_terrain FOREST_A	
+		number_of_tiles rnd(32,64)
+		number_of_clumps 4
+		set_scale_by_groups
+		spacing_to_other_terrain_types 1
+	}
+
+	create_terrain TERRAIN_A
+	{
+		base_terrain BASE_TERRAIN
+		land_percent 6
+		number_of_clumps rnd(4,6)
+		set_scale_by_groups
+	}
+
+	create_terrain TERRAIN_B
+	{
+		base_terrain BASE_TERRAIN
+		land_percent 4
+		number_of_clumps rnd(6,8)
+		set_scale_by_groups
+	}
+
+	create_terrain TERRAIN_C
+	{
+		base_terrain BASE_TERRAIN
+		land_percent 2
+		number_of_clumps rnd(4,6)
+		clumping_factor 64
+		set_scale_by_groups
+	}
+
+<OBJECTS_GENERATION>
+	create_object NERITIC_A
+	{
+		number_of_objects 4096
+		temp_min_distance_group_placement rnd(6,8)
+		terrain_to_place_on WATER
+	}
+
+	if FOREST_A
+		create_object BUG_PREVENTER
+		{
+			number_of_objects 4096
+			min_distance_group_placement 3
+			terrain_to_place_on FOREST_A
+		}
+	endif
+
+	if FOREST_B
+		create_object BUG_PREVENTER
+		{
+			number_of_objects 4096
+			min_distance_group_placement 3
+			terrain_to_place_on FOREST_B
+		}
+	endif
+
+	if FOREST_C
+		create_object BUG_PREVENTER
+		{
+			number_of_objects 4096
+			min_distance_group_placement 3
+			terrain_to_place_on FOREST_C
+		}
+	endif
+
+	if FOREST_D
+		create_object BUG_PREVENTER
+		{
+			number_of_objects 4096
+			min_distance_group_placement 3
+			terrain_to_place_on FOREST_D
+		}
+	endif
+
+	create_object VILLAGER
+	{
+		set_place_for_every_player
+
+		if REGICIDE
+			number_of_objects 10
+		else
+			number_of_objects 1
+		endif
+
+		temp_min_distance_group_placement 2
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	if REGICIDE
+		create_object KING
+		{
+			set_place_for_every_player
+			min_distance_to_players 8
+			max_distance_to_players 10
+		}		
+
+		create_object QUEEN
+		{
+			set_place_for_every_player
+			min_distance_to_players 8
+			max_distance_to_players 10
+		}	
+	else
+		if 	STANDARD_START
+			create_object SCOUT
+			{
+				set_place_for_every_player
+				min_distance_to_players 7
+				max_distance_to_players 9
+			}
+		elseif NOMAD_START
+			create_object NOMAD_SCOUT
+			{
+				set_place_for_every_player
+				min_distance_to_players 7
+				max_distance_to_players 9
+			}
+		endif
+	endif
+
+	create_object HERDABLE_A
+	{
+		set_place_for_every_player
+		number_of_objects 2
+		set_loose_grouping
+		min_distance_to_players 0
+		max_distance_to_players 0
+	}
+
+	create_object S_STRAGGLER
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+
+		if DEATH_MATCH
+			number_of_objects 1
+		else
+			number_of_objects rnd(2,4)
+		endif
+
+		min_distance_to_players 4
+		max_distance_to_players 6
+		temp_min_distance_group_placement 2
+	}
+
+	create_object S_STRAGGLER
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+
+		if DEATH_MATCH
+			number_of_objects 2
+		else
+			number_of_objects rnd(4,6)
+		endif
+
+		min_distance_to_players 8
+		max_distance_to_players 18
+		temp_min_distance_group_placement 2
+	}
+
+	create_object LUREABLE_A
+	{
+		set_place_for_every_player
+		set_gaia_object_only
+		number_of_objects 5
+		min_distance_to_players 4
+		max_distance_to_players 8
+		temp_min_distance_group_placement 4
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	create_object O_STRAGGLER
+	{
+		number_of_objects 1024
+		min_distance_to_players 12
+		temp_min_distance_group_placement 12
+		max_distance_to_other_zones 4
+		terrain_to_place_on BASE_TERRAIN
+	}
+
+	create_object PLANT
+	{
+		number_of_objects 128
+		set_scaling_to_map_size
+	}
+
+	create_object ROCK
+	{
+		if DEATH_MATCH
+			number_of_objects 4
+		else
+			number_of_objects rnd(6,8)
+		endif
+
+		min_distance_to_players 12
+		set_scaling_to_map_size
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	create_object GRASS_PATCH
+	{
+
+		number_of_objects 4
+		min_distance_to_players 12
+		set_scaling_to_map_size
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	create_object SEA_ROCK_A
+	{
+		set_scaling_to_map_size
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	create_object SEA_ROCK_B
+	{
+		set_scaling_to_map_size
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	create_object FLOWERS_A
+	{
+		set_scaling_to_map_size
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	create_object FLOWERS_B
+	{
+		set_scaling_to_map_size
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	create_object FLOWERS_C
+	{
+		set_scaling_to_map_size
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	create_object FLOWERS_D
+	{
+		set_scaling_to_map_size
+		terrain_to_place_on SPAWN_TERRAIN
+	}
+
+	create_object BIRD_A
+	{
+		number_of_objects rnd(4,8)
+		set_scaling_to_map_size
+	}
+
+	create_object BIRD_B
+	{
+		number_of_objects rnd(2,4)
+		set_scaling_to_map_size
+	}
+
+	create_object RELIC
+	{
+		if TINY_MAP
+			number_of_objects 5
+			temp_min_distance_group_placement 28
+		elseif SMALL_MAP
+			number_of_objects 5
+			temp_min_distance_group_placement 30
+		elseif MEDIUM_MAP
+			number_of_objects 5
+			temp_min_distance_group_placement 34
+		elseif LARGE_MAP
+			number_of_objects 5
+			temp_min_distance_group_placement 38
+		elseif HUGE_MAP
+			number_of_objects 5
+			temp_min_distance_group_placement 42
+		elseif GIGANTIC_MAP
+			number_of_objects 7
+			temp_min_distance_group_placement 46
+		endif
+		
+		min_distance_to_players 32
+		min_distance_group_placement 6
+	}
+
+	create_object LUREABLE_A
+	{
+		number_of_objects 4
+		set_gaia_object_only
+		set_scaling_to_map_size
+		min_distance_to_players 32
+		temp_min_distance_group_placement 24
+		min_distance_group_placement 8
+		terrain_to_place_on BASE_TERRAIN
+	}
+
+	create_object UNGULATE_A
+	{
+		number_of_objects 4
+		number_of_groups 4
+		set_loose_grouping
+		set_scaling_to_map_size
+		min_distance_to_players 20
+		temp_min_distance_group_placement 24
+		min_distance_group_placement 8
+		terrain_to_place_on BASE_TERRAIN
+	}
+
+	create_object SHRUB
+	{
+		number_of_objects 4
+		number_of_groups 6
+		set_tight_grouping
+		set_scaling_to_map_size
+		min_distance_to_players 16
+		temp_min_distance_group_placement 24
+		min_distance_group_placement 8
+		terrain_to_place_on BASE_TERRAIN
+	}
+
+	create_object GOLD
+	{
+		number_of_objects 4
+		number_of_groups 3
+		set_tight_grouping
+		group_placement_radius 2
+		set_scaling_to_map_size
+		min_distance_to_players 8
+		max_distance_to_other_zones 6
+		temp_min_distance_group_placement 32
+		min_distance_group_placement 8
+		terrain_to_place_on BASE_TERRAIN
+	}
+
+	create_object GOLD
+	{
+		number_of_objects 8
+		number_of_groups 3
+		group_placement_radius 2
+		set_tight_grouping
+		set_scaling_to_map_size
+		min_distance_to_players 8
+		max_distance_to_other_zones 6
+		temp_min_distance_group_placement 24
+		min_distance_group_placement 8
+		terrain_to_place_on BASE_TERRAIN
+	}
+
+	create_object STONE
+	{
+		number_of_objects 4
+		number_of_groups 4
+		set_tight_grouping
+		set_scaling_to_map_size
+		min_distance_to_players 8
+		max_distance_to_other_zones 6
+		temp_min_distance_group_placement 32
+		min_distance_group_placement 8
+		terrain_to_place_on BASE_TERRAIN
+	}

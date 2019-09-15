@@ -172,5 +172,34 @@
     "name": "World Clan League 7",
     "tournaments": [
     ]
+  },
+  {
+    "id": "msc",
+    "name": "Mangrove Shallows Cup",
+    "tournaments": [
+      "MSC_"
+    ]
+  },
+  {
+    "id": "nss",
+    "name": "Nomad Summer Showdown",
+    "tournaments": [
+      "v6mfneui"
+    ]
+  },
+  {
+    "id": "dmwc2",
+    "name": "Death Match World Cup 2",
+    "tournaments": [
+      "DMWC2_Gold",
+      "DMWC2_Silver"
+    ]
+  },
+  {
+    "id": "tp",
+    "name": "Two Pools",
+    "tournaments": [
+      "TwoPools"
+    ]
   }
 ]
