@@ -201,5 +201,12 @@
     "tournaments": [
       "TwoPools"
     ]
+  },
+  {
+    "id": "monociv",
+    "name": "Mono Civ Cup",
+    "tournaments": [
+      "aoe2monociv"
+    ]
   }
 ]
