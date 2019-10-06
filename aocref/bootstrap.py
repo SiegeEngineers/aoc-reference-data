@@ -3,6 +3,7 @@ import os
 import json
 
 import requests_cache
+from yaml import load
 
 from sqlalchemy.exc import IntegrityError
 
@@ -35,6 +36,27 @@ def bootstrap(session):
 
     add_event_maps(session, [event['id'] for event in events])
 
+    add_canonical_users(session, open(get_metadata('players.yaml'), 'r').read())
+
+    add_map_categories(session, open(get_metadata('maps.yaml'), 'r').read())
+
+
+def add_canonical_users(session, fdata):
+    data = load(fdata)
+    for user in data:
+        for platform_id, ids in user['platforms'].items():
+            for user_id in ids:
+                cplayer = model.CanonicalPlayer(
+                    name=user['name'],
+                    platform_id=platform_id,
+                    user_id=user_id
+                )
+                session.add(cplayer)
+                try:
+                    session.commit()
+                except IntegrityError:
+                    session.rollback()
+
 
 def add_platform(session, data):
     """Add a platform."""
@@ -49,10 +71,8 @@ def add_platform(session, data):
 
 def add_event_maps(session, event_ids):
     """Add event maps."""
-    #id = 0
     for event_id in list_metadata('rms'):
         if event_id not in event_ids:
-            print('tossing', event_id)
             continue
         for filename in list_metadata(os.path.join('rms', event_id)):
             name = filename.replace('.rms', '')
@@ -61,7 +81,6 @@ def add_event_maps(session, event_ids):
                 continue
             print('adding', filename)
             rms = model.EventMap(
-                #id=id,
                 name=name,
                 zr=filename.startswith('ZR@'),
                 event_id=event_id
@@ -69,7 +88,6 @@ def add_event_maps(session, event_ids):
             try:
                 session.add(rms)
                 session.commit()
-                #id += 1
             except IntegrityError:
                 session.rollback()
 

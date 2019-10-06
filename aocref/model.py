@@ -22,6 +22,14 @@ class Platform(BASE):
     match_url = Column(String)
 
 
+class CanonicalPlayer(BASE):
+    """Canonical player profile."""
+    __tablename__ = 'canonical_players'
+    user_id = Column(String, primary_key=True)
+    platform_id = Column(String, primary_key=True)
+    name = Column(String)
+
+
 class Event(BASE):
     """Event (one or more tournaments)."""
     __tablename__ = 'events'
@@ -129,6 +137,20 @@ class Map(BASE):
     dataset_id = Column(Integer, ForeignKey('datasets.id'), primary_key=True)
     dataset = relationship('Dataset', foreign_keys=[dataset_id])
     name = Column(String, index=True)
+
+
+#class MapCategory(BASE):
+#    """Map category."""
+#    __tablename__ = 'map_categories'
+#    id = Column(Integer, primary_key=True)
+#    name = Column(String)
+
+
+#class MapCategoryMembership(BASE):
+#    """Map category membership."""
+#    __tablename__ = 'map_category_membership'
+#    map_category_id = Column(Integer, primary_key=True)
+#    map_name = Column(String, index=True, primary_key=True)
 
 
 class GameType(BASE):

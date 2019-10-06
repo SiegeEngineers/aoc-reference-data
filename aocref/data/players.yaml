@@ -1,26 +1,32 @@
-- name: MBL
+- name: MbL40C
+  country: no
   platforms:
     voobly:
     - '123844441' # MbL40C
     - '123422126' # MbDeD
+    - '125375948' # Road3k
 - name: BacT
+  country: vn
   platforms:
     voobly:
     - '123194539' # BacT
     - '123945837' # 8euro
     - '123219836' # FyruT
 - name: Vivi
+  country: cn
   platforms:
     voobly:
     - '123493096' # Reallydiao
     - '123303397' # Fat_Dragon
-- name: Yo
+- name: _TheYo_
+  country: cn
   platforms:
     voobly:
     - '123636492'
     vooblycn:
     - '123636492'
 - name: xiaofan
+  country: cn
   platforms:
     voobly:
     - '70212'
@@ -32,18 +38,71 @@
     - '123409476' # VNA
     - '125107343'
 - name: LaaaaaN
+  country: es
   platforms:
     voobly:
     - '124116514' # ByT
     - '123989026' # Heresy
-- name: Dogao
+    - '124691590' # Jackie_Chan_
+- name: dogao
   platforms:
     voobly:
       - '123186723' # GiveMeYourSmile
       - '123444726' # dogao
       - '124469820' # VEM_MONSTRO
 - name: TaToH
+  country: es
   platforms:
     voobly:
       - '123999216' # Secret
       - '125366410' # feudalVoy
+      - '123347503' # HoTaT
+- name: VIK_Vinchester
+  country: ru
+  platforms:
+    voobly:
+      - '123397463' # VIK
+      - '124170820' # Vinch
+- name: _Modri
+  platforms:
+    voobly:
+      - '124662701' # _Modri
+      - '124860581' # stronglikeNEMAN
+- name: Kotex
+  country: vn
+  platforms:
+    voobly:
+      - '124763057' # 73_ONGTRUM
+      - '124563608' # 73_Kotex_dammau
+      - '124764048' # 73_Kotex_3k3
+      - '124584836' # Bong88
+      - '124796466' # TrieuTuLong__HN
+- name: _Barles_
+  platforms:
+    voobly:
+      - '123850375' # _Wrachziikle_
+      - '124214626' # _Barles_
+      - '123934159' # Tia_Harribel
+- name: Yellow
+  country: cn
+  platforms:
+    voobly:
+      - '123174138' # saymyname
+      - '123422426' # VNS_thuongthoi
+      - '165563' # 31_
+      - '123193037' # ongchutraiheo
+      - '123991049' # TuuSac
+      - '123247853' # Desperad0
+      - '123685860' # Marcelo_
+- name: chart
+  country: jp
+  platforms:
+    voobly:
+      - '124322377' # RiskyDice
+      - '124508020' # chart11
+      - '124206032' # PoJ
+- name: hyaganeglu
+  platforms:
+    voobly:
+      - '124806109' # Cyan_Alvein_Fan
+      - '124493950' # hyaganeglu

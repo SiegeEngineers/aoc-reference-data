@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='aocref',
-    version='0.0.2',
+    version='0.0.3',
     description='Age of Empires II reference data.',
     url='https://github.com/siegeengineers/aoc-reference-data/',
     license='MIT',
@@ -12,7 +12,7 @@ setup(
     packages=find_packages(),
     package_data={'aocref': [
         'data/events/events.json',
-        'data/events/series.json',
+        'data/events/series.csv',
         'data/datasets/*.json',
         'data/constants.json',
         'data/platforms.json'
