@@ -16,5 +16,11 @@
     "name": "QQ AoC",
     "url": "http://aocrec.com",
     "match_url": "http://aocrec.com/"
+  },
+  {
+    "id": "de",
+    "name": "Definitive Edition",
+    "url": "https://www.ageofempires.com/",
+    "match_url": "https://www.ageofempires.com/stats/match-details/?game=age2&gameId="
   }
 ]

@@ -1,3 +1,4 @@
+# https://www.aoezone.net/threads/list-of-highest-rm-1v1-rating-reached.138320/
 - name: MbL40C
   country: no
   platforms:
@@ -5,6 +6,8 @@
     - '123844441' # MbL40C
     - '123422126' # MbDeD
     - '125375948' # Road3k
+    de:
+    - '251265'
 - name: BacT
   country: vn
   platforms:
@@ -18,6 +21,8 @@
     voobly:
     - '123493096' # Reallydiao
     - '123303397' # Fat_Dragon
+    de:
+    - '215442'
 - name: _TheYo_
   country: cn
   platforms:
@@ -25,6 +30,8 @@
     - '123636492'
     vooblycn:
     - '123636492'
+    de:
+    - '197964'
 - name: xiaofan
   country: cn
   platforms:
@@ -44,12 +51,16 @@
     - '124116514' # ByT
     - '123989026' # Heresy
     - '124691590' # Jackie_Chan_
+    de:
+      - '232410' # Antagonist
 - name: dogao
   platforms:
     voobly:
       - '123186723' # GiveMeYourSmile
       - '123444726' # dogao
       - '124469820' # VEM_MONSTRO
+    de:
+      - '199170'
 - name: TaToH
   country: es
   platforms:
@@ -57,6 +68,8 @@
       - '123999216' # Secret
       - '125366410' # feudalVoy
       - '123347503' # HoTaT
+    de:
+      - '197388'
 - name: VIK_Vinchester
   country: ru
   platforms:
@@ -94,6 +107,8 @@
       - '123991049' # TuuSac
       - '123247853' # Desperad0
       - '123685860' # Marcelo_
+    de:
+      - '419803' # saymyname
 - name: chart
   country: jp
   platforms:
@@ -106,3 +121,101 @@
     voobly:
       - '124806109' # Cyan_Alvein_Fan
       - '124493950' # hyaganeglu
+- name: StrayDog
+  country: cn
+  platforms:
+    voobly:
+      - '124489527' # hagouhello
+      - '124297679' # MyST
+      - '9747' # AreS
+      - '124862194' # hi_hahzu
+      - '128633' # black mamba
+    vooblycn:
+      - '9747' # CNA
+      - '124489527' # hagouhello
+- name: F1Re
+  country: br
+  platforms:
+    voobly:
+      - '123658746'
+    de:
+      - '196310'
+- name: ACCM
+  country: vn
+  platforms:
+    voobly:
+      - '123428504'
+      - '123591487'
+    de:
+      - '347269'
+- name: Tim
+  country: cn
+  platforms:
+    voobly:
+      - '182612'
+    de:
+      - '534438'
+- name: CooL
+  country: vn
+  platforms:
+    voobly:
+      - '123194620'
+    de:
+      - '224786'
+- name: Liereyy
+  country: at
+  platforms:
+    voobly:
+      - '124147336'
+    de:
+      - '506898'
+- name: Cloud
+  country: tw
+  platforms:
+    voobly:
+      - '123198508'
+    de:
+      - '199419'
+- name: Paladin
+  country: cn
+  platforms:
+    voobly:
+      - '123835916' # fengxin
+      - '179227' # alongkiss
+    de:
+      - '210601'
+- name: DauT
+  country: rs
+  platforms:
+    voobly:
+      - '12926'
+    de:
+      - '198035'
+- name: Hera
+  country: ca
+  platforms:
+    voobly:
+      - '123984714'
+    de:
+      - '199325'
+- name: Nili
+  country: de
+  platforms:
+    voobly:
+      - '9267'
+    de:
+      - '197751'
+- name: PROject_Belgium
+  country: be
+  platforms:
+    voobly:
+      - '124474647'
+    de:
+      - '213305' # BUGUM
+- name: Zuppi
+  country: fi
+  platforms:
+    voobly:
+      - '123961442'
+    de:
+      - '575722'

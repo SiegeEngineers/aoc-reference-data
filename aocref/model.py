@@ -42,7 +42,7 @@ class Tournament(BASE):
     __tablename__ = 'tournaments'
     id = Column(String, primary_key=True)
     name = Column(String)
-    event_id = Column(String, ForeignKey('events.id'))
+    event_id = Column(String, ForeignKey('events.id'), index=True)
     event = relationship('Event', foreign_keys=[event_id], backref='tournaments')
 
 
@@ -51,7 +51,7 @@ class Round(BASE):
     __tablename__ = 'rounds'
     id = Column(Integer, primary_key=True)
     name = Column(String)
-    tournament_id = Column(String, ForeignKey('tournaments.id'))
+    tournament_id = Column(String, ForeignKey('tournaments.id'), index=True)
     tournament = relationship('Tournament', foreign_keys=[tournament_id], backref='rounds')
 
 
@@ -59,7 +59,7 @@ class Series(BASE):
     """Series of matches."""
     __tablename__ = 'series'
     id = Column(String, primary_key=True)
-    round_id = Column(Integer, ForeignKey('rounds.id'))
+    round_id = Column(Integer, ForeignKey('rounds.id'), index=True)
     round = relationship('Round', foreign_keys=[round_id], backref='series')
     played = Column(DateTime)
     tournament = relationship(
@@ -76,7 +76,7 @@ class Participant(BASE):
     """Series participants (team or single player)."""
     __tablename__ = 'participants'
     id = Column(Integer, primary_key=True)
-    series_id = Column(String, ForeignKey('series.id'))
+    series_id = Column(String, ForeignKey('series.id'), index=True)
     series = relationship('Series', foreign_keys=[series_id], backref='participants')
     name = Column(String)
     score = Column(Integer)
@@ -104,7 +104,7 @@ class CivilizationBonus(BASE):
     __tablename__ = 'civilization_bonuses'
     id = Column(Integer, primary_key=True)
     civilization_id = Column(Integer)
-    dataset_id = Column(Integer, ForeignKey('datasets.id'))
+    dataset_id = Column(Integer, ForeignKey('datasets.id'), index=True)
     type = Column(String)
     description = Column(String)
     civilization = relationship(
@@ -123,7 +123,7 @@ class EventMap(BASE):
     """Event map."""
     __tablename__ = 'event_maps'
     id = Column(Integer, primary_key=True)
-    event_id = Column(String, ForeignKey('events.id'))
+    event_id = Column(String, ForeignKey('events.id'), index=True)
     event = relationship('Event', foreign_keys=event_id, backref='maps')
     name = Column(String, index=True)
     zr = Column(Boolean)

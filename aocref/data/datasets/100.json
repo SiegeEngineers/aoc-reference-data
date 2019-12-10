@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "version": "33315",
+    "name": "Age of Empires II: Definitive Edition"
+  },
+  "civilizations": {
+    "1": {
+      "name": "Britons"
+    },
+    "2": {
+      "name": "Franks"
+    },
+    "3": {
+      "name": "Goths"
+    },
+    "4": {
+      "name": "Teutons"
+    },
+    "5": {
+      "name": "Japanese"
+    },
+    "6": {
+      "name": "Chinese"
+    },
+    "7": {
+      "name": "Byzantines"
+    },
+    "8": {
+      "name": "Persians"
+    },
+    "9": {
+      "name": "Saracens"
+    },
+    "10": {
+      "name": "Turks"
+    },
+    "11": {
+      "name": "Vikings"
+    },
+    "12": {
+      "name": "Mongols"
+    },
+    "13": {
+      "name": "Celts"
+    },
+    "14": {
+      "name": "Spanish"
+    },
+    "15": {
+      "name": "Aztecs"
+    },
+    "16": {
+      "name": "Mayans"
+    },
+    "17": {
+      "name": "Huns"
+    },
+    "18": {
+      "name": "Koreans"
+    },
+    "19": {
+      "name": "Italians"
+    },
+    "20": {
+      "name": "Indians"
+    },
+    "21": {
+      "name": "Incas"
+    },
+    "22": {
+      "name": "Magyars"
+    },
+    "23": {
+      "name": "Slavs"
+    },
+    "24": {
+      "name": "Portuguese"
+    },
+    "25": {
+      "name": "Ethiopians"
+    },
+    "26": {
+      "name": "Malians"
+    },
+    "27": {
+      "name": "Berbers"
+    },
+    "28": {
+      "name": "Khmer"
+    },
+    "29": {
+      "name": "Malay"
+    },
+    "30": {
+      "name": "Burmese"
+    },
+    "31": {
+      "name": "Vietnamese"
+    },
+    "32": {
+      "name": "Bulgarians"
+    },
+    "33": {
+      "name": "Tatars"
+    },
+    "34": {
+      "name": "Cumans"
+    },
+    "35": {
+      "name": "Lithuanians"
+    }
+  },
+  "maps": {
+    "9": "Arabia",
+    "10": "Archipelago",
+    "11": "Baltic",
+    "12": "Black Forest",
+    "13": "Coastal",
+    "14": "Continental",
+    "15": "Crater Lake",
+    "16": "Fortress",
+    "17": "Gold Rush",
+    "18": "Highland",
+    "19": "Islands",
+    "20": "Mediterranean",
+    "21": "Migration",
+    "22": "Rivers",
+    "23": "Team Islands",
+    "24": "Full Random",
+    "25": "Scandinavia",
+    "26": "Mongolia",
+    "27": "Salt Marsh",
+    "28": "Yucatan",
+    "29": "Arena",
+    "30": "King of the Hill",
+    "31": "Oasis",
+    "32": "Ghost Lake",
+    "67": "Acropolis",
+    "68": "Budapest",
+    "69": "Cenotes",
+    "70": "City of Lakes",
+    "71": "Golden Pit",
+    "72": "Hideout",
+    "73": "Hill Fort",
+    "74": "Lombardia",
+    "75": "Steppe",
+    "76": "Valley",
+    "77": "MegaRandom",
+    "78": "Hamburger",
+    "79": "CtR Random",
+    "80": "CtR Monsoon",
+    "81": "CtR Pyramid Descent",
+    "82": "CtR Spiral"
+  }
+}

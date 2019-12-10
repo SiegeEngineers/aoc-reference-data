@@ -15,7 +15,8 @@ setup(
         'data/events/series.csv',
         'data/datasets/*.json',
         'data/constants.json',
-        'data/platforms.json'
+        'data/platforms.json',
+        'data/players.yaml'
     ]},
     install_requires=[
         'iso8601>=0.1.12',

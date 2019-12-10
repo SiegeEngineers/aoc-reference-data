@@ -153,19 +153,20 @@ def add_dataset(session, dataset_id, data):
             name=info['name']
         )
         session.add(civilization)
-        for bonus in info['description']['bonuses']:
+        if 'description' in info:
+            for bonus in info['description']['bonuses']:
+                session.add(model.CivilizationBonus(
+                    civilization_id=civilization_id,
+                    dataset_id=dataset_id,
+                    type='civ',
+                    description=bonus
+                ))
             session.add(model.CivilizationBonus(
                 civilization_id=civilization_id,
                 dataset_id=dataset_id,
-                type='civ',
-                description=bonus
+                type='team',
+                description=info['description']['team_bonus']
             ))
-        session.add(model.CivilizationBonus(
-            civilization_id=civilization_id,
-            dataset_id=dataset_id,
-            type='team',
-            description=info['description']['team_bonus']
-        ))
         session.commit()
 
 
