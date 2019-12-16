@@ -208,5 +208,12 @@
     "tournaments": [
       "aoe2monociv"
     ]
+  },
+  {
+    "id": "nac3",
+    "name": "Nili's Apartment Cup 3",
+    "tournaments": [
+      "NAC3_Qualifier"
+    ]
   }
 ]

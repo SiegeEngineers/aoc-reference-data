@@ -76,6 +76,8 @@
     voobly:
       - '123397463' # VIK
       - '124170820' # Vinch
+    de:
+      - '271202' # Suma1L
 - name: _Modri
   platforms:
     voobly:
@@ -219,3 +221,14 @@
       - '123961442'
     de:
       - '575722'
+- name: DraconT
+  country: cz
+  platforms:
+    voobly:
+      - '124043892' # DarkNoobFan
+      - '124556058' # adawdfaw
+      - '124596119' # dwafawdaw
+      - '124717620' # agfdadd
+      - '124832150' # Experimental__
+    de:
+      - '357795' # DracKeN
