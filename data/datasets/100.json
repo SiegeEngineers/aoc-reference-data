@@ -1,0 +1,967 @@
+{
+  "dataset": {
+    "version": "33315",
+    "name": "Age of Empires II: Definitive Edition"
+  },
+  "civilizations": {
+    "1": {
+      "name": "Britons"
+    },
+    "2": {
+      "name": "Franks"
+    },
+    "3": {
+      "name": "Goths"
+    },
+    "4": {
+      "name": "Teutons"
+    },
+    "5": {
+      "name": "Japanese"
+    },
+    "6": {
+      "name": "Chinese"
+    },
+    "7": {
+      "name": "Byzantines"
+    },
+    "8": {
+      "name": "Persians"
+    },
+    "9": {
+      "name": "Saracens"
+    },
+    "10": {
+      "name": "Turks"
+    },
+    "11": {
+      "name": "Vikings"
+    },
+    "12": {
+      "name": "Mongols"
+    },
+    "13": {
+      "name": "Celts"
+    },
+    "14": {
+      "name": "Spanish"
+    },
+    "15": {
+      "name": "Aztecs"
+    },
+    "16": {
+      "name": "Mayans"
+    },
+    "17": {
+      "name": "Huns"
+    },
+    "18": {
+      "name": "Koreans"
+    },
+    "19": {
+      "name": "Italians"
+    },
+    "20": {
+      "name": "Indians"
+    },
+    "21": {
+      "name": "Incas"
+    },
+    "22": {
+      "name": "Magyars"
+    },
+    "23": {
+      "name": "Slavs"
+    },
+    "24": {
+      "name": "Portuguese"
+    },
+    "25": {
+      "name": "Ethiopians"
+    },
+    "26": {
+      "name": "Malians"
+    },
+    "27": {
+      "name": "Berbers"
+    },
+    "28": {
+      "name": "Khmer"
+    },
+    "29": {
+      "name": "Malay"
+    },
+    "30": {
+      "name": "Burmese"
+    },
+    "31": {
+      "name": "Vietnamese"
+    },
+    "32": {
+      "name": "Bulgarians"
+    },
+    "33": {
+      "name": "Tatars"
+    },
+    "34": {
+      "name": "Cumans"
+    },
+    "35": {
+      "name": "Lithuanians"
+    }
+  },
+  "maps": {
+    "9": "Arabia",
+    "10": "Archipelago",
+    "11": "Baltic",
+    "12": "Black Forest",
+    "13": "Coastal",
+    "14": "Continental",
+    "15": "Crater Lake",
+    "16": "Fortress",
+    "17": "Gold Rush",
+    "18": "Highland",
+    "19": "Islands",
+    "20": "Mediterranean",
+    "21": "Migration",
+    "22": "Rivers",
+    "23": "Team Islands",
+    "24": "Full Random",
+    "25": "Scandinavia",
+    "26": "Mongolia",
+    "27": "Salt Marsh",
+    "28": "Yucatan",
+    "29": "Arena",
+    "30": "King of the Hill",
+    "31": "Oasis",
+    "32": "Ghost Lake",
+    "67": "Acropolis",
+    "68": "Budapest",
+    "69": "Cenotes",
+    "70": "City of Lakes",
+    "71": "Golden Pit",
+    "72": "Hideout",
+    "73": "Hill Fort",
+    "74": "Lombardia",
+    "75": "Steppe",
+    "76": "Valley",
+    "77": "MegaRandom",
+    "78": "Hamburger",
+    "79": "CtR Random",
+    "80": "CtR Monsoon",
+    "81": "CtR Pyramid Descent",
+    "82": "CtR Spiral"
+  },
+  "technologies": {},
+  "objects": {},
+  "terrain": {
+    "0": {
+      "name": "Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "1": {
+      "name": "Water, Shallow",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "2": {
+      "name": "Beach",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "3": {
+      "name": "Dirt 3",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "4": {
+      "name": "Shallows",
+      "colors": {
+        "up": "#5492b0",
+        "level": "#5492b0",
+        "down": "#5492b0"
+      }
+    },
+    "5": {
+      "name": "Underbrush",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "6": {
+      "name": "Dirt",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "7": {
+      "name": "Farm1",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "8": {
+      "name": "Farm2",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "9": {
+      "name": "Grass 3",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "10": {
+      "name": "Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "11": {
+      "name": "Dirt 2",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "12": {
+      "name": "Grass 2",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "13": {
+      "name": "Palm Desert",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "14": {
+      "name": "Desert",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "15": {
+      "name": "Water, Old",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "16": {
+      "name": "Old Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "17": {
+      "name": "Jungle",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "18": {
+      "name": "Bamboo",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "19": {
+      "name": "Pine Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "20": {
+      "name": "Forest, Oak Bush",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "21": {
+      "name": "Snow Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "22": {
+      "name": "Water, Deep",
+      "colors": {
+        "up": "#004aa1",
+        "level": "#004aa1",
+        "down": "#004aa1"
+      }
+    },
+    "23": {
+      "name": "Water, Medium",
+      "colors": {
+        "up": "#004abb",
+        "level": "#004abb",
+        "down": "#004abb"
+      }
+    },
+    "24": {
+      "name": "Road",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "25": {
+      "name": "Road, Broken",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "26": {
+      "name": "Ice Navigable",
+      "colors": {
+        "up": "#98c0f0",
+        "level": "#98c0f0",
+        "down": "#98c0f0"
+      }
+    },
+    "27": {
+      "name": "Foundation",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "28": {
+      "name": "Water, Bridge",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "29": {
+      "name": "Farm Cnst1",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "30": {
+      "name": "Farm Cnst2",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "31": {
+      "name": "Farm Cnst3",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "32": {
+      "name": "Snow",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "35": {
+      "name": "Ice",
+      "colors": {
+        "up": "#98c0f0",
+        "level": "#98c0f0",
+        "down": "#98c0f0"
+      }
+    },
+    "36": {
+      "name": "Snow Foundation",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "37": {
+      "name": "Ice, Beach",
+      "colors": {
+        "up": "#98c0f0",
+        "level": "#98c0f0",
+        "down": "#98c0f0"
+      }
+    },
+    "40": {
+      "name": "Rock 1",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "41": {
+      "name": "Savannah",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "42": {
+      "name": "Dirt 4",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "45": {
+      "name": "Desert, Cracked",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "46": {
+      "name": "Desert, Quicksand",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "47": {
+      "name": "Black",
+      "colors": {
+        "up": "#1c1c1c",
+        "level": "#1c1c1c",
+        "down": "#1c1c1c"
+      }
+    },
+    "48": {
+      "name": "Dragon Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "49": {
+      "name": "Baobab Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "50": {
+      "name": "Acacia Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "51": {
+      "name": "Beach, White Vegetation",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "52": {
+      "name": "Beach, Vegetation",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "53": {
+      "name": "Beach, White",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "54": {
+      "name": "Mangrove Shallows",
+      "colors": {
+        "up": "#5492b0",
+        "level": "#5492b0",
+        "down": "#5492b0"
+      }
+    },
+    "55": {
+      "name": "Mangrove Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "56": {
+      "name": "Rainforest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "57": {
+      "name": "Water, Deep Ocean",
+      "colors": {
+        "up": "#004aa1",
+        "level": "#004aa1",
+        "down": "#004aa1"
+      }
+    },
+    "58": {
+      "name": "Water, Azure",
+      "colors": {
+        "up": "#0054b0",
+        "level": "#0054b0",
+        "down": "#0054b0"
+      }
+    },
+    "59": {
+      "name": "Shallows, Azure",
+      "colors": {
+        "up": "#5492b0",
+        "level": "#5492b0",
+        "down": "#5492b0"
+      }
+    },
+    "60": {
+      "name": "Jungle Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "63": {
+      "name": "RFarm1",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "64": {
+      "name": "RFarm2",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "65": {
+      "name": "RFarm Cnst1",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "66": {
+      "name": "RFarm Cnst2",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "67": {
+      "name": "RFarm Cnst3",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "68": {
+      "name": "Reserved",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "69": {
+      "name": "Reserved",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "70": {
+      "name": "Gravel Default",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "71": {
+      "name": "Underbrush, Leaves",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "72": {
+      "name": "Underbrush, Snow",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "73": {
+      "name": "Snow Light",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "74": {
+      "name": "Snow Deep",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "75": {
+      "name": "NEW Road, Fungus",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#bdd1fd"
+      }
+    },
+    "76": {
+      "name": "NEW Moorland",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "77": {
+      "name": "NEW Leaves, Jungle",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "78": {
+      "name": "NEW Road, Gravel (Desert)",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "79": {
+      "name": "Beach (Non-Navigable)",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "80": {
+      "name": "Beach, Wet (Non-Navigable)",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "81": {
+      "name": "Beach, Gravel Wet (Non-Navigable)",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "82": {
+      "name": "Beach, Rock Wet (Non-Navigable)",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "83": {
+      "name": "Jungle Grass (Rainforest)",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "84": {
+      "name": "Moddable Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "85": {
+      "name": "Moddable Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "86": {
+      "name": "Moddable Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "87": {
+      "name": "Moddable Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "88": {
+      "name": "Forest, Mediterranean",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "89": {
+      "name": "Forest, Bush",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "90": {
+      "name": "Forest, Reeds (Shallows)",
+      "colors": {
+        "up": "#5492b0",
+        "level": "#5492b0",
+        "down": "#5492b0"
+      }
+    },
+    "91": {
+      "name": "Forest, Reeds (Beach)",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "92": {
+      "name": "Forest, Reeds",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "93": {
+      "name": "Moddable Shallows",
+      "colors": {
+        "up": "#5492b0",
+        "level": "#5492b0",
+        "down": "#5492b0"
+      }
+    },
+    "94": {
+      "name": "Moddable Shallows",
+      "colors": {
+        "up": "#5492b0",
+        "level": "#5492b0",
+        "down": "#5492b0"
+      }
+    },
+    "95": {
+      "name": "Water, Green",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "96": {
+      "name": "Water, Brown",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "97": {
+      "name": "Moddable Normal Water",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "98": {
+      "name": "Moddable Normal Water",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "99": {
+      "name": "Moddable Deep Water",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "100": {
+      "name": "Dry Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "101": {
+      "name": "Bogland",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "102": {
+      "name": "Desert, Gravel",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "104": {
+      "name": "Forest, Autumn",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "105": {
+      "name": "Show Autumn",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "106": {
+      "name": "Dead Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "107": {
+      "name": "Beach, Wet",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "108": {
+      "name": "Beach, Gravel Wet",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "109": {
+      "name": "Beach, Rock Wet",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    }
+  }
+}

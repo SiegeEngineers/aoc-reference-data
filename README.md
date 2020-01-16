@@ -1,9 +1,5 @@
 # aoc-reference-data
 
-Database model for AoC [reference data](https://en.wikipedia.org/wiki/Reference_data). Also includes a way to populate the database once created.
-
-## Description
-
 - Datasets: Game edition (The Conquerors, Wololo Kingdoms, etc)
   - Civilizations
     - Bonuses
@@ -16,10 +12,7 @@ Database model for AoC [reference data](https://en.wikipedia.org/wiki/Reference_
   - Maps: Event map pool
 - Platforms: Multiplayer platforms (Voobly, VooblyCN, Aoc QQ, etc)
 - Constants: Constants for match settings
-
-## Schema
-
-![Schema](/docs/schema.png?raw=true)
+- Players: Canonical names and platform ID cross references
 
 ## Sources
 

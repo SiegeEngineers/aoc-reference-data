@@ -1031,344 +1031,6 @@
     "864": "Rubble 2 x 2",
     "865": "Rubble 3 x 3"
   },
-  "terrain": {
-    "0": {
-      "name": "Grass",
-      "color": [
-        55,
-        236,
-        54
-      ]
-    },
-    "1": {
-      "name": "Water",
-      "color": [
-        19,
-        19,
-        19
-      ]
-    },
-    "2": {
-      "name": "Beach",
-      "color": [
-        137,
-        124,
-        88
-      ]
-    },
-    "3": {
-      "name": "Dirt 3",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "4": {
-      "name": "Shallows",
-      "color": [
-        227,
-        227,
-        227
-      ]
-    },
-    "5": {
-      "name": "Leaves",
-      "color": [
-        55,
-        236,
-        54
-      ]
-    },
-    "6": {
-      "name": "Dirt",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "7": {
-      "name": "Farm1",
-      "color": [
-        160,
-        159,
-        158
-      ]
-    },
-    "8": {
-      "name": "Farm2",
-      "color": [
-        160,
-        159,
-        158
-      ]
-    },
-    "9": {
-      "name": "Grass 3",
-      "color": [
-        55,
-        236,
-        54
-      ]
-    },
-    "10": {
-      "name": "Forest",
-      "color": [
-        197,
-        235,
-        53
-      ]
-    },
-    "11": {
-      "name": "Dirt 2",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "12": {
-      "name": "Grass 2",
-      "color": [
-        55,
-        236,
-        54
-      ]
-    },
-    "13": {
-      "name": "Palm Desert",
-      "color": [
-        197,
-        235,
-        53
-      ]
-    },
-    "14": {
-      "name": "Desert",
-      "color": [
-        137,
-        124,
-        88
-      ]
-    },
-    "15": {
-      "name": "Old Water",
-      "color": [
-        19,
-        19,
-        19
-      ]
-    },
-    "16": {
-      "name": "Old Grass",
-      "color": [
-        55,
-        236,
-        54
-      ]
-    },
-    "17": {
-      "name": "Jungle",
-      "color": [
-        197,
-        235,
-        53
-      ]
-    },
-    "18": {
-      "name": "Bamboo",
-      "color": [
-        197,
-        235,
-        53
-      ]
-    },
-    "19": {
-      "name": "Pine Forest",
-      "color": [
-        197,
-        235,
-        53
-      ]
-    },
-    "20": {
-      "name": "Oak Forest",
-      "color": [
-        197,
-        235,
-        53
-      ]
-    },
-    "21": {
-      "name": "Snow Forest",
-      "color": [
-        197,
-        235,
-        53
-      ]
-    },
-    "22": {
-      "name": "Water 2",
-      "color": [
-        1,
-        1,
-        1
-      ]
-    },
-    "23": {
-      "name": "Water 3",
-      "color": [
-        3,
-        3,
-        3
-      ]
-    },
-    "24": {
-      "name": "Road",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "25": {
-      "name": "Road 2",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "26": {
-      "name": "Ice",
-      "color": [
-        240,
-        240,
-        240
-      ]
-    },
-    "27": {
-      "name": "Foundation",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "28": {
-      "name": "Water Bridge",
-      "color": [
-        19,
-        19,
-        19
-      ]
-    },
-    "29": {
-      "name": "Farm Cnst1",
-      "color": [
-        160,
-        159,
-        158
-      ]
-    },
-    "30": {
-      "name": "Farm Cnst2",
-      "color": [
-        160,
-        159,
-        158
-      ]
-    },
-    "31": {
-      "name": "Farm Cnst3",
-      "color": [
-        160,
-        159,
-        158
-      ]
-    },
-    "32": {
-      "name": "Snow",
-      "color": [
-        55,
-        236,
-        54
-      ]
-    },
-    "33": {
-      "name": "Snow Dirt",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "34": {
-      "name": "Snow Grass",
-      "color": [
-        55,
-        236,
-        54
-      ]
-    },
-    "35": {
-      "name": "Ice 2",
-      "color": [
-        240,
-        240,
-        240
-      ]
-    },
-    "36": {
-      "name": "Snow Foundati",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "37": {
-      "name": "Ice Beach",
-      "color": [
-        240,
-        240,
-        240
-      ]
-    },
-    "38": {
-      "name": "Snow Road",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "39": {
-      "name": "Snow Road 2",
-      "color": [
-        176,
-        107,
-        192
-      ]
-    },
-    "40": {
-      "name": "KOH",
-      "color": [
-        176,
-        107,
-        120
-      ]
-    },
-    "41": {
-      "name": "",
-      "color": [
-        0,
-        0,
-        0
-      ]
-    }
-  },
   "maps": {
     "9": "Arabia",
     "10": "Archipelago",
@@ -1417,5 +1079,343 @@
     "57": "Steppe",
     "58": "Valley",
     "59": "MegaRandom"
+  },
+  "terrain": {
+    "0": {
+      "name": "Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "1": {
+      "name": "Water",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "2": {
+      "name": "Beach",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "3": {
+      "name": "Dirt 3",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "4": {
+      "name": "Shallows",
+      "colors": {
+        "up": "#5492b0",
+        "level": "#5492b0",
+        "down": "#5492b0"
+      }
+    },
+    "5": {
+      "name": "Leaves",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "6": {
+      "name": "Dirt",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "7": {
+      "name": "Farm1",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "8": {
+      "name": "Farm2",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "9": {
+      "name": "Grass 3",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "10": {
+      "name": "Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "11": {
+      "name": "Dirt 2",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "12": {
+      "name": "Grass 2",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "13": {
+      "name": "Palm Desert",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "14": {
+      "name": "Desert",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "15": {
+      "name": "Old Water",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "16": {
+      "name": "Old Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "17": {
+      "name": "Jungle",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "18": {
+      "name": "Bamboo",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "19": {
+      "name": "Pine Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "20": {
+      "name": "Oak Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "21": {
+      "name": "Snow Forest",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "22": {
+      "name": "Water 2",
+      "colors": {
+        "up": "#004aa1",
+        "level": "#004aa1",
+        "down": "#004aa1"
+      }
+    },
+    "23": {
+      "name": "Water 3",
+      "colors": {
+        "up": "#004abb",
+        "level": "#004abb",
+        "down": "#004abb"
+      }
+    },
+    "24": {
+      "name": "Road",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "25": {
+      "name": "Road 2",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "26": {
+      "name": "Ice",
+      "colors": {
+        "up": "#98c0f0",
+        "level": "#98c0f0",
+        "down": "#98c0f0"
+      }
+    },
+    "27": {
+      "name": "Foundation",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "28": {
+      "name": "Water Bridge",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "29": {
+      "name": "Farm Cnst1",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "30": {
+      "name": "Farm Cnst2",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "31": {
+      "name": "Farm Cnst3",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "32": {
+      "name": "Snow",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "33": {
+      "name": "Snow Dirt",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "34": {
+      "name": "Snow Grass",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "35": {
+      "name": "Ice 2",
+      "colors": {
+        "up": "#98c0f0",
+        "level": "#98c0f0",
+        "down": "#98c0f0"
+      }
+    },
+    "36": {
+      "name": "Snow Foundati",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "37": {
+      "name": "Ice Beach",
+      "colors": {
+        "up": "#98c0f0",
+        "level": "#98c0f0",
+        "down": "#98c0f0"
+      }
+    },
+    "38": {
+      "name": "Snow Road",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "39": {
+      "name": "Snow Road 2",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#bdd1fd"
+      }
+    },
+    "40": {
+      "name": "KOH",
+      "colors": {
+        "up": "#f3aa5c",
+        "level": "#e4a252",
+        "down": "#da9c69"
+      }
+    },
+    "41": {
+      "name": "",
+      "colors": {
+        "up": "#000000",
+        "level": "#000000",
+        "down": "#000000"
+      }
+    }
   }
 }

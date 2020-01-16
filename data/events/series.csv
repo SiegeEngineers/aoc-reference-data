@@ -3,7 +3,6 @@
 tournament_id,series_id,round_id,p1,p2,score,played
 
 # Battle of Africa - Swiss Stage
-
 boa_swiss,1015,1,aM,China A,3-1,2018-03-17
 boa_swiss,1014,1,Suomi,NaBs,3-2,2018-03-17
 boa_swiss,1013,1,LoS,TyRanT,0-3,2018-03-18
@@ -22,12 +21,20 @@ boa_swiss,1001,4,SY,TyRanT,2-3,2018-04-08
 boa_swiss,1000,5,SY,LoS,3-2,2018-04-14
 
 # Nili's Apartment Cup - Final Elimination Stage
-
 nac_elim,1000,1,TaToH,JorDan_23,4-1,2018-07-14
 nac_elim,1001,1,MbL40C,TaToH,4-1,2018-07-14
 nac_elim,1002,1,Liereyy,MbL40C,5-0,2018-07-15
 nac_elim,1003,2,TheViper,Liereyy,5-2,2018-07-15
 
 # Every Game Counts #1 - Grand Final
-
 egc1_final,1000,1,TheViper,Liereyy,5-1,2017-05-20
+
+# Multiple Maps Promo
+mmp_day1,1000,1,TheViper,MrYo,4-1,2019-12-21
+mmp_day2,1000,1,TheViper,MrYo,4-3,2019-12-21
+
+# TheViper vs Hera Showmatch
+viper_vs_hera_20191221,1000,1,TheViper,Hera,4-2,2019-12-21
+
+# TheViper vs Liereyy Showmatch
+viper_vs_liereyy_20191228,1000,1,TheViper,Liereyy,4-3,2019-12-28

@@ -215,5 +215,27 @@
     "tournaments": [
       "NAC3_Qualifier"
     ]
+  },
+  {
+    "id": "mmp",
+    "name": "Multiple Maps Promo",
+    "tournaments": [
+      ["mmp_day1", "Multiple Maps Promo - Day 1"],
+      ["mmp_day2", "Multiple Maps Promo - Day 2"]
+    ]
+  },
+  {
+    "id": "viper_vs_hera_20191221",
+    "name": "TheViper vs Hera Showmatch (2019-12-21)",
+    "tournaments": [
+      ["viper_vs_hera_20191221", "TheViper vs Hera Showmatch"]
+    ]
+  },
+  {
+    "id": "viper_vs_liereyy_20191228",
+    "name": "TheViper vs Liereyy Showmatch (2019-12-28)",
+    "tournaments": [
+      ["viper_vs_liereyy_20191228", "TheViper vs Liereyy Showmatch"]
+    ]
   }
 ]

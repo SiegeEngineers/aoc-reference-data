@@ -132,9 +132,12 @@
       - '9747' # AreS
       - '124862194' # hi_hahzu
       - '128633' # black mamba
+      - '125403511' # cica_zhou
     vooblycn:
       - '9747' # CNA
       - '124489527' # hagouhello
+    de:
+      - '716717' # cica_zhou
 - name: F1Re
   country: br
   platforms:

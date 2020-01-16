@@ -1,0 +1,285 @@
+<PLAYER_SETUP>
+random_placement
+
+<LAND_GENERATION>
+create_player_lands {
+	terrain_type GRASS2
+	land_percent 100
+	base_size 15
+	border_fuzziness 100 
+	clumping_factor 100
+}
+
+<ELEVATION_GENERATION>
+create_elevation 7 {
+	base_terrain GRASS2
+	number_of_tiles 1000
+	number_of_clumps 40
+	set_scale_by_size
+	set_scale_by_groups
+}
+
+<TERRAIN_GENERATION>
+create_terrain GRASS {
+	base_terrain GRASS2
+	land_percent 99
+	number_of_clumps 999
+	set_avoid_player_start_areas
+}
+
+create_terrain ICE {
+	base_terrain GRASS
+	land_percent 20
+	number_of_clumps 15
+	set_scale_by_groups
+	clumping_factor 100
+	set_avoid_player_start_areas
+	spacing_to_other_terrain_types 3
+}
+
+create_terrain GRASS {
+	base_terrain GRASS2
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain LEAVES {
+	base_terrain ICE
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 3
+}
+
+create_terrain GRASS {
+	base_terrain ICE
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 3
+}
+
+create_terrain ICE {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain LEAVES {
+	base_terrain GRASS
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 2
+}
+
+create_terrain ICE {
+	base_terrain GRASS
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain GRASS {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain LEAVES {
+	base_terrain GRASS
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 2
+}
+
+create_terrain ICE {
+	base_terrain GRASS
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain GRASS {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain LEAVES {
+	base_terrain GRASS
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 2
+}
+
+create_terrain ICE {
+	base_terrain GRASS
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain GRASS {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain LEAVES {
+	base_terrain ICE
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 6
+}
+
+create_terrain GRASS {
+	base_terrain ICE
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 6
+}
+
+create_terrain ICE {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+}
+
+create_terrain LEAVES {
+	base_terrain ICE
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain BAMBOO {
+	base_terrain LEAVES
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 3
+}
+
+create_terrain GRASS {
+	base_terrain ICE
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 1
+}
+
+create_terrain GRASS3 {
+	base_terrain GRASS
+	land_percent 99
+	number_of_clumps 999
+	set_avoid_player_start_areas
+}
+
+create_terrain GRASS {
+	base_terrain GRASS3
+	land_percent 99
+	number_of_clumps 999
+	height_limits 1 7
+}
+
+create_terrain GRASS2 {
+	base_terrain GRASS3
+	land_percent 99
+	number_of_clumps 999
+	spacing_to_other_terrain_types 2
+}
+
+<OBJECTS_GENERATION>
+create_object TOWN_CENTER {
+	set_place_for_every_player
+	max_distance_to_players 0
+}
+
+create_object VILLAGER {
+	set_place_for_every_player
+	min_distance_to_players 6
+	max_distance_to_players 6
+}
+
+if REGICIDE
+	create_object KING {
+		set_place_for_every_player
+		min_distance_to_players 9
+		max_distance_to_players 9
+	}
+else
+	create_object SCOUT {
+		set_place_for_every_player
+		min_distance_to_players 9
+		max_distance_to_players 9
+	}
+endif
+
+create_object SHEEP {
+	number_of_objects 1
+	number_of_groups 5
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 2
+	max_distance_to_players 4
+}
+
+create_object BOAR {
+	number_of_objects 1
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 10
+	max_distance_to_players 13
+}
+
+create_object FORAGE {
+	number_of_objects 2
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 3
+	max_distance_to_players 3
+}
+
+create_object PALMTREE {
+	number_of_objects 3
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 4
+	max_distance_to_players 5
+}
+
+create_object FORAGE {
+	number_of_objects 4
+	number_of_groups 999
+	set_tight_grouping
+	set_gaia_object_only
+	temp_min_distance_group_placement 22
+	min_distance_group_placement 5
+	terrain_to_place_on GRASS2
+}
+
+create_object DEER {
+	number_of_objects 4
+	number_of_groups 999
+	set_tight_grouping
+	set_gaia_object_only
+	temp_min_distance_group_placement 28
+	min_distance_group_placement 5
+	terrain_to_place_on GRASS2
+}
+
+create_object GOLD {
+	number_of_objects 2
+	number_of_groups 999
+	set_tight_grouping
+	set_gaia_object_only
+	temp_min_distance_group_placement 20
+	min_distance_group_placement 5
+	terrain_to_place_on GRASS2
+}
+
+create_object STONE {
+	number_of_objects 3
+	number_of_groups 999
+	set_tight_grouping
+	temp_min_distance_group_placement 25
+	min_distance_group_placement 5
+	terrain_to_place_on GRASS2
+}
