@@ -237,5 +237,33 @@
     "tournaments": [
       ["viper_vs_liereyy_20191228", "TheViper vs Liereyy Showmatch"]
     ]
+  },
+  {
+    "id": "microsoft_international",
+    "name": "Microsoft International Tournament",
+    "tournaments": [
+      ["microsoft_international_playoff", "Microsoft International Playoffs"]
+    ]
+  },
+  {
+    "id": "1stcot",
+    "name": "1st Champion of Today",
+    "tournaments": [
+      "1stChampionOfToday"
+    ]
+  },
+  {
+    "id": "2ndcot",
+    "name": "2nd Champion of Today",
+    "tournaments": [
+      "2ndchampionoftoday"
+    ]
+  },
+  {
+    "id": "wcg",
+    "name": "World Cyber Games 2001",
+    "tournaments": [
+      ["wcg_playoff", "World Cyber Games Playoffs"]
+    ]
   }
 ]
