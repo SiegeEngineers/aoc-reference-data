@@ -265,5 +265,26 @@
     "tournaments": [
       ["wcg_playoff", "World Cyber Games Playoffs"]
     ]
+  },
+  {
+    "id": "arbalet1",
+    "name": "Arbalet Cup I",
+    "tournaments": [
+      ["arbalet1_playoff", "Arbalet Cup I Playoffs"]
+    ]
+  },
+  {
+    "id": "arbalet2",
+    "name": "Arbalet Cup I",
+    "tournaments": [
+      ["arbalet2_playoff", "Arbalet Cup II Playoffs"]
+    ]
+  },
+  {
+    "id": "hc1",
+    "name": "Hidden Cup 1",
+    "tournaments": [
+      "AoEHiddenCup"
+    ]
   }
 ]

@@ -55,3 +55,13 @@ microsoft_international_playoff,1011,2,GX_Iron,NG_DeathKnight,1-0,2001
 microsoft_international_playoff,1012,3,SHS_North,Kaohen,0-1,2001
 microsoft_international_playoff,1013,3,__Mossar (Grunt),GX_Iron,1-0,2001
 microsoft_international_playoff,1014,4,Kaohen, __Mossar (Grunt),0-1,2001
+
+# Arbalet Cup I
+arbalet1_playoff,1000,9,_SyuRi_ (Koven),_IamChris,2-0,2002-04
+arbalet1_playoff,1000,8,_SyuRi_ (Koven),CNS_PA (Grunt),2-1,2002-04
+arbalet1_playoff,1000,7,_SyuRi_ (Koven),SlayerS_BoXeR (Champion),2-0,2002-04
+
+# Arbalet Cup II
+arbalet2_playoff,1000,9,Halen,Grunt,2-0,2002-08
+arbalet2_playoff,1000,8,CNS_Grunt,L_Clan_Chris,2-1,2002-08
+arbalet2_playoff,1000,10,L_Clan_Chris,L_Clan_Ugnis,2-0,2002-08
