@@ -65,3 +65,29 @@ arbalet1_playoff,1000,7,_SyuRi_ (Koven),SlayerS_BoXeR (Champion),2-0,2002-04
 arbalet2_playoff,1000,9,Halen,Grunt,2-0,2002-08
 arbalet2_playoff,1000,8,CNS_Grunt,L_Clan_Chris,2-1,2002-08
 arbalet2_playoff,1000,10,L_Clan_Chris,L_Clan_Ugnis,2-0,2002-08
+
+# NAC3 Group Stage
+NAC3_Group_Stage,1000,1,TheViper,Hera,3-1,2020-01-04
+NAC3_Group_Stage,1001,1,TaToH,Daut,3-1,2020-01-04
+NAC3_Group_Stage,1002,1,Mr_Yo,TheMax,2-3,2020-01-04
+NAC3_Group_Stage,1003,1,Liereyy,LaaaaaN,3-0,2020-01-04
+NAC3_Group_Stage,1000,2,Hera,Villese,3-1,2020-01-05
+NAC3_Group_Stage,1001,2,Mr_Yo,DauT,3-0,2020-01-05
+NAC3_Group_Stage,1002,2,TaToH,TheMax,3-0,2020-01-05
+NAC3_Group_Stage,1003,2,TheViper,Liereyy,3-1,2020-01-05
+NAC3_Group_Stage,1000,3,Mr_Yo,Hera,2-3,2020-01-06
+NAC3_Group_Stage,1001,3,TheMax,Liereyy,3-0,2020-01-06
+NAC3_Group_Stage,1002,3,Villese,LaaaaaN,3-2,2020-01-06
+NAC3_Group_Stage,1003,3,TheViper,TaToH,3-1,2020-01-06
+NAC3_Group_Stage,1000,4,Mr_Yo,Villese,3-0,2020-01-07
+NAC3_Group_Stage,1001,4,LaaaaaN,DauT,2-3,2020-01-07
+NAC3_Group_Stage,1002,4,TaToH,Hera,1-3,2020-01-07
+NAC3_Group_Stage,1003,4,TheViper,TjeMax,3-1,2020-01-07
+NAC3_Group_Stage,1000,5,Mr_Yo,LaaaaaN,3-1,2020-01-08
+NAC3_Group_Stage,1001,5,TaToH,Villese,3-2,2020-01-08
+NAC3_Group_Stage,1002,5,Liereyy,Daut,3-1,2020-01-08
+NAC3_Group_Stage,1003,5,Hera,TheMax,3-0,2020-01-08
+
+# NAC3 Showmatch
+
+NAC3_Showmatch,1000,1,DauT,Villese,4-1,2020-01-12

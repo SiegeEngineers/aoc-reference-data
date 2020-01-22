@@ -1,6 +1,7 @@
 [
   {
     "id": "kotd",
+    "year": 2017,
     "name": "King of the Desert",
     "tournaments": [
       "kotdaoc"
@@ -8,6 +9,7 @@
   },
   {
     "id": "kotd2",
+    "year": 2019,
     "name": "King of the Desert 2",
     "tournaments": [
       "kotd2"
@@ -16,6 +18,7 @@
 
   {
     "id": "moa2v2",
+    "year": 2017,
     "name": "Masters of Arabia 2v2",
     "tournaments": [
       "moa2v2"
@@ -23,6 +26,7 @@
   },
   {
     "id": "moa5",
+    "year": 2018,
     "name": "Masters of Arena 5",
     "tournaments": [
       "MoA5S1",
@@ -31,6 +35,7 @@
   },
   {
     "id": "egc",
+    "year": 2017,
     "name": "EGC #1: Strike the Balance",
     "tournaments": [
       "vooblyofficial-egcrrnew",
@@ -39,6 +44,7 @@
   },
   {
     "id": "loth",
+    "year": 2018,
     "name": "Legacy of the Huns 2",
     "tournaments": [
       "loth2q",
@@ -47,6 +53,7 @@
   },
   {
     "id": "boa",
+    "year": 2018,
     "name": "Battle of Africa",
     "tournaments": [
       "boa_qual",
@@ -56,6 +63,7 @@
   },
   {
     "id": "nac1",
+    "year": 2018,
     "name": "Nili's Apartment Cup",
     "tournaments": [
       "NAC_AoE",
@@ -64,6 +72,7 @@
   },
   {
     "id": "nac2",
+    "year": 2019,
     "name": "Nili's Apartment Cup 2",
     "tournaments": [
       "nac2q1",
@@ -74,6 +83,7 @@
   },
   {
     "id": "wc",
+    "year": 2018,
     "name": "World Cup",
     "tournaments": [
       "aoe2worldcup"
@@ -81,6 +91,7 @@
   },
   {
     "id": "ecl",
+    "year": 2019,
     "name": "Escape Champions League",
     "tournaments": [
       "escapeaoe-ECLQual",
@@ -95,6 +106,7 @@
   },
   {
     "id": "hc2",
+    "year": 2019,
     "name": "Hidden Cup 2",
     "tournaments": [
       "HiddenCup2Qual",
@@ -103,6 +115,7 @@
   },
   {
     "id": "ae",
+    "year": 2019,
     "name": "Aspiring Experts",
     "tournaments": [
       "AESiL",
@@ -111,6 +124,7 @@
   },
   {
     "id": "derac",
+    "year": 2019,
     "name": "DemEyesRed Arena Cup",
     "tournaments": [
       "derac"
@@ -118,6 +132,7 @@
   },
   {
     "id": "da",
+    "year": 2019,
     "name": "Doubles Age",
     "tournaments": [
         "DoublesAge",
@@ -127,54 +142,63 @@
   },
   {
     "id": "wic",
+    "year": 2015,
     "name": "War is Coming",
     "tournaments": [
     ]
   },
   {
     "id": "vas",
+    "year": 2019,
     "name": "Voobly Arena Seasonal",
     "tournaments": [
     ]
   },
   {
     "id": "sync2014",
+    "year": 2014,
     "name": "SY Nations Cup 2014",
     "tournaments": [
     ]
   },
   {
     "id": "sync2015",
+    "year": 2015,
     "name": "SY Nations Cup 2015",
     "tournaments": [
     ]
   },
   {
     "id": "sync2017",
+    "year": 2017,
     "name": "SY Nations Cup 2017",
     "tournaments": [
     ]
   },
   {
     "id": "wsvg",
+    "year": 2015,
     "name": "World Series of Video Games",
     "tournaments": [
     ]
   },
   {
     "id": "ms",
+    "year": 2019,
     "name": "MembTV Showmatch",
     "tournaments": [
     ]
   },
   {
     "id": "wcl7",
+    "year": 2011,
     "name": "World Clan League 7",
     "tournaments": [
     ]
   },
   {
     "id": "msc",
+    "year": 2019,
     "name": "Mangrove Shallows Cup",
     "tournaments": [
       "MSC_"
@@ -182,6 +206,7 @@
   },
   {
     "id": "nss",
+    "year": 2019,
     "name": "Nomad Summer Showdown",
     "tournaments": [
       "v6mfneui"
@@ -189,6 +214,7 @@
   },
   {
     "id": "dmwc2",
+    "year": 2019,
     "name": "Death Match World Cup 2",
     "tournaments": [
       "DMWC2_Gold",
@@ -197,6 +223,7 @@
   },
   {
     "id": "tp",
+    "year": 2019,
     "name": "Two Pools",
     "tournaments": [
       "TwoPools"
@@ -204,6 +231,7 @@
   },
   {
     "id": "monociv",
+    "year": 2019,
     "name": "Mono Civ Cup",
     "tournaments": [
       "aoe2monociv"
@@ -211,14 +239,19 @@
   },
   {
     "id": "nac3",
+    "year": 2020,
     "name": "Nili's Apartment Cup 3",
     "tournaments": [
-      "NAC3_Qualifier"
+      "NAC3_Qualifier",
+      ["NAC3_Group_Stage", "NAC3 Group Stage"],
+      ["NAC3_Showmatch", "NAC3 Empire Wars Showmatch"],
+      "NAC3_Playoffs"
     ]
   },
   {
     "id": "mmp",
     "name": "Multiple Maps Promo",
+    "year": 2019,
     "tournaments": [
       ["mmp_day1", "Multiple Maps Promo - Day 1"],
       ["mmp_day2", "Multiple Maps Promo - Day 2"]
@@ -226,6 +259,7 @@
   },
   {
     "id": "viper_vs_hera_20191221",
+    "year": 2019,
     "name": "TheViper vs Hera Showmatch (2019-12-21)",
     "tournaments": [
       ["viper_vs_hera_20191221", "TheViper vs Hera Showmatch"]
@@ -233,6 +267,7 @@
   },
   {
     "id": "viper_vs_liereyy_20191228",
+    "year": 2019,
     "name": "TheViper vs Liereyy Showmatch (2019-12-28)",
     "tournaments": [
       ["viper_vs_liereyy_20191228", "TheViper vs Liereyy Showmatch"]
@@ -240,6 +275,7 @@
   },
   {
     "id": "microsoft_international",
+    "year": 2001,
     "name": "Microsoft International Tournament",
     "tournaments": [
       ["microsoft_international_playoff", "Microsoft International Playoffs"]
@@ -247,6 +283,7 @@
   },
   {
     "id": "1stcot",
+    "year": 2012,
     "name": "1st Champion of Today",
     "tournaments": [
       "1stChampionOfToday"
@@ -254,6 +291,7 @@
   },
   {
     "id": "2ndcot",
+    "year": 2012,
     "name": "2nd Champion of Today",
     "tournaments": [
       "2ndchampionoftoday"
@@ -261,6 +299,7 @@
   },
   {
     "id": "wcg",
+    "year": 2001,
     "name": "World Cyber Games 2001",
     "tournaments": [
       ["wcg_playoff", "World Cyber Games Playoffs"]
@@ -268,6 +307,7 @@
   },
   {
     "id": "arbalet1",
+    "year": 2002,
     "name": "Arbalet Cup I",
     "tournaments": [
       ["arbalet1_playoff", "Arbalet Cup I Playoffs"]
@@ -275,13 +315,15 @@
   },
   {
     "id": "arbalet2",
+    "year": 2002,
     "name": "Arbalet Cup I",
     "tournaments": [
       ["arbalet2_playoff", "Arbalet Cup II Playoffs"]
     ]
   },
   {
-    "id": "hc1",
+    "id": "hc",
+    "year": 2018,
     "name": "Hidden Cup 1",
     "tournaments": [
       "AoEHiddenCup"
