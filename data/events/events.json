@@ -328,5 +328,21 @@
     "tournaments": [
       "AoEHiddenCup"
     ]
+  },
+  {
+    "id": "am_secret_showmatch-20200201",
+    "year": 2020,
+    "name": "aM vs Secret Showmatch (2020-02-01)",
+    "tournaments": [
+      ["am_secret_showmatch-20200201", "aM vs Secret Showmatch"]
+    ]
+  },
+  {
+    "id": "fcc",
+    "year": 2020,
+    "name": "Fair Civs Cup",
+    "tournaments": [
+      "FCC_Bracket"
+    ]
   }
 ]

@@ -89,5 +89,7 @@ NAC3_Group_Stage,1002,5,Liereyy,Daut,3-1,2020-01-08
 NAC3_Group_Stage,1003,5,Hera,TheMax,3-0,2020-01-08
 
 # NAC3 Showmatch
-
 NAC3_Showmatch,1000,1,DauT,Villese,4-1,2020-01-12
+
+# aM vs Secret Showmatch
+am_secret_showmatch-20200201,1000,1,aM,Secret,3-2,2020-02-01
