@@ -236,3 +236,82 @@
       - '124832150' # Experimental__
     de:
       - '357795' # DracKeN
+- name: TheViper
+  country: de
+  platforms:
+    voobly:
+      - '123211439' # TheViper
+      - '123529195' # TyRanTTheViper
+      - '123286363' # Justin_D_Bieber
+      - '123164797' # BuzZ
+      - '123262516' # neversaynever
+      - '124706302' # toplo9999fan
+    de:
+      - '196240'
+- name: slam
+  country: ca
+  platforms:
+    voobly:
+      - '123497926' # secret
+      - '123806830' # membfan
+      - '123129489' # Surya
+      - '124388880' # whyiamsad
+      - '124110342' # 8Giacatluong
+    de:
+      - '614315'
+- name: Daniel
+  country: us
+  platforms:
+    voobly:
+      - '123256402'
+- name: yinghua
+  country: cn
+  platforms:
+    voobly:
+      - '123910183' # AreS
+      - '195356' # LoveCheng
+    vooblycn:
+      - '195356' # LoveCheng
+      - '123910183' # SY
+      - '127665' # ShuaiNiu
+- name: Lyx
+  country: cn
+  platforms:
+    voobly:
+      - '123230853' # SY
+    vooblycn:
+      - '123230853' # lyx
+      - '123219958' # lovezlp
+      - '180548' # VG_oo3
+      - '180548' # xiaoxin1985
+    de:
+      - '226575'
+- name: Nicov
+  country: ar
+  platforms:
+    voobly:
+      - '123477857' # Nicov_zZ
+      - '124178111' # Instincts__
+    de:
+      - '208393'
+- name: JorDan_23
+  country: de
+  platforms:
+    voobly:
+      - '817'
+- name: Melkor
+  country: ie
+  platforms:
+    voobly:
+      - '123922182' # heresy
+      - '123394463' # arenabot
+      - '124158935' # mattheus
+- name: TheMax
+  country: fi
+  platforms:
+    voobly:
+      - '123282211'
+      - '39623' # _TheMax
+      - '123636616' # iplaywithgoths
+    de:
+      - '572017'

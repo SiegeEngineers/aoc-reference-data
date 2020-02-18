@@ -344,5 +344,13 @@
     "tournaments": [
       "FCC_Bracket"
     ]
+  },
+  {
+    "id": "two_pools_showmatch-20200209",
+    "year": 2020,
+    "name": "Two Pools Showmatch (2020-02-09)",
+    "tournaments": [
+      ["two_pools_showmatch-20200209", "Two Pools Showmatch"]
+    ]
   }
 ]
