@@ -1,11 +1,13 @@
 # https://www.aoezone.net/threads/list-of-highest-rm-1v1-rating-reached.138320/
-- name: MbL40C
-  country: no
+- name: MbL
+  country: 'no'
   platforms:
     voobly:
     - '123844441' # MbL40C
     - '123422126' # MbDeD
     - '125375948' # Road3k
+    - '125129979' # hc: erik the red
+    - '125129978' # hc2
     de:
     - '251265'
 - name: BacT
@@ -15,24 +17,29 @@
     - '123194539' # BacT
     - '123945837' # 8euro
     - '123219836' # FyruT
+    - '125129985' # hc: La Hire
 - name: Vivi
   country: cn
   platforms:
     voobly:
     - '123493096' # Reallydiao
     - '123303397' # Fat_Dragon
+    - '125129996' # hc: genghis khan
+    - '125129996' # hc11
     de:
     - '215442'
-- name: _TheYo_
+- name: Yo
   country: cn
   platforms:
     voobly:
     - '123636492'
+    - '125129990' # hc7
+    - '125227711' # hc: hrolf the ganger
     vooblycn:
     - '123636492'
     de:
     - '197964'
-- name: xiaofan
+- name: Xiaofan
   country: cn
   platforms:
     voobly:
@@ -40,6 +47,7 @@
     vooblycn:
     - '70212'
 - name: St4rk
+  country: br
   platforms:
     voobly:
     - '123409476' # VNA
@@ -54,12 +62,14 @@
     de:
       - '232410' # Antagonist
       - '196366' # Laaaaan
-- name: dogao
+- name: Dogao
+  country: br
   platforms:
     voobly:
       - '123186723' # GiveMeYourSmile
       - '123444726' # dogao
       - '124469820' # VEM_MONSTRO
+      - '125227721' # hc: tamerlane
     de:
       - '199170'
 - name: TaToH
@@ -69,9 +79,11 @@
       - '123999216' # Secret
       - '125366410' # feudalVoy
       - '123347503' # HoTaT
+      - '125129995' # hc: bleda the hun
+      - '125129998' # hc12
     de:
       - '197388'
-- name: VIK_Vinchester
+- name: Vinch
   country: ru
   platforms:
     voobly:
@@ -79,10 +91,13 @@
       - '124170820' # Vinch
     de:
       - '271202' # Suma1L
-- name: _Modri
+- name: Modri
+  country: si
   platforms:
     voobly:
       - '124662701' # _Modri
+      - '124160323'
+      - '124860581'
       - '124860581' # stronglikeNEMAN
 - name: Kotex
   country: vn
@@ -93,14 +108,15 @@
       - '124764048' # 73_Kotex_3k3
       - '124584836' # Bong88
       - '124796466' # TrieuTuLong__HN
-- name: _Barles_
+- name: Barles
+  country: pl
   platforms:
     voobly:
       - '123850375' # _Wrachziikle_
       - '124214626' # _Barles_
       - '123934159' # Tia_Harribel
 - name: Yellow
-  country: cn
+  country: vn
   platforms:
     voobly:
       - '123174138' # saymyname
@@ -112,14 +128,15 @@
       - '123685860' # Marcelo_
     de:
       - '419803' # saymyname
-- name: chart
+- name: Chart
   country: jp
   platforms:
     voobly:
       - '124322377' # RiskyDice
       - '124508020' # chart11
       - '124206032' # PoJ
-- name: hyaganeglu
+- name: Hyaganeglu
+  country: null
   platforms:
     voobly:
       - '124806109' # Cyan_Alvein_Fan
@@ -144,6 +161,7 @@
   platforms:
     voobly:
       - '123658746'
+      - '125129985' # hc6
     de:
       - '196310'
 - name: ACCM
@@ -152,6 +170,7 @@
     voobly:
       - '123428504'
       - '123591487'
+      - '125129982' # hc: subotai
     de:
       - '347269'
 - name: Tim
@@ -159,6 +178,7 @@
   platforms:
     voobly:
       - '182612'
+      - '125129993' # hc: joan of arc
     de:
       - '534438'
 - name: CooL
@@ -173,6 +193,8 @@
   platforms:
     voobly:
       - '124147336'
+      - '125129977' # hc1
+      - '125227717' # hc: king alfonso
     de:
       - '506898'
 - name: Cloud
@@ -195,6 +217,8 @@
   platforms:
     voobly:
       - '12926'
+      - '125129993' # hc8
+      - '125129998' # hc: willy wallace
     de:
       - '198035'
 - name: Hera
@@ -202,6 +226,7 @@
   platforms:
     voobly:
       - '123984714'
+      - '125227715' # hc: ornlu the wolf
     de:
       - '199325'
 - name: Nili
@@ -211,7 +236,7 @@
       - '9267'
     de:
       - '197751'
-- name: PROject_Belgium
+- name: Belgium
   country: be
   platforms:
     voobly:
@@ -246,9 +271,11 @@
       - '123164797' # BuzZ
       - '123262516' # neversaynever
       - '124706302' # toplo9999fan
+      - '125129980' # hc4
+      - '125129978' # hc: robin hood
     de:
       - '196240'
-- name: slam
+- name: Slam
   country: ca
   platforms:
     voobly:
@@ -257,6 +284,7 @@
       - '123129489' # Surya
       - '124388880' # whyiamsad
       - '124110342' # 8Giacatluong
+      - '125129979' # hc3
     de:
       - '614315'
 - name: Daniel
@@ -264,7 +292,7 @@
   platforms:
     voobly:
       - '123256402'
-- name: yinghua
+- name: Yinghua
   country: cn
   platforms:
     voobly:
@@ -292,6 +320,8 @@
     voobly:
       - '123477857' # Nicov_zZ
       - '124178111' # Instincts__
+      - '125129977' # hc: attila the hun
+      - '125129982' # hc5
     de:
       - '208393'
 - name: JorDan_23
@@ -299,6 +329,7 @@
   platforms:
     voobly:
       - '817'
+      - '125129994' # hc: el cid
 - name: Melkor
   country: ie
   platforms:
@@ -313,5 +344,123 @@
       - '123282211'
       - '39623' # _TheMax
       - '123636616' # iplaywithgoths
+      - '125129980' # hc: nobonaga
     de:
       - '572017'
+- name: Villese
+  country: fi
+  platforms:
+    voobly:
+      - '124166670'
+      - '124240093' # jorgos
+      - '125129990' # hc: gods own sling
+- name: RiuT
+  country: br
+  platforms:
+    voobly:
+      - '56531'
+      - '123696164' # riutao
+      - '123747533' # caueq
+      - '84542' # safadao
+      - '11896' # sagramor
+      - '86350' # justdance
+      - '8643' # lein
+      - '125129995' # hc10
+- name: Miguel
+  country: br
+  platforms:
+    voobly:
+      - '123600879'
+      - '49541' # onlyrook
+      - '123961542' # redeyeddemon
+      - '123459695' # twik
+      - '227518' # miguelao
+      - '125129994' # hc9
+- name: Twigg
+  country: ar
+  platforms:
+    voobly:
+      - '124042289'
+      - '123784980' # zamasu
+      - '123975630' # rugila
+- name: JonSlow
+  country: il
+  platforms:
+    voobly:
+      - '11486'
+      - '123145092' # terror
+      - '123172587' # animaniacs
+- name: Vodka
+  country: it
+  platforms:
+    voobly:
+      - '123841591'
+      - '123946886'
+      - '125271720'
+- name: Sitaux
+  country: fr
+  platforms:
+    voobly:
+      - '125241102'
+      - '124313135'
+      - '124216278'
+      - '124728574'
+      - '124653323'
+- name: Rubenstock
+  country: fi
+  platforms:
+    voobly:
+      - '123417449'
+- name: Hoang
+  country: vn
+  platforms:
+    voobly:
+      - '123851854'
+      - '124750873'
+      - '124452866'
+      - '124449479'
+- name: AngelinaJolie
+  country: nl
+  platforms:
+    voobly:
+      - '124134715'
+      - '123493331'
+- name: Ganji
+  country: se
+  platforms:
+    voobly:
+      - '124183501'
+- name: Kasva
+  country: tr
+  platforms:
+    voobly:
+      - '125101127'
+      - '124473071'
+      - '125040561'
+- name: Jibatong
+  country: cn
+  platforms:
+    voobly:
+      - '123642997'
+      - '123641000'
+      - '123435951'
+    vooblycn:
+      - '123642997'
+      - '124576519'
+- name: Noisick
+  country: cl
+  platforms:
+    voobly:
+      - '124308648'
+- name: Inc
+  country: us
+  platforms:
+    voobly:
+      - '123644749'
+- name: Fedex
+  country: ar
+  platforms:
+    voobly:
+      - '123273973'
+      - '123725868' # gaucho
+      - '123601190' # buzz
