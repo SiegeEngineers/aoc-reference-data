@@ -22,5 +22,17 @@
     "name": "Definitive Edition",
     "url": "https://www.ageofempires.com/",
     "match_url": "https://www.ageofempires.com/stats/match-details/?game=age2&gameId="
+  },
+  {
+    "id": "zone",
+    "name": "MSN Gaming Zone",
+    "url": "https://zone.msn.com/",
+    "match_url": ""
+  },
+  {
+    "id": "lan",
+    "name": "LAN",
+    "url": "",
+    "match_url": ""
   }
 ]

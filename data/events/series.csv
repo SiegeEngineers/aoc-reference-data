@@ -96,3 +96,71 @@ am_secret_showmatch-20200201,1000,1,aM,Secret,3-2,2020-02-01
 
 # Two Pools Showmatch
 two_pools_showmatch-20200209,1000,1,aM,Secret,4-3,2020-02-09
+
+# Legion Clan 3
+lc3_playoff,1000,1,L_Clan_Shmeker,Argonaut_Rei,2-0,2004-03
+lc3_playoff,1001,1,CSA_Free,BsK_Koo_,2-0,2004-03
+lc3_playoff,1002,1,L_Clan_Bender,Ponpononnet,2-1,2004-03
+lc3_playoff,1003,1,L_Clan_Capoch,Argonaut_Narya,2-0,2004-03
+lc3_playoff,1004,1,L_Clan_Buddha,Argonaut_Envy,0-2,2004-03
+lc3_playoff,1005,1,PL_PeEL,CsI_Ruso,2-0,2004-03
+lc3_playoff,1006,1,StorM_Blade (Rami),Argonaut_Sunny,2-0,2004-03
+lc3_playoff,1007,1,RoR_xGeNeI2aLx,L_Clan_2ScareD,2-0,2004-03
+lc3_playoff,1008,1,WoLF_RuKie,CsI_Sheol (DamRightZilla),2-0,2004-03
+lc3_playoff,1009,1,CsI_AK (Arch_Vile),Hackl,1-0,2004-03
+lc3_playoff,1010,1,PL_Dziamdziak,StorM_Extacy,2-1,2004-03
+lc3_playoff,1011,1,_Cath_Joe,Argonaut_WaveZ,2-0,2004-03
+lc3_playoff,1000,2,L_Clan_Capoch,Makaho_KGB,2-0,2004-03
+lc3_playoff,1001,2,_Cath_Joe,PL_PeEL,2-1,2004-03
+lc3_playoff,1002,2,CSA_Free,_7DeMonS__,2-1,2004-03
+lc3_playoff,1003,2,PL_Dziamdziak,L_Clan_Bender,2-1,2004-03
+lc3_playoff,1004,2,_Cath_YuanYuan (Bika),StorM_Blade (Rami),0-2,2004-03
+lc3_playoff,1005,2,L_Clan_Shmeker,CsI_Inc,2-1,2004-03
+lc3_playoff,1006,2,WoLF_RuKie,RoR_xGeNeI2aLx,2-0,2004-03
+lc3_playoff,1000,3,CSA_Free,PL_Dziamdziak,2-1,2004-03
+lc3_playoff,1001,3,L_Clan_Capoch,_Cath_Joe,2-1,2004-03
+lc3_playoff,1002,3,StorM_Blade (Rami),L_Clan_Shmeker,2-0,2004-03
+lc3_playoff,1003,3,WoLF_RuKie,CsI_AK (Arch_Vile),2-0,2004-03
+lc3_final,1000,1,StorM_Blade (Rami),WoLF_RuKie,3-2,2004-03
+lc3_final,1001,1,CSA_Free,WoLF_RuKie,3-2,2004-03
+lc3_final,1002,1,L_Clan_Capoch,CSA_Free,4-1,2004-03
+lc3_final,1003,1,L_Clan_Capoch,WoLF_RuKie,4-1,2004-03
+lc3_final,1004,1,StorM_Blade (Rami),CSA_Free,4-1,2004-03
+lc3_final,1005,1,L_Clan_Capoch,StorM_Blade (Rami),4-1,2004-03
+
+# Clash of the Titans
+cott,1000,1,Arch_Koven,DevilZ_High,0-2,2000-08
+
+# Masters of AoC
+moaoc,1000,1,CNS_Grunt,NaK_Monk,1-0,2003-10-15
+moaoc,1001,1,Akire,VK_Harper,1-0,2003-10-15
+moaoc,1002,1,AK_Ruso,AK_AkeM,1-0,2003-10-15
+moaoc,1003,1,AK_Bake,KP_Busito,0-1,2003-10-15
+moaoc,1004,1,Ralber,Alaric,1-0,2003-10-15
+moaoc,1005,1,AK_Raider,L_Clan_Hanzo,1-0,2003-10-15
+moaoc,1006,1,NaK_Pelone,AK_Siemen,0-1,2003-10-15
+moaoc,1007,1,Ehe_Herna,Olympus_ppoc,0-1,2003-10-15
+moaoc,1008,1,CNS_Yanzi,AdepT,1-0,2003-10-15
+moaoc,1009,1,VK_Vince,RA_Kzuma,1-0,2003-10-15
+moaoc,1010,1,Celtarra (Fl_PoiSoN),AK_Vivas,0-1,2003-10-15
+moaoc,1011,1,Kenyo,L_Clan_Wrath,0-1,2003-10-15
+moaoc,1012,1,VK_Emarm,AK_Resol,1-0,2003-10-15
+moaoc,1013,1,VK_Cherokee,Jartum,0-1,2003-10-15
+moaoc,1014,1,StorM_Country,VK_Torneo,1-0,2003-10-15
+moaoc,1015,1,sg_LMU,CNS_PG,0-1,2003-10-15
+moaoc,1000,2,CNS_Grunt,Akire,1-0,2003-10-15
+moaoc,1001,2,AK_Ruso,KP_Busito,0-1,2003-10-15
+moaoc,1002,2,Ralber,AK_Raider,1-0,2003-10-15
+moaoc,1003,2,AK_Siemen,Olympus_ppoc,0-1,2003-10-15
+moaoc,1004,2,CNS_Yanzi,VK_Vince,1-0,2003-10-15
+moaoc,1005,2,AK_Vivas,L_Clan_Wrath,1-0,2003-10-15
+moaoc,1006,2,VK_Emarm,Jartum,1-0,2003-10-15
+moaoc,1007,2,StorM_Country,CNS_PG,0-1,2003-10-15
+moaoc,1000,3,CNS_Grunt,KP_Busito,1-0,2003-10-15
+moaoc,1001,3,Ralber,Olympus_ppoc,0-1,2003-10-15
+moaoc,1002,3,CNS_Yanzi,AK_Vivas,1-0,2003-10-15
+moaoc,1003,3,VK_Emarm,CNS_PG,0-1,2003-10-15
+moaoc,1000,4,CNS_Grunt,Olympus_ppoc,0-1,2003-10-15
+moaoc,1001,4,CNS_Yanzi,CNS_PG,1-0,2003-10-15
+moaoc,1000,5,CNS_Yanzi,Olympus_ppoc,1-0,2003-10-15
+moaoc,1001,5,CNS_PG,CNS_Grunt,1-0,2003-10-15

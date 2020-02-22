@@ -352,5 +352,46 @@
     "tournaments": [
       ["two_pools_showmatch-20200209", "Two Pools Showmatch"]
     ]
+  },
+  {
+    "id": "hc3",
+    "year": 2020,
+    "name": "Hidden Cup 3",
+    "tournaments": [
+      "hiddencup3qual"
+    ]
+  },
+  {
+    "id": "lc3",
+    "year": 2004,
+    "name": "Legion Cup 3",
+    "tournaments": [
+      ["lc3_playoff", "Legion Cup 3 Playoffs"],
+      ["lc3_final", "Legion Cup 3 Finals (Round Robin)"]
+    ]
+  },
+  {
+    "id": "cott",
+    "year": 2000,
+    "name": "Clash of the Titans",
+    "tournaments": [
+      ["cott", "Clash of the Titans"]
+    ]
+  },
+  {
+    "id": "moa",
+    "year": 2012,
+    "name": "Masters of Arabia",
+    "tournaments": [
+      "vcom-moa", "vcom-moa_"
+    ]
+  },
+  {
+    "id": "moaoc",
+    "year": 2003,
+    "name": "Masters of AoC",
+    "tournaments": [
+      ["moaoc", "Masters of AoC"]
+    ]
   }
 ]

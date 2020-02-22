@@ -7,7 +7,7 @@
     - '123422126' # MbDeD
     - '125375948' # Road3k
     - '125129979' # hc: erik the red
-    - '125129978' # hc2
+    - '125129978-2' # hc2
     de:
     - '251265'
 - name: BacT
@@ -25,7 +25,7 @@
     - '123493096' # Reallydiao
     - '123303397' # Fat_Dragon
     - '125129996' # hc: genghis khan
-    - '125129996' # hc11
+    - '125129996-11' # hc11
     de:
     - '215442'
 - name: Yo
@@ -33,7 +33,7 @@
   platforms:
     voobly:
     - '123636492'
-    - '125129990' # hc7
+    - '125129990-7' # hc7
     - '125227711' # hc: hrolf the ganger
     vooblycn:
     - '123636492'
@@ -80,7 +80,7 @@
       - '125366410' # feudalVoy
       - '123347503' # HoTaT
       - '125129995' # hc: bleda the hun
-      - '125129998' # hc12
+      - '125129998-12' # hc12
     de:
       - '197388'
 - name: Vinch
@@ -124,8 +124,6 @@
       - '165563' # 31_
       - '123193037' # ongchutraiheo
       - '123991049' # TuuSac
-      - '123247853' # Desperad0
-      - '123685860' # Marcelo_
     de:
       - '419803' # saymyname
 - name: Chart
@@ -161,7 +159,7 @@
   platforms:
     voobly:
       - '123658746'
-      - '125129985' # hc6
+      - '125129985-6' # hc6
     de:
       - '196310'
 - name: ACCM
@@ -193,7 +191,7 @@
   platforms:
     voobly:
       - '124147336'
-      - '125129977' # hc1
+      - '125129977-1' # hc1
       - '125227717' # hc: king alfonso
     de:
       - '506898'
@@ -217,14 +215,17 @@
   platforms:
     voobly:
       - '12926'
-      - '125129993' # hc8
+      - '125129993-8' # hc8
       - '125129998' # hc: willy wallace
     de:
       - '198035'
+    zone:
+      - 'daut'
 - name: Hera
   country: ca
   platforms:
     voobly:
+      - '124954867'
       - '123984714'
       - '125227715' # hc: ornlu the wolf
     de:
@@ -271,7 +272,7 @@
       - '123164797' # BuzZ
       - '123262516' # neversaynever
       - '124706302' # toplo9999fan
-      - '125129980' # hc4
+      - '125129980-4' # hc4
       - '125129978' # hc: robin hood
     de:
       - '196240'
@@ -282,9 +283,8 @@
       - '123497926' # secret
       - '123806830' # membfan
       - '123129489' # Surya
-      - '124388880' # whyiamsad
       - '124110342' # 8Giacatluong
-      - '125129979' # hc3
+      - '125129979-3' # hc3
     de:
       - '614315'
 - name: Daniel
@@ -292,6 +292,8 @@
   platforms:
     voobly:
       - '123256402'
+    de:
+      - '265517'
 - name: Yinghua
   country: cn
   platforms:
@@ -318,10 +320,11 @@
   country: ar
   platforms:
     voobly:
+      - '123807394' #
       - '123477857' # Nicov_zZ
       - '124178111' # Instincts__
       - '125129977' # hc: attila the hun
-      - '125129982' # hc5
+      - '125129982-5' # hc5
     de:
       - '208393'
 - name: JorDan_23
@@ -365,7 +368,7 @@
       - '11896' # sagramor
       - '86350' # justdance
       - '8643' # lein
-      - '125129995' # hc10
+      - '125129995-10' # hc10
 - name: Miguel
   country: br
   platforms:
@@ -375,7 +378,7 @@
       - '123961542' # redeyeddemon
       - '123459695' # twik
       - '227518' # miguelao
-      - '125129994' # hc9
+      - '125129994-9' # hc9
 - name: Twigg
   country: ar
   platforms:
@@ -406,6 +409,8 @@
       - '124216278'
       - '124728574'
       - '124653323'
+    de:
+      - '1311198'
 - name: Rubenstock
   country: fi
   platforms:
@@ -464,3 +469,71 @@
       - '123273973'
       - '123725868' # gaucho
       - '123601190' # buzz
+- name: Dziamdziak
+  country: pl
+  platforms:
+    voobly:
+      - '9806'
+    zone:
+      - 'dziamdziak'
+- name: Ppoc
+  country: es
+  platforms:
+    lan:
+      - 'ppoc'
+- name: Yanzi
+  country: hk
+  platforms:
+    lan:
+      - 'yanzi'
+- name: kkab
+  country: kr
+  platforms:
+    voobly:
+      - '72440'
+    lan:
+      - 'kkab'
+- name: Grunt
+  country: kr
+  platforms:
+    voobly:
+      - '123189460'
+    lan:
+      - 'grunt'
+    zone:
+      - 'grunt'
+- name: Koven
+  country: kr
+  platforms:
+    voobly:
+      - '13584'
+    lan:
+      - 'koven'
+    zone:
+      - 'koven'
+- name: Halen
+  country: jp
+  platforms:
+    voobly:
+      - '16205'
+    zone:
+      - 'halen'
+- name: RD_ChampioN
+  country: kr
+  platforms:
+    voobly:
+      - '180938'
+    zone:
+      - 'champion'
+- name: Chris
+  country: ca
+  platforms:
+    voobly:
+      - '123397426'
+    zone:
+      - 'chris'
+- name: The_Sheriff
+  country: us
+  platforms:
+    zone:
+      - 'sheriff'
