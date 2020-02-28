@@ -316,7 +316,7 @@
   {
     "id": "arbalet2",
     "year": 2002,
-    "name": "Arbalet Cup I",
+    "name": "Arbalet Cup II",
     "tournaments": [
       ["arbalet2_playoff", "Arbalet Cup II Playoffs"]
     ]
@@ -392,6 +392,14 @@
     "name": "Masters of AoC",
     "tournaments": [
       ["moaoc", "Masters of AoC"]
+    ]
+  },
+  {
+    "id": "arbalet3",
+    "year": 2003,
+    "name": "Arbalet Cup III",
+    "tournaments": [
+      ["arbalet3_finals", "Arbalet Cup III Finals (Round Robin"]
     ]
   }
 ]

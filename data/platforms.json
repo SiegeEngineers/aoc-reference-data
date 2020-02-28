@@ -34,5 +34,17 @@
     "name": "LAN",
     "url": "",
     "match_url": ""
+  },
+  {
+    "id": "gamepark",
+    "name": "GamePark",
+    "url": "http://www.gamepark.eu/",
+    "match_url": ""
+  },
+  {
+    "id": "igz",
+    "name": "International Gaming Zones",
+    "url": "http://www.igzones.com/",
+    "match_url": ""
   }
 ]

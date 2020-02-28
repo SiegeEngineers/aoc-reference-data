@@ -177,8 +177,17 @@
     voobly:
       - '182612'
       - '125129993' # hc: joan of arc
+      - '124367119' # zhangfei
+      - '123882867' # VG hali
+      - '43680' # Fairy
+      - '123536800' # Fairy__
+    vooblycn:
+      - '182612'
+      - '124539771' # iamsange
     de:
       - '534438'
+    zone:
+      - 'tim'
 - name: CooL
   country: vn
   platforms:
@@ -220,6 +229,8 @@
     de:
       - '198035'
     zone:
+      - 'daut'
+    gamepark:
       - 'daut'
 - name: Hera
   country: ca
@@ -276,6 +287,8 @@
       - '125129978' # hc: robin hood
     de:
       - '196240'
+    zone:
+      - 'viper'
 - name: Slam
   country: ca
   platforms:
@@ -309,11 +322,11 @@
   platforms:
     voobly:
       - '123230853' # SY
+      - '123219958' # lovezlp
+      - '180548' # xiaoxin1985
     vooblycn:
       - '123230853' # lyx
-      - '123219958' # lovezlp
       - '180548' # VG_oo3
-      - '180548' # xiaoxin1985
     de:
       - '226575'
 - name: Nicov
@@ -393,6 +406,8 @@
       - '11486'
       - '123145092' # terror
       - '123172587' # animaniacs
+    gamepark:
+      - 'jonslow'
 - name: Vodka
   country: it
   platforms:
@@ -462,6 +477,10 @@
   platforms:
     voobly:
       - '123644749'
+    de:
+      - '221997'
+    zone:
+      - 'inc'
 - name: Fedex
   country: ar
   platforms:
@@ -476,15 +495,21 @@
       - '9806'
     zone:
       - 'dziamdziak'
+    gamepark:
+      - 'dziamdziak'
 - name: Ppoc
   country: es
   platforms:
     lan:
       - 'ppoc'
+    zone:
+      - 'ppoc'
 - name: Yanzi
   country: hk
   platforms:
     lan:
+      - 'yanzi'
+    zone:
       - 'yanzi'
 - name: kkab
   country: kr
@@ -492,6 +517,8 @@
     voobly:
       - '72440'
     lan:
+      - 'kkab'
+    zone:
       - 'kkab'
 - name: Grunt
   country: kr
@@ -532,8 +559,88 @@
       - '123397426'
     zone:
       - 'chris'
+    gamepark:
+      - 'chris'
 - name: The_Sheriff
   country: us
   platforms:
     zone:
       - 'sheriff'
+- name: 2ScareD
+  country: se
+  platforms:
+    voobly:
+      - '155770'
+    zone:
+      - '2scared'
+    gamepark:
+      - '2scared'
+- name: B1ade # aka Seker
+  country: ca
+  platforms:
+    voobly:
+      - '16877'
+    zone:
+      - 'blade'
+- name: Spring
+  country: us
+  platforms:
+    voobly:
+      - '3867'
+    zone:
+      - 'spring'
+- name: Windy
+  country: cn
+  platforms:
+    voobly:
+      - '123429442'
+    zone:
+      - 'windy'
+- name: Iori
+  country: cn
+  platforms:
+    zone:
+      - 'iori'
+- name: Cath_Joe
+  country:
+  platforms:
+    zone:
+      - 'cath_joe'
+- name: Ruso
+  country: es
+  platforms:
+    gamepark:
+      - 'ruso'
+    zone:
+      - 'ruso'
+- name: Alive
+  country: br
+  platforms:
+    voobly:
+      - '124097512'
+      - '135459'
+      - '123452158'
+      - '160816'
+    zone:
+      - 'alive'
+- name: Ding
+  country: hk
+  platforms:
+    voobly:
+      - '722'
+    zone:
+      - 'ding'
+    igz:
+      - 'ding'
+- name: Vile
+  country: my
+  platforms:
+    zone:
+      - 'vile'
+- name: Kmkm
+  country: tw
+  platforms:
+    voobly:
+      - '22956'
+    zone:
+      - 'kmkm'
