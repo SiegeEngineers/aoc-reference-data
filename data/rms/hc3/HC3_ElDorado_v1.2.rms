@@ -1,0 +1,545 @@
+/* ************ HC3_ElDorado ************ */
+
+/* map made by T-West for HiddenCup3 */
+/* based on ECL_ElDorado, which in turn was based on the WSVG version by HJ */
+
+/* all HiddenCup maps are carefully edited to prevent bugged resources */
+/* in all HiddenCup maps each player starts with one sheep controlled from the start */
+
+#const PLACEHOLDER 55 /* dead fishing ship */
+
+<PLAYER_SETUP>
+random_placement
+ai_info_map_type GOLD_RUSH
+
+<LAND_GENERATION>
+
+base_terrain GRASS3
+
+/* MIDDLE */
+create_land {
+	terrain_type DESERT
+	land_percent 2
+ 	start_random
+  	percent_chance 50
+    	left_border   41
+    	right_border  41
+    	top_border    41
+    	bottom_border 41
+  	percent_chance 50
+    	left_border   42
+    	right_border  42
+    	top_border    42
+    	bottom_border 42
+  end_random
+	clumping_factor 10
+	border_fuzziness 10
+}
+
+/* LAND */
+/* Note the right and bottom borders generate 1 less tile than do the top and
+ * left borders. */
+create_land {
+	terrain_type GRASS
+	land_percent 97
+	left_border 7
+	right_border 8
+	top_border 7
+	bottom_border 8
+	border_fuzziness 100
+	clumping_factor	15
+	other_zone_avoidance_distance	0
+}
+
+/* TC AREA */
+create_player_lands {
+	terrain_type SHALLOW
+	base_size	6
+  number_of_tiles 0
+	left_border 8
+	right_border 9
+	top_border 8
+	bottom_border 9
+	border_fuzziness 100
+	clumping_factor	15
+	set_zone_by_team
+}
+
+
+<TERRAIN_GENERATION>
+
+/* Outside terrain */
+create_terrain WATER {
+  base_terrain GRASS3
+  land_percent 100
+
+  /* Avoid a rare case where water spawns in the middle instead of outside. */
+  number_of_clumps 999
+  spacing_to_other_terrain_types 2
+}
+
+/* MAIN PATCH */
+create_terrain LEAVES {
+	base_terrain GRASS
+	land_percent 50
+	other_zone_avoidance_distance	5
+	number_of_clumps 20
+	set_avoid_player_start_areas
+	set_scale_by_groups
+	set_scale_by_size
+}
+
+/* SECONDARY PATCH */
+create_terrain GRASS2 {
+  base_terrain LEAVES
+  land_percent 10
+  number_of_clumps 20
+  clumping_factor 25
+  spacing_to_other_terrain_types 2
+  set_avoid_player_start_areas
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+/* JUNGLES */
+create_terrain JUNGLE {
+  base_terrain GRASS
+  land_percent 3
+  number_of_clumps 30
+ 	border_fuzziness 50
+  clumping_factor	50
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+create_terrain JUNGLE {
+  base_terrain LEAVES
+  land_percent 3
+  number_of_clumps 30
+ 	border_fuzziness 1
+  clumping_factor	10
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+create_terrain JUNGLE {
+  base_terrain GRASS2
+  land_percent 4
+  number_of_clumps 30
+ 	border_fuzziness 1
+  clumping_factor	1
+  spacing_to_other_terrain_types 3
+  set_avoid_player_start_areas
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+create_terrain JUNGLE {
+  base_terrain LEAVES
+  land_percent 3
+  number_of_clumps 30
+ 	border_fuzziness 1
+  clumping_factor	10
+  if TINY_MAP
+    spacing_to_other_terrain_types 1
+  else
+    spacing_to_other_terrain_types 2
+  endif
+  set_avoid_player_start_areas
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+/* TERTIARY PATCH */
+create_terrain GRASS2 {
+  base_terrain LEAVES
+  land_percent 10
+  number_of_clumps 20
+  clumping_factor 25
+  spacing_to_other_terrain_types 2
+  set_avoid_player_start_areas
+	set_scale_by_groups
+	set_scale_by_size
+}
+
+/* MIXING WATER */
+create_terrain MED_WATER {
+  base_terrain WATER
+  number_of_clumps 6
+  spacing_to_other_terrain_types 3
+  land_percent 40
+}
+
+create_terrain DEEP_WATER {
+  base_terrain MED_WATER
+  number_of_clumps 6
+  spacing_to_other_terrain_types 5
+  land_percent 5
+}
+
+create_terrain DEEP_WATER {
+  base_terrain MED_WATER
+  number_of_clumps 20
+  spacing_to_other_terrain_types 1
+  land_percent 1
+}
+
+create_terrain MED_WATER {
+  base_terrain DEEP_WATER
+  number_of_clumps 30
+  spacing_to_other_terrain_types 1
+  land_percent 1
+}
+
+create_terrain WATER {
+  base_terrain MED_WATER
+  number_of_clumps 30
+  spacing_to_other_terrain_types 1
+  land_percent 1
+}
+
+<ELEVATION_GENERATION>
+create_elevation 8 {
+  base_terrain GRASS
+  number_of_clumps 30
+  number_of_tiles 2000
+  clumping_factor	15
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+<CONNECTION_GENERATION>
+
+create_connect_to_nonplayer_land
+{
+replace_terrain SHALLOW BEACH
+terrain_cost SHALLOW 14
+terrain_cost MED_WATER 15
+terrain_cost WATER 15
+terrain_cost JUNGLE 15
+terrain_cost LEAVES 15
+terrain_cost GRASS2 15
+terrain_cost GRASS 15
+terrain_cost GRASS3 15
+terrain_size BEACH 1 0
+}
+
+<OBJECTS_GENERATION>
+
+
+create_object PLACEHOLDER
+{
+    set_place_for_every_player
+    max_distance_to_players 0
+    second_object TOWN_CENTER
+}
+
+create_object SCOUT {
+  number_of_objects 1
+  set_place_for_every_player
+  min_distance_to_players 7
+  max_distance_to_players 9
+}
+
+create_object VILLAGER {
+  set_place_for_every_player
+  min_distance_to_players 6
+  max_distance_to_players 6
+}
+
+if REGICIDE
+  create_object VILLAGER {
+    number_of_objects 7
+    set_place_for_every_player
+    min_distance_to_players 6
+    max_distance_to_players 6
+  }
+
+  create_object KING {
+    set_place_for_every_player
+    min_distance_to_players 6
+    max_distance_to_players 6
+  }
+
+  create_object CASTLE {
+    set_place_for_every_player
+    min_distance_to_players 10
+    max_distance_to_players 10
+  }
+endif
+
+create_object RELIC {
+  number_of_objects 5
+  min_distance_to_players 25
+  min_distance_group_placement 5
+  temp_min_distance_group_placement 20
+}
+
+/* Player resources. */
+if DEATH_MATCH /* Do not spawn normal resources in Death Match. */
+else
+  create_object TURKEY {
+     number_of_objects 1
+     set_loose_grouping
+     set_place_for_every_player
+     min_distance_to_players 9
+     max_distance_to_players 10
+  }
+
+  create_object TURKEY {
+     number_of_objects 3
+     set_loose_grouping
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players 9
+     max_distance_to_players 10
+  }
+
+  create_object TURKEY {
+     number_of_objects 2
+     number_of_groups 2
+     set_loose_grouping
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players 14
+     max_distance_to_players 26
+  }
+
+  create_object DEER {
+    number_of_objects 4
+    group_placement_radius 3
+    set_loose_grouping
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players 19
+    max_distance_to_players 21
+  }
+
+  create_object BOAR {
+    number_of_objects 1
+    number_of_groups 1
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players 16
+    max_distance_to_players 20
+  }
+
+  create_object JUNGLETREE {
+    number_of_objects 1
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players 3
+    max_distance_to_players 3
+    min_distance_group_placement 2
+  }
+
+  create_object JUNGLETREE {
+    number_of_objects 2
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players 4
+    max_distance_to_players 4
+    temp_min_distance_group_placement 7
+    min_distance_group_placement 2
+  }
+
+  create_object JUNGLETREE {
+    number_of_objects 3
+    set_gaia_object_only
+    set_place_for_every_player
+    min_distance_to_players 6
+    max_distance_to_players 8
+    temp_min_distance_group_placement 9
+    min_distance_group_placement 2
+  }
+
+  /* TC Fish */
+
+endif
+
+
+create_object GOLD
+{
+  number_of_objects 2
+  number_of_groups 1
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 12
+  max_distance_to_players 16
+  min_distance_group_placement 5
+  max_distance_to_other_zones 7
+  max_distance_to_other_zones 4 /* Keeps gold away from the coast. */
+}
+
+create_object STONE
+{
+  number_of_objects 2
+  number_of_groups 1
+  group_placement_radius 3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players 10
+  max_distance_to_players 14
+  min_distance_group_placement 5
+  max_distance_to_other_zones 7
+  max_distance_to_other_zones 4 /* Keeps stone away from the coast. */
+}
+
+/* MAP REVEALER */
+create_object MAP_REVEALER {
+	terrain_to_place_on DESERT
+	number_of_objects	999
+	set_place_for_every_player
+}
+
+/* STRAGGLER TREES */
+create_object JUNGLE_TREE {
+  number_of_objects 50
+  set_gaia_object_only
+  group_variance 1
+  group_placement_radius 1
+  min_distance_to_players 18
+  set_scale_by_groups
+  set_scale_by_size
+  max_distance_to_other_zones 1 /* Keeps trees away from the coast. */
+}
+
+create_object JUNGLE_TREE {
+  number_of_objects 50
+  set_gaia_object_only
+  group_variance 1
+  group_placement_radius 1
+  min_distance_to_players 18
+  set_scale_by_groups
+  set_scale_by_size
+  max_distance_to_other_zones 1 /* Keeps trees away from the coast. */
+}
+
+create_object JUNGLE_TREE {
+  number_of_objects 50
+  set_gaia_object_only
+  group_variance 1
+  group_placement_radius 1
+  min_distance_to_players 18
+  set_scale_by_groups
+  set_scale_by_size
+  max_distance_to_other_zones 1 /* Keeps trees away from the coast. */
+}
+
+create_object JUNGLE_TREE {
+  number_of_objects 50
+  set_gaia_object_only
+  group_variance 1
+  group_placement_radius 1
+  min_distance_to_players 18
+  set_scale_by_groups
+  set_scale_by_size
+  max_distance_to_other_zones 1 /* Keeps trees away from the coast. */
+}
+
+/* RESOURCES IN THE MIDDLE DESERT */
+create_object STONE {
+  terrain_to_place_on DESERT
+  number_of_objects 4
+  number_of_groups 10
+  group_variance 1
+  group_placement_radius 0
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement 0
+  set_scaling_to_map_size
+}
+
+create_object GOLD {
+  terrain_to_place_on DESERT
+  number_of_objects 4
+  number_of_groups 10
+  group_variance 1
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_group_placement 0
+  set_scaling_to_map_size
+}
+
+/* Edge fish. */
+create_object SHORE_FISH {
+  number_of_objects 40
+  set_scaling_to_map_size
+  set_gaia_object_only
+  temp_min_distance_group_placement 4
+  min_distance_group_placement 3
+  terrain_to_place_on WATER
+}
+
+create_object SALMON {
+  number_of_objects 140
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 2
+  min_distance_group_placement 7
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+create_object SNAPPER {
+  number_of_objects 140
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones 2
+  min_distance_group_placement 7
+  set_scale_by_groups
+  set_scale_by_size
+}
+
+create_object PLACEHOLDER
+{
+number_of_objects 99
+  terrain_to_place_on BEACH
+  set_place_for_every_player
+min_distance_group_placement 0
+actor_area 12
+max_distance_to_players 4
+min_distance_to_players 3
+actor_area_radius 2
+}
+
+  create_object MARLIN1 {
+  	terrain_to_place_on SHALLOW
+  	number_of_objects	1
+  	set_gaia_object_only
+  	set_place_for_every_player
+  	min_distance_to_players 2
+  	max_distance_to_players 2
+    min_distance_group_placement 2
+	avoid_actor_area 12
+  }
+
+  create_object MARLIN1 {
+  	terrain_to_place_on SHALLOW
+  	number_of_objects	1
+  	set_gaia_object_only
+  	set_place_for_every_player
+  	min_distance_to_players	3
+  	max_distance_to_players	3
+    min_distance_group_placement 2
+	avoid_actor_area 12
+  }
+
+  create_object MARLIN1 {
+  	terrain_to_place_on SHALLOW
+  	number_of_objects 1
+  	set_gaia_object_only
+  	set_place_for_every_player
+  	min_distance_to_players	3
+  	max_distance_to_players	3
+    min_distance_group_placement 2
+	avoid_actor_area 12
+  }
