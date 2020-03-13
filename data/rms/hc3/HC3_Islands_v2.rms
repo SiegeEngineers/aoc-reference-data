@@ -1,0 +1,927 @@
+/* ************ HC3_Islands ************ */
+
+/* map made by HenkDeSuperNerd for HiddenCup3 */
+/* Based on the 2018 version with extra seasons by Forgotten Empires (january 2020) */
+
+/* all HiddenCup maps are carefully edited to prevent bugged resources */
+/* in all HiddenCup maps each player starts with one sheep controlled from the start */
+
+
+/* PH SEASONS */
+/* reduced possible seasons, and removed annoying african trees */
+start_random
+percent_chance 18 #define PH_SPRING
+percent_chance 15 #define PH_ALPINE 
+percent_chance 15 #define PH_DESERT
+percent_chance 10 #define PH_TROPHICALSOUTH
+percent_chance 8 #define PH_TROPHICALEAST
+percent_chance 8 #define PH_AFRICAN_C /* uses the newer African season, which doesnt have Acacia trees */
+percent_chance 8 #define PH_ASIAN
+percent_chance 8 #define PH_AUTUMN
+percent_chance 0 #define PH_FROZEN /* removed */
+percent_chance 10 #define PH_MEDISOUTH
+end_random
+
+#include_drs F_seasons.inc
+
+<PLAYER_SETUP>
+  random_placement 
+	ai_info_map_type ISLANDS 0 0 0
+#include_drs thebr_setup.inc
+
+<LAND_GENERATION>
+base_terrain VODA
+
+create_player_lands 
+{                     
+  terrain_type                     LAYER_A
+  land_percent                     35
+  base_size                        12
+  left_border                      7
+  right_border                     7
+  top_border                       7
+  bottom_border                    7
+  border_fuzziness                   7
+  other_zone_avoidance_distance    9
+}
+
+/* ************** RESOURCE ISLANDS ************ */
+
+create_land 
+{                 
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          20
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 56
+}
+
+create_land 
+{
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          23
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 57
+}
+
+/* ================= MEDIUM */
+if MEDIUM_MAP
+create_land 
+{              
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          21
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 58
+}
+endif
+
+/* ====================== LARGE */
+if LARGE_MAP
+create_land 
+{          
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          21
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 58
+}
+create_land 
+{                   
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          24
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 59
+}
+endif
+
+/* ======================== HUGE */
+if HUGE_MAP
+create_land 
+{        
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          21
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 58
+}
+
+create_land 
+{                
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          22
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 59
+}
+
+create_land 
+{       
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          24
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 60
+}
+endif
+
+/* ======================== GIGANTIC */
+if GIGANTIC_MAP
+create_land 
+{ 
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          21
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 58
+}
+
+create_land 
+{               
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          22
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 59
+}
+
+create_land 
+{  
+    terrain_type                     LAYER_A 
+  land_percent                     1
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          24
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30 
+zone 60
+}
+endif
+
+
+/* ======================== LUDIKRIS */
+if LUDIKRIS_MAP
+create_land 
+{          
+    terrain_type                     LAYER_A 
+  land_percent                     2
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          21
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 58
+}
+
+create_land 
+{        
+    terrain_type                     LAYER_A 
+  land_percent                     2
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          22
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30
+zone 59
+}
+
+create_land 
+{             
+    terrain_type                     LAYER_A 
+  land_percent                     2
+  border_fuzziness                 10
+  other_zone_avoidance_distance    7
+  land_id                          24
+  left_border                      30
+  right_border                     30
+  top_border                       30
+  bottom_border                    30 
+zone 60
+}
+endif
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+#include_drs F_ColorCorrection.inc
+
+#define WMASK_VODA
+#include_drs F_WaterMasking.inc
+
+/* PRIMARY FOREST */
+
+if PH_AFRICAN
+create_terrain PALM_DESERT
+else
+create_terrain WOODIES
+endif
+{
+  base_terrain                   LAYER_A
+  spacing_to_other_terrain_types 4
+  land_percent                   6
+  number_of_clumps               15
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* PRIMARY PATCH */
+
+create_terrain LAYER_B
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               10
+  spacing_to_other_terrain_types 1
+  land_percent                   4
+  set_scale_by_size
+  terrain_mask 1
+}
+
+/* SECONDARY PATCH */
+
+create_terrain LAYER_C
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               24
+  spacing_to_other_terrain_types 1
+  land_percent                   2
+  set_scale_by_size
+  terrain_mask 1
+}
+
+/* LAYER E+F Patch */
+
+   create_terrain LAYER_E
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               20
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+terrain_mask 1
+}
+
+   create_terrain LAYER_F
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               14
+  spacing_to_other_terrain_types 0
+  land_percent                   1
+  set_scale_by_size
+terrain_mask 1
+}
+
+<OBJECTS_GENERATION>
+/* TINY_MAP OTHER_RESOURCES OTHER_GAME */
+
+create_object TOWN_CENTER
+{
+set_place_for_every_player
+min_distance_to_players    0
+max_distance_to_players    0
+}
+
+create_object STRAGGLER
+{
+number_of_objects             2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players       4
+max_distance_to_players       5
+min_distance_group_placement  2
+}
+
+create_object STRAGGLER
+{
+number_of_objects             3
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players       6
+max_distance_to_players       8
+min_distance_group_placement  2
+}
+
+
+create_object SCOUT
+{
+number_of_objects             1
+set_place_for_every_player
+min_distance_to_players       7
+max_distance_to_players       9
+avoid_forest_zone 1
+}
+
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players       6
+max_distance_to_players       6
+}
+
+/* player sheep */
+create_object SHEEP
+{
+set_place_for_every_player
+number_of_objects 1
+set_loose_grouping
+min_distance_to_players    9
+max_distance_to_players    10	
+avoid_forest_zone 2
+avoid_cliff_zone 2
+}
+
+create_object SHEEP
+{
+set_place_for_every_player
+set_gaia_object_only
+number_of_objects 3
+set_loose_grouping
+min_distance_to_players    9
+max_distance_to_players    10	
+avoid_forest_zone 2
+avoid_cliff_zone 2
+}
+
+
+create_object KERICEK
+{
+number_of_objects          6
+group_placement_radius     3
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players    10
+max_distance_to_players    12
+actor_area 10
+actor_area_radius 7	/* increased to 7 */
+min_distance_group_placement 2
+avoid_forest_zone 4
+avoid_cliff_zone 2
+}
+
+
+create_object GOLD /* primary gold spawn close */
+{
+number_of_objects          7
+group_placement_radius     3
+min_distance_group_placement 2
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players    12
+max_distance_to_players    16 /* reduced from 28 for primary gold */
+max_distance_to_other_zones  7
+avoid_forest_zone 2 /* originally 1 */
+avoid_cliff_zone 2
+actor_area 11
+actor_area_radius 7	/* increased to 7 */
+avoid_actor_area 10
+}
+
+/* primary stone */
+create_object STONE
+{
+number_of_objects          5
+group_placement_radius     2 /* smaller radius help to fit the objects */
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players    14
+max_distance_to_players    18 /* primary stone close */
+min_distance_group_placement  3
+max_distance_to_other_zones  4
+avoid_forest_zone 2
+avoid_cliff_zone 2
+actor_area 12
+actor_area_radius 7	/* increased to 7 */
+avoid_actor_area 10 /* kericek */
+avoid_actor_area 11 /* Primary gold */
+}
+
+create_object DEER
+{
+number_of_objects          4 /* always 4 */
+number_of_groups 	     1
+group_placement_radius     3
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players    19
+max_distance_to_players    21
+avoid_forest_zone 2
+avoid_actor_area 10 /* spaced away from forage */
+}
+
+/* sheep before boar so they can block */
+create_object SHEEP
+{
+number_of_objects 2
+number_of_groups 2
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players    14
+max_distance_to_players    19 /* sheep closer to avoid spawning on enemy island */
+avoid_forest_zone 2
+}
+
+create_object BOAR
+{
+number_of_objects          1
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players    16
+max_distance_to_players    20
+avoid_forest_zone 2
+}
+
+create_object BOAR
+{
+number_of_objects          1
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players    16
+max_distance_to_players    20
+avoid_forest_zone 2
+}
+
+
+create_object GOLD /* secondary gold spawns far */
+{
+number_of_objects          7
+group_placement_radius     3
+min_distance_group_placement 2
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players    16
+max_distance_to_players    28
+max_distance_to_other_zones  7
+avoid_forest_zone 2
+avoid_cliff_zone 2
+actor_area 13
+actor_area_radius 7	/* increased to 7 */
+avoid_actor_area 10 /* kericek */
+avoid_actor_area 11 /* Primary gold */
+avoid_actor_area 12 /* primary stone */
+}
+
+
+create_object STONE
+{
+number_of_objects          5
+group_placement_radius     2 /* reduced placement radius */
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players    18
+max_distance_to_players    30
+min_distance_group_placement  3
+max_distance_to_other_zones  4
+avoid_forest_zone 2
+avoid_cliff_zone 2
+actor_area 14
+actor_area_radius 7	/* increased to 7 */
+avoid_actor_area 10 /* kericek */
+avoid_actor_area 11 /* primary gold */
+avoid_actor_area 12 /* primary stone */
+avoid_actor_area 13 /* second gold */
+}
+
+
+/* additional neutral gold and stone removed */
+
+/* extra gold and stone on neutral islands */
+
+/* ************************************** */
+
+create_object GOLD
+{
+  number_of_groups           2
+  number_of_objects          3
+  group_placement_radius     1 /* reduced */
+  temp_min_distance_group_placement 3 /* spaces the golds somewhat appart */
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 20
+}
+
+
+
+
+create_object STONE
+{
+  number_of_objects          3 /* increased from 2 to 3 tiles */
+  group_placement_radius     1 /* reduced */
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 23
+  min_distance_group_placement 2
+}
+
+/* rubble easter egg */
+create_object RUBBLE_3_X_3
+{
+number_of_objects 3
+min_distance_group_placement 1
+set_gaia_object_only
+place_on_specific_land_id 23
+max_distance_to_other_zones 2
+max_distance_to_players 3
+avoid_forest_zone 1
+}
+
+#const DEAD_ARCHER 3
+create_object DEAD_ARCHER
+{
+number_of_objects 5
+temp_min_distance_group_placement 1
+set_gaia_object_only
+place_on_specific_land_id 23
+max_distance_to_other_zones 2
+max_distance_to_players 4
+avoid_forest_zone 1
+}
+
+/* ======================= MEDIUM */
+if MEDIUM_MAP
+create_object GOLD
+{
+  number_of_objects          5
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 20
+}
+
+create_object GOLD
+{
+  number_of_objects          5
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 21
+}
+
+create_object STONE
+{
+  number_of_objects          6
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 23
+}
+endif
+
+/* =========================== LARGE */
+if LARGE_MAP
+create_object GOLD
+{
+  number_of_objects          5
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 20
+}
+
+create_object GOLD
+{
+  number_of_objects          5
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 21
+}
+
+create_object STONE
+{
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 23
+}
+
+create_object STONE
+{
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 24
+}
+endif
+
+/* ====================== HUGE */
+if HUGE_MAP
+create_object GOLD
+{
+  number_of_objects          5
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 20
+}
+
+create_object GOLD
+{
+  number_of_objects          5
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 21
+}
+
+create_object GOLD
+{
+  number_of_objects          5
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 22
+}
+
+create_object STONE
+{
+  number_of_objects          6
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 23
+}
+
+create_object STONE
+{
+  number_of_objects          6
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 24
+}
+endif
+
+/* ====================== GIGANTIC */
+if GIGANTIC_MAP
+create_object GOLD
+{
+  number_of_objects          7
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 20
+}
+
+create_object GOLD
+{
+  number_of_objects          7
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 21
+}
+
+create_object GOLD
+{
+  number_of_objects          7
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 22
+}
+
+create_object STONE
+{
+  number_of_objects          8
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 23
+}
+
+create_object STONE
+{
+  number_of_objects          8
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 24
+}
+endif
+
+
+/* ====================== LUDIKRIS */
+if LUDIKRIS_MAP
+create_object GOLD
+{
+  number_of_objects          9
+  number_of_groups	     2
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 20
+}
+
+create_object GOLD
+{
+  number_of_objects          9
+  number_of_groups	     2
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 21
+}
+
+create_object GOLD
+{
+  number_of_objects          9
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 22
+}
+
+create_object STONE
+{
+  number_of_objects          10
+  number_of_groups	     2
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 23
+}
+
+create_object STONE
+{
+  number_of_objects          10
+  number_of_groups	     2
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  place_on_specific_land_id 24
+}
+endif
+
+/* ================================= END */
+
+/* fish */
+create_object MELKARYBA
+{
+number_of_objects                   9999
+set_gaia_object_only
+temp_min_distance_group_placement  6
+}
+
+create_object FISH_A
+{
+number_of_objects                   6
+set_scaling_to_map_size
+set_gaia_object_only
+max_distance_to_other_zones         4
+min_distance_group_placement  4
+}
+
+create_object FISH_B
+{
+number_of_objects                   170
+set_scaling_to_map_size
+set_gaia_object_only
+max_distance_to_other_zones         4
+min_distance_group_placement  8
+}
+
+/* map stragglers */
+
+create_object STRAGGLER
+{
+number_of_objects          15
+set_gaia_object_only
+set_scaling_to_map_size
+min_distance_to_players    12
+avoid_actor_area 10
+avoid_actor_area 11
+avoid_actor_area 12
+avoid_actor_area 13
+avoid_actor_area 14
+}
+
+
+
+/* birds */
+create_object BIRDS_A
+{
+number_of_objects         2
+set_scaling_to_map_size
+}
+
+create_object BIRDS_B
+{
+number_of_objects         2
+set_scaling_to_map_size
+}
+
+
+/* relics */
+
+create_object RELIC
+{
+set_gaia_object_only
+max_distance_to_players 12
+min_distance_group_placement 20
+start_random
+percent_chance 50
+place_on_specific_land_id 20
+percent_chance 50
+place_on_specific_land_id 23
+end_random
+}
+
+create_object RELIC
+{
+number_of_objects 2
+set_place_for_every_player
+set_gaia_object_only
+temp_min_distance_group_placement 20
+min_distance_to_players 20
+max_distance_to_players 35
+}

@@ -18,6 +18,8 @@
     - '123945837' # 8euro
     - '123219836' # FyruT
     - '125129985' # hc: La Hire
+    de:
+      - '312938'
 - name: Vivi
   country: cn
   platforms:
@@ -28,6 +30,7 @@
     - '125129996-11' # hc11
     de:
     - '215442'
+    - '1432837'
 - name: Yo
   country: cn
   platforms:
@@ -72,6 +75,7 @@
       - '125227721' # hc: tamerlane
     de:
       - '199170'
+      - '1486575'
 - name: TaToH
   country: es
   platforms:
@@ -83,6 +87,7 @@
       - '125129998-12' # hc12
     de:
       - '197388'
+      - '968255'
 - name: Vinch
   country: ru
   platforms:
@@ -99,6 +104,8 @@
       - '124160323'
       - '124860581'
       - '124860581' # stronglikeNEMAN
+    de:
+      - '254415' # 1991
 - name: Kotex
   country: vn
   platforms:
@@ -119,6 +126,7 @@
   country: vn
   platforms:
     voobly:
+      - '124390868' # FamilyNo1
       - '123174138' # saymyname
       - '123422426' # VNS_thuongthoi
       - '165563' # 31_
@@ -370,6 +378,8 @@
       - '124166670'
       - '124240093' # jorgos
       - '125129990' # hc: gods own sling
+    de:
+      - '208611'
 - name: RiuT
   country: br
   platforms:
@@ -408,6 +418,8 @@
       - '123172587' # animaniacs
     gamepark:
       - 'jonslow'
+    de:
+      - '208269'
 - name: Vodka
   country: it
   platforms:
@@ -439,12 +451,16 @@
       - '124750873'
       - '124452866'
       - '124449479'
+    de:
+      - '459658'
 - name: AngelinaJolie
   country: nl
   platforms:
     voobly:
       - '124134715'
       - '123493331'
+    de:
+      - '508080'
 - name: Ganji
   country: se
   platforms:
@@ -457,6 +473,8 @@
       - '125101127'
       - '124473071'
       - '125040561'
+    de:
+      - '1224481'
 - name: Jibatong
   country: cn
   platforms:
@@ -488,6 +506,8 @@
       - '123273973'
       - '123725868' # gaucho
       - '123601190' # buzz
+    de:
+      - '239238'
 - name: Dziamdziak
   country: pl
   platforms:
@@ -601,8 +621,8 @@
   platforms:
     zone:
       - 'iori'
-- name: Cath_Joe
-  country:
+- name: Joe
+  country: cn
   platforms:
     zone:
       - 'cath_joe'
@@ -644,3 +664,46 @@
       - '22956'
     zone:
       - 'kmkm'
+- name: Luca
+  country: ca
+  platforms:
+    voobly:
+      - '124682621'
+    de:
+      - '268565'
+- name: Lojza
+  country: cz
+  platforms:
+    voobly:
+      - '123134558'
+- name: Mentalist
+  country: ca
+  platforms:
+    voobly:
+      - '123805043'
+      - '123936769'
+      - '124195578'
+- name: Goku
+  country: br
+  platforms:
+    voobly:
+      - '123984617'
+      - '125143234'
+- name: Pike
+  country: fi
+  platforms:
+    voobly:
+      - '123162283'
+      - '123947524'
+      - '123950294'
+    de:
+      - '229063'
+- name: Vodka
+  country: it
+  platforms:
+    voobly:
+      - '123841591'
+      - '123946886'
+      - '125271720'
+    de:
+      - '599689'

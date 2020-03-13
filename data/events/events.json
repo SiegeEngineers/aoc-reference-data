@@ -358,7 +358,7 @@
     "year": 2020,
     "name": "Hidden Cup 3",
     "tournaments": [
-      "hiddencup3qual"
+      "hiddencup3qual", ["hc3_showmatches", "Hidden Cup 3 Showmatches"]
     ]
   },
   {
