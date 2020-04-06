@@ -170,3 +170,13 @@ moaoc,1001,5,CNS_PG,CNS_Grunt,1-0,2003-10-15
 
 # Hidden Cup 3 Showmatches
 hc3_showmatches,1000,1,Richard The Lionheart (dogao),Admiral Yi Sun-Shin (Villese),2-4,2020-03-08
+hc3_showmatches,1001,1,Frederick Barbarossa (Nicov),Alexander Nevski (LaaaaN),4-1,2020-03-14
+hc3_showmatches,1002,1,Minamoto (ACCM),Belisarius (MbL),4-3,2020-03-14
+hc3_showmatches,1003,1,Gonzalo Pizarro (Hera),Le Loi (F1Re),4-0,2020-03-15
+hc3_showmatches,1004,1,Mordred (TaToH),Kushluk (BacT),4-1,2020-03-15
+
+# Visible Cup Showmatches
+visiblecup_showmatches,1000,1,Nili,Inc,3-0,2020-03-29
+
+# aM vs Secret Showmatch (2020-04-01)
+am_secret_showmatch-20200401,1000,1,aM,Secret,3-2,2020-04-01

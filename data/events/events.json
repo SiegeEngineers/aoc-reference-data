@@ -330,14 +330,6 @@
     ]
   },
   {
-    "id": "am_secret_showmatch-20200201",
-    "year": 2020,
-    "name": "aM vs Secret Showmatch (2020-02-01)",
-    "tournaments": [
-      ["am_secret_showmatch-20200201", "aM vs Secret Showmatch"]
-    ]
-  },
-  {
     "id": "fcc",
     "year": 2020,
     "name": "Fair Civs Cup",
@@ -346,19 +338,13 @@
     ]
   },
   {
-    "id": "two_pools_showmatch-20200209",
-    "year": 2020,
-    "name": "Two Pools Showmatch (2020-02-09)",
-    "tournaments": [
-      ["two_pools_showmatch-20200209", "Two Pools Showmatch"]
-    ]
-  },
-  {
     "id": "hc3",
     "year": 2020,
     "name": "Hidden Cup 3",
     "tournaments": [
-      "hiddencup3qual", ["hc3_showmatches", "Hidden Cup 3 Showmatches"]
+      "hiddencup3qual",
+      ["hc3_showmatches", "Hidden Cup 3 Showmatches"],
+      "hiddencup3"
     ]
   },
   {
@@ -399,7 +385,43 @@
     "year": 2003,
     "name": "Arbalet Cup III",
     "tournaments": [
-      ["arbalet3_finals", "Arbalet Cup III Finals (Round Robin"]
+      ["arbalet3_finals", "Arbalet Cup III Finals (Round Robin)"]
+    ]
+  },
+  {
+    "id": "bskmvp1",
+    "year": 2004,
+    "name": "BSK MVP 1",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-bsk_mvp_1"
+    ]
+  },
+  {
+    "id": "visiblecup",
+    "year": 2020,
+    "name": "Visible Cup",
+    "tournaments": [
+      "visiblecup",
+      ["visiblecup_showmatches", "Visible Cup Showmatches"]
+    ]
+  },
+  {
+    "id": "2020-showmatches",
+    "year": 2020,
+    "name": "Showmatches",
+    "tournaments": [
+      ["am_secret_showmatch-20200201", "aM vs Secret Showmatch (2020-02-01)"],
+      ["two_pools_showmatch-20200209", "Two Pools Showmatch (2020-02-09)"],
+      ["am_secret_showmatch-20200401", "aM vs Secret Showmatch (2020-04-01)"]
+    ]
+  },
+  {
+    "id": "eurorumble",
+    "year": 2020,
+    "name": "Euro Rumble 2020",
+    "tournaments": [
+      "ER2020GROUPA",
+      "ER2020GROUPB"
     ]
   }
 ]
