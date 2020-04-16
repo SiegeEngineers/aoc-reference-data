@@ -50,6 +50,8 @@
     de:
     - '197964'
     - '1829754' # Alaric
+    ibp:
+      - 'yo'
 - name: Xiaofan
   country: cn
   platforms:
@@ -180,6 +182,8 @@
       - '124489527' # hagouhello
     de:
       - '716717' # cica_zhou
+    gamepark:
+      - 'straydog'
 - name: F1Re
   country: br
   platforms:
@@ -243,6 +247,8 @@
       - '123463926'
     de:
       - '199419'
+    ibp:
+      - 'cloud'
 - name: Paladin
   country: cn
   platforms:
@@ -251,6 +257,8 @@
       - '179227' # alongkiss
     de:
       - '210601'
+    ibp:
+      - 'paladin'
 - name: DauT
   country: rs
   platforms:
@@ -287,6 +295,8 @@
       - '124423938'
     de:
       - '197751'
+    zone:
+      - 'nili'
 - name: Belgium
   country: be
   platforms:
@@ -328,6 +338,8 @@
       - '125129978' # hc: robin hood
       - '123906517' # buzz fosse
       - '124638756' # randomcivil
+    gameranger:
+      - 'viper'
     de:
       - '196240'
       - '1827609' # Saladin
@@ -362,6 +374,8 @@
       - '195356' # LoveCheng
       - '123910183' # SY
       - '127665' # ShuaiNiu
+    ibp:
+      - 'yinghua'
 - name: Lyx
   country: cn
   platforms:
@@ -392,6 +406,7 @@
     voobly:
       - '817'
       - '125129994' # hc: el cid
+      - '123195719'
 - name: Melkor
   country: ie
   platforms:
@@ -501,6 +516,8 @@
   platforms:
     voobly:
       - '124183501'
+    de:
+      - '212746'
 - name: Kasva
   country: tr
   platforms:
@@ -555,6 +572,8 @@
       - 'dziamdziak'
     gamepark:
       - 'dziamdziak'
+    de:
+      - '879956'
 - name: Ppoc
   country: es
   platforms:
@@ -662,6 +681,8 @@
       - '124781271'
     zone:
       - 'spring'
+    de:
+      - '235623'
 - name: Windy
   country: cn
   platforms:
@@ -700,6 +721,8 @@
       - '135459'
       - '123452158'
       - '160816'
+    gamepark:
+      - 'alive'
     zone:
       - 'alive'
 - name: Ding
@@ -711,10 +734,14 @@
       - 'ding'
     igz:
       - 'ding'
+    ibp:
+      - 'ding'
 - name: Vile
   country: my
   platforms:
     zone:
+      - 'vile'
+    gamepark:
       - 'vile'
 - name: Kmkm
   country: tw
@@ -775,6 +802,8 @@
     voobly:
       - '123210474'
       - '124166791'
+    de:
+      - '248441'
 - name: 'Monoz'
   country: ar
   platforms:
@@ -840,6 +869,8 @@
       - '123999699'
     vooblycn:
       - '30984'
+    ibp:
+      - 'air_abu'
 - name: '8th Wonder'
   country: lv
   platforms:
@@ -852,6 +883,8 @@
       - '123781126'
       - '124003159'
       - '123129305'
+    gameranger:
+      - 'wonder'
 - name: 'classicpro'
   country: ua
   platforms:
@@ -864,12 +897,17 @@
   platforms:
     voobly:
       - '11182'
+    zone:
+      - 'ralber'
 - name: 'DreaIVIS'
   country: fi
   platforms:
     voobly:
       - '3258'
       - '21627'
+      - '167378'
+    zone:
+      - 'dreams'
 - name: 'Capoch'
   country: ar
   platforms:
@@ -884,6 +922,8 @@
   platforms:
     voobly:
       - '123701126'
+    zone:
+      - 'rami'
 - name: 'Duck'
   country: cn
   platforms:
@@ -900,6 +940,8 @@
     vooblycn:
       - '187035'
       - '124569805'
+    zone:
+      - 'iamok'
 - name: 'geoffrey'
   country: cn
   platforms:
@@ -908,6 +950,8 @@
       - '123714784'
     vooblycn:
       - '25709'
+    ibp:
+      - 'geoffrey'
 - name: Bieber
   country: cn
   platforms:
@@ -925,6 +969,8 @@
       - '123444736'
       - '123563868'
       - '186651'
+    zone:
+      - 'feage'
 - name: Noto
   country: cn
   platforms:
@@ -942,6 +988,8 @@
   platforms:
     voobly:
       - '124386524'
+    de:
+      - '582058'
 - name: Ra
   country: ca
   platforms:
@@ -959,16 +1007,22 @@
       - '121454'
     vooblycn:
       - '123372165'
+    ibp:
+      - 'miss_xue'
 - name: James
   country: cn
   platforms:
     voobly:
       - '123797718'
+    ibp:
+      - 'james'
 - name: Feanor
   country: ie
   platforms:
     voobly:
       - '123806659'
+    de:
+      - '208493'
 - name: Hasan
   country: ba
   platforms:
@@ -1000,6 +1054,8 @@
       - '123826180'
     vooblycn:
       - '123864424'
+    ibp:
+      - 'lang'
 - name: Jupe
   country: fi
   platforms:
@@ -1045,3 +1101,106 @@
   platforms:
     voobly:
       - '123482913'
+- name: hs
+  country: cn
+  platforms:
+    zone:
+      - 'hs'
+    gamepark:
+      - 'hs'
+- name: Geek
+  country: gb
+  platforms:
+    zone:
+      - 'geek'
+- name: RD_ChampioN
+  country: kr
+  platforms:
+    zone:
+      - 'champion'
+- name: Mimmox
+  country: it
+  platforms:
+    zone:
+      - 'mimmox'
+- name: Bvirus
+  country: pt
+  platforms:
+    zone:
+      - 'bvirus'
+    gamepark:
+      - 'bvirus'
+    voobly:
+      - '4053'
+- name: Hackl
+  country: de
+  platforms:
+    voobly:
+      - '123135274'
+    zone:
+      - 'hackl'
+- name: black_bear
+  country: cn
+  platforms:
+    zone:
+      - 'black_bear'
+- name: BT4
+  country: cn
+  platforms:
+    zone:
+      - 'bt4'
+    voobly:
+      - '56555'
+- name: PeEl
+  country: pl
+  platforms:
+    zone:
+      - 'peel'
+    voobly:
+      - '15886'
+- name: Rukie
+  country: es
+  platforms:
+    zone:
+      - 'rukie'
+- name: DriNkY
+  country: de
+  platforms:
+    voobly:
+      - '123186478'
+    zone:
+      - 'drinky'
+    gamepark:
+      - 'drinky'
+- name: Canary
+  country: jp
+  platforms:
+    zone:
+      - 'canary'
+    gamepark:
+      - 'canary'
+- name: TheSheriff
+  country: us
+  platforms:
+    zone:
+      - 'sheriff'
+- name: SoraK
+  country: cl
+  platforms:
+    zone:
+      - 'sorak'
+- name: Moczymorda
+  country: pl
+  platforms:
+    zone:
+      - 'moczymorda'
+- name: Sutra
+  country: us
+  platforms:
+    zone:
+      - 'sutra'
+- name: Poisn
+  country: ca
+  platforms:
+    zone:
+      - 'poisn'

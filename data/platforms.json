@@ -52,5 +52,11 @@
     "name": "GameRanger",
     "url": "https://www.gameranger.com/",
     "match_url": ""
+  },
+  {
+    "id": "ibp",
+    "name": "互动游戏对战平台",
+    "url": "http://hd.fxt365.com/",
+    "match_url": ""
   }
 ]

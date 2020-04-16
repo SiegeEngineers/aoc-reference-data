@@ -399,6 +399,7 @@
   {
     "id": "visiblecup",
     "year": 2020,
+    "ongoing": true,
     "name": "Visible Cup",
     "tournaments": [
       "visiblecup",
@@ -408,6 +409,7 @@
   {
     "id": "2020-showmatches",
     "year": 2020,
+    "ongoing": true,
     "name": "Showmatches",
     "tournaments": [
       ["am_secret_showmatch-20200201", "aM vs Secret Showmatch (2020-02-01)"],
@@ -418,10 +420,71 @@
   {
     "id": "eurorumble",
     "year": 2020,
+    "ongoing": true,
     "name": "Euro Rumble 2020",
     "tournaments": [
       "ER2020GROUPA",
       "ER2020GROUPB"
+    ]
+  },
+  {
+    "id": "2016-showmatches",
+    "year": 2016,
+    "name": "Showmatches",
+    "tournaments": [
+      ["norway-brazil-2v2_showmatch-20160902", "Viper/MbL vs Dogao/F1Re Showmatch (2016-06-02)"]
+    ]
+  },
+  {
+    "id": "wolfpackencounter",
+    "year": 2015,
+    "name": "Wolfpack Encounter",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-wolfpack_encounter"
+    ]
+  },
+  {
+    "id": "2013-showmatches",
+    "year": 2013,
+    "name": "Showmatches",
+    "tournaments": [
+      ["tim_goodboy-20130111", "Tim vs Goodboy BO21 Showmatch (2013-01-11/21)"]
+    ]
+  },
+  {
+    "id": "2014-showmatches",
+    "year": 2014,
+    "name": "Showmatches",
+    "tournaments": [
+      ["tyrant_war_1-201403", "TyRanT War 1"],
+      ["tyrant_war_2-201405", "TyRanT War 2"],
+      ["tyrant_lan-201404", "TyRanT LAN"],
+      ["viper_jordan_bo21", "TheViper vs Jordan_32 BO21"]
+    ]
+  },
+  {
+    "id": "syc3",
+    "year": 2014,
+    "name": "SY Cup III",
+    "tournaments": [
+      ["syc3", "SY Cup III"]
+    ]
+  },
+  {
+    "id": "tete",
+    "year": 2020,
+    "ongoing": true,
+    "name": "TeTe Invitational",
+    "tournaments": [
+      "teteinv"
+    ]
+  },
+  {
+    "id": "wcg2002",
+    "year": 2002,
+    "name": "World Cyber Games 2002",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-wcg2002"
     ]
   }
 ]
