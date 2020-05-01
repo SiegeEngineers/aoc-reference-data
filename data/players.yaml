@@ -2,6 +2,8 @@
 # https://www.aoezone.net/threads/expert-players-who-already-signed-up-to-king-of-the-desert.135065/
 - name: MbL
   country: 'no'
+  esportsearnings: 25311
+  aoeelo: 24
   platforms:
     voobly:
     - '123844441' # MbL40C
@@ -15,6 +17,8 @@
     - '1826483' # William
 - name: BacT
   country: vn
+  esportsearnings: 14723
+  aoeelo: 16
   platforms:
     voobly:
     - '123194539' # BacT
@@ -23,11 +27,13 @@
     - '125129985' # hc: La Hire
     - '123887528'
     - '124689413'
+    - '124341247' # wsvg
     de:
       - '312938'
       - '1862911' # henry
 - name: Vivi
   country: cn
+  aoeelo: 35
   platforms:
     voobly:
     - '123493096' # Reallydiao
@@ -40,11 +46,14 @@
     - '1829738' # Charlemagne
 - name: Yo
   country: cn
+  esportsearnings: 14713
+  aoeelo: 19
   platforms:
     voobly:
     - '123636492'
     - '125129990-7' # hc7
     - '125227711' # hc: hrolf the ganger
+    - '124341168' # wsvg
     vooblycn:
     - '123636492'
     de:
@@ -61,6 +70,7 @@
     - '70212'
 - name: St4rk
   country: br
+  aoeelo: 18
   platforms:
     voobly:
     - '123409476' # VNA
@@ -70,6 +80,7 @@
       - '986504'
 - name: LaaaaaN
   country: es
+  aoeelo: 62
   platforms:
     voobly:
     - '124116514' # ByT
@@ -81,18 +92,23 @@
       - '1819193' # sheriff
 - name: Dogao
   country: br
+  esportsearnings: 12250
+  aoeelo: 4
   platforms:
     voobly:
       - '123186723' # GiveMeYourSmile
       - '123444726' # dogao
       - '124469820' # VEM_MONSTRO
       - '125227721' # hc: tamerlane
+      - '124340883'
     de:
       - '199170'
       - '1486575'
       - '1830104' # emperor in a barrel
 - name: TaToH
   country: es
+  esportsearnings: 41416
+  aoeelo: 31
   platforms:
     voobly:
       - '123999216' # Secret
@@ -107,6 +123,7 @@
       - '1819863' # joan
 - name: Vinch
   country: ru
+  aoeelo: 55
   platforms:
     voobly:
       - '123397463' # VIK
@@ -186,6 +203,8 @@
       - 'straydog'
 - name: F1Re
   country: br
+  esportsearnings: 14714
+  aoeelo: 5
   platforms:
     voobly:
       - '123658746'
@@ -195,6 +214,7 @@
       - '1819094' # Leif
 - name: ACCM
   country: vn
+  aoeelo: 14
   platforms:
     voobly:
       - '123428504'
@@ -205,6 +225,8 @@
       - '1844119' # friar
 - name: Tim
   country: cn
+  esportsearnings: 12949
+  aoeelo: 33
   platforms:
     voobly:
       - '182612'
@@ -228,8 +250,12 @@
       - '123194620'
     de:
       - '224786'
+    zone:
+      - 'cool'
 - name: Liereyy
   country: at
+  esportsearnings: 41415
+  aoeelo: 25
   platforms:
     voobly:
       - '124147336'
@@ -247,6 +273,7 @@
       - '123463926'
     de:
       - '199419'
+      - '872428'
     ibp:
       - 'cloud'
 - name: Paladin
@@ -261,6 +288,8 @@
       - 'paladin'
 - name: DauT
   country: rs
+  esportsearnings: 12247
+  aoeelo: 1
   platforms:
     voobly:
       - '12926'
@@ -278,6 +307,8 @@
       - 'daut'
 - name: Hera
   country: ca
+  esportsearnings: 25296
+  aoeelo: 28
   platforms:
     voobly:
       - '124954867'
@@ -297,8 +328,11 @@
       - '197751'
     zone:
       - 'nili'
+    gamepark:
+      - 'nili'
 - name: Belgium
   country: be
+  aoeelo: 75
   platforms:
     voobly:
       - '124474647'
@@ -326,6 +360,8 @@
       - '357795' # DracKeN
 - name: TheViper
   country: de
+  esportsearnings: 12243
+  aoeelo: 29
   platforms:
     voobly:
       - '123211439' # TheViper
@@ -338,6 +374,7 @@
       - '125129978' # hc: robin hood
       - '123906517' # buzz fosse
       - '124638756' # randomcivil
+      - '124341240' # wsvg
     gameranger:
       - 'viper'
     de:
@@ -347,6 +384,8 @@
       - 'viper'
 - name: Slam
   country: ca
+  esportsearnings: 12253
+  aoeelo: 32
   platforms:
     voobly:
       - '123497926' # secret
@@ -370,6 +409,7 @@
       - '123910183' # AreS
       - '195356' # LoveCheng
       - '127665' # ShuaiNiu
+      - '124341169'
     vooblycn:
       - '195356' # LoveCheng
       - '123910183' # SY
@@ -378,6 +418,7 @@
       - 'yinghua'
 - name: Lyx
   country: cn
+  aoeelo: 21
   platforms:
     voobly:
       - '123230853' # SY
@@ -390,6 +431,8 @@
       - '226575'
 - name: Nicov
   country: ar
+  esportsearnings: 14718
+  aoeelo: 27
   platforms:
     voobly:
       - '123807394' #
@@ -402,11 +445,14 @@
       - '1827959' # bad neighbor
 - name: JorDan_23
   country: de
+  esportsearnings: 12245
+  aoeelo: 30
   platforms:
     voobly:
       - '817'
       - '125129994' # hc: el cid
       - '123195719'
+      - '124340943'
 - name: Melkor
   country: ie
   platforms:
@@ -416,6 +462,8 @@
       - '124158935' # mattheus
 - name: TheMax
   country: fi
+  esportsearnings: 25297
+  aoeelo: 52
   platforms:
     voobly:
       - '123282211'
@@ -427,6 +475,7 @@
       - '1832996' # martel
 - name: Villese
   country: fi
+  aoeelo: 51
   platforms:
     voobly:
       - '124166670'
@@ -437,6 +486,8 @@
       - '1829715'
 - name: RiuT
   country: br
+  esportsearnings: 12244
+  aoeelo: 3
   platforms:
     voobly:
       - '56531'
@@ -447,6 +498,7 @@
       - '86350' # justdance
       - '8643' # lein
       - '125129995-10' # hc10
+      - '124340884' # wsvg
 - name: Miguel
   country: br
   platforms:
@@ -457,6 +509,8 @@
       - '123459695' # twik
       - '227518' # miguelao
       - '125129994-9' # hc9
+    de:
+      - '2090225'
 - name: Twigg
   country: ar
   platforms:
@@ -471,6 +525,8 @@
       - '11486'
       - '123145092' # terror
       - '123172587' # animaniacs
+    zone:
+      - 'jonslow'
     gamepark:
       - 'jonslow'
     de:
@@ -486,6 +542,7 @@
       - '124653323'
     de:
       - '1311198'
+      - '212721'
 - name: Rubenstock
   country: fi
   platforms:
@@ -538,6 +595,8 @@
     vooblycn:
       - '123642997'
       - '124576519'
+    de:
+      - '227857'
 - name: Noisick
   country: cl
   platforms:
@@ -545,6 +604,7 @@
       - '124308648'
     de:
       - '1262725'
+      - '898389'
 - name: Inc
   country: us
   platforms:
@@ -590,6 +650,7 @@
       - 'yanzi'
 - name: kkab
   country: kr
+  esportsearnings: 12943
   platforms:
     voobly:
       - '72440'
@@ -599,6 +660,7 @@
       - 'kkab'
 - name: Grunt
   country: kr
+  esportsearnings: 2090
   platforms:
     voobly:
       - '123189460'
@@ -608,6 +670,7 @@
       - 'grunt'
 - name: Koven
   country: kr
+  esportsearnings: 22414
   platforms:
     voobly:
       - '13584'
@@ -617,6 +680,7 @@
       - 'koven'
 - name: Halen
   country: jp
+  esportsearnings: 2173
   platforms:
     voobly:
       - '16205'
@@ -631,6 +695,7 @@
       - 'champion'
 - name: Chris
   country: ca
+  esportsearnings: 15927
   platforms:
     voobly:
       - '123397426'
@@ -730,10 +795,13 @@
   platforms:
     voobly:
       - '722'
+      - '46048'
     zone:
       - 'ding'
-    igz:
+    gamepark:
       - 'ding'
+    igz:
+      - '46048'
     ibp:
       - 'ding'
 - name: Vile
@@ -745,6 +813,7 @@
       - 'vile'
 - name: Kmkm
   country: tw
+  esportsearnings: 2183
   platforms:
     voobly:
       - '22956'
@@ -759,9 +828,11 @@
       - '268565'
 - name: Lojza
   country: cz
+  aoeelo: 58
   platforms:
     voobly:
       - '123134558'
+      - '124340942'
 - name: Mentalist
   country: ca
   platforms:
@@ -777,6 +848,8 @@
       - '123984617'
       - '125143234'
       - '123529024'
+    de:
+      - '1893397'
 - name: Pike
   country: fi
   platforms:
@@ -892,6 +965,8 @@
       - '124075494'
       - '124240304'
       - '125024125'
+    de:
+      - '1754629'
 - name: 'Ralber'
   country: es
   platforms:
@@ -906,6 +981,8 @@
       - '3258'
       - '21627'
       - '167378'
+    igz:
+      - '123868428'
     zone:
       - 'dreams'
 - name: 'Capoch'
@@ -917,12 +994,16 @@
       - 'capoch'
     de:
       - '409748'
+    gamepark:
+      - 'capoch'
 - name: 'Rami'
   country: il
   platforms:
     voobly:
       - '123701126'
     zone:
+      - 'rami'
+    gamepark:
       - 'rami'
 - name: 'Duck'
   country: cn
@@ -971,6 +1052,8 @@
       - '186651'
     zone:
       - 'feage'
+    de:
+      - '300649'
 - name: Noto
   country: cn
   platforms:
@@ -1032,6 +1115,7 @@
       - '123142913'
       - '123370148'
       - '123180505'
+      - 'hasan'
 - name: Juan
   country: ar
   platforms:
@@ -1061,6 +1145,8 @@
   platforms:
     voobly:
       - '123451615'
+    de:
+      - '208080'
 - name: Dobbs
   country: dk
   platforms:
@@ -1204,3 +1290,75 @@
   platforms:
     zone:
       - 'poisn'
+- name: Playboy
+  country: cn
+  platforms:
+    zone:
+      - 'playboy'
+- name: Hanyu
+  country: cn
+  platforms:
+    zone:
+      - 'hanyu'
+- name: Feeling
+  country: cn
+  platforms:
+    zone:
+      - 'feeling'
+- name: Cloudy
+  country: cn
+  platforms:
+    zone:
+      - 'cloudy'
+- name: PK
+  country: cn
+  platforms:
+    zone:
+      - 'pk'
+- name: Fox
+  country: de
+  platforms:
+    zone:
+      - 'fox'
+    voobly:
+      - '6031'
+- name: Pete Martell
+  country: it
+  platforms:
+    voobly:
+      - '124483923'
+- name: chaos_2_win
+  country: de
+  platforms:
+    voobly:
+      - 'chaos_2_win'
+- name: Dragonstar
+  country: in
+  platforms:
+    voobly:
+      - '124281975'
+    de:
+      - '182749'
+- name: Free
+  country: cn
+  platforms:
+    zone:
+      - 'free'
+- name: Mozory
+  country: kr
+  esportsearnings: 7629
+  platforms:
+    zone:
+      - 'mozory'
+- name: Kaohen
+  country: tw
+  esportsearnings: 6931
+  platforms:
+    zone:
+      - 'kaohen'
+- name: IamJordan
+  country: tw
+  esportsearnings: 2179
+  platforms:
+    zone:
+      - 'iamjordan'

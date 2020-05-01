@@ -178,8 +178,10 @@
   {
     "id": "wsvg",
     "year": 2015,
+    "ongoing": true,
     "name": "World Series of Video Games",
     "tournaments": [
+      "maldivesaoc"
     ]
   },
   {
@@ -414,7 +416,8 @@
     "tournaments": [
       ["am_secret_showmatch-20200201", "aM vs Secret Showmatch (2020-02-01)"],
       ["two_pools_showmatch-20200209", "Two Pools Showmatch (2020-02-09)"],
-      ["am_secret_showmatch-20200401", "aM vs Secret Showmatch (2020-04-01)"]
+      ["am_secret_showmatch-20200401", "aM vs Secret Showmatch (2020-04-01)"],
+      ["yo_hera_showmatch-20200422", "Yo vs Hera Showmatch (2020-04-22)"]
     ]
   },
   {
@@ -473,7 +476,6 @@
   {
     "id": "tete",
     "year": 2020,
-    "ongoing": true,
     "name": "TeTe Invitational",
     "tournaments": [
       "teteinv"
@@ -485,6 +487,68 @@
     "name": "World Cyber Games 2002",
     "tournaments": [
       "3032141acdc35ab4d482ab4a-wcg2002"
+    ]
+  },
+  {
+    "id": "rbw",
+    "year": 2020,
+    "name": "Red Bull Wololo",
+    "tournaments": [
+      ["rb_qualifier_1", "Qualifier 1"],
+      ["rb_qualifier_2", "Qualifier 2"],
+      ["rb_finals", "Finals"]
+    ]
+  },
+  {
+    "id": "bskmvp2",
+    "year": 2005,
+    "name": "BSK MVP 2",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-bsk_mvp_2"
+    ]
+  },
+  {
+    "id": "sbarro",
+    "year": 2020,
+    "ongoing": true,
+    "name": "SBARRO",
+    "tournaments": [
+      "wemkp7mi"
+    ]
+  },
+  {
+    "id": "ggl",
+    "year": 2005,
+    "name": "GGL AmeriCup",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-ggl_americup_aoc"
+    ]
+  },
+  {
+    "id": "tmw",
+    "year": 2013,
+    "name": "The Medieval Wars",
+    "tournaments": [
+      "2013TMW"
+    ]
+  },
+  {
+    "id": "votc",
+    "year": 2014,
+    "name": "Veterans of the Clash",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-votcaoc"
+    ]
+  },
+  {
+    "id": "bcc3",
+    "year": 2010,
+    "ongoing": true,
+    "name": "Brain Champion Cup Season 3",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-bcc3_wb",
+      "3032141acdc35ab4d482ab4a-bcc3_lb",
+      "3032141acdc35ab4d482ab4a-bcc3_league"
     ]
   }
 ]
