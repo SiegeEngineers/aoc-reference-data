@@ -786,6 +786,7 @@
       - '135459'
       - '123452158'
       - '160816'
+      - '610'
     gamepark:
       - 'alive'
     zone:
@@ -1199,11 +1200,6 @@
   platforms:
     zone:
       - 'geek'
-- name: RD_ChampioN
-  country: kr
-  platforms:
-    zone:
-      - 'champion'
 - name: Mimmox
   country: it
   platforms:
@@ -1265,11 +1261,6 @@
       - 'canary'
     gamepark:
       - 'canary'
-- name: TheSheriff
-  country: us
-  platforms:
-    zone:
-      - 'sheriff'
 - name: SoraK
   country: cl
   platforms:
@@ -1362,3 +1353,14 @@
   platforms:
     zone:
       - 'iamjordan'
+- name: GoldenEnd
+  country: nl
+  aoeelo_id: 197
+  platforms:
+    voobly:
+      - '123839438'
+- name: Elfanor
+  country: be
+  platforms:
+    zone:
+      - 'elfanor'
