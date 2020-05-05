@@ -4,6 +4,9 @@
   country: 'no'
   esportsearnings: 25311
   aoeelo: 24
+  twitch: https://www.twitch.tv/mblaoc
+  youtube: http://youtube.com/user/Mortenjeah
+  discord: https://discord.gg/5cHqGMx
   platforms:
     voobly:
     - '123844441' # MbL40C
@@ -19,6 +22,8 @@
   country: vn
   esportsearnings: 14723
   aoeelo: 16
+  twitch: https://www.twitch.tv/bact_/
+  youtube: https://www.youtube.com/channel/UCScpQlZKVLdPMFBdd1gXbRQ
   platforms:
     voobly:
     - '123194539' # BacT
@@ -34,6 +39,8 @@
 - name: Vivi
   country: cn
   aoeelo: 35
+  esportsearnings: 25295
+  douyu: https://www.douyu.com/1052202
   platforms:
     voobly:
     - '123493096' # Reallydiao
@@ -48,6 +55,7 @@
   country: cn
   esportsearnings: 14713
   aoeelo: 19
+  douyu: https://www.douyu.com/753676
   platforms:
     voobly:
     - '123636492'
@@ -63,6 +71,7 @@
       - 'yo'
 - name: Xiaofan
   country: cn
+  aoeelo: 36
   platforms:
     voobly:
     - '70212'
@@ -71,6 +80,10 @@
 - name: St4rk
   country: br
   aoeelo: 18
+  esportsearnings: 12258
+  youtube: https://www.youtube.com/channel/UCoX5HqFM4qEGJYfj0TEOIpg
+  twitch: https://www.twitch.tv/st4rk_
+  discord: https://discord.gg/K4VEGWC
   platforms:
     voobly:
     - '123409476' # VNA
@@ -81,6 +94,7 @@
 - name: LaaaaaN
   country: es
   aoeelo: 62
+  esportsearnings: 56830
   platforms:
     voobly:
     - '124116514' # ByT
@@ -109,6 +123,8 @@
   country: es
   esportsearnings: 41416
   aoeelo: 31
+  youtube: https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg
+  twitch: https://www.twitch.tv/tatoh
   platforms:
     voobly:
       - '123999216' # Secret
@@ -117,6 +133,7 @@
       - '125129995' # hc: bleda the hun
       - '125129998-12' # hc12
       - '947' # ator
+      - '124199973'
     de:
       - '197388'
       - '968255'
@@ -124,6 +141,9 @@
 - name: Vinch
   country: ru
   aoeelo: 55
+  esportsearnings: 42069
+  twitch: https://www.twitch.tv/vik_vinchester/
+  youtube: http://www.youtube.com/channel/UCm3BAnotyqfdvm6sO5bs18g
   platforms:
     voobly:
       - '123397463' # VIK
@@ -151,6 +171,7 @@
       - '124796466' # TrieuTuLong__HN
 - name: Barles
   country: pl
+  aoeelo: 79
   platforms:
     voobly:
       - '123850375' # _Wrachziikle_
@@ -160,6 +181,8 @@
       - '666976'
 - name: Yellow
   country: vn
+  aoeelo: 15
+  esportsearnings: 14724
   platforms:
     voobly:
       - '124390868' # FamilyNo1
@@ -173,6 +196,7 @@
       - '419803' # saymyname
 - name: Chart
   country: jp
+  aoeelo: 68
   platforms:
     voobly:
       - '124322377' # RiskyDice
@@ -186,6 +210,7 @@
       - '124493950' # hyaganeglu
 - name: StrayDog
   country: cn
+  aoeelo: 64
   platforms:
     voobly:
       - '124489527' # hagouhello
@@ -205,6 +230,7 @@
   country: br
   esportsearnings: 14714
   aoeelo: 5
+  twitch: https://www.twitch.tv/f1reaoe/
   platforms:
     voobly:
       - '123658746'
@@ -215,6 +241,7 @@
 - name: ACCM
   country: vn
   aoeelo: 14
+  esportsearnings: 14727
   platforms:
     voobly:
       - '123428504'
@@ -245,6 +272,7 @@
       - 'tim'
 - name: CooL
   country: vn
+  esportsearnings: 14725
   platforms:
     voobly:
       - '123194620'
@@ -256,6 +284,8 @@
   country: at
   esportsearnings: 41415
   aoeelo: 25
+  twitch: https://www.twitch.tv/liereyy/
+  youtube: https://www.youtube.com/channel/UCaggQmp9gAuB7xYeci26VWA
   platforms:
     voobly:
       - '124147336'
@@ -266,6 +296,9 @@
       - '1829588' # sancho
 - name: Cloud
   country: tw
+  aoeelo: 94
+  youtube: https://www.youtube.com/user/qaws68
+  discord: https://discord.gg/dKzquZB
   platforms:
     voobly:
       - '123198508'
@@ -278,6 +311,8 @@
       - 'cloud'
 - name: Paladin
   country: cn
+  aoeelo: 20
+  esportsearnings: 12249
   platforms:
     voobly:
       - '123835916' # fengxin
@@ -290,6 +325,9 @@
   country: rs
   esportsearnings: 12247
   aoeelo: 1
+  twitch: https://www.twitch.tv/daut
+  youtube: https://www.youtube.com/channel/UC8m8Iah2xOHZvnBbpyOcEOA
+  discord: https://discord.gg/ckHd3vT
   platforms:
     voobly:
       - '12926'
@@ -309,6 +347,9 @@
   country: ca
   esportsearnings: 25296
   aoeelo: 28
+  twitch: https://www.twitch.tv/hera_aoc
+  youtube: https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ
+  discord: https://discord.gg/DkdJj4D
   platforms:
     voobly:
       - '124954867'
@@ -320,6 +361,11 @@
       - '1847121' # Kotyan
 - name: Nili
   country: de
+  aoeelo: 11
+  esportsearnings: 41832
+  twitch: https://www.twitch.tv/nili_aoe
+  youtube: https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/videos
+  discord: https://discordapp.com/invite/pQG8txM
   platforms:
     voobly:
       - '9267'
@@ -341,6 +387,8 @@
       - '213305' # BUGUM
 - name: Zuppi
   country: fi
+  aoeelo: 50
+  esportsearnings: 15934
   platforms:
     voobly:
       - '123961442'
@@ -348,6 +396,7 @@
       - '575722'
 - name: DraconT
   country: cz
+  aoeelo: 100
   platforms:
     voobly:
       - '124043892' # DarkNoobFan
@@ -362,6 +411,9 @@
   country: de
   esportsearnings: 12243
   aoeelo: 29
+  youtube: https://www.youtube.com/user/TheViperAOC
+  mixer: https://mixer.com/theviper
+  discord: https://discord.gg/WNmHUEH
   platforms:
     voobly:
       - '123211439' # TheViper
@@ -386,6 +438,8 @@
   country: ca
   esportsearnings: 12253
   aoeelo: 32
+  twitch: https://www.twitch.tv/slamjam_/
+  youtube: https://www.youtube.com/channel/UC15K06FB4EO98AMBYqraQ3w
   platforms:
     voobly:
       - '123497926' # secret
@@ -397,6 +451,8 @@
       - '614315'
 - name: Daniel
   country: us
+  aoeelo: 69
+  twitch: https://www.twitch.tv/aocdaniel/
   platforms:
     voobly:
       - '123256402'
@@ -404,6 +460,8 @@
       - '265517'
 - name: Yinghua
   country: cn
+  aoeelo: 54
+  esportsearnings: 12251
   platforms:
     voobly:
       - '123910183' # AreS
@@ -419,6 +477,7 @@
 - name: Lyx
   country: cn
   aoeelo: 21
+  esportsearnings: 14740
   platforms:
     voobly:
       - '123230853' # SY
@@ -433,6 +492,8 @@
   country: ar
   esportsearnings: 14718
   aoeelo: 27
+  twitch: https://www.twitch.tv/nicov_/
+  discord: https://discord.gg/quRrGhV
   platforms:
     voobly:
       - '123807394' #
@@ -440,6 +501,7 @@
       - '124178111' # Instincts__
       - '125129977' # hc: attila the hun
       - '125129982-5' # hc5
+      - '124775535'
     de:
       - '208393'
       - '1827959' # bad neighbor
@@ -447,14 +509,20 @@
   country: de
   esportsearnings: 12245
   aoeelo: 30
+  twitch: https://www.twitch.tv/secret_jordan23/
+  youtube: https://www.youtube.com/channel/UCimCFIisAqXW9udVhN_LpwQ
+  discord: https://discord.gg/TWpUYVh
   platforms:
     voobly:
       - '817'
       - '125129994' # hc: el cid
       - '123195719'
       - '124340943'
+    igz:
+      - '817'
 - name: Melkor
   country: ie
+  aoeelo: 10
   platforms:
     voobly:
       - '123922182' # heresy
@@ -476,6 +544,7 @@
 - name: Villese
   country: fi
   aoeelo: 51
+  esportsearnings: 43218
   platforms:
     voobly:
       - '124166670'
@@ -488,6 +557,8 @@
   country: br
   esportsearnings: 12244
   aoeelo: 3
+  twitch: https://www.twitch.tv/tyrant_riut/
+  youtube: https://www.youtube.com/channel/UCWk47NDwrg9p696-Usiv8fw
   platforms:
     voobly:
       - '56531'
@@ -501,6 +572,8 @@
       - '124340884' # wsvg
 - name: Miguel
   country: br
+  aoeelo: 2
+  esportsearnings: 15928
   platforms:
     voobly:
       - '123600879'
@@ -513,6 +586,7 @@
       - '2090225'
 - name: Twigg
   country: ar
+  aoeelo: 92
   platforms:
     voobly:
       - '124042289'
@@ -520,6 +594,9 @@
       - '123975630' # rugila
 - name: JonSlow
   country: il
+  aoeelo: 101
+  twitch: https://www.twitch.tv/jonslow_/
+  youtube: https://www.youtube.com/channel/UCI7xIJYOC2OEb6ttrsH2QHA
   platforms:
     voobly:
       - '11486'
@@ -533,6 +610,7 @@
       - '208269'
 - name: Sitaux
   country: fr
+  aoeelo: 12
   platforms:
     voobly:
       - '125241102'
@@ -545,6 +623,8 @@
       - '212721'
 - name: Rubenstock
   country: fi
+  aoeelo: 53
+  esportsearnings: 15936
   platforms:
     voobly:
       - '123417449'
@@ -552,6 +632,8 @@
       - '431744'
 - name: Hoang
   country: vn
+  twitch: https://www.twitch.tv/videos/610949271
+  youtube: https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw?view_as=subscriber
   platforms:
     voobly:
       - '123851854'
@@ -560,8 +642,10 @@
       - '124449479'
     de:
       - '459658'
+      - '2097181'
 - name: AngelinaJolie
   country: nl
+  aoeelo: 121
   platforms:
     voobly:
       - '124134715'
@@ -570,6 +654,7 @@
       - '508080'
 - name: Ganji
   country: se
+  aoeelo: 458
   platforms:
     voobly:
       - '124183501'
@@ -577,6 +662,10 @@
       - '212746'
 - name: Kasva
   country: tr
+  aoeelo: 195
+  twitch: https://www.twitch.tv/kasvaoe
+  youtube: https://www.youtube.com/channel/UCFAiCVX7VqQaqGBPAxLRKnQ?view_as=subscriber
+  discord: https://discord.gg/CETwWEp
   platforms:
     voobly:
       - '125101127'
@@ -587,6 +676,7 @@
       - '1224481'
 - name: Jibatong
   country: cn
+  aoeelo: 198
   platforms:
     voobly:
       - '123642997'
@@ -607,6 +697,8 @@
       - '898389'
 - name: Inc
   country: us
+  aoeelo: 323
+  twitch: https://www.twitch.tv/incaoe2/
   platforms:
     voobly:
       - '123644749'
@@ -616,6 +708,7 @@
       - 'inc'
 - name: Fedex
   country: ar
+  aoeelo: 153
   platforms:
     voobly:
       - '123273973'
@@ -625,6 +718,9 @@
       - '239238'
 - name: Dziamdziak
   country: pl
+  aoeelo: 127
+  twitch: https://www.twitch.tv/dziamdziak
+  discord: https://discord.gg/xz7uDPp
   platforms:
     voobly:
       - '9806'
@@ -643,6 +739,7 @@
       - 'ppoc'
 - name: Yanzi
   country: hk
+  esportsearnings: 2178
   platforms:
     lan:
       - 'yanzi'
@@ -716,6 +813,7 @@
       - 'sheriff'
 - name: 2ScareD
   country: se
+  esportsearnings: 42065
   platforms:
     voobly:
       - '123989812'
@@ -734,6 +832,10 @@
       - 'blade'
 - name: Spring
   country: us
+  aoeelo: 13
+  esportsearnings: 41842
+  twitch: https://www.twitch.tv/springtv/
+  discord: https://discord.gg/MrNwsQB
   platforms:
     voobly:
       - '3867'
@@ -757,6 +859,7 @@
       - 'windy'
 - name: Iori
   country: cn
+  esportsearnings: 66423
   platforms:
     vooblycn:
       - '123641192'
@@ -769,6 +872,7 @@
       - 'cath_joe'
 - name: Ruso
   country: es
+  esportsearnings: 66433
   platforms:
     voobly:
       - '123453296'
@@ -780,6 +884,7 @@
       - 'ruso'
 - name: Alive
   country: br
+  esportsearnings: 12947
   platforms:
     voobly:
       - '124097512'
@@ -793,6 +898,7 @@
       - 'alive'
 - name: Ding
   country: hk
+  esportsearnings: 12254
   platforms:
     voobly:
       - '722'
@@ -803,6 +909,7 @@
       - 'ding'
     igz:
       - '46048'
+      - '56738'
     ibp:
       - 'ding'
 - name: Vile
@@ -822,6 +929,7 @@
       - 'kmkm'
 - name: Luca
   country: ca
+  aoeelo: 250
   platforms:
     voobly:
       - '124682621'
@@ -830,12 +938,14 @@
 - name: Lojza
   country: cz
   aoeelo: 58
+  esportsearnings: 12248
   platforms:
     voobly:
       - '123134558'
       - '124340942'
 - name: Mentalist
   country: ca
+  esportsearnings: 14737
   platforms:
     voobly:
       - '123805043'
@@ -844,6 +954,9 @@
       - '125091165'
 - name: Goku
   country: br
+  aoeelo: 7
+  esportsearnings: 14715
+  twitch: https://www.twitch.tv/gokuaoe/
   platforms:
     voobly:
       - '123984617'
@@ -853,6 +966,9 @@
       - '1893397'
 - name: Pike
   country: fi
+  aoeelo: 44
+  esportsearnings: 15935
+  twitch: https://www.twitch.tv/pikeaoc/
   platforms:
     voobly:
       - '123162283'
@@ -862,6 +978,7 @@
       - '229063'
 - name: Vodka
   country: it
+  aoeelo: 129
   platforms:
     voobly:
       - '123841591'
@@ -872,6 +989,7 @@
       - '599689'
 - name: Spaden
   country: se
+  aoeelo: 65
   platforms:
     voobly:
       - '123210474'
@@ -888,6 +1006,7 @@
       - '124453257'
 - name: 'Whoop'
   country: cn
+  esportsearnings: 43219
   platforms:
     voobly:
       - '123236765'
@@ -909,6 +1028,7 @@
       - '124657730'
 - name: 'Edie'
   country: fr
+  aoeelo: 8
   platforms:
     voobly:
       - '123666945'
@@ -932,11 +1052,13 @@
       - '125009949'
 - name: 'CooL'
   country: vn
+  aoeelo: 17
   platforms:
     voobly:
       - '123194620'
 - name: 'Air_Abu'
   country: cn
+  esportsearnings: 14710
   platforms:
     voobly:
       - '30984'
@@ -961,6 +1083,7 @@
       - 'wonder'
 - name: 'classicpro'
   country: ua
+  aoeelo: 99
   platforms:
     voobly:
       - '124075494'
@@ -970,10 +1093,13 @@
       - '1754629'
 - name: 'Ralber'
   country: es
+  twitch: https://www.twitch.tv/ralbertv
   platforms:
     voobly:
       - '11182'
     zone:
+      - 'ralber'
+    gamepark:
       - 'ralber'
 - name: 'DreaIVIS'
   country: fi
@@ -988,6 +1114,10 @@
       - 'dreams'
 - name: 'Capoch'
   country: ar
+  aoeelo: 273
+  esportsearnings: 3535
+  twitch: https://www.twitch.tv/capoch/
+  discord: https://discord.gg/sjCpquh
   platforms:
     voobly:
       - '29129'
@@ -999,6 +1129,7 @@
       - 'capoch'
 - name: 'Rami'
   country: il
+  esportsearnings: 42063
   platforms:
     voobly:
       - '123701126'
@@ -1013,6 +1144,7 @@
       - '123288787'
 - name: 'IamOK'
   country: cn
+  esportsearnings: 12948
   platforms:
     voobly:
       - '187035'
@@ -1026,6 +1158,7 @@
       - 'iamok'
 - name: 'geoffrey'
   country: cn
+  esportsearnings: 12256
   platforms:
     voobly:
       - '25709'
@@ -1042,6 +1175,9 @@
       - '24331'
 - name: FeAge
   country: br
+  aoeelo: 84
+  esportsearnings: 12255
+  twitch: https://www.twitch.tv/feage/
   platforms:
     voobly:
       - '123203450'
@@ -1069,6 +1205,8 @@
       - '123641192'
 - name: Hearttt
   country: pe
+  esportsearnings: 41831
+  twitch: https://www.twitch.tv/hearttt_/
   platforms:
     voobly:
       - '124386524'
@@ -1076,6 +1214,8 @@
       - '582058'
 - name: Ra
   country: ca
+  esportsearnings: 14735
+  twitch: https://www.twitch.tv/sezualhealing/
   platforms:
     voobly:
       - '47262'
@@ -1095,6 +1235,7 @@
       - 'miss_xue'
 - name: James
   country: cn
+  esportsearnings: 14708
   platforms:
     voobly:
       - '123797718'
@@ -1102,6 +1243,7 @@
       - 'james'
 - name: Feanor
   country: ie
+  aoeelo: 9
   platforms:
     voobly:
       - '123806659'
@@ -1157,6 +1299,7 @@
       - '246423'
 - name: Kamigawa
   country: it
+  aoeelo: 446
   platforms:
     voobly:
       - '124287511'
@@ -1166,6 +1309,7 @@
       - '213355'
 - name: CL
   country: cn
+  aoeelo: 34
   platforms:
     voobly:
       - '123916446'
@@ -1177,6 +1321,7 @@
       - '123916446'
 - name: Kongensgade
   country: dk
+  aoeelo: 132
   platforms:
     voobly:
       - '123652655'
@@ -1184,6 +1329,7 @@
     de:
       - '725502'
 - name: Xiaoxiong
+  esportsearnings: 25294
   country: cn
   platforms:
     voobly:
@@ -1197,11 +1343,13 @@
       - 'hs'
 - name: Geek
   country: gb
+  esportsearnings: 2180
   platforms:
     zone:
       - 'geek'
 - name: Mimmox
   country: it
+  esportsearnings: 41724
   platforms:
     zone:
       - 'mimmox'
@@ -1221,6 +1369,8 @@
       - '123135274'
     zone:
       - 'hackl'
+    gamepark:
+      - 'hackl'
 - name: black_bear
   country: cn
   platforms:
@@ -1235,6 +1385,7 @@
       - '56555'
 - name: PeEl
   country: pl
+  esportsearnings: 42061
   platforms:
     zone:
       - 'peel'
@@ -1242,6 +1393,7 @@
       - '15886'
 - name: Rukie
   country: es
+  esportsearnings: 42060
   platforms:
     zone:
       - 'rukie'
@@ -1273,6 +1425,7 @@
       - 'moczymorda'
 - name: Sutra
   country: us
+  esportsearnings: 42059
   platforms:
     zone:
       - 'sutra'
@@ -1313,6 +1466,8 @@
       - 'fox'
     voobly:
       - '6031'
+    gamepark:
+      - 'fox'
 - name: Pete Martell
   country: it
   platforms:
@@ -1325,6 +1480,7 @@
       - 'chaos_2_win'
 - name: Dragonstar
   country: in
+  aoeelo: 603
   platforms:
     voobly:
       - '124281975'
@@ -1355,7 +1511,7 @@
       - 'iamjordan'
 - name: GoldenEnd
   country: nl
-  aoeelo_id: 197
+  aoeelo: 197
   platforms:
     voobly:
       - '123839438'
@@ -1364,3 +1520,258 @@
   platforms:
     zone:
       - 'elfanor'
+- name: Cyclops
+  country: tr
+  aoeelo: 262
+  platforms:
+    zone:
+      - 'cyclops'
+- name: Janik
+  country: cz
+  aoeelo: 91
+  platforms:
+    voobly:
+      - '123753371'
+    de:
+      - '1134223'
+- name: Seoul
+  country: vn
+  aoeelo: 143
+  platforms:
+- name: Running
+  country: de
+  aoeelo: 616
+  platforms:
+    de:
+      - '256338'
+- name: Obadiah
+  country: ca
+  aoeelo: 602
+  platforms:
+- name: DemonSheep
+  country: tw
+  aoeelo: 611
+  platforms:
+    de:
+      - '226697'
+- name: Stefan
+  country: de
+  aoeelo: 103
+  platforms:
+    de:
+      - '1832072'
+- name: HerG
+  country: tw
+  aoeelo: 445
+  twitch: https://www.twitch.tv/skyandpeace/
+  youtube: https://www.youtube.com/channel/UClgw-f0ZsbIbRrj1-cDL8Rg
+  platforms:
+    de:
+      - '209118'
+- name: Komtan
+  country: au
+  aoeelo: 66
+  platforms:
+- name: Scotty
+  country: us
+  aoeelo: 78
+  platforms:
+    de:
+      - '301918'
+- name: Metal
+  country: us
+  aoeelo: 70
+  platforms:
+- name: LB10
+  country: at
+  aoeelo: 74
+  platforms:
+- name: Rodrigus
+  country: ar
+  aoeelo: 449
+  platforms:
+- name: Skittle
+  country: de
+  aoeelo: 122
+  platforms:
+    de:
+      - '992381'
+    voobly:
+      - '123225139'
+    igz:
+      - '123225139'
+- name: Jidba
+  country: gr
+  esportsearnings: 15926
+  platforms:
+    de:
+      - '357026'
+    voobly:
+      - '978'
+- name: IamKen
+  country: cn
+  esportsearnings: 2174
+  platforms:
+- name: Bender
+  country: de
+  esportsearnings: 42058
+  platforms:
+    zone:
+      - 'bender'
+- name: Nv
+  country: kr
+  esportsearnings: 12945
+  platforms:
+- name: GX_Iron
+  country: us
+  esportsearnings: 6933
+  platforms:
+    zone:
+      - 'iron'
+- name: North
+  country: gb
+  esportsearnings: 6932
+  platforms:
+- name: RIP_Dreams
+  country: nl
+  esportsearnings: 2175
+  platforms:
+    zone:
+      - 'rip_dreams'
+- name: Buddha
+  country: bg
+  esportsearnings: 67163
+  platforms:
+    zone:
+      - 'buddha'
+    gamepark:
+      - 'buddha'
+- name: NO_23
+  country: cn
+  esportsearnings: 14709
+  platforms:
+    voobly:
+      - '123636501'
+- name: El KhaLeN
+  country: fr
+  esportsearnings: 76361
+  platforms:
+- name: Kaiser Willhelm
+  country: se
+  esportsearnings: 65230
+  platforms:
+- name: Fai
+  country: cn
+  esportsearnings: 72998
+  platforms:
+- name: "True"
+  country: us
+  esportsearnings: 15931
+  platforms:
+- name: HappyHappy
+  country: cn
+  esportsearnings: 43220
+  platforms:
+- name: WraTh
+  country: br
+  esportsearnings: 12956
+  platforms:
+    zone:
+      - 'wrath'
+    gamepark:
+      - 'wrath'
+- name: Jinx
+  country: us
+  esportsearnings: 74366
+  platforms:
+    zone:
+      - 'jinx'
+- name: MuSe
+  country: de
+  esportsearnings: 2177
+  platforms:
+    zone:
+      - 'muse'
+- name: Crexis
+  country: ca
+  esportsearnings: 42051
+  platforms:
+- name: Myth_Osiris
+  country: nl
+  esportsearnings: 6935
+  platforms:
+- name: Dee
+  country: cn
+  esportsearnings: 12951
+  platforms:
+    voobly:
+      - '123180884'
+- name: DevilZ_High
+  country: dk
+  esportsearnings: 42050
+  platforms:
+- name: HimT
+  country: hk
+  esportsearnings: 72997
+  platforms:
+- name: Dante
+  country: us
+  esportsearnings: 2176
+  platforms:
+- name: HawFchik
+  country: kz
+  esportsearnings: 66170
+  platforms:
+- name: n00b
+  country: ie
+  esportsearnings: 67286
+  platforms:
+    zone:
+      - 'noob'
+- name: RaYaN
+  country: kz
+  esportsearnings: 66165
+  platforms:
+    zone:
+      - 'rayan'
+- name: Jaksal
+  country: kr
+  esportsearnings: 49663
+  platforms:
+- name: Shiri
+  country: kr
+  esportsearnings: 49662
+  platforms:
+- name: Praxes
+  country: us
+  esportsearnings: 15951
+  platforms:
+- name: Disciple
+  country: us
+  esportsearnings: 73956
+  platforms:
+- name: Ugnis
+  country: lt
+  esportsearnings: 66164
+  platforms:
+    zone:
+      - 'ugnis'
+- name: NoBoDy
+  country: kz
+  esportsearnings: 66167
+  platforms:
+- name: Sobek
+  country: cl
+  platforms:
+    de:
+      - '290617'
+    voobly:
+      - '124317014'
+- name: Hallis
+  country: gb
+  platforms:
+    de:
+      - '250103'
+    voobly:
+      - '123851827'
+      - '123649340'
