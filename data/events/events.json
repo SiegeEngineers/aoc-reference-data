@@ -543,12 +543,19 @@
   {
     "id": "bcc3",
     "year": 2010,
-    "ongoing": true,
     "name": "Brain Champion Cup Season 3",
     "tournaments": [
       "3032141acdc35ab4d482ab4a-bcc3_wb",
       "3032141acdc35ab4d482ab4a-bcc3_lb",
       "3032141acdc35ab4d482ab4a-bcc3_league"
+    ]
+  },
+  {
+    "id": "dmb",
+    "year": 2020,
+    "name": "Draft My Back",
+    "tournaments": [
+      "DMBQuali"
     ]
   }
 ]

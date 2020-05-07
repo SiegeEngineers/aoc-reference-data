@@ -583,6 +583,7 @@
   country: br
   aoeelo: 2
   esportsearnings: 15928
+  twitch: https://www.twitch.tv/miguelaoe
   platforms:
     voobly:
       - '123600879'
@@ -620,6 +621,7 @@
 - name: Sitaux
   country: fr
   aoeelo: 12
+  twitch: https://www.twitch.tv/sitaux
   platforms:
     voobly:
       - '125241102'
