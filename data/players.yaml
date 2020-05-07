@@ -37,6 +37,8 @@
       - '312938'
       - '1862911' # henry
 - name: Vivi
+  aka:
+    - FAT_PIG
   country: cn
   aoeelo: 35
   esportsearnings: 25295
@@ -310,9 +312,12 @@
     ibp:
       - 'cloud'
 - name: Paladin
+  aka:
+    - Fengxin
   country: cn
   aoeelo: 20
   esportsearnings: 12249
+  douyu: https://www.douyu.com/294359
   platforms:
     voobly:
       - '123835916' # fengxin
@@ -459,9 +464,12 @@
     de:
       - '265517'
 - name: Yinghua
+  aka:
+    - LoveCheng
   country: cn
   aoeelo: 54
   esportsearnings: 12251
+  douyu: https://www.douyu.com/953871
   platforms:
     voobly:
       - '123910183' # AreS
@@ -478,6 +486,7 @@
   country: cn
   aoeelo: 21
   esportsearnings: 14740
+  douyu: https://www.douyu.com/1029928
   platforms:
     voobly:
       - '123230853' # SY
@@ -861,8 +870,6 @@
   country: cn
   esportsearnings: 66423
   platforms:
-    vooblycn:
-      - '123641192'
     zone:
       - 'iori'
 - name: Joe
@@ -1221,7 +1228,10 @@
       - '47262'
       - '127366'
 - name: Miss_Xue
+  aka:
+    - NO_23
   country: cn
+  esportsearnings: 14709
   platforms:
     voobly:
       - '25116'
@@ -1310,6 +1320,8 @@
 - name: CL
   country: cn
   aoeelo: 34
+  esportsearnings: 43220
+  douyu: https://www.douyu.com/556823
   platforms:
     voobly:
       - '123916446'
@@ -1521,11 +1533,16 @@
     zone:
       - 'elfanor'
 - name: Cyclops
+  aka:
+    - Erhan
   country: tr
   aoeelo: 262
   platforms:
     zone:
       - 'cyclops'
+    voobly:
+      - '20404'
+      - '123638821'
 - name: Janik
   country: cz
   aoeelo: 91
@@ -1646,12 +1663,6 @@
       - 'buddha'
     gamepark:
       - 'buddha'
-- name: NO_23
-  country: cn
-  esportsearnings: 14709
-  platforms:
-    voobly:
-      - '123636501'
 - name: El KhaLeN
   country: fr
   esportsearnings: 76361
@@ -1667,10 +1678,6 @@
 - name: "True"
   country: us
   esportsearnings: 15931
-  platforms:
-- name: HappyHappy
-  country: cn
-  esportsearnings: 43220
   platforms:
 - name: WraTh
   country: br
@@ -1775,3 +1782,70 @@
     voobly:
       - '123851827'
       - '123649340'
+- name: FletcheR
+  country: 'no'
+  esportsearnings: 67412
+  platforms:
+    zone:
+      - 'fletcher'
+- name: Kumruke
+  country: jp
+  platforms:
+    zone:
+      - 'kumruke'
+    voobly:
+      - '227647'
+- name: Igloo
+  country: gb
+  platforms:
+    zone:
+      - 'igloo'
+    voobly:
+      - '124479620'
+- name: Goodboy
+  country: cn
+  platforms:
+    voobly:
+      - '123188558'
+      - '123140760'
+- name: Kyo
+  country: hk
+  platforms:
+    voobly:
+      - '123308350'
+- name: Survivalist
+  country: ca
+  youtube: https://www.youtube.com/channel/UCmFJUeU8Oubp5Neldbq0JRA
+  mixer: https://mixer.com/SurvivalistAOE2DE
+  discord: https://discord.gg/2uJ5Tyh
+  platforms:
+    de:
+      - '247224'
+- name: YYQ
+  country: cn
+  esportsearnings: 73955
+  aoeelo: 355
+  platforms:
+    zone:
+      - 'yyq'
+- name: Country
+  country: ie
+  aoeelo: 344
+  platforms:
+    zone:
+      - 'country'
+- name: Zeal
+  country: se
+  esportsearnings: 6881
+  aoeelo: 321
+  platforms:
+    zone:
+      - 'zeal'
+    voobly:
+      - '17368'
+- name: KicK
+  country: es
+  esportsearnings: 68804
+  platforms:
+    zone:
+      - 'kick'
