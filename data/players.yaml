@@ -31,7 +31,6 @@
     - '123219836' # FyruT
     - '125129985' # hc: La Hire
     - '123887528'
-    - '124689413'
     - '124341247' # wsvg
     de:
       - '312938'
@@ -185,6 +184,7 @@
   country: vn
   aoeelo: 15
   esportsearnings: 14724
+  twitch: https://www.twitch.tv/saymyname2909
   platforms:
     voobly:
       - '124390868' # FamilyNo1
@@ -671,6 +671,7 @@
       - '124183501'
     de:
       - '212746'
+      - '661884'
 - name: Kasva
   country: tr
   aoeelo: 195
@@ -939,6 +940,7 @@
 - name: Luca
   country: ca
   aoeelo: 250
+  twitch: https://www.twitch.tv/luca8761
   platforms:
     voobly:
       - '124682621'
@@ -1304,6 +1306,7 @@
       - '208080'
 - name: Dobbs
   country: dk
+  twitch: https://www.twitch.tv/dobbs351
   platforms:
     voobly:
       - '124368651'
@@ -1583,7 +1586,6 @@
   country: tw
   aoeelo: 445
   twitch: https://www.twitch.tv/skyandpeace/
-  youtube: https://www.youtube.com/channel/UClgw-f0ZsbIbRrj1-cDL8Rg
   platforms:
     de:
       - '209118'
@@ -1617,6 +1619,7 @@
       - '992381'
     voobly:
       - '123225139'
+      - '2976'
     igz:
       - '123225139'
 - name: Jidba
@@ -1851,3 +1854,18 @@
   platforms:
     zone:
       - 'kick'
+- name: LeAsH
+  country: us
+  twitch: https://www.twitch.tv/leash__/
+  platforms:
+    de:
+      - '322858'
+    voobly:
+      - '123556801'
+- name: 'True'
+  country: us
+  platforms:
+    voobly:
+      - '123188321'
+    de:
+      - '584824'

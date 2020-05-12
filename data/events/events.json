@@ -557,5 +557,22 @@
     "tournaments": [
       "DMBQuali"
     ]
+  },
+  {
+    "id": "boa2",
+    "year": 2020,
+    "name": "Battle of Africa 2",
+    "tournaments": [
+      "BOA2QUALIFICATION"
+    ]
+  },
+  {
+    "id": "bcc2",
+    "year": 2009,
+    "name": "Brain Champion Cup Season 2",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-bcc2_s1",
+      "3032141acdc35ab4d482ab4a-bcc2_s2"
+    ]
   }
 ]
