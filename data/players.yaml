@@ -566,7 +566,7 @@
   country: br
   esportsearnings: 12244
   aoeelo: 3
-  twitch: https://www.twitch.tv/tyrant_riut/
+  twitch: https://www.twitch.tv/riut_aoe
   youtube: https://www.youtube.com/channel/UCWk47NDwrg9p696-Usiv8fw
   platforms:
     voobly:
@@ -579,6 +579,8 @@
       - '8643' # lein
       - '125129995-10' # hc10
       - '124340884' # wsvg
+    de:
+      - '673196'
 - name: Miguel
   country: br
   aoeelo: 2
@@ -892,6 +894,8 @@
       - 'ruso'
     zone:
       - 'ruso'
+    de:
+      - '1997593'
 - name: Alive
   country: br
   esportsearnings: 12947
@@ -1108,10 +1112,13 @@
   platforms:
     voobly:
       - '11182'
+      - '24950'
     zone:
       - 'ralber'
     gamepark:
       - 'ralber'
+    de:
+      - '2535067'
 - name: 'DreaIVIS'
   country: fi
   platforms:
@@ -1289,6 +1296,7 @@
       - '124531503'
 - name: Lang
   country: cn
+  esportsearnings: 65185
   platforms:
     voobly:
       - '123864424'
@@ -1437,6 +1445,7 @@
       - 'sorak'
 - name: Moczymorda
   country: pl
+  esportsearnings: 66451
   platforms:
     zone:
       - 'moczymorda'
@@ -1566,6 +1575,8 @@
   platforms:
     de:
       - '256338'
+    voobly:
+      - '125045236'
 - name: Obadiah
   country: ca
   aoeelo: 602
@@ -1638,6 +1649,8 @@
   country: de
   esportsearnings: 42058
   platforms:
+    voobly:
+      - '123436221'
     zone:
       - 'bender'
 - name: Nv

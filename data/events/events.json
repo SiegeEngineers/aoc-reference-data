@@ -574,5 +574,13 @@
       "3032141acdc35ab4d482ab4a-bcc2_s1",
       "3032141acdc35ab4d482ab4a-bcc2_s2"
     ]
+  },
+  {
+    "id": "sycup",
+    "year": 2012,
+    "name": "SY-CUP International Invitational Tournament",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-sy_cup_2012"
+    ]
   }
 ]
