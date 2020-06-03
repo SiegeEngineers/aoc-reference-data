@@ -563,7 +563,8 @@
     "year": 2020,
     "name": "Battle of Africa 2",
     "tournaments": [
-      "BOA2QUALIFICATION"
+      "BOA2QUALIFICATION",
+      "3032141acdc35ab4d482ab4a-boa2_aocrecs"
     ]
   },
   {
@@ -581,6 +582,22 @@
     "name": "SY-CUP International Invitational Tournament",
     "tournaments": [
       "3032141acdc35ab4d482ab4a-sy_cup_2012"
+    ]
+  },
+  {
+    "id": "handicap",
+    "year": 2005,
+    "name": "Handicap Tournament",
+    "tournaments": [
+      "3032141acdc35ab4d482ab4a-handicap_aoc"
+    ]
+  },
+  {
+    "id": "dmrc",
+    "year": 2020,
+    "name": "DM Redemption Cup",
+    "tournaments": [
+      "AOEIIDEDMRedemptionCup"
     ]
   }
 ]

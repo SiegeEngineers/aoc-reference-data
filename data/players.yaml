@@ -384,6 +384,9 @@
 - name: Belgium
   country: be
   aoeelo: 75
+  youtube: https://www.youtube.com/channel/UCtLQsBrf-ugm0g1XitneyIw
+  twitch: https://www.twitch.tv/project_belgium
+  discord: https://discord.gg/fV5A4Vr
   platforms:
     voobly:
       - '124474647'
@@ -645,7 +648,7 @@
       - '431744'
 - name: Hoang
   country: vn
-  twitch: https://www.twitch.tv/videos/610949271
+  twitch: https://www.twitch.tv/hoangnguyen485
   youtube: https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw?view_as=subscriber
   platforms:
     voobly:
@@ -668,6 +671,8 @@
 - name: Ganji
   country: se
   aoeelo: 458
+  twitch: https://www.twitch.tv/ganji__
+  discord: https://discord.gg/rtpCfgE
   platforms:
     voobly:
       - '124183501'
@@ -689,6 +694,8 @@
     de:
       - '1224481'
 - name: Jibatong
+  aka:
+    - Pain Master
   country: cn
   aoeelo: 198
   platforms:
@@ -703,6 +710,7 @@
       - '227857'
 - name: Noisick
   country: cl
+  twitch: https://www.twitch.tv/noisick_aoe
   platforms:
     voobly:
       - '124308648'
@@ -730,6 +738,7 @@
       - '123601190' # buzz
     de:
       - '239238'
+      - '2503651' # badb0y
 - name: Dziamdziak
   country: pl
   aoeelo: 127
@@ -1301,6 +1310,7 @@
     voobly:
       - '123864424'
       - '123826180'
+      - '188112'
     vooblycn:
       - '123864424'
     ibp:
@@ -1694,9 +1704,15 @@
   esportsearnings: 72998
   platforms:
 - name: "True"
+  aka:
+    - Kellan
   country: us
   esportsearnings: 15931
   platforms:
+    de:
+      - '584824'
+    voobly:
+      - '123188321'
 - name: WraTh
   country: br
   esportsearnings: 12956
@@ -1882,3 +1898,31 @@
       - '123188321'
     de:
       - '584824'
+- name: Repard
+  country: ru
+  platforms:
+    voobly:
+      - '123765859'
+    de:
+      - '222528'
+- name: TheCode
+  country: tr
+  platforms:
+    voobly:
+      - '123369268'
+    de:
+      - '1529495'
+- name: Daywalker
+  country: gb
+  platforms:
+    voobly:
+      - '123374407'
+    de:
+      - '211235'
+- name: l2aGe
+  country: gb
+  platforms:
+    voobly:
+      - '124045298'
+    de:
+      - '217180'
