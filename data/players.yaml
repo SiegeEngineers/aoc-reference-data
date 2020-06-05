@@ -4,6 +4,7 @@
   country: 'no'
   esportsearnings: 25311
   aoeelo: 24
+  liquipedia: MbL
   twitch: https://www.twitch.tv/mblaoc
   youtube: http://youtube.com/user/Mortenjeah
   discord: https://discord.gg/5cHqGMx
@@ -22,6 +23,7 @@
   country: vn
   esportsearnings: 14723
   aoeelo: 16
+  liquipedia: BacT
   twitch: https://www.twitch.tv/bact_/
   youtube: https://www.youtube.com/channel/UCScpQlZKVLdPMFBdd1gXbRQ
   platforms:
@@ -885,6 +887,8 @@
   platforms:
     zone:
       - 'iori'
+    de:
+      - '2772600'
 - name: Joe
   country: cn
   platforms:

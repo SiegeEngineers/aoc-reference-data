@@ -599,5 +599,13 @@
     "tournaments": [
       "AOEIIDEDMRedemptionCup"
     ]
+  },
+  {
+    "id": "dmwc3",
+    "year": 2020,
+    "name": "Death Match World Cup 3",
+    "tournaments": [
+      "dmwc3"
+    ]
   }
 ]
