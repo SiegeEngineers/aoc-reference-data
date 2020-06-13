@@ -1401,6 +1401,8 @@
       - 'bvirus'
     voobly:
       - '4053'
+    de:
+      - '1657293'
 - name: Hackl
   country: de
   platforms:
@@ -1445,6 +1447,8 @@
       - 'drinky'
     gamepark:
       - 'drinky'
+    de:
+      - '258972'
 - name: Canary
   country: jp
   platforms:
@@ -1452,6 +1456,8 @@
       - 'canary'
     gamepark:
       - 'canary'
+    de:
+      - '2520503'
 - name: SoraK
   country: cl
   platforms:
@@ -1567,6 +1573,8 @@
   aoeelo: 262
   platforms:
     zone:
+      - 'cyclops'
+    gamepark:
       - 'cyclops'
     voobly:
       - '20404'

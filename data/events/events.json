@@ -609,5 +609,14 @@
     "tournaments": [
       "dmwc3"
     ]
+  },
+  {
+    "id": "awakening",
+    "year": 2015,
+    "name": "The Awakening",
+    "tournaments": [
+      "awakening",
+      "awakeningelim"
+    ]
   }
 ]
