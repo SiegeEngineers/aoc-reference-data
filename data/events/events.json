@@ -618,5 +618,26 @@
       "awakening",
       "awakeningelim"
     ]
+  },
+  {
+    "id": "aoelympics",
+    "year": 2020,
+    "name": "AOElympics",
+    "tournaments": [
+      "AL_Atacama_1v1",
+      "AL_Arabia_1v1",
+      "AL_Mirage_1v1",
+      "AL_Slippery_Springs_1v1",
+      "AL_Arena_1v1",
+      "AL_Desertfox_1v1",
+      "AL_RF_1v1",
+      "AL_Nomad_1v1",
+      "AL_UR_1v1",
+      "AL_Loch_Ness_1v1",
+      "AL_Migration_1v1",
+      "AL_Rooster_1v1",
+      "AL_Cross_1v1",
+      "AL_Golden_Island_1v1"
+    ]
   }
 ]

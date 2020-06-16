@@ -246,6 +246,7 @@
   country: vn
   aoeelo: 14
   esportsearnings: 14727
+  twitch: https://www.twitch.tv/accm_vn
   platforms:
     voobly:
       - '123428504'
@@ -476,6 +477,8 @@
   esportsearnings: 12251
   douyu: https://www.douyu.com/953871
   platforms:
+    de:
+      - '2806260'
     voobly:
       - '123910183' # AreS
       - '195356' # LoveCheng
