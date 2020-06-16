@@ -1,0 +1,415 @@
+/* ************ Prairie ************ */
+/* 25 SPET 00 */
+/* JP */
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+  random_placement
+
+/* ****************************************************** */
+<LAND_GENERATION>
+
+base_terrain DIRT
+/* This is basically a map with big groups of boar and deer and a shortage of trees */
+
+#define DESERT_MAP
+
+create_player_lands 
+{ 
+  terrain_type                     DIRT
+
+/* The amount of land used is random. */
+start_random
+ percent_chance 25
+  land_percent                     85
+ percent_chance 25
+  land_percent                     88
+ percent_chance 25
+  land_percent                     91
+ percent_chance 25
+  land_percent  		   94
+end_random
+
+base_size                        13
+border_fuzziness                 15
+zone                             1
+other_zone_avoidance_distance    7
+clumping_factor                 15
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+/* PRIMARY FOREST */
+
+create_terrain PALM_DESERT
+{
+  base_terrain                   DIRT
+  spacing_to_other_terrain_types 5
+  land_percent                   8
+  number_of_clumps               10
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* These patches and additional forests are used for variation.  Adding grass or dirt on top of the base terrain is really only for cosmetic purposes.  Forests affect how defensive the map can be and how hard it is to path from one town to another */
+
+/* SECONDARY FOREST */
+
+create_terrain FOREST
+{
+  base_terrain                   DESERT
+  spacing_to_other_terrain_types 3
+  land_percent                   2
+  number_of_clumps               3
+  min_distance_to_players        20
+  max_distance_to_players        30  
+  set_scale_by_groups
+}
+
+/* SECONDARY PATCH */
+
+create_terrain DIRT3
+{
+  base_terrain                   DIRT
+  number_of_clumps               24
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+}
+
+/* TERTIARY PATCH */
+
+create_terrain DESERT
+{
+  base_terrain                   DESERT
+  number_of_clumps               30
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+/* PLAYER START OBJECTS */
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object FORAGE
+{
+  number_of_objects 1
+  number_of_groups 1
+  set_place_for_every_player
+  set_gaia_object_only
+  min_distance_to_players    3
+  max_distance_to_players    5
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+ }
+
+create_object SCOUT
+{
+  number_of_objects             2
+  set_place_for_every_player
+  min_distance_to_players       7
+  max_distance_to_players       11
+ }
+
+create_object RELIC
+{
+   number_of_objects            5
+   min_distance_to_players     25
+   temp_min_distance_group_placement 20
+}
+
+/* Each player starts with a Town Center, villagers and a 2 scouts.  The Map Generator knows that Chinese need 6 villagers and that Aztecs have an Eagle Warrior.  There are also 5 Relics. */
+
+
+
+
+
+/* NEAR GOLD */
+
+create_object GOLD
+{
+  number_of_objects          6
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    16
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM GOLD */
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    17
+  max_distance_to_players    20
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR GOLD */
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    18
+  max_distance_to_players    30
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* Everyone gets 3 sets of gold mines.  Sometimes the far gold mine is really far (30 tiles) from the player’s Town Center. */
+
+/* NEAR STONE */
+
+create_object STONE
+{
+  number_of_objects          4
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    15
+  max_distance_to_players    20
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* MEDIUM STONE */
+
+create_object STONE
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    15
+  max_distance_to_players    25
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* FAR STONE */
+
+create_object STONE
+{
+  number_of_objects          4
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    25
+  max_distance_to_players    35
+  min_distance_group_placement  7
+  max_distance_to_other_zones  7
+}
+
+/* We place stone last since it is more important to start with berries and gold.  If the map runs out of room it might not place stone.  This is not ideal, but it is better than losing gold. */
+
+
+
+/*  Because large maps have more open space, they need more resources.  These resources do not “belong” to anyone.  They are scattered for the taking. */
+
+/* EXTRA GOLD */
+
+if TINY_MAP
+create_object GOLD
+{
+  number_of_groups           2    
+  number_of_objects          3
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if SMALL_MAP
+create_object GOLD
+{
+  number_of_groups           2    
+  number_of_objects          3
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if MEDIUM_MAP
+create_object GOLD
+{
+  number_of_groups           3    
+  number_of_objects          3
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if LARGE_MAP
+create_object GOLD
+{
+  number_of_groups           3    
+  number_of_objects          3
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if HUGE_MAP
+create_object GOLD
+{
+  number_of_groups           4    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if GIGANTIC_MAP
+create_object GOLD
+{
+  number_of_groups           5    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+/* EXTRA STONE */
+
+if TINY_MAP
+create_object STONE
+{
+  number_of_groups           1    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if SMALL_MAP
+create_object STONE
+{
+  number_of_groups           1    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if MEDIUM_MAP
+create_object STONE
+{
+  number_of_groups           2    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if LARGE_MAP
+create_object STONE
+{
+  number_of_groups           3    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if HUGE_MAP
+create_object STONE
+{
+  number_of_groups           4    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+if GIGANTIC_MAP
+create_object STONE
+{
+  number_of_groups           5    
+  number_of_objects          4
+  group_variance             1
+  group_placement_radius     2
+  set_tight_grouping
+  set_gaia_object_only
+  min_distance_to_players       40
+  min_distance_group_placement  9
+}
+endif
+
+/* These are the “straggler” trees near every Town Center. EDITED for DM: no more stragglers! */
+
+
+
+/* ****************************************************** */
