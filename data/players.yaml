@@ -43,6 +43,7 @@
   country: cn
   aoeelo: 35
   esportsearnings: 25295
+  liquipedia: Vivi
   douyu: https://www.douyu.com/1052202
   platforms:
     voobly:
@@ -58,6 +59,7 @@
   country: cn
   esportsearnings: 14713
   aoeelo: 19
+  liquipedia: Mr_Yo
   douyu: https://www.douyu.com/753676
   platforms:
     voobly:
@@ -84,6 +86,7 @@
   country: br
   aoeelo: 18
   esportsearnings: 12258
+  liquipedia: St4rk
   youtube: https://www.youtube.com/channel/UCoX5HqFM4qEGJYfj0TEOIpg
   twitch: https://www.twitch.tv/st4rk_
   discord: https://discord.gg/K4VEGWC
@@ -97,6 +100,7 @@
 - name: LaaaaaN
   country: es
   aoeelo: 62
+  liquipedia: LaaaaaN
   esportsearnings: 56830
   platforms:
     voobly:
@@ -111,6 +115,7 @@
   country: br
   esportsearnings: 12250
   aoeelo: 4
+  liquipedia: dogao
   platforms:
     voobly:
       - '123186723' # GiveMeYourSmile
@@ -126,6 +131,7 @@
   country: es
   esportsearnings: 41416
   aoeelo: 31
+  liquipedia: TaToH
   youtube: https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg
   twitch: https://www.twitch.tv/tatoh
   platforms:
@@ -145,6 +151,7 @@
   country: ru
   aoeelo: 55
   esportsearnings: 42069
+  liquipedia: Vinchester
   twitch: https://www.twitch.tv/vik_vinchester/
   youtube: http://www.youtube.com/channel/UCm3BAnotyqfdvm6sO5bs18g
   platforms:
@@ -175,6 +182,7 @@
 - name: Barles
   country: pl
   aoeelo: 79
+  liquipedia: _Barles_
   platforms:
     voobly:
       - '123850375' # _Wrachziikle_
@@ -186,6 +194,7 @@
   country: vn
   aoeelo: 15
   esportsearnings: 14724
+  liquipedia: saymyname
   twitch: https://www.twitch.tv/saymyname2909
   platforms:
     voobly:
@@ -234,6 +243,7 @@
   country: br
   esportsearnings: 14714
   aoeelo: 5
+  liquipedia: F1Re
   twitch: https://www.twitch.tv/f1reaoe/
   platforms:
     voobly:
@@ -246,6 +256,7 @@
   country: vn
   aoeelo: 14
   esportsearnings: 14727
+  liquipedia: ACCM
   twitch: https://www.twitch.tv/accm_vn
   platforms:
     voobly:
@@ -259,6 +270,7 @@
   country: cn
   esportsearnings: 12949
   aoeelo: 33
+  liquipedia: Tim
   platforms:
     voobly:
       - '182612'
@@ -289,6 +301,7 @@
   country: at
   esportsearnings: 41415
   aoeelo: 25
+  liquipedia: Liereyy
   twitch: https://www.twitch.tv/liereyy/
   youtube: https://www.youtube.com/channel/UCaggQmp9gAuB7xYeci26VWA
   platforms:
@@ -302,6 +315,7 @@
 - name: Cloud
   country: tw
   aoeelo: 94
+  liquipedia: Cloud
   youtube: https://www.youtube.com/user/qaws68
   discord: https://discord.gg/dKzquZB
   platforms:
@@ -320,6 +334,7 @@
   country: cn
   aoeelo: 20
   esportsearnings: 12249
+  liquipedia: Paladin
   douyu: https://www.douyu.com/294359
   platforms:
     voobly:
@@ -333,6 +348,7 @@
   country: rs
   esportsearnings: 12247
   aoeelo: 1
+  liquipedia: DauT
   twitch: https://www.twitch.tv/daut
   youtube: https://www.youtube.com/channel/UC8m8Iah2xOHZvnBbpyOcEOA
   discord: https://discord.gg/ckHd3vT
@@ -355,6 +371,7 @@
   country: ca
   esportsearnings: 25296
   aoeelo: 28
+  liquipedia: Hera
   twitch: https://www.twitch.tv/hera_aoc
   youtube: https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ
   discord: https://discord.gg/DkdJj4D
@@ -371,6 +388,7 @@
   country: de
   aoeelo: 11
   esportsearnings: 41832
+  liquipedia: Nili_AoE
   twitch: https://www.twitch.tv/nili_aoe
   youtube: https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/videos
   discord: https://discordapp.com/invite/pQG8txM
@@ -387,6 +405,7 @@
 - name: Belgium
   country: be
   aoeelo: 75
+  liquipedia: PROject_Belgium
   youtube: https://www.youtube.com/channel/UCtLQsBrf-ugm0g1XitneyIw
   twitch: https://www.twitch.tv/project_belgium
   discord: https://discord.gg/fV5A4Vr
@@ -400,6 +419,7 @@
   country: fi
   aoeelo: 50
   esportsearnings: 15934
+  liquipedia: Zuppi
   platforms:
     voobly:
       - '123961442'
@@ -422,8 +442,9 @@
   country: de
   esportsearnings: 12243
   aoeelo: 29
+  liquipedia: TheViper
   youtube: https://www.youtube.com/user/TheViperAOC
-  mixer: https://mixer.com/theviper
+  twitch: https://twitch.tv/theviper
   discord: https://discord.gg/WNmHUEH
   platforms:
     voobly:
@@ -449,6 +470,7 @@
   country: ca
   esportsearnings: 12253
   aoeelo: 32
+  liquipedia: Slam
   twitch: https://www.twitch.tv/slamjam_/
   youtube: https://www.youtube.com/channel/UC15K06FB4EO98AMBYqraQ3w
   platforms:
@@ -463,6 +485,7 @@
 - name: Daniel
   country: us
   aoeelo: 69
+  liquipedia: Daniel
   twitch: https://www.twitch.tv/aocdaniel/
   platforms:
     voobly:
@@ -494,6 +517,7 @@
   country: cn
   aoeelo: 21
   esportsearnings: 14740
+  liquipedia: Lyx
   douyu: https://www.douyu.com/1029928
   platforms:
     voobly:
@@ -509,6 +533,7 @@
   country: ar
   esportsearnings: 14718
   aoeelo: 27
+  liquipedia: Nicov
   twitch: https://www.twitch.tv/nicov_/
   discord: https://discord.gg/quRrGhV
   platforms:
@@ -526,6 +551,7 @@
   country: de
   esportsearnings: 12245
   aoeelo: 30
+  liquipedia: JorDan_23
   twitch: https://www.twitch.tv/secret_jordan23/
   youtube: https://www.youtube.com/channel/UCimCFIisAqXW9udVhN_LpwQ
   discord: https://discord.gg/TWpUYVh
@@ -549,6 +575,7 @@
   country: fi
   esportsearnings: 25297
   aoeelo: 52
+  liquipedia: TheMax
   platforms:
     voobly:
       - '123282211'
@@ -562,6 +589,7 @@
   country: fi
   aoeelo: 51
   esportsearnings: 43218
+  liquipedia: Villese
   platforms:
     voobly:
       - '124166670'
@@ -574,6 +602,7 @@
   country: br
   esportsearnings: 12244
   aoeelo: 3
+  liquipedia: RiuT
   twitch: https://www.twitch.tv/riut_aoe
   youtube: https://www.youtube.com/channel/UCWk47NDwrg9p696-Usiv8fw
   platforms:
@@ -593,6 +622,7 @@
   country: br
   aoeelo: 2
   esportsearnings: 15928
+  liquipedia: miguel
   twitch: https://www.twitch.tv/miguelaoe
   platforms:
     voobly:
@@ -632,6 +662,7 @@
   country: fr
   aoeelo: 12
   twitch: https://www.twitch.tv/sitaux
+  liquipedia: Sitaux
   platforms:
     voobly:
       - '125241102'
@@ -646,6 +677,7 @@
   country: fi
   aoeelo: 53
   esportsearnings: 15936
+  liquipedia: Rubenstock
   platforms:
     voobly:
       - '123417449'
@@ -653,6 +685,7 @@
       - '431744'
 - name: Hoang
   country: vn
+  liquipedia: Hoang
   twitch: https://www.twitch.tv/hoangnguyen485
   youtube: https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw?view_as=subscriber
   platforms:
@@ -667,6 +700,7 @@
 - name: AngelinaJolie
   country: nl
   aoeelo: 121
+  liquipedia: AngelinaJollie
   platforms:
     voobly:
       - '124134715'
@@ -676,6 +710,7 @@
 - name: Ganji
   country: se
   aoeelo: 458
+  liquipedia: Ganji
   twitch: https://www.twitch.tv/ganji__
   discord: https://discord.gg/rtpCfgE
   platforms:
@@ -687,6 +722,7 @@
 - name: Kasva
   country: tr
   aoeelo: 195
+  liquipedia: K4SVA
   twitch: https://www.twitch.tv/kasvaoe
   youtube: https://www.youtube.com/channel/UCFAiCVX7VqQaqGBPAxLRKnQ?view_as=subscriber
   discord: https://discord.gg/CETwWEp
@@ -703,6 +739,7 @@
     - Pain Master
   country: cn
   aoeelo: 198
+  liquipedia: jibatong
   platforms:
     voobly:
       - '123642997'
@@ -736,6 +773,7 @@
 - name: Fedex
   country: ar
   aoeelo: 153
+  liquipedia: Fedex
   platforms:
     voobly:
       - '123273973'
@@ -767,6 +805,7 @@
 - name: Yanzi
   country: hk
   esportsearnings: 2178
+  liquipedia: Chun_Yu
   platforms:
     lan:
       - 'yanzi'
@@ -785,6 +824,7 @@
 - name: Grunt
   country: kr
   esportsearnings: 2090
+  liquipedia: Grunt
   platforms:
     voobly:
       - '123189460'
@@ -795,6 +835,7 @@
 - name: Koven
   country: kr
   esportsearnings: 22414
+  liquipedia: Koven
   platforms:
     voobly:
       - '13584'
@@ -805,6 +846,7 @@
 - name: Halen
   country: jp
   esportsearnings: 2173
+  liquipedia: Halen
   platforms:
     voobly:
       - '16205'
@@ -820,6 +862,7 @@
 - name: Chris
   country: ca
   esportsearnings: 15927
+  liquipedia: Chris
   platforms:
     voobly:
       - '123397426'
@@ -855,12 +898,14 @@
   platforms:
     voobly:
       - '16877'
+      - '127645'
     zone:
       - 'blade'
 - name: Spring
   country: us
   aoeelo: 13
   esportsearnings: 41842
+  liquipedia: SpringTV
   twitch: https://www.twitch.tv/springtv/
   discord: https://discord.gg/MrNwsQB
   platforms:
@@ -951,6 +996,7 @@
 - name: Kmkm
   country: tw
   esportsearnings: 2183
+  liquipedia: IamKmkm
   platforms:
     voobly:
       - '22956'
@@ -986,6 +1032,7 @@
   country: br
   aoeelo: 7
   esportsearnings: 14715
+  liquipedia: GoKu
   twitch: https://www.twitch.tv/gokuaoe/
   platforms:
     voobly:
@@ -998,6 +1045,7 @@
   country: fi
   aoeelo: 44
   esportsearnings: 15935
+  liquipedia: NorthernPike
   twitch: https://www.twitch.tv/pikeaoc/
   platforms:
     voobly:
@@ -1009,6 +1057,7 @@
 - name: Vodka
   country: it
   aoeelo: 129
+  liquipedia: Vodka_L_
   platforms:
     voobly:
       - '123841591'
@@ -1242,6 +1291,7 @@
 - name: Hearttt
   country: pe
   esportsearnings: 41831
+  liquipedia: Hearttt
   twitch: https://www.twitch.tv/hearttt_/
   platforms:
     voobly:
@@ -1342,6 +1392,7 @@
 - name: Kamigawa
   country: it
   aoeelo: 446
+  liquipedia: Kamigawa
   platforms:
     voobly:
       - '124287511'
@@ -1545,18 +1596,21 @@
 - name: Mozory
   country: kr
   esportsearnings: 7629
+  liquipedia: MoZory
   platforms:
     zone:
       - 'mozory'
 - name: Kaohen
   country: tw
   esportsearnings: 6931
+  liquipedia: Kaohen
   platforms:
     zone:
       - 'kaohen'
 - name: IamJordan
   country: tw
   esportsearnings: 2179
+  liquipedia: JcooL
   platforms:
     zone:
       - 'iamjordan'
@@ -1721,6 +1775,7 @@
   esportsearnings: 72998
   platforms:
 - name: "True"
+  liquipedia: "True"
   aka:
     - Kellan
   country: us
@@ -1753,6 +1808,7 @@
 - name: Crexis
   country: ca
   esportsearnings: 42051
+  liquipedia: Crexis
   platforms:
 - name: Myth_Osiris
   country: nl
@@ -1767,6 +1823,7 @@
 - name: DevilZ_High
   country: dk
   esportsearnings: 42050
+  liquipedia: High
   platforms:
 - name: HimT
   country: hk
@@ -1924,6 +1981,7 @@
       - '222528'
 - name: TheCode
   country: tr
+  liquipedia: TheCode
   platforms:
     voobly:
       - '123369268'
