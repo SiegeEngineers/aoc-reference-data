@@ -639,5 +639,14 @@
       "AL_Cross_1v1",
       "AL_Golden_Island_1v1"
     ]
+  },
+  {
+    "id": "cc3",
+    "year": 2020,
+    "name": "Clown Cup 3",
+    "tournaments": [
+      "CC3Qualies",
+      "CC3ClownCatLeague"
+    ]
   }
 ]

@@ -372,7 +372,7 @@
   esportsearnings: 25296
   aoeelo: 28
   liquipedia: Hera
-  twitch: https://www.twitch.tv/hera_aoc
+  twitch: https://www.twitch.tv/hera
   youtube: https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ
   discord: https://discord.gg/DkdJj4D
   platforms:
@@ -1429,6 +1429,7 @@
   platforms:
     voobly:
       - '123482913'
+      - '124654721'
 - name: hs
   country: cn
   platforms:
