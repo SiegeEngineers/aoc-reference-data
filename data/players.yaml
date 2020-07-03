@@ -2021,3 +2021,15 @@
     de:
       - '283233'
       - '674899' # Bubbles
+- name: T90
+  country: us
+  twitch: https://www.twitch.tv/t90official
+  discord: https://discord.gg/t90official
+  youtube: https://www.youtube.com/t90official
+  liquipedia: T90Official
+  platforms:
+    voobly:
+      - '124236797'
+    de:
+      - '197930'
+      - '951203' # HaroldTheDuck
