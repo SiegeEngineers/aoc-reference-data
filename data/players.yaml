@@ -2035,3 +2035,10 @@
     de:
       - '197930'
       - '951203' # HaroldTheDuck
+- name: tr_rex_
+  country: pl
+  twitch: https://www.twitch.tv/tr_rex_
+  youtube: https://www.youtube.com/channel/UCIQg67br-zXRxyrFRwbfBsQ
+  platforms:
+    de:
+      - '1390516'
