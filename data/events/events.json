@@ -647,7 +647,16 @@
     "name": "Clown Cup 3",
     "tournaments": [
       "CC3Qualies",
-      "CC3ClownCatLeague"
+      "CC3ClownCatLeague",
+      "CC3Finals"
+    ]
+  },
+  {
+    "id": "ptt12",
+    "year": 2020,
+    "name": "12th PTT Cup",
+    "tournaments": [
+      "P122v2"
     ]
   }
 ]
