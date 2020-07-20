@@ -2046,7 +2046,7 @@
     de:
       - '1390516'
 - name: Gluttony
-  country: no
+  country: 'no'
   twitch: https://www.twitch.tv/gluttony_aoe
   platforms:
     de:
