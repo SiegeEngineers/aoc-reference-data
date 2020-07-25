@@ -2078,3 +2078,11 @@
   platforms:
     de:
       - '1407942'
+- name: Mahya
+  country: ma
+  platforms:
+    voobly:
+      - '124090505'
+    de:
+      - '2815388'
+      - '2521572'
