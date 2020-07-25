@@ -2078,3 +2078,12 @@
   platforms:
     de:
       - '1407942'
+- name: Mahya
+  country: ma
+  twitch: https://www.twitch.tv/mahyaoc
+  platforms:
+    voobly:
+      - '124090505'
+    de:
+      - '2815388'
+      - '2521572'
