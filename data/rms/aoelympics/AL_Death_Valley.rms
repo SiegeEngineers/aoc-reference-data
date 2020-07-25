@@ -1,0 +1,695 @@
+/* Death Valley - by Cicero (DE) */
+
+#const BASE 6
+#const CRACKED 45
+#const UNBUILDABLE 46
+#const PATCHA 2
+#const PATCHB 14
+#const PATCHC 41
+#const WOODA 49
+#const WOODB 50
+
+<PLAYER_SETUP>
+
+grouped_by_team
+ai_info_map_type GOLD_RUSH 0 0 0
+
+<LAND_GENERATION>
+
+base_terrain UNBUILDABLE
+
+create_player_lands 
+{ 
+terrain_type BASE
+land_percent 100
+if TINY_MAP
+base_size 10
+elseif SMALL_MAP
+base_size 10
+elseif MEDIUM_MAP
+base_size 25
+elseif LARGE_MAP
+base_size 25
+else
+base_size 20
+endif
+circle_radius 40 5
+border_fuzziness 30
+set_zone_by_team
+base_elevation 3
+clumping_factor 20
+if TINY_MAP
+other_zone_avoidance_distance 24
+elseif SMALL_MAP
+other_zone_avoidance_distance 29
+elseif MEDIUM_MAP
+other_zone_avoidance_distance 34
+elseif LARGE_MAP
+other_zone_avoidance_distance 40
+elseif HUGE_MAP
+other_zone_avoidance_distance 44
+else
+other_zone_avoidance_distance 48
+endif
+}
+
+<ELEVATION_GENERATION>
+
+create_elevation 6
+{
+enable_balanced_elevation
+base_terrain BASE
+number_of_tiles 2000
+set_scale_by_size
+if TINY_MAP
+number_of_clumps 10
+elseif SMALL_MAP
+number_of_clumps 14
+elseif MEDIUM_MAP
+number_of_clumps 20
+elseif LARGE_MAP
+number_of_clumps 28
+elseif HUGE_MAP
+number_of_clumps 34
+else
+number_of_clumps 40
+endif
+}
+
+<TERRAIN_GENERATION>
+
+color_correction CC_DESERT
+
+create_terrain WOODA
+{
+base_terrain BASE
+spacing_to_other_terrain_types 5
+land_percent 18
+number_of_clumps 18
+set_avoid_player_start_areas
+set_scale_by_groups
+}
+
+create_terrain BASE
+{
+base_terrain WOODA
+number_of_clumps 999
+land_percent 100
+terrain_mask 1
+}
+
+create_terrain WOODB
+{
+base_terrain WOODA
+land_percent 9
+number_of_clumps 27
+set_avoid_player_start_areas
+set_scale_by_groups
+}
+
+create_terrain CRACKED
+{
+base_terrain UNBUILDABLE
+number_of_clumps 999
+land_percent 100
+height_limits 0 0
+spacing_to_other_terrain_types 3
+}
+
+create_terrain UNBUILDABLE
+{
+base_terrain CRACKED
+number_of_clumps 15
+land_percent 5
+set_scale_by_groups
+terrain_mask 1
+}
+
+create_terrain PATCHA
+{
+base_terrain CRACKED
+number_of_clumps 15
+land_percent 2
+set_scale_by_groups
+terrain_mask 1
+}
+
+create_terrain PATCHB
+{
+base_terrain CRACKED
+number_of_clumps 999
+land_percent 100
+terrain_mask 1
+}
+
+create_terrain PATCHB
+{
+base_terrain CRACKED
+number_of_clumps 999
+land_percent 100
+terrain_mask 1
+}
+
+create_terrain PATCHB
+{
+base_terrain CRACKED
+number_of_clumps 999
+land_percent 100
+terrain_mask 1
+}
+
+create_terrain PATCHC
+{
+base_terrain BASE
+number_of_clumps 40
+land_percent 20
+set_scale_by_groups
+terrain_mask 1
+}
+
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+set_place_for_every_player
+group_placement_radius 18
+min_distance_to_players 0
+max_distance_to_players 0
+if EMPIRE_WARS
+second_object DLC_GOAT
+endif
+}
+
+if EMPIRE_WARS
+else
+create_object VILLAGER
+{
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 6
+}
+endif
+
+create_object SCOUT
+{
+set_place_for_every_player
+number_of_objects 1
+if EMPIRE_WARS
+min_distance_to_players 12
+max_distance_to_players 16
+else
+min_distance_to_players 7
+max_distance_to_players 9
+endif
+avoid_forest_zone 1
+}
+
+if REGICIDE
+create_object VILLAGER
+{
+number_of_objects 7
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 8
+}
+
+create_object KING
+{
+set_place_for_every_player
+min_distance_to_players 8
+max_distance_to_players 10
+}
+
+create_object CASTLE
+{
+set_place_for_every_player
+min_distance_to_players 12
+max_distance_to_players 14
+min_distance_group_placement 4
+}
+endif
+
+if EMPIRE_WARS
+elseif DEATH_MATCH
+elseif INFINITE_RESOURCES
+else
+create_object DLC_ACACIATREE
+{
+number_of_objects 2
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 4
+max_distance_to_players 5
+min_distance_group_placement 2
+}
+
+create_object DLC_ACACIATREE
+{
+number_of_objects 3
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 6
+max_distance_to_players 8
+min_distance_group_placement 2
+}
+
+create_object DLC_GOAT
+{
+number_of_objects 4
+number_of_groups 1
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 8
+find_closest
+}
+
+create_object JAVELINA
+{
+number_of_groups 2
+number_of_objects 1
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 15
+max_distance_to_players 18
+}
+endif
+
+if DEATH_MATCH
+elseif INFINITE_RESOURCES
+else
+create_object DLC_GOAT
+{
+number_of_objects 2
+number_of_groups 2
+set_loose_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 16
+max_distance_to_players 24
+}
+
+create_object DEER
+{
+number_of_objects 4
+number_of_groups 1
+set_gaia_object_only
+set_place_for_every_player
+start_random
+percent_chance 50
+min_distance_to_players 18
+max_distance_to_players 21
+percent_chance 50
+min_distance_to_players 21
+max_distance_to_players 24
+end_random
+}
+endif
+
+if INFINITE_RESOURCES
+else
+create_object DLC_ORANGEBUSH
+{
+number_of_objects 6
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 10
+max_distance_to_players 12
+avoid_forest_zone 5
+actor_area 40
+actor_area_radius 1
+if EMPIRE_WARS
+else
+min_distance_group_placement 5
+endif
+}
+
+create_object MAP_REVEALER
+{
+if EMPIRE_WARS
+else
+number_of_objects 0
+endif
+set_gaia_object_only
+set_place_for_every_player
+actor_area_to_place_in 40
+actor_area 45
+actor_area_radius 7
+}
+
+create_object GOLD
+{
+number_of_objects 4
+group_placement_radius 2
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 12
+max_distance_to_players 15
+avoid_forest_zone 5
+actor_area 50
+actor_area_radius 2
+if EMPIRE_WARS
+avoid_all_actor_areas
+else
+min_distance_group_placement 5
+endif
+}
+endif
+
+if EMPIRE_WARS
+
+#const FARMER 214
+#const FORAGER 354
+#const LUMBERJACK 123
+#const MINER 579
+
+create_object FARM
+{
+second_object FARMER
+set_place_for_every_player
+min_distance_to_players 3
+find_closest
+}
+
+create_object FARM
+{
+second_object FARMER
+set_place_for_every_player
+min_distance_to_players 3
+find_closest
+}
+
+create_object FARM
+{
+second_object FARMER
+set_place_for_every_player
+min_distance_to_players 3
+find_closest
+}
+
+create_object FARM
+{
+second_object FARMER
+set_place_for_every_player
+min_distance_to_players 3
+find_closest
+}
+
+create_object FARM
+{
+second_object FARMER
+set_place_for_every_player
+min_distance_to_players 3
+find_closest
+}
+
+create_object FARM
+{
+second_object FARMER
+set_place_for_every_player
+min_distance_to_players 3
+find_closest
+}
+
+create_object FARM
+{
+second_object FARMER
+set_place_for_every_player
+min_distance_to_players 3
+find_closest
+}
+
+create_object FARM
+{
+second_object FARMER
+set_place_for_every_player
+min_distance_to_players 3
+find_closest
+}
+
+create_object MILL
+{
+set_place_for_every_player
+actor_area_to_place_in 40
+find_closest
+actor_area 140
+actor_area_radius 5
+}
+
+create_object MINING_CAMP
+{
+set_place_for_every_player
+actor_area_to_place_in 50
+avoid_actor_area 140
+find_closest
+actor_area 150
+actor_area_radius 5
+}
+
+create_object LUMBER_CAMP
+{
+set_place_for_every_player
+number_of_objects 3
+place_on_forest_zone 1
+avoid_actor_area 140
+avoid_actor_area 150
+temp_min_distance_group_placement 8
+actor_area 60
+actor_area_radius 4
+find_closest
+}
+
+create_object FORAGER
+{
+set_place_for_every_player
+number_of_objects 5
+actor_area_to_place_in 40
+force_placement
+}
+
+create_object MINER
+{
+set_place_for_every_player
+number_of_objects 4
+actor_area_to_place_in 50
+force_placement
+}
+
+create_object LUMBERJACK
+{
+set_place_for_every_player
+number_of_objects 10
+temp_min_distance_group_placement 1
+actor_area_to_place_in 60
+place_on_forest_zone 1
+force_placement
+}
+
+create_object BARRACKS
+{
+set_place_for_every_player
+min_distance_to_players 8
+find_closest
+avoid_forest_zone 2
+min_distance_group_placement 3
+avoid_all_actor_areas
+}
+
+create_object BLACKSMITH
+{
+set_place_for_every_player
+min_distance_to_players 8
+find_closest
+avoid_forest_zone 2
+min_distance_group_placement 3
+avoid_all_actor_areas
+}
+
+create_object HOUSE
+{
+set_place_for_every_player
+number_of_objects 6
+min_distance_to_players 8
+find_closest
+avoid_forest_zone 2
+min_distance_group_placement 2
+avoid_all_actor_areas
+}
+endif
+
+if INFINITE_RESOURCES
+else
+create_object GOLD
+{
+number_of_objects 3
+group_placement_radius 1
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 16
+max_distance_to_players 20
+min_distance_group_placement 7
+max_distance_to_other_zones 7
+avoid_forest_zone 3
+avoid_all_actor_areas
+}
+
+create_object STONE
+{
+number_of_objects 3
+group_placement_radius 1
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 12
+max_distance_to_players 15
+min_distance_group_placement 5
+max_distance_to_other_zones 7
+avoid_forest_zone 3
+avoid_all_actor_areas
+}
+
+create_object STONE
+{
+number_of_objects 2
+group_placement_radius 1 
+set_tight_grouping
+set_gaia_object_only
+set_place_for_every_player
+min_distance_to_players 16
+max_distance_to_players 20
+min_distance_group_placement 7
+max_distance_to_other_zones 7
+avoid_forest_zone 3
+avoid_all_actor_areas
+}
+
+create_object GOLD
+{
+terrain_to_place_on CRACKED
+number_of_objects 5
+number_of_groups 999
+temp_min_distance_group_placement 12
+min_distance_group_placement 6
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+max_distance_to_other_zones 2
+}
+
+create_object STONE
+{
+terrain_to_place_on CRACKED
+number_of_objects 3
+number_of_groups 999
+temp_min_distance_group_placement 24
+min_distance_group_placement 3
+group_placement_radius 3
+set_tight_grouping
+set_gaia_object_only
+max_distance_to_other_zones 2
+}
+endif
+
+create_object RELIC
+{
+terrain_to_place_on CRACKED
+if TINY_MAP
+temp_min_distance_group_placement 20
+elseif SMALL_MAP
+temp_min_distance_group_placement 24
+elseif MEDIUM_MAP
+temp_min_distance_group_placement 28
+elseif LARGE_MAP
+temp_min_distance_group_placement 32
+elseif HUGE_MAP
+temp_min_distance_group_placement 36
+elseif GIGANTIC_MAP
+temp_min_distance_group_placement 40
+else
+temp_min_distance_group_placement 80
+endif
+number_of_objects 5
+min_distance_to_players 30
+avoid_forest_zone 2
+}
+
+if DEATH_MATCH
+else
+create_object WOLF
+{
+number_of_objects 1
+number_of_groups 99
+set_scaling_to_map_size
+set_gaia_object_only
+min_distance_to_players 40
+temp_min_distance_group_placement 50
+terrain_to_place_on BASE
+}
+endif
+
+create_object DLC_ACACIATREE
+{
+terrain_to_place_on BASE
+number_of_objects 20
+set_gaia_object_only
+if EMPIRE_WARS
+min_distance_to_players 20
+else
+max_distance_to_players 10
+endif
+temp_min_distance_group_placement 3
+set_scaling_to_map_size
+}
+
+create_object DLC_DEADTREE
+{
+terrain_to_place_on CRACKED
+number_of_objects 1
+number_of_groups 999
+temp_min_distance_group_placement 15
+min_distance_group_placement 2
+set_gaia_object_only
+max_distance_to_other_zones 2
+}
+
+create_object DLC_ANIMALSKELETON
+{
+terrain_to_place_on CRACKED
+number_of_objects 1
+number_of_groups 999
+temp_min_distance_group_placement 15
+min_distance_group_placement 2
+set_gaia_object_only
+max_distance_to_other_zones 2
+}
+
+#const EC_DEAD 1365
+create_object EC_DEAD
+{
+terrain_to_place_on CRACKED
+number_of_objects 1
+number_of_groups 999
+temp_min_distance_group_placement 25
+min_distance_group_placement 2
+set_gaia_object_only
+max_distance_to_other_zones 2
+}
+
+create_object DLC_VULTURE
+{
+number_of_objects 8
+set_scaling_to_map_size
+}
+
+if KING_OT_HILL
+#const MONUMENT_RESOURCES 1639
+create_object MONUMENT_RESOURCES
+{
+set_place_for_every_player
+min_distance_to_players 0
+max_distance_to_players 0
+}
+endif

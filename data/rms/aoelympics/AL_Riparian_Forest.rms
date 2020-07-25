@@ -1,0 +1,3132 @@
+/*
+-- Riparian Forest RMS for AoE2:DE --
+  author: Pawel Malecki
+  uses Chrazini's Compact Map Script as a base for object placement.
+  last update: 22nd April 2020
+  style: land/water/fortress
+
+  Please report bugs or requests on either:
+  Steam: https://steamcommunity.com/id/pawelmalecki
+  Discord: Pawel Malecki#0911
+*/
+
+/* ****************************************************** */
+/*                 PLACEHOLDER DEFINITIONS                */
+/* ****************************************************** */
+#define CUSTOM_PLACEHOLDER_TERRAINS
+if CUSTOM_PLACEHOLDER_TERRAINS
+  #const LAYER_TEMP  7
+  #const WOODIES_0   8
+  #const WOODIES_B_0 68
+  #const WOODIES_C_0 69
+  #const WOODIES_1   29
+  #const WOODIES_2   30
+  #const WOODIES_3   31
+  #const WOODIES_4   47
+  #const WOODIES_5   84
+  #const WOODIES_6   85
+  #const WOODIES_7   86
+  #const WOODIES_8   87
+endif
+
+/* ****************************************************** */
+/*                   PLAYER COUNT FLAGS                   */
+/* ****************************************************** */
+#define PLAYER_COUNT_CONSTANTS
+if PLAYER_COUNT_CONSTANTS
+  if 1_PLAYER_GAME
+    #define HAS_PLAYER_1
+  elseif 2_PLAYER_GAME
+    #define HAS_PLAYER_1
+    #define HAS_PLAYER_2
+  elseif 3_PLAYER_GAME
+    #define HAS_PLAYER_1
+    #define HAS_PLAYER_2
+    #define HAS_PLAYER_3
+  elseif 4_PLAYER_GAME
+    #define HAS_PLAYER_1
+    #define HAS_PLAYER_2
+    #define HAS_PLAYER_3
+    #define HAS_PLAYER_4
+  elseif 5_PLAYER_GAME
+    #define HAS_PLAYER_1
+    #define HAS_PLAYER_2
+    #define HAS_PLAYER_3
+    #define HAS_PLAYER_4
+    #define HAS_PLAYER_5
+  elseif 6_PLAYER_GAME
+    #define HAS_PLAYER_1
+    #define HAS_PLAYER_2
+    #define HAS_PLAYER_3
+    #define HAS_PLAYER_4
+    #define HAS_PLAYER_5
+    #define HAS_PLAYER_6
+  elseif 7_PLAYER_GAME
+    #define HAS_PLAYER_1
+    #define HAS_PLAYER_2
+    #define HAS_PLAYER_3
+    #define HAS_PLAYER_4
+    #define HAS_PLAYER_5
+    #define HAS_PLAYER_6
+    #define HAS_PLAYER_7
+  elseif 8_PLAYER_GAME
+    #define HAS_PLAYER_1
+    #define HAS_PLAYER_2
+    #define HAS_PLAYER_3
+    #define HAS_PLAYER_4
+    #define HAS_PLAYER_5
+    #define HAS_PLAYER_6
+    #define HAS_PLAYER_7
+    #define HAS_PLAYER_8
+  endif
+endif
+
+/* ****************************************************** */
+/*                     MAP SIZE FLAGS                     */
+/* ****************************************************** */
+if TINY_MAP
+  #define MAP_AT_LEAST_TINY
+elseif SMALL_MAP
+  #define MAP_AT_LEAST_TINY
+  #define MAP_AT_LEAST_SMALL
+elseif MEDIUM_MAP
+  #define MAP_AT_LEAST_TINY
+  #define MAP_AT_LEAST_SMALL
+  #define MAP_AT_LEAST_MEDIUM
+elseif LARGE_MAP
+  #define MAP_AT_LEAST_TINY
+  #define MAP_AT_LEAST_SMALL
+  #define MAP_AT_LEAST_MEDIUM
+  #define MAP_AT_LEAST_LARGE
+elseif HUGE_MAP
+  #define MAP_AT_LEAST_TINY
+  #define MAP_AT_LEAST_SMALL
+  #define MAP_AT_LEAST_MEDIUM
+  #define MAP_AT_LEAST_LARGE
+  #define MAP_AT_LEAST_HUGE
+elseif GIGANTIC_MAP
+  #define MAP_AT_LEAST_TINY
+  #define MAP_AT_LEAST_SMALL
+  #define MAP_AT_LEAST_MEDIUM
+  #define MAP_AT_LEAST_LARGE
+  #define MAP_AT_LEAST_HUGE
+  #define MAP_AT_LEAST_GIGANTIC
+elseif LUDIKRIS_MAP
+  #define MAP_AT_LEAST_TINY
+  #define MAP_AT_LEAST_SMALL
+  #define MAP_AT_LEAST_MEDIUM
+  #define MAP_AT_LEAST_LARGE
+  #define MAP_AT_LEAST_HUGE
+  #define MAP_AT_LEAST_GIGANTIC
+  #define MAP_AT_LEAST_LUDIKRIS
+endif
+
+
+/* ****************************************************** */
+/*              MAP BIGGER THAN NEEDED FLAGS              */
+/* ****************************************************** */
+if 3_PLAYER_GAME
+  if MAP_AT_LEAST_MEDIUM
+    #define MAP_BIGGER_THAN_NEEDED
+  endif
+elseif 4_PLAYER_GAME
+  if MAP_AT_LEAST_LARGE
+    #define MAP_BIGGER_THAN_NEEDED
+  endif
+elseif 5_PLAYER_GAME
+  if MAP_AT_LEAST_HUGE
+    #define MAP_BIGGER_THAN_NEEDED
+  endif
+elseif 6_PLAYER_GAME
+  if MAP_AT_LEAST_HUGE
+    #define MAP_BIGGER_THAN_NEEDED
+  endif
+elseif 7_PLAYER_GAME
+  if MAP_AT_LEAST_GIGANTIC
+    #define MAP_BIGGER_THAN_NEEDED
+  endif
+elseif 8_PLAYER_GAME
+  if MAP_AT_LEAST_GIGANTIC
+    #define MAP_BIGGER_THAN_NEEDED
+  endif
+endif
+
+/* ****************************************************** */
+/*               SPECIAL OBJECT DEFINITIONS               */
+/* ****************************************************** */
+#define SPECIAL_OBJECTS
+if SPECIAL_OBJECTS
+  #const MAP_REVEALER 837
+  #const BUG_PREVENTER 127 /* Legacy object. */
+  #const PLACEHOLDER_TEMPORARY 278 /* used for player objects. */
+  #const PLACEHOLDER_OBJECT 1613  /* Terrain blocker, used for neutral objects - doesn't overlap when used in groups. */
+  #const PLACEHOLDER_OFFSET 0
+  #const LIFE_SUPPORT 1291 /* Prevents a player from getting defeated. */
+  #const MONUMENT_RESOURCES 1639 /* Enables resource trinkle when holding the monument - will stack. */
+endif
+
+/* ****************************************************** */
+/*                   BIOME DEFINITIONS                    */
+/* ****************************************************** */
+start_random
+  percent_chance 10 #define BIOME_TEMPERATE_SPRING
+  percent_chance 10 #define BIOME_TEMPERATE_SUMMER
+  percent_chance 10 #define BIOME_TEMPERATE_AUTUMN
+  percent_chance 10 #define BIOME_TEMPERATE_AUTUMN_SNOW
+  percent_chance 5  #define BIOME_TEMPERATE_WINTER
+  percent_chance 5  #define BIOME_BOREAL
+  percent_chance 10 #define BIOME_DESERT
+  percent_chance 10 #define BIOME_SAVANNAH
+  percent_chance 10 #define BIOME_MEDITERRANEAN
+  percent_chance 10 #define BIOME_JUNGLE
+  percent_chance 10 #define BIOME_RAINFOREST
+end_random
+
+if BIOME_TEMPERATE_SPRING
+  #const LAYER_A        12   /* Grass 2 */
+  #const LAYER_B        60   /* Grass, Jungle */
+  #const LAYER_C        9    /* Grass 3 */
+  #const LAYER_E        0    /* Grass 1 */
+  #const LAYER_F        3    /* Dirt 3 */
+  #const WOODIES        20   /* Oak Bush Forest */
+  #define WOODIES_UNDER_LAYER_A
+  #const WOODIES_B      10   /* Oak Forest */
+  #define WOODIES_B_UNDER_LAYER_A
+  #const WOODIES_C      20   /* Oak Bush Forest */
+  #define WOODIES_C_UNDER_LAYER_A
+  #const STRAGGLER_TREE 411  /* Oak Tree */
+  #const REED_TREE_1    1053 /* Bush B */
+  #const REED_TREE_2    1350 /* Reed Tree */
+  #const REED_TREE_3    302  /* Bush A */
+  #const SHORE          2    /* Beach */
+  #const LITORIS        4    /* Shallows */
+  #const AQUA           1    /* Water, Shallow */
+  #const VIA            24   /* Road */
+  #const HERDABLE_A     1600 /* Cow D (brown) */
+  #define HERDABLE_A_EXCESS_FOOD
+  #const HERDABLE_B     1243 /* Goose */
+  #const HUNTABLE_A     65   /* Deer */
+  #const HUNTABLE_B     65   /* Deer */
+  #const LURABLE_A      48   /* Boar */
+  #const LURABLE_B      48   /* Boar */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 1243
+    #const PREDATOR_A 65
+    #const PREDATOR_B 65
+  else
+    #const FORAGEABLE   59   /* Berry Bush */
+    #const PREDATOR_A   126  /* Wolf */
+    #const PREDATOR_B   486  /* Bear */
+  endif
+  #const BIRD_A         1028 /* Stork */
+  #const BIRD_B         1028 /* Stork */
+  #const FISHABLE       53   /* Perch */
+  #define FISHABLE_FOOD_DEFICIT
+  #const FISHABLE_SHORE 69   /* Shore Fish */
+elseif BIOME_TEMPERATE_SUMMER
+  #const LAYER_A        0    /* Grass 1 */
+  #const LAYER_B        9    /* Grass 3 */
+  #const LAYER_C        12   /* Grass 2 */
+  #const LAYER_E        100  /* Grass, Dry */
+  #const LAYER_F        76   /* Dirt, Mud */
+  #define LAYER_F_UNDER_A
+  start_random
+    percent_chance 35
+      #const WOODIES        20   /* Oak Bush Forest */
+      #const WOODIES_B      19   /* Pine Forest */
+      #const WOODIES_C      10   /* Oak Forest */
+      #const STRAGGLER_TREE 411  /* Oak Tree */
+      #const REED_TREE_2    1053 /* Bush B */
+    percent_chance 35
+      #const WOODIES        20   /* Oak Bush Forest */
+      #const WOODIES_B      20   /* Oak Bush Forest */
+      #const WOODIES_C      10   /* Oak Forest */
+      #const STRAGGLER_TREE 411  /* Oak Tree */
+      #const REED_TREE_2    1053 /* Bush B */
+    percent_chance 15
+      #const WOODIES        19   /* Pine Forest */
+      #const WOODIES_B      19   /* Pine Forest */
+      #const WOODIES_C      20   /* Oak Bush Forest */
+      #const STRAGGLER_TREE 350  /* Pine Tree */
+      #const REED_TREE_2    350  /* Pine Tree */
+    percent_chance 15
+      #define ASIAN_ANIMALS
+      #const WOODIES        19   /* Pine Forest */
+      #const WOODIES_B      18   /* Bamboo Forest */
+      #const WOODIES_C      19   /* Pine Forest */
+      #const STRAGGLER_TREE 348  /* Bamboo Tree */
+      #const REED_TREE_2    350  /* Pine Tree */
+  end_random
+  #const REED_TREE_1    1350 /* Reed Tree */
+  #const REED_TREE_3    1250 /* Dead Tree */
+  #const SHORE          2    /* Beach */
+  #const LITORIS        4    /* Shallows */
+  #const AQUA           1    /* Water, Shallow */
+  #const VIA            24   /* Road */
+  if ASIAN_ANIMALS
+    #const HERDABLE_A 1245   /* Pig */
+    #const HERDABLE_B 1243   /* Goose */
+  else
+    #const HERDABLE_A   705  /* Cow A (black-white) */
+    #define HERDABLE_A_EXCESS_FOOD
+    #const HERDABLE_B   594  /* Sheep */
+  endif
+  #const HUNTABLE_A     65   /* Deer */
+  #const HUNTABLE_B     65   /* Deer */
+  #const LURABLE_A      48   /* Boar */
+  #const LURABLE_B      48   /* Boar */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 594
+    #const PREDATOR_A 65
+    #const PREDATOR_B 65
+  else
+    #const FORAGEABLE   59   /* Berry Bush */
+    #const PREDATOR_A   126  /* Wolf */
+    #const PREDATOR_B   486  /* Bear */
+  endif
+  #const BIRD_A         96   /* Hawk */
+  #const BIRD_B         96   /* Hawk */
+  #const FISHABLE       53   /* Perch */
+  #define FISHABLE_FOOD_DEFICIT
+  #const FISHABLE_SHORE 69   /* Shore Fish */
+elseif BIOME_TEMPERATE_AUTUMN
+  #const LAYER_A        100  /* Grass, Dry */
+  #const LAYER_B        9    /* Grass 3 */
+  #const LAYER_C        44   /* Moorland, originally Gravel, Desert (102) */
+  #const LAYER_E        76   /* Dirt, Mud */
+  #const LAYER_F        5    /* Underbrush, originally Snow (32) */
+  #const WOODIES        104  /* Autumn Forest */
+  #const WOODIES_B      20   /* Oak Bush Forest, originally Dead Forest (106) */
+  #const WOODIES_C      19   /* Pine Forest, originally Autumn Snow Forest (105) */
+  #const STRAGGLER_TREE 1248 /* Autumn Tree */
+  #const REED_TREE_1    1350 /* Reed Tree */
+  #const REED_TREE_2    1248 /* Autumn Tree */
+  #const REED_TREE_3    1250 /* Dead Tree */
+  #const SHORE          107  /* Beach, Wet */
+  #const LITORIS        4    /* Shallows */
+  #const AQUA           1    /* Water, Shallow */
+  #const VIA            43   /* Road */
+  #const HERDABLE_A     1245 /* Pig */
+  #const HERDABLE_B     1243 /* Goose */
+  #const HUNTABLE_A     65   /* Deer */
+  #const HUNTABLE_B     65   /* Deer */
+  #const LURABLE_A      48   /* Boar */
+  #const LURABLE_B      48   /* Boar */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 1243
+    #const PREDATOR_A 65
+    #const PREDATOR_B 65
+  else
+    #const FORAGEABLE   59   /* Berry Bush */
+    #const PREDATOR_A   126  /* Wolf */
+    #const PREDATOR_B   486  /* Bear */
+  endif
+  #const BIRD_A         96   /* Hawk */
+  #const BIRD_B         1056 /* Falcon */
+  #const FISHABLE       456  /* Salmon */
+  #const FISHABLE_SHORE 69   /* Shore Fish */
+elseif BIOME_TEMPERATE_AUTUMN_SNOW
+  start_random
+    percent_chance 50
+    percent_chance 50
+      #define ASIAN_ANIMALS
+  end_random
+  #const LAYER_A        72   /* Underbrush, Snow */
+  #const LAYER_B        5    /* Underbrush */
+  #const LAYER_C        32   /* Snow */
+  #const LAYER_E        5    /* Underbrush */
+  #const LAYER_F        32   /* Snow */
+  #const WOODIES        105  /* Forest, Autumn Snow */
+  #const WOODIES_B      106  /* Forest, Dead */
+  #const WOODIES_C      21   /* Forest, Pine Snow */
+  #const STRAGGLER_TREE 1249 /* Autumn Snow Tree */
+  #const REED_TREE_1    1054 /* Bush C */
+  #const REED_TREE_2    1350 /* Reed Tree */
+  #const REED_TREE_3    1249 /* Autumn Snow Tree */
+  #const SHORE          108  /* Beach, Wet Gravel */
+  #const LITORIS        59   /* Shallows, Azure */
+  #const AQUA           1    /* Water, Shallow */
+  #const VIA            102  /* Gravel, Desert */
+  if ASIAN_ANIMALS
+    #const HERDABLE_A     1245 /* Pig */
+    #const HUNTABLE_A     1239 /* Ibex */
+    #const HUNTABLE_B     1239 /* Ibex */
+  else
+    #const HERDABLE_A     1598 /* Cow C (brown-white) */
+    #define HERDABLE_A_EXCESS_FOOD
+    #const HUNTABLE_A     65   /* Deer */
+    #const HUNTABLE_B     65   /* Deer */
+  endif
+  #const HERDABLE_B     594  /* Sheep */
+  #const LURABLE_A      48   /* Boar */
+  #const LURABLE_B      48   /* Boar */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 594
+    if ASIAN_ANIMALS
+      #const PREDATOR_A 1239
+      #const PREDATOR_B 1239
+    else
+      #const PREDATOR_A 65
+      #const PREDATOR_B 65
+    endif
+  else
+    #const FORAGEABLE 59 /* Berry Bush */
+    if ASIAN_ANIMALS
+      #const PREDATOR_A 1241 /* Snow Leopard */
+      #const PREDATOR_B 1241 /* Snow Leopard */
+    else
+      #const PREDATOR_A 126 /* Wolf */
+      #const PREDATOR_B 486 /* Bear */
+    endif
+  endif
+  #const BIRD_A         1056  /* Falcon */
+  #const BIRD_B         96    /* Hawk */
+  #const FISHABLE       456   /* Salmon */
+  #const FISHABLE_SHORE 69    /* Shore Fish */
+elseif BIOME_TEMPERATE_WINTER
+  start_random
+    percent_chance 50
+    percent_chance 50
+      #define ASIAN_ANIMALS
+  end_random
+  #const LAYER_A        32   /* Snow */
+  #const LAYER_B        34   /* Snow Grass */
+  #const LAYER_C        72   /* Underbrush, Snow */
+  #const LAYER_E        9    /* Grass 3 */
+  #const LAYER_F        33   /* Snow Dirt */
+  #const WOODIES        21   /* Snow Pine Forest */
+  #const WOODIES_B      106  /* Dead Forest */
+  #const WOODIES_C      19   /* Pine Forest */
+  #const STRAGGLER_TREE 413  /* Snowy Pine Tree */
+  #const REED_TREE_1    1350 /* Reed Tree */
+  #const REED_TREE_2    1054 /* Bush C */
+  #const REED_TREE_3    1250 /* Dead Tree */
+  #const SHORE          108  /* Beach, Wet Gravel */
+  #const LITORIS        59   /* Shallows, Azure */
+  #const AQUA           1    /* Water, Shallow */
+  #const VIA            38   /* Road, Snow */
+  if ASIAN_ANIMALS
+    #const HERDABLE_A     1245 /* Pig */
+    #const HUNTABLE_A     1239 /* Ibex */
+    #const HUNTABLE_B     1239 /* Ibex */
+  else
+    #const HERDABLE_A     1598 /* Cow C (brown-white) */
+    #define HERDABLE_A_EXCESS_FOOD
+    #const HUNTABLE_A     65   /* Deer */
+    #const HUNTABLE_B     65   /* Deer */
+  endif
+  #const HERDABLE_B     594  /* Sheep */
+  #const LURABLE_A      48   /* Boar */
+  #const LURABLE_B      48   /* Boar */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 594
+    if ASIAN_ANIMALS
+      #const PREDATOR_A 1239
+      #const PREDATOR_B 1239
+    else
+      #const PREDATOR_A 65
+      #const PREDATOR_B 65
+    endif
+  else
+    #const FORAGEABLE 59 /* Berry Bush */
+    if ASIAN_ANIMALS
+      #const PREDATOR_A 1241 /* Snow Leopard */
+      #const PREDATOR_B 1241 /* Snow Leopard */
+    else
+      #const PREDATOR_A 126 /* Wolf */
+      #const PREDATOR_B 486 /* Bear */
+    endif
+  endif
+  #const BIRD_A         1056  /* Falcon */
+  #const BIRD_B         96    /* Hawk */
+  #const FISHABLE       456   /* Salmon */
+  #const FISHABLE_SHORE 69    /* Shore Fish */
+elseif BIOME_BOREAL
+  #const LAYER_A        74    /* Snow, Strong */
+  #const LAYER_B        32    /* Snow */
+  #const LAYER_C        73    /* Snow, Light */
+  #const LAYER_E        34    /* Snow Grass */
+  #const LAYER_F        72    /* Underbrush, Snow */
+  start_random
+  percent_chance 45
+    #const WOODIES        21   /* Snow Pine Forest */
+    #const WOODIES_B      21   /* Snow Pine Forest */
+    #const WOODIES_C      106  /* Dead Forest */
+    #const STRAGGLER_TREE 413  /* Snow Pine Tree */
+    #const REED_TREE_2    1054 /* Bush C */
+  percent_chance 35
+    #const WOODIES        106  /* Dead Forest */
+    #const WOODIES_B      105  /* Autumn Snow Forest */
+    #const WOODIES_C      106  /* Dead Forest */
+    #const STRAGGLER_TREE 1250 /* Dead Tree */
+    #const REED_TREE_2    1054 /* Bush C */
+  percent_chance 20
+    #define ASIAN_ANIMALS
+    #const WOODIES        21   /* Snow Pine Forest */
+    #const WOODIES_B      18   /* Bamboo Forest */
+    #const WOODIES_C      106  /* Dead Forest */
+    #const STRAGGLER_TREE 348  /* Bamboo Tree */
+    #const REED_TREE_2    413  /* Snow Pine Tree */
+  end_random
+  #const REED_TREE_1    1350 /* Reed Tree */
+  #const REED_TREE_3    1250 /* Dead Tree */
+  #const SHORE          108  /* Beach, Wet Gravel */
+  #const LITORIS        59   /* Shallows, Azure */
+  #const AQUA           1    /* Water, Shallow */
+  #const VIA            38   /* Road, Snow */
+  if ASIAN_ANIMALS
+    #const HERDABLE_A     1245 /* Pig */
+    #const HUNTABLE_A     1239 /* Ibex */
+    #const HUNTABLE_B     1239 /* Ibex */
+  else
+    #const HERDABLE_A     1598 /* Cow C (brown-white) */
+    #define HERDABLE_A_EXCESS_FOOD
+    #const HUNTABLE_A     65   /* Deer */
+    #const HUNTABLE_B     65   /* Deer */
+  endif
+  #const HERDABLE_B     594  /* Sheep */
+  #const LURABLE_A      48   /* Boar */
+  #const LURABLE_B      48   /* Boar */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 594
+    if ASIAN_ANIMALS
+      #const PREDATOR_A 1239
+      #const PREDATOR_B 1239
+    else
+      #const PREDATOR_A 65
+      #const PREDATOR_B 65
+    endif
+  else
+    #const FORAGEABLE 59 /* Berry Bush */
+    if ASIAN_ANIMALS
+      #const PREDATOR_A 1241 /* Snow Leopard */
+      #const PREDATOR_B 1241 /* Snow Leopard */
+    else
+      #const PREDATOR_A 126 /* Wolf */
+      #const PREDATOR_B 486 /* Bear */
+    endif
+  endif
+  #const BIRD_A         1056  /* Falcon */
+  #const BIRD_B         96    /* Hawk */
+  #const FISHABLE       456   /* Salmon */
+  #const FISHABLE_SHORE 69    /* Shore Fish */
+elseif BIOME_DESERT
+  #const LAYER_A        14   /* Desert, Sand, originally Dirt 1 (6) */
+  #const LAYER_B        79   /* Beach (Non-Navigable), originally Desert, Sand (14) */
+  #define LAYER_B_UNDER_A
+  #const LAYER_C        11   /* Dirt 2, originally Dirt 4 (42) */
+  #define LAYER_C_UNDER_A
+  #const LAYER_E        6    /* Dirt 1; Desert, Cracked looks best but has building damage penalty */
+  #define LAYER_E_UNDER_A
+  #const LAYER_F        3    /* Dirt 3, originally Dirt, Savannah (41) */
+  #define LAYER_F_UNDER_A
+  #const WOODIES        13   /* Palm Desert */
+  #const WOODIES_B      48   /* Dragon Tree Forest, originally Palm Desert (13) */
+  #define WOODIES_B_UNDER_LAYER_A
+  #const WOODIES_C      13   /* Palm Desert, originally Acacia Forest (50) */
+  #const STRAGGLER_TREE 351  /* Palm Forest Tree */
+  #const REED_TREE_1    1350 /* Reed Tree */
+  #const REED_TREE_2    1350 /* Reed Tree */
+  #const REED_TREE_3    1051 /* Dragon Tree */
+  #const SHORE          2    /* Beach */
+  #const LITORIS        4    /* Shallows */
+  #const AQUA           1    /* Water, Shallow */
+  #const VIA            43   /* Road, Dirt */
+  #const HERDABLE_A     1142 /* Water Buffalo */
+  #define HERDABLE_A_EXCESS_FOOD
+  #const HERDABLE_B     1060 /* Goat */
+  #const HUNTABLE_A     1026 /* Ostrich */
+  #const HUNTABLE_B     1019 /* Zebra */
+  #const LURABLE_A      1301 /* Elephant */
+  #const LURABLE_B      1139 /* Rhinoceros */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 1060
+    #const PREDATOR_A 1026
+    #const PREDATOR_B 1026
+  else
+    #const FORAGEABLE   1059 /* African Bush */
+    #const PREDATOR_A   1029 /* Lion */
+    #const PREDATOR_B   1031 /* Crocodile */
+  endif
+  #const BIRD_A         1305 /* Vulture */
+  #const BIRD_B         1028 /* Stork */
+  #const FISHABLE       53   /* Perch */
+  #define FISHABLE_FOOD_DEFICIT
+  #const FISHABLE_SHORE 69  /* Shore Fish */
+elseif BIOME_SAVANNAH /* modified to mimics Serengeti */
+  #const LAYER_A        41   /* Dirt, Savannah */
+  #const LAYER_B        42   /* Dirt 4 */
+  #const LAYER_C        6    /* Dirt 1 */
+  #const LAYER_E        3    /* Dirt 3; Desert, Cracked looks best but has building damage penalty */
+  #const LAYER_F        44   /* Moorland, originally Desert, Sand (14); Desert, Quicksand looks best but is not buildable */
+  #const WOODIES        50   /* Acacia Forest */
+  #const WOODIES_B      49   /* Baobab Forest, originally Palm Desert (13) */
+  #const WOODIES_C      48   /* Dragon Tree Forest, originally Baobab Forest (49) */
+  #const STRAGGLER_TREE      1063 /* Acacia Tree */
+  #const REED_TREE_1    1350 /* Reed Tree */
+  #const REED_TREE_2    1053 /* Bush B */
+  #const REED_TREE_3    1051 /* Dragon Tree */
+  #const SHORE          107  /* Beach, Wet */
+  #const LITORIS        4    /* Shallows */
+  #const AQUA           1    /* Water, Shallow */
+  #const VIA            43   /* Road, Desert */
+  #const HERDABLE_A     1142 /* Water Buffalo */
+  #define HERDABLE_A_EXCESS_FOOD
+  #const HERDABLE_B     1060 /* Goat */
+  #const HUNTABLE_A     1026 /* Ostrich */
+  #const HUNTABLE_B     1019 /* Zebra */
+  #const LURABLE_A      1301 /* Elephant */
+  #const LURABLE_B      1139 /* Rhinoceros */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 1060
+    #const PREDATOR_A 1026
+    #const PREDATOR_B 1026
+  else
+    #const FORAGEABLE   1059 /* African Bush */
+    #const PREDATOR_A   1029 /* Lion */
+    #const PREDATOR_B   1031 /* Crocodile */
+  endif
+  #const BIRD_A         1305 /* Vulture */
+  #const BIRD_B         1028 /* Stork */
+  #const FISHABLE       53   /* Perch */
+  #define FISHABLE_FOOD_DEFICIT
+  #const FISHABLE_SHORE 69  /* Shore Fish */
+elseif BIOME_MEDITERRANEAN /* was a strange patchwork of terrains, redesigned to be more coherent */
+  #const LAYER_A        3    /* Dirt 3 */
+  #const LAYER_B        44   /* Moorland, originally Underbrush (5) */
+  #const LAYER_C        100  /* Grass, Dry */
+  #const LAYER_E        9    /* Grass 3, originally Grass 1 (0) */
+  #const LAYER_F        11   /* Dirt 2, originally Dirt 4 (42) */
+  #const WOODIES        88   /* Mediterranean Forest */
+  #const WOODIES_B      17   /* Jungle, originally Oak Forest (10) */
+  #const WOODIES_C      20   /* Oak Bush Forest, originally Palm Desert (13) */
+  #const STRAGGLER_TREE      1347 /* Cypress Tree */
+  #const REED_TREE_1    1350 /* Reed Tree */
+  #const REED_TREE_2    1053 /* Bush B */
+  #const REED_TREE_3    1348 /* Italian Pine Tree */
+  #const SHORE          52   /* Beach, Vegetation */
+  #const LITORIS        4    /* Shallows */
+  #const AQUA           1    /* Water, Shallow */
+  #const VIA            24   /* Road */
+  #const HERDABLE_A     1596 /* Cow B (black) */
+  #define HERDABLE_A_EXCESS_FOOD
+  #const HERDABLE_B     594  /* Sheep */
+  #const HUNTABLE_A     65   /* Deer */
+  #const HUNTABLE_B     65   /* Deer */
+  #const LURABLE_A      48   /* Boar */
+  #const LURABLE_B      48   /* Boar */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 594
+    #const PREDATOR_A 65
+    #const PREDATOR_B 65
+  else
+    #const FORAGEABLE   59   /* Berry Bush */
+    #const PREDATOR_A   126  /* Wolf */
+    #const PREDATOR_B   126  /* Wolf */
+  endif
+  #const BIRD_A         96   /* Hawk */
+  #const BIRD_B         1056 /* Falcon */
+  #const FISHABLE       53   /* Perch */
+  #define FISHABLE_FOOD_DEFICIT
+  #const FISHABLE_SHORE 69   /* Shore Fish */
+elseif BIOME_JUNGLE /* South American jungle */
+  #const LAYER_A        60   /* Grass, Jungle */
+  #const LAYER_B        62   /* Leaves, Jungle, originally Underbrush, Jungle (77) */
+  #const LAYER_C        12   /* Grass 2 */
+  #const LAYER_E        77   /* Underbrush, Jungle, originally Dirt, Mud (76) */
+  #const LAYER_F        44   /* Moorland, originally Underbrush (5) */
+  #const WOODIES        17   /* Jungle */
+  #const WOODIES_B      56   /* Rainforest */
+  #define WOODIES_B_UNDER_LAYER_A
+  #const WOODIES_C      17   /* Jungle */
+  #const STRAGGLER_TREE 414  /* Jungle Tree */
+  #const REED_TREE_1    1144 /* Mangrove Tree */
+  #const REED_TREE_2    302  /* Bush A */
+  #const REED_TREE_3    1350 /* Reed Tree */
+  #const SHORE          109  /* Beach, Wet Rock */
+  #const LITORIS        4    /* Shallows, originally Shallows, Azure (59) */
+  #const AQUA           1    /* Water, Shallow, originally Water, Azure (58) */
+  #const VIA            61   /* Road, Jungle */
+  #const HERDABLE_A     305  /* Llama */
+  #const HERDABLE_B     833  /* Turkey */
+  #const HUNTABLE_A     65   /* Deer */
+  #const HUNTABLE_B     65   /* Deer */
+  #const LURABLE_A      822  /* Javenila */
+  #const LURABLE_B      822  /* Javenila */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 833
+    #const PREDATOR_A 65
+    #const PREDATOR_B 65
+  else
+    #const FORAGEABLE   1059 /* African Bush */
+    #const PREDATOR_A   812  /* Jaguar */
+    #const PREDATOR_B   1031 /* Crocodile */
+  endif
+  #const BIRD_A         816  /* Macaw */
+  #const BIRD_B         816  /* Macaw */
+  #const FISHABLE       458  /* Snapper */
+  #const FISHABLE_SHORE 1141 /* Box Turtles */
+elseif BIOME_RAINFOREST /* South Asian rainforest */
+  #const LAYER_A        60   /* Grass, Jungle */
+  #const LAYER_B        62   /* Leaves, Jungle, originally Underbrush, Jungle (77) */
+  #const LAYER_C        12   /* Grass 2 */
+  #const LAYER_E        44   /* Moorland, originally Dirt, Mud (76) */
+  #const LAYER_F        77   /* Underbrush, Jungle, originally Underbrush (5) */
+  #const WOODIES        56   /* Rainforest */
+  #const WOODIES_B      17   /* Jungle */
+  #define WOODIES_B_UNDER_LAYER_A
+  #const WOODIES_C      18   /* Bamboo Forest, originally Oak Forest (10) */
+  #define WOODIES_C_UNDER_LAYER_A
+  #const STRAGGLER_TREE 1144 /* Mangrove Tree */
+  #const SHORE          51   /* Beach, White, Vegetation */
+  #const REED_TREE_1    1144 /* Mangrove Tree */
+  #const REED_TREE_2    302  /* Bush A */
+  #const REED_TREE_3    348  /* Bamboo Tree */
+  #const LITORIS        59   /* Shallows, Azure */
+  #const AQUA           58   /* Water, Azure */
+  #const AQUA_MED       1    /* Water, Shallow */
+  #const AQUA_DEEP      23   /* Water, Medium */
+  #const AQUA_OCEAN     22   /* Water, Deep */
+  #const VIA            61   /* Road, Jungle */
+  #const HERDABLE_A     1142 /* Water Buffalo */
+  #define HERDABLE_A_EXCESS_FOOD
+  #const HERDABLE_B     1243 /* Goose */
+  #const HUNTABLE_A     65   /* Deer */
+  #const HUNTABLE_B     1239 /* Ibex */
+  #const LURABLE_A      1139 /* Rhinoceros */
+  #const LURABLE_B      1301 /* Elephant */
+  if BATTLE_ROYALE /* turning predators into huntables and forageables into herdables on BR */
+    #const FORAGEABLE 1060
+    #const PREDATOR_A 65
+    #const PREDATOR_B 1239
+  else
+    #const FORAGEABLE   1059 /* African Bush */
+    #const PREDATOR_A   1137 /* Tiger */
+    #const PREDATOR_B   1135 /* Comodo Dragon */
+  endif
+  #const BIRD_A         816  /* Macaw */
+  #const BIRD_B         1305 /* Vulture */
+  #const FISHABLE       458  /* Snapper */
+  #const FISHABLE_SHORE 1141 /* Box Turtles */
+endif
+
+/* Defining constants not covered in all settings */
+#const AQUA_MED   23
+#const AQUA_DEEP  22
+#const AQUA_OCEAN 57
+
+<PLAYER_SETUP>
+  random_placement 
+  ai_info_map_type RIVERS 0 0 0
+
+/* BATTLE_ROYALE is not implemented as of now, whatever it was meant to be */
+/* However, I'm leaving this here in case it is resurrected at some point. */
+#include_drs thebr_setup.inc
+
+<LAND_GENERATION>
+  base_terrain AQUA
+  enable_waves 0
+
+if CAPTURE_THE_RELIC
+  #define SPAWN_CENTRAL_ISLAND
+elseif KING_OT_HILL
+  #define SPAWN_CENTRAL_ISLAND
+endif
+
+if SPAWN_CENTRAL_ISLAND
+  create_land
+  {
+    terrain_type                     WOODIES_0
+    land_position                    50 50
+    base_size                        6
+    number_of_tiles                  0
+    clumping_factor                  100
+    border_fuzziness                 100
+    zone                             16
+    land_id                          16
+    other_zone_avoidance_distance    4
+  }
+endif
+
+create_land
+{
+  terrain_type                     WOODIES_1
+  land_percent                     100
+  if HAS_PLAYER_7
+    if TINY_MAP
+      base_size                        10
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  elseif HAS_PLAYER_5
+    if TINY_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        13
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  else
+    base_size                        16
+    other_zone_avoidance_distance    6
+  endif
+  circle_radius                    45
+  clumping_factor                  100
+  border_fuzziness                 50
+  assign_to_player                 1
+  zone                             1
+}
+
+create_land
+{
+  terrain_type                     WOODIES_2
+  land_percent                     100
+  if HAS_PLAYER_7
+    if TINY_MAP
+      base_size                        10
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  elseif HAS_PLAYER_5
+    if TINY_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        13
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  else
+    base_size                        16
+    other_zone_avoidance_distance    6
+  endif
+  circle_radius                    45
+  clumping_factor                  100
+  border_fuzziness                 50
+  assign_to_player                 2
+  zone                             2
+}
+create_land
+{
+  terrain_type                     WOODIES_3
+  land_percent                     100
+  if HAS_PLAYER_7
+    if TINY_MAP
+      base_size                        10
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  elseif HAS_PLAYER_5
+    if TINY_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        13
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  else
+    base_size                        16
+    other_zone_avoidance_distance    6
+  endif
+  circle_radius                    45
+  clumping_factor                  100
+  border_fuzziness                 50
+  assign_to_player                 3
+  zone                             3
+}
+create_land
+{
+  terrain_type                     WOODIES_4
+  land_percent                     100
+  if HAS_PLAYER_7
+    if TINY_MAP
+      base_size                        10
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  elseif HAS_PLAYER_5
+    if TINY_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        13
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  else
+    base_size                        16
+    other_zone_avoidance_distance    6
+  endif
+  circle_radius                    45
+  clumping_factor                  100
+  border_fuzziness                 50
+  assign_to_player                 4
+  zone                             4
+}
+create_land
+{
+  terrain_type                     WOODIES_5
+  land_percent                     100
+  if HAS_PLAYER_7
+    if TINY_MAP
+      base_size                        10
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  elseif HAS_PLAYER_5
+    if TINY_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        13
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  else
+    base_size                        16
+    other_zone_avoidance_distance    6
+  endif
+  circle_radius                    45
+  clumping_factor                  100
+  border_fuzziness                 50
+  assign_to_player                 5
+  zone                             5
+}
+create_land
+{
+  terrain_type                     WOODIES_6
+  land_percent                     100
+  if HAS_PLAYER_7
+    if TINY_MAP
+      base_size                        10
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  elseif HAS_PLAYER_5
+    if TINY_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        13
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  else
+    base_size                        16
+    other_zone_avoidance_distance    6
+  endif
+  circle_radius                    45
+  clumping_factor                  100
+  border_fuzziness                 50
+  assign_to_player                 6
+  zone                             6
+}
+create_land
+{
+  terrain_type                     WOODIES_7
+  land_percent                     100
+  if HAS_PLAYER_7
+    if TINY_MAP
+      base_size                        10
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  elseif HAS_PLAYER_5
+    if TINY_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        13
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  else
+    base_size                        16
+    other_zone_avoidance_distance    6
+  endif
+  circle_radius                    45
+  clumping_factor                  100
+  border_fuzziness                 50
+  assign_to_player                 7
+  zone                             7
+}
+create_land
+{
+  terrain_type                     WOODIES_8
+  land_percent                     100
+  if HAS_PLAYER_7
+    if TINY_MAP
+      base_size                        10
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  elseif HAS_PLAYER_5
+    if TINY_MAP
+      base_size                        12
+      other_zone_avoidance_distance    5
+    elseif SMALL_MAP
+      base_size                        13
+      other_zone_avoidance_distance    5
+    else
+      base_size                        16
+      other_zone_avoidance_distance    6
+    endif
+  else
+    base_size                        16
+    other_zone_avoidance_distance    6
+  endif
+  circle_radius                    45
+  clumping_factor                  100
+  border_fuzziness                 50
+  assign_to_player                 8
+  zone                             8
+}
+
+/* BONUS ISLAND 1 */
+create_land 
+{
+  terrain_type                     WOODIES_0
+  land_percent                     100
+  base_size                        9
+  clumping_factor                  20
+  border_fuzziness                 15
+  zone                             9
+  land_id                          12
+  other_zone_avoidance_distance    6
+  left_border                      25
+  right_border                     25
+  top_border                       25
+  bottom_border                    25
+}
+
+/* BONUS ISLAND 2 */
+create_land 
+{
+  terrain_type                     WOODIES_0
+  land_percent                     100
+  base_size                        9
+  clumping_factor                  20
+  border_fuzziness                 15
+  zone                             10
+  land_id                          12
+  other_zone_avoidance_distance    6
+  left_border                      25
+  right_border                     25
+  top_border                       25
+  bottom_border                    25
+}
+
+if MAP_AT_LEAST_MEDIUM
+  /* NUISANCE ISLAND 1 */
+  create_land 
+  {
+  terrain_type                       WOODIES_0
+    land_percent                     100
+    base_size                        4
+    clumping_factor                  25
+    border_fuzziness                 10
+    zone                             11
+    land_id                          12
+    other_zone_avoidance_distance    6
+    left_border                      25
+    right_border                     25
+    top_border                       25
+    bottom_border                    25
+  }
+endif
+
+if MAP_AT_LEAST_GIGANTIC
+  /* NUISANCE ISLAND 2 */
+  create_land 
+  {
+  terrain_type                       WOODIES_0
+    land_percent                     100
+    base_size                        4
+    clumping_factor                  25
+    border_fuzziness                 10
+    zone                             12
+    land_id                          12
+    other_zone_avoidance_distance    6
+    left_border                      25
+    right_border                     25
+    top_border                       25
+    bottom_border                    25
+  }
+endif
+
+if MAP_AT_LEAST_LUDIKRIS
+  /* NUISANCE ISLAND 3 */
+  create_land 
+  {
+  terrain_type                       WOODIES_0
+    land_percent                     100
+    base_size                        4
+    clumping_factor                  25
+    border_fuzziness                 10
+    zone                             13
+    land_id                          12
+    other_zone_avoidance_distance    6
+    left_border                      25
+    right_border                     25
+    top_border                       25
+    bottom_border                    25
+  }
+endif
+/* ****************************************************** */
+<ELEVATION_GENERATION>
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+/* COLOR CORRECTION CHUNK */
+if BIOME_TEMPERATE_SPRING
+  color_correction  CC_JUNGLE
+elseif BIOME_TEMPERATE_AUTUMN
+  color_correction  CC_AUTUMN
+elseif BIOME_TEMPERATE_AUTUMN_SNOW
+  color_correction  CC_WINTER
+elseif BIOME_TEMPERATE_WINTER
+  color_correction  CC_WINTER
+elseif BIOME_BOREAL
+  color_correction  CC_WINTER
+elseif BIOME_DESERT
+  color_correction  CC_DESERT
+elseif BIOME_SAVANNAH
+  color_correction  CC_DESERT
+elseif BIOME_JUNGLE
+  color_correction  CC_JUNGLE
+elseif BIOME_RAINFOREST
+  color_correction  CC_JUNGLE
+endif
+
+/* NEUTRAL LANDS POCKETS */
+create_terrain LAYER_A
+{
+  base_terrain                   WOODIES_0
+  number_of_clumps               9320
+  land_percent                   100
+  spacing_to_other_terrain_types 4
+}
+
+/* PLAYER LANDS PREPARATION */
+if HAS_PLAYER_1
+  create_terrain LAYER_TEMP
+  {
+    base_terrain                   WOODIES_1
+    number_of_clumps               9320
+    land_percent                   100
+    spacing_to_other_terrain_types 3
+  }
+endif
+  create_terrain LAYER_TEMP
+  {
+    base_terrain                   WOODIES_2
+    number_of_clumps               9320
+    land_percent                   100
+    spacing_to_other_terrain_types 3
+  }
+endif
+if HAS_PLAYER_3
+  create_terrain LAYER_TEMP
+  {
+    base_terrain                   WOODIES_3
+    number_of_clumps               9320
+    land_percent                   100
+    spacing_to_other_terrain_types 3
+  }
+endif
+if HAS_PLAYER_4
+  create_terrain LAYER_TEMP
+  {
+    base_terrain                   WOODIES_4
+    number_of_clumps               9320
+    land_percent                   100
+    spacing_to_other_terrain_types 3
+  }
+endif
+if HAS_PLAYER_5
+  create_terrain LAYER_TEMP
+  {
+    base_terrain                   WOODIES_5
+    number_of_clumps               9320
+    land_percent                   100
+    spacing_to_other_terrain_types 3
+  }
+endif
+if HAS_PLAYER_6
+  create_terrain LAYER_TEMP
+  {
+    base_terrain                   WOODIES_6
+    number_of_clumps               9320
+    land_percent                   100
+    spacing_to_other_terrain_types 3
+  }
+endif
+if HAS_PLAYER_7
+  create_terrain LAYER_TEMP
+  {
+    base_terrain                   WOODIES_7
+    number_of_clumps               9320
+    land_percent                   100
+    spacing_to_other_terrain_types 3
+  }
+endif
+if HAS_PLAYER_8
+  create_terrain LAYER_TEMP
+  {
+    base_terrain                   WOODIES_8
+    number_of_clumps               9320
+    land_percent                   100
+    spacing_to_other_terrain_types 3
+  }
+endif
+create_terrain LAYER_A
+{
+  base_terrain                   LAYER_TEMP
+  number_of_clumps               9320
+  land_percent                   100
+  spacing_to_other_terrain_types 3
+}
+create_terrain WOODIES_0
+{
+  base_terrain                   LAYER_TEMP
+  number_of_clumps               9320
+  land_percent                   100
+  set_avoid_player_start_areas
+}
+create_terrain LAYER_A
+{
+  base_terrain                   LAYER_TEMP
+  number_of_clumps               9320
+  land_percent                   100
+}
+
+/* FORESTS */
+create_terrain WOODIES_B
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               20
+  land_percent                   12
+  spacing_to_other_terrain_types 7
+  set_avoid_player_start_areas
+  set_scale_by_groups
+  set_scale_by_size
+}
+create_terrain WOODIES_B
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               60
+  land_percent                   4
+  spacing_to_other_terrain_types 4
+  set_avoid_player_start_areas
+  set_scale_by_groups
+  set_scale_by_size
+}
+create_terrain WOODIES
+{
+  base_terrain                   WOODIES_B
+  number_of_clumps               9320
+  land_percent                   100
+}
+
+/* DECORATIONS */
+create_terrain AQUA_MED
+{
+  base_terrain                   AQUA
+  number_of_clumps               9320
+  land_percent                   100
+  spacing_to_other_terrain_types 2
+  terrain_mask                   1
+}
+create_terrain LAYER_B
+{
+  base_terrain                   LAYER_A
+  land_percent                   5
+  number_of_clumps               26
+  clumping_factor                0
+  set_scale_by_groups
+  if LAYER_B_UNDER_A
+    terrain_mask                   2
+  endif
+}
+create_terrain LAYER_B
+{
+  base_terrain                   LAYER_A
+  land_percent                   1
+  number_of_clumps               40
+  clumping_factor                0
+  set_scale_by_groups
+  if LAYER_B_UNDER_A
+    terrain_mask                   2
+  endif
+}
+create_terrain LAYER_C
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               24
+  land_percent                   3
+  clumping_factor                0
+  set_scale_by_groups
+  if LAYER_C_UNDER_A
+    terrain_mask                   2
+  endif
+}
+create_terrain LAYER_E
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               15
+  land_percent                   1
+  clumping_factor                0
+  set_scale_by_groups
+  if LAYER_E_UNDER_A
+    terrain_mask                   2
+  endif
+}
+create_terrain LAYER_F
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               15
+  land_percent                   1
+  clumping_factor                0
+  set_scale_by_groups
+  if LAYER_F_UNDER_A
+    terrain_mask                   2
+  endif
+}
+create_terrain WOODIES_B
+{
+  base_terrain                   WOODIES
+  land_percent                   4
+  number_of_clumps               18
+  clumping_factor                -100
+  set_scale_by_groups
+}
+create_terrain WOODIES_C
+{
+  base_terrain                   WOODIES
+  land_percent                   3
+  number_of_clumps               18
+  clumping_factor                -100
+  set_scale_by_groups
+}
+create_terrain WOODIES_B_0
+{
+  base_terrain                   WOODIES_0
+  land_percent                   5
+  number_of_clumps               18
+  clumping_factor                -100
+  set_scale_by_groups
+}
+create_terrain WOODIES_C_0
+{
+  base_terrain                   WOODIES_0
+  land_percent                   3
+  number_of_clumps               18
+  clumping_factor                -100
+  set_scale_by_groups
+}
+
+/* BIOME FOREST LAYERING */
+if DE_AVAILABLE
+  if WOODIES_UNDER_LAYER_A
+    create_terrain LAYER_A
+    {
+      base_terrain        WOODIES
+      land_percent        100
+      number_of_clumps    9320
+      set_scale_by_groups
+      terrain_mask        1
+    }
+  endif
+  if WOODIES_B_UNDER_LAYER_A
+    create_terrain LAYER_A
+    {
+      base_terrain        WOODIES_B
+      land_percent        100
+      number_of_clumps    9320
+      set_scale_by_groups
+      terrain_mask        1
+    }
+  endif
+  if WOODIES_C_UNDER_LAYER_A
+    create_terrain LAYER_A
+    {
+      base_terrain        WOODIES_C
+      land_percent        100
+      number_of_clumps    9320
+      set_scale_by_groups
+      terrain_mask        1
+    }
+  endif
+endif
+
+/* ****************************************************** */
+<CONNECTION_GENERATION>
+
+/* FOREST PLACEHOLDER REMOVAL */
+create_connect_all_lands
+{
+  replace_terrain LAYER_TEMP       LAYER_A
+  replace_terrain WOODIES_0        WOODIES
+  replace_terrain WOODIES_B_0      WOODIES_B
+  replace_terrain WOODIES_C_0      WOODIES_C
+  replace_terrain WOODIES_1        WOODIES
+  replace_terrain WOODIES_2        WOODIES
+  replace_terrain WOODIES_3        WOODIES
+  replace_terrain WOODIES_4        WOODIES
+  replace_terrain WOODIES_5        WOODIES
+  replace_terrain WOODIES_6        WOODIES
+  replace_terrain WOODIES_7        WOODIES
+  replace_terrain WOODIES_8        WOODIES
+  terrain_size    LAYER_TEMP       962   1
+  terrain_size    WOODIES_0        962   1
+  terrain_size    WOODIES_B_0      962   1
+  terrain_size    WOODIES_C_0      962   1
+  terrain_size    WOODIES_1        962   1
+  terrain_size    WOODIES_2        962   1
+  terrain_size    WOODIES_3        962   1
+  terrain_size    WOODIES_4        962   1
+  terrain_size    WOODIES_5        962   1
+  terrain_size    WOODIES_6        962   1
+  terrain_size    WOODIES_7        962   1
+  terrain_size    WOODIES_8        962   1
+}
+
+/* NEUTRAL TO NEUTRAL */
+/* Unnecessary due to the fact shield placeholder is shared by all neutral lands, they get connected anyway in player connections */
+/*
+create_connect_all_lands
+{
+  replace_terrain WOODIES_0        LAYER_A
+  replace_terrain WOODIES_B_0      LAYER_A
+  replace_terrain WOODIES_C_0      LAYER_A
+  replace_terrain AQUA             LITORIS
+  replace_terrain AQUA_MED         LITORIS
+  replace_terrain AQUA_DEEP        LITORIS
+  replace_terrain AQUA_OCEAN       LITORIS
+  terrain_cost    WOODIES_0        100
+  terrain_cost    WOODIES_B_0      100
+  terrain_cost    WOODIES_C_0      100
+  terrain_cost    WOODIES_1        0
+  terrain_cost    WOODIES_2        0
+  terrain_cost    WOODIES_3        0
+  terrain_cost    WOODIES_4        0
+  terrain_cost    WOODIES_5        0
+  terrain_cost    WOODIES_6        0
+  terrain_cost    WOODIES_7        0
+  terrain_cost    WOODIES_8        0
+  terrain_cost    AQUA             4500
+  terrain_cost    AQUA_MED         4500
+  terrain_cost    AQUA_DEEP        4500
+  terrain_cost    AQUA_OCEAN       4500
+  terrain_cost    BEACH            7500
+  terrain_cost    ICYSHORE         7500
+  if LUDIKRIS_MAP
+    terrain_size    AQUA         3       1
+    terrain_size    AQUA_MED     3       1
+    terrain_size    AQUA_DEEP    3       1
+    terrain_size    AQUA_OCEAN   3       1
+    terrain_size    WOODIES_0    4       2
+    terrain_size    WOODIES_B_0  4       2
+    terrain_size    WOODIES_C_0  4       2
+  else
+    terrain_size    AQUA         1       0
+    terrain_size    AQUA_MED     1       0
+    terrain_size    AQUA_DEEP    1       0
+    terrain_size    AQUA_OCEAN   1       0
+    terrain_size    WOODIES_0    2       0
+    terrain_size    WOODIES_B_0  2       0
+    terrain_size    WOODIES_C_0  2       0
+  endif
+}
+*/
+
+/* PLAYERS TO NEUTRAL */
+if HAS_PLAYER_1
+  create_connect_all_lands
+  {
+    replace_terrain WOODIES_0        LAYER_A
+    replace_terrain WOODIES_B_0      LAYER_A
+    replace_terrain WOODIES_C_0      LAYER_A
+    replace_terrain WOODIES_1        LAYER_A
+    replace_terrain AQUA             LITORIS
+    replace_terrain AQUA_MED         LITORIS
+    replace_terrain AQUA_DEEP        LITORIS
+    replace_terrain AQUA_OCEAN       LITORIS
+    terrain_cost    WOODIES_0        500
+    terrain_cost    WOODIES_B_0      500
+    terrain_cost    WOODIES_C_0      500
+    terrain_cost    WOODIES_1        100
+    terrain_cost    WOODIES_2        0
+    terrain_cost    WOODIES_3        0
+    terrain_cost    WOODIES_4        0
+    terrain_cost    WOODIES_5        0
+    terrain_cost    WOODIES_6        0
+    terrain_cost    WOODIES_7        0
+    terrain_cost    WOODIES_8        0
+    terrain_cost    AQUA             4500
+    terrain_cost    AQUA_MED         4500
+    terrain_cost    AQUA_DEEP        4500
+    terrain_cost    AQUA_OCEAN       4500
+    terrain_cost    BEACH            7500
+    terrain_cost    ICYSHORE         7500
+    if LUDIKRIS_MAP
+      terrain_size    AQUA         3       1
+      terrain_size    AQUA_MED     3       1
+      terrain_size    AQUA_DEEP    3       1
+      terrain_size    AQUA_OCEAN   3       1
+      terrain_size    WOODIES_0    5       2
+      terrain_size    WOODIES_B_0  5       2
+      terrain_size    WOODIES_C_0  5       2
+      terrain_size    WOODIES_1    5       2
+    else
+      terrain_size    AQUA         2       0
+      terrain_size    AQUA_MED     2       0
+      terrain_size    AQUA_DEEP    2       0
+      terrain_size    AQUA_OCEAN   2       0
+      terrain_size    WOODIES_0    2       0
+      terrain_size    WOODIES_B_0  2       0
+      terrain_size    WOODIES_C_0  2       0
+      terrain_size    WOODIES_1    2       0
+    endif
+  }
+endif
+if HAS_PLAYER_2
+  create_connect_all_lands
+  {
+    replace_terrain WOODIES_0        LAYER_A
+    replace_terrain WOODIES_B_0      LAYER_A
+    replace_terrain WOODIES_C_0      LAYER_A
+    replace_terrain WOODIES_2        LAYER_A
+    replace_terrain AQUA             LITORIS
+    replace_terrain AQUA_MED         LITORIS
+    replace_terrain AQUA_DEEP        LITORIS
+    replace_terrain AQUA_OCEAN       LITORIS
+    terrain_cost    WOODIES_0        500
+    terrain_cost    WOODIES_B_0      500
+    terrain_cost    WOODIES_C_0      500
+    terrain_cost    WOODIES_1        0
+    terrain_cost    WOODIES_2        100
+    terrain_cost    WOODIES_3        0
+    terrain_cost    WOODIES_4        0
+    terrain_cost    WOODIES_5        0
+    terrain_cost    WOODIES_6        0
+    terrain_cost    WOODIES_7        0
+    terrain_cost    WOODIES_8        0
+    terrain_cost    AQUA             4500
+    terrain_cost    AQUA_MED         4500
+    terrain_cost    AQUA_DEEP        4500
+    terrain_cost    AQUA_OCEAN       4500
+    terrain_cost    BEACH            7500
+    terrain_cost    ICYSHORE         7500
+    if LUDIKRIS_MAP
+      terrain_size    AQUA         3       1
+      terrain_size    AQUA_MED     3       1
+      terrain_size    AQUA_DEEP    3       1
+      terrain_size    AQUA_OCEAN   3       1
+      terrain_size    WOODIES_0    5       2
+      terrain_size    WOODIES_B_0  5       2
+      terrain_size    WOODIES_C_0  5       2
+      terrain_size    WOODIES_2    5       2
+    else
+      terrain_size    AQUA         2       0
+      terrain_size    AQUA_MED     2       0
+      terrain_size    AQUA_DEEP    2       0
+      terrain_size    AQUA_OCEAN   2       0
+      terrain_size    WOODIES_0    2       0
+      terrain_size    WOODIES_B_0  2       0
+      terrain_size    WOODIES_C_0  2       0
+      terrain_size    WOODIES_2    2       0
+    endif
+  }
+endif
+if HAS_PLAYER_3
+  create_connect_all_lands
+  {
+    replace_terrain WOODIES_0        LAYER_A
+    replace_terrain WOODIES_B_0      LAYER_A
+    replace_terrain WOODIES_C_0      LAYER_A
+    replace_terrain WOODIES_3        LAYER_A
+    replace_terrain AQUA             LITORIS
+    replace_terrain AQUA_MED         LITORIS
+    replace_terrain AQUA_DEEP        LITORIS
+    replace_terrain AQUA_OCEAN       LITORIS
+    terrain_cost    WOODIES_0        500
+    terrain_cost    WOODIES_B_0      500
+    terrain_cost    WOODIES_C_0      500
+    terrain_cost    WOODIES_1        0
+    terrain_cost    WOODIES_2        0
+    terrain_cost    WOODIES_3        100
+    terrain_cost    WOODIES_4        0
+    terrain_cost    WOODIES_5        0
+    terrain_cost    WOODIES_6        0
+    terrain_cost    WOODIES_7        0
+    terrain_cost    WOODIES_8        0
+    terrain_cost    AQUA             4500
+    terrain_cost    AQUA_MED         4500
+    terrain_cost    AQUA_DEEP        4500
+    terrain_cost    AQUA_OCEAN       4500
+    terrain_cost    BEACH            7500
+    terrain_cost    ICYSHORE         7500
+    if LUDIKRIS_MAP
+      terrain_size    AQUA         3       1
+      terrain_size    AQUA_MED     3       1
+      terrain_size    AQUA_DEEP    3       1
+      terrain_size    AQUA_OCEAN   3       1
+      terrain_size    WOODIES_0    5       2
+      terrain_size    WOODIES_B_0  5       2
+      terrain_size    WOODIES_C_0  5       2
+      terrain_size    WOODIES_3    5       2
+    else
+      terrain_size    AQUA         2       0
+      terrain_size    AQUA_MED     2       0
+      terrain_size    AQUA_DEEP    2       0
+      terrain_size    AQUA_OCEAN   2       0
+      terrain_size    WOODIES_0    2       0
+      terrain_size    WOODIES_B_0  2       0
+      terrain_size    WOODIES_C_0  2       0
+      terrain_size    WOODIES_3    2       0
+    endif
+  }
+endif
+if HAS_PLAYER_4
+  create_connect_all_lands
+  {
+    replace_terrain WOODIES_0        LAYER_A
+    replace_terrain WOODIES_B_0      LAYER_A
+    replace_terrain WOODIES_C_0      LAYER_A
+    replace_terrain WOODIES_4        LAYER_A
+    replace_terrain AQUA             LITORIS
+    replace_terrain AQUA_MED         LITORIS
+    replace_terrain AQUA_DEEP        LITORIS
+    replace_terrain AQUA_OCEAN       LITORIS
+    terrain_cost    WOODIES_0        500
+    terrain_cost    WOODIES_B_0      500
+    terrain_cost    WOODIES_C_0      500
+    terrain_cost    WOODIES_1        0
+    terrain_cost    WOODIES_2        0
+    terrain_cost    WOODIES_3        0
+    terrain_cost    WOODIES_4        100
+    terrain_cost    WOODIES_5        0
+    terrain_cost    WOODIES_6        0
+    terrain_cost    WOODIES_7        0
+    terrain_cost    WOODIES_8        0
+    terrain_cost    AQUA             4500
+    terrain_cost    AQUA_MED         4500
+    terrain_cost    AQUA_DEEP        4500
+    terrain_cost    AQUA_OCEAN       4500
+    terrain_cost    BEACH            7500
+    terrain_cost    ICYSHORE         7500
+    if LUDIKRIS_MAP
+      terrain_size    AQUA         3       1
+      terrain_size    AQUA_MED     3       1
+      terrain_size    AQUA_DEEP    3       1
+      terrain_size    AQUA_OCEAN   3       1
+      terrain_size    WOODIES_0    5       2
+      terrain_size    WOODIES_B_0  5       2
+      terrain_size    WOODIES_C_0  5       2
+      terrain_size    WOODIES_4    5       2
+    else
+      terrain_size    AQUA         2       0
+      terrain_size    AQUA_MED     2       0
+      terrain_size    AQUA_DEEP    2       0
+      terrain_size    AQUA_OCEAN   2       0
+      terrain_size    WOODIES_0    2       0
+      terrain_size    WOODIES_B_0  2       0
+      terrain_size    WOODIES_C_0  2       0
+      terrain_size    WOODIES_4    2       0
+    endif
+  }
+endif
+if HAS_PLAYER_5
+  create_connect_all_lands
+  {
+    replace_terrain WOODIES_0        LAYER_A
+    replace_terrain WOODIES_B_0      LAYER_A
+    replace_terrain WOODIES_C_0      LAYER_A
+    replace_terrain WOODIES_5        LAYER_A
+    replace_terrain AQUA             LITORIS
+    replace_terrain AQUA_MED         LITORIS
+    replace_terrain AQUA_DEEP        LITORIS
+    replace_terrain AQUA_OCEAN       LITORIS
+    terrain_cost    WOODIES_0        500
+    terrain_cost    WOODIES_B_0      500
+    terrain_cost    WOODIES_C_0      500
+    terrain_cost    WOODIES_1        0
+    terrain_cost    WOODIES_2        0
+    terrain_cost    WOODIES_3        0
+    terrain_cost    WOODIES_4        0
+    terrain_cost    WOODIES_5        100
+    terrain_cost    WOODIES_6        0
+    terrain_cost    WOODIES_7        0
+    terrain_cost    WOODIES_8        0
+    terrain_cost    AQUA             4500
+    terrain_cost    AQUA_MED         4500
+    terrain_cost    AQUA_DEEP        4500
+    terrain_cost    AQUA_OCEAN       4500
+    terrain_cost    BEACH            7500
+    terrain_cost    ICYSHORE         7500
+    if LUDIKRIS_MAP
+      terrain_size    AQUA         3       1
+      terrain_size    AQUA_MED     3       1
+      terrain_size    AQUA_DEEP    3       1
+      terrain_size    AQUA_OCEAN   3       1
+      terrain_size    WOODIES_0    5       2
+      terrain_size    WOODIES_B_0  5       2
+      terrain_size    WOODIES_C_0  5       2
+      terrain_size    WOODIES_5    5       2
+    else
+      terrain_size    AQUA         2       0
+      terrain_size    AQUA_MED     2       0
+      terrain_size    AQUA_DEEP    2       0
+      terrain_size    AQUA_OCEAN   2       0
+      terrain_size    WOODIES_0    2       0
+      terrain_size    WOODIES_B_0  2       0
+      terrain_size    WOODIES_C_0  2       0
+      terrain_size    WOODIES_5    2       0
+    endif
+  }
+endif
+if HAS_PLAYER_6
+  create_connect_all_lands
+  {
+    replace_terrain WOODIES_0        LAYER_A
+    replace_terrain WOODIES_B_0      LAYER_A
+    replace_terrain WOODIES_C_0      LAYER_A
+    replace_terrain WOODIES_6        LAYER_A
+    replace_terrain AQUA             LITORIS
+    replace_terrain AQUA_MED         LITORIS
+    replace_terrain AQUA_DEEP        LITORIS
+    replace_terrain AQUA_OCEAN       LITORIS
+    terrain_cost    WOODIES_0        500
+    terrain_cost    WOODIES_B_0      500
+    terrain_cost    WOODIES_C_0      500
+    terrain_cost    WOODIES_1        0
+    terrain_cost    WOODIES_2        0
+    terrain_cost    WOODIES_3        0
+    terrain_cost    WOODIES_4        0
+    terrain_cost    WOODIES_5        0
+    terrain_cost    WOODIES_6        100
+    terrain_cost    WOODIES_7        0
+    terrain_cost    WOODIES_8        0
+    terrain_cost    AQUA             4500
+    terrain_cost    AQUA_MED         4500
+    terrain_cost    AQUA_DEEP        4500
+    terrain_cost    AQUA_OCEAN       4500
+    terrain_cost    BEACH            7500
+    terrain_cost    ICYSHORE         7500
+    if LUDIKRIS_MAP
+      terrain_size    AQUA         3       1
+      terrain_size    AQUA_MED     3       1
+      terrain_size    AQUA_DEEP    3       1
+      terrain_size    AQUA_OCEAN   3       1
+      terrain_size    WOODIES_0    5       2
+      terrain_size    WOODIES_B_0  5       2
+      terrain_size    WOODIES_C_0  5       2
+      terrain_size    WOODIES_6    5       2
+    else
+      terrain_size    AQUA         2       0
+      terrain_size    AQUA_MED     2       0
+      terrain_size    AQUA_DEEP    2       0
+      terrain_size    AQUA_OCEAN   2       0
+      terrain_size    WOODIES_0    2       0
+      terrain_size    WOODIES_B_0  2       0
+      terrain_size    WOODIES_C_0  2       0
+      terrain_size    WOODIES_6    2       0
+    endif
+  }
+endif
+if HAS_PLAYER_7
+  create_connect_all_lands
+  {
+    replace_terrain WOODIES_0        LAYER_A
+    replace_terrain WOODIES_B_0      LAYER_A
+    replace_terrain WOODIES_C_0      LAYER_A
+    replace_terrain WOODIES_7        LAYER_A
+    replace_terrain AQUA             LITORIS
+    replace_terrain AQUA_MED         LITORIS
+    replace_terrain AQUA_DEEP        LITORIS
+    replace_terrain AQUA_OCEAN       LITORIS
+    terrain_cost    WOODIES_0        500
+    terrain_cost    WOODIES_B_0      500
+    terrain_cost    WOODIES_C_0      500
+    terrain_cost    WOODIES_1        0
+    terrain_cost    WOODIES_2        0
+    terrain_cost    WOODIES_3        0
+    terrain_cost    WOODIES_4        0
+    terrain_cost    WOODIES_5        0
+    terrain_cost    WOODIES_6        0
+    terrain_cost    WOODIES_7        100
+    terrain_cost    WOODIES_8        0
+    terrain_cost    AQUA             4500
+    terrain_cost    AQUA_MED         4500
+    terrain_cost    AQUA_DEEP        4500
+    terrain_cost    AQUA_OCEAN       4500
+    terrain_cost    BEACH            7500
+    terrain_cost    ICYSHORE         7500
+    if LUDIKRIS_MAP
+      terrain_size    AQUA         3       1
+      terrain_size    AQUA_MED     3       1
+      terrain_size    AQUA_DEEP    3       1
+      terrain_size    AQUA_OCEAN   3       1
+      terrain_size    WOODIES_0    5       2
+      terrain_size    WOODIES_B_0  5       2
+      terrain_size    WOODIES_C_0  5       2
+      terrain_size    WOODIES_7    5       2
+    else
+      terrain_size    AQUA         2       0
+      terrain_size    AQUA_MED     2       0
+      terrain_size    AQUA_DEEP    2       0
+      terrain_size    AQUA_OCEAN   2       0
+      terrain_size    WOODIES_0    2       0
+      terrain_size    WOODIES_B_0  2       0
+      terrain_size    WOODIES_C_0  2       0
+      terrain_size    WOODIES_7    2       0
+    endif
+  }
+endif
+if HAS_PLAYER_8
+  create_connect_all_lands
+  {
+    replace_terrain WOODIES_0        LAYER_A
+    replace_terrain WOODIES_B_0      LAYER_A
+    replace_terrain WOODIES_C_0      LAYER_A
+    replace_terrain WOODIES_8        LAYER_A
+    replace_terrain AQUA             LITORIS
+    replace_terrain AQUA_MED         LITORIS
+    replace_terrain AQUA_DEEP        LITORIS
+    replace_terrain AQUA_OCEAN       LITORIS
+    terrain_cost    WOODIES_0        500
+    terrain_cost    WOODIES_B_0      500
+    terrain_cost    WOODIES_C_0      500
+    terrain_cost    WOODIES_1        0
+    terrain_cost    WOODIES_2        0
+    terrain_cost    WOODIES_3        0
+    terrain_cost    WOODIES_4        0
+    terrain_cost    WOODIES_5        0
+    terrain_cost    WOODIES_6        0
+    terrain_cost    WOODIES_7        0
+    terrain_cost    WOODIES_8        100
+    terrain_cost    AQUA             4500
+    terrain_cost    AQUA_MED         4500
+    terrain_cost    AQUA_DEEP        4500
+    terrain_cost    AQUA_OCEAN       4500
+    terrain_cost    BEACH            7500
+    terrain_cost    ICYSHORE         7500
+    if LUDIKRIS_MAP
+      terrain_size    AQUA         3       1
+      terrain_size    AQUA_MED     3       1
+      terrain_size    AQUA_DEEP    3       1
+      terrain_size    AQUA_OCEAN   3       1
+      terrain_size    WOODIES_0    5       2
+      terrain_size    WOODIES_B_0  5       2
+      terrain_size    WOODIES_C_0  5       2
+      terrain_size    WOODIES_8    5       2
+    else
+      terrain_size    AQUA         2       0
+      terrain_size    AQUA_MED     2       0
+      terrain_size    AQUA_DEEP    2       0
+      terrain_size    AQUA_OCEAN   2       0
+      terrain_size    WOODIES_0    2       0
+      terrain_size    WOODIES_B_0  2       0
+      terrain_size    WOODIES_C_0  2       0
+      terrain_size    WOODIES_8    2       0
+    endif
+  }
+endif
+
+/* PREVENTING FOREST ENCLOSURES */
+create_connect_all_players_land
+{
+  replace_terrain WOODIES          LAYER_A
+  replace_terrain WOODIES_B        LAYER_A
+  replace_terrain WOODIES_C        LAYER_A
+  terrain_cost    WOODIES          4500
+  terrain_cost    WOODIES_B        4500
+  terrain_cost    WOODIES_C        4500
+  terrain_size    WOODIES          1     0
+  terrain_size    WOODIES_B        1     0
+  terrain_size    WOODIES_C        1     0
+}
+
+/* SHORELINE CLEANUP */
+create_connect_all_lands
+{
+  replace_terrain BEACH            SHORE
+  replace_terrain ICYSHORE         SHORE
+  terrain_size    BEACH            962   1
+  terrain_size    ICYSHORE         962   1
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+/* Placeholders will block the shallows, predators must be placed first */
+if DEATH_MATCH
+else
+  create_object PREDATOR_B
+  {
+    number_of_objects 16
+    /* min_distance_to_players 32 */
+    /* set_scaling_to_map_size */
+    temp_min_distance_group_placement 24
+
+    /* max_distance_to_other_zones 4 */
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 51
+    actor_area_radius 2
+    /* avoid_all_actor_areas */
+    terrain_to_place_on LITORIS
+  }
+endif
+
+/* Reeds to block the coast */
+create_object PLACEHOLDER_OBJECT
+{
+  terrain_to_place_on     LITORIS
+  number_of_objects       9320
+  set_gaia_object_only
+  actor_area              420
+  actor_area_radius       1
+  set_scaling_to_map_size
+}
+
+#const OLIVE_TREE     1349
+create_object PLACEHOLDER_OBJECT
+{
+  terrain_to_place_on     SHORE
+  number_of_objects      3
+  group_variance         2
+  number_of_groups       9320
+  avoid_actor_area       420
+  set_gaia_object_only
+  set_scaling_to_map_size
+  temp_min_distance_group_placement  6
+  if BIOME_MEDITERRANEAN
+    second_object         OLIVE_TREE
+  else
+    second_object         STRAGGLER_TREE
+  endif
+}
+create_object PLACEHOLDER_OBJECT
+{
+  terrain_to_place_on     SHORE
+  number_of_objects      2
+  group_variance         1
+  number_of_groups       9320
+  avoid_actor_area       420
+  set_gaia_object_only
+  set_scaling_to_map_size
+  temp_min_distance_group_placement  9
+  second_object         REED_TREE_3
+}
+create_object PLACEHOLDER_OBJECT
+{
+  terrain_to_place_on     SHORE
+  number_of_objects      3
+  group_variance         2
+  number_of_groups       9320
+  avoid_actor_area       420
+  set_gaia_object_only
+  set_scaling_to_map_size
+  temp_min_distance_group_placement  6
+  second_object         REED_TREE_2
+}
+create_object PLACEHOLDER_OBJECT
+{
+  terrain_to_place_on     SHORE
+  number_of_objects       9320
+  avoid_actor_area        420
+  set_gaia_object_only
+  set_scaling_to_map_size
+  second_object         REED_TREE_1
+}
+
+/* ****************************************************** */
+/*      Adapted from COMPACT MAP SCRIPT by Chrazini       */
+/* ****************************************************** */
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  min_distance_to_players 0
+  find_closest
+  actor_area 1
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+
+  if EMPIRE_WARS
+    number_of_objects 0
+  elseif REGICIDE
+    number_of_objects 10
+  endif
+
+  min_distance_to_players 6
+  max_distance_to_players 7
+  temp_min_distance_group_placement 1
+  actor_area 2
+  actor_area_radius 1
+}
+
+if REGICIDE
+  create_object QUEEN
+else
+  create_object SCOUT
+endif
+{
+  set_place_for_every_player
+  min_distance_to_players 7
+  max_distance_to_players 9
+  actor_area 3
+  actor_area_radius 1
+  avoid_all_actor_areas
+}
+
+if REGICIDE
+  create_object KING
+  {
+    set_place_for_every_player
+    min_distance_to_players 7
+    max_distance_to_players 9
+    avoid_forest_zone 1
+    actor_area 210
+    actor_area_radius 1
+    avoid_all_actor_areas
+  }
+  create_object CASTLE
+  {
+    set_place_for_every_player
+    min_distance_to_players 14
+    find_closest
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+    actor_area 200
+    actor_area_radius 4
+    avoid_all_actor_areas
+  }
+elseif CAPTURE_THE_RELIC
+  create_object MONASTERY
+  {
+    set_place_for_every_player
+    min_distance_to_players 12
+    find_closest
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+    actor_area 200
+    actor_area_radius 4
+    avoid_all_actor_areas
+  }
+endif
+
+if DEATH_MATCH
+elseif INFINITE_RESOURCES
+else
+  create_object STRAGGLER_TREE /* S_STRAGGLER_TREE */
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    if EMPIRE_WARS
+      number_of_objects 0
+    else
+      number_of_objects 5
+    endif
+    min_distance_to_players 5
+    find_closest
+    temp_min_distance_group_placement 4
+    avoid_forest_zone 2
+    actor_area 10
+    actor_area_radius 1
+    avoid_all_actor_areas
+  }
+endif
+
+if CAPTURE_THE_RELIC
+else
+  /* RELIC REBALANCE */
+  create_object FORAGEABLE
+  {
+    second_object             RELIC
+    resource_delta            -125
+    set_place_for_every_player
+    set_gaia_object_only
+
+    number_of_objects 1
+
+    min_distance_to_players 28
+    find_closest
+
+    /* max_distance_to_other_zones 4 */
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 100
+    actor_area_radius 4
+
+    avoid_all_actor_areas
+  }
+  if HAS_PLAYER_5
+  else
+    create_object FORAGEABLE
+    {
+      resource_delta            -125
+      place_on_specific_land_id  12
+      set_gaia_object_only
+      number_of_objects 16
+
+      if TINY_MAP
+        temp_min_distance_group_placement 24
+      elseif SMALL_MAP
+        temp_min_distance_group_placement 26
+      elseif MEDIUM_MAP
+        temp_min_distance_group_placement 28
+      elseif LARGE_MAP
+        temp_min_distance_group_placement 32
+      elseif HUGE_MAP
+        temp_min_distance_group_placement 36
+      elseif GIGANTIC_MAP
+        temp_min_distance_group_placement 40
+      elseif LUDIKRIS_MAP
+        temp_min_distance_group_placement 72
+      endif
+
+      /* min_distance_to_players 32 */
+
+      /* max_distance_to_other_zones 4 */
+      /* avoid_forest_zone 2 */
+      avoid_cliff_zone 2
+
+      actor_area 101
+      actor_area_radius 2 /* 6 */
+      avoid_all_actor_areas
+    }
+    create_object RELIC
+    {
+      if HAS_PLAYER_4
+        number_of_objects 1
+      elseif HAS_PLAYER_3
+        number_of_objects 2
+      elseif HAS_PLAYER_2
+        number_of_objects 3
+      else
+        number_of_objects 4
+      endif
+      temp_min_distance_group_placement 12
+      actor_area_to_place_in 101
+      avoid_actor_area 100
+    }
+  endif
+endif
+
+if INFINITE_RESOURCES
+else
+  create_object FORAGEABLE
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    number_of_objects 6
+    set_tight_grouping
+    group_placement_radius 1
+    min_distance_to_players 12
+    find_closest
+    max_distance_to_other_zones 4
+    avoid_forest_zone 3
+    avoid_cliff_zone 3
+    actor_area 70
+    actor_area_radius 1
+    avoid_all_actor_areas
+  }
+
+  create_object PLACEHOLDER_OFFSET /* Actor Radius for Berries */
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    number_of_objects 64
+
+    actor_area 800
+    actor_area_to_place_in 70
+    actor_area_radius 7
+  }
+
+  create_object GOLD
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    number_of_objects 7
+    set_tight_grouping
+    group_placement_radius 1
+    min_distance_to_players 16
+    find_closest
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 3
+    avoid_cliff_zone 3
+
+    actor_area 80
+    actor_area_radius 1
+    avoid_all_actor_areas
+  }
+
+  create_object PLACEHOLDER_OFFSET /* Actor Radius for Primary Gold */
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    number_of_objects 64
+
+    actor_area 801
+    actor_area_to_place_in 80
+    actor_area_radius 9
+  }
+
+  create_object GOLD
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    number_of_objects 4
+    set_tight_grouping
+    group_placement_radius 1
+    min_distance_to_players 22
+    find_closest
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 3
+    avoid_cliff_zone 3
+
+    actor_area 81
+    actor_area_radius 10
+    avoid_all_actor_areas
+  }
+
+  create_object GOLD
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    number_of_objects 4
+    set_tight_grouping
+    group_placement_radius 1
+    min_distance_to_players 30
+    find_closest
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 3
+    avoid_cliff_zone 3
+
+    actor_area 82
+    actor_area_radius 10
+    avoid_all_actor_areas
+  }
+
+  create_object STONE
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    number_of_objects 5
+    set_tight_grouping
+    group_placement_radius 1
+    min_distance_to_players 18
+    find_closest
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 3
+    avoid_cliff_zone 3
+
+    actor_area 90
+    actor_area_radius 10
+    avoid_all_actor_areas
+  }
+
+  create_object STONE
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    number_of_objects 4
+    set_tight_grouping
+    group_placement_radius 1
+    min_distance_to_players rnd(22,28)
+    find_closest
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 3
+    avoid_cliff_zone 3
+
+    actor_area 91
+    actor_area_radius 10
+    avoid_all_actor_areas
+  }
+endif
+
+if DEATH_MATCH
+elseif INFINITE_RESOURCES
+else
+  if HERDABLE_A_EXCESS_FOOD
+    if HERDABLE_B_EXCESS_FOOD
+      create_object HERDABLE_A
+    else
+      create_object HERDABLE_B
+    endif
+  else 
+    create_object HERDABLE_A
+  endif
+  {
+    set_place_for_every_player
+
+    if EMPIRE_WARS
+      find_closest
+    else
+      min_distance_to_players 8
+      max_distance_to_players 10
+    endif
+
+    min_distance_group_placement 1
+
+    avoid_forest_zone 1
+
+    actor_area 20
+    actor_area_radius 2
+  }
+
+  if EMPIRE_WARS
+  else
+    create_object HERDABLE_A
+    {
+      set_place_for_every_player
+      set_gaia_object_only
+      if HERDABLE_A_EXCESS_FOOD
+        number_of_objects 2
+      else
+        number_of_objects 3
+      endif
+
+      actor_area_to_place_in 20
+    }
+  endif
+
+  create_object HERDABLE_B
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    if HERDABLE_B_EXCESS_FOOD
+      number_of_objects 1
+    else
+      number_of_objects 2
+    endif
+    number_of_groups 2
+    set_loose_grouping
+    group_placement_radius 1
+    min_distance_to_players 18
+    max_distance_to_players 24
+    temp_min_distance_group_placement 16
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 21
+    actor_area_radius 1
+    avoid_all_actor_areas
+  }
+
+  create_object LUREABLE_A
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+
+    if EMPIRE_WARS
+      number_of_objects 0
+    else
+      number_of_objects 2
+    endif
+
+    min_distance_to_players 16
+    max_distance_to_players 18
+    temp_min_distance_group_placement 12
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 30
+    actor_area_radius 1
+    avoid_all_actor_areas
+  }
+
+  start_random
+    percent_chance 15 #define HUNTABLE_SIZE_A
+    percent_chance 70 #define HUNTABLE_SIZE_B
+    percent_chance 15 #define HUNTABLE_SIZE_C
+  end_random
+
+  create_object HUNTABLE_A /* UNGULATE_A */
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+
+    if HUNTABLE_SIZE_A
+      number_of_objects 1
+    elseif HUNTABLE_SIZE_B
+      number_of_objects 2
+    elseif HUNTABLE_SIZE_C
+      number_of_objects 3
+    else
+      number_of_objects 4
+    endif
+
+    set_loose_grouping
+    group_placement_radius 2
+    min_distance_to_players 16
+    max_distance_to_players 18
+    min_distance_group_placement 1
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 40
+    actor_area_radius 3
+    avoid_actor_area 800
+  }
+
+  create_object HUNTABLE_B /* UNGULATE_B */
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+
+    if HUNTABLE_SIZE_A
+      number_of_objects 1
+    elseif HUNTABLE_SIZE_B
+      number_of_objects 2
+    elseif HUNTABLE_SIZE_C
+      number_of_objects 3
+    else
+      number_of_objects 4
+    endif
+
+    set_loose_grouping
+    group_placement_radius 2
+    min_distance_to_players 38
+    max_distance_to_players 42
+    min_distance_group_placement 1
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 41
+    actor_area_radius 3
+    avoid_all_actor_areas
+  }
+
+/* NEW! Far berries to compensate for no additional minerals on player lands */
+  create_object FORAGEABLE
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+    number_of_objects 5
+
+    if MAP_BIGGER_THAN_NEEDED
+      if HUGE_MAP
+        number_of_groups 3
+      elseif GIGANTIC_MAP
+        number_of_groups 4
+      elseif LUDIKRIS_MAP
+        number_of_groups 1024
+      else
+        number_of_groups 2
+      endif
+    else
+      number_of_groups 1
+    endif
+
+    set_tight_grouping
+    min_distance_to_players rnd(22,28)
+    max_distance_to_other_zones 4
+
+    if LARGE_MAP
+      temp_min_distance_group_placement 18
+    elseif HUGE_MAP
+      temp_min_distance_group_placement 20
+    elseif GIGANTIC_MAP
+      temp_min_distance_group_placement 24
+    elseif LUDIKRIS_MAP
+      temp_min_distance_group_placement 64
+    endif
+
+    avoid_forest_zone 2
+
+    actor_area 130
+    actor_area_radius 8 /* 12 */
+    avoid_all_actor_areas
+  }
+endif
+
+if DEATH_MATCH
+else
+  create_object PREDATOR_A
+  {
+    number_of_objects 4
+    min_distance_to_players 32
+    set_scaling_to_map_size
+    temp_min_distance_group_placement 24
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 50
+    actor_area_radius 2
+    avoid_all_actor_areas
+  }
+
+  create_object STRAGGLER_TREE /* O_STRAGGLER */
+  {
+    number_of_groups  24
+    min_distance_to_players 20
+    set_scaling_to_map_size
+    temp_min_distance_group_placement 6
+
+    group_placement_radius 2
+    number_of_objects 2
+    group_variance    1
+    set_loose_grouping
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 60
+    actor_area_radius 2
+    avoid_all_actor_areas
+  }
+endif
+
+if INFINITE_RESOURCES
+else
+  create_object GOLD
+  {
+    /* NEW! */
+    place_on_specific_land_id 12
+
+    if TINY_MAP
+      number_of_objects 3
+      number_of_groups 2
+    elseif SMALL_MAP
+      number_of_objects 3
+      number_of_groups 3
+    elseif MEDIUM_MAP
+      number_of_objects 3
+      number_of_groups 4
+    elseif LARGE_MAP
+      number_of_objects 4
+      number_of_groups 4
+    elseif HUGE_MAP
+      number_of_objects 4
+      number_of_groups 5
+    elseif GIGANTIC_MAP
+      number_of_objects 5
+      number_of_groups 4
+    elseif LUDIKRIS_MAP
+      number_of_objects 5
+      number_of_groups 1024
+    endif
+
+    set_tight_grouping
+    /* min_distance_to_players 40 */
+
+    if TINY_MAP
+      temp_min_distance_group_placement 16
+    elseif SMALL_MAP
+      temp_min_distance_group_placement 18
+    elseif MEDIUM_MAP
+      temp_min_distance_group_placement 20
+    elseif LARGE_MAP
+      temp_min_distance_group_placement 22
+    elseif HUGE_MAP
+      temp_min_distance_group_placement 24
+    elseif GIGANTIC_MAP
+      temp_min_distance_group_placement 28
+    elseif LUDIKRIS_MAP
+      temp_min_distance_group_placement 64
+    endif
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 110
+    actor_area_radius 12
+
+    avoid_all_actor_areas
+  }
+
+  create_object STONE
+  {
+    /* NEW! */
+    place_on_specific_land_id 12
+
+    if TINY_MAP
+      number_of_objects 3
+      number_of_groups 2
+    elseif SMALL_MAP
+      number_of_objects 3
+      number_of_groups 3
+    elseif MEDIUM_MAP
+      number_of_objects 3
+      number_of_groups 4
+    elseif LARGE_MAP
+      number_of_objects 4
+      number_of_groups 4
+    elseif HUGE_MAP
+      number_of_objects 4
+      number_of_groups 5
+    elseif GIGANTIC_MAP
+      number_of_objects 5
+      number_of_groups 4
+    elseif LUDIKRIS_MAP
+      number_of_objects 5
+      number_of_groups 1024
+    endif
+
+    set_tight_grouping
+    /* min_distance_to_players 40 */
+
+    if TINY_MAP
+      temp_min_distance_group_placement 16
+    elseif SMALL_MAP
+      temp_min_distance_group_placement 18
+    elseif MEDIUM_MAP
+      temp_min_distance_group_placement 20
+    elseif LARGE_MAP
+      temp_min_distance_group_placement 22
+    elseif HUGE_MAP
+      temp_min_distance_group_placement 24
+    elseif GIGANTIC_MAP
+      temp_min_distance_group_placement 28
+    elseif LUDIKRIS_MAP
+      temp_min_distance_group_placement 64
+    endif
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 120
+    actor_area_radius 12
+    avoid_all_actor_areas
+  }
+
+  create_object FORAGEABLE
+  {
+    /* NEW! */
+    place_on_specific_land_id 12
+
+    number_of_objects 5
+
+    if LARGE_MAP
+      number_of_groups 1
+    elseif HUGE_MAP
+      number_of_groups 2
+    elseif GIGANTIC_MAP
+      number_of_groups 4
+    elseif LUDIKRIS_MAP
+      number_of_groups 1024
+    else
+      number_of_groups 0
+    endif
+
+    set_tight_grouping
+    /* min_distance_to_players 38 */
+    max_distance_to_other_zones 4
+
+    if LARGE_MAP
+      temp_min_distance_group_placement 18
+    elseif HUGE_MAP
+      temp_min_distance_group_placement 20
+    elseif GIGANTIC_MAP
+      temp_min_distance_group_placement 24
+    elseif LUDIKRIS_MAP
+      temp_min_distance_group_placement 64
+    endif
+
+    avoid_forest_zone 2
+
+    actor_area 130
+    actor_area_radius 8 /* 12 */
+    avoid_all_actor_areas
+  }
+
+  create_object HUNTABLE_B /* UNGULATE_B */
+  {
+    if HUNTABLE_SIZE_A
+      number_of_objects 1
+    elseif HUNTABLE_SIZE_B
+      number_of_objects 2
+    elseif HUNTABLE_SIZE_C
+      number_of_objects 3
+    else
+      number_of_objects 4
+    endif
+
+    if LARGE_MAP
+      number_of_groups 1
+    elseif HUGE_MAP
+      number_of_groups 2
+    elseif GIGANTIC_MAP
+      number_of_groups 4
+    elseif LUDIKRIS_MAP
+      number_of_groups 1024
+    else
+      number_of_groups 0
+    endif
+
+    set_loose_grouping
+    min_distance_to_players 38
+    max_distance_to_other_zones 4
+    min_distance_group_placement 1
+
+    if LARGE_MAP
+      temp_min_distance_group_placement 18
+    elseif HUGE_MAP
+      temp_min_distance_group_placement 20
+    elseif GIGANTIC_MAP
+      temp_min_distance_group_placement 24
+    elseif LUDIKRIS_MAP
+      temp_min_distance_group_placement 64
+    endif
+
+    avoid_forest_zone 2
+
+    actor_area 140
+    actor_area_radius 2
+    avoid_actor_area 130
+  }
+endif
+
+create_object FISHABLE_SHORE /* NERITIC_A */
+{
+  number_of_objects 4096
+  temp_min_distance_group_placement 18/* originally 26 */
+  actor_area 400
+  actor_area_radius 4
+}
+
+create_object FISHABLE_SHORE /* NERITIC_A */
+{
+  number_of_objects 4096
+  temp_min_distance_group_placement 8/* originally 12 */
+  actor_area 401
+  actor_area_radius 2
+  avoid_actor_area 400
+}
+
+create_object FISHABLE /* AQUATIC_A */
+{
+  number_of_objects 8192
+  max_distance_to_other_zones 2 /* originally 6 */
+  temp_min_distance_group_placement 12
+  actor_area 410
+  actor_area_radius 4
+  if FISHABLE_FOOD_DEFICIT
+    resource_delta 25
+  endif
+}
+
+create_object FISHABLE /* AQUATIC_B */
+{
+  number_of_objects 8192
+  max_distance_to_other_zones 2 /* originally 6 */
+  temp_min_distance_group_placement 10
+  actor_area 411
+  actor_area_radius 2
+  avoid_actor_area 410
+  if FISHABLE_FOOD_DEFICIT
+    resource_delta 25
+  endif
+}
+/* We're doing our very special own reeds on this map so disable Chrazini's */
+/*
+  create_object REED_TREE_1
+  {
+    number_of_objects 2
+    number_of_groups 1024
+    set_loose_grouping
+    group_placement_radius 7
+    temp_min_distance_group_placement 24
+    terrain_to_place_on SHORE
+
+    max_distance_to_other_zones 4
+    avoid_forest_zone 2
+    avoid_cliff_zone 2
+
+    actor_area 420
+    actor_area_radius 4
+  }
+*/
+#define EXTRA_STUFF
+if EXTRA_STUFF
+  create_object HUNTABLE_B /* UNGULATE_B */
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+
+    if HUNTABLE_SIZE_A
+      number_of_objects 3
+    elseif HUNTABLE_SIZE_B
+      number_of_objects 2
+    elseif HUNTABLE_SIZE_C
+      number_of_objects 1
+    endif
+
+    group_placement_radius 2
+    set_loose_grouping
+    temp_min_distance_group_placement 1
+
+    actor_area_radius 2
+
+    actor_area_to_place_in 40
+  }
+
+  create_object HUNTABLE_A /* UNGULATE_A */
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+
+    if HUNTABLE_SIZE_A
+      number_of_objects 3
+    elseif HUNTABLE_SIZE_B
+      number_of_objects 2
+    elseif HUNTABLE_SIZE_C
+      number_of_objects 1
+    endif
+
+    group_placement_radius 2
+    set_loose_grouping
+    temp_min_distance_group_placement 1
+
+    actor_area_radius 2
+
+    actor_area_to_place_in 41
+  }
+
+  create_object HUNTABLE_A /* UNGULATE_A */
+  {
+    set_place_for_every_player
+    set_gaia_object_only
+
+    if HUNTABLE_SIZE_A
+      number_of_objects 3
+    elseif HUNTABLE_SIZE_B
+      number_of_objects 2
+    elseif HUNTABLE_SIZE_C
+      number_of_objects 1
+    endif
+
+    group_placement_radius 2
+    set_loose_grouping
+    temp_min_distance_group_placement 1
+
+    actor_area_radius 2
+
+    actor_area_to_place_in 140
+  }
+
+  if EMPIRE_WARS
+    create_object FARM
+    {
+      second_object VILLAGER
+      set_place_for_every_player
+      find_closest
+    }
+
+    create_object FARM
+    {
+      second_object VILLAGER
+      set_place_for_every_player
+      find_closest
+    }
+
+    create_object FARM
+    {
+      second_object VILLAGER
+      set_place_for_every_player
+      find_closest
+    }
+
+    create_object FARM
+    {
+      second_object VILLAGER
+      set_place_for_every_player
+      find_closest
+    }
+
+    create_object FARM
+    {
+      second_object VILLAGER
+      set_place_for_every_player
+      find_closest
+    }
+
+    create_object FARM
+    {
+      second_object VILLAGER
+      set_place_for_every_player
+      find_closest
+    }
+
+    create_object FARM
+    {
+      second_object VILLAGER
+      set_place_for_every_player
+      find_closest
+    }
+
+    create_object FARM
+    {
+      second_object VILLAGER
+      set_place_for_every_player
+      find_closest
+    }
+
+    create_object PLACEHOLDER_OFFSET /* Forage Empire Divider */
+    {
+      set_place_for_every_player
+      set_gaia_object_only
+      number_of_objects 64
+
+      actor_area 810
+      actor_area_to_place_in 70
+      actor_area_radius 3
+    }
+
+    create_object MILL
+    {
+      set_place_for_every_player
+      find_closest
+
+      avoid_forest_zone 2
+      avoid_cliff_zone 2
+
+      actor_area_to_place_in 70
+    }
+
+    create_object PLACEHOLDER_OFFSET /* Gold Empire Divider */
+    {
+      set_place_for_every_player
+      set_gaia_object_only
+      number_of_objects 64
+
+      actor_area 811
+      actor_area_to_place_in 80
+      actor_area_radius 3
+    }
+
+    create_object MINING_CAMP
+    {
+      set_place_for_every_player
+      find_closest
+
+      avoid_forest_zone 2
+      avoid_cliff_zone 2
+
+      actor_area_to_place_in 80
+      avoid_actor_area 810
+    }
+
+    create_object LUMBER_CAMP
+    {
+      set_place_for_every_player
+      number_of_objects 3
+      temp_min_distance_group_placement 8
+      place_on_forest_zone 1
+      find_closest
+
+      actor_area 812
+      actor_area_radius 3
+
+      avoid_actor_area 60
+      avoid_actor_area 420
+      avoid_actor_area 810
+      avoid_actor_area 811
+    }
+
+    create_object VILLAGER /* Foragers */
+    {
+      set_place_for_every_player
+      number_of_objects 4
+      find_closest
+
+      actor_area_to_place_in 70
+      actor_area_radius 1
+    }
+
+    create_object VILLAGER /* Gold Miners */
+    {
+      set_place_for_every_player
+      number_of_objects 5
+      find_closest
+
+      actor_area_to_place_in 80
+      actor_area_radius 1
+    }
+
+    create_object VILLAGER /* Lumberjacks */
+    {
+      set_place_for_every_player
+      number_of_objects 10
+
+      place_on_forest_zone 1
+
+      actor_area 820
+      actor_area_radius 1
+      actor_area_to_place_in 812
+    }
+
+    create_object HOUSE
+    {
+      set_place_for_every_player
+      number_of_objects 6
+      min_distance_to_players 8
+      avoid_forest_zone 2
+      find_closest
+
+      actor_area 803
+      avoid_actor_area 810
+      avoid_actor_area 811
+      avoid_actor_area 812
+    }
+
+    create_object BARRACKS
+    {
+      set_place_for_every_player
+      min_distance_to_players 8
+      avoid_forest_zone 2
+      find_closest
+
+      actor_area 804
+      avoid_actor_area 810
+      avoid_actor_area 811
+      avoid_actor_area 812
+    }
+
+    create_object BLACKSMITH
+    {
+      set_place_for_every_player
+      min_distance_to_players 8
+      avoid_forest_zone 2
+      find_closest
+
+      actor_area 805
+      avoid_actor_area 810
+      avoid_actor_area 811
+      avoid_actor_area 812
+    }
+  endif
+
+  if KING_OT_HILL
+    create_object MONUMENT_RESOURCES
+    {
+      set_place_for_every_player
+      min_distance_to_players 0
+      max_distance_to_players 0
+    }
+  endif
+
+  #define AESTHETICS
+  if AESTHETICS
+    create_object BIRD_A
+    {
+      number_of_objects rnd(4,6)
+      set_scaling_to_map_size
+    }
+
+    create_object BIRD_B
+    {
+      number_of_objects rnd(2,4)
+      set_scaling_to_map_size
+    }
+
+    if BIOME_RAINFOREST
+      #const DLC_ROCKBEACH 1148
+      create_object DLC_ROCKBEACH
+      {
+        number_of_objects                 999
+        set_scaling_to_map_size
+        temp_min_distance_group_placement 50
+        set_gaia_object_only
+        terrain_to_place_on               AQUA
+      }
+    endif
+
+    /* Disabled due to undeletability
+    create_object STRAGGLER_TREE
+    {
+      number_of_objects      3
+      group_variance         1
+      number_of_groups       9320
+      set_gaia_object_only
+      place_on_forest_zone
+      set_scaling_to_map_size
+      temp_min_distance_group_placement  5
+      avoid_all_actor_areas
+    }
+    */
+  endif
+endif

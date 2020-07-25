@@ -1,0 +1,309 @@
+
+/* Water Nomad 2016 */
+
+#include_drs random_map.def 
+
+<PLAYER_SETUP>
+random_placement
+nomad_resources
+  ai_info_map_type MIGRATION 1 0 0
+
+<LAND_GENERATION>
+
+base_terrain DLC_MANGROVESHALLOW
+
+enable_waves 0 
+
+create_player_lands
+{
+  terrain_type DLC_MANGROVESHALLOW
+  land_percent 6
+  base_size 10
+if BATTLE_ROYALE
+	circle_placement
+	circle_radius 38
+  border_fuzziness                   1
+else
+  border_fuzziness                   15
+endif
+clumping_factor 15
+other_zone_avoidance_distance 3
+set_zone_by_team
+}
+
+/* *********************************** */
+<TERRAIN_GENERATION>
+
+create_terrain DLC_BEACH2
+{
+base_terrain DLC_MANGROVESHALLOW
+land_percent 20
+number_of_clumps 100
+spacing_to_other_terrain_types 0
+}
+
+create_terrain DLC_MANGROVEFOREST
+{
+base_terrain DLC_MANGROVESHALLOW
+land_percent 12
+number_of_clumps 30
+spacing_to_other_terrain_types 0
+}
+
+create_terrain DLC_NEWSHALLOW
+{
+base_terrain DLC_BEACH2
+land_percent 2
+number_of_clumps 160
+spacing_to_other_terrain_types 0
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+}
+
+/*
+create_terrain DLC_JUNGLELEAVES
+{
+base_terrain DLC_MANGROVESHALLOW
+land_percent 6
+number_of_clumps 120
+spacing_to_other_terrain_types 3
+}
+*/
+
+color_correction CC_JUNGLE
+
+<OBJECTS_GENERATION>
+
+if EMPIRE_WARS
+
+create_object VILLAGER
+{
+number_of_objects 27
+  set_place_for_every_player
+  max_distance_to_players       50
+  terrain_to_place_on DLC_BEACH2
+ }
+
+elseif BATTLE_ROYALE
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  max_distance_to_players       50
+  terrain_to_place_on DLC_BEACH2
+ }
+
+#const PACKEDBUS 444
+
+create_object PACKEDBUS
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    14
+}
+
+else
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  max_distance_to_players       50
+  terrain_to_place_on DLC_BEACH2
+ }
+
+create_object VILLAGER
+{
+number_of_objects 4
+  set_place_for_every_player
+  max_distance_to_players       50
+  terrain_to_place_on DLC_BEACH2
+ }
+
+endif
+
+if BATTLE_ROYALE
+else
+create_object FISHING_SHIP
+{
+ number_of_objects 	6
+  set_place_for_every_player
+  max_distance_to_players       70
+terrain_to_place_on DLC_WATER5
+ }
+endif
+
+create_object RELIC
+{
+   number_of_objects            999
+   min_distance_to_players     35
+   temp_min_distance_group_placement 80
+}
+
+if REGICIDE
+
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       8
+}
+
+endif
+
+/* DISTANT GOLD AND STONE */
+
+create_object GOLD
+{
+  number_of_groups 250
+  number_of_objects 4
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 18
+  max_distance_to_other_zones 0
+  terrain_to_place_on DLC_MANGROVESHALLOW
+  actor_area 66
+  actor_area_radius 4
+}
+
+create_object STONE
+{
+  number_of_groups 250
+  number_of_objects 3
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 24
+  max_distance_to_other_zones 0
+  terrain_to_place_on DLC_MANGROVESHALLOW
+  actor_area 67
+  actor_area_radius 4
+}
+
+create_object DLC_WATERBUFFALO
+{
+  number_of_groups 250
+  number_of_objects 2
+  group_placement_radius 2
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 16
+  max_distance_to_other_zones 0
+  terrain_to_place_on DLC_MANGROVESHALLOW
+}
+
+create_object MACAW
+{
+   number_of_objects         4
+   set_scaling_to_map_size
+}
+
+create_object DLC_MANGROVE_TREE 
+{
+  number_of_objects          26
+  set_gaia_object_only
+  set_scaling_to_map_size
+  min_distance_to_players    12
+  avoid_actor_area 66
+  avoid_actor_area 67
+}
+
+/* WATER SETUP */
+
+create_object DLC_BOXTURTLE 
+{
+  number_of_objects 999
+     set_scaling_to_map_size
+     temp_min_distance_group_placement 15
+     set_gaia_object_only
+}
+
+create_object DORADO
+{
+  number_of_objects 999
+     set_scaling_to_map_size
+     temp_min_distance_group_placement 12
+min_distance_group_placement 3
+     set_gaia_object_only
+  max_distance_to_other_zones 0
+}
+
+create_object TUNA
+{
+  number_of_objects 999
+     set_scaling_to_map_size
+     temp_min_distance_group_placement 9
+min_distance_group_placement 3
+     set_gaia_object_only
+  max_distance_to_other_zones 0
+}
+
+create_object SALMON
+{
+  number_of_objects 999
+     set_scaling_to_map_size
+     min_distance_group_placement 3
+     set_gaia_object_only
+  max_distance_to_other_zones 0
+}
+
+
+create_object DLC_ROCKBEACH 
+{
+  number_of_objects 999
+     set_scaling_to_map_size
+     temp_min_distance_group_placement 90
+     set_gaia_object_only
+     min_distance_to_players 25
+}
+
+/* ****************************************************** */
+
+<ELEVATION_GENERATION>

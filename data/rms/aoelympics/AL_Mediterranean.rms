@@ -1,0 +1,255 @@
+
+
+/* Mediterranean for Forgotten Empires */
+
+/* 2018 version with extra seasons */
+
+/* Note: random_map.def is automatically included in every rms script */
+
+/* PH SEASONS */
+
+start_random
+percent_chance 55 #define PH_MEDISOUTH
+percent_chance 15 #define PH_SPRING
+percent_chance 15 #define PH_ALPINE
+percent_chance 15 #define PH_DESERT
+end_random
+
+#include_drs F_seasons.inc
+
+<PLAYER_SETUP>
+  random_placement 
+	ai_info_map_type MEDITERRANEAN 0 0 0
+
+#include_drs thebr_setup.inc
+
+<LAND_GENERATION>
+
+  base_terrain LAYER_A
+
+/* CREATE THE INLAND SEA */
+
+create_land 
+{
+  terrain_type                     VODA
+  land_percent                     80
+  left_border                      17
+  right_border                     17
+  top_border                       17
+  bottom_border                    17 
+  border_fuzziness                 40
+  other_zone_avoidance_distance    2
+  zone 16
+}
+
+create_player_lands 
+{     
+  circle_placement
+  terrain_type                     LAYER_A
+  land_percent                     30
+  base_size                         12
+  zone 1
+  other_zone_avoidance_distance    5 
+  border_fuzziness                 1
+  circle_radius 34 
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+#include_drs F_ColorCorrection.inc
+
+#define WMASK_VODA
+#include_drs F_WaterMasking.inc
+
+/* PRIMARY FOREST */
+
+  create_terrain WOODIES
+{
+  base_terrain                   LAYER_A
+  spacing_to_other_terrain_types 5
+  land_percent                   9
+  number_of_clumps               12
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* PRIMARY PATCH */
+
+   create_terrain LAYER_B
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               16
+  spacing_to_other_terrain_types 0
+  land_percent                   20
+  set_scale_by_size
+}
+
+   create_terrain DLC_ROCK
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 2
+  land_percent                   100
+  set_scale_by_size
+}
+
+   create_terrain LAYER_A
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 0
+  land_percent                   100
+  set_scale_by_size
+terrain_mask 1
+}
+
+   create_terrain LAYER_B
+{
+  base_terrain                   DLC_ROCK
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 0
+  land_percent                   100
+  set_scale_by_size
+}
+
+   create_terrain LAYER_B
+{
+  base_terrain                   DLC_ROCK
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 0
+  land_percent                   100
+  set_scale_by_size
+}
+
+/* SECONDARY FOREST */
+
+create_terrain WOODIES_B
+{
+  base_terrain                   LAYER_B
+  spacing_to_other_terrain_types 3
+  land_percent                   1
+  number_of_clumps               3
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* SECONDARY PATCH */
+
+create_terrain LAYER_C
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               24
+  spacing_to_other_terrain_types 1
+  land_percent                   5
+  set_scale_by_size
+}
+
+/* LAYER E+F Patch */
+
+   create_terrain LAYER_E
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               20
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+terrain_mask 1
+}
+
+   create_terrain LAYER_F
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               14
+  spacing_to_other_terrain_types 0
+  land_percent                   1
+  set_scale_by_size
+terrain_mask 1
+}
+
+<OBJECTS_GENERATION>
+
+
+#define GNR_NORMALTC
+#define GNR_STARTVILLS
+#define GNR_CLASSICSCOUT
+
+#define GNR_GIVERELICS
+
+#define GNR_RELICMODERN_MEDIUM
+
+#define GNR_REGICIDECLASSIC
+#define GNR_6KER
+
+#define GNR_STARTINGGOLD
+#define GNR_STARTINGSTONE
+
+#define GNR_STARTGOLD744CL
+#define GNR_STARTSTONE54CL
+
+#define GNR_GIVEHERD_A
+#define GNR_GIVEHERD_B
+
+#define GNR_HERD4CLASSIC_A
+#define GNR_HERD22CLASSIC_B
+
+#define GNR_GIVEHUNT
+
+#define GNR_HUNT3OR4CLASSIC
+
+#define GNR_GIVELURES
+#define GNR_CLASSICLURES
+
+#define GNR_FARGORIG_GIVE
+#define GNR_FARSORIG_GIVE
+
+#define GNR_FARGORIG_TYPE1
+#define GNR_FARSORIG_TYPE1
+
+#define GNR_HOMESTRAGGLE
+#define GNR_NORMALBIRDS
+
+#define GNR_MAPSTRAGGLE
+
+#define GNR_STANDARDFISH
+
+#include_drs GeneratingObjects.inc
+
+if INFINITE_RESOURCES
+elseif DEATH_MATCH
+else
+
+create_object HERDABLE_B
+{
+   number_of_objects 3
+   group_variance 1
+   number_of_groups 2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    35
+   min_distance_group_placement  5
+}
+
+endif
+
+/* ****************************************************** */
+
+<ELEVATION_GENERATION>
+
+
+#define GNRELEV_HEIGHT07
+#define GNRELEV_INTENSITY_G
+#define GNRELEV_LAY_A
+
+#include_drs GeneratingElevation.inc
+
+<CLIFF_GENERATION>
+
+min_number_of_cliffs 5
+max_number_of_cliffs 8
+min_length_of_cliff  2
+max_length_of_cliff  5
+cliff_curliness      10
+min_distance_cliffs  3     
+

@@ -1,0 +1,687 @@
+/* Fortress for Forgotten Empires */
+
+/* 2018 version with extra seasons */
+/* updated Dec 21st 2019 */
+
+/* Note: random_map.def is automatically included in every rms script */
+
+/* PH SEASONS */
+
+start_random
+percent_chance 20 #define PH_SPRING
+percent_chance 15 #define PH_ALPINE
+percent_chance 20 #define PH_DESERT
+percent_chance 5 #define PH_TROPHICALSOUTH
+percent_chance 5 #define PH_TROPHICALEAST
+percent_chance 5 #define PH_AFRICAN_E
+percent_chance 5 #define PH_ASIAN
+percent_chance 5 #define PH_AUTUMN
+percent_chance 20 #define PH_FROZEN
+end_random
+
+#include_drs F_seasons.inc
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+  random_placement  
+	ai_info_map_type FORTRESS 0 0 0
+
+#include_drs thebr_setup.inc
+
+/* ****************************************************** */
+<LAND_GENERATION>
+if PH_SPRING
+base_terrain DIRT2
+elseif PH_ALPINE
+base_terrain DIRT2
+elseif PH_TROPHICALEAST
+base_terrain DIRT2
+elseif PH_ASIAN
+base_terrain DIRT2
+elseif PH_FROZEN
+base_terrain DIRT_SNOW
+else
+base_terrain LAYER_C
+endif
+
+create_land
+{
+  terrain_type LAYER_A
+  land_percent 85
+  border_fuzziness 10
+clumping_factor 15
+}
+
+create_player_lands 
+{            
+  terrain_type                     LAYER_B
+  land_percent                     0
+  base_size                        23
+	circle_placement
+	circle_radius 40
+  border_fuzziness                   1
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+#include_drs F_ColorCorrection.inc
+
+#define WMASK_VODA
+#include_drs F_WaterMasking.inc
+
+  create_terrain WOODIES
+{
+  base_terrain                   LAYER_A
+  spacing_to_other_terrain_types 1
+  land_percent                   7
+  number_of_clumps               10
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+   create_terrain WOODIES_B
+{
+  base_terrain                   LAYER_B
+  spacing_to_other_terrain_types 0
+  land_percent                   3
+if TINY_MAP
+  number_of_clumps               12
+elseif SMALL_MAP
+  number_of_clumps               18
+elseif MEDIUM_MAP
+  number_of_clumps               24
+elseif LARGE_MAP
+  number_of_clumps               36
+else
+  number_of_clumps               48
+endif
+  set_avoid_player_start_areas     
+}
+
+/* PRIMARY PATCH */
+
+   create_terrain LAYER_B
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               16
+  spacing_to_other_terrain_types 0
+  land_percent                   20
+  set_scale_by_size
+}
+
+   create_terrain DLC_ROCK
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 2
+  land_percent                   100
+  set_scale_by_size
+}
+
+   create_terrain LAYER_A
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 0
+  land_percent                   100
+  set_scale_by_size
+terrain_mask 1
+}
+
+   create_terrain LAYER_B
+{
+  base_terrain                   DLC_ROCK
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 0
+  land_percent                   100
+  set_scale_by_size
+}
+
+   create_terrain LAYER_B
+{
+  base_terrain                   DLC_ROCK
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 0
+  land_percent                   100
+  set_scale_by_size
+}
+
+/* OASES */
+
+/*
+
+if PH_DESERT
+   create_terrain VODA
+{
+  base_terrain                   WOODIES
+  spacing_to_other_terrain_types 1
+  land_percent                 1
+  number_of_clumps             8
+  set_avoid_player_start_areas
+  set_flat_terrain_only     
+  set_scale_by_groups
+}
+endif
+
+*/
+
+/* SECONDARY PATCH */
+
+   create_terrain LAYER_C
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               24
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+  terrain_mask 1
+}
+
+/* LAYER E+F Patch */
+
+   create_terrain LAYER_E
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               20
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+terrain_mask 1
+}
+
+   create_terrain LAYER_F
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               14
+  spacing_to_other_terrain_types 0
+  land_percent                   1
+  set_scale_by_size
+terrain_mask 1
+}
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+/* BUILDINGS */
+
+/* four houses, barracks, and a watch tower, regardless of game mode */
+
+if BATTLE_ROYALE
+
+#define GNR_NORMALTC
+#define GNR_STARTVILLS
+#define GNR_CLASSICSCOUT
+
+#define GNR_GIVERELICS
+
+#define GNR_ARENAWALL
+#define GNR_RELICMODERN_MEDIUM 
+
+#define GNR_REGICIDECLASSIC
+#define GNR_6KER
+
+#define GNR_STARTINGGOLD
+#define GNR_STARTINGSTONE
+
+#define GNR_STARTGOLD744CL
+#define GNR_STARTSTONE54CL
+
+#define GNR_GIVELURES
+#define GNR_CLASSICLURES
+
+#define GNR_FARGORIG_GIVE
+#define GNR_FARSORIG_GIVE
+
+#define GNR_FARGORIG_TYPE1
+#define GNR_FARSORIG_TYPE1
+
+#define GNR_HOMESTRAGGLE
+#define GNR_NORMALBIRDS
+#define GNR_MAPSTRAGGLE
+
+
+#include_drs GeneratingObjects.inc
+
+elseif EMPIRE_WARS
+
+
+#define GNR_NORMALTC
+#define GNR_STARTVILLS
+#define GNR_CLASSICSCOUT
+
+
+#define GNR_ARENAWALL
+#define GNR_GIVERELICS
+#define GNR_RESCLOSE
+
+#define GNR_RELICMODERN_MEDIUM  
+
+#define GNR_REGICIDECLASSIC
+#define GNR_6KER
+
+#define GNR_STARTINGGOLD
+#define GNR_STARTINGSTONE
+
+#define GNR_STARTGOLD744CL
+#define GNR_STARTSTONE54CL
+
+#define GNR_GIVELURES
+#define GNR_CLASSICLURES
+
+#define GNR_FARGORIG_GIVE
+#define GNR_FARSORIG_GIVE
+
+#define GNR_FARGORIG_TYPE1
+#define GNR_FARSORIG_TYPE1
+
+#define GNR_HOMESTRAGGLE
+#define GNR_NORMALBIRDS
+#define GNR_MAPSTRAGGLE
+
+
+#include_drs GeneratingObjects.inc
+
+else
+
+
+#define GNR_FARGORIG_GIVE
+#define GNR_FARSORIG_GIVE
+
+#define GNR_FARGORIG_TYPE1
+#define GNR_FARSORIG_TYPE1
+
+#define GNR_NORMALBIRDS
+#define GNR_MAPSTRAGGLE
+
+endif
+
+
+if EMPIRE_WARS
+
+create_object WATCH_TOWER
+{
+  number_of_objects            4  
+  set_place_for_every_player
+if LUDIKRIS_MAP
+  min_distance_to_players      33
+  max_distance_to_players      34
+else
+  min_distance_to_players      18
+  max_distance_to_players      19
+endif
+  temp_min_distance_group_placement  6
+}
+
+elseif BATTLE_ROYALE
+
+
+create_object WATCH_TOWER
+{
+  number_of_objects            4  
+  set_place_for_every_player
+if LUDIKRIS_MAP
+  min_distance_to_players      33
+  max_distance_to_players      34
+else
+  min_distance_to_players      18
+  max_distance_to_players      19
+endif
+  temp_min_distance_group_placement  6
+}
+
+else
+endif
+
+if EMPIRE_WARS
+
+create_object CASTLE
+{
+  set_place_for_every_player
+  min_distance_to_players    10 /* range slightly increased */
+  max_distance_to_players    24
+  find_closest
+  avoid_all_actor_areas
+}
+
+elseif BATTLE_ROYALE
+else
+
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object WALL
+{
+  number_of_objects             9999
+  set_place_for_every_player
+	if LUDIKRIS_MAP
+  min_distance_to_players       35
+  max_distance_to_players       35
+	else
+  min_distance_to_players       20
+  max_distance_to_players       20
+	endif
+}
+
+create_object WATCH_TOWER
+{
+  number_of_objects            4  
+  set_place_for_every_player
+	if LUDIKRIS_MAP
+  min_distance_to_players      33
+  max_distance_to_players      34
+	else
+  min_distance_to_players      18
+  max_distance_to_players      19
+	endif
+  temp_min_distance_group_placement  6
+}
+
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+ }
+
+create_object SCOUT
+{
+  number_of_objects             1
+  set_place_for_every_player
+  min_distance_to_players       7
+  max_distance_to_players       9
+  avoid_forest_zone 1
+ }
+
+/* original house generation */
+/*
+create_object HOUSE
+{
+  number_of_objects            4
+  set_loose_grouping
+  set_place_for_every_player
+  min_distance_to_players      12
+  max_distance_to_players      15
+min_distance_group_placement 3
+}
+*/
+
+create_object BARRACKS
+{
+  set_place_for_every_player
+  min_distance_to_players      13
+  max_distance_to_players      17
+min_distance_group_placement 3
+  avoid_forest_zone 3
+}
+
+create_object STRAGGLER
+{
+  number_of_objects             3
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       8
+  max_distance_to_players       10
+  min_distance_group_placement  2
+}
+
+create_object RELIC
+{
+   min_distance_to_players     35
+	if TINY_MAP
+   number_of_objects            5
+   temp_min_distance_group_placement 35
+	elseif SMALL_MAP
+   number_of_objects            5
+   temp_min_distance_group_placement 38
+	elseif MEDIUM_MAP
+   number_of_objects            5
+   temp_min_distance_group_placement 38
+	elseif LARGE_MAP
+   number_of_objects            7
+   temp_min_distance_group_placement 48
+	elseif HUGE_MAP
+   number_of_objects            8
+   temp_min_distance_group_placement 52
+	else
+   number_of_objects            999
+   temp_min_distance_group_placement 52 /* originally 64; only applied to largest map sizes for now to maintain 5 consistent relics on 1v1 */
+	endif
+}
+
+/* SPECIAL STUFF FOR REGICIDE */
+
+	if REGICIDE
+create_object VILLAGER
+{
+  number_of_objects             7
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+
+	endif
+
+/* castle moved out of the regicide condition - players start with a castle on all game modes now */
+
+
+create_object CASTLE
+{
+  set_place_for_every_player
+  min_distance_to_players    9 /* range slightly increased */
+  max_distance_to_players    12
+}
+
+
+/* NEAR FORAGE */
+
+create_object KERICEK
+{
+  number_of_objects          6
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    12
+  min_distance_group_placement  5
+  avoid_forest_zone 2
+}
+
+/* NEAR GOLD */
+
+create_object GOLD
+{
+  number_of_objects          7
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    11
+  max_distance_to_players    15
+  min_distance_group_placement  5
+  avoid_forest_zone 2
+}
+
+create_object LURABLE_A
+{
+  number_of_objects          1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    19
+  temp_min_distance_group_placement  3
+}
+
+create_object LURABLE_A
+{
+  number_of_objects          1
+  set_loose_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    19
+  temp_min_distance_group_placement  3
+}
+
+/* MEDIUM GOLD */
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    22
+  max_distance_to_players    26
+  min_distance_group_placement  4
+  avoid_forest_zone 2
+}
+
+/* FAR GOLD */
+
+create_object GOLD
+{
+  number_of_objects          4
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+/* FAR GOLD DISTANCE */
+start_random
+percent_chance 50
+  min_distance_to_players    25
+  max_distance_to_players    29
+percent_chance 50
+  min_distance_to_players    30
+  max_distance_to_players    35
+end_random
+  min_distance_group_placement  4
+  avoid_forest_zone 2
+}
+
+/* NEAR STONE */
+
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    11
+  max_distance_to_players    15
+  min_distance_group_placement  4
+  avoid_forest_zone 2
+}
+
+/* FAR STONE */
+
+create_object STONE
+{
+  number_of_objects          4
+  group_placement_radius     2  
+  set_tight_grouping 
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    21
+  max_distance_to_players    27
+  min_distance_group_placement  4
+  avoid_forest_zone 2
+}
+
+create_object PREDATOR_A
+{
+  number_of_objects          2
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_group_placement 12
+  min_distance_to_players    35
+  max_distance_to_players    40
+} 
+
+create_object FARM
+{
+  number_of_objects             5  
+  set_place_for_every_player
+  min_distance_to_players       3
+  max_distance_to_players       6
+  find_closest
+}
+
+
+create_object HOUSE
+{
+  set_place_for_every_player
+  number_of_objects 1
+  min_distance_to_players       7
+  max_distance_to_players       14
+  find_closest
+ }
+
+create_object HOUSE
+{
+  set_place_for_every_player
+  number_of_objects 1
+  min_distance_to_players       7
+  max_distance_to_players       14
+  find_closest
+ }
+
+create_object HOUSE
+{
+  set_place_for_every_player
+  number_of_objects 1
+  min_distance_to_players       7
+  max_distance_to_players       14
+  find_closest
+ }
+
+create_object HOUSE
+{
+  set_place_for_every_player
+  number_of_objects 1
+  min_distance_to_players       7
+  max_distance_to_players       14
+  find_closest
+ }
+
+#include_drs GeneratingObjects.inc
+
+endif
+
+
+
+/* ****************************************************** */
+
+<ELEVATION_GENERATION>
+
+
+#define GNRELEV_HEIGHT04
+#define GNRELEV_INTENSITY_I
+#define GNRELEV_LAY_A
+
+#include_drs GeneratingElevation.inc
+
+/* ****************************************************** */
+<CLIFF_GENERATION>
+min_number_of_cliffs 5
+max_number_of_cliffs 10
+min_length_of_cliff  3
+max_length_of_cliff  10
+

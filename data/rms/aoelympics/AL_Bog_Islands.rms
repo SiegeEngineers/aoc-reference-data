@@ -1,0 +1,225 @@
+
+/* Bog Islands 2016 */
+
+#include_drs random_map.def 
+
+<PLAYER_SETUP>
+  random_placement 
+  ai_info_map_type MEDITERRANEAN 0 0 0
+
+#include_drs thebr_setup.inc
+
+<LAND_GENERATION>
+
+base_terrain DLC_MANGROVESHALLOW
+enable_waves 0 
+
+create_player_lands
+{
+  terrain_type DLC_JUNGLELEAVES
+  land_percent 5
+  base_size 10
+
+if BATTLE_ROYALE
+	circle_placement
+	circle_radius 38
+  border_fuzziness                   1
+else
+  border_fuzziness                   15
+endif
+
+clumping_factor 15
+}
+
+create_land
+{
+  terrain_type DLC_WATER5
+  land_percent 10
+  border_fuzziness 5
+clumping_factor 20
+bottom_border 30
+top_border 30
+left_border 30
+right_border 30
+}
+
+/* *********************************** */
+<TERRAIN_GENERATION>
+
+create_terrain DLC_MANGROVEFOREST
+{
+base_terrain DLC_MANGROVESHALLOW
+land_percent 12
+number_of_clumps 36
+spacing_to_other_terrain_types 3
+set_avoid_player_start_areas
+}
+
+create_terrain DLC_BEACH2
+{
+base_terrain DLC_MANGROVESHALLOW
+land_percent 6
+spacing_to_other_terrain_types 0
+number_of_clumps 32
+set_avoid_player_start_areas
+}
+
+create_terrain DLC_RAINFOREST 
+{
+base_terrain DLC_JUNGLELEAVES
+land_percent 2
+number_of_clumps 30
+spacing_to_other_terrain_types 0
+set_avoid_player_start_areas
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+set_avoid_player_start_areas
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+set_avoid_player_start_areas
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+set_avoid_player_start_areas
+}
+
+create_terrain DLC_WATER5
+{
+base_terrain DLC_BEACH2
+land_percent 100
+number_of_clumps 100
+spacing_to_other_terrain_types 1
+set_avoid_player_start_areas
+}
+
+create_terrain DLC_MANGROVEFOREST
+{
+base_terrain DLC_WATER5
+land_percent 2
+number_of_clumps 20
+spacing_to_other_terrain_types 2
+set_avoid_player_start_areas
+}
+
+create_terrain DLC_MANGROVEFOREST
+{
+base_terrain DLC_MANGROVESHALLOW
+land_percent 2
+number_of_clumps 40
+spacing_to_other_terrain_types 2
+set_avoid_player_start_areas
+}
+
+create_terrain DLC_JUNGLELEAVES
+{
+base_terrain DLC_MANGROVESHALLOW
+land_percent 2
+number_of_clumps 40
+spacing_to_other_terrain_types 0
+set_avoid_player_start_areas
+}
+
+color_correction CC_JUNGLE
+
+<OBJECTS_GENERATION>
+
+#define GNR_NORMALTC
+#define GNR_STARTVILLS
+#define GNR_CLASSICSCOUT
+
+/* Density of Relics */
+#define GNR_GIVERELICS
+#define GNR_RELICMODERN_DENSE
+
+#define GNR_REGICIDE_SPECIALTOWER /* only tower + king */
+
+/* Distances of general starting resources */
+#define GNR_RESSUPERCLOSE
+#define EMPW_SUPERCRAMPED
+
+#const HERDABLE_A 1142 
+#const HERDABLE_B 1142 
+
+#define GNR_GIVEHERD_A
+#define GNR_HERD4CLASSIC_A
+
+
+#const LURABLE_A 1139 
+#const LURABLE_B 1139 
+
+#define GNR_GIVELURES
+#define GNR_GROUPEDLURES_THREE
+
+/* These two are required for starting gold or stone to appear */
+#define GNR_STARTINGGOLD
+#define GNR_STARTINGSTONE
+
+/* water blocking, 7 being the default */
+#define GNR_STARTGS_0WBLOCK
+
+#define GNR_STARTGOLD44M
+#define GNR_STARTSTONE43M
+
+#define GNR_FARGMODERN_GIVE
+#define GNR_FARSMODERN_GIVE
+
+#define GNR_FARG_GENEROUS
+#define GNR_FARS_GENEROUS
+
+#define GNR_FARG_AVOID30PL
+#define GNR_FARS_AVOID30PL
+
+#define GNR_GIVEFARHERD
+#define GNR_FARHERD_INFINITE
+#define GNR_FARHERD1GR
+#define GNR_FARHERD22PLACE
+
+#const STRAGGLER 1146
+#const BIRDS_A 816
+#const UNIQSTRAGGLER 1144
+
+#define GNR_HOMESTRAGGLE
+#define GNR_ABIRDS_ONLY
+#define GNR_MAPUNIQUESTRAGGLE
+#define GNR_MAPSTRAGGLE25DIST
+
+#const PREDATOR_A 1135
+#const PREDATOR_B 1135
+#const MELKARYBA 1141
+#const FISH_A 457
+#const FISH_B 457
+
+#define GNR_STANDARDFISH
+#define GNR_BIGFISH3ZONEDIST
+
+#const LAYER_D 54
+
+#define GNR_MODERNMAPPRED
+#define GNR_MODERNMP_30LIMIT
+#define GNR_MODERNMP_60TEMP
+#define GNR_MODERNMP_LAYERD
+
+#define GNR_MAP_ROCKBEACH
+
+#include_drs GeneratingObjects.inc
+
+/* ****************************************************** */
+
+<ELEVATION_GENERATION>

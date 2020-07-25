@@ -1,0 +1,392 @@
+/* *********************************************************** 	*/
+/* >>>>>>>>>>>>>>>>>> HC_Golden_Island <<<<<<<<<<<<<<<<<<<<<<< 	*/
+/* *********************************************************** 	*/
+
+/* Golden Island, Derived from nC, adjusted for Hidden Cup (HC) */
+
+/* edited by HenkDeSuperNerd 									*/
+
+/* ******************************************************** 	*/
+/* nCGolden_Island_v1 */
+
+/* Made for nC Zones by "nC_eru_", Nov 2012 */
+
+<PLAYER_SETUP>
+	random_placement
+
+<LAND_GENERATION>
+	base_terrain								SNOW
+
+	create_player_lands
+	{
+		terrain_type							SNOW
+		base_size								10
+		top_border								2
+		right_border							2
+		bottom_border							2
+		left_border								2
+		land_percent							1
+		other_zone_avoidance_distance			12
+	}
+	
+	create_land
+	{
+		terrain_type							ICE
+		land_percent							100
+		top_border								30
+		right_border							30
+		bottom_border							30
+		left_border								30
+		other_zone_avoidance_distance			5
+	}
+	
+<TERRAIN_GENERATION>
+	create_terrain GRASS_SNOW
+	{
+		base_terrain							ICE
+		land_percent							100
+		if TINY_MAP
+		spacing_to_other_terrain_types			10
+		elseif SMALL_MAP
+		spacing_to_other_terrain_types			11
+		elseif MEDIUM_MAP
+		spacing_to_other_terrain_types			12
+		elseif LARGE_MAP
+		spacing_to_other_terrain_types			13
+		elseif HUGE_MAP
+		spacing_to_other_terrain_types			14
+		elseif GIGANTIC_MAP
+		spacing_to_other_terrain_types			15
+		endif
+	}
+	
+	create_terrain ICE
+	{
+		base_terrain							GRASS_SNOW
+		land_percent							1
+		number_of_clumps						1337
+	}
+	
+	create_terrain SNOW_FOREST
+	{
+		base_terrain							SNOW
+		land_percent							18
+		number_of_clumps						21
+		set_scale_by_groups
+		set_avoid_player_start_areas
+		spacing_to_other_terrain_types			6
+	}
+
+<OBJECTS_GENERATION>
+	create_object TOWN_CENTER
+	{
+		set_place_for_every_player
+		group_placement_radius					18
+		min_distance_to_players					0
+		max_distance_to_players					0
+	}
+	
+	create_object VILLAGER
+	{
+		set_place_for_every_player
+		min_distance_to_players					6
+		max_distance_to_players					6
+	}
+	
+	create_object SCOUT
+	{
+		number_of_objects						1
+		set_place_for_every_player
+		min_distance_to_players					7
+		max_distance_to_players					9
+	}
+	
+	if REGICIDE
+		create_object VILLAGER
+		{
+			number_of_objects					7
+			set_place_for_every_player
+			min_distance_to_players				6
+			max_distance_to_players				6
+		}
+
+		create_object KING
+		{
+			set_place_for_every_player
+			min_distance_to_players				6
+			max_distance_to_players				6
+		}
+
+		create_object CASTLE
+		{
+			set_place_for_every_player
+			min_distance_to_players				10
+			max_distance_to_players				10
+			max_distance_to_other_zones			2
+		}
+	endif
+	
+	create_object SNOW_PINE_TREE
+	{
+		number_of_objects						3
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players					4
+		max_distance_to_players					6
+		min_distance_group_placement			2
+		max_distance_to_other_zones				2
+	}
+	
+	create_object SHEEP
+	{
+		number_of_objects						4
+		set_loose_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players					8
+		max_distance_to_players					8
+	}
+
+	create_object SHEEP
+	{
+		number_of_groups						2
+		number_of_objects						2
+		set_loose_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players					14
+		max_distance_to_players					30
+		temp_min_distance_group_placement		8
+	}
+	
+	create_object BOAR
+	{
+		number_of_objects						1
+		number_of_groups						3
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players					16
+		max_distance_to_players					22
+	}
+	
+	create_object DEER
+	{
+		number_of_objects						4
+		number_of_groups						2
+		group_placement_radius					3
+		set_loose_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players					14
+		max_distance_to_players					16
+		temp_min_distance_group_placement		14
+	}
+	
+	create_object GOLD
+	{
+		number_of_objects						4
+		group_placement_radius					3
+		set_tight_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players					10
+		max_distance_to_players					16
+		min_distance_group_placement			7
+		max_distance_to_other_zones				2
+	}
+	
+	create_object GOLD
+	{
+		number_of_objects						4
+		group_placement_radius					3
+		set_tight_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players					20
+		max_distance_to_players					26
+		min_distance_group_placement			7
+		max_distance_to_other_zones				2
+	}
+	
+	create_object STONE
+	{
+		number_of_objects						5
+		group_placement_radius					3
+		set_tight_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players					14
+		max_distance_to_players					20
+		min_distance_group_placement			7
+		max_distance_to_other_zones				2
+	}
+	
+	create_object STONE
+	{
+		number_of_objects						4
+		group_placement_radius					2
+		set_tight_grouping
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_to_players					24
+		max_distance_to_players					30
+		min_distance_group_placement			14
+		max_distance_to_other_zones				2
+	}
+	
+	create_object RELIC
+	{
+		number_of_objects						5
+		min_distance_to_players					40
+		temp_min_distance_group_placement		20
+		terrain_to_place_on						SNOW
+	}
+	
+	create_object STONE
+	{
+		if TINY_MAP
+			number_of_groups					1
+		elseif SMALL_MAP
+			number_of_groups					1
+		elseif MEDIUM_MAP
+			number_of_groups					2
+		elseif LARGE_MAP
+			number_of_groups					2
+		elseif HUGE_MAP
+			number_of_groups					3
+		elseif GIGANTIC_MAP
+			number_of_groups					4
+		endif
+		number_of_objects						5
+		group_placement_radius					2
+		set_tight_grouping
+		set_gaia_object_only
+		min_distance_to_players					42
+		temp_min_distance_group_placement		30
+		max_distance_to_other_zones				2
+		terrain_to_place_on						SNOW
+		min_distance_group_placement			4
+	}
+	
+	create_object GOLD
+	{
+		if TINY_MAP
+			number_of_groups					1
+		elseif SMALL_MAP
+			number_of_groups					1
+		elseif MEDIUM_MAP
+			number_of_groups					2
+		elseif LARGE_MAP
+			number_of_groups					2
+		elseif HUGE_MAP
+			number_of_groups					3
+		elseif GIGANTIC_MAP
+			number_of_groups					4
+		endif
+		number_of_objects						4
+		group_placement_radius					2
+		set_tight_grouping
+		set_gaia_object_only
+		min_distance_to_players					42
+		temp_min_distance_group_placement		30
+		terrain_to_place_on						SNOW
+		max_distance_to_other_zones				2
+		min_distance_group_placement			4
+	}
+	
+	create_object DEER
+	{
+		if TINY_MAP
+			number_of_groups					1
+		elseif SMALL_MAP
+			number_of_groups					2
+		elseif MEDIUM_MAP
+			number_of_groups					3
+		elseif LARGE_MAP
+			number_of_groups					3
+		elseif HUGE_MAP
+			number_of_groups					4
+		elseif GIGANTIC_MAP
+			number_of_groups					5
+		endif
+		number_of_objects						4
+		group_placement_radius					2
+		set_tight_grouping
+		set_gaia_object_only
+		min_distance_to_players					42
+		temp_min_distance_group_placement		30
+		terrain_to_place_on						SNOW
+		min_distance_group_placement			4
+	}
+
+	create_object SNOW_PINE_TREE
+	{
+		number_of_objects						30
+		set_gaia_object_only
+		set_scaling_to_map_size
+		min_distance_to_players					8
+		terrain_to_place_on						SNOW
+	}
+	
+	create_object WOLF
+	{
+		number_of_groups						3
+		number_of_objects						1
+		set_scaling_to_map_size
+		set_gaia_object_only
+		min_distance_group_placement			12
+		min_distance_to_players					40
+		max_distance_to_players					120
+		terrain_to_place_on						SNOW
+	}
+
+	create_object WOLF
+	{
+		number_of_objects						2
+		set_gaia_object_only
+		set_place_for_every_player
+		min_distance_group_placement			12
+		min_distance_to_players					30
+		max_distance_to_players					40
+		terrain_to_place_on						SNOW
+	}
+
+	create_object HAWK
+	{
+		number_of_objects						6
+		set_scaling_to_map_size
+		terrain_to_place_on						SNOW
+	}
+	
+	create_object GOLD
+	{
+		number_of_objects						2
+		number_of_groups						1337
+		group_placement_radius					1
+		set_tight_grouping
+		min_distance_group_placement			2
+		terrain_to_place_on						GRASS_SNOW
+	}
+
+<ELEVATION_GENERATION>
+
+	if TINY_MAP
+		create_elevation						4
+		{
+			base_terrain						SNOW
+			number_of_clumps					10
+			number_of_tiles						2000
+			set_scale_by_groups
+			set_scale_by_size
+		}
+	else
+		create_elevation						7
+		{
+			base_terrain						SNOW
+			number_of_clumps					15
+			number_of_tiles						3000
+			set_scale_by_groups
+			set_scale_by_size
+		}
+	endif
+	

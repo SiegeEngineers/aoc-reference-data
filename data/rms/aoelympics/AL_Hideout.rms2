@@ -1,0 +1,384 @@
+/* Forgotten Empires - Hideout (Updated April 2020) */
+
+/* Note: random_map.def is automatically included in every rms script */
+
+<PLAYER_SETUP>
+  random_placement 
+  ai_info_map_type ARABIA 0 0 0
+
+#include_drs thebr_setup.inc
+
+/* PH SEASONS */
+
+start_random
+percent_chance 20 #define PH_SPRING
+percent_chance 25 #define PH_ALPINE
+percent_chance 10 #define PH_TROPHICALSOUTH
+percent_chance 10 #define PH_TROPHICALEAST
+percent_chance 25 #define PH_FROZEN
+percent_chance 10 #define PH_MEDISOUTH
+end_random
+
+#define FROZEN_WESTONLY
+
+#include_drs F_seasons.inc
+
+<LAND_GENERATION>
+
+base_terrain LAYER_A
+
+create_player_lands
+{
+  terrain_type LAYER_B
+  land_percent 16
+  base_size 12
+  top_border 18
+  bottom_border 18
+  right_border 18
+  left_border 18
+  clumping_factor 15
+  other_zone_avoidance_distance 16
+if TINY_MAP
+  circle_radius 21 0
+elseif SMALL_MAP
+  circle_radius 22 0
+elseif MEDIUM_MAP
+  circle_radius 23 0
+elseif LARGE_MAP
+  circle_radius 24 0
+elseif HUGE_MAP
+  circle_radius 25 0
+elseif GIGANTIC_MAP
+  circle_radius 25 0
+else
+  circle_radius 28 0
+endif
+}
+
+create_land
+{
+  terrain_type WOODIES
+  land_percent 90
+  top_border 20
+  bottom_border 20
+  right_border 20
+  left_border 20
+  clumping_factor 15
+  border_fuzziness 45
+  zone 52
+  other_zone_avoidance_distance 0
+}
+
+<TERRAIN_GENERATION>
+
+#include_drs F_ColorCorrection.inc
+
+create_terrain WOODIES_B
+{
+  base_terrain LAYER_A
+  spacing_to_other_terrain_types 0
+  land_percent 4
+  number_of_clumps 6
+  set_avoid_player_start_areas
+  set_scale_by_groups
+}
+
+create_terrain LAYER_C
+{
+  base_terrain LAYER_B
+  number_of_clumps 24
+  spacing_to_other_terrain_types 0
+  land_percent 5
+  set_scale_by_size
+}
+
+create_terrain LAYER_A
+{
+  base_terrain LAYER_B
+  number_of_clumps 30
+  spacing_to_other_terrain_types 0
+  land_percent 2
+  set_scale_by_size
+}
+
+create_terrain WOODIES
+{
+  base_terrain LAYER_B
+  number_of_clumps 10
+  spacing_to_other_terrain_types 2
+number_of_tiles 20
+  set_avoid_player_start_areas
+  set_scale_by_size
+}
+
+create_terrain WOODIES_B
+{
+  base_terrain WOODIES
+land_percent 8
+  number_of_clumps 100
+}
+
+/* restoring LAYER_B */
+create_terrain LAYER_B
+{
+  base_terrain LAYER_C
+  number_of_clumps 1000
+  land_percent 100
+}
+
+/* PH Masking Patch */
+
+   create_terrain LAYER_A
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  land_percent                   100
+}
+
+   create_terrain LAYER_B
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               36
+  spacing_to_other_terrain_types 0
+  land_percent                   rnd(14,28)
+  set_scale_by_size
+}
+
+   create_terrain ROAD
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 2
+  land_percent                   100
+}
+   create_terrain LAYER_A
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  land_percent                   100
+terrain_mask 2
+}
+   create_terrain LAYER_A
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  land_percent                   100
+terrain_mask 2
+}
+   create_terrain LAYER_B
+{
+  base_terrain                   ROAD
+  number_of_clumps               1000
+  land_percent                   100
+}
+   create_terrain LAYER_B
+{
+  base_terrain                   ROAD
+  number_of_clumps               1000
+  land_percent                   100
+}
+
+   create_terrain LAYER_C
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               24
+  spacing_to_other_terrain_types 0
+  land_percent                   rnd(2,6)
+  set_scale_by_size
+terrain_mask 1
+}
+
+/* PH Masking Patch End */
+
+
+<OBJECTS_GENERATION>
+
+
+#define GNR_NORMALTC
+#define GNR_STARTVILLS
+#define GNR_CLASSICSCOUT
+#define GNR_REGICIDECLASSIC
+
+#define GNR_HIDEOUTWALL
+
+#define GNR_GIVEHERD_A
+#define GNR_GIVEHERD_B
+#define GNR_HERD4CLASSIC_A
+#define GNR_HERD22CLASSIC_B
+#define GNR_HERDBDIST_CL
+
+#define GNR_GIVEHUNT
+#define GNR_HUNT3OR4CLASSIC
+#define GNR_HUNTDIST_HIDEOUT
+
+#define GNR_GIVELURES
+#define GNR_CLASSICLURES
+#define GNR_LUREDIST_CL
+
+#define GNR_STARTINGGOLD
+#define GNR_STARTINGSTONE
+
+#define GNR_STARTGOLD54M
+#define GNR_STARTSTONE44M
+
+#define GNR_HIDEOUTGS_DISTANCE /* to make sure one stone stays inside the walls */
+#define GNR_6KER
+
+/*
+
+- replaced below by per-player gold/stone
+
+#define GNR_FARGORIG_GIVE
+#define GNR_FARSORIG_GIVE
+
+#define GNR_FARGORIG_TYPE6
+#define GNR_FARSORIG_TYPE6
+
+#define GNR_FARG_AVOID30PL
+#define GNR_FARS_AVOID30PL
+
+*/
+
+#define GNR_HOMESTRAGGLE
+#define GNR_MAPSTRAGGLE
+
+#define GNR_GIVERELICS
+#define GNR_RELICMODERN_MEDIUM 
+
+#include_drs GeneratingObjects.inc
+
+if BATTLE_ROYALE
+elseif INFINITE_RESOURCES
+else
+
+create_object PREDATOR_A
+{
+     number_of_groups 3
+     set_loose_grouping
+        number_of_objects 1
+  set_scaling_to_map_size
+     set_gaia_object_only
+     min_distance_group_placement 12
+     min_distance_to_players 40
+}
+
+create_object GOLD
+{
+    number_of_groups 1
+    set_tight_grouping
+    number_of_objects 3
+    set_gaia_object_only
+    min_distance_group_placement 3
+if LARGE_MAP
+    min_distance_to_players 52
+elseif HUGE_MAP
+    min_distance_to_players 56
+elseif GIGANTIC_MAP
+    min_distance_to_players 60
+elseif LUDIKRIS_MAP
+    min_distance_to_players 63
+else
+    min_distance_to_players 42
+endif
+    find_closest
+    set_place_for_every_player
+    actor_area 1420
+    actor_area_radius 16
+    avoid_forest_zone 2
+}
+
+create_object GOLD
+{
+    number_of_groups 1
+    set_tight_grouping
+    number_of_objects 3
+    set_gaia_object_only
+    min_distance_group_placement 3
+if LARGE_MAP
+    min_distance_to_players 44
+elseif HUGE_MAP
+    min_distance_to_players 48
+elseif GIGANTIC_MAP
+    min_distance_to_players 52
+elseif LUDIKRIS_MAP
+    min_distance_to_players 56
+else
+    min_distance_to_players 34
+endif
+    find_closest
+    set_place_for_every_player
+    actor_area 1421
+    actor_area_radius 16
+    avoid_actor_area 1420
+    avoid_forest_zone 2
+}
+
+create_object STONE
+{
+    number_of_groups 1
+    set_tight_grouping
+    number_of_objects 3
+    set_gaia_object_only
+    min_distance_group_placement 3
+if LARGE_MAP
+    min_distance_to_players 49
+elseif HUGE_MAP
+    min_distance_to_players 53
+elseif GIGANTIC_MAP
+    min_distance_to_players 57
+elseif LUDIKRIS_MAP
+    min_distance_to_players 60
+else
+    min_distance_to_players 39
+endif
+    find_closest
+    set_place_for_every_player
+    actor_area 1422
+    actor_area_radius 16
+    avoid_actor_area 1420
+    avoid_actor_area 1421
+    avoid_forest_zone 2
+}
+
+create_object STONE
+{
+    number_of_groups 1
+    set_tight_grouping
+    number_of_objects 3
+    set_gaia_object_only
+    min_distance_group_placement 3
+if LARGE_MAP
+    min_distance_to_players 54
+elseif HUGE_MAP
+    min_distance_to_players 58
+elseif GIGANTIC_MAP
+    min_distance_to_players 62
+elseif LUDIKRIS_MAP
+    min_distance_to_players 67
+else
+    min_distance_to_players 46
+endif
+    find_closest
+    set_place_for_every_player
+    avoid_actor_area 1420
+    avoid_actor_area 1421
+    avoid_actor_area 1422
+    avoid_forest_zone 2
+}
+
+endif
+
+create_object BIRDS_A
+{
+     number_of_objects 4
+     set_scaling_to_map_size
+}
+
+
+<ELEVATION_GENERATION>
+
+#define GNRELEV_HEIGHT04
+#define GNRELEV_INTENSITY_I
+#define GNRELEV_LAY_A
+
+#include_drs GeneratingElevation.inc

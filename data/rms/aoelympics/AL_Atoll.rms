@@ -1,0 +1,321 @@
+/* Atoll (4-29-20) by TheMadCADer */
+/* Changes from 1.0: Improved connections between player lands and center */
+/* Changes from 1.1: Edited elevation and wood distribution for more space */
+/* Changes from 1.2: Edited lands */
+/* Changes from 1.3: player islands avoid each other more, added shoals in water, bigger overall land and wood */
+/* Changes from 1.4: shallow connections, circle placement, removed shoals */
+
+start_random
+percent_chance 50
+	#define DSMAP /* 50% chance to be desert map */
+percent_chance 50
+	#define TRMAP /* 50% chance to be tropical map */
+end_random
+
+if DSMAP /* define terms for seasons */
+	#const GROUND 6 /* dirt1 */
+	#const WOODS 13 /* palm forest */
+	#const FOODA 594 /* sheep */
+	#const DDIRT 14 /* desert */
+else
+	#const GROUND 0 /* grass ground */
+	#const WOODS 17 /* jungle forest */
+	#const FOODA 833 /* turkey */
+	#const DDIRT 9 /* dirt3 */
+endif
+
+<PLAYER_SETUP>
+
+	random_placement  /* "only valid entry" -Me from 2012 <<< Not anymore :) */
+
+
+<LAND_GENERATION>
+base_terrain WATER
+create_player_lands
+{
+	terrain_type GROUND /* ground specified above */
+	land_percent 25
+	base_size 12
+	clumping_factor 100
+	other_zone_avoidance_distance 12
+	left_border 8
+	right_border 8
+	top_border 8
+	bottom_border 8
+	border_fuzziness 10
+	if DE_AVAILABLE
+		circle_radius 35 5
+	endif
+}
+create_land /* middle */
+{
+	terrain_type GROUND
+	land_percent 100
+	left_border 28
+	right_border 28
+	top_border 28
+	bottom_border 28 /* center of the map */
+	clumping_factor 15
+	other_zone_avoidance_distance 7
+	land_id 111
+	zone 1
+}
+create_land /* middle */
+{
+	terrain_type GROUND
+	land_percent 100
+	left_border 28
+	right_border 28
+	top_border 28
+	bottom_border 28 /* center of the map */
+	clumping_factor 15
+	other_zone_avoidance_distance 7
+	zone 1
+}
+create_land /* middle */
+{
+	terrain_type GROUND
+	land_percent 100
+	left_border 28
+	right_border 28
+	top_border 28
+	bottom_border 28 /* center of the map */
+	clumping_factor 15
+	other_zone_avoidance_distance 7
+	zone 1
+}
+
+<ELEVATION_GENERATION>
+create_elevation 1
+{
+	base_terrain GROUND
+	number_of_tiles 625
+	number_of_clumps 24
+	set_scale_by_groups
+}
+
+<TERRAIN_GENERATION>
+create_terrain WOODS /* primary woods */
+{
+	base_terrain GROUND
+	land_percent 8
+	number_of_clumps 24
+	set_scale_by_groups /* number of clumps scales: bigger maps have more clumps, of same size */
+	set_avoid_player_start_areas
+	spacing_to_other_terrain_types 3
+}
+create_terrain DDIRT /* primary patch */
+{
+	base_terrain GROUND
+	land_percent 8
+	number_of_clumps 8
+	spacing_to_other_terrain_types 0
+	set_scale_by_groups
+}	
+create_terrain MED_WATER
+{
+	base_terrain WATER
+	land_percent 100
+	number_of_clumps 100
+	set_scale_by_groups
+	spacing_to_other_terrain_types 4 /* keep away from shores */
+}
+
+<OBJECTS_GENERATION>
+create_object TOWN_CENTER
+{
+	set_place_for_every_player
+	max_distance_to_players 0 /* center of player lands */	
+}
+create_object VILLAGER /* 3 is default */
+{
+	set_place_for_every_player
+	max_distance_to_players 6
+	min_distance_to_players 6
+}
+create_object SCOUT
+{
+	set_place_for_every_player
+	min_distance_to_players 7
+	max_distance_to_players 9
+}
+create_object GOLD /* player primary gold */
+{
+  	number_of_objects          7
+  	group_placement_radius     3
+  	set_tight_grouping
+  	set_gaia_object_only
+  	set_place_for_every_player
+  	min_distance_to_players    12
+  	max_distance_to_players    16
+  	min_distance_group_placement  7
+	max_distance_to_other_zones 7
+	avoid_forest_zone
+}
+create_object STONE /* near players */
+{
+	number_of_objects 6
+	group_placement_radius 3
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players    12
+  	max_distance_to_players    16
+	min_distance_group_placement  7
+	max_distance_to_other_zones 7
+	avoid_forest_zone
+}
+create_object GOLD /* in center */
+{
+	number_of_objects 5
+	number_of_groups 2
+	group_variance 1
+	set_tight_grouping
+	set_gaia_objects_only
+	place_on_specific_land_id 111
+	set_scaling_to_player_number
+	min_distance_group_placement 5
+	temp_min_distance_group_placement 12
+	max_distance_to_other_zones 7
+}
+create_object STONE /* in center */
+{
+	number_of_objects 3
+	number_of_groups 2
+	set_tight_grouping
+	set_gaia_objects_only
+	place_on_specific_land_id 111
+	set_scaling_to_player_number
+	min_distance_group_placement 5
+	temp_min_distance_group_placement 12
+	max_distance_to_other_zones 7
+}
+if DEATH_MATCH
+else
+create_object FOODA /* primary sheep/turkeys */
+{
+   	number_of_objects 4
+   	set_loose_grouping
+   	set_gaia_object_only
+   	set_place_for_every_player
+   	min_distance_to_players    10
+   	max_distance_to_players    12
+}
+create_object FOODA /* secondary sheep/turkeys */
+{
+   	number_of_objects 2
+	number_of_groups 2
+   	set_loose_grouping
+   	set_gaia_object_only
+   	set_place_for_every_player
+   	min_distance_to_players    14
+   	max_distance_to_players    30
+}
+create_object FORAGE /* close */
+{
+	number_of_objects 6
+	set_tight_grouping
+	group_placement_radius 4
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players 10
+	max_distance_to_players 12
+	max_distance_to_other_zones 7
+	avoid_forest_zone
+}
+create_object BOAR
+{
+	number_of_objects 2
+	set_place_for_every_player
+	set_gaia_object_only
+	min_distance_to_players 16
+	max_distance_to_players 22
+}
+create_object DEER /* in center */
+{
+	number_of_objects 4
+	number_of_groups 2
+	group_variance 1
+	set_tight_grouping
+	set_gaia_object_only
+	set_scaling_to_map_size
+	place_on_specific_land_id 111
+	max_distance_to_other_zones 5
+}
+create_object PALMTREE /* straggler trees */
+{
+  	number_of_objects             2
+  	set_gaia_object_only
+  	set_place_for_every_player
+  	min_distance_to_players       4
+  	max_distance_to_players       5
+  	min_distance_group_placement  2
+}
+create_object PALMTREE
+{
+  	number_of_objects             3
+  	set_gaia_object_only
+  	set_place_for_every_player
+  	min_distance_to_players       6
+ 	max_distance_to_players       8
+  	min_distance_group_placement  2
+}
+endif
+create_object RELIC /* (in center) */
+{
+	number_of_objects 5
+	min_distance_to_players 25
+	set_gaia_object_only
+	temp_min_distance_group_placement 20  /* keep away from each other */
+	place_on_specific_land_id 111
+}
+create_object SNAPPER
+{
+	number_of_objects 999
+	set_scaling_to_map_size
+	set_gaia_object_only
+	max_distance_to_other_zones 3
+	temp_min_distance_group_placement 5
+}
+create_object SHORE_FISH
+{
+  	number_of_objects 999
+  	set_scaling_to_map_size
+  	set_gaia_object_only
+ 	min_distance_group_placement 7
+}
+if REGICIDE /* regicide objects */
+create_object VILLAGER
+{
+  number_of_objects             7
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+create_object CASTLE
+{
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    10
+}
+endif
+<CONNECTION_GENERATION>
+create_connect_to_nonplayer_land
+{	
+	replace_terrain MED_WATER WATER
+	replace_terrain WATER SHALLOW
+	terrain_cost MED_WATER 7
+	terrain_cost WATER 7
+	terrain_cost GROUND 3
+	terrain_cost DDIRT 3
+	terrain_cost WOODS 3
+	terrain_cost BEACH 3
+	terrain_size MED_WATER 5 1
+	terrain_size WATER 4 1
+}

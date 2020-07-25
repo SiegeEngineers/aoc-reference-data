@@ -1,0 +1,274 @@
+#const BASE_TREE    10  /* 10 forest, 19 pine */
+#const MIDDLE_TREE  19  /* 10 forest, 19 pine */
+#const BORDERGROUND 16  /* 16 grass no object, 39 road grass, 3 Dirt greenish, 9 Grass brownish */
+#const BASE_LAND    9   /* Grass:   0  Default              */
+#const BASE_TGRASS  0   /*          9  Grass, brownish      */
+#const BASE_GRASS   12  /*          12 Grass, brighter      */
+#const OTHERGRASS   16  /*          16 Grass, no objects    */
+       
+<PLAYER_SETUP>
+random_placement
+
+<LAND_GENERATION>
+
+base_terrain		BORDERGROUND    /* Main terrain - End result: how the trade-path will look like */
+
+create_player_lands
+{
+terrain_type		BASE_LAND       /* Players area */
+land_percent		100
+base_size		    15
+left_border         1               /* Trade path */
+right_border        2               /* Trade path */
+top_border          1               /* Trade path */
+bottom_border       2               /* Trade path */
+border_fuzziness    50              /* Rounded edges for trade path */
+set_zone_by_team
+other_zone_avoidance_distance	21  /* Separation between teams, (MM) defines midle tree line width */
+}
+
+<TERRAIN_GENERATION>
+
+/* MICHI TREE LINE */
+create_terrain MIDDLE_TREE
+{
+  base_terrain                    BORDERGROUND /* Fills the area (MM) created by other_zone_avoidance_distance with trees */
+  land_percent                    100
+  clumping_factor                 1
+  spacing_to_other_terrain_types  2 
+}
+
+/* ---- BIG BLOCKS OF WOOD ---- */
+create_terrain		BASE_TREE       /* Defines grass (AA) that will recieve trees */
+{
+  base_terrain		BASE_LAND       /* Created into players land area only */
+  land_percent		9
+  number_of_clumps	3               /* low: few, bigger - high: many,smaller */
+  clumping_factor	100
+  set_scale_by_groups
+  set_avoid_player_start_areas
+  spacing_to_other_terrain_types	11
+}
+
+/* ---- MEDIUM BLOCKS OF WOOD ---- */
+create_terrain		BASE_TREE       /* Defines grass (BB) that will recieve trees */
+{
+  base_terrain		BASE_LAND       /* Created into players land area only */
+  land_percent		5
+  number_of_clumps	9
+  clumping_factor	15
+  set_scale_by_groups
+  set_avoid_player_start_areas
+  spacing_to_other_terrain_types	6
+}
+
+* ---- SMALL BLOCKS OF WOOD ---- */
+create_terrain		BASE_TREE       /* Defines grass (CC) that will recieve trees */
+{
+  base_terrain		BASE_LAND       /* Created into players land area only */
+  land_percent		5
+  number_of_clumps	40
+  clumping_factor	25
+  set_avoid_player_start_areas
+  spacing_to_other_terrain_types	1
+}
+
+/* GRASS MAKE UP */
+create_terrain		OTHERGRASS 
+{
+  base_terrain		BASE_LAND
+  land_percent		10
+  number_of_clumps	90
+  set_scale_by_groups
+}
+
+<OBJECTS_GENERATION>
+
+/* PLAYER START OBJECTS */
+create_object TOWN_CENTER
+{
+  set_place_for_every_player
+  group_placement_radius        18
+  min_distance_to_players    	0
+  max_distance_to_players       0
+  max_distance_to_other_zones   50
+}
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+  min_distance_group_placement	3
+}
+create_object SCOUT
+{
+  number_of_objects             1
+  set_place_for_every_player
+  min_distance_to_players       7
+  max_distance_to_players       9
+}
+
+/*****  PLAYER RESOURCES *****/
+
+create_object OAKTREE
+{
+	number_of_objects             	3
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players       	4
+	max_distance_to_players       	5
+	min_distance_group_placement  	2
+}
+
+create_object FORAGE
+{
+	number_of_objects               6
+	number_of_groups                2
+	group_placement_radius          3
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         10
+	max_distance_to_players         12
+	min_distance_group_placement    6
+}
+
+/* NEAR GOLD */
+
+create_object GOLD
+{
+	number_of_objects               7
+	group_placement_radius          3
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         12
+	max_distance_to_players         16
+	min_distance_group_placement  	7
+}
+
+/* MEDIUM GOLD */
+
+create_object GOLD
+{
+	number_of_objects               5
+	group_placement_radius          3
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         15
+	max_distance_to_players         23
+	min_distance_group_placement  	7
+}
+
+/* FAR GOLD */
+
+create_object GOLD
+{
+	number_of_objects               6
+	group_placement_radius          3
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         25
+	max_distance_to_players         35
+	min_distance_group_placement  	7
+}
+
+/* NEAR STONE */
+
+create_object STONE
+{
+	number_of_objects               6
+	group_placement_radius          2  
+	set_tight_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         14
+	max_distance_to_players         18
+	min_distance_group_placement  	7
+}
+
+/* FAR STONE */
+
+create_object STONE
+{
+	number_of_objects               6
+	group_placement_radius          2  
+	set_tight_grouping 
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         20
+	max_distance_to_players         26
+	min_distance_group_placement    7
+}
+
+/* SHEEP */
+
+create_object SHEEP
+{
+	number_of_objects               4
+	set_loose_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         7
+	max_distance_to_players         10
+}
+
+create_object SHEEP
+{
+	number_of_objects               2
+	number_of_groups                4
+	set_loose_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         14
+	max_distance_to_players         18
+}
+
+/* HUNTING */
+
+create_object DEER
+{
+	number_of_objects               8
+	group_variance             
+	group_placement_radius          3
+	set_loose_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         12
+	max_distance_to_players         23
+}
+
+create_object BOAR
+{
+	number_of_objects               1
+	number_of_groups                3
+	set_loose_grouping  
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players         12
+	max_distance_to_players         15
+}
+
+<CONNECTION_GENERATION>
+create_connect_all_players_land
+{
+if SPRING
+  replace_terrain WATER         ICE
+  replace_terrain MED_WATER     ICE
+  replace_terrain DEEP_WATER    ICE
+elseif AUTUMN
+  replace_terrain WATER         SHALLOW
+  replace_terrain MED_WATER     SHALLOW
+  replace_terrain DEEP_WATER    SHALLOW
+endif
+  terrain_cost    WATER         7
+  terrain_cost    MED_WATER     7
+  terrain_cost    DEEP_WATER    7
+  terrain_size    WATER         5   3    
+  terrain_size    MED_WATER     5   3   
+  terrain_size    DEEP_WATER    5   3   
+}
+
+

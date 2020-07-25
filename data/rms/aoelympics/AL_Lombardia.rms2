@@ -1,0 +1,340 @@
+/* Forgotten Empires - Lombardia (ver. October 13th) */
+
+/* Note: random_map.def is automatically included in every rms script */
+
+<PLAYER_SETUP>
+grouped_by_team
+ai_info_map_type ARABIA 0 0 0
+
+#include_drs thebr_setup.inc
+
+<LAND_GENERATION>
+
+base_terrain			GRASS
+
+create_player_lands 
+{ 
+  terrain_type			GRASS
+  land_percent			22
+  base_size			12
+if BATTLE_ROYALE
+	circle_radius 38 0
+  border_fuzziness                   12
+else
+	circle_radius 38 0
+  	border_fuzziness             12
+endif
+}
+
+<TERRAIN_GENERATION>
+
+	color_correction	CC_WINTER
+	
+  create_terrain SNOW
+{
+  base_terrain GRASS
+  number_of_clumps 10
+  land_percent 46
+  set_scale_by_groups
+  spacing_to_other_terrain_types 2
+}
+
+create_terrain SNOW_FOREST
+{
+  base_terrain                   SNOW
+  spacing_to_other_terrain_types 4
+  land_percent                   5
+  number_of_clumps               5
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+create_terrain PINE_FOREST
+{
+  base_terrain                   GRASS
+  spacing_to_other_terrain_types 4
+  land_percent                   7
+  number_of_clumps               7
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+   create_terrain FOREST
+{
+  base_terrain                   PINE_FOREST
+  number_of_clumps               40
+  land_percent                   3
+}
+
+/* PH Masking Patch */
+
+   create_terrain GRASS
+{
+  base_terrain                   SNOW
+  number_of_clumps               1000
+  land_percent                   100
+}
+
+   create_terrain SNOW
+{
+  base_terrain                   GRASS
+  number_of_clumps               36
+  spacing_to_other_terrain_types 0
+  land_percent                   rnd(25,35)
+  set_scale_by_size
+}
+
+   create_terrain ROAD
+{
+  base_terrain                   SNOW
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 2
+  land_percent                   100
+}
+   create_terrain GRASS
+{
+  base_terrain                   SNOW
+  number_of_clumps               1000
+  land_percent                   100
+terrain_mask 2
+}
+   create_terrain GRASS
+{
+  base_terrain                   SNOW
+  number_of_clumps               1000
+  land_percent                   100
+terrain_mask 2
+}
+   create_terrain SNOW
+{
+  base_terrain                   ROAD
+  number_of_clumps               1000
+  land_percent                   100
+}
+   create_terrain SNOW
+{
+  base_terrain                   ROAD
+  number_of_clumps               1000
+  land_percent                   100
+}
+
+   create_terrain GRASS2
+{
+  base_terrain                   GRASS
+  number_of_clumps               24
+  spacing_to_other_terrain_types 0
+  land_percent                   rnd(6,12)
+  set_scale_by_size
+terrain_mask 1
+}
+
+/* PH Masking Patch End */
+
+
+<OBJECTS_GENERATION>
+
+#define GNR_NORMALTC
+#define GNR_STARTVILLS
+#define GNR_CLASSICSCOUT
+#define GNR_REGICIDE_SPECIALTOWER
+
+/* required constants */
+start_random
+	percent_chance 25
+		#const HERDABLE_A 705
+	percent_chance 25
+		#const HERDABLE_A 1600
+	percent_chance 25
+		#const HERDABLE_A 1598
+	percent_chance 25
+		#const HERDABLE_A 1596
+end_random
+start_random
+	percent_chance 25
+		#const HERDABLE_B 705
+	percent_chance 25
+		#const HERDABLE_B 1600
+	percent_chance 25
+		#const HERDABLE_B 1598
+	percent_chance 25
+		#const HERDABLE_B 1596
+end_random
+#const HUNTABLE 65
+#const LURABLE_A 48
+#const LURABLE_B 48
+#const KERICEK 59
+#const STRAGGLER 
+#const PREDATOR_A 
+#const PREDATOR_B 
+
+#define GNR_GIVEHERD_A
+#define GNR_GIVEHERD_B
+#define GNR_HERD4CLASSIC_A
+#define GNR_HERD22CLASSIC_B
+#define GNR_HERDBDIST_CL
+
+#define GNR_GIVERELICS
+#define GNR_RELICMODERN_MEDIUM	/* originally set to DENSE */
+
+#define GNR_GIVEHUNT
+#define GNR_HUNT3OR4CLASSIC
+
+#define GNR_GIVELURES
+#define GNR_CLASSICLURES
+
+#define GNR_STARTINGGOLD
+#define GNR_STARTINGSTONE
+
+#define GNR_STARTGOLD744CL
+
+#define GNR_STARTSTONE54CL
+
+#define GNR_6KER
+
+#define GNR_FARGORIG_GIVE
+#define GNR_FARSORIG_GIVE
+
+#define GNR_FARGORIG_TYPE3
+#define GNR_FARSORIG_TYPE3
+
+#include_drs GeneratingObjects.inc
+
+if EMPIRE_WARS
+else
+
+create_object PINETREE
+{
+     number_of_objects             2
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players       4
+     max_distance_to_players       5
+     min_distance_group_placement  2
+terrain_to_place_on GRASS
+  avoid_actor_area 14
+}
+
+create_object PINETREE
+{
+     number_of_objects             3
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players       6
+     max_distance_to_players       8
+     min_distance_group_placement  2
+terrain_to_place_on GRASS
+  avoid_actor_area 14
+}
+
+create_object SNOWPINETREE
+{
+     number_of_objects             2
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players       4
+     max_distance_to_players       5
+     min_distance_group_placement  2
+terrain_to_place_on GRASS_SNOW
+  avoid_actor_area 14
+}
+
+create_object SNOWPINETREE
+{
+     number_of_objects             3
+     set_gaia_object_only
+     set_place_for_every_player
+     min_distance_to_players       6
+     max_distance_to_players       8
+     min_distance_group_placement  2
+terrain_to_place_on GRASS_SNOW
+  avoid_actor_area 14
+}
+
+endif
+
+if BATTLE_ROYALE
+else
+create_object DLC_BEAR
+{
+     number_of_groups 3
+     set_loose_grouping
+        number_of_objects 1
+  set_scaling_to_map_size
+     set_gaia_object_only
+     min_distance_group_placement 12
+     min_distance_to_players 40
+}
+endif
+
+create_object HAWK
+{
+     number_of_objects 4
+     set_scaling_to_map_size
+}
+
+create_object PINETREE
+{
+  number_of_objects          12
+  set_gaia_object_only
+  set_scaling_to_map_size
+if EMPIRE_WARS
+  min_distance_to_players    20
+else
+  min_distance_to_players    8
+endif
+terrain_to_place_on GRASS
+
+  avoid_actor_area 12
+  avoid_actor_area 14
+  avoid_actor_area 149
+  avoid_actor_area 61
+  avoid_actor_area 62
+  avoid_actor_area 63
+  avoid_actor_area 65
+  avoid_actor_area 66
+  avoid_actor_area 67
+
+}
+
+create_object SNOWPINETREE
+{
+  number_of_objects          12
+  set_gaia_object_only
+  set_scaling_to_map_size
+if EMPIRE_WARS
+  min_distance_to_players    20
+else
+  min_distance_to_players    8
+endif
+terrain_to_place_on GRASS_SNOW
+
+  avoid_actor_area 12
+  avoid_actor_area 14
+  avoid_actor_area 149
+  avoid_actor_area 61
+  avoid_actor_area 62
+  avoid_actor_area 63
+  avoid_actor_area 65
+  avoid_actor_area 66
+  avoid_actor_area 67
+
+}
+
+<ELEVATION_GENERATION>
+
+#const LAYER_D 0
+
+#define GNRELEV_HEIGHT05
+#define GNRELEV_INTENSITY_D
+#define GNRELEV_LAY_D
+
+#include_drs GeneratingElevation.inc
+
+<CLIFF_GENERATION>
+min_number_of_cliffs 3
+max_number_of_cliffs 7
+min_length_of_cliff  2
+max_length_of_cliff  7
+min_distance_cliffs  15
+
+

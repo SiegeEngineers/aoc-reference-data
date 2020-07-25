@@ -1,0 +1,446 @@
+/* ------------------------------------- */
+/* ---------FOREST NOTHING 2018--------- */
+/* ------------------------------------- */
+/* --Mapscript made by HenkDeSuperNerd-- */
+/* ------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------	*/
+/* Requires Userpatch 1.5																	*/
+/* Works with vanilla AOC and WololoKingdoms, and potentially other mods. 					*/
+
+/* CHANGES 																					*/
+/* the type of trees can be vary 															*/
+/* regular forest nothing but with possibility to have teams sharing a forest clearing, 	*/
+/* or to play regicide combined with other gamemodes 										*/
+/* fixed Mayan and Chinese villager spawns 													*/
+/* players should no longer spawn near map's edge											*/
+/* when regicide you start with king and extra villagers, but no castle! 					*/
+/* selecting relic victory will spawn monastery for each player, and a relic in the middle 	*/ 
+
+
+/* OPTIONS 																					*/
+/* selecting LOW_RESOURCES will enable regicide to combine with other game modes 			*/
+/* selecting MEDIUM_RESOURCES will enable teams spawning close together						*/
+/* selecting HIGH_RESOURCES will enable both regicide and teams close together				*/
+/* selecting STANDARD_RESOURCES will have the standard resources and no other effects 		*/
+
+/* as a result of using the resources to create a way to select custom settings, the map	*/
+/* will ALWAYS have the 'standard resources' which are:										*/
+/* for most gamemodes: 200w, 200f, 100g, 150s												*/
+/* for regicide: 500w, 500f, 0g, 150s														*/
+/* for deathmatch: 20000w, 20000f, 10000g, 5000s											*/
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* ***************VERSION CHECK*************** */
+
+if DLC_MANGROVEFOREST 	
+	#define WK 
+else					
+	#define AOC
+endif
+
+/* ******ENABLE REGICIDE OR TEAMTOGTHER******* */
+
+if LOW_RESOURCES
+#define GUARDSTATE
+#define KINGGAME
+elseif MEDIUM_RESOURCES
+#define TEAMTOGETHER
+elseif HIGH_RESOURCES
+#define TEAMTOGETHER
+#define GUARDSTATE
+#define KINGGAME
+endif
+
+/* *********RANDOMIZE TERRAIN STYLES********** */
+
+start_random
+	percent_chance 15 /* trees on snowy grass */
+		#define GRASSMAP
+		#const WOODS 21
+		#const FLOOR 34
+	percent_chance 55 /* trees on leaves */
+		#define FORESTMAP	
+		#const WOODS 10
+		#const FLOOR 5
+	percent_chance 30 /* trees on desert */
+		#define DESERTMAP	
+		#const WOODS 13
+		#const FLOOR 14
+end_random	
+
+/* ***********CONSTANTS********************** */
+
+#const AMOUNT_FOOD 0
+#const AMOUNT_WOOD 1
+#const AMOUNT_STONE 2
+#const AMOUNT_GOLD 3
+#const STARTING_FOOD 91
+#const STARTING_WOOD 92
+#const STARTING_STONE 93
+#const STARTING_GOLD 94
+#const MOD_RESOURCE 1
+#const ATTR_SET 0
+#const ATTR_ADD 1
+#const DATA_MODE_FLAGS 1
+#const GAIA_SET_PLAYER_DATA -10
+#const POP_HEADROOM 4
+#const ATTR_ATTR_STORAGE_VALUE 21
+#const GAIA_UPGRADE_UNIT     -4
+#const SET_ATTRIBUTE   0
+
+#const BEDROCK 40
+#const DLC_ACACIATREE 1063
+#const DLC_AFRICANBUSH 1053
+#const DLC_AFRICANBUSH2 1054
+#const DLC_BAOBABTREE 1052
+#const DLC_DRAGONTREE 1051
+#const RAINFOREST_TREE 1146
+#const MANGROVE_TREE 1144
+#const BUSH 302
+
+<PLAYER_SETUP>
+if TEAMTOGETHER
+grouped_by_team
+else
+random_placement
+endif
+	
+/* ***************STARTING RESOURCES*************** */
+
+if REGICIDE	
+#define KINGGAME
+effect_amount MOD_RESOURCE POP_HEADROOM ATTR_ADD 10
+	if MEDIUM_RESOURCES
+	effect_amount MOD_RESOURCE STARTING_WOOD ATTR_ADD -250	
+	effect_amount MOD_RESOURCE STARTING_FOOD ATTR_ADD -250
+	effect_amount MOD_RESOURCE STARTING_GOLD ATTR_ADD 0
+	effect_amount MOD_RESOURCE STARTING_STONE ATTR_ADD -75	
+	elseif HIGH_RESOURCES
+	effect_amount MOD_RESOURCE STARTING_WOOD ATTR_ADD -500	
+	effect_amount MOD_RESOURCE STARTING_FOOD ATTR_ADD -500
+	effect_amount MOD_RESOURCE STARTING_GOLD ATTR_ADD 0
+	effect_amount MOD_RESOURCE STARTING_STONE ATTR_ADD -150	
+	endif		
+elseif DEATH_MATCH
+	if MEDIUM_RESOURCES
+	effect_amount MOD_RESOURCE STARTING_WOOD ATTR_ADD -10000	
+	effect_amount MOD_RESOURCE STARTING_FOOD ATTR_ADD -10000
+	effect_amount MOD_RESOURCE STARTING_GOLD ATTR_ADD -5000
+	effect_amount MOD_RESOURCE STARTING_STONE ATTR_ADD -2500	
+	elseif HIGH_RESOURCES
+	effect_amount MOD_RESOURCE STARTING_WOOD ATTR_ADD -20000	
+	effect_amount MOD_RESOURCE STARTING_FOOD ATTR_ADD -20000
+	effect_amount MOD_RESOURCE STARTING_GOLD ATTR_ADD -10000
+	effect_amount MOD_RESOURCE STARTING_STONE ATTR_ADD -5000
+	endif
+else
+	if LOW_RESOURCES /* regicide */
+		effect_amount MOD_RESOURCE STARTING_WOOD ATTR_ADD 300	
+		effect_amount MOD_RESOURCE STARTING_FOOD ATTR_ADD 300
+		effect_amount MOD_RESOURCE STARTING_GOLD ATTR_ADD -100
+		effect_amount MOD_RESOURCE STARTING_STONE ATTR_ADD -50	
+	elseif MEDIUM_RESOURCES /* teamtogether */
+		effect_amount MOD_RESOURCE STARTING_WOOD ATTR_ADD -300	
+		effect_amount MOD_RESOURCE STARTING_FOOD ATTR_ADD -300
+		effect_amount MOD_RESOURCE STARTING_GOLD ATTR_ADD -200
+		effect_amount MOD_RESOURCE STARTING_STONE ATTR_ADD -200	
+	elseif HIGH_RESOURCES /* regicide + team together */
+		effect_amount MOD_RESOURCE STARTING_WOOD ATTR_ADD -500	
+		effect_amount MOD_RESOURCE STARTING_FOOD ATTR_ADD -500
+		effect_amount MOD_RESOURCE STARTING_GOLD ATTR_ADD -700
+		effect_amount MOD_RESOURCE STARTING_STONE ATTR_ADD -650	
+	endif
+endif   
+
+/* *******GUARDSTATE TO REPLICATE REGICIDE******** */
+
+if REGICIDE
+else
+	if GUARDSTATE
+		effect_amount GAIA_SET_PLAYER_DATA DATA_MODE_FLAGS ATTR_SET 1   /* Set to 0 for Spies only, 3 for Treason only, 1 for both Spies and Treason */	
+		guard_state KING AMOUNT_GOLD 0 1
+		effect_amount MOD_RESOURCE POP_HEADROOM ATTR_ADD 10	
+	endif
+endif
+
+/* ******ADJUSTMENTS FOR CAPTURE THE RELICS******* */	
+
+if CAPTURE_RELICS
+	effect_amount ENABLE_TECH RI_MONASTERY ATTR_DISABLE 210
+	effect_amount ADD_ATTRIBUTE MONASTERY ATTR_HITPOINTS 20000
+	effect_amount ADD_ATTRIBUTE MONASTERY_F ATTR_HITPOINTS 20000
+	effect_amount ADD_ATTRIBUTE MONASTERY_C ATTR_HITPOINTS 20000
+	effect_amount ADD_ATTRIBUTE MONASTERY_I ATTR_HITPOINTS 20000
+	effect_amount ADD_ATTRIBUTE MONASTERY ATTR_HERO_STATUS 4
+	effect_amount ADD_ATTRIBUTE MONASTERY_F ATTR_HERO_STATUS 4
+	effect_amount ADD_ATTRIBUTE MONASTERY_C ATTR_HERO_STATUS 4
+	effect_amount ADD_ATTRIBUTE MONASTERY_I ATTR_HERO_STATUS 4
+	effect_amount ADD_ATTRIBUTE MONASTERY ATTR_HERO_HEAL_TIME 1
+	effect_amount ADD_ATTRIBUTE MONASTERY_F ATTR_HERO_HEAL_TIME 1
+	effect_amount ADD_ATTRIBUTE MONASTERY_C ATTR_HERO_HEAL_TIME 1
+	effect_amount ADD_ATTRIBUTE MONASTERY_I ATTR_HERO_HEAL_TIME 1
+	effect_amount ADD_ATTRIBUTE MONASTERY ATTR_ARMOR 968
+	effect_amount ADD_ATTRIBUTE MONASTERY_F ATTR_ARMOR 968
+	effect_amount ADD_ATTRIBUTE MONASTERY_C ATTR_ARMOR 968
+	effect_amount ADD_ATTRIBUTE MONASTERY_I ATTR_ARMOR 968
+	effect_amount ADD_ATTRIBUTE MONASTERY ATTR_ARMOR 1224
+	effect_amount ADD_ATTRIBUTE MONASTERY_F ATTR_ARMOR 1224
+	effect_amount ADD_ATTRIBUTE MONASTERY_C ATTR_ARMOR 1224
+	effect_amount ADD_ATTRIBUTE MONASTERY_I ATTR_ARMOR 1224
+	effect_amount ADD_ATTRIBUTE MONASTERY ATTR_ARMOR 3071
+	effect_amount ADD_ATTRIBUTE MONASTERY_F ATTR_ARMOR 3071
+	effect_amount ADD_ATTRIBUTE MONASTERY_C ATTR_ARMOR 3071
+	effect_amount ADD_ATTRIBUTE MONASTERY_I ATTR_ARMOR 3071
+	effect_amount ADD_ATTRIBUTE MONASTERY ATTR_ARMOR 5576
+	effect_amount ADD_ATTRIBUTE MONASTERY_F ATTR_ARMOR 5576
+	effect_amount ADD_ATTRIBUTE MONASTERY_C ATTR_ARMOR 5576
+	effect_amount ADD_ATTRIBUTE MONASTERY_I ATTR_ARMOR 5576
+endif	
+
+/* ************SHAPING THE FORESTS************** */
+if FORESTMAP	
+	/* forests on leaves */
+	if WK
+		start_random
+			percent_chance 10	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE RAINFOREST_TREE 0 
+			percent_chance 2	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE MANGROVE_TREE 0 	
+			percent_chance 2	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE DLC_ACACIATREE 0
+			effect_amount SET_ATTRIBUTE DLC_ACACIATREE ATTR_STORAGE_VALUE 100		
+			percent_chance 2	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE DLC_BAOBABTREE 0 
+			effect_amount SET_ATTRIBUTE DLC_BAOBABTREE ATTR_STORAGE_VALUE 100	
+			percent_chance 2
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE DLC_DRAGONTREE 0
+
+			percent_chance 3
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE BUSH 0 	
+			percent_chance 3
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE DLC_AFRICANBUSH 0 	
+			percent_chance 3
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE DLC_AFRICANBUSH2 0 	
+
+			percent_chance 15	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE JUNGLE_TREE 0 
+			percent_chance 15	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE PINE_FOREST_TREE 0 	
+			percent_chance 5	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE SNOW_PINE_TREE 0 		
+			percent_chance 10
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE BAMBOO_TREE 0 	
+			percent_chance 5
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE PALM_FOREST_TREE 0 	
+
+			percent_chance 23 /* standard oak forest trees */
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE OAK_FOREST_TREE 0 			
+		end_random
+	elseif AOC
+		start_random
+			percent_chance 20	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE JUNGLE_TREE 0 
+			percent_chance 20	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE PINE_FOREST_TREE 0 	
+			percent_chance 10	
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE SNOW_PINE_TREE 0 		
+			percent_chance 16
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE BAMBOO_TREE 0 	
+			percent_chance 8
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE PALM_FOREST_TREE 0 			
+			percent_chance 36 /* standard oak forest trees */
+			effect_amount GAIA_UPGRADE_UNIT FOREST_TREE OAK_FOREST_TREE 0 				
+		end_random
+	endif
+elseif DESERTMAP	
+	/* forests on desert */
+	if WK
+		start_random
+			percent_chance 2	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE RAINFOREST_TREE 0 
+			percent_chance 4	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE MANGROVE_TREE 0 	
+			percent_chance 10	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE DLC_ACACIATREE 0
+			effect_amount SET_ATTRIBUTE DLC_ACACIATREE ATTR_STORAGE_VALUE 100		
+			percent_chance 10	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE DLC_BAOBABTREE 0 
+			effect_amount SET_ATTRIBUTE DLC_BAOBABTREE ATTR_STORAGE_VALUE 100	
+			percent_chance 10
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE DLC_DRAGONTREE 0
+
+			percent_chance 2
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE BUSH 0 	
+			percent_chance 4
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE DLC_AFRICANBUSH 0 	
+			percent_chance 2
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE DLC_AFRICANBUSH2 0 	
+
+			percent_chance 4	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE JUNGLE_TREE 0 
+			percent_chance 4	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE PINE_FOREST_TREE 0 	
+			percent_chance 4	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE SNOW_PINE_TREE 0 		
+			percent_chance 5
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE BAMBOO_TREE 0 	
+			percent_chance 5
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE OAK_FOREST_TREE 0 	
+			percent_chance 34 /* standard palm forest trees */
+		end_random
+	elseif AOC
+		start_random
+			percent_chance 4	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE JUNGLE_TREE 0 
+			percent_chance 4	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE PINE_FOREST_TREE 0 	
+			percent_chance 4	
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE SNOW_PINE_TREE 0 		
+			percent_chance 8
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE BAMBOO_TREE 0 	
+			percent_chance 8
+			effect_amount GAIA_UPGRADE_UNIT PALM_FOREST_TREE OAK_FOREST_TREE 0 			
+			percent_chance 72 /* standard palm forest trees */
+		end_random
+	endif	
+elseif GRASSMAP
+	/* forest on snowy grass */
+	if WK
+		start_random
+			percent_chance 1	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE RAINFOREST_TREE 0 
+			percent_chance 1	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE MANGROVE_TREE 0 	
+			percent_chance 1	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE DLC_ACACIATREE 0
+			effect_amount SET_ATTRIBUTE DLC_ACACIATREE ATTR_STORAGE_VALUE 100		
+			percent_chance 1	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE DLC_BAOBABTREE 0 
+			effect_amount SET_ATTRIBUTE DLC_BAOBABTREE ATTR_STORAGE_VALUE 100	
+			percent_chance 1
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE DLC_DRAGONTREE 0
+
+			percent_chance 4
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE BUSH 0 	
+			percent_chance 1
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE DLC_AFRICANBUSH 0 	
+			percent_chance 10
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE DLC_AFRICANBUSH2 0 	
+
+			percent_chance 1	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE JUNGLE_TREE 0 
+			percent_chance 18	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE PINE_FOREST_TREE 0 	
+			percent_chance 1	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE PALM_FOREST_TREE 0 		
+			percent_chance 8
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE BAMBOO_TREE 0 	
+			percent_chance 12
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE OAK_FOREST_TREE 0 	
+			
+			percent_chance 40 /* standard snow forest trees */
+		end_random
+	elseif AOC
+		start_random
+			percent_chance 2	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE JUNGLE_TREE 0 
+			percent_chance 17	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE PINE_FOREST_TREE 0 	
+			percent_chance 2	
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE PALM_FOREST_TREE 0 		
+			percent_chance 12
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE BAMBOO_TREE 0 	
+			percent_chance 17
+			effect_amount GAIA_UPGRADE_UNIT SNOW_PINE_TREE OAK_FOREST_TREE 0 	
+
+			percent_chance 50 /* standard snow forest trees */
+		end_random
+	endif	
+endif
+		effect_amount SET_ATTRIBUTE SNOW_PINE_TREE ATTR_STORAGE_VALUE 100	
+		effect_amount SET_ATTRIBUTE FOREST_TREE ATTR_STORAGE_VALUE 100	
+		effect_amount SET_ATTRIBUTE PALM_FOREST_TREE ATTR_STORAGE_VALUE 100	
+		
+<LAND_GENERATION>
+base_terrain WOODS
+
+create_player_lands
+{
+  terrain_type					FLOOR
+  border_fuzziness 				99
+  number_of_tiles 				1
+  base_size 					2
+  top_border					7
+  left_border					7
+  bottom_border					7
+  right_border					7
+  other_zone_avoidance_distance 10  
+}
+
+if CAPTURE_RELICS
+create_land
+{
+  terrain_type					BEDROCK
+  border_fuzziness 				1
+  land_percent 					0
+  base_size						4
+  land_position 				50 50
+  land_id						42
+}
+endif
+
+<OBJECTS_GENERATION>
+
+create_object TOWN_CENTER
+{
+  group_placement_radius     3
+  set_place_for_every_player
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+	set_place_for_every_player
+	min_distance_to_players			0
+	max_distance_to_players			2
+}
+
+if KINGGAME
+create_object VILLAGER
+{
+  number_of_objects 7
+  set_place_for_every_player
+  min_distance_to_players    0
+  max_distance_to_players    2
+}
+create_object KING
+{
+  number_of_objects 1
+  set_place_for_every_player
+  min_distance_to_players    0
+  max_distance_to_players    2
+}
+endif
+
+if CAPTURE_RELICS
+create_object RELIC
+{
+  place_on_specific_land_id  42
+  number_of_objects 1
+  min_distance_to_players    0
+  max_distance_to_players    0  
+}
+
+create_object MONASTERY
+{
+  number_of_objects 1
+  set_place_for_every_player
+  min_distance_to_players    6
+  max_distance_to_players    6
+  min_distance_group_placement 5
+}
+endif

@@ -1,0 +1,409 @@
+
+/* Migration for Forgotten Empires */
+
+/* 2018 version with extra seasons */
+
+/* Note: random_map.def is automatically included in every rms script */
+
+/* PH SEASONS */
+
+start_random
+percent_chance 15 #define PH_SPRING
+percent_chance 15 #define PH_ALPINE
+percent_chance 20 #define PH_DESERT
+percent_chance 4 #define PH_TROPHICALSOUTH
+percent_chance 4 #define PH_TROPHICALEAST
+percent_chance 8 #define PH_AFRICAN
+percent_chance 8 #define PH_ASIAN
+percent_chance 8 #define PH_AUTUMN
+percent_chance 8 #define PH_FROZEN
+percent_chance 10 #define PH_MEDISOUTH
+end_random
+
+#include_drs F_seasons.inc
+
+<PLAYER_SETUP>
+  random_placement 
+	ai_info_map_type MIGRATION 0 0 0
+
+#include_drs thebr_setup.inc
+
+<LAND_GENERATION>
+base_terrain VODA
+
+create_player_lands 
+{ 
+    terrain_type                     LAYER_C
+if LUDIKRIS_MAP
+  land_percent                     7
+else
+  land_percent                     15
+endif
+  base_size                        9
+if BATTLE_ROYALE
+	circle_placement
+	circle_radius 42
+  border_fuzziness                   1
+else
+	if TINY_MAP
+	circle_placement
+	circle_radius 42
+  border_fuzziness                   1
+	elseif SMALL_MAP
+	circle_placement
+	circle_radius 42
+  border_fuzziness                   1
+	elseif MEDIUM_MAP
+	circle_placement
+	circle_radius 42
+  border_fuzziness                   1
+	else
+  border_fuzziness                   7
+	endif
+endif
+  other_zone_avoidance_distance    7
+  clumping_factor                  15
+}
+
+/* ***FREE BIG ISLAND*** */
+
+create_land 
+{
+    terrain_type                     LAYER_A
+if LUDIKRIS_MAP
+  land_percent                     55
+else
+  land_percent                     40
+endif
+  border_fuzziness                 10
+  other_zone_avoidance_distance    10 
+  land_id                          21
+    left_border                    12
+    right_border		   12
+    top_border			   12
+    bottom_border                  12
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+#include_drs F_ColorCorrection.inc
+
+create_terrain WOODIES_B
+{
+  base_terrain                   LAYER_C
+  spacing_to_other_terrain_types 2
+  land_percent                   2
+  number_of_clumps               7 /* originally 3 6 */
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+#define WMASK_VODA
+#include_drs F_WaterMasking.inc
+
+/* PRIMARY FOREST */
+
+  create_terrain WOODIES
+{
+  base_terrain                   LAYER_A
+  spacing_to_other_terrain_types 5
+  land_percent                   4
+  number_of_clumps               14
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* PRIMARY PATCH */
+
+   create_terrain LAYER_B
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               16
+  spacing_to_other_terrain_types 0
+  land_percent                   20
+  set_scale_by_size
+}
+
+   create_terrain DLC_ROCK
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 2
+  land_percent                   100
+  set_scale_by_size
+}
+
+   create_terrain LAYER_A
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 0
+  land_percent                   100
+  set_scale_by_size
+terrain_mask 1
+}
+
+   create_terrain LAYER_B
+{
+  base_terrain                   DLC_ROCK
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 0
+  land_percent                   100
+  set_scale_by_size
+}
+
+   create_terrain LAYER_B
+{
+  base_terrain                   DLC_ROCK
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 0
+  land_percent                   100
+  set_scale_by_size
+}
+
+/* SECONDARY FOREST */
+
+create_terrain WOODIES_B
+{
+  base_terrain                   LAYER_B
+  spacing_to_other_terrain_types 3
+  land_percent                   1
+  number_of_clumps               3
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* SECONDARY PATCH */
+
+   create_terrain LAYER_C
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               24
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+}
+
+/* PATCHING STARTING ISLANDS */
+
+
+   create_terrain LAYER_B
+{
+  base_terrain                   LAYER_C
+  number_of_clumps               16
+  spacing_to_other_terrain_types 0
+  land_percent                   4
+  set_scale_by_size
+terrain_mask 2
+}
+
+/* LAYER E+F Patch */
+
+   create_terrain LAYER_E
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               20
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+terrain_mask 1
+}
+
+   create_terrain LAYER_F
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               14
+  spacing_to_other_terrain_types 0
+  land_percent                   1
+  set_scale_by_size
+terrain_mask 1
+}
+
+
+<OBJECTS_GENERATION>
+
+#define GNR_NORMALTC
+#define GNR_STARTVILLS
+#define GNR_CLASSICSCOUT
+
+#define GNR_GIVETRANSPORT
+
+#define GNR_REGICIDE_SPECIALTOWER
+#define GNR_6KER
+#define GNR_KERIK7NUMBER
+
+#define GNR_EMP_LIMITTO5FARMS
+#define GNR_EMP_NOBARRACKS
+
+#define GNR_STARTINGGOLD
+#define GNR_STARTINGSTONE
+
+#define GNR_STARTGOLD8M
+#define GNR_STARTSTONE6M
+
+#define GNR_STARTGS_5WBLOCK
+
+#define GNR_RESSUPERCLOSE
+
+#define GNR_GIVEHERD_A
+#define GNR_GIVEHERD_B
+
+#define GNR_HERD2_A
+#define GNR_HERD4_B
+#define GNR_HERDBDIST_SCL
+
+#define GNR_GIVEHUNT
+#define GNR_HUNT4MODERN
+#define GNR_HUNTDIST_SCL
+
+#define GNR_HOMESTRAGGLE
+#define GNR_MAPSTRAGGLE
+#define GNR_NORMALBIRDS
+#define GNR_STANDARDFISH
+
+#include_drs GeneratingObjects.inc
+
+/* CAPTAIN FIN BOSS original */
+
+/*
+create_object FISH_A
+{
+  number_of_objects                   6
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+  min_distance_group_placement  4
+}
+create_object FISH_B
+{
+  number_of_objects                   170
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+  min_distance_group_placement  8
+} 
+*/
+
+/*
+create_object MELKARYBA
+{
+  number_of_objects                   25
+  set_scaling_to_map_size
+  set_gaia_object_only
+ min_distance_group_placement  3
+}
+*/
+
+/* CAPTAIN FIN BOSS END */
+
+
+/* *************************************************** */
+/* ****IN THE NEW WORLD**** */
+
+
+create_object RELIC
+{
+   number_of_objects            999
+  /* min_distance_to_players     25 */
+   temp_min_distance_group_placement 42
+place_on_specific_land_id     21
+}
+
+create_object LURABLE_A
+{
+  number_of_objects          1
+  group_placement_radius     3
+  number_of_groups 	999
+  set_loose_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 36
+place_on_specific_land_id     21
+}
+
+create_object HERDABLE_B
+{
+  number_of_objects          1
+  group_placement_radius     3
+  number_of_groups 	999
+  set_loose_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 30
+place_on_specific_land_id     21
+}
+
+create_object GOLD
+{
+  number_of_objects          6
+  group_placement_radius     3
+  number_of_groups 	1
+  set_scaling_to_player_number
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 36
+max_distance_to_other_zones 6
+place_on_specific_land_id     21
+avoid_forest_zone 2
+}
+
+create_object STONE
+{
+  number_of_objects          5
+  group_placement_radius     3
+  number_of_groups 	1
+  set_scaling_to_player_number
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 36
+max_distance_to_other_zones 6
+place_on_specific_land_id     21
+avoid_forest_zone 2
+}
+
+create_object KERICEK
+{
+  number_of_objects          5
+  group_placement_radius     3
+  number_of_groups 	999
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 42
+max_distance_to_other_zones 6
+place_on_specific_land_id     21
+avoid_forest_zone 2
+}
+
+create_object PREDATOR_A
+{
+  number_of_objects          1
+  group_placement_radius     3
+  number_of_groups 	999
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement 38
+max_distance_to_other_zones 6
+place_on_specific_land_id     21
+}
+
+/* ****************************************************** */
+
+<ELEVATION_GENERATION>
+
+#define GNRELEV_HEIGHT04
+#define GNRELEV_INTENSITY_I
+#define GNRELEV_LAY_A
+
+#include_drs GeneratingElevation.inc
+
+/* ****************************************************** */
+
+
+<CLIFF_GENERATION>
+
+
+min_number_of_cliffs 1
+max_number_of_cliffs 2
+min_length_of_cliff  4
+max_length_of_cliff  5
+cliff_curliness      10
+min_distance_cliffs  3     
