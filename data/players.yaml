@@ -1595,6 +1595,8 @@
   platforms:
     voobly:
       - '124483923'
+    de:
+      - '746777'
 - name: chaos_2_win
   country: de
   platforms:
