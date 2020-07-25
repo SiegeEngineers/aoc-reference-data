@@ -218,6 +218,8 @@
       - '124322377' # RiskyDice
       - '124508020' # chart11
       - '124206032' # PoJ
+    de:
+      - '217905'
 - name: Hyaganeglu
   country: null
   platforms:
@@ -549,9 +551,7 @@
       - '124775535'
     de:
       - '208393'
-      - '1252385'
       - '1827959' # bad neighbor
-      - '2431776'
 - name: JorDan_23
   country: de
   esportsearnings: 12245
@@ -728,6 +728,7 @@
     de:
       - '212746'
       - '661884'
+      - '965185'
 - name: Kasva
   country: tr
   aoeelo: 195
@@ -790,6 +791,8 @@
       - '123601190' # buzz
     de:
       - '239238'
+      - '1252385'
+      - '2431776'
 - name: Dziamdziak
   country: pl
   aoeelo: 127
@@ -975,6 +978,8 @@
       - '123452158'
       - '160816'
       - '610'
+    de:
+      - '1629889'
     gamepark:
       - 'alive'
     zone:
@@ -1688,6 +1693,7 @@
   platforms:
     de:
       - '1832072'
+      - '1221228'
 - name: HerG
   country: tw
   aoeelo: 445
@@ -1699,6 +1705,8 @@
   country: au
   aoeelo: 66
   platforms:
+    de:
+      - '223206'
 - name: Scotty
   country: us
   aoeelo: 78
@@ -2045,7 +2053,7 @@
     de:
       - '197930'
       - '951203' # HaroldTheDuck
-- name: tr_rex_
+- name: Rex
   country: pl
   twitch: https://www.twitch.tv/tr_rex_
   youtube: https://www.youtube.com/channel/UCIQg67br-zXRxyrFRwbfBsQ
@@ -2058,3 +2066,14 @@
   platforms:
     de:
       - '545512'
+- name: Rise
+  country: it
+  platforms:
+    de:
+      - '1428813'
+      - '210388'
+- name: Dark
+  country: ru
+  platforms:
+    de:
+      - '1407942'
