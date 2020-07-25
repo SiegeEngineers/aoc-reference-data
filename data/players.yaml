@@ -112,6 +112,7 @@
       - '232410' # Antagonist
       - '196366-nac3' # Laaaaan
       - '1819193' # sheriff
+      - '2602752'
 - name: Dogao
   country: br
   esportsearnings: 12250
@@ -550,6 +551,7 @@
       - '208393'
       - '1252385'
       - '1827959' # bad neighbor
+      - '2431776'
 - name: JorDan_23
   country: de
   esportsearnings: 12245
@@ -1073,6 +1075,7 @@
       - '123793404'
     de:
       - '599689'
+      - '2428811'
 - name: Spaden
   country: se
   aoeelo: 65
@@ -1218,6 +1221,8 @@
     de:
       - '409748'
       - '2667231'
+      - '2850727'
+      - '2401889'
     gamepark:
       - 'capoch'
 - name: 'Rami'
