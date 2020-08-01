@@ -2077,6 +2077,7 @@
       - '210388'
 - name: Dark
   country: ru
+  twitch: https://www.twitch.tv/dark_aoe
   platforms:
     de:
       - '1407942'
