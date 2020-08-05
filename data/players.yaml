@@ -2082,6 +2082,8 @@
   country: ru
   twitch: https://www.twitch.tv/dark_aoe
   platforms:
+    voobly:
+      - '125137692'
     de:
       - '1407942'
 - name: Mahya
