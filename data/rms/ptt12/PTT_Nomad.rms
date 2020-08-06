@@ -1,0 +1,592 @@
+
+/* Nomad for Forgotten Empires */
+
+/* Note: random_map.def is automatically included in every rms script */
+
+/* ****************************************************** */
+<PLAYER_SETUP>
+  random_placement
+if BATTLE_ROYALE
+elseif EMPIRE_WARS
+else
+  nomad_resources
+endif
+	ai_info_map_type NOMAD 1 0 0
+
+
+/* ****************************************************** */
+
+/* PH SEASONS */
+
+start_random
+percent_chance 15 #define PH_SPRING
+percent_chance 10 #define PH_ALPINE
+percent_chance 15 #define PH_DESERT
+percent_chance 5 #define PH_TROPHICALSOUTH
+percent_chance 5 #define PH_TROPHICALEAST
+percent_chance 5 #define PH_AFRICAN_E
+percent_chance 5 #define PH_ASIAN
+percent_chance 10 #define PH_AUTUMN
+percent_chance 15 #define PH_FROZEN
+percent_chance 15 #define PH_MEDISOUTH
+end_random
+
+#include_drs F_seasons.inc
+
+<LAND_GENERATION>
+
+base_terrain VODA
+
+
+create_player_lands 
+{ 
+
+  terrain_type                     LAYER_A
+
+start_random
+  percent_chance 50
+  land_percent                     52
+ percent_chance 50
+  land_percent                     60
+end_random
+base_size                        8
+start_random
+percent_chance 25
+    left_border                    8
+    top_border                     8
+    bottom_border                  8
+percent_chance 25
+    left_border                    8
+    top_border                     8
+    right_border                   8
+percent_chance 25
+    right_border                   8
+    left_border                    8
+    bottom_border                  8
+percent_chance 25
+    right_border                   8
+    top_border                     8
+    bottom_border                  8
+end_random
+border_fuzziness                 15
+zone                             1
+other_zone_avoidance_distance    7
+clumping_factor                 15
+}
+
+/* ****************************************************** */
+<TERRAIN_GENERATION>
+
+#include_drs F_ColorCorrection.inc
+
+#define WMASK_VODA
+#include_drs F_WaterMasking.inc
+
+/* PRIMARY FOREST */
+
+create_terrain WOODIES
+{
+  base_terrain                   LAYER_A
+  spacing_to_other_terrain_types 5
+  land_percent                   9
+  number_of_clumps               10
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+
+/* PRIMARY PATCH */
+
+create_terrain LAYER_B
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               8
+  spacing_to_other_terrain_types 1
+  land_percent                   4
+  set_scale_by_size
+}
+elseif ALPINE_MAP
+
+
+/* SECONDARY FOREST */
+
+create_terrain WOODIES_B
+{
+  base_terrain                   LAYER_B
+  spacing_to_other_terrain_types 3
+  land_percent                   1
+  number_of_clumps               3
+  set_avoid_player_start_areas     
+  set_scale_by_groups
+}
+
+/* PH Masking Patch */
+
+   create_terrain LAYER_A
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  land_percent                   100
+}
+
+   create_terrain LAYER_B
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               36
+  spacing_to_other_terrain_types 0
+  land_percent                   rnd(14,28)
+  set_scale_by_size
+}
+
+   create_terrain ROAD
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  spacing_to_other_terrain_types 2
+  land_percent                   100
+}
+   create_terrain LAYER_A
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  land_percent                   100
+terrain_mask 2
+}
+   create_terrain LAYER_A
+{
+  base_terrain                   LAYER_B
+  number_of_clumps               1000
+  land_percent                   100
+terrain_mask 2
+}
+   create_terrain LAYER_B
+{
+  base_terrain                   ROAD
+  number_of_clumps               1000
+  land_percent                   100
+}
+   create_terrain LAYER_B
+{
+  base_terrain                   ROAD
+  number_of_clumps               1000
+  land_percent                   100
+}
+
+   create_terrain LAYER_C
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               24
+  spacing_to_other_terrain_types 0
+  land_percent                   rnd(2,6)
+  set_scale_by_size
+terrain_mask 1
+}
+
+/* PH Masking Patch End */
+
+/* LAYER E+F Patch */
+
+   create_terrain LAYER_E
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               20
+  spacing_to_other_terrain_types 0
+  land_percent                   2
+  set_scale_by_size
+terrain_mask 1
+}
+
+   create_terrain LAYER_F
+{
+  base_terrain                   LAYER_A
+  number_of_clumps               14
+  spacing_to_other_terrain_types 0
+  land_percent                   1
+  set_scale_by_size
+terrain_mask 1
+}
+
+
+/* ****************************************************** */
+<OBJECTS_GENERATION>
+
+if EMPIRE_WARS
+
+#define GNR_NORMALTC
+#define GNR_STARTVILLS
+#define GNR_CLASSICSCOUT
+
+#define GNR_GIVERELICS
+#define GNR_RELICMODERN_MEDIUM
+
+#define GNR_REGICIDE_SPECIALTOWER /* only tower + king */
+#define GNR_6KER
+
+#define GNR_STARTINGGOLD
+#define GNR_STARTINGSTONE
+
+#define GNR_STARTGOLD744CL
+#define GNR_STARTSTONE54CL
+
+#define GNR_GIVEHERD_A
+#define GNR_GIVEHERD_B
+
+#define GNR_HERD4CLASSIC_A
+#define GNR_HERD22CLASSIC_B
+
+#define GNR_GIVEHUNT
+
+#define GNR_HUNT3OR4CLASSIC
+
+#define GNR_GIVELURES
+#define GNR_CLASSICLURES
+
+#define GNR_FARGMODERN_GIVE
+#define GNR_FARSMODERN_GIVE
+
+#define GNR_FARG_CLASSIC
+#define GNR_FARS_CLASSIC
+
+#define GNR_HOMESTRAGGLE
+#define GNR_NORMALBIRDS
+
+#include_drs GeneratingObjects.inc
+
+elseif BATTLE_ROYALE
+
+#const PACKEDBUS 444
+
+create_object PACKEDBUS
+{
+  set_place_for_every_player
+  group_placement_radius     18
+  min_distance_to_players    0
+  max_distance_to_players    0
+}
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+   min_distance_to_players     2
+   max_distance_to_players     12
+   min_distance_group_placement 2
+   avoid_forest_zone 2
+ }
+
+else
+
+create_object VILLAGER
+{
+  set_place_for_every_player
+if LUDIKRIS_MAP
+  temp_min_distance_group_placement  45
+else
+  temp_min_distance_group_placement  15
+endif
+  avoid_forest_zone 2
+  min_distance_group_placement 2
+ }
+
+
+/* KOTH */
+
+#const MONUMENT_RESOURCES 1639
+
+if KING_OT_HILL
+create_object MONUMENT_RESOURCES
+{
+	number_of_objects			1
+	set_place_for_every_player
+	min_distance_to_players			0
+	max_distance_to_players			0
+}
+endif
+
+/* KOTH - end */
+
+endif
+
+
+
+if EMPIRE_WARS
+else
+
+create_object RELIC
+{
+   number_of_objects            999
+   min_distance_to_players     25
+   temp_min_distance_group_placement 52
+}
+
+
+/* SPECIAL STUFF FOR REGICIDE */
+
+	if REGICIDE
+
+create_object KING
+{
+  set_place_for_every_player
+  min_distance_to_players       2
+  max_distance_to_players       12
+}
+	endif
+
+/* NEAR FORAGE */
+
+create_object KERICEK
+{
+  number_of_objects          6
+  number_of_groups	999
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  temp_min_distance_group_placement  31
+}
+
+/* BAA BAA */
+
+create_object HERDABLE_A
+{
+   number_of_objects 1
+   number_of_groups	999
+   set_loose_grouping
+   set_gaia_object_only
+   temp_min_distance_group_placement  20
+}
+
+create_object HUNTABLE
+{
+   number_of_objects 3
+   number_of_groups	999
+   set_loose_grouping
+   set_gaia_object_only
+   temp_min_distance_group_placement  21
+}
+
+create_object LURABLE_A
+{
+   number_of_objects 1
+   number_of_groups	999
+   set_loose_grouping
+   set_gaia_object_only
+   temp_min_distance_group_placement  24
+}
+
+/* NOMAD GOLD */
+
+create_object GOLD
+{
+
+if TINY_MAP
+
+  number_of_groups			6
+  temp_min_distance_group_placement  	18
+
+elseif SMALL_MAP
+
+  number_of_groups			10
+  temp_min_distance_group_placement  	16
+
+elseif MEDIUM_MAP
+
+  number_of_groups			14
+  temp_min_distance_group_placement  	16
+
+elseif LARGE_MAP
+
+  number_of_groups			21
+  temp_min_distance_group_placement  	16
+
+elseif HUGE_MAP
+
+  number_of_groups			28
+  temp_min_distance_group_placement  	16
+
+else
+
+  number_of_groups			999
+  temp_min_distance_group_placement  	24
+
+endif
+
+  number_of_objects          6
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  max_distance_to_other_zones  7
+  actor_area 66
+  actor_area_radius 3
+  avoid_forest_zone 2
+}
+
+/* NOMAD STONE */
+
+create_object STONE
+{
+
+if TINY_MAP
+
+  number_of_groups			6
+  temp_min_distance_group_placement  	18
+
+elseif SMALL_MAP
+
+  number_of_groups			9
+  temp_min_distance_group_placement  	16
+
+elseif MEDIUM_MAP
+
+  number_of_groups			12
+  temp_min_distance_group_placement  	16
+
+elseif LARGE_MAP
+
+  number_of_groups			17
+  temp_min_distance_group_placement  	16
+
+elseif HUGE_MAP
+
+  number_of_groups			26
+  temp_min_distance_group_placement  	16
+
+else
+
+  number_of_groups			999
+  temp_min_distance_group_placement  	24
+
+endif
+
+  number_of_objects          6
+  group_placement_radius     3
+  set_tight_grouping 
+  set_gaia_object_only
+  max_distance_to_other_zones  7
+  actor_area 67
+  actor_area_radius 3
+  avoid_forest_zone 2
+}
+
+create_object BIRDS_A
+{
+   number_of_objects         4
+   set_scaling_to_map_size
+}
+
+endif
+
+/* CAPTAIN FIN BOSS */
+
+create_object MELKARYBA
+{
+  number_of_objects                   9999
+  set_scaling_to_map_size
+  set_gaia_object_only
+  temp_min_distance_group_placement   13
+}
+create_object FISH_A
+{
+  number_of_objects                   6
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+  min_distance_group_placement  4
+}
+create_object FISH_B
+{
+  number_of_objects                   170
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+  min_distance_group_placement  8
+}
+
+/* CAPTAIN FIN BOSS END */
+
+/*
+create_object HUNTABLE
+{
+   number_of_objects 2
+   number_of_groups 2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    35
+   min_distance_group_placement  5
+}
+*/
+
+create_object STRAGGLER
+{
+  number_of_objects          15
+  set_gaia_object_only
+  set_scaling_to_map_size
+  avoid_actor_area 66
+  avoid_actor_area 67
+
+  avoid_forest_zone 2
+
+}
+
+
+/* ****************************************************** */
+
+<ELEVATION_GENERATION>
+
+
+#define GNRELEV_HEIGHT04
+#define GNRELEV_INTENSITY_H
+#define GNRELEV_LAY_A
+
+#include_drs GeneratingElevation.inc
+
+/* ****************************************************** */
+
+#const ICY_SHORE 37
+
+<CONNECTION_GENERATION>
+create_connect_all_players_land
+{
+  replace_terrain VODA         MELCINA
+  replace_terrain MED_WATER     MELCINA
+  replace_terrain DEEP_WATER    MELCINA
+  terrain_cost    VODA         7
+  terrain_cost    MED_WATER     9
+  terrain_cost    DEEP_WATER    15
+  terrain_cost    FOREST        7
+  terrain_cost    PINE_FOREST   7
+  terrain_cost    WOODIES   7
+  terrain_cost    SNOW_FOREST   7
+  terrain_cost    JUNGLE        7
+  terrain_cost    MELCINA       3
+  terrain_cost    LAYER_B        2
+  terrain_cost    LAYER_A          2
+  terrain_cost    DIRT2         2
+  terrain_cost    DIRT3         2
+  terrain_cost    DIRT_SNOW     2
+  terrain_cost    GRASS         2
+  terrain_cost    GRASS2        2
+  terrain_cost    GRASS3        2
+  terrain_cost    GRASS_SNOW    2
+  terrain_cost    SNOW          2
+  terrain_cost    BEACH         7
+  terrain_cost    ICY_SHORE	2
+  terrain_size    VODA         2       1
+  terrain_size    MED_WATER     2       1
+  terrain_size    DEEP_WATER    2       1
+  terrain_size	  ICY_SHORE	2	1  
+  terrain_size    GRASS         0       0
+  terrain_size    GRASS2        0       0
+  terrain_size    GRASS3        0       0
+  terrain_size    GRASS_SNOW    0       0
+  terrain_size    SNOW          0       0
+  terrain_size    LAYER_A          0       0
+  terrain_size    DIRT2         0       0
+  terrain_size    DIRT3         0       0
+  terrain_size    DIRT_SNOW     0       0
+  terrain_size    SNOW_FOREST   0       0
+  terrain_size    FOREST        0       0
+  terrain_size    PINE_FOREST   0       0
+  terrain_size    WOODIES   0       0
+  terrain_size    JUNGLE        0       0
+  terrain_size    LAYER_B        0       0
+}
