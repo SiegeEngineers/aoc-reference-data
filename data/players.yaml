@@ -878,6 +878,7 @@
   country: ca
   esportsearnings: 15927
   liquipedia: Chris
+  twitch: https://www.twitch.tv/quarantinechris_
   platforms:
     voobly:
       - '123397426'
@@ -891,6 +892,8 @@
       - 'chris'
     gamepark:
       - 'chris'
+    de:
+      - '3230529'
 - name: The_Sheriff
   country: us
   platforms:
