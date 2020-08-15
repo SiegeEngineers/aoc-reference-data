@@ -2099,3 +2099,9 @@
     de:
       - '2815388'
       - '2521572'
+- name: Bad Koala
+  country: cn
+  platforms:
+    de:
+      - '211351' #main
+      - '1435093' #alt
