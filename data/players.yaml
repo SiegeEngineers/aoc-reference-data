@@ -2106,3 +2106,12 @@
     de:
       - '211351' #main
       - '1435093' #alt
+- name: D8_baby
+  country: cn
+  platforms:
+    voobly:
+      - '124646628'
+    de:
+      - '2461090' #main
+      - '2876803' #alt
+
