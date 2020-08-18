@@ -1440,6 +1440,8 @@
     vooblycn:
       - '124566874'
       - '123916446'
+    de:
+      - '3235648'
 - name: Kongensgade
   country: dk
   aoeelo: 132
@@ -2106,3 +2108,12 @@
     de:
       - '211351' #main
       - '1435093' #alt
+- name: D8_baby
+  country: cn
+  platforms:
+    voobly:
+      - '124646628'
+    de:
+      - '2461090' #main
+      - '2876803' #alt
+
