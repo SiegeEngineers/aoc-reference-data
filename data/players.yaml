@@ -222,6 +222,7 @@
       - '124206032' # PoJ
     de:
       - '217905'
+      - '728551'
 - name: Hyaganeglu
   country: null
   platforms:
@@ -272,6 +273,7 @@
       - '125129982' # hc: subotai
     de:
       - '347269'
+      - '3202763'
       - '1844119' # friar
 - name: Tim
   country: cn
@@ -709,6 +711,7 @@
     de:
       - '459658'
       - '2097181'
+      - '3241077'
 - name: AngelinaJolie
   country: nl
   aoeelo: 121
@@ -1717,6 +1720,8 @@
   country: au
   aoeelo: 66
   platforms:
+    voobly:
+      - '123815728'
     de:
       - '223206'
 - name: Scotty
@@ -2116,4 +2121,9 @@
     de:
       - '2461090' #main
       - '2876803' #alt
-
+- name: Badboy
+  country: vn
+  platforms:
+    de:
+      - '1763704'
+      - '2503651'
