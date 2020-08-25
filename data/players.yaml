@@ -222,6 +222,7 @@
       - '124206032' # PoJ
     de:
       - '217905'
+      - '728551'
 - name: Hyaganeglu
   country: null
   platforms:
@@ -272,6 +273,7 @@
       - '125129982' # hc: subotai
     de:
       - '347269'
+      - '3202763'
       - '1844119' # friar
 - name: Tim
   country: cn
@@ -879,6 +881,7 @@
   country: ca
   esportsearnings: 15927
   liquipedia: Chris
+  twitch: https://www.twitch.tv/quarantinechris_
   platforms:
     voobly:
       - '123397426'
@@ -1717,6 +1720,8 @@
   country: au
   aoeelo: 66
   platforms:
+    voobly:
+      - '123815728'
     de:
       - '223206'
 - name: Scotty
@@ -2092,6 +2097,7 @@
       - '125137692'
     de:
       - '1407942'
+      - '3108145'
 - name: Mahya
   country: ma
   twitch: https://www.twitch.tv/mahyaoc
@@ -2115,4 +2121,9 @@
     de:
       - '2461090' #main
       - '2876803' #alt
-
+- name: Badboy
+  country: vn
+  platforms:
+    de:
+      - '1763704'
+      - '2503651'
