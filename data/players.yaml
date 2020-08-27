@@ -2132,3 +2132,17 @@
   platforms:
     de:
       - '2792305'
+- name: killpigboy
+  country: cn
+  platforms:
+    voobly:
+      - '125198457'
+    de:
+      - '575279'
+- name: Acuo
+  country: cn
+  platforms:
+    voobly:
+      - '197995'
+    de:
+      - '801470'
