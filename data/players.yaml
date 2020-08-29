@@ -1910,6 +1910,8 @@
   platforms:
     zone:
       - 'ugnis'
+    voobly:
+      - '170776'
 - name: NoBoDy
   country: kz
   esportsearnings: 66167
@@ -2126,4 +2128,9 @@
   platforms:
     de:
       - '1763704'
-      - '2503651'
+- name: RecoN
+  country: uk
+  platforms:
+    de:
+      - '280459'
+      - '985308'
