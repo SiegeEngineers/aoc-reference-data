@@ -2131,6 +2131,8 @@
 - name: RecoN
   country: uk
   platforms:
+    voobly:
+      - '123514787'
     de:
       - '280459'
       - '985308'
