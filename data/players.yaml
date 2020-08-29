@@ -2156,3 +2156,9 @@
       - '197995'
     de:
       - '801470'
+- name: Keno
+  country: mx
+  platforms:
+    de:
+      - '312774'
+      - '738273'
