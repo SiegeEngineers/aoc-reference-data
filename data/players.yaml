@@ -1699,6 +1699,9 @@
   country: ca
   aoeelo: 602
   platforms:
+    de:
+      - '225365'
+      - '1515905'
 - name: DemonSheep
   country: tw
   aoeelo: 611
