@@ -1702,6 +1702,7 @@
 - name: DemonSheep
   country: tw
   aoeelo: 611
+  twitch: https://www.twitch.tv/demonsheeptw
   platforms:
     de:
       - '226697'
