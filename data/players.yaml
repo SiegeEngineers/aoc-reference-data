@@ -2173,3 +2173,10 @@
     de:
       - '452924'
       - '2754047'
+- name: PaTiN
+  country: ar
+  platforms:
+    voobly:
+      - '123921098'
+    de:
+      - '2598542'
