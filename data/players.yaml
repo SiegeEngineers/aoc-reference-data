@@ -2183,3 +2183,9 @@
       - '123921098'
     de:
       - '2598542'
+- name: Tushen
+  country: cn
+  platforms:
+    de:
+      - '2544010'
+      - '599657'
