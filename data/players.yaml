@@ -433,6 +433,7 @@
   aoeelo: 50
   esportsearnings: 15934
   liquipedia: Zuppi
+  twitch: https://www.twitch.tv/zuppiaoe
   platforms:
     voobly:
       - '123961442'
@@ -2210,4 +2211,9 @@
       - '2134694'
     zone:
       - 'pgfire'
-
+- name: SongSong
+  country: vn
+  twitch: https://www.twitch.tv/songsongaoede
+  platforms:
+    de:
+      - '2733015'
