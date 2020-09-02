@@ -2203,3 +2203,11 @@
     de:
       - '618731'
       - '2171446'
+- name: pG_Fire
+  country: au
+  platforms:
+    de:
+      - '2134694'
+    zone:
+      - 'pgfire'
+
