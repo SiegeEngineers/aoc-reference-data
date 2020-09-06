@@ -949,6 +949,7 @@
       - 'spring'
     de:
       - '235623'
+      - '1766301'
 - name: Windy
   country: cn
   platforms:
@@ -1424,6 +1425,7 @@
       - '124368651'
     de:
       - '246423'
+      - '2780825'
 - name: Kamigawa
   country: it
   aoeelo: 446
