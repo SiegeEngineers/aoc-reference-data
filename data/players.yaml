@@ -2089,6 +2089,7 @@
   platforms:
     de:
       - '1390516'
+      - '2386652'
 - name: Gluttony
   country: 'no'
   twitch: https://www.twitch.tv/gluttony_aoe
@@ -2217,3 +2218,21 @@
   platforms:
     de:
       - '2733015'
+- name: Black Pig
+  country: mx
+  platforms:
+    de:
+      - '580573'
+      - '2717438'
+- name: Ming
+  country: hk
+  platforms:
+    de:
+      - '3144451'
+      - '1966276'
+- name: OnLeKe
+  country: br
+  platforms:
+    de:
+      - '308109'
+      - '1696082'
