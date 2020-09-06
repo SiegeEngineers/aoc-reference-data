@@ -2238,3 +2238,9 @@
       - '1696082'
     voobly:
       - '124423817'
+- name: Babaorum
+  country: fr
+  platforms:
+    de:
+      - '576919'
+      - '3335279'
