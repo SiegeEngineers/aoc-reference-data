@@ -2256,3 +2256,17 @@
       - '560474'
     voobly:
       - '124546027'
+- name: Darknoob
+  country: nl
+  platforms:
+    de:
+      - '458029'
+    voobly:
+      - '124516604'
+- name: DarkDevil
+  country: it
+  platforms:
+    de:
+      - '1630598'
+    voobly:
+      - '123607994'
