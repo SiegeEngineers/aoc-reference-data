@@ -2249,3 +2249,10 @@
     de:
       - '576919'
       - '3335279'
+- name: Tatakae
+  country: mx
+  platforms:
+    de:
+      - '560474'
+    voobly:
+      - '124546027'
