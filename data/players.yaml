@@ -85,6 +85,8 @@
     - '70212'
     vooblycn:
     - '70212'
+    de:
+      - '563078'
 - name: St4rk
   country: br
   aoeelo: 18
@@ -1114,6 +1116,8 @@
       - '123737313'
       - '12476384'
       - '124453257'
+    de:
+      - '2844691'
 - name: 'Whoop'
   country: cn
   esportsearnings: 43219
@@ -2270,3 +2274,10 @@
       - '1630598'
     voobly:
       - '123607994'
+- name: Skull
+  country: cz
+  platforms:
+    de:
+      - '369536'
+    voobly:
+      - '2016'
