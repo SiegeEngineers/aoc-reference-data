@@ -2281,3 +2281,9 @@
       - '369536'
     voobly:
       - '2016'
+- name: TaoPaiPai
+  country: gt
+  platforms:
+    de:
+      - '2614814'
+      - '2760394'
