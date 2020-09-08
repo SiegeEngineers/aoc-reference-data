@@ -1775,6 +1775,7 @@
 - name: Jidba
   country: gr
   esportsearnings: 15926
+  twitch: https://www.twitch.tv/jidba
   platforms:
     de:
       - '357026'
@@ -2063,6 +2064,7 @@
       - '217180'
 - name: Bruh
   country: br
+  twitch: https://www.twitch.tv/bruhtal_
   platforms:
     voobly:
       - '123698004'
@@ -2184,6 +2186,7 @@
       - '738273'
 - name: JackK
   country: pl
+  twitch: https://www.twitch.tv/jackk_pl
   platforms:
     de:
       - '452924'
@@ -2229,6 +2232,7 @@
       - '2733015'
 - name: Black Pig
   country: mx
+  twitch: https://www.twitch.tv/puerco_black
   platforms:
     de:
       - '580573'
