@@ -1945,6 +1945,7 @@
       - '124317014'
 - name: Hallis
   country: gb
+  twitch: https://www.twitch.tv/hallisaoc
   platforms:
     de:
       - '250103'
