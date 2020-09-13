@@ -2303,3 +2303,9 @@
   platforms:
     de:
       - '1788064'
+- name: Uzzi
+  country: mx
+  platforms:
+    de:
+      - '229071'
+      - '2873733'
