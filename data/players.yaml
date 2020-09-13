@@ -695,6 +695,7 @@
     de:
       - '1311198'
       - '212721'
+      - '1630401'
 - name: Rubenstock
   country: fi
   aoeelo: 53
@@ -2305,6 +2306,7 @@
       - '1788064'
 - name: Uzzi
   country: mx
+  twitch: https://www.twitch.tv/uzzi_aoe
   platforms:
     de:
       - '229071'
