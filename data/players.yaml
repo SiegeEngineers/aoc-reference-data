@@ -2317,3 +2317,11 @@
   platforms:
     de:
       - '178430'
+- name: Wisepii
+  country: cl
+  platforms:
+    de:
+      - '1264695'
+      - '3379989'
+    voobly:
+      - '123911641'
