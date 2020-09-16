@@ -2334,3 +2334,11 @@
     voobly:
       - '123742000'
       - '123166866'
+- name: Scogo
+  country: de
+  platforms:
+    de:
+      - '208217'
+      - '900950'
+    voobly:
+      - '124536623'
