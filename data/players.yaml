@@ -2325,3 +2325,11 @@
       - '3379989'
     voobly:
       - '123911641'
+- name: Chocobo
+  country: jp
+  platforms:
+    de:
+      - '1584462'
+      - '3296370'
+    voobly:
+      - '123742000'
