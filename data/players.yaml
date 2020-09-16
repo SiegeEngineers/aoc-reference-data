@@ -2237,6 +2237,8 @@
   country: mx
   twitch: https://www.twitch.tv/puerco_black
   platforms:
+    voobly:
+      - '123797075'
     de:
       - '580573'
       - '2717438'
