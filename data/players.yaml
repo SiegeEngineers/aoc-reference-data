@@ -1744,6 +1744,7 @@
       - '123815728'
     de:
       - '223206'
+      - '3308789'
 - name: Scotty
   country: us
   aoeelo: 78
@@ -2314,6 +2315,8 @@
     de:
       - '229071'
       - '2873733'
+    voobly:
+      - '124655527'
 - name: The Bloodless
   country: us
   platforms:
