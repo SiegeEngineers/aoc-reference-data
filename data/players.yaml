@@ -230,12 +230,14 @@
     de:
       - '217905'
       - '728551'
-- name: Hyaganeglu
-  country: null
+- name: Valas
+  country: fi
   platforms:
     voobly:
       - '124806109' # Cyan_Alvein_Fan
       - '124493950' # hyaganeglu
+    de:
+      - '628503'
 - name: StrayDog
   country: cn
   aoeelo: 64
@@ -2339,6 +2341,7 @@
     voobly:
       - '123742000'
       - '123166866'
+      - '123243709'
 - name: Scogo
   country: de
   platforms:
