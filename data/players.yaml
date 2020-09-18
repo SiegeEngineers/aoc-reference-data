@@ -2191,6 +2191,9 @@
     de:
       - '312774'
       - '738273'
+    voobly:
+      - '124318462'
+      - '1431'
 - name: JackK
   country: pl
   twitch: https://www.twitch.tv/jackk_pl
@@ -2386,3 +2389,18 @@
       - '123302915'
     zone:
       - 'k0ty'
+- name: Whocl
+  country: cl
+  platforms:
+    voobly:
+      - '124423933'
+    de:
+      - '2309468'
+- name: Rodrigus
+  country: ar
+  platforms:
+    de:
+      - '2495166'
+      - '1143001'
+    voobly:
+      - '5469'
