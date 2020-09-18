@@ -2368,6 +2368,8 @@
     de:
       - '3245050'
       - '270315'
+    zone:
+      - 'dratek'
 - name: Funito
   country: ar
   twitch: https://www.twitch.tv/funito
