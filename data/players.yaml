@@ -236,6 +236,7 @@
     voobly:
       - '124806109' # Cyan_Alvein_Fan
       - '124493950' # hyaganeglu
+      - '124245294'
     de:
       - '628503'
 - name: StrayDog
@@ -2358,3 +2359,30 @@
       - '3152642'
     voobly:
       - 'z40305125'
+- name: Dratek
+  country: cz
+  platforms:
+    de:
+      - '3245050'
+      - '270315'
+- name: Funito
+  country: ar
+  twitch: https://www.twitch.tv/funito
+  platforms:
+    de:
+      - '2638400'
+    voobly:
+      - '13052'
+    gamepark:
+      - 'funito'
+    igz:
+      - '13052'
+- name: K0ty
+  country: cz
+  platforms:
+    de:
+      - '811008'
+    voobly:
+      - '123302915'
+    zone:
+      - 'k0ty'
