@@ -1161,6 +1161,9 @@
       - '123741316'
 - name: 'KuTaTaXoa'
   country: cn
+  aka:
+    - 'SongSong'
+  twitch: https://www.twitch.tv/songsongaoede
   platforms:
     voobly:
       - '123505495'
@@ -1170,6 +1173,8 @@
       - '123532179'
       - '124626542'
       - '125009949'
+    de:
+      - '2733015'
 - name: 'CooL'
   country: vn
   aoeelo: 17
@@ -2237,12 +2242,6 @@
       - '2134694'
     zone:
       - 'pgfire'
-- name: SongSong
-  country: vn
-  twitch: https://www.twitch.tv/songsongaoede
-  platforms:
-    de:
-      - '2733015'
 - name: Black Pig
   country: mx
   twitch: https://www.twitch.tv/puerco_black
