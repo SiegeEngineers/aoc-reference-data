@@ -1584,6 +1584,8 @@
   platforms:
     zone:
       - 'poisn'
+    de:
+      - '3384231'
 - name: Playboy
   country: cn
   platforms:
