@@ -2271,6 +2271,8 @@
     de:
       - '576919'
       - '3335279'
+    voobly:
+      - '123145914'
 - name: Tatakae
   country: mx
   platforms:
