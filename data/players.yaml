@@ -1,5 +1,6 @@
 # https://www.aoezone.net/threads/list-of-highest-rm-1v1-rating-reached.138320/
 # https://www.aoezone.net/threads/expert-players-who-already-signed-up-to-king-of-the-desert.135065/
+# https://www.aoezone.net/threads/aoe-2-de-list-of-highest-rm-ratings-reached-1v1-tg.162866/
 - name: MbL
   country: 'no'
   esportsearnings: 25311
@@ -37,6 +38,7 @@
     - '124341247' # wsvg
     de:
       - '312938'
+      - '2875412'
       - '1862911' # henry
 - name: Vivi
   aka:
@@ -72,6 +74,7 @@
     - '123636492'
     de:
     - '197964'
+    - '337428'
     - '1829754' # Alaric
     ibp:
       - 'yo'
@@ -83,6 +86,8 @@
     - '70212'
     vooblycn:
     - '70212'
+    de:
+      - '563078'
 - name: St4rk
   country: br
   aoeelo: 18
@@ -113,7 +118,7 @@
       - '196366-nac3' # Laaaaan
       - '1819193' # sheriff
       - '2602752'
-- name: Dogao
+- name: dogao
   country: br
   esportsearnings: 12250
   aoeelo: 4
@@ -175,6 +180,9 @@
       - '124860581' # stronglikeNEMAN
     de:
       - '254415' # 1991
+      - '1862892' # ArabiaPlease
+      - '1364587'
+      - '1457840'
 - name: Kotex
   country: vn
   platforms:
@@ -223,12 +231,15 @@
     de:
       - '217905'
       - '728551'
-- name: Hyaganeglu
-  country: null
+- name: Valas
+  country: fi
   platforms:
     voobly:
       - '124806109' # Cyan_Alvein_Fan
       - '124493950' # hyaganeglu
+      - '124245294'
+    de:
+      - '628503'
 - name: StrayDog
   country: cn
   aoeelo: 64
@@ -430,6 +441,7 @@
   aoeelo: 50
   esportsearnings: 15934
   liquipedia: Zuppi
+  twitch: https://www.twitch.tv/zuppiaoe
   platforms:
     voobly:
       - '123961442'
@@ -687,6 +699,7 @@
     de:
       - '1311198'
       - '212721'
+      - '1630401'
 - name: Rubenstock
   country: fi
   aoeelo: 53
@@ -943,6 +956,7 @@
       - 'spring'
     de:
       - '235623'
+      - '1766301'
 - name: Windy
   country: cn
   platforms:
@@ -1107,6 +1121,8 @@
       - '123737313'
       - '12476384'
       - '124453257'
+    de:
+      - '2844691'
 - name: 'Whoop'
   country: cn
   esportsearnings: 43219
@@ -1146,6 +1162,9 @@
       - '123741316'
 - name: 'KuTaTaXoa'
   country: cn
+  aka:
+    - 'SongSong'
+  twitch: https://www.twitch.tv/songsongaoede
   platforms:
     voobly:
       - '123505495'
@@ -1155,6 +1174,8 @@
       - '123532179'
       - '124626542'
       - '125009949'
+    de:
+      - '2733015'
 - name: 'CooL'
   country: vn
   aoeelo: 17
@@ -1418,6 +1439,7 @@
       - '124368651'
     de:
       - '246423'
+      - '2780825'
 - name: Kamigawa
   country: it
   aoeelo: 446
@@ -1568,6 +1590,8 @@
   platforms:
     zone:
       - 'poisn'
+    de:
+      - '3384231'
 - name: Playboy
   country: cn
   platforms:
@@ -1622,6 +1646,7 @@
       - '124281975'
     de:
       - '182749'
+      - '2112598'
 - name: Free
   country: cn
   platforms:
@@ -1696,9 +1721,14 @@
   country: ca
   aoeelo: 602
   platforms:
+    de:
+      - '225365'
+      - '1515905'
+      - '3435966'
 - name: DemonSheep
   country: tw
   aoeelo: 611
+  twitch: https://www.twitch.tv/demonsheeptw
   platforms:
     de:
       - '226697'
@@ -1709,6 +1739,7 @@
     de:
       - '1832072'
       - '1221228'
+      - '1597337'
 - name: HerG
   country: tw
   aoeelo: 445
@@ -1716,20 +1747,23 @@
   platforms:
     de:
       - '209118'
+      - '712465'
 - name: Komtan
-  country: au
+  country: jp
   aoeelo: 66
   platforms:
     voobly:
       - '123815728'
     de:
       - '223206'
+      - '3308789'
 - name: Scotty
   country: us
   aoeelo: 78
   platforms:
     de:
       - '301918'
+      - '2855233'
 - name: Metal
   country: us
   aoeelo: 70
@@ -1756,6 +1790,7 @@
 - name: Jidba
   country: gr
   esportsearnings: 15926
+  twitch: https://www.twitch.tv/jidba
   platforms:
     de:
       - '357026'
@@ -1910,6 +1945,8 @@
   platforms:
     zone:
       - 'ugnis'
+    voobly:
+      - '170776'
 - name: NoBoDy
   country: kz
   esportsearnings: 66167
@@ -1923,6 +1960,7 @@
       - '124317014'
 - name: Hallis
   country: gb
+  twitch: https://www.twitch.tv/hallisaoc
   platforms:
     de:
       - '250103'
@@ -2042,6 +2080,7 @@
       - '217180'
 - name: Bruh
   country: br
+  twitch: https://www.twitch.tv/bruhtal_
   platforms:
     voobly:
       - '123698004'
@@ -2077,6 +2116,7 @@
   platforms:
     de:
       - '1390516'
+      - '2386652'
 - name: Gluttony
   country: 'no'
   twitch: https://www.twitch.tv/gluttony_aoe
@@ -2113,7 +2153,7 @@
     de:
       - '211351' #main
       - '1435093' #alt
-- name: D8_baby
+- name: seyaren
   country: cn
   platforms:
     voobly:
@@ -2125,13 +2165,21 @@
   country: vn
   platforms:
     de:
-      - '1763704'
       - '2503651'
+- name: RecoN
+  country: gb
+  platforms:
+    voobly:
+      - '123514787'
+    de:
+      - '280459'
+      - '985308'
 - name: BL4CK
   country: ar
   platforms:
     de:
       - '2792305'
+      - '1756760'
 - name: killpigboy
   country: cn
   platforms:
@@ -2146,3 +2194,234 @@
       - '197995'
     de:
       - '801470'
+- name: Keno
+  country: mx
+  platforms:
+    de:
+      - '312774'
+      - '738273'
+    voobly:
+      - '124318462'
+      - '1431'
+- name: JackK
+  country: pl
+  twitch: https://www.twitch.tv/jackk_pl
+  platforms:
+    de:
+      - '452924'
+      - '2754047'
+- name: PaTiN
+  country: ar
+  platforms:
+    voobly:
+      - '123921098'
+    de:
+      - '2598542'
+- name: Tushen
+  country: cn
+  platforms:
+    de:
+      - '2544010'
+      - '599657'
+- name: Kellar
+  country: 'no'
+  platforms:
+    de:
+      - '1451847'
+      - '1195260'
+      - '1784541'
+- name: Carbo
+  country: ar
+  platforms:
+    de:
+      - '618731'
+      - '2171446'
+- name: pG_Fire
+  country: au
+  platforms:
+    de:
+      - '2134694'
+    zone:
+      - 'pgfire'
+- name: Black Pig
+  country: mx
+  twitch: https://www.twitch.tv/puerco_black
+  platforms:
+    voobly:
+      - '123797075'
+    de:
+      - '580573'
+      - '2717438'
+- name: Ming
+  country: hk
+  platforms:
+    de:
+      - '3144451'
+      - '1966276'
+- name: OnLeKe
+  country: br
+  platforms:
+    de:
+      - '308109'
+      - '1696082'
+    voobly:
+      - '124423817'
+- name: Babaorum
+  country: fr
+  platforms:
+    de:
+      - '576919'
+      - '3335279'
+    voobly:
+      - '123145914'
+- name: Tatakae
+  country: mx
+  platforms:
+    de:
+      - '560474'
+    voobly:
+      - '124546027'
+- name: Darknoob
+  country: nl
+  platforms:
+    de:
+      - '458029'
+    voobly:
+      - '124516604'
+- name: DarkDevil
+  country: it
+  platforms:
+    de:
+      - '1630598'
+    voobly:
+      - '123607994'
+- name: Skull
+  country: cz
+  platforms:
+    de:
+      - '369536'
+    voobly:
+      - '2016'
+- name: TaoPaiPai
+  country: gt
+  platforms:
+    de:
+      - '2614814'
+      - '2760394'
+- name: Mr Greed
+  country: pt
+  platforms:
+    de:
+      - '738249'
+      - '3082790'
+- name: Idol Brother
+  country: cn
+  platforms:
+    de:
+      - '1788064'
+- name: Uzzi
+  country: mx
+  twitch: https://www.twitch.tv/uzzi_aoe
+  platforms:
+    de:
+      - '229071'
+      - '2873733'
+    voobly:
+      - '124655527'
+- name: The Bloodless
+  country: us
+  platforms:
+    de:
+      - '178430'
+- name: Wisepii
+  country: cl
+  platforms:
+    de:
+      - '1264695'
+      - '3379989'
+    voobly:
+      - '123911641'
+- name: Chocobo
+  country: jp
+  platforms:
+    de:
+      - '1584462'
+      - '3296370'
+    voobly:
+      - '123742000'
+      - '123166866'
+      - '123243709'
+- name: Scogo
+  country: de
+  platforms:
+    de:
+      - '208217'
+      - '900950'
+    voobly:
+      - '124536623'
+- name: z40305125
+  country: tw
+  platforms:
+    de:
+      - '726223'
+      - '3152642'
+      - '1251651'
+    voobly:
+      - 'z40305125'
+- name: Dratek
+  country: cz
+  platforms:
+    de:
+      - '3245050'
+      - '270315'
+    zone:
+      - 'dratek'
+- name: Funito
+  country: ar
+  twitch: https://www.twitch.tv/funito
+  platforms:
+    de:
+      - '2638400'
+    voobly:
+      - '13052'
+    gamepark:
+      - 'funito'
+    igz:
+      - '13052'
+- name: K0ty
+  country: cz
+  platforms:
+    de:
+      - '811008'
+    voobly:
+      - '123302915'
+    zone:
+      - 'k0ty'
+- name: Whocl
+  country: cl
+  platforms:
+    voobly:
+      - '124423933'
+    de:
+      - '2309468'
+      - '2718358'
+- name: Rodrigus
+  country: ar
+  platforms:
+    de:
+      - '2495166'
+      - '1143001'
+    voobly:
+      - '5469'
+- name: Galaxy
+  country: hk
+  platforms:
+    de:
+      - '2875949'
+      - '2622255'
+- name: Lobo
+  country: mx
+  platforms:
+    de:
+      - '2920057'
+      - '3317764'
