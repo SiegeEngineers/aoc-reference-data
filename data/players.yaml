@@ -2435,3 +2435,10 @@
       - '2915171'
     voobly:
       - '123204531'
+- name: klavskis
+  country: lv
+  platforms:
+    de:
+      - '213534'
+    voobly:
+      - '123205226'
