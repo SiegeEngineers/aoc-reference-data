@@ -1483,6 +1483,8 @@
     voobly:
       - '123482913'
       - '124654721'
+    de:
+      - '2344276'
 - name: hs
   country: cn
   platforms:
