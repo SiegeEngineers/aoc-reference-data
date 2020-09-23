@@ -2442,3 +2442,11 @@
       - '213534'
     voobly:
       - '123205226'
+- name: Mango
+  country: cz
+  platforms:
+    de:
+      - '1613129'
+      - '272454'
+    voobly:
+      - '123793537'
