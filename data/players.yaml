@@ -1091,6 +1091,7 @@
       - '123950294'
     de:
       - '229063'
+      - '3457608'
 - name: Vodka
   country: it
   aoeelo: 129
@@ -1796,6 +1797,7 @@
   platforms:
     de:
       - '357026'
+      - '1834168'
     voobly:
       - '978'
 - name: IamKen
@@ -2089,6 +2091,7 @@
       - '123158445'
     de:
       - '2135484'
+      - '3088115'
 - name: ashleylynn
   country: us
   twitch: https://www.twitch.tv/aoc_ashleylynn
@@ -2219,6 +2222,7 @@
       - '123921098'
     de:
       - '2598542'
+      - '3489772'
 - name: Tushen
   country: cn
   platforms:
@@ -2359,6 +2363,7 @@
     de:
       - '208217'
       - '900950'
+      - '282660'
     voobly:
       - '124536623'
 - name: z40305125
@@ -2449,5 +2454,6 @@
     de:
       - '1613129'
       - '272454'
+      - '754969'
     voobly:
       - '123793537'
