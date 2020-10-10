@@ -2459,3 +2459,10 @@
       - '754969'
     voobly:
       - '123793537'
+- name: JoRo
+  country: us
+  platforms:
+    de:
+      - '3543549'
+    voobly:
+      - '123904053' # [RoR]JoRo
