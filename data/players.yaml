@@ -1125,6 +1125,7 @@
       - '124453257'
     de:
       - '2844691'
+      - '1861822'
 - name: 'Whoop'
   country: cn
   esportsearnings: 43219
@@ -1742,6 +1743,7 @@
   aoeelo: 103
   platforms:
     de:
+      - '370776'
       - '1832072'
       - '1221228'
       - '1597337'
@@ -2313,6 +2315,8 @@
 - name: TaoPaiPai
   country: gt
   platforms:
+    voobly:
+      - '124772915'
     de:
       - '2614814'
       - '2760394'
