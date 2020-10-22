@@ -1430,11 +1430,13 @@
       - 'lang'
 - name: Jupe
   country: fi
+  twitch: https://www.twitch.tv/jupeeeeee
   platforms:
     voobly:
       - '123451615'
     de:
       - '208080'
+      - '703045'
 - name: Dobbs
   country: dk
   twitch: https://www.twitch.tv/dobbs351
