@@ -2473,3 +2473,13 @@
       - '3543549'
     voobly:
       - '123904053' # [RoR]JoRo
+- name: Xhing
+  country: us
+  twitch: https://www.twitch.tv/adam_aoe
+  discord: https://discord.gg/MusuEz
+  platforms:
+    de:
+      - '611972'
+    voobly:
+      - '124835966'
+      - '124725130'
