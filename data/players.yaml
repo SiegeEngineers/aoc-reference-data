@@ -18,9 +18,9 @@
     - '125129978-2' # hc2
     - '124653653' # _MbL_
     de:
-    - '251265'
+    - '251265'  # MbL40C
     - '1826483' # William the Conqueror
-    - '2644601' # Mike_HawK
+    - '2644601' # mbl2
 - name: BacT
   country: vn
   esportsearnings: 14723
@@ -558,6 +558,7 @@
   aoeelo: 27
   liquipedia: Nicov
   twitch: https://www.twitch.tv/nicov_/
+  youtube: https://www.youtube.com/channel/UCzkVZ4Ci33LbQt_UHOvQEFw
   discord: https://discord.gg/quRrGhV
   platforms:
     voobly:
@@ -570,6 +571,7 @@
     de:
       - '208393'
       - '1827959' # bad neighbor
+      - '2609359' # Nico
 - name: JorDan
   country: de
   esportsearnings: 12245
@@ -1125,6 +1127,7 @@
       - '124453257'
     de:
       - '2844691'
+      - '1861822'
 - name: 'Whoop'
   country: cn
   esportsearnings: 43219
@@ -1428,11 +1431,13 @@
       - 'lang'
 - name: Jupe
   country: fi
+  twitch: https://www.twitch.tv/jupeeeeee
   platforms:
     voobly:
       - '123451615'
     de:
       - '208080'
+      - '703045'
 - name: Dobbs
   country: dk
   twitch: https://www.twitch.tv/dobbs351
@@ -1742,10 +1747,11 @@
   aoeelo: 103
   platforms:
     de:
+      - '370776'
       - '1832072'
       - '1221228'
       - '1597337'
-- name: HerG
+- name: Sora Kuma
   country: tw
   aoeelo: 445
   twitch: https://www.twitch.tv/skyandpeace/
@@ -2313,6 +2319,8 @@
 - name: TaoPaiPai
   country: gt
   platforms:
+    voobly:
+      - '124772915'
     de:
       - '2614814'
       - '2760394'
@@ -2459,3 +2467,20 @@
       - '754969'
     voobly:
       - '123793537'
+- name: JoRo
+  country: us
+  platforms:
+    de:
+      - '3543549'
+    voobly:
+      - '123904053' # [RoR]JoRo
+- name: Xhing
+  country: us
+  twitch: https://www.twitch.tv/adam_aoe
+  discord: https://discord.gg/MusuEz
+  platforms:
+    de:
+      - '611972'
+    voobly:
+      - '124835966'
+      - '124725130'
