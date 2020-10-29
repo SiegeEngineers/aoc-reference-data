@@ -18,9 +18,9 @@
     - '125129978-2' # hc2
     - '124653653' # _MbL_
     de:
-    - '251265'
+    - '251265'  # MbL40C
     - '1826483' # William the Conqueror
-    - '2644601' # Mike_HawK
+    - '2644601' # mbl2
 - name: BacT
   country: vn
   esportsearnings: 14723
@@ -462,7 +462,7 @@
     de:
       - '357795' # DracKeN
 - name: TheViper
-  country: de
+  country: 'no'
   esportsearnings: 12243
   aoeelo: 29
   liquipedia: TheViper
@@ -558,6 +558,7 @@
   aoeelo: 27
   liquipedia: Nicov
   twitch: https://www.twitch.tv/nicov_/
+  youtube: https://www.youtube.com/channel/UCzkVZ4Ci33LbQt_UHOvQEFw
   discord: https://discord.gg/quRrGhV
   platforms:
     voobly:
@@ -570,6 +571,7 @@
     de:
       - '208393'
       - '1827959' # bad neighbor
+      - '2609359' # Nico
 - name: JorDan
   country: de
   esportsearnings: 12245
@@ -1165,7 +1167,7 @@
       - '123189353'
       - '123741316'
 - name: 'KuTaTaXoa'
-  country: cn
+  country: vn
   aka:
     - 'SongSong'
   twitch: https://www.twitch.tv/songsongaoede
@@ -1430,11 +1432,13 @@
       - 'lang'
 - name: Jupe
   country: fi
+  twitch: https://www.twitch.tv/jupeeeeee
   platforms:
     voobly:
       - '123451615'
     de:
       - '208080'
+      - '703045'
 - name: Dobbs
   country: dk
   twitch: https://www.twitch.tv/dobbs351
@@ -2472,3 +2476,13 @@
       - '270449'
     voobly:
       - '123904053' # [RoR]JoRo
+- name: Xhing
+  country: us
+  twitch: https://www.twitch.tv/adam_aoe
+  discord: https://discord.gg/MusuEz
+  platforms:
+    de:
+      - '611972'
+    voobly:
+      - '124835966'
+      - '124725130'
