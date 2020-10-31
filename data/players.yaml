@@ -2111,6 +2111,7 @@
     de:
       - '283233'
       - '674899' # Bubbles
+      - '1602128'
 - name: T90
   country: us
   twitch: https://www.twitch.tv/t90official
@@ -2486,3 +2487,17 @@
     voobly:
       - '124835966'
       - '124725130'
+- name: flightlessbird
+  country: nz
+  platforms:
+    voobly:
+      - '124284205'
+    de:
+      - '285508'
+      - '2571777'
+- name: Pela
+  country: ar
+  platforms:
+    de:
+      - '219739'
+      - '2821779'
