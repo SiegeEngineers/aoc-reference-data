@@ -1295,6 +1295,9 @@
       - '124569805'
     zone:
       - 'iamok'
+    de:
+      - '2868603'
+      - '1369578'
 - name: 'geoffrey'
   country: cn
   esportsearnings: 12256
