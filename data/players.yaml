@@ -1728,7 +1728,8 @@
   aoeelo: 616
   platforms:
     de:
-      - '256338'
+      - '256338' # Running
+      - '231087' # SpanningTreeGuy
     voobly:
       - '125045236'
 - name: Obadiah
