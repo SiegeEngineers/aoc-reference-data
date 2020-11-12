@@ -1,7 +1,7 @@
 [
   {
     "name": "Aftermath",
-    "abbrevation": "aM",
+    "abbreviation": "aM",
     "players": [
       "Hearttt",
       "MbL",
@@ -10,7 +10,7 @@
   },
   {
     "name": "Infinity Legends",
-    "abbrevation": "iL",
+    "abbreviation": "iL",
     "players": [
       "BacT",
       "Capoch",
@@ -20,7 +20,7 @@
   },
   {
     "name": "Team Savages",
-    "abbrevation": "",
+    "abbreviation": null,
     "players": [
       "F1Re",
       "Goku",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Heresy",
-    "abbrevation": "Heresy",
+    "abbreviation": null,
     "players": [
       "dogao",
       "Edie",
@@ -43,7 +43,7 @@
   },
   {
     "name": "GamerLegion",
-    "abbrevation": "GL",
+    "abbreviation": "GL",
     "players": [
       "DauT",
       "JorDan",
@@ -55,7 +55,7 @@
   },
   {
     "name": "SalzZ",
-    "abbreavation": "SalzZ",
+    "abbreviation": "SalzZ",
     "players": [
       "classicpro",
       "Dark",
@@ -65,14 +65,14 @@
   },
   {
     "name": "Slavic Supremacy",
-    "abbrevation": "",
+    "abbreviation": null,
     "players": [
       "Barles"
     ]
   },
   {
     "name": "Vietnam Legends",
-    "abbrevation": "VNS",
+    "abbreviation": "VNS",
     "players": [
       "ACCM",
       "BadBoy",
@@ -82,7 +82,7 @@
   },
   {
     "name": "AreS",
-    "abbrevation": "Ares",
+    "abbreviation": null,
     "players": [
       "Ming",
       "StrayDog",
@@ -92,7 +92,7 @@
   },
   {
     "name": "Tempo Storm",
-    "abbrevation": "Tempo",
+    "abbreviation": "Tempo",
     "players": [
       "Hera",
       "Liereyy"
@@ -100,7 +100,7 @@
   },
   {
     "name": "Suomi",
-    "abbrevation": "",
+    "abbreviation": null,
     "players": [
       "Jupe",
       "Pike",
@@ -112,7 +112,7 @@
   },
   {
     "name": "PetGunPet",
-    "abbrevation": "PGP",
+    "abbreviation": "PGP",
     "players": [
       "AngelinaJolie",
       "Belgium",
@@ -123,7 +123,7 @@
   },
   {
     "name": "Rulers of Rome",
-    "abbrevation": "RoR",
+    "abbreviation": "RoR",
     "players": [
       "Ganji",
       "GoldenEnd",
@@ -141,8 +141,8 @@
     ]
   },
   {
-    "name": "",
-    "abbrevation": "DS",
+    "name": "DS",
+    "abbreviation": null,
     "players": [
       "BL4CK",
       "Carbo",
@@ -152,7 +152,7 @@
   },
   {
     "name": "QuEnDi",
-    "abbrevation": "",
+    "abbreviation": null,
     "players": [
       "Clemensor",
       "cortical_",
@@ -167,14 +167,14 @@
   },
   {
     "name": "Brazookas",
-    "abbrevation": "bK",
+    "abbreviation": "bK",
     "players": [
       "BruH"
     ]
   },
   {
     "name": "Fei Mei San Dao",
-    "abbrevation": "",
+    "abbreviation": null,
     "players": [
       "Bad Koala",
       "Jibatong",
