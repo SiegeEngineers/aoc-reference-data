@@ -2061,13 +2061,6 @@
       - '322858'
     voobly:
       - '123556801'
-- name: 'True'
-  country: us
-  platforms:
-    voobly:
-      - '123188321'
-    de:
-      - '584824'
 - name: Repard
   country: ru
   platforms:
