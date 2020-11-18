@@ -203,6 +203,7 @@
       - '123934159' # Tia_Harribel
     de:
       - '666976'
+      - '4014461'
 - name: Yellow
   country: vn
   aoeelo: 15
@@ -1199,6 +1200,8 @@
       - '30984'
     ibp:
       - 'air_abu'
+    de:
+      - '3414034'
 - name: '8th Wonder'
   country: lv
   platforms:
