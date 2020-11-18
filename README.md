@@ -6,6 +6,7 @@ Reference data for Age of Empires II projects.
 
 - Events
 - Players
+- Teams
 - RMS packs
 - Platforms
 - Datasets
