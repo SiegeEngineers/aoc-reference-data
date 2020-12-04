@@ -1,2510 +1,6341 @@
-# https://www.aoezone.net/threads/list-of-highest-rm-1v1-rating-reached.138320/
-# https://www.aoezone.net/threads/expert-players-who-already-signed-up-to-king-of-the-desert.135065/
-# https://www.aoezone.net/threads/aoe-2-de-list-of-highest-rm-ratings-reached-1v1-tg.162866/
-- name: MbL
-  country: 'no'
-  esportsearnings: 25311
-  aoeelo: 24
-  liquipedia: MbL
-  twitch: https://www.twitch.tv/mblaoc
-  youtube: http://youtube.com/user/Mortenjeah
-  discord: https://discord.gg/5cHqGMx
+---
+- name: 2ScareD
+  aka: []
+  aoeelo: ~
+  country: se
+  discord: ~
+  douyu: ~
+  esportsearnings: 42065
+  liquipedia: ~
+  mixer: ~
   platforms:
-    voobly:
-    - '123844441' # MbL40C
-    - '123422126' # MbDeD
-    - '125375948' # Road3k
-    - '125129979' # hc: erik the red
-    - '125129978-2' # hc2
-    - '124653653' # _MbL_
-    de:
-    - '251265'  # MbL40C
-    - '1826483' # William the Conqueror
-    - '2644601' # mbl2
-- name: BacT
-  country: vn
-  esportsearnings: 14723
-  aoeelo: 16
-  liquipedia: BacT
-  twitch: https://www.twitch.tv/bact_/
-  youtube: https://www.youtube.com/channel/UCScpQlZKVLdPMFBdd1gXbRQ
-  platforms:
-    voobly:
-    - '123194539' # BacT
-    - '123945837' # 8euro
-    - '123219836' # FyruT
-    - '125129985' # hc: La Hire
-    - '123887528'
-    - '124341247' # wsvg
-    de:
-      - '312938'
-      - '2875412'
-      - '1862911' # henry
-- name: Vivi
-  aka:
-    - FAT_PIG
-  country: cn
-  aoeelo: 35
-  esportsearnings: 25295
-  liquipedia: Vivi
-  douyu: https://www.douyu.com/1052202
-  platforms:
-    voobly:
-    - '123493096' # Reallydiao
-    - '123303397' # Fat_Dragon
-    - '125129996' # hc: genghis khan
-    - '125129996-11' # hc11
-    de:
-    - '215442'
-    - '1432837'
-    - '1829738' # Charlemagne
-- name: Yo
-  country: cn
-  esportsearnings: 14713
-  aoeelo: 19
-  liquipedia: Mr_Yo
-  douyu: https://www.douyu.com/753676
-  platforms:
-    voobly:
-    - '123636492'
-    - '125129990-7' # hc7
-    - '125227711' # hc: hrolf the ganger
-    - '124341168' # wsvg
-    vooblycn:
-    - '123636492'
-    de:
-    - '197964'
-    - '337428'
-    - '1829754' # Alaric
-    ibp:
-      - 'yo'
-- name: Xiaofan
-  country: cn
-  aoeelo: 36
-  platforms:
-    voobly:
-    - '70212'
-    vooblycn:
-    - '70212'
-    de:
-      - '563078'
-- name: St4rk
-  country: br
-  aoeelo: 18
-  esportsearnings: 12258
-  liquipedia: St4rk
-  youtube: https://www.youtube.com/channel/UCoX5HqFM4qEGJYfj0TEOIpg
-  twitch: https://www.twitch.tv/st4rk_
-  discord: https://discord.gg/K4VEGWC
-  platforms:
-    voobly:
-    - '123409476' # VNA
-    - '125107343'
-    - '123204710'
-    de:
-      - '986504'
-- name: LaaaaaN
-  country: es
-  aoeelo: 62
-  liquipedia: LaaaaaN
-  esportsearnings: 56830
-  platforms:
-    voobly:
-    - '124116514' # ByT
-    - '123989026' # Heresy
-    - '124691590' # Jackie_Chan_
-    de:
-      - '232410' # Antagonist
-      - '196366-nac3' # Laaaaan
-      - '1819193' # sheriff
-      - '2602752'
-- name: dogao
-  country: br
-  esportsearnings: 12250
-  aoeelo: 4
-  liquipedia: dogao
-  twitch: https://www.twitch.tv/dogaoaoe
-  platforms:
-    voobly:
-      - '123186723' # GiveMeYourSmile
-      - '123444726' # dogao
-      - '124469820' # VEM_MONSTRO
-      - '125227721' # hc: tamerlane
-      - '124340883'
-    de:
-      - '199170'
-      - '1486575'
-      - '1830104' # emperor in a barrel
-- name: TaToH
-  country: es
-  esportsearnings: 41416
-  aoeelo: 31
-  liquipedia: TaToH
-  youtube: https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg
-  twitch: https://www.twitch.tv/tatoh
-  platforms:
-    voobly:
-      - '123999216' # Secret
-      - '125366410' # feudalVoy
-      - '123347503' # HoTaT
-      - '125129995' # hc: bleda the hun
-      - '125129998-12' # hc12
-      - '947' # ator
-      - '124199973'
-    de:
-      - '197388'
-      - '968255'
-      - '1819863' # joan
-      - '3033716' # feudalVoy
-- name: Vinch
-  country: ru
-  aoeelo: 55
-  esportsearnings: 42069
-  liquipedia: Vinchester
-  twitch: https://www.twitch.tv/vik_vinchester/
-  youtube: http://www.youtube.com/channel/UCm3BAnotyqfdvm6sO5bs18g
-  platforms:
-    voobly:
-      - '123397463' # VIK
-      - '124170820' # Vinch
-    de:
-      - '271202' # Suma1L
-      - '2886954' # ^^anomeL
-- name: Modri
-  country: si
-  platforms:
-    voobly:
-      - '124662701' # _Modri
-      - '124160323'
-      - '124860581'
-      - '124860581' # stronglikeNEMAN
-    de:
-      - '254415' # 1991
-      - '1862892' # ArabiaPlease
-      - '1364587'
-      - '1457840'
-- name: Kotex
-  country: vn
-  platforms:
-    voobly:
-      - '124763057' # 73_ONGTRUM
-      - '124563608' # 73_Kotex_dammau
-      - '124764048' # 73_Kotex_3k3
-      - '124584836' # Bong88
-      - '124796466' # TrieuTuLong__HN
-- name: Barles
-  country: pl
-  aoeelo: 79
-  liquipedia: _Barles_
-  platforms:
-    voobly:
-      - '123850375' # _Wrachziikle_
-      - '124214626' # _Barles_
-      - '123934159' # Tia_Harribel
-    de:
-      - '666976'
-      - '4014461'
-- name: Yellow
-  country: vn
-  aoeelo: 15
-  esportsearnings: 14724
-  liquipedia: saymyname
-  twitch: https://www.twitch.tv/saymyname2909
-  platforms:
-    voobly:
-      - '124390868' # FamilyNo1
-      - '123174138' # saymyname
-      - '123422426' # VNS_thuongthoi
-      - '165563' # 31_
-      - '123193037' # ongchutraiheo
-      - '123991049' # TuuSac
-      - '124793331'
-    de:
-      - '419803' # saymyname
-- name: Chart
-  country: jp
-  aoeelo: 68
-  platforms:
-    voobly:
-      - '124322377' # RiskyDice
-      - '124508020' # chart11
-      - '124206032' # PoJ
-    de:
-      - '217905'
-      - '728551'
-- name: Valas
-  country: fi
-  platforms:
-    voobly:
-      - '124806109' # Cyan_Alvein_Fan
-      - '124493950' # hyaganeglu
-      - '124245294'
-    de:
-      - '628503'
-- name: StrayDog
-  country: cn
-  aoeelo: 64
-  platforms:
-    voobly:
-      - '124489527' # hagouhello
-      - '124297679' # MyST
-      - '9747' # AreS
-      - '124862194' # hi_hahzu
-      - '128633' # black mamba
-      - '125403511' # cica_zhou
-    vooblycn:
-      - '9747' # CNA
-      - '124489527' # hagouhello
-    de:
-      - '716717' # cica_zhou
+    de: []
     gamepark:
-      - 'straydog'
-- name: F1Re
-  country: br
-  esportsearnings: 14714
-  aoeelo: 5
-  liquipedia: F1Re
-  twitch: https://www.twitch.tv/f1reaoe/
-  platforms:
+      - 2scared
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '123658746'
-      - '125129985-6' # hc6
+      - "123989812"
+      - "155770"
+      - "8262"
+    vooblycn: []
+    zone:
+      - 2scared
+  twitch: ~
+  youtube: ~
+- name: 8th Wonder
+  aka: []
+  aoeelo: ~
+  country: lv
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
     de:
-      - '196310'
-      - '1819094' # Leif
+      - "3943624"
+    gamepark: []
+    gameranger:
+      - wonder
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123737920"
+      - "123602533"
+      - "123498438"
+      - "123244296"
+      - "123845061"
+      - "123781126"
+      - "124003159"
+      - "123129305"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
 - name: ACCM
-  country: vn
+  aka: []
   aoeelo: 14
+  country: vn
+  discord: ~
+  douyu: ~
   esportsearnings: 14727
   liquipedia: ACCM
-  twitch: https://www.twitch.tv/accm_vn
+  mixer: ~
   platforms:
-    voobly:
-      - '123428504'
-      - '123591487'
-      - '125129982' # hc: subotai
     de:
-      - '347269'
-      - '3202763'
-      - '1844119' # friar
-- name: Tim
+      - "347269"
+      - "3202763"
+      - "1844119"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123428504"
+      - "123591487"
+      - "125129982"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/accm_vn"
+  youtube: ~
+- name: Acuo
+  aka: []
+  aoeelo: ~
   country: cn
-  esportsearnings: 12949
-  aoeelo: 33
-  liquipedia: Tim
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
-    voobly:
-      - '182612'
-      - '125129993' # hc: joan of arc
-      - '124367119' # zhangfei
-      - '123882867' # VG hali
-      - '43680' # Fairy
-      - '123536800' # Fairy__
-    vooblycn:
-      - '182612'
-      - '124539771' # iamsange
     de:
-      - '534438'
-      - '1369485'
-    zone:
-      - 'tim'
-- name: CooL
-  country: vn
-  esportsearnings: 14725
+      - "801470"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "197995"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Air_Abu
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 14710
+  liquipedia: ~
+  mixer: ~
   platforms:
-    voobly:
-      - '123194620'
     de:
-      - '224786'
-    zone:
-      - 'cool'
-- name: Liereyy
-  country: at
-  esportsearnings: 41415
-  aoeelo: 25
-  liquipedia: Liereyy
-  twitch: https://www.twitch.tv/liereyy/
-  youtube: https://www.youtube.com/channel/UCaggQmp9gAuB7xYeci26VWA
-  platforms:
-    voobly:
-      - '124147336'
-      - '125129977-1' # hc1
-      - '125227717' # hc: king alfonso
-    de:
-      - '506898'
-      - '1829588' # sancho
-- name: Cloud
-  country: tw
-  aoeelo: 94
-  liquipedia: Cloud
-  youtube: https://www.youtube.com/user/qaws68
-  discord: https://discord.gg/dKzquZB
-  platforms:
-    voobly:
-      - '123198508'
-      - '16640'
-      - '123463926'
-    de:
-      - '199419'
-      - '872428'
+      - "3414034"
+    gamepark: []
+    gameranger: []
     ibp:
-      - 'cloud'
-- name: Paladin
-  aka:
-    - Fengxin
-  country: cn
-  aoeelo: 20
-  esportsearnings: 12249
-  liquipedia: Paladin
-  douyu: https://www.douyu.com/294359
-  platforms:
+      - air_abu
+    igz: []
+    lan: []
     voobly:
-      - '123835916' # fengxin
-      - '179227' # alongkiss
-    de:
-      - '210601'
-    ibp:
-      - 'paladin'
-- name: DauT
-  country: rs
-  esportsearnings: 12247
-  aoeelo: 1
-  liquipedia: DauT
-  twitch: https://www.twitch.tv/daut
-  youtube: https://www.youtube.com/channel/UC8m8Iah2xOHZvnBbpyOcEOA
-  discord: https://discord.gg/ckHd3vT
-  platforms:
-    voobly:
-      - '12926'
-      - '125129993-8' # hc8
-      - '125129998' # hc: willy wallace
-      - '123345149' # itsover9000
-      - '188639' # slina
-      - '108050' # shmekerr
-    de:
-      - '198035'
-      - '1832317' # Yodit
-    zone:
-      - 'daut'
-    gamepark:
-      - 'daut'
-- name: Hera
-  country: ca
-  esportsearnings: 25296
-  aoeelo: 28
-  liquipedia: Hera
-  twitch: https://www.twitch.tv/hera
-  youtube: https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ
-  discord: https://discord.gg/DkdJj4D
-  platforms:
-    voobly:
-      - '124954867'
-      - '123984714'
-      - '125227715' # hc: ornlu the wolf
-      - '124694635'
-    de:
-      - '199325'
-      - '1847121' # Kotyan
-      - '3209724' # WeWinThose
-- name: Nili
-  country: de
-  aoeelo: 11
-  esportsearnings: 41832
-  liquipedia: Nili_AoE
-  twitch: https://www.twitch.tv/nili_aoe
-  youtube: https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/videos
-  discord: https://discordapp.com/invite/pQG8txM
-  platforms:
-    voobly:
-      - '9267'
-      - '124423938'
-    de:
-      - '197751'
-    zone:
-      - 'nili'
-    gamepark:
-      - 'nili'
-- name: Belgium
-  country: be
-  aoeelo: 75
-  liquipedia: PROject_Belgium
-  youtube: https://www.youtube.com/channel/UCtLQsBrf-ugm0g1XitneyIw
-  twitch: https://www.twitch.tv/project_belgium
-  discord: https://discord.gg/fV5A4Vr
-  platforms:
-    voobly:
-      - '124474647'
-      - '124892962'
-    de:
-      - '213305' # BUGUM
-- name: Zuppi
-  country: fi
-  aoeelo: 50
-  esportsearnings: 15934
-  liquipedia: Zuppi
-  youtube: https://www.youtube.com/channel/UCxAQeu2SrQjK8-As4-gc9Lg
-  twitch: https://www.twitch.tv/zuppiaoe
-  platforms:
-    voobly:
-      - '123961442'
-    de:
-      - '575722'
-- name: DraconT
-  country: cz
-  aoeelo: 100
-  platforms:
-    voobly:
-      - '124043892' # DarkNoobFan
-      - '124556058' # adawdfaw
-      - '124596119' # dwafawdaw
-      - '124717620' # agfdadd
-      - '124832150' # Experimental__
-      - '125297245' # DracKeN_
-    de:
-      - '357795' # DracKeN
-- name: TheViper
-  country: 'no'
-  esportsearnings: 12243
-  aoeelo: 29
-  liquipedia: TheViper
-  youtube: https://www.youtube.com/user/TheViperAOC
-  twitch: https://twitch.tv/theviper
-  discord: https://discord.gg/WNmHUEH
-  platforms:
-    voobly:
-      - '123211439' # TheViper
-      - '123529195' # TyRanTTheViper
-      - '123286363' # Justin_D_Bieber
-      - '123164797' # BuzZ
-      - '123262516' # neversaynever
-      - '124706302' # toplo9999fan
-      - '125129980-4' # hc4
-      - '125129978' # hc: robin hood
-      - '123906517' # buzz fosse
-      - '124638756' # randomcivil
-      - '124341240' # wsvg
-    gameranger:
-      - 'viper'
-    de:
-      - '196240'
-      - '1827609' # Saladin
-    zone:
-      - 'viper'
-- name: Slam
-  country: ca
-  esportsearnings: 12253
-  aoeelo: 32
-  liquipedia: Slam
-  twitch: https://www.twitch.tv/slamjam_/
-  youtube: https://www.youtube.com/channel/UC15K06FB4EO98AMBYqraQ3w
-  platforms:
-    voobly:
-      - '123497926' # secret
-      - '123806830' # membfan
-      - '123129489' # Surya
-      - '124110342' # 8Giacatluong
-      - '125129979-3' # hc3
-    de:
-      - '614315'
-- name: Daniel
-  country: us
-  aoeelo: 69
-  liquipedia: Daniel
-  twitch: https://www.twitch.tv/aocdaniel/
-  platforms:
-    voobly:
-      - '123256402'
-    de:
-      - '265517'
-- name: Yinghua
-  aka:
-    - LoveCheng
-  country: cn
-  aoeelo: 54
-  esportsearnings: 12251
-  douyu: https://www.douyu.com/953871
-  platforms:
-    de:
-      - '2806260'
-    voobly:
-      - '123910183' # AreS
-      - '195356' # LoveCheng
-      - '127665' # ShuaiNiu
-      - '124341169'
+      - "30984"
+      - "123999699"
     vooblycn:
-      - '195356' # LoveCheng
-      - '123910183' # SY
-      - '127665' # ShuaiNiu
-    ibp:
-      - 'yinghua'
-- name: Lyx
-  country: cn
-  aoeelo: 21
-  esportsearnings: 14740
-  liquipedia: Lyx
-  douyu: https://www.douyu.com/1029928
-  platforms:
-    voobly:
-      - '123230853' # SY
-      - '123219958' # lovezlp
-      - '180548' # xiaoxin1985
-    vooblycn:
-      - '123230853' # lyx
-      - '180548' # VG_oo3
-    de:
-      - '226575'
-- name: Nicov
-  country: ar
-  esportsearnings: 14718
-  aoeelo: 27
-  liquipedia: Nicov
-  twitch: https://www.twitch.tv/nicov_/
-  youtube: https://www.youtube.com/channel/UCzkVZ4Ci33LbQt_UHOvQEFw
-  discord: https://discord.gg/quRrGhV
-  platforms:
-    voobly:
-      - '123807394' #
-      - '123477857' # Nicov_zZ
-      - '124178111' # Instincts__
-      - '125129977' # hc: attila the hun
-      - '125129982-5' # hc5
-      - '124775535'
-    de:
-      - '208393'
-      - '1827959' # bad neighbor
-      - '2609359' # Nico
-- name: JorDan
-  country: de
-  esportsearnings: 12245
-  aoeelo: 30
-  liquipedia: JoaDn_105
-  twitch: https://www.twitch.tv/JoaDn_105/
-  youtube: https://www.youtube.com/channel/UCimCFIisAqXW9udVhN_LpwQ
-  discord: https://discord.gg/TWpUYVh
-  platforms:
-    voobly:
-      - '817'
-      - '125129994' # hc: el cid
-      - '123195719'
-      - '124340943'
-    igz:
-      - '817'
-    de:
-      - '2858362'
-- name: Melkor
-  country: ie
-  aoeelo: 10
-  platforms:
-    voobly:
-      - '123922182' # heresy
-      - '123394463' # arenabot
-      - '124158935' # mattheus
-- name: TheMax
-  country: fi
-  esportsearnings: 25297
-  aoeelo: 52
-  liquipedia: TheMax
-  platforms:
-    voobly:
-      - '123282211'
-      - '39623' # _TheMax
-      - '123636616' # iplaywithgoths
-      - '125129980' # hc: nobonaga
-    de:
-      - '572017'
-      - '1832996' # martel
-- name: Villese
-  country: fi
-  aoeelo: 51
-  esportsearnings: 43218
-  liquipedia: Villese
-  platforms:
-    voobly:
-      - '124166670'
-      - '124240093' # jorgos
-      - '125129990' # hc: gods own sling
-    de:
-      - '208611'
-      - '1829715'
-- name: RiuT
+      - "30984"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Alive
+  aka: []
+  aoeelo: ~
   country: br
-  esportsearnings: 12244
-  aoeelo: 3
-  liquipedia: RiuT
-  twitch: https://www.twitch.tv/riut_aoe
-  youtube: https://www.youtube.com/channel/UCWk47NDwrg9p696-Usiv8fw
+  discord: ~
+  douyu: ~
+  esportsearnings: 12947
+  liquipedia: ~
+  mixer: ~
   platforms:
-    voobly:
-      - '56531'
-      - '123696164' # riutao
-      - '123747533' # caueq
-      - '84542' # safadao
-      - '11896' # sagramor
-      - '86350' # justdance
-      - '8643' # lein
-      - '125129995-10' # hc10
-      - '124340884' # wsvg
     de:
-      - '673196'
-- name: Miguel
-  country: br
-  aoeelo: 2
-  esportsearnings: 15928
-  liquipedia: miguel
-  twitch: https://www.twitch.tv/miguelaoe
-  platforms:
-    voobly:
-      - '123600879'
-      - '49541' # onlyrook
-      - '123961542' # redeyeddemon
-      - '123459695' # twik
-      - '227518' # miguelao
-      - '125129994-9' # hc9
-    de:
-      - '2090225'
-- name: Twigg
-  country: ar
-  aoeelo: 92
-  platforms:
-    voobly:
-      - '124042289'
-      - '123784980' # zamasu
-      - '123975630' # rugila
-    de:
-      - '2621722'
-- name: JonSlow
-  country: il
-  aoeelo: 101
-  twitch: https://www.twitch.tv/jonslow_/
-  youtube: https://www.youtube.com/channel/UCI7xIJYOC2OEb6ttrsH2QHA
-  platforms:
-    voobly:
-      - '11486'
-      - '123145092' # terror
-      - '123172587' # animaniacs
-    zone:
-      - 'jonslow'
+      - "1629889"
     gamepark:
-      - 'jonslow'
-    de:
-      - '208269'
-- name: Sitaux
-  country: fr
-  aoeelo: 12
-  twitch: https://www.twitch.tv/sitaux
-  liquipedia: Sitaux
-  platforms:
+      - alive
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '125241102'
-      - '124313135'
-      - '124216278'
-      - '124728574'
-      - '124653323'
-    de:
-      - '1311198'
-      - '212721'
-      - '1630401'
-- name: Rubenstock
-  country: fi
-  aoeelo: 53
-  esportsearnings: 15936
-  liquipedia: Rubenstock
-  platforms:
-    voobly:
-      - '123417449'
-    de:
-      - '431744'
-- name: Hoang
-  country: vn
-  liquipedia: Hoang
-  twitch: https://www.twitch.tv/hoangnguyen485
-  youtube: https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw?view_as=subscriber
-  platforms:
-    voobly:
-      - '123851854'
-      - '124750873'
-      - '124452866'
-      - '124449479'
-    de:
-      - '459658'
-      - '2097181'
-      - '3241077'
+      - "124097512"
+      - "135459"
+      - "123452158"
+      - "160816"
+      - "610"
+    vooblycn: []
+    zone:
+      - alive
+  twitch: ~
+  youtube: ~
 - name: AngelinaJolie
-  country: nl
+  aka: []
   aoeelo: 121
+  country: nl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
   liquipedia: AngelinaJollie
+  mixer: ~
   platforms:
-    voobly:
-      - '124134715'
-      - '123493331'
     de:
-      - '508080'
-- name: Ganji
-  country: se
-  aoeelo: 458
-  liquipedia: Ganji
-  twitch: https://www.twitch.tv/ganji__
-  discord: https://discord.gg/rtpCfgE
-  platforms:
+      - "508080"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '124183501'
-    de:
-      - '212746'
-      - '661884'
-      - '965185'
-- name: Kasva
-  country: tr
-  aoeelo: 195
-  liquipedia: K4SVA
-  twitch: https://www.twitch.tv/kasvaoe
-  youtube: https://www.youtube.com/channel/UCFAiCVX7VqQaqGBPAxLRKnQ?view_as=subscriber
-  discord: https://discord.gg/CETwWEp
-  platforms:
-    voobly:
-      - '125101127'
-      - '124473071'
-      - '125040561'
-      - '123507501'
-    de:
-      - '1224481'
-- name: Jibatong
-  aka:
-    - Pain Master
-  country: cn
-  aoeelo: 198
-  liquipedia: jibatong
-  platforms:
-    voobly:
-      - '123642997'
-      - '123641000'
-      - '123435951'
-    vooblycn:
-      - '123642997'
-      - '124576519'
-    de:
-      - '227857'
-- name: Noisick
-  country: cl
-  twitch: https://www.twitch.tv/noisick_aoe
-  platforms:
-    voobly:
-      - '124308648'
-    de:
-      - '1262725'
-      - '898389'
-      - '2709266'
-- name: Inc
+      - "124134715"
+      - "123493331"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: ashleylynn
+  aka: []
+  aoeelo: ~
   country: us
-  aoeelo: 323
-  twitch: https://www.twitch.tv/incaoe2/
+  discord: "https://discord.gg/DFBYNfG"
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
-    voobly:
-      - '123644749'
     de:
-      - '221997'
-    zone:
-      - 'inc'
-- name: Fedex
-  country: ar
-  aoeelo: 153
-  liquipedia: Fedex
-  platforms:
+      - "283233"
+      - "674899"
+      - "1602128"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '123273973'
-      - '123725868' # gaucho
-      - '123601190' # buzz
-    de:
-      - '239238'
-      - '1252385'
-      - '2431776'
-- name: Dziamdziak
-  country: pl
-  aoeelo: 127
-  twitch: https://www.twitch.tv/dziamdziak
-  discord: https://discord.gg/xz7uDPp
-  platforms:
-    voobly:
-      - '9806'
-    zone:
-      - 'dziamdziak'
-    gamepark:
-      - 'dziamdziak'
-    de:
-      - '879956'
-- name: Ppoc
-  country: es
-  platforms:
-    lan:
-      - 'ppoc'
-    zone:
-      - 'ppoc'
-- name: Yanzi
-  country: hk
-  esportsearnings: 2178
-  liquipedia: Chun_Yu
-  platforms:
-    lan:
-      - 'yanzi'
-    zone:
-      - 'yanzi'
-- name: kkab
-  country: kr
-  esportsearnings: 12943
-  platforms:
-    voobly:
-      - '72440'
-    lan:
-      - 'kkab'
-    zone:
-      - 'kkab'
-- name: Grunt
-  country: kr
-  esportsearnings: 2090
-  liquipedia: Grunt
-  platforms:
-    voobly:
-      - '123189460'
-    lan:
-      - 'grunt'
-    zone:
-      - 'grunt'
-- name: Koven
-  country: kr
-  esportsearnings: 22414
-  liquipedia: Koven
-  platforms:
-    voobly:
-      - '13584'
-    lan:
-      - 'koven'
-    zone:
-      - 'koven'
-- name: Halen
-  country: jp
-  esportsearnings: 2173
-  liquipedia: Halen
-  platforms:
-    voobly:
-      - '16205'
-    zone:
-      - 'halen'
-- name: RD_ChampioN
-  country: kr
-  platforms:
-    voobly:
-      - '180938'
-    zone:
-      - 'champion'
-- name: Chris
+      - "123866515"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/aoc_ashleylynn"
+  youtube: ~
+- name: B1ade
+  aka: []
+  aoeelo: ~
   country: ca
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "16877"
+      - "127645"
+    vooblycn: []
+    zone:
+      - blade
+  twitch: ~
+  youtube: ~
+- name: Babaorum
+  aka: []
+  aoeelo: ~
+  country: fr
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "576919"
+      - "3335279"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123145914"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: BacT
+  aka: []
+  aoeelo: 16
+  country: vn
+  discord: ~
+  douyu: ~
+  esportsearnings: 14723
+  liquipedia: BacT
+  mixer: ~
+  platforms:
+    de:
+      - "312938"
+      - "2875412"
+      - "1862911"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123194539"
+      - "123945837"
+      - "123219836"
+      - "125129985"
+      - "123887528"
+      - "124341247"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/bact_/"
+  youtube: "https://www.youtube.com/channel/UCScpQlZKVLdPMFBdd1gXbRQ"
+- name: Bad Koala
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "211351"
+      - "1435093"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Badboy
+  aka: []
+  aoeelo: ~
+  country: vn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2503651"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Barles
+  aka: []
+  aoeelo: 79
+  country: pl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: _Barles_
+  mixer: ~
+  platforms:
+    de:
+      - "666976"
+      - "4014461"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123850375"
+      - "124214626"
+      - "123934159"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Belgium
+  aka: []
+  aoeelo: 75
+  country: be
+  discord: "https://discord.gg/fV5A4Vr"
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: PROject_Belgium
+  mixer: ~
+  platforms:
+    de:
+      - "213305"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124474647"
+      - "124892962"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/project_belgium"
+  youtube: "https://www.youtube.com/channel/UCtLQsBrf-ugm0g1XitneyIw"
+- name: Bender
+  aka: []
+  aoeelo: ~
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: 42058
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123436221"
+    vooblycn: []
+    zone:
+      - bender
+  twitch: ~
+  youtube: ~
+- name: Bieber
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124280794"
+      - "24331"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: BL4CK
+  aka: []
+  aoeelo: ~
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2792305"
+      - "1756760"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Black Pig
+  aka: []
+  aoeelo: ~
+  country: mx
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "580573"
+      - "2717438"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123797075"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/puerco_black"
+  youtube: ~
+- name: black_bear
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - black_bear
+  twitch: ~
+  youtube: ~
+- name: Bruh
+  aka: []
+  aoeelo: ~
+  country: br
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2135484"
+      - "3088115"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123698004"
+      - "123158445"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/bruhtal_"
+  youtube: ~
+- name: BT4
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "56555"
+    vooblycn: []
+    zone:
+      - bt4
+  twitch: ~
+  youtube: ~
+- name: Buddha
+  aka: []
+  aoeelo: ~
+  country: bg
+  discord: ~
+  douyu: ~
+  esportsearnings: 67163
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark:
+      - buddha
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - buddha
+  twitch: ~
+  youtube: ~
+- name: Bvirus
+  aka: []
+  aoeelo: ~
+  country: pt
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1657293"
+    gamepark:
+      - bvirus
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "4053"
+    vooblycn: []
+    zone:
+      - bvirus
+  twitch: ~
+  youtube: ~
+- name: Canary
+  aka: []
+  aoeelo: ~
+  country: jp
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2520503"
+    gamepark:
+      - canary
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - canary
+  twitch: ~
+  youtube: ~
+- name: Capoch
+  aka: []
+  aoeelo: 273
+  country: ar
+  discord: "https://discord.gg/sjCpquh"
+  douyu: ~
+  esportsearnings: 3535
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "409748"
+      - "2667231"
+      - "2850727"
+      - "2401889"
+    gamepark:
+      - capoch
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "29129"
+    vooblycn: []
+    zone:
+      - capoch
+  twitch: "https://www.twitch.tv/capoch/"
+  youtube: ~
+- name: Carbo
+  aka: []
+  aoeelo: ~
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "618731"
+      - "2171446"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: chaos_2_win
+  aka: []
+  aoeelo: ~
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - chaos_2_win
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Chart
+  aka: []
+  aoeelo: 68
+  country: jp
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "217905"
+      - "728551"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124322377"
+      - "124508020"
+      - "124206032"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Chocobo
+  aka: []
+  aoeelo: ~
+  country: jp
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1584462"
+      - "3296370"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123742000"
+      - "123166866"
+      - "123243709"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Chris
+  aka: []
+  aoeelo: ~
+  country: ca
+  discord: ~
+  douyu: ~
   esportsearnings: 15927
   liquipedia: Chris
-  twitch: https://www.twitch.tv/quarantinechris_
+  mixer: ~
   platforms:
-    voobly:
-      - '123397426'
-      - '114330'
-      - '123214618'
-      - '125127684'
-      - '124398555'
-      - '1028'
-      - '123586592'
-    zone:
-      - 'chris'
+    de:
+      - "3230529"
     gamepark:
-      - 'chris'
-    de:
-      - '3230529'
-- name: The_Sheriff
-  country: us
-  platforms:
+      - chris
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123397426"
+      - "114330"
+      - "123214618"
+      - "125127684"
+      - "124398555"
+      - "1028"
+      - "123586592"
+    vooblycn: []
     zone:
-      - 'sheriff'
-- name: 2ScareD
-  country: se
-  esportsearnings: 42065
-  platforms:
-    voobly:
-      - '123989812'
-      - '155770'
-      - '8262'
-    zone:
-      - '2scared'
-    gamepark:
-      - '2scared'
-- name: B1ade # aka Seker
-  country: ca
-  platforms:
-    voobly:
-      - '16877'
-      - '127645'
-    zone:
-      - 'blade'
-- name: Spring
-  country: us
-  aoeelo: 13
-  esportsearnings: 41842
-  liquipedia: SpringTV
-  twitch: https://www.twitch.tv/springtv/
-  discord: https://discord.gg/MrNwsQB
-  platforms:
-    voobly:
-      - '3867'
-      - '124002307'
-      - '123821562'
-      - '123339272'
-      - '3867'
-      - '480'
-      - '123273372'
-      - '124781271'
-    zone:
-      - 'spring'
-    de:
-      - '235623'
-      - '1766301'
-- name: Windy
-  country: cn
-  platforms:
-    voobly:
-      - '123429442'
-    zone:
-      - 'windy'
-- name: Iori
-  country: cn
-  esportsearnings: 66423
-  platforms:
-    zone:
-      - 'iori'
-    de:
-      - '2772600'
-- name: Joe
-  country: cn
-  platforms:
-    zone:
-      - 'cath_joe'
-- name: Ruso
-  country: es
-  esportsearnings: 66433
-  platforms:
-    voobly:
-      - '123453296'
-      - '9627'
-      - '22303'
-    gamepark:
-      - 'ruso'
-    zone:
-      - 'ruso'
-    de:
-      - '1997593'
-- name: Alive
-  country: br
-  esportsearnings: 12947
-  platforms:
-    voobly:
-      - '124097512'
-      - '135459'
-      - '123452158'
-      - '160816'
-      - '610'
-    de:
-      - '1629889'
-    gamepark:
-      - 'alive'
-    zone:
-      - 'alive'
-- name: Ding
-  country: hk
-  esportsearnings: 12254
-  platforms:
-    voobly:
-      - '722'
-      - '46048'
-    zone:
-      - 'ding'
-    gamepark:
-      - 'ding'
-    igz:
-      - '46048'
-      - '56738'
-    ibp:
-      - 'ding'
-- name: Vile
-  country: my
-  platforms:
-    zone:
-      - 'vile'
-    gamepark:
-      - 'vile'
-- name: Kmkm
-  country: tw
-  esportsearnings: 2183
-  liquipedia: IamKmkm
-  platforms:
-    voobly:
-      - '22956'
-    zone:
-      - 'kmkm'
-- name: Luca
-  country: ca
-  aoeelo: 250
-  twitch: https://www.twitch.tv/luca8761
-  platforms:
-    voobly:
-      - '124682621'
-    de:
-      - '268565'
-- name: Lojza
-  country: cz
-  aoeelo: 58
-  esportsearnings: 12248
-  platforms:
-    voobly:
-      - '123134558'
-      - '124340942'
-- name: Mentalist
-  country: ca
-  esportsearnings: 14737
-  platforms:
-    voobly:
-      - '123805043'
-      - '123936769'
-      - '124195578'
-      - '125091165'
-- name: Goku
-  country: br
-  aoeelo: 7
-  esportsearnings: 14715
-  liquipedia: GoKu
-  twitch: https://www.twitch.tv/gokuaoe/
-  platforms:
-    voobly:
-      - '123984617'
-      - '125143234'
-      - '123529024'
-    de:
-      - '1893397'
-- name: Pike
-  country: fi
-  aoeelo: 44
-  esportsearnings: 15935
-  liquipedia: NorthernPike
-  twitch: https://www.twitch.tv/pikeaoc/
-  platforms:
-    voobly:
-      - '123162283'
-      - '123947524'
-      - '123950294'
-    de:
-      - '229063'
-      - '3457608'
-- name: Vodka
-  country: it
-  aoeelo: 129
-  liquipedia: Vodka_L_
-  platforms:
-    voobly:
-      - '123841591'
-      - '123946886'
-      - '125271720'
-      - '123793404'
-    de:
-      - '599689'
-      - '2428811'
-- name: Spaden
-  country: se
-  aoeelo: 65
-  platforms:
-    voobly:
-      - '123210474'
-      - '124166791'
-    de:
-      - '248441'
-- name: 'Monoz'
-  country: ar
-  platforms:
-    voobly:
-      - '123716297'
-      - '123737313'
-      - '12476384'
-      - '124453257'
-    de:
-      - '2844691'
-      - '1861822'
-- name: 'Whoop'
-  country: cn
-  esportsearnings: 43219
-  platforms:
-    voobly:
-      - '123236765'
-      - '11387'
-      - '124560899'
-      - '124897713'
-    vooblycn:
-      - '3703'
-      - '6246'
-      - '30466'
-      - '123236765'
-    de:
-      - '2783258'
-- name: 'Kief'
-  country: ru
-  platforms:
-    voobly:
-      - '124511435'
-      - '124351305'
-      - '124220413'
-      - '124657730'
-- name: 'Edie'
-  country: fr
-  aoeelo: 8
-  platforms:
-    voobly:
-      - '123666945'
-      - '123771026'
-      - '123442846'
-      - '124222465'
-      - '123741316'
-      - '123321654'
-      - '123189353'
-      - '123741316'
-- name: 'SongSong'
-  country: vn
-  aka:
-    - 'KuTaTaXoa'
-  twitch: https://www.twitch.tv/songsongaoede
-  platforms:
-    voobly:
-      - '123505495'
-      - '123890962'
-      - '123546355'
-      - '124375121'
-      - '123532179'
-      - '124626542'
-      - '125009949'
-    de:
-      - '2733015'
-- name: 'CooL'
-  country: vn
-  aoeelo: 17
-  platforms:
-    voobly:
-      - '123194620'
-- name: 'Air_Abu'
-  country: cn
-  esportsearnings: 14710
-  platforms:
-    voobly:
-      - '30984'
-      - '123999699'
-    vooblycn:
-      - '30984'
-    ibp:
-      - 'air_abu'
-    de:
-      - '3414034'
-- name: '8th Wonder'
-  country: lv
-  platforms:
-    voobly:
-      - '123737920'
-      - '123602533'
-      - '123498438'
-      - '123244296'
-      - '123845061'
-      - '123781126'
-      - '124003159'
-      - '123129305'
-    de:
-      - '3943624'
-    gameranger:
-      - 'wonder'
-- name: 'classicpro'
-  country: ua
-  aoeelo: 99
-  platforms:
-    voobly:
-      - '124075494'
-      - '124240304'
-      - '125024125'
-    de:
-      - '1755520'
-      - '1754629'
-- name: 'Ralber'
-  country: es
-  twitch: https://www.twitch.tv/ralbertv
-  platforms:
-    voobly:
-      - '11182'
-      - '24950'
-    zone:
-      - 'ralber'
-    gamepark:
-      - 'ralber'
-    de:
-      - '2535067'
-- name: 'DreaIVIS'
-  country: fi
-  platforms:
-    voobly:
-      - '3258'
-      - '21627'
-      - '167378'
-    igz:
-      - '123868428'
-    zone:
-      - 'dreams'
-- name: 'Capoch'
-  country: ar
-  aoeelo: 273
-  esportsearnings: 3535
-  twitch: https://www.twitch.tv/capoch/
-  discord: https://discord.gg/sjCpquh
-  platforms:
-    voobly:
-      - '29129'
-    zone:
-      - 'capoch'
-    de:
-      - '409748'
-      - '2667231'
-      - '2850727'
-      - '2401889'
-    gamepark:
-      - 'capoch'
-- name: 'Rami'
-  country: il
-  esportsearnings: 42063
-  platforms:
-    voobly:
-      - '123701126'
-    zone:
-      - 'rami'
-    gamepark:
-      - 'rami'
-- name: 'Duck'
-  country: cn
-  platforms:
-    voobly:
-      - '123288787'
-- name: 'IamOK'
-  country: cn
-  esportsearnings: 12948
-  platforms:
-    voobly:
-      - '187035'
-      - '123831728'
-      - '123700677'
-      - '123999995'
-    vooblycn:
-      - '187035'
-      - '124569805'
-    zone:
-      - 'iamok'
-    de:
-      - '2868603'
-      - '1369578'
-- name: 'geoffrey'
-  country: cn
-  esportsearnings: 12256
-  platforms:
-    voobly:
-      - '25709'
-      - '123714784'
-    vooblycn:
-      - '25709'
-    ibp:
-      - 'geoffrey'
-- name: Bieber
-  country: cn
-  platforms:
-    voobly:
-      - '124280794'
-      - '24331'
-- name: FeAge
-  country: br
-  aoeelo: 84
-  esportsearnings: 12255
-  twitch: https://www.twitch.tv/feage/
-  platforms:
-    voobly:
-      - '123203450'
-      - '124170824'
-      - '124297045'
-      - '133714'
-      - '123444736'
-      - '123563868'
-      - '186651'
-    zone:
-      - 'feage'
-    de:
-      - '300649'
-- name: Noto
-  country: cn
-  platforms:
-    voobly:
-      - '123193097'
-      - '123190565'
-      - '196922'
-      - '123437085'
-      - '125374'
-    vooblycn:
-      - '123193097'
-      - '123641192'
-- name: Hearttt
-  country: pe
-  esportsearnings: 41831
-  liquipedia: Hearttt
-  twitch: https://www.twitch.tv/hearttt_/
-  platforms:
-    voobly:
-      - '124386524'
-    de:
-      - '582058'
-- name: Ra
-  country: ca
-  esportsearnings: 14735
-  twitch: https://www.twitch.tv/sezualhealing/
-  platforms:
-    voobly:
-      - '47262'
-      - '127366'
-    de:
-      - '1098178'
-- name: Miss_Xue
-  aka:
-    - NO_23
-  country: cn
-  esportsearnings: 14709
-  platforms:
-    voobly:
-      - '25116'
-      - '123636501'
-      - '123372165'
-      - '123776423'
-      - '121454'
-    vooblycn:
-      - '123372165'
-    ibp:
-      - 'miss_xue'
-- name: James
-  country: cn
-  esportsearnings: 14708
-  platforms:
-    voobly:
-      - '123797718'
-    ibp:
-      - 'james'
-- name: Feanor
-  country: ie
-  aoeelo: 9
-  platforms:
-    voobly:
-      - '123806659'
-    de:
-      - '208493'
-- name: Hasan
-  country: ba
-  platforms:
-    voobly:
-      - '123222710'
-      - '7950'
-      - '123142913'
-      - '123370148'
-      - '123180505'
-      - 'hasan'
-- name: Juan
-  country: ar
-  platforms:
-    voobly:
-      - '123410633'
-      - '124223825'
-      - '123836537'
-- name: Xiaohai
-  country: cn
-  platforms:
-    voobly:
-      - '124531503'
-    vooblycn:
-      - '124531503'
-    de:
-      - '3044106'
-- name: Lang
-  country: cn
-  esportsearnings: 65185
-  platforms:
-    voobly:
-      - '123864424'
-      - '123826180'
-      - '188112'
-    vooblycn:
-      - '123864424'
-    ibp:
-      - 'lang'
-- name: Jupe
-  country: fi
-  twitch: https://www.twitch.tv/jupeeeeee
-  platforms:
-    voobly:
-      - '123451615'
-    de:
-      - '208080'
-      - '703045'
-- name: Dobbs
-  country: dk
-  twitch: https://www.twitch.tv/dobbs351
-  platforms:
-    voobly:
-      - '124368651'
-    de:
-      - '246423'
-      - '2780825'
-- name: Kamigawa
-  country: it
-  aoeelo: 446
-  liquipedia: Kamigawa
-  platforms:
-    voobly:
-      - '124287511'
-      - '124505989' 
-      - '124378288'
-    de:
-      - '213355'
+      - chris
+  twitch: "https://www.twitch.tv/quarantinechris_"
+  youtube: ~
 - name: CL
-  country: cn
+  aka: []
   aoeelo: 34
+  country: cn
+  discord: ~
+  douyu: "https://www.douyu.com/556823"
   esportsearnings: 43220
-  douyu: https://www.douyu.com/556823
+  liquipedia: ~
+  mixer: ~
   platforms:
+    de:
+      - "3235648"
+      - "2411454"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '123916446'
-      - '124139264'
-      - '124443412'
-      - '124520727'
+      - "123916446"
+      - "124139264"
+      - "124443412"
+      - "124520727"
     vooblycn:
-      - '124566874'
-      - '123916446'
+      - "124566874"
+      - "123916446"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: classicpro
+  aka: []
+  aoeelo: 99
+  country: ua
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
     de:
-      - '3235648'
-      - '2411454'
-- name: Kongensgade
-  country: dk
-  aoeelo: 132
-  platforms:
+      - "1755520"
+      - "1754629"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '123652655'
-      - '123988152'
+      - "124075494"
+      - "124240304"
+      - "125024125"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Cloud
+  aka: []
+  aoeelo: 94
+  country: tw
+  discord: "https://discord.gg/dKzquZB"
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: Cloud
+  mixer: ~
+  platforms:
     de:
-      - '725502'
-- name: Xiaoxiong
-  esportsearnings: 25294
-  country: cn
-  platforms:
+      - "199419"
+      - "872428"
+    gamepark: []
+    gameranger: []
+    ibp:
+      - cloud
+    igz: []
+    lan: []
     voobly:
-      - '123482913'
-      - '124654721'
-    de:
-      - '2344276'
-- name: hs
-  country: cn
-  platforms:
-    zone:
-      - 'hs'
-    gamepark:
-      - 'hs'
-- name: Geek
-  country: gb
-  esportsearnings: 2180
-  platforms:
-    zone:
-      - 'geek'
-- name: Mimmox
-  country: it
-  esportsearnings: 41724
-  platforms:
-    zone:
-      - 'mimmox'
-- name: Bvirus
-  country: pt
-  platforms:
-    zone:
-      - 'bvirus'
-    gamepark:
-      - 'bvirus'
-    voobly:
-      - '4053'
-    de:
-      - '1657293'
-- name: Hackl
-  country: de
-  platforms:
-    voobly:
-      - '123135274'
-    zone:
-      - 'hackl'
-    gamepark:
-      - 'hackl'
-- name: black_bear
-  country: cn
-  platforms:
-    zone:
-      - 'black_bear'
-- name: BT4
-  country: cn
-  platforms:
-    zone:
-      - 'bt4'
-    voobly:
-      - '56555'
-- name: PeEl
-  country: pl
-  esportsearnings: 42061
-  platforms:
-    zone:
-      - 'peel'
-    voobly:
-      - '15886'
-- name: Rukie
-  country: es
-  esportsearnings: 42060
-  platforms:
-    zone:
-      - 'rukie'
-- name: DriNkY
-  country: de
-  platforms:
-    voobly:
-      - '123186478'
-    zone:
-      - 'drinky'
-    gamepark:
-      - 'drinky'
-    de:
-      - '258972'
-- name: Canary
-  country: jp
-  platforms:
-    zone:
-      - 'canary'
-    gamepark:
-      - 'canary'
-    de:
-      - '2520503'
-- name: SoraK
-  country: cl
-  platforms:
-    zone:
-      - 'sorak'
-- name: Moczymorda
-  country: pl
-  esportsearnings: 66451
-  platforms:
-    zone:
-      - 'moczymorda'
-- name: Sutra
-  country: us
-  esportsearnings: 42059
-  platforms:
-    zone:
-      - 'sutra'
-- name: Poisn
-  country: ca
-  platforms:
-    zone:
-      - 'poisn'
-    de:
-      - '3384231'
-- name: Playboy
-  country: cn
-  platforms:
-    zone:
-      - 'playboy'
-- name: Hanyu
-  country: cn
-  platforms:
-    zone:
-      - 'hanyu'
-- name: Feeling
-  country: cn
-  platforms:
-    zone:
-      - 'feeling'
+      - "123198508"
+      - "16640"
+      - "123463926"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: "https://www.youtube.com/user/qaws68"
 - name: Cloudy
+  aka: []
+  aoeelo: ~
   country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
     zone:
-      - 'cloudy'
-- name: PK
-  country: cn
+      - cloudy
+  twitch: ~
+  youtube: ~
+- name: CooL
+  aka: []
+  aoeelo: ~
+  country: vn
+  discord: ~
+  douyu: ~
+  esportsearnings: 14725
+  liquipedia: ~
+  mixer: ~
   platforms:
-    zone:
-      - 'pk'
-- name: Fox
-  country: de
-  platforms:
-    zone:
-      - 'fox'
-    voobly:
-      - '6031'
-    gamepark:
-      - 'fox'
-- name: Pete Martell
-  country: it
-  platforms:
-    voobly:
-      - '124483923'
     de:
-      - '746777'
-- name: chaos_2_win
-  country: de
-  platforms:
+      - "224786"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - 'chaos_2_win'
-- name: Dragonstar
-  country: in
-  aoeelo: 603
+      - "123194620"
+    vooblycn: []
+    zone:
+      - cool
+  twitch: ~
+  youtube: ~
+- name: CooL
+  aka: []
+  aoeelo: 17
+  country: vn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '124281975'
-    de:
-      - '182749'
-      - '2112598'
-- name: Free
-  country: cn
+      - "123194620"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Country
+  aka: []
+  aoeelo: 344
+  country: ie
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
     zone:
-      - 'free'
-- name: Mozory
-  country: kr
-  esportsearnings: 7629
-  liquipedia: MoZory
+      - country
+  twitch: ~
+  youtube: ~
+- name: Crexis
+  aka: []
+  aoeelo: ~
+  country: ca
+  discord: ~
+  douyu: ~
+  esportsearnings: 42051
+  liquipedia: Crexis
+  mixer: ~
   platforms:
-    zone:
-      - 'mozory'
-- name: Kaohen
-  country: tw
-  esportsearnings: 6931
-  liquipedia: Kaohen
-  platforms:
-    zone:
-      - 'kaohen'
-- name: IamJordan
-  country: tw
-  esportsearnings: 2179
-  liquipedia: JcooL
-  platforms:
-    zone:
-      - 'iamjordan'
-- name: GoldenEnd
-  country: nl
-  aoeelo: 197
-  platforms:
-    voobly:
-      - '123839438'
-- name: Elfanor
-  country: be
-  platforms:
-    zone:
-      - 'elfanor'
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
 - name: Cyclops
   aka:
     - Erhan
-  country: tr
   aoeelo: 262
+  country: tr
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
-    zone:
-      - 'cyclops'
+    de:
+      - "907464"
     gamepark:
-      - 'cyclops'
+      - cyclops
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '20404'
-      - '123638821'
-    de:
-      - '907464'
-- name: Janik
-  country: cz
-  aoeelo: 91
-  platforms:
-    voobly:
-      - '123753371'
-    de:
-      - '1134223'
-- name: Seoul
-  country: vn
-  aoeelo: 143
-  platforms:
-- name: Running
-  country: de
-  aoeelo: 616
-  platforms:
-    de:
-      - '256338' # Running
-      - '231087' # SpanningTreeGuy
-    voobly:
-      - '125045236'
-- name: Obadiah
-  country: ca
-  aoeelo: 602
-  platforms:
-    de:
-      - '225365'
-      - '1515905'
-      - '3435966'
-- name: DemonSheep
-  country: tw
-  aoeelo: 611
-  twitch: https://www.twitch.tv/demonsheeptw
-  platforms:
-    de:
-      - '226697'
-- name: Stefan
-  country: de
-  aoeelo: 103
-  platforms:
-    de:
-      - '370776'
-      - '1832072'
-      - '1221228'
-      - '1597337'
-- name: Sora Kuma
-  country: tw
-  aoeelo: 445
-  twitch: https://www.twitch.tv/skyandpeace/
-  platforms:
-    de:
-      - '209118'
-      - '712465'
-- name: Komtan
-  country: jp
-  aoeelo: 66
-  platforms:
-    voobly:
-      - '123815728'
-    de:
-      - '223206'
-      - '3308789'
-- name: Scotty
-  country: us
-  aoeelo: 78
-  platforms:
-    de:
-      - '301918'
-      - '2855233'
-- name: Metal
-  country: us
-  aoeelo: 70
-  platforms:
-- name: LB10
-  country: at
-  aoeelo: 74
-  platforms:
-- name: Rodrigus
-  country: ar
-  aoeelo: 449
-  platforms:
-- name: Skittle
-  country: de
-  aoeelo: 122
-  platforms:
-    de:
-      - '992381'
-    voobly:
-      - '123225139'
-      - '2976'
-    igz:
-      - '123225139'
-- name: Jidba
-  country: gr
-  esportsearnings: 15926
-  twitch: https://www.twitch.tv/jidba
-  platforms:
-    de:
-      - '357026'
-      - '1834168'
-    voobly:
-      - '978'
-- name: IamKen
-  country: cn
-  esportsearnings: 2174
-  platforms:
-- name: Bender
-  country: de
-  esportsearnings: 42058
-  platforms:
-    voobly:
-      - '123436221'
+      - "20404"
+      - "123638821"
+    vooblycn: []
     zone:
-      - 'bender'
-- name: Nv
-  country: kr
-  esportsearnings: 12945
-  platforms:
-- name: GX_Iron
+      - cyclops
+  twitch: ~
+  youtube: ~
+- name: Daniel
+  aka: []
+  aoeelo: 69
   country: us
-  esportsearnings: 6933
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: Daniel
+  mixer: ~
   platforms:
+    de:
+      - "265517"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123256402"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/aocdaniel/"
+  youtube: ~
+- name: Dante
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: 2176
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Dark
+  aka: []
+  aoeelo: ~
+  country: ru
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1407942"
+      - "3108145"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "125137692"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/dark_aoe"
+  youtube: ~
+- name: DarkDevil
+  aka: []
+  aoeelo: ~
+  country: it
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1630598"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123607994"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Darknoob
+  aka: []
+  aoeelo: ~
+  country: nl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "458029"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124516604"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: DauT
+  aka: []
+  aoeelo: 1
+  country: rs
+  discord: "https://discord.gg/ckHd3vT"
+  douyu: ~
+  esportsearnings: 12247
+  liquipedia: DauT
+  mixer: ~
+  platforms:
+    de:
+      - "198035"
+      - "1832317"
+    gamepark:
+      - daut
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "12926"
+      - 125129993-8
+      - "125129998"
+      - "123345149"
+      - "188639"
+      - "108050"
+    vooblycn: []
     zone:
-      - 'iron'
-- name: North
+      - daut
+  twitch: "https://www.twitch.tv/daut"
+  youtube: "https://www.youtube.com/channel/UC8m8Iah2xOHZvnBbpyOcEOA"
+- name: Daywalker
+  aka: []
+  aoeelo: ~
   country: gb
-  esportsearnings: 6932
-  platforms:
-- name: RIP_Dreams
-  country: nl
-  esportsearnings: 2175
-  platforms:
-    zone:
-      - 'rip_dreams'
-- name: Buddha
-  country: bg
-  esportsearnings: 67163
-  platforms:
-    zone:
-      - 'buddha'
-    gamepark:
-      - 'buddha'
-- name: El KhaLeN
-  country: fr
-  esportsearnings: 76361
-  platforms:
-- name: Kaiser Willhelm
-  country: se
-  esportsearnings: 65230
-  platforms:
-- name: Fai
-  country: cn
-  esportsearnings: 72998
-  platforms:
-- name: "True"
-  liquipedia: "True"
-  aka:
-    - Kellan
-  country: us
-  esportsearnings: 15931
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
     de:
-      - '584824'
+      - "211235"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '123188321'
-- name: WraTh
-  country: br
-  esportsearnings: 12956
-  platforms:
-    zone:
-      - 'wrath'
-    gamepark:
-      - 'wrath'
-- name: Jinx
-  country: us
-  esportsearnings: 74366
-  platforms:
-    zone:
-      - 'jinx'
-- name: MuSe
-  country: de
-  esportsearnings: 2177
-  platforms:
-    zone:
-      - 'muse'
-- name: Crexis
-  country: ca
-  esportsearnings: 42051
-  liquipedia: Crexis
-  platforms:
-- name: Myth_Osiris
-  country: nl
-  esportsearnings: 6935
-  platforms:
+      - "123374407"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
 - name: Dee
+  aka: []
+  aoeelo: ~
   country: cn
+  discord: ~
+  douyu: ~
   esportsearnings: 12951
+  liquipedia: ~
+  mixer: ~
   platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '123180884'
+      - "123180884"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: DemonSheep
+  aka: []
+  aoeelo: 611
+  country: tw
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "226697"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/demonsheeptw"
+  youtube: ~
 - name: DevilZ_High
+  aka: []
+  aoeelo: ~
   country: dk
+  discord: ~
+  douyu: ~
   esportsearnings: 42050
   liquipedia: High
+  mixer: ~
   platforms:
-- name: HimT
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Ding
+  aka: []
+  aoeelo: ~
   country: hk
-  esportsearnings: 72997
-  platforms:
-- name: Dante
-  country: us
-  esportsearnings: 2176
-  platforms:
-- name: HawFchik
-  country: kz
-  esportsearnings: 66170
-  platforms:
-- name: n00b
-  country: ie
-  esportsearnings: 67286
-  platforms:
-    zone:
-      - 'noob'
-- name: RaYaN
-  country: kz
-  esportsearnings: 66165
-  platforms:
-    zone:
-      - 'rayan'
-- name: Jaksal
-  country: kr
-  esportsearnings: 49663
-  platforms:
-- name: Shiri
-  country: kr
-  esportsearnings: 49662
-  platforms:
-- name: Praxes
-  country: us
-  esportsearnings: 15951
-  platforms:
-- name: Disciple
-  country: us
-  esportsearnings: 73956
-  platforms:
-- name: Ugnis
-  country: lt
-  esportsearnings: 66164
-  platforms:
-    zone:
-      - 'ugnis'
-    voobly:
-      - '170776'
-- name: NoBoDy
-  country: kz
-  esportsearnings: 66167
-  platforms:
-- name: Sobek
-  country: cl
-  platforms:
-    de:
-      - '290617'
-    voobly:
-      - '124317014'
-- name: Hallis
-  country: gb
-  twitch: https://www.twitch.tv/hallisaoc
-  platforms:
-    de:
-      - '250103'
-    voobly:
-      - '123851827'
-      - '123649340'
-- name: FletcheR
-  country: 'no'
-  esportsearnings: 67412
-  platforms:
-    zone:
-      - 'fletcher'
-- name: Kumruke
-  country: jp
-  platforms:
-    zone:
-      - 'kumruke'
-    voobly:
-      - '227647'
-- name: Igloo
-  country: gb
-  platforms:
-    zone:
-      - 'igloo'
-    voobly:
-      - '124479620'
-- name: Goodboy
-  country: cn
-  platforms:
-    voobly:
-      - '123188558'
-      - '123140760'
-- name: Kyo
-  country: hk
-  platforms:
-    voobly:
-      - '123308350'
-- name: Survivalist
-  country: ca
-  youtube: https://www.youtube.com/channel/UCmFJUeU8Oubp5Neldbq0JRA
-  mixer: https://mixer.com/SurvivalistAOE2DE
-  discord: https://discord.gg/2uJ5Tyh
-  platforms:
-    de:
-      - '247224'
-- name: YYQ
-  country: cn
-  esportsearnings: 73955
-  aoeelo: 355
-  platforms:
-    zone:
-      - 'yyq'
-- name: Country
-  country: ie
-  aoeelo: 344
-  platforms:
-    zone:
-      - 'country'
-- name: Zeal
-  country: se
-  esportsearnings: 6881
-  aoeelo: 321
-  platforms:
-    zone:
-      - 'zeal'
-    voobly:
-      - '17368'
-- name: KicK
-  country: es
-  esportsearnings: 68804
-  platforms:
-    zone:
-      - 'kick'
-- name: LeAsH
-  country: us
-  twitch: https://www.twitch.tv/leash__/
-  platforms:
-    de:
-      - '322858'
-    voobly:
-      - '123556801'
-- name: Repard
-  country: ru
-  platforms:
-    voobly:
-      - '123765859'
-    de:
-      - '222528'
-- name: TheCode
-  country: tr
-  liquipedia: TheCode
-  platforms:
-    voobly:
-      - '123369268'
-    de:
-      - '1529495'
-- name: Daywalker
-  country: gb
-  platforms:
-    voobly:
-      - '123374407'
-    de:
-      - '211235'
-- name: l2aGe
-  country: gb
-  platforms:
-    voobly:
-      - '124045298'
-    de:
-      - '217180'
-- name: Bruh
-  country: br
-  twitch: https://www.twitch.tv/bruhtal_
-  platforms:
-    voobly:
-      - '123698004'
-      - '123158445'
-    de:
-      - '2135484'
-      - '3088115'
-- name: ashleylynn
-  country: us
-  twitch: https://www.twitch.tv/aoc_ashleylynn
-  discord: https://discord.gg/DFBYNfG
-  platforms:
-    voobly:
-      - '123866515'
-    de:
-      - '283233'
-      - '674899' # Bubbles
-      - '1602128'
-- name: T90
-  country: us
-  twitch: https://www.twitch.tv/t90official
-  discord: https://discord.gg/t90official
-  youtube: https://www.youtube.com/t90official
-  liquipedia: T90Official
-  platforms:
-    voobly:
-      - '124236797'
-    de:
-      - '197930'
-      - '951203' # HaroldTheDuck
-- name: Rex
-  country: pl
-  twitch: https://www.twitch.tv/tr_rex_
-  youtube: https://www.youtube.com/channel/UCIQg67br-zXRxyrFRwbfBsQ
-  platforms:
-    de:
-      - '1390516'
-      - '2386652'
-- name: Gluttony
-  country: 'no'
-  twitch: https://www.twitch.tv/gluttony_aoe
-  platforms:
-    de:
-      - '545512'
-- name: Rise
-  country: it
-  platforms:
-    de:
-      - '1428813'
-      - '210388'
-- name: Dark
-  country: ru
-  twitch: https://www.twitch.tv/dark_aoe
-  platforms:
-    voobly:
-      - '125137692'
-    de:
-      - '1407942'
-      - '3108145'
-- name: Mahya
-  country: ma
-  twitch: https://www.twitch.tv/mahyaoc
-  platforms:
-    voobly:
-      - '124090505'
-    de:
-      - '2815388'
-      - '2521572'
-- name: Bad Koala
-  country: cn
-  platforms:
-    de:
-      - '211351' #main
-      - '1435093' #alt
-- name: seyaren
-  country: cn
-  platforms:
-    voobly:
-      - '124646628'
-    de:
-      - '2461090' #main
-      - '2876803' #alt
-- name: Badboy
-  country: vn
-  platforms:
-    de:
-      - '2503651'
-- name: RecoN
-  country: gb
-  platforms:
-    voobly:
-      - '123514787'
-    de:
-      - '280459'
-      - '985308'
-- name: BL4CK
-  country: ar
-  platforms:
-    de:
-      - '2792305'
-      - '1756760'
-- name: killpigboy
-  country: cn
-  platforms:
-    voobly:
-      - '125198457'
-    de:
-      - '575279'
-- name: Acuo
-  country: cn
-  platforms:
-    voobly:
-      - '197995'
-    de:
-      - '801470'
-- name: Keno
-  country: mx
-  platforms:
-    de:
-      - '312774'
-      - '738273'
-    voobly:
-      - '124318462'
-      - '1431'
-- name: JackK
-  country: pl
-  twitch: https://www.twitch.tv/jackk_pl
-  platforms:
-    de:
-      - '452924'
-      - '2754047'
-- name: PaTiN
-  country: ar
-  platforms:
-    voobly:
-      - '123921098'
-    de:
-      - '2598542'
-      - '3489772'
-- name: Tushen
-  country: cn
-  platforms:
-    de:
-      - '2544010'
-      - '599657'
-- name: Kellar
-  country: 'no'
-  platforms:
-    de:
-      - '1451847'
-      - '1195260'
-      - '1784541'
-- name: Carbo
-  country: ar
-  platforms:
-    de:
-      - '618731'
-      - '2171446'
-- name: pG_Fire
-  country: au
-  platforms:
-    de:
-      - '2134694'
-    zone:
-      - 'pgfire'
-- name: Black Pig
-  country: mx
-  twitch: https://www.twitch.tv/puerco_black
-  platforms:
-    voobly:
-      - '123797075'
-    de:
-      - '580573'
-      - '2717438'
-- name: Ming
-  country: hk
-  platforms:
-    de:
-      - '3144451'
-      - '1966276'
-- name: OnLeKe
-  country: br
-  platforms:
-    de:
-      - '308109'
-      - '1696082'
-    voobly:
-      - '124423817'
-- name: Babaorum
-  country: fr
-  platforms:
-    de:
-      - '576919'
-      - '3335279'
-    voobly:
-      - '123145914'
-- name: Tatakae
-  country: mx
-  platforms:
-    de:
-      - '560474'
-    voobly:
-      - '124546027'
-- name: Darknoob
-  country: nl
-  platforms:
-    de:
-      - '458029'
-    voobly:
-      - '124516604'
-- name: DarkDevil
-  country: it
-  platforms:
-    de:
-      - '1630598'
-    voobly:
-      - '123607994'
-- name: Skull
-  country: cz
-  platforms:
-    de:
-      - '369536'
-    voobly:
-      - '2016'
-- name: TaoPaiPai
-  country: gt
-  platforms:
-    voobly:
-      - '124772915'
-    de:
-      - '2614814'
-      - '2760394'
-- name: Mr Greed
-  country: pt
-  platforms:
-    de:
-      - '738249'
-      - '3082790'
-- name: Idol Brother
-  country: cn
-  platforms:
-    de:
-      - '1788064'
-- name: Uzzi
-  country: mx
-  twitch: https://www.twitch.tv/uzzi_aoe
-  platforms:
-    de:
-      - '229071'
-      - '2873733'
-      - '2136214'
-    voobly:
-      - '124655527'
-- name: The Bloodless
-  country: us
-  platforms:
-    de:
-      - '178430'
-- name: Wisepii
-  country: cl
-  platforms:
-    de:
-      - '1264695'
-      - '3379989'
-    voobly:
-      - '123911641'
-- name: Chocobo
-  country: jp
-  platforms:
-    de:
-      - '1584462'
-      - '3296370'
-    voobly:
-      - '123742000'
-      - '123166866'
-      - '123243709'
-- name: Scogo
-  country: de
-  platforms:
-    de:
-      - '208217'
-      - '900950'
-      - '282660'
-    voobly:
-      - '124536623'
-- name: z40305125
-  country: tw
-  platforms:
-    de:
-      - '726223'
-      - '3152642'
-      - '1251651'
-    voobly:
-      - 'z40305125'
-- name: Dratek
-  country: cz
-  platforms:
-    de:
-      - '3245050'
-      - '270315'
-    zone:
-      - 'dratek'
-- name: Funito
-  country: ar
-  twitch: https://www.twitch.tv/funito
-  platforms:
-    de:
-      - '2638400'
-    voobly:
-      - '13052'
+  discord: ~
+  douyu: ~
+  esportsearnings: 12254
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
     gamepark:
-      - 'funito'
+      - ding
+    gameranger: []
+    ibp:
+      - ding
     igz:
-      - '13052'
-- name: K0ty
-  country: cz
-  platforms:
-    de:
-      - '811008'
+      - "46048"
+      - "56738"
+    lan: []
     voobly:
-      - '123302915'
+      - "722"
+      - "46048"
+    vooblycn: []
     zone:
-      - 'k0ty'
-- name: Whocl
-  country: cl
+      - ding
+  twitch: ~
+  youtube: ~
+- name: Disciple
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: 73956
+  liquipedia: ~
+  mixer: ~
   platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Dobbs
+  aka: []
+  aoeelo: ~
+  country: dk
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "246423"
+      - "2780825"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '124423933'
-    de:
-      - '2309468'
-      - '2718358'
-      - '3422495'
-- name: Rodrigus
-  country: ar
+      - "124368651"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/dobbs351"
+  youtube: ~
+- name: dogao
+  aka: []
+  aoeelo: 4
+  country: br
+  discord: ~
+  douyu: ~
+  esportsearnings: 12250
+  liquipedia: dogao
+  mixer: ~
   platforms:
     de:
-      - '2495166'
-      - '1143001'
+      - "199170"
+      - "1486575"
+      - "1830104"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '5469'
-- name: Galaxy
-  country: hk
-  platforms:
-    de:
-      - '2875949'
-      - '2622255'
-- name: Lobo
-  country: mx
-  platforms:
-    de:
-      - '2920057'
-      - '3317764'
-- name: WaRRioR
-  country: ru
-  platforms:
-    de:
-      - '1626982'
-      - '2915171'
-    voobly:
-      - '123204531'
-- name: klavskis
-  country: lv
-  platforms:
-    de:
-      - '213534'
-    voobly:
-      - '123205226'
-- name: Mango
+      - "123186723"
+      - "123444726"
+      - "124469820"
+      - "125227721"
+      - "124340883"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/dogaoaoe"
+  youtube: ~
+- name: DraconT
+  aka: []
+  aoeelo: 100
   country: cz
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
     de:
-      - '1613129'
-      - '272454'
-      - '754969'
+      - "357795"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '123793537'
-- name: JoRo
-  country: us
+      - "124043892"
+      - "124556058"
+      - "124596119"
+      - "124717620"
+      - "124832150"
+      - "125297245"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Dragonstar
+  aka: []
+  aoeelo: 603
+  country: in
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
     de:
-      - '3543549'
-      - '270449'
+      - "182749"
+      - "2112598"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
     voobly:
-      - '123904053' # [RoR]JoRo
-- name: Xhing
-  country: us
-  twitch: https://www.twitch.tv/adam_aoe
-  discord: https://discord.gg/MusuEz
+      - "124281975"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Dratek
+  aka: []
+  aoeelo: ~
+  country: cz
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
     de:
-      - '611972'
-    voobly:
-      - '124835966'
-      - '124725130'
-- name: flightlessbird
-  country: nz
+      - "3245050"
+      - "270315"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - dratek
+  twitch: ~
+  youtube: ~
+- name: DreaIVIS
+  aka: []
+  aoeelo: ~
+  country: fi
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
   platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz:
+      - "123868428"
+    lan: []
     voobly:
-      - '124284205'
+      - "3258"
+      - "21627"
+      - "167378"
+    vooblycn: []
+    zone:
+      - dreams
+  twitch: ~
+  youtube: ~
+- name: DriNkY
+  aka: []
+  aoeelo: ~
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
     de:
-      - '285508'
-      - '2571777'
-- name: Pela
+      - "258972"
+    gamepark:
+      - drinky
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123186478"
+    vooblycn: []
+    zone:
+      - drinky
+  twitch: ~
+  youtube: ~
+- name: Duck
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123288787"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Dziamdziak
+  aka: []
+  aoeelo: 127
+  country: pl
+  discord: "https://discord.gg/xz7uDPp"
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "879956"
+    gamepark:
+      - dziamdziak
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "9806"
+    vooblycn: []
+    zone:
+      - dziamdziak
+  twitch: "https://www.twitch.tv/dziamdziak"
+  youtube: ~
+- name: Edie
+  aka: []
+  aoeelo: 8
+  country: fr
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123666945"
+      - "123771026"
+      - "123442846"
+      - "124222465"
+      - "123741316"
+      - "123321654"
+      - "123189353"
+      - "123741316"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: El KhaLeN
+  aka: []
+  aoeelo: ~
+  country: fr
+  discord: ~
+  douyu: ~
+  esportsearnings: 76361
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Elfanor
+  aka: []
+  aoeelo: ~
+  country: be
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - elfanor
+  twitch: ~
+  youtube: ~
+- name: F1Re
+  aka: []
+  aoeelo: 5
+  country: br
+  discord: ~
+  douyu: ~
+  esportsearnings: 14714
+  liquipedia: F1Re
+  mixer: ~
+  platforms:
+    de:
+      - "196310"
+      - "1819094"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123658746"
+      - 125129985-6
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/f1reaoe/"
+  youtube: ~
+- name: Fai
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 72998
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: FeAge
+  aka: []
+  aoeelo: 84
+  country: br
+  discord: ~
+  douyu: ~
+  esportsearnings: 12255
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "300649"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123203450"
+      - "124170824"
+      - "124297045"
+      - "133714"
+      - "123444736"
+      - "123563868"
+      - "186651"
+    vooblycn: []
+    zone:
+      - feage
+  twitch: "https://www.twitch.tv/feage/"
+  youtube: ~
+- name: Feanor
+  aka: []
+  aoeelo: 9
+  country: ie
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "208493"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123806659"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Fedex
+  aka: []
+  aoeelo: 153
   country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: Fedex
+  mixer: ~
   platforms:
     de:
-      - '219739'
-      - '2821779'
+      - "239238"
+      - "1252385"
+      - "2431776"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123273973"
+      - "123725868"
+      - "123601190"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Feeling
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - feeling
+  twitch: ~
+  youtube: ~
+- name: FletcheR
+  aka: []
+  aoeelo: ~
+  country: "no"
+  discord: ~
+  douyu: ~
+  esportsearnings: 67412
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - fletcher
+  twitch: ~
+  youtube: ~
+- name: flightlessbird
+  aka: []
+  aoeelo: ~
+  country: nz
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "285508"
+      - "2571777"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124284205"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Fox
+  aka: []
+  aoeelo: ~
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark:
+      - fox
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "6031"
+    vooblycn: []
+    zone:
+      - fox
+  twitch: ~
+  youtube: ~
+- name: Free
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - free
+  twitch: ~
+  youtube: ~
+- name: Funito
+  aka: []
+  aoeelo: ~
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2638400"
+    gamepark:
+      - funito
+    gameranger: []
+    ibp: []
+    igz:
+      - "13052"
+    lan: []
+    voobly:
+      - "13052"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/funito"
+  youtube: ~
+- name: Galaxy
+  aka: []
+  aoeelo: ~
+  country: hk
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2875949"
+      - "2622255"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Ganji
+  aka: []
+  aoeelo: 458
+  country: se
+  discord: "https://discord.gg/rtpCfgE"
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: Ganji
+  mixer: ~
+  platforms:
+    de:
+      - "212746"
+      - "661884"
+      - "965185"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124183501"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/ganji__"
+  youtube: ~
+- name: Geek
+  aka: []
+  aoeelo: ~
+  country: gb
+  discord: ~
+  douyu: ~
+  esportsearnings: 2180
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - geek
+  twitch: ~
+  youtube: ~
+- name: geoffrey
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 12256
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp:
+      - geoffrey
+    igz: []
+    lan: []
+    voobly:
+      - "25709"
+      - "123714784"
+    vooblycn:
+      - "25709"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Gluttony
+  aka: []
+  aoeelo: ~
+  country: "no"
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "545512"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/gluttony_aoe"
+  youtube: ~
+- name: Goku
+  aka: []
+  aoeelo: 7
+  country: br
+  discord: ~
+  douyu: ~
+  esportsearnings: 14715
+  liquipedia: GoKu
+  mixer: ~
+  platforms:
+    de:
+      - "1893397"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123984617"
+      - "125143234"
+      - "123529024"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/gokuaoe/"
+  youtube: ~
+- name: GoldenEnd
+  aka: []
+  aoeelo: 197
+  country: nl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123839438"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Goodboy
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123188558"
+      - "123140760"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Grunt
+  aka: []
+  aoeelo: ~
+  country: kr
+  discord: ~
+  douyu: ~
+  esportsearnings: 2090
+  liquipedia: Grunt
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan:
+      - grunt
+    voobly:
+      - "123189460"
+    vooblycn: []
+    zone:
+      - grunt
+  twitch: ~
+  youtube: ~
+- name: GX_Iron
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: 6933
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - iron
+  twitch: ~
+  youtube: ~
+- name: Hackl
+  aka: []
+  aoeelo: ~
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark:
+      - hackl
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123135274"
+    vooblycn: []
+    zone:
+      - hackl
+  twitch: ~
+  youtube: ~
+- name: Halen
+  aka: []
+  aoeelo: ~
+  country: jp
+  discord: ~
+  douyu: ~
+  esportsearnings: 2173
+  liquipedia: Halen
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "16205"
+    vooblycn: []
+    zone:
+      - halen
+  twitch: ~
+  youtube: ~
+- name: Hallis
+  aka: []
+  aoeelo: ~
+  country: gb
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "250103"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123851827"
+      - "123649340"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/hallisaoc"
+  youtube: ~
+- name: Hanyu
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - hanyu
+  twitch: ~
+  youtube: ~
+- name: Hasan
+  aka: []
+  aoeelo: ~
+  country: ba
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123222710"
+      - "7950"
+      - "123142913"
+      - "123370148"
+      - "123180505"
+      - hasan
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: HawFchik
+  aka: []
+  aoeelo: ~
+  country: kz
+  discord: ~
+  douyu: ~
+  esportsearnings: 66170
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Hearttt
+  aka: []
+  aoeelo: ~
+  country: pe
+  discord: ~
+  douyu: ~
+  esportsearnings: 41831
+  liquipedia: Hearttt
+  mixer: ~
+  platforms:
+    de:
+      - "582058"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124386524"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/hearttt_/"
+  youtube: ~
+- name: Hera
+  aka: []
+  aoeelo: 28
+  country: ca
+  discord: "https://discord.gg/DkdJj4D"
+  douyu: ~
+  esportsearnings: 25296
+  liquipedia: Hera
+  mixer: ~
+  platforms:
+    de:
+      - "199325"
+      - "1847121"
+      - "3209724"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124954867"
+      - "123984714"
+      - "125227715"
+      - "124694635"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/hera"
+  youtube: "https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ"
+- name: HimT
+  aka: []
+  aoeelo: ~
+  country: hk
+  discord: ~
+  douyu: ~
+  esportsearnings: 72997
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Hoang
+  aka: []
+  aoeelo: ~
+  country: vn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: Hoang
+  mixer: ~
+  platforms:
+    de:
+      - "459658"
+      - "2097181"
+      - "3241077"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123851854"
+      - "124750873"
+      - "124452866"
+      - "124449479"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/hoangnguyen485"
+  youtube: "https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw?view_as=subscriber"
+- name: hs
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark:
+      - hs
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - hs
+  twitch: ~
+  youtube: ~
+- name: IamJordan
+  aka: []
+  aoeelo: ~
+  country: tw
+  discord: ~
+  douyu: ~
+  esportsearnings: 2179
+  liquipedia: JcooL
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - iamjordan
+  twitch: ~
+  youtube: ~
+- name: IamKen
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 2174
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: IamOK
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 12948
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2868603"
+      - "1369578"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "187035"
+      - "123831728"
+      - "123700677"
+      - "123999995"
+    vooblycn:
+      - "187035"
+      - "124569805"
+    zone:
+      - iamok
+  twitch: ~
+  youtube: ~
+- name: Idol Brother
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1788064"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Igloo
+  aka: []
+  aoeelo: ~
+  country: gb
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124479620"
+    vooblycn: []
+    zone:
+      - igloo
+  twitch: ~
+  youtube: ~
+- name: Inc
+  aka: []
+  aoeelo: 323
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "221997"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123644749"
+    vooblycn: []
+    zone:
+      - inc
+  twitch: "https://www.twitch.tv/incaoe2/"
+  youtube: ~
+- name: Iori
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 66423
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2772600"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - iori
+  twitch: ~
+  youtube: ~
+- name: JackK
+  aka: []
+  aoeelo: ~
+  country: pl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "452924"
+      - "2754047"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/jackk_pl"
+  youtube: ~
+- name: Jaksal
+  aka: []
+  aoeelo: ~
+  country: kr
+  discord: ~
+  douyu: ~
+  esportsearnings: 49663
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: James
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 14708
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp:
+      - james
+    igz: []
+    lan: []
+    voobly:
+      - "123797718"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Janik
+  aka: []
+  aoeelo: 91
+  country: cz
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1134223"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123753371"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Jibatong
+  aka:
+    - Pain Master
+  aoeelo: 198
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: jibatong
+  mixer: ~
+  platforms:
+    de:
+      - "227857"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123642997"
+      - "123641000"
+      - "123435951"
+    vooblycn:
+      - "123642997"
+      - "124576519"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Jidba
+  aka: []
+  aoeelo: ~
+  country: gr
+  discord: ~
+  douyu: ~
+  esportsearnings: 15926
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "357026"
+      - "1834168"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "978"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/jidba"
+  youtube: ~
+- name: Jinx
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: 74366
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - jinx
+  twitch: ~
+  youtube: ~
+- name: Joe
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - cath_joe
+  twitch: ~
+  youtube: ~
+- name: JonSlow
+  aka: []
+  aoeelo: 101
+  country: il
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "208269"
+    gamepark:
+      - jonslow
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "11486"
+      - "123145092"
+      - "123172587"
+    vooblycn: []
+    zone:
+      - jonslow
+  twitch: "https://www.twitch.tv/jonslow_/"
+  youtube: "https://www.youtube.com/channel/UCI7xIJYOC2OEb6ttrsH2QHA"
+- name: JorDan
+  aka: []
+  aoeelo: 30
+  country: de
+  discord: "https://discord.gg/TWpUYVh"
+  douyu: ~
+  esportsearnings: 12245
+  liquipedia: JoaDn_105
+  mixer: ~
+  platforms:
+    de:
+      - "2858362"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz:
+      - "817"
+    lan: []
+    voobly:
+      - "817"
+      - "125129994"
+      - "123195719"
+      - "124340943"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/JoaDn_105/"
+  youtube: "https://www.youtube.com/channel/UCimCFIisAqXW9udVhN_LpwQ"
+- name: JoRo
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "3543549"
+      - "270449"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123904053"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Juan
+  aka: []
+  aoeelo: ~
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123410633"
+      - "124223825"
+      - "123836537"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Jupe
+  aka: []
+  aoeelo: ~
+  country: fi
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "208080"
+      - "703045"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123451615"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/jupeeeeee"
+  youtube: ~
+- name: K0ty
+  aka: []
+  aoeelo: ~
+  country: cz
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "811008"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123302915"
+    vooblycn: []
+    zone:
+      - k0ty
+  twitch: ~
+  youtube: ~
+- name: Kaiser Willhelm
+  aka: []
+  aoeelo: ~
+  country: se
+  discord: ~
+  douyu: ~
+  esportsearnings: 65230
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Kamigawa
+  aka: []
+  aoeelo: 446
+  country: it
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: Kamigawa
+  mixer: ~
+  platforms:
+    de:
+      - "213355"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124287511"
+      - "124505989"
+      - "124378288"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Kaohen
+  aka: []
+  aoeelo: ~
+  country: tw
+  discord: ~
+  douyu: ~
+  esportsearnings: 6931
+  liquipedia: Kaohen
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - kaohen
+  twitch: ~
+  youtube: ~
+- name: Kasva
+  aka: []
+  aoeelo: 195
+  country: tr
+  discord: "https://discord.gg/CETwWEp"
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: K4SVA
+  mixer: ~
+  platforms:
+    de:
+      - "1224481"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "125101127"
+      - "124473071"
+      - "125040561"
+      - "123507501"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/kasvaoe"
+  youtube: "https://www.youtube.com/channel/UCFAiCVX7VqQaqGBPAxLRKnQ?view_as=subscriber"
+- name: Kellar
+  aka: []
+  aoeelo: ~
+  country: "no"
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1451847"
+      - "1195260"
+      - "1784541"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Keno
+  aka: []
+  aoeelo: ~
+  country: mx
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "312774"
+      - "738273"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124318462"
+      - "1431"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: KicK
+  aka: []
+  aoeelo: ~
+  country: es
+  discord: ~
+  douyu: ~
+  esportsearnings: 68804
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - kick
+  twitch: ~
+  youtube: ~
+- name: Kief
+  aka: []
+  aoeelo: ~
+  country: ru
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124511435"
+      - "124351305"
+      - "124220413"
+      - "124657730"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: killpigboy
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "575279"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "125198457"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: kkab
+  aka: []
+  aoeelo: ~
+  country: kr
+  discord: ~
+  douyu: ~
+  esportsearnings: 12943
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan:
+      - kkab
+    voobly:
+      - "72440"
+    vooblycn: []
+    zone:
+      - kkab
+  twitch: ~
+  youtube: ~
+- name: klavskis
+  aka: []
+  aoeelo: ~
+  country: lv
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "213534"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123205226"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Kmkm
+  aka: []
+  aoeelo: ~
+  country: tw
+  discord: ~
+  douyu: ~
+  esportsearnings: 2183
+  liquipedia: IamKmkm
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "22956"
+    vooblycn: []
+    zone:
+      - kmkm
+  twitch: ~
+  youtube: ~
+- name: Komtan
+  aka: []
+  aoeelo: 66
+  country: jp
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "223206"
+      - "3308789"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123815728"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Kongensgade
+  aka: []
+  aoeelo: 132
+  country: dk
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "725502"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123652655"
+      - "123988152"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Kotex
+  aka: []
+  aoeelo: ~
+  country: vn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124763057"
+      - "124563608"
+      - "124764048"
+      - "124584836"
+      - "124796466"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Koven
+  aka: []
+  aoeelo: ~
+  country: kr
+  discord: ~
+  douyu: ~
+  esportsearnings: 22414
+  liquipedia: Koven
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan:
+      - koven
+    voobly:
+      - "13584"
+    vooblycn: []
+    zone:
+      - koven
+  twitch: ~
+  youtube: ~
+- name: Kumruke
+  aka: []
+  aoeelo: ~
+  country: jp
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "227647"
+    vooblycn: []
+    zone:
+      - kumruke
+  twitch: ~
+  youtube: ~
+- name: Kyo
+  aka: []
+  aoeelo: ~
+  country: hk
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123308350"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: l2aGe
+  aka: []
+  aoeelo: ~
+  country: gb
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "217180"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124045298"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: LaaaaaN
+  aka: []
+  aoeelo: 62
+  country: es
+  discord: ~
+  douyu: ~
+  esportsearnings: 56830
+  liquipedia: LaaaaaN
+  mixer: ~
+  platforms:
+    de:
+      - "232410"
+      - 196366-nac3
+      - "1819193"
+      - "2602752"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124116514"
+      - "123989026"
+      - "124691590"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Lang
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 65185
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp:
+      - lang
+    igz: []
+    lan: []
+    voobly:
+      - "123864424"
+      - "123826180"
+      - "188112"
+    vooblycn:
+      - "123864424"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: LB10
+  aka: []
+  aoeelo: 74
+  country: at
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: LeAsH
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "322858"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123556801"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/leash__/"
+  youtube: ~
+- name: Liereyy
+  aka: []
+  aoeelo: 25
+  country: at
+  discord: ~
+  douyu: ~
+  esportsearnings: 41415
+  liquipedia: Liereyy
+  mixer: ~
+  platforms:
+    de:
+      - "506898"
+      - "1829588"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124147336"
+      - 125129977-1
+      - "125227717"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/liereyy/"
+  youtube: "https://www.youtube.com/channel/UCaggQmp9gAuB7xYeci26VWA"
+- name: Lobo
+  aka: []
+  aoeelo: ~
+  country: mx
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2920057"
+      - "3317764"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Lojza
+  aka: []
+  aoeelo: 58
+  country: cz
+  discord: ~
+  douyu: ~
+  esportsearnings: 12248
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123134558"
+      - "124340942"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Luca
+  aka: []
+  aoeelo: 250
+  country: ca
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "268565"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124682621"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/luca8761"
+  youtube: ~
+- name: Lyx
+  aka: []
+  aoeelo: 21
+  country: cn
+  discord: ~
+  douyu: "https://www.douyu.com/1029928"
+  esportsearnings: 14740
+  liquipedia: Lyx
+  mixer: ~
+  platforms:
+    de:
+      - "226575"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123230853"
+      - "123219958"
+      - "180548"
+    vooblycn:
+      - "123230853"
+      - "180548"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Mahya
+  aka: []
+  aoeelo: ~
+  country: ma
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2815388"
+      - "2521572"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124090505"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/mahyaoc"
+  youtube: ~
+- name: Mango
+  aka: []
+  aoeelo: ~
+  country: cz
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1613129"
+      - "272454"
+      - "754969"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123793537"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: MbL
+  aka: []
+  aoeelo: 24
+  country: "no"
+  discord: "https://discord.gg/5cHqGMx"
+  douyu: ~
+  esportsearnings: 25311
+  liquipedia: MbL
+  mixer: ~
+  platforms:
+    de:
+      - "251265"
+      - "1826483"
+      - "2644601"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123844441"
+      - "123422126"
+      - "125375948"
+      - "125129979"
+      - 125129978-2
+      - "124653653"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/mblaoc"
+  youtube: "http://youtube.com/user/Mortenjeah"
+- name: Melkor
+  aka: []
+  aoeelo: 10
+  country: ie
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123922182"
+      - "123394463"
+      - "124158935"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Mentalist
+  aka: []
+  aoeelo: ~
+  country: ca
+  discord: ~
+  douyu: ~
+  esportsearnings: 14737
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123805043"
+      - "123936769"
+      - "124195578"
+      - "125091165"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Metal
+  aka: []
+  aoeelo: 70
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Miguel
+  aka: []
+  aoeelo: 2
+  country: br
+  discord: ~
+  douyu: ~
+  esportsearnings: 15928
+  liquipedia: miguel
+  mixer: ~
+  platforms:
+    de:
+      - "2090225"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123600879"
+      - "49541"
+      - "123961542"
+      - "123459695"
+      - "227518"
+      - 125129994-9
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/miguelaoe"
+  youtube: ~
+- name: Mimmox
+  aka: []
+  aoeelo: ~
+  country: it
+  discord: ~
+  douyu: ~
+  esportsearnings: 41724
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - mimmox
+  twitch: ~
+  youtube: ~
+- name: Ming
+  aka: []
+  aoeelo: ~
+  country: hk
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "3144451"
+      - "1966276"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Miss_Xue
+  aka:
+    - NO_23
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 14709
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp:
+      - miss_xue
+    igz: []
+    lan: []
+    voobly:
+      - "25116"
+      - "123636501"
+      - "123372165"
+      - "123776423"
+      - "121454"
+    vooblycn:
+      - "123372165"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Moczymorda
+  aka: []
+  aoeelo: ~
+  country: pl
+  discord: ~
+  douyu: ~
+  esportsearnings: 66451
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - moczymorda
+  twitch: ~
+  youtube: ~
+- name: Modri
+  aka: []
+  aoeelo: ~
+  country: si
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "254415"
+      - "1862892"
+      - "1364587"
+      - "1457840"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124662701"
+      - "124160323"
+      - "124860581"
+      - "124860581"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Monoz
+  aka: []
+  aoeelo: ~
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2844691"
+      - "1861822"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123716297"
+      - "123737313"
+      - "12476384"
+      - "124453257"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Mozory
+  aka: []
+  aoeelo: ~
+  country: kr
+  discord: ~
+  douyu: ~
+  esportsearnings: 7629
+  liquipedia: MoZory
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - mozory
+  twitch: ~
+  youtube: ~
+- name: Mr Greed
+  aka: []
+  aoeelo: ~
+  country: pt
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "738249"
+      - "3082790"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: MuSe
+  aka: []
+  aoeelo: ~
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: 2177
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - muse
+  twitch: ~
+  youtube: ~
+- name: Myth_Osiris
+  aka: []
+  aoeelo: ~
+  country: nl
+  discord: ~
+  douyu: ~
+  esportsearnings: 6935
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: n00b
+  aka: []
+  aoeelo: ~
+  country: ie
+  discord: ~
+  douyu: ~
+  esportsearnings: 67286
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - noob
+  twitch: ~
+  youtube: ~
+- name: Nicov
+  aka: []
+  aoeelo: 27
+  country: ar
+  discord: "https://discord.gg/quRrGhV"
+  douyu: ~
+  esportsearnings: 14718
+  liquipedia: Nicov
+  mixer: ~
+  platforms:
+    de:
+      - "208393"
+      - "1827959"
+      - "2609359"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123807394"
+      - "123477857"
+      - "124178111"
+      - "125129977"
+      - 125129982-5
+      - "124775535"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/nicov_/"
+  youtube: "https://www.youtube.com/channel/UCzkVZ4Ci33LbQt_UHOvQEFw"
+- name: Nili
+  aka: []
+  aoeelo: 11
+  country: de
+  discord: "https://discordapp.com/invite/pQG8txM"
+  douyu: ~
+  esportsearnings: 41832
+  liquipedia: Nili_AoE
+  mixer: ~
+  platforms:
+    de:
+      - "197751"
+    gamepark:
+      - nili
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "9267"
+      - "124423938"
+    vooblycn: []
+    zone:
+      - nili
+  twitch: "https://www.twitch.tv/nili_aoe"
+  youtube: "https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/videos"
+- name: NoBoDy
+  aka: []
+  aoeelo: ~
+  country: kz
+  discord: ~
+  douyu: ~
+  esportsearnings: 66167
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Noisick
+  aka: []
+  aoeelo: ~
+  country: cl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1262725"
+      - "898389"
+      - "2709266"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124308648"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/noisick_aoe"
+  youtube: ~
+- name: North
+  aka: []
+  aoeelo: ~
+  country: gb
+  discord: ~
+  douyu: ~
+  esportsearnings: 6932
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Noto
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123193097"
+      - "123190565"
+      - "196922"
+      - "123437085"
+      - "125374"
+    vooblycn:
+      - "123193097"
+      - "123641192"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Nv
+  aka: []
+  aoeelo: ~
+  country: kr
+  discord: ~
+  douyu: ~
+  esportsearnings: 12945
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Obadiah
+  aka: []
+  aoeelo: 602
+  country: ca
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "225365"
+      - "1515905"
+      - "3435966"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: OnLeKe
+  aka: []
+  aoeelo: ~
+  country: br
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "308109"
+      - "1696082"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124423817"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Paladin
+  aka:
+    - Fengxin
+  aoeelo: 20
+  country: cn
+  discord: ~
+  douyu: "https://www.douyu.com/294359"
+  esportsearnings: 12249
+  liquipedia: Paladin
+  mixer: ~
+  platforms:
+    de:
+      - "210601"
+    gamepark: []
+    gameranger: []
+    ibp:
+      - paladin
+    igz: []
+    lan: []
+    voobly:
+      - "123835916"
+      - "179227"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: PaTiN
+  aka: []
+  aoeelo: ~
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2598542"
+      - "3489772"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123921098"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: PeEl
+  aka: []
+  aoeelo: ~
+  country: pl
+  discord: ~
+  douyu: ~
+  esportsearnings: 42061
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "15886"
+    vooblycn: []
+    zone:
+      - peel
+  twitch: ~
+  youtube: ~
+- name: Pela
+  aka: []
+  aoeelo: ~
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "219739"
+      - "2821779"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Pete Martell
+  aka: []
+  aoeelo: ~
+  country: it
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "746777"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124483923"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: pG_Fire
+  aka: []
+  aoeelo: ~
+  country: au
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2134694"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - pgfire
+  twitch: ~
+  youtube: ~
+- name: Pike
+  aka: []
+  aoeelo: 44
+  country: fi
+  discord: ~
+  douyu: ~
+  esportsearnings: 15935
+  liquipedia: NorthernPike
+  mixer: ~
+  platforms:
+    de:
+      - "229063"
+      - "3457608"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123162283"
+      - "123947524"
+      - "123950294"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/pikeaoc/"
+  youtube: ~
+- name: PK
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - pk
+  twitch: ~
+  youtube: ~
+- name: Playboy
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - playboy
+  twitch: ~
+  youtube: ~
+- name: Poisn
+  aka: []
+  aoeelo: ~
+  country: ca
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "3384231"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - poisn
+  twitch: ~
+  youtube: ~
+- name: Ppoc
+  aka: []
+  aoeelo: ~
+  country: es
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan:
+      - ppoc
+    voobly: []
+    vooblycn: []
+    zone:
+      - ppoc
+  twitch: ~
+  youtube: ~
+- name: Praxes
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: 15951
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Ra
+  aka: []
+  aoeelo: ~
+  country: ca
+  discord: ~
+  douyu: ~
+  esportsearnings: 14735
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1098178"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "47262"
+      - "127366"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/sezualhealing/"
+  youtube: ~
+- name: Ralber
+  aka: []
+  aoeelo: ~
+  country: es
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2535067"
+    gamepark:
+      - ralber
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "11182"
+      - "24950"
+    vooblycn: []
+    zone:
+      - ralber
+  twitch: "https://www.twitch.tv/ralbertv"
+  youtube: ~
+- name: Rami
+  aka: []
+  aoeelo: ~
+  country: il
+  discord: ~
+  douyu: ~
+  esportsearnings: 42063
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark:
+      - rami
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123701126"
+    vooblycn: []
+    zone:
+      - rami
+  twitch: ~
+  youtube: ~
+- name: RaYaN
+  aka: []
+  aoeelo: ~
+  country: kz
+  discord: ~
+  douyu: ~
+  esportsearnings: 66165
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - rayan
+  twitch: ~
+  youtube: ~
+- name: RD_ChampioN
+  aka: []
+  aoeelo: ~
+  country: kr
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "180938"
+    vooblycn: []
+    zone:
+      - champion
+  twitch: ~
+  youtube: ~
+- name: RecoN
+  aka: []
+  aoeelo: ~
+  country: gb
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "280459"
+      - "985308"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123514787"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Repard
+  aka: []
+  aoeelo: ~
+  country: ru
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "222528"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123765859"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Rex
+  aka: []
+  aoeelo: ~
+  country: pl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1390516"
+      - "2386652"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/tr_rex_"
+  youtube: "https://www.youtube.com/channel/UCIQg67br-zXRxyrFRwbfBsQ"
+- name: RIP_Dreams
+  aka: []
+  aoeelo: ~
+  country: nl
+  discord: ~
+  douyu: ~
+  esportsearnings: 2175
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - rip_dreams
+  twitch: ~
+  youtube: ~
+- name: Rise
+  aka: []
+  aoeelo: ~
+  country: it
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1428813"
+      - "210388"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: RiuT
+  aka: []
+  aoeelo: 3
+  country: br
+  discord: ~
+  douyu: ~
+  esportsearnings: 12244
+  liquipedia: RiuT
+  mixer: ~
+  platforms:
+    de:
+      - "673196"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "56531"
+      - "123696164"
+      - "123747533"
+      - "84542"
+      - "11896"
+      - "86350"
+      - "8643"
+      - 125129995-10
+      - "124340884"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/riut_aoe"
+  youtube: "https://www.youtube.com/channel/UCWk47NDwrg9p696-Usiv8fw"
+- name: Rodrigus
+  aka: []
+  aoeelo: 449
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Rodrigus
+  aka: []
+  aoeelo: ~
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2495166"
+      - "1143001"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "5469"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Rubenstock
+  aka: []
+  aoeelo: 53
+  country: fi
+  discord: ~
+  douyu: ~
+  esportsearnings: 15936
+  liquipedia: Rubenstock
+  mixer: ~
+  platforms:
+    de:
+      - "431744"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123417449"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Rukie
+  aka: []
+  aoeelo: ~
+  country: es
+  discord: ~
+  douyu: ~
+  esportsearnings: 42060
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - rukie
+  twitch: ~
+  youtube: ~
+- name: Running
+  aka: []
+  aoeelo: 616
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "256338"
+      - "231087"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "125045236"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Ruso
+  aka: []
+  aoeelo: ~
+  country: es
+  discord: ~
+  douyu: ~
+  esportsearnings: 66433
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1997593"
+    gamepark:
+      - ruso
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123453296"
+      - "9627"
+      - "22303"
+    vooblycn: []
+    zone:
+      - ruso
+  twitch: ~
+  youtube: ~
+- name: Scogo
+  aka: []
+  aoeelo: ~
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "208217"
+      - "900950"
+      - "282660"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124536623"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Scotty
+  aka: []
+  aoeelo: 78
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "301918"
+      - "2855233"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Seoul
+  aka: []
+  aoeelo: 143
+  country: vn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: seyaren
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2461090"
+      - "2876803"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124646628"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Shiri
+  aka: []
+  aoeelo: ~
+  country: kr
+  discord: ~
+  douyu: ~
+  esportsearnings: 49662
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Sitaux
+  aka: []
+  aoeelo: 12
+  country: fr
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: Sitaux
+  mixer: ~
+  platforms:
+    de:
+      - "1311198"
+      - "212721"
+      - "1630401"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "125241102"
+      - "124313135"
+      - "124216278"
+      - "124728574"
+      - "124653323"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/sitaux"
+  youtube: ~
+- name: Skittle
+  aka: []
+  aoeelo: 122
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "992381"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz:
+      - "123225139"
+    lan: []
+    voobly:
+      - "123225139"
+      - "2976"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Skull
+  aka: []
+  aoeelo: ~
+  country: cz
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "369536"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "2016"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Slam
+  aka: []
+  aoeelo: 32
+  country: ca
+  discord: ~
+  douyu: ~
+  esportsearnings: 12253
+  liquipedia: Slam
+  mixer: ~
+  platforms:
+    de:
+      - "614315"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123497926"
+      - "123806830"
+      - "123129489"
+      - "124110342"
+      - 125129979-3
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/slamjam_/"
+  youtube: "https://www.youtube.com/channel/UC15K06FB4EO98AMBYqraQ3w"
+- name: Sobek
+  aka: []
+  aoeelo: ~
+  country: cl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "290617"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124317014"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: SongSong
+  aka:
+    - KuTaTaXoa
+  aoeelo: ~
+  country: vn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2733015"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123505495"
+      - "123890962"
+      - "123546355"
+      - "124375121"
+      - "123532179"
+      - "124626542"
+      - "125009949"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/songsongaoede"
+  youtube: ~
+- name: Sora Kuma
+  aka: []
+  aoeelo: 445
+  country: tw
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "209118"
+      - "712465"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/skyandpeace/"
+  youtube: ~
+- name: SoraK
+  aka: []
+  aoeelo: ~
+  country: cl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - sorak
+  twitch: ~
+  youtube: ~
+- name: Spaden
+  aka: []
+  aoeelo: 65
+  country: se
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "248441"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123210474"
+      - "124166791"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Spring
+  aka: []
+  aoeelo: 13
+  country: us
+  discord: "https://discord.gg/MrNwsQB"
+  douyu: ~
+  esportsearnings: 41842
+  liquipedia: SpringTV
+  mixer: ~
+  platforms:
+    de:
+      - "235623"
+      - "1766301"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "3867"
+      - "124002307"
+      - "123821562"
+      - "123339272"
+      - "3867"
+      - "480"
+      - "123273372"
+      - "124781271"
+    vooblycn: []
+    zone:
+      - spring
+  twitch: "https://www.twitch.tv/springtv/"
+  youtube: ~
+- name: St4rk
+  aka: []
+  aoeelo: 18
+  country: br
+  discord: "https://discord.gg/K4VEGWC"
+  douyu: ~
+  esportsearnings: 12258
+  liquipedia: St4rk
+  mixer: ~
+  platforms:
+    de:
+      - "986504"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123409476"
+      - "125107343"
+      - "123204710"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/st4rk_"
+  youtube: "https://www.youtube.com/channel/UCoX5HqFM4qEGJYfj0TEOIpg"
+- name: Stefan
+  aka: []
+  aoeelo: 103
+  country: de
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "370776"
+      - "1832072"
+      - "1221228"
+      - "1597337"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: StrayDog
+  aka: []
+  aoeelo: 64
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "716717"
+    gamepark:
+      - straydog
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124489527"
+      - "124297679"
+      - "9747"
+      - "124862194"
+      - "128633"
+      - "125403511"
+    vooblycn:
+      - "9747"
+      - "124489527"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Survivalist
+  aka: []
+  aoeelo: ~
+  country: ca
+  discord: "https://discord.gg/2uJ5Tyh"
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: "https://mixer.com/SurvivalistAOE2DE"
+  platforms:
+    de:
+      - "247224"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: "https://www.youtube.com/channel/UCmFJUeU8Oubp5Neldbq0JRA"
+- name: Sutra
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: 42059
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - sutra
+  twitch: ~
+  youtube: ~
+- name: T90
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: "https://discord.gg/t90official"
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: T90Official
+  mixer: ~
+  platforms:
+    de:
+      - "197930"
+      - "951203"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124236797"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/t90official"
+  youtube: "https://www.youtube.com/t90official"
+- name: TaoPaiPai
+  aka: []
+  aoeelo: ~
+  country: gt
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2614814"
+      - "2760394"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124772915"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Tatakae
+  aka: []
+  aoeelo: ~
+  country: mx
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "560474"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124546027"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: TaToH
+  aka: []
+  aoeelo: 31
+  country: es
+  discord: ~
+  douyu: ~
+  esportsearnings: 41416
+  liquipedia: TaToH
+  mixer: ~
+  platforms:
+    de:
+      - "197388"
+      - "968255"
+      - "1819863"
+      - "3033716"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123999216"
+      - "125366410"
+      - "123347503"
+      - "125129995"
+      - 125129998-12
+      - "947"
+      - "124199973"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/tatoh"
+  youtube: "https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg"
+- name: The Bloodless
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "178430"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: The_Sheriff
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - sheriff
+  twitch: ~
+  youtube: ~
+- name: TheCode
+  aka: []
+  aoeelo: ~
+  country: tr
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: TheCode
+  mixer: ~
+  platforms:
+    de:
+      - "1529495"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123369268"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: TheMax
+  aka: []
+  aoeelo: 52
+  country: fi
+  discord: ~
+  douyu: ~
+  esportsearnings: 25297
+  liquipedia: TheMax
+  mixer: ~
+  platforms:
+    de:
+      - "572017"
+      - "1832996"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123282211"
+      - "39623"
+      - "123636616"
+      - "125129980"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: TheViper
+  aka: []
+  aoeelo: 29
+  country: "no"
+  discord: "https://discord.gg/WNmHUEH"
+  douyu: ~
+  esportsearnings: 12243
+  liquipedia: TheViper
+  mixer: ~
+  platforms:
+    de:
+      - "196240"
+      - "1827609"
+    gamepark: []
+    gameranger:
+      - viper
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123211439"
+      - "123529195"
+      - "123286363"
+      - "123164797"
+      - "123262516"
+      - "124706302"
+      - 125129980-4
+      - "125129978"
+      - "123906517"
+      - "124638756"
+      - "124341240"
+    vooblycn: []
+    zone:
+      - viper
+  twitch: "https://twitch.tv/theviper"
+  youtube: "https://www.youtube.com/user/TheViperAOC"
+- name: Tim
+  aka: []
+  aoeelo: 33
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 12949
+  liquipedia: Tim
+  mixer: ~
+  platforms:
+    de:
+      - "534438"
+      - "1369485"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "182612"
+      - "125129993"
+      - "124367119"
+      - "123882867"
+      - "43680"
+      - "123536800"
+    vooblycn:
+      - "182612"
+      - "124539771"
+    zone:
+      - tim
+  twitch: ~
+  youtube: ~
+- name: "True"
+  aka:
+    - Kellan
+  aoeelo: ~
+  country: us
+  discord: ~
+  douyu: ~
+  esportsearnings: 15931
+  liquipedia: "True"
+  mixer: ~
+  platforms:
+    de:
+      - "584824"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123188321"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Tushen
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2544010"
+      - "599657"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Twigg
+  aka: []
+  aoeelo: 92
+  country: ar
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2621722"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124042289"
+      - "123784980"
+      - "123975630"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Ugnis
+  aka: []
+  aoeelo: ~
+  country: lt
+  discord: ~
+  douyu: ~
+  esportsearnings: 66164
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "170776"
+    vooblycn: []
+    zone:
+      - ugnis
+  twitch: ~
+  youtube: ~
+- name: Uzzi
+  aka: []
+  aoeelo: ~
+  country: mx
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "229071"
+      - "2873733"
+      - "2136214"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124655527"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/uzzi_aoe"
+  youtube: ~
+- name: Valas
+  aka: []
+  aoeelo: ~
+  country: fi
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "628503"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124806109"
+      - "124493950"
+      - "124245294"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Vile
+  aka: []
+  aoeelo: ~
+  country: my
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark:
+      - vile
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - vile
+  twitch: ~
+  youtube: ~
+- name: Villese
+  aka: []
+  aoeelo: 51
+  country: fi
+  discord: ~
+  douyu: ~
+  esportsearnings: 43218
+  liquipedia: Villese
+  mixer: ~
+  platforms:
+    de:
+      - "208611"
+      - "1829715"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124166670"
+      - "124240093"
+      - "125129990"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Vinch
+  aka: []
+  aoeelo: 55
+  country: ru
+  discord: ~
+  douyu: ~
+  esportsearnings: 42069
+  liquipedia: Vinchester
+  mixer: ~
+  platforms:
+    de:
+      - "271202"
+      - "2886954"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123397463"
+      - "124170820"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/vik_vinchester/"
+  youtube: "http://www.youtube.com/channel/UCm3BAnotyqfdvm6sO5bs18g"
+- name: Vivi
+  aka:
+    - FAT_PIG
+  aoeelo: 35
+  country: cn
+  discord: ~
+  douyu: "https://www.douyu.com/1052202"
+  esportsearnings: 25295
+  liquipedia: Vivi
+  mixer: ~
+  platforms:
+    de:
+      - "215442"
+      - "1432837"
+      - "1829738"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123493096"
+      - "123303397"
+      - "125129996"
+      - 125129996-11
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Vodka
+  aka: []
+  aoeelo: 129
+  country: it
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: Vodka_L_
+  mixer: ~
+  platforms:
+    de:
+      - "599689"
+      - "2428811"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123841591"
+      - "123946886"
+      - "125271720"
+      - "123793404"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: WaRRioR
+  aka: []
+  aoeelo: ~
+  country: ru
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1626982"
+      - "2915171"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123204531"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Whocl
+  aka: []
+  aoeelo: ~
+  country: cl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2309468"
+      - "2718358"
+      - "3422495"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124423933"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Whoop
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 43219
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2783258"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123236765"
+      - "11387"
+      - "124560899"
+      - "124897713"
+    vooblycn:
+      - "3703"
+      - "6246"
+      - "30466"
+      - "123236765"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Windy
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123429442"
+    vooblycn: []
+    zone:
+      - windy
+  twitch: ~
+  youtube: ~
+- name: Wisepii
+  aka: []
+  aoeelo: ~
+  country: cl
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "1264695"
+      - "3379989"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123911641"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: WraTh
+  aka: []
+  aoeelo: ~
+  country: br
+  discord: ~
+  douyu: ~
+  esportsearnings: 12956
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark:
+      - wrath
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - wrath
+  twitch: ~
+  youtube: ~
+- name: Xhing
+  aka: []
+  aoeelo: ~
+  country: us
+  discord: "https://discord.gg/MusuEz"
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "611972"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124835966"
+      - "124725130"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/adam_aoe"
+  youtube: ~
+- name: Xiaofan
+  aka: []
+  aoeelo: 36
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "563078"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "70212"
+    vooblycn:
+      - "70212"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Xiaohai
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "3044106"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124531503"
+    vooblycn:
+      - "124531503"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Xiaoxiong
+  aka: []
+  aoeelo: ~
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 25294
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2344276"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123482913"
+      - "124654721"
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Yanzi
+  aka: []
+  aoeelo: ~
+  country: hk
+  discord: ~
+  douyu: ~
+  esportsearnings: 2178
+  liquipedia: Chun_Yu
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan:
+      - yanzi
+    voobly: []
+    vooblycn: []
+    zone:
+      - yanzi
+  twitch: ~
+  youtube: ~
+- name: Yellow
+  aka: []
+  aoeelo: 15
+  country: vn
+  discord: ~
+  douyu: ~
+  esportsearnings: 14724
+  liquipedia: saymyname
+  mixer: ~
+  platforms:
+    de:
+      - "419803"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "124390868"
+      - "123174138"
+      - "123422426"
+      - "165563"
+      - "123193037"
+      - "123991049"
+      - "124793331"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/saymyname2909"
+  youtube: ~
+- name: Yinghua
+  aka:
+    - LoveCheng
+  aoeelo: 54
+  country: cn
+  discord: ~
+  douyu: "https://www.douyu.com/953871"
+  esportsearnings: 12251
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "2806260"
+    gamepark: []
+    gameranger: []
+    ibp:
+      - yinghua
+    igz: []
+    lan: []
+    voobly:
+      - "123910183"
+      - "195356"
+      - "127665"
+      - "124341169"
+    vooblycn:
+      - "195356"
+      - "123910183"
+      - "127665"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Yo
+  aka: []
+  aoeelo: 19
+  country: cn
+  discord: ~
+  douyu: "https://www.douyu.com/753676"
+  esportsearnings: 14713
+  liquipedia: Mr_Yo
+  mixer: ~
+  platforms:
+    de:
+      - "197964"
+      - "337428"
+      - "1829754"
+    gamepark: []
+    gameranger: []
+    ibp:
+      - yo
+    igz: []
+    lan: []
+    voobly:
+      - "123636492"
+      - 125129990-7
+      - "125227711"
+      - "124341168"
+    vooblycn:
+      - "123636492"
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: YYQ
+  aka: []
+  aoeelo: 355
+  country: cn
+  discord: ~
+  douyu: ~
+  esportsearnings: 73955
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly: []
+    vooblycn: []
+    zone:
+      - yyq
+  twitch: ~
+  youtube: ~
+- name: z40305125
+  aka: []
+  aoeelo: ~
+  country: tw
+  discord: ~
+  douyu: ~
+  esportsearnings: ~
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de:
+      - "726223"
+      - "3152642"
+      - "1251651"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - z40305125
+    vooblycn: []
+    zone: []
+  twitch: ~
+  youtube: ~
+- name: Zeal
+  aka: []
+  aoeelo: 321
+  country: se
+  discord: ~
+  douyu: ~
+  esportsearnings: 6881
+  liquipedia: ~
+  mixer: ~
+  platforms:
+    de: []
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "17368"
+    vooblycn: []
+    zone:
+      - zeal
+  twitch: ~
+  youtube: ~
+- name: Zuppi
+  aka: []
+  aoeelo: 50
+  country: fi
+  discord: ~
+  douyu: ~
+  esportsearnings: 15934
+  liquipedia: Zuppi
+  mixer: ~
+  platforms:
+    de:
+      - "575722"
+    gamepark: []
+    gameranger: []
+    ibp: []
+    igz: []
+    lan: []
+    voobly:
+      - "123961442"
+    vooblycn: []
+    zone: []
+  twitch: "https://www.twitch.tv/zuppiaoe"
+  youtube: "https://www.youtube.com/channel/UCxAQeu2SrQjK8-As4-gc9Lg"
