@@ -1731,7 +1731,7 @@
 - name: Seoul
   country: vn
   aoeelo: 143
-  platforms:
+  platforms: []
 - name: Running
   country: de
   aoeelo: 616
@@ -1792,15 +1792,19 @@
 - name: Metal
   country: us
   aoeelo: 70
-  platforms:
+  platforms: []
 - name: LB10
   country: at
   aoeelo: 74
   platforms:
+    de:
+      - '1050688'
+    voobly:
+      - '123926453'
 - name: Rodrigus
   country: ar
   aoeelo: 449
-  platforms:
+  platforms: []
 - name: Skittle
   country: de
   aoeelo: 122
@@ -1825,7 +1829,7 @@
 - name: IamKen
   country: cn
   esportsearnings: 2174
-  platforms:
+  platforms: []
 - name: Bender
   country: de
   esportsearnings: 42058
@@ -1837,7 +1841,7 @@
 - name: Nv
   country: kr
   esportsearnings: 12945
-  platforms:
+  platforms: []
 - name: GX_Iron
   country: us
   esportsearnings: 6933
@@ -1847,7 +1851,7 @@
 - name: North
   country: gb
   esportsearnings: 6932
-  platforms:
+  platforms: []
 - name: RIP_Dreams
   country: nl
   esportsearnings: 2175
@@ -1865,15 +1869,15 @@
 - name: El KhaLeN
   country: fr
   esportsearnings: 76361
-  platforms:
+  platforms: []
 - name: Kaiser Willhelm
   country: se
   esportsearnings: 65230
-  platforms:
+  platforms: []
 - name: Fai
   country: cn
   esportsearnings: 72998
-  platforms:
+  platforms: []
 - name: "True"
   liquipedia: "True"
   aka:
@@ -1909,11 +1913,11 @@
   country: ca
   esportsearnings: 42051
   liquipedia: Crexis
-  platforms:
+  platforms: []
 - name: Myth_Osiris
   country: nl
   esportsearnings: 6935
-  platforms:
+  platforms: []
 - name: Dee
   country: cn
   esportsearnings: 12951
@@ -1924,19 +1928,19 @@
   country: dk
   esportsearnings: 42050
   liquipedia: High
-  platforms:
+  platforms: []
 - name: HimT
   country: hk
   esportsearnings: 72997
-  platforms:
+  platforms: []
 - name: Dante
   country: us
   esportsearnings: 2176
-  platforms:
+  platforms: []
 - name: HawFchik
   country: kz
   esportsearnings: 66170
-  platforms:
+  platforms: []
 - name: n00b
   country: ie
   esportsearnings: 67286
@@ -1952,19 +1956,19 @@
 - name: Jaksal
   country: kr
   esportsearnings: 49663
-  platforms:
+  platforms: []
 - name: Shiri
   country: kr
   esportsearnings: 49662
-  platforms:
+  platforms: []
 - name: Praxes
   country: us
   esportsearnings: 15951
-  platforms:
+  platforms: []
 - name: Disciple
   country: us
   esportsearnings: 73956
-  platforms:
+  platforms: []
 - name: Ugnis
   country: lt
   esportsearnings: 66164
@@ -1976,7 +1980,7 @@
 - name: NoBoDy
   country: kz
   esportsearnings: 66167
-  platforms:
+  platforms: []
 - name: Sobek
   country: cl
   platforms:
