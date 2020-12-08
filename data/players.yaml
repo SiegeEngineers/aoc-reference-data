@@ -2513,3 +2513,17 @@
     de:
       - '219739'
       - '2821779'
+- name: Ertug
+  country: tr
+  platforms:
+    de:
+      - '4240386'
+      - '4013273'
+      - '1898283'
+      - '2774570'
+- name: Shades
+  country: it
+  platforms:
+    de:
+      - '2462063'
+      - '1793493'
