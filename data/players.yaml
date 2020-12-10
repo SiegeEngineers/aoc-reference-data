@@ -899,7 +899,8 @@
   country: ca
   esportsearnings: 15927
   liquipedia: Chris
-  twitch: https://www.twitch.tv/quarantinechris_
+  twitch: https://www.twitch.tv/iamchris_age2
+  youtube: https://www.youtube.com/channel/UC00u-XPUH-nNhHNU7MsxBPA
   platforms:
     voobly:
       - '123397426'
@@ -915,6 +916,7 @@
       - 'chris'
     de:
       - '3230529'
+      - '3552644' # chris.age2.de
 - name: The_Sheriff
   country: us
   platforms:
