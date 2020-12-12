@@ -2069,7 +2069,7 @@
       - 'kick'
 - name: LeAsH
   country: us
-  twitch: https://www.twitch.tv/leash__/
+  twitch: https://www.twitch.tv/leash__
   platforms:
     de:
       - '322858'
@@ -2085,6 +2085,7 @@
 - name: TheCode
   country: tr
   liquipedia: TheCode
+  twitch: https://www.twitch.tv/TheCode_AoE
   platforms:
     voobly:
       - '123369268'
