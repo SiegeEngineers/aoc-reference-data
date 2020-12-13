@@ -2530,3 +2530,9 @@
     de:
       - '2462063'
       - '1793493'
+- name: fatman
+  country: de
+  platforms:
+    de:
+      - '215963'
+      - '3163620'
