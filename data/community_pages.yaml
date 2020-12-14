@@ -1,0 +1,326 @@
+- url: "aoe2.net"
+  https: true
+  description: "Leaderboards and Lobbies for AoE2DE"
+  tags: 
+    - "Leaderboards"
+    - "Lobbies"
+    - "API"
+  preview: "./previews/aoe2_net.png"
+  contact:
+    - aoezone: "aoe2net"
+    - email: ~
+    - discord: "aoe2net#6981"
+    - form: true
+    - github: ~
+  repository: ~
+- url: "aoe-elo.com"
+  https: true
+  description: "Player rating, based only on tournament games"
+  tags:
+    - "Ratings"
+    - "Tournaments"
+    - "Statistics"
+    - "API"
+  preview: "./previews/aoe_elo.png"
+  contact:
+    - aoezone: "mungo__"
+    - email: ~
+    - discord: "mungo_#4936"
+    - form: true
+    - github: ~
+  repository: ~
+- url: "ratings.aoe2.se"
+  https: true
+  description: "Rating charts for AoE2DE"
+  tags:
+    - "Ratings"
+    - "Statistics"
+  preview: "./previews/ratings_aoe2_se.png"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: "Thomas#5187"
+    - form: ~
+    - github: "thbrown"
+  repository: "https://github.com/SiegeEngineers/aoe2-de-rating-charts"
+- url: "siegeengineers.org"
+  https: true
+  description: "AoE2 development collective"
+  tags:
+    - "Tools"
+    - "Discord"
+    - "Development"
+    - "Community"
+  preview: "./previews/siegeengineers_org.png"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: ~
+    - form: ~
+    - github: "SiegeEngineers"
+  repository: "https://github.com/SiegeEngineers"
+- url: "aoecompanion.com"
+  https: true
+  description: "Build orders, unit counters and more"
+  tags:
+    - "Build orders"
+    - "Unit counters"
+  preview: "./previews/aoecompanion_com.png"
+  contact:
+    - aoezone: ~
+    - email: "admin@aoecompanion.com"
+    - discord: "niklanus#4189"
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "buildorderguide.com"
+  https: true
+  description: "Build orders and uptimes"
+  tags:
+      - "Build orders"
+  preview: "./previews/buildorderguide_com.png"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: ~
+    - form: true
+    - github: ~
+  repository: ~
+- url: "aoe2companion.com"
+  https: true
+  description: "Smartphone-App "
+  tags:
+    - "Statistics"
+    - "Mobile App"
+    - "Build orders"
+    - "Leaderboards"
+    - "Ratings"
+    - "Statistics"
+  preview: "./previews/aoe2companion_com.png"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: "denniske#4689"
+    - form: ~
+    - github: "denniske"
+  repository: "https://github.com/denniske/aoe2companion"
+- url: "aoe2.club"
+  https: true
+  description: "Shows Leaderboards per Country"
+  tags:
+    - "Leaderboards"
+    - "Statistics"
+    - "Leaderboards"
+  preview: "./previews/aoe2_club.png"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: "yosaiii#4524"
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aoezone.net"
+  https: true
+  description: "Community platform around Age of Empires"
+  tags:
+    - "News"
+    - "Tournament"
+    - "Community"
+    - "Calendar"
+  preview: "./previews/aoezone_net.png"
+  contact:
+    - aoezone: "_PkZ_"
+    - email: ~
+    - discord: "_PkZ_#3551"
+    - form: true
+    - github: ~
+  repository: ~
+- url: "aoestats.io"
+  https: true
+  description: "Win rates for civilisations and usage statistics for maps"
+  tags:
+    - "Statistics"
+  preview: "./previews/aoestats_io.png"
+  contact:
+    - aoezone: "jerbot"
+    - email: ~
+    - discord: "jerbot#2100"
+    - form: ~
+    - github: "jerkeeler"
+  repository: "https://github.com/jerkeeler/aoestats-frontend"
+- url: "aoe2insights.com"
+  https: true
+  description: "Providing comprehensive player profiles along with detailed match analysis capabilities"
+  tags:
+    - "Statistics"
+    - "Match Analytics"
+  preview: "./previews/aoe2insights_com.png"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: ~
+    - twitter: "Aoe2I"
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aoe2techtree.net"
+  https: true
+  description: "The Age of Empires II Tech Tree in your web browser"
+  tags:
+    - "Reference"
+    - "Game data"
+  preview: "./previews/aoe2techtree_net.png"
+  contact:
+    - aoezone: "hszemi"
+    - email: ~
+    - discord: "hszemi#2325"
+    - form: ~
+    - github: "HSZemi"
+  repository: "https://github.com/SiegeEngineers/aoe2techtree"
+- url: "aoe2recs.com"
+  https: true
+  description: "Recorded game database"
+  tags:
+    - "Replays"
+    - "API"
+    - "Player profiles"
+  preview: "./previews/aoe2recs_com.png"
+  contact:
+    - aoezone: "HappyLeaves"
+    - email: ~
+    - discord: "happyleaves#4133"
+    - form: ~
+    - github: "happyleavesaoc"
+  repository: "https://github.com/siegeengineers/aocrecs.com"
+- url: "aoe2calendar.com"
+  https: true
+  outdated: true
+  description: "Calendar regarding Age of Empires showmatches, tournaments and more"
+  tags:
+    - "Calendar"
+  preview: ~
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: "patão#8153"
+    - form: ~
+    - github: "coffenbacher"
+  repository: "https://github.com/coffenbacher/calendar"
+- url: "aoenexus.com"
+  https: true
+  description: "Player comparison and statistics"
+  tags:
+    - "Player profiles"
+    - "Statistics"
+  preview: "./previews/aoenexus_com.png"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: "adorerofblood#5890"
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aoe2map.net"
+  https: true
+  description: "Share and find Age of Empires II Random Map Scripts"
+  tags:
+    - "Maps"
+  preview: "./previews/aoe2map_net.png"
+  contact:
+    - aoezone: "hszemi"
+    - email: ~
+    - discord: "hszemi#2325"
+    - form: ~
+    - github: "HSZemi"
+  repository: "https://github.com/SiegeEngineers/aoe2map"
+- url: "liquipedia.net/ageofempires"
+  https: true
+  description: "Age of Empires en­cy­clo­pe­dia"
+  tags:
+    - "Tournaments"
+    - "Player profiles"
+    - "Tournaments"
+    - "News"
+    - "Transfers"
+    - "API"
+  preview: "./previews/liquipedia_net.png"
+  contact:
+    - aoezone: ~
+    - email: "contact@liquipedia.net"
+    - discord: ~
+    - form: true
+    - github: ~
+  repository: ~
+- url: "aoe2cm.net"
+  https: true
+  description: "Turn-based civilization picker for Age of Empires II"
+  tags:
+    - "Drafting"
+  preview: "./previews/aoe2cm_net.png"
+  contact:
+    - aoezone: "hszemi"
+    - email: ~
+    - discord: "hszemi#2325"
+    - form: ~
+    - github: "HSZemi"
+  repository: "https://github.com/SiegeEngineers/aoe2cm2"
+- url: "halfon.aoe2.se"
+  https: true
+  description: "Age of Empires II unit, building and tech reference"
+  tags:
+    - "Reference"
+    - "Game data"
+  preview: "./previews/halfon_aoe2_se.png"
+  contact:
+    - aoezone: "hszemi"
+    - email: ~
+    - discord: "hszemi#2325"
+    - form: ~
+    - github: "HSZemi"
+  repository: "https://github.com/SiegeEngineers/halfon"
+- url: "aoe2-de-tools.herokuapp.com"
+  https: true
+  description: "Constant unit production and other calculations"
+  tags:
+    - "Calculation"
+    - "Build orders"
+  preview: "./previews/aoe2_de_tools_herokuapp_com.png"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aok.heavengames.com"
+  https: true
+  description: "Community platform around Age of Empires modding"
+  tags:
+    - "Community"
+    - "Modding"
+    - "Tools"
+    - "News"
+    - "Guides"
+  preview: "./previews/aok_heavengames_com.jpg"
+  contact:
+    - aoezone: ~
+    - email: "sebastien@heavengames.com"
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "esportsearnings.com/games/179-age-of-empires-ii"
+  https: true
+  description: "Earnings of professional players"
+  tags:
+    - "Tournaments"
+    - "Earnings"
+  preview: "./previews/esportsearnings_com.jpg"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: "GGBeyond"
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
