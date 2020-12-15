@@ -2536,3 +2536,11 @@
     de:
       - '215963'
       - '3163620'
+- name: Lavie Head
+  country: by
+  twitch: https://www.twitch.tv/lavie_head
+  platforms:
+    de:
+      - '4304303'
+    voobly:
+      - '123220280'
