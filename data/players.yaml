@@ -2556,3 +2556,9 @@
       - '4304303'
     voobly:
       - '123220280'
+- name: tushen
+  country: cn
+  platforms:
+    de:
+      - '599657'
+      - '2343109'
