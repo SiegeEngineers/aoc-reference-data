@@ -8,7 +8,11 @@
     "5": "King of the Hill",
     "6": "Wonder Race",
     "7": "Defend the Wonder",
-    "8": "Turbo Random"
+    "8": "Turbo Random",
+    "10": "Capture the Relic",
+    "11": "Sudden Death",
+    "12": "Battle Royale",
+    "13": "Empire Wars"
   },
   "starting_resources": {
     "0": "Standard",
