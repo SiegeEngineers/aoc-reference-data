@@ -2567,3 +2567,11 @@
       - '4304303'
     voobly:
       - '123220280'
+- name: Gary
+  country: ar
+  platforms:
+    de:
+      - '3274563'
+      - '3964432'
+    voobly:
+      - '123151277'
