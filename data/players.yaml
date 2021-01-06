@@ -2576,3 +2576,9 @@
       - '3964432'
     voobly:
       - '123151277'
+- name: Rxndy
+  country: de
+  platforms:
+    de:
+      - '212710'
+      - '4566520'
