@@ -1200,6 +1200,7 @@
       - '125009949'
     de:
       - '2733015'
+      - '3956300'
 - name: 'CooL'
   country: vn
   aoeelo: 17
@@ -1759,6 +1760,7 @@
       - '256338' # Running
       - '231087' # SpanningTreeGuy
       - '4620061'
+      - '4620061'
     voobly:
       - '125045236'
 - name: Obadiah
@@ -2295,7 +2297,7 @@
       - '2134694'
     zone:
       - 'pgfire'
-- name: Black Pig
+- name: Puerco Black
   country: mx
   twitch: https://www.twitch.tv/puerco_black
   platforms:
@@ -2304,6 +2306,7 @@
     de:
       - '580573'
       - '2717438'
+      - '4388039'
 - name: Ming
   country: hk
   platforms:
@@ -2449,6 +2452,8 @@
   platforms:
     de:
       - '811008'
+      - '4185603'
+      - '3050759'
     voobly:
       - '123302915'
     zone:
@@ -2461,7 +2466,6 @@
     de:
       - '2309468'
       - '2718358'
-      - '3422495'
 - name: Rodrigus
   country: ar
   platforms:
@@ -2521,6 +2525,7 @@
   platforms:
     de:
       - '611972'
+      - '3229922'
     voobly:
       - '124835966'
       - '124725130'
@@ -2578,3 +2583,13 @@
       - '3964432'
     voobly:
       - '123151277'
+- name: Biry
+  country: ar
+  platforms:
+    de:
+      - '2526695'
+      - '2899276'
+      - '111069'
+    voobly:
+      - '123714392'
+      - '60956'
