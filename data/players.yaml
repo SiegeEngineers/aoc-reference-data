@@ -815,6 +815,7 @@
       - '123644749'
     de:
       - '221997'
+      - '1237326'
     zone:
       - 'inc'
 - name: Fedex
@@ -1476,6 +1477,7 @@
     de:
       - '246423'
       - '2780825'
+      - '4767036'
 - name: Kamigawa
   country: it
   aoeelo: 446
@@ -1729,6 +1731,7 @@
     - Erhan
   country: tr
   aoeelo: 262
+  twitch: https://www.twitch.tv/cyclopsaoe
   platforms:
     zone:
       - 'cyclops'
@@ -2455,6 +2458,7 @@
       - '811008'
       - '4185603'
       - '3050759'
+      - '4794984'
     voobly:
       - '123302915'
     zone:
@@ -2561,6 +2565,7 @@
     de:
       - '2462063'
       - '1793493'
+      - '1066886'
 - name: fatman
   country: de
   platforms:
