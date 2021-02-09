@@ -925,6 +925,7 @@
       - '124398555'
       - '1028'
       - '123586592'
+      - '124259825'
     zone:
       - 'chris'
     gamepark:
@@ -1631,6 +1632,10 @@
   platforms:
     zone:
       - 'poisn'
+    igz:
+      - '12597'
+    voobly:
+      - '12597'
     de:
       - '3384231'
 - name: Playboy
@@ -2344,6 +2349,7 @@
   platforms:
     de:
       - '458029'
+      - '3219682'
     voobly:
       - '124516604'
 - name: DarkDevil
@@ -2436,6 +2442,7 @@
     de:
       - '3245050'
       - '270315'
+      - '4747413'
     zone:
       - 'dratek'
 - name: Funito
@@ -2558,6 +2565,7 @@
       - '4130015'
       - '4516379'
       - '4560893'
+      - '4863157'
 - name: Shades
   country: it
   platforms:
