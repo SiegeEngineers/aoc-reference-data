@@ -1424,6 +1424,7 @@
       - '208493'
 - name: Hasan
   country: ba
+  twitch: https://www.twitch.tv/nastyhas
   platforms:
     voobly:
       - '123222710'
@@ -1431,7 +1432,9 @@
       - '123142913'
       - '123370148'
       - '123180505'
-      - 'hasan'
+      - '125321142'
+    de:
+      - '971296'
 - name: Juan
   country: ar
   platforms:
