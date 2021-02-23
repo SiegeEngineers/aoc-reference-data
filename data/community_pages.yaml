@@ -395,20 +395,6 @@
     - form: ~
     - github: ~
   repository: ~
-- url: "aoezone.net"
-  https: true
-  description: "Daily news on events and tournaments, recorded games, tips and tricks, patches, tools, maps"
-  tags:
-    - "Community"
-  preview: ""
-  contact:
-    - aoezone: ~
-    - email: ~
-    - twitter: ~
-    - discord: ~
-    - form: ~
-    - github: ~
-  repository: ~
 - url: "aoe2.se"
   https: true
   description: "Directory of tools and resources"
