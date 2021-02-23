@@ -61,7 +61,7 @@
   repository: "https://github.com/SiegeEngineers"
 - url: "aoecompanion.com"
   https: true
-  description: "Build orders, unit counters and more"
+  description: "Directory of pro and community build orders. Build and share you own build orders."
   tags:
     - "Build orders"
     - "Unit counters"
@@ -106,7 +106,7 @@
   repository: "https://github.com/denniske/aoe2companion"
 - url: "aoe2.club"
   https: true
-  description: "Shows Leaderboards per Country"
+  description: "Shows leaderboards per Country"
   tags:
     - "Leaderboards"
     - "Statistics"
@@ -137,7 +137,7 @@
   repository: ~
 - url: "aoestats.io"
   https: true
-  description: "Win rates for civilisations and usage statistics for maps"
+  description: "aoestats aggregates the latest ranked matches for Age of Empires II and provides in-depth data and statistics on a civilization basis; stats include: win rate, play rate, win rate vs. game length, and more!"
   tags:
     - "Statistics"
   preview: "./previews/aoestats_io.png"
@@ -179,11 +179,12 @@
   repository: "https://github.com/SiegeEngineers/aoe2techtree"
 - url: "aoe2recs.com"
   https: true
-  description: "Recorded game database"
+  description: "Recorded games directory and stats on players, civs and more."
   tags:
     - "Replays"
     - "API"
     - "Player profiles"
+    - "Statistics"
   preview: "./previews/aoe2recs_com.png"
   contact:
     - aoezone: "HappyLeaves"
@@ -195,7 +196,7 @@
 - url: "aoe2calendar.com"
   https: true
   outdated: true
-  description: "Calendar regarding Age of Empires showmatches, tournaments and more"
+  description: "Calendar for Age of Empires show matches, tournaments and more"
   tags:
     - "Calendar"
   preview: ~
@@ -208,7 +209,7 @@
   repository: "https://github.com/coffenbacher/calendar"
 - url: "aoenexus.com"
   https: true
-  description: "Player comparison and statistics"
+  description: "Player comparison by country as well as other statistics"
   tags:
     - "Player profiles"
     - "Statistics"
@@ -235,11 +236,10 @@
   repository: "https://github.com/SiegeEngineers/aoe2map"
 - url: "liquipedia.net/ageofempires"
   https: true
-  description: "Age of Empires en­cy­clo­pe­dia"
+  description: "Comprehensive Age of Empires wiki with articles covering everything from tournaments, to competitive players and teams"
   tags:
     - "Tournaments"
     - "Player profiles"
-    - "Tournaments"
     - "News"
     - "Transfers"
     - "API"
@@ -324,3 +324,208 @@
     - form: ~
     - github: ~
   repository: ~
+- url: "ageofempires.fandom.com/wiki/Age_of_Empires_II:Portal"
+  https: true
+  description: "Everything you need to know from civs, to strategies to tech trees."
+  tags:
+    - "Reference"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aokhotkeys.appspot.com"
+  https: true
+  description: "A hotkey editor with some popular presets"
+  tags:
+    - "Tools"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aoecf.com"
+  https: true
+  description: "The Federation offers a motivation for players to engage with clans and a motivation for clans to be active and participate in clan events and tournaments"
+  tags:
+    - "Community"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aoe2.guide"
+  https: true
+  description: "Tips, guides and build orders"
+  tags:
+    - "Guides"
+    - "Build orders"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "reddit.com/r/aoe2"
+  https: true
+  description: "r/aoe2: Community for AoE2 players"
+  tags:
+    - "Community"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aoezone.net"
+  https: true
+  description: "Daily news on events and tournaments, recorded games, tips and tricks, patches, tools, maps"
+  tags:
+    - "Community"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aoe2.se"
+  https: true
+  description: "Directory of tools and resources"
+  tags:
+    - "Tools"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "play.google.com/store/apps/details?id=com.aoedb"
+  https: true
+  description: "AOE database of civs, units and tech trees"
+  tags:
+    - "Mobile App"
+    - "Reference"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "github.com/DJSchaffner/aoe2de_patcher"
+  https: true
+  description: "A tool for patching AoE2 DE to previous versions of the game. (Steam version only)"
+  tags:
+    - "Tools"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: DJSchaffner
+  repository: https://github.com/DJSchaffner/aoe2de_patcher
+- url: "play.google.com/store/apps/details?id=com.thunkable.android.wyfsysf.AOC_PACK&hl=en&gl=US"
+  https: true
+  description: "Age Of Empires II Taunts, Build Orders, Professional Age of Empires 2 Calendar, Live RM/DM Ladder, Live statistics for Age Of Empires Definitive Edition"
+  tags:
+    - "Mobile App"
+    - "Statistics"
+    - "Reference"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "github.com/gregstein/DE-Replays-Manager"
+  https: true
+  description: "Manage Age of Empires 2 Definitive Replays & Downgrade or Upgrade to any version"
+  tags:
+    - "Tools"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "aoe2-de-tools.herokuapp.com/villagers-required.html"
+  https: true
+  description: "Number of Villagers Required to Sustain Constant Unit Production"
+  tags:
+    - "Calculation"
+    - "Tools"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "gbts.github.io/aoe2calc"
+  https: true
+  description: "Compare unit stats and see who wins in a fight"
+  tags:
+    - "Calculation"
+    - "Tools"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
+- url: "grishrl.github.io"
+  https: true
+  description: "Calculate the number of villagers on each resource needed to sustain production"
+  tags:
+    - "Calculation"
+    - "Tools"
+  preview: ""
+  contact:
+    - aoezone: ~
+    - email: ~
+    - twitter: ~
+    - discord: ~
+    - form: ~
+    - github: "grishrl"
+  repository: "https://github.com/grishrl/grishrl.github.io"
+
+
