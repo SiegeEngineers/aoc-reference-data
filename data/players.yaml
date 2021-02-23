@@ -2611,3 +2611,12 @@
     voobly:
       - '123714392'
       - '60956'
+- name: Win_wu_kong
+  aka:
+    - 'fangxiaoqi'
+  country: cn
+  platforms:
+    de:
+      - '551488'
+    voobly:
+      - '123226583'
