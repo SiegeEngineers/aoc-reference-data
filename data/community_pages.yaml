@@ -278,20 +278,6 @@
     - form: ~
     - github: "HSZemi"
   repository: "https://github.com/SiegeEngineers/halfon"
-- url: "aoe2-de-tools.herokuapp.com"
-  https: true
-  description: "Constant unit production and other calculations"
-  tags:
-    - "Calculation"
-    - "Build orders"
-  preview: "./previews/aoe2_de_tools_herokuapp_com.png"
-  contact:
-    - aoezone: ~
-    - email: ~
-    - discord: ~
-    - form: ~
-    - github: ~
-  repository: ~
 - url: "aok.heavengames.com"
   https: true
   description: "Community platform around Age of Empires modding"
@@ -386,20 +372,6 @@
   description: "r/aoe2: Community for AoE2 players"
   tags:
     - "Community"
-  preview: ""
-  contact:
-    - aoezone: ~
-    - email: ~
-    - twitter: ~
-    - discord: ~
-    - form: ~
-    - github: ~
-  repository: ~
-- url: "aoe2.se"
-  https: true
-  description: "Directory of tools and resources"
-  tags:
-    - "Tools"
   preview: ""
   contact:
     - aoezone: ~
