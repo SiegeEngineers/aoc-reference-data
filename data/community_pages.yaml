@@ -278,6 +278,20 @@
     - form: ~
     - github: "HSZemi"
   repository: "https://github.com/SiegeEngineers/halfon"
+- url: "aoe2-de-tools.herokuapp.com"
+  https: true
+  description: "Constant unit production and other calculations"
+  tags:
+    - "Calculation"
+    - "Build orders"
+  preview: "./previews/aoe2_de_tools_herokuapp_com.png"
+  contact:
+    - aoezone: ~
+    - email: ~
+    - discord: ~
+    - form: ~
+    - github: ~
+  repository: ~
 - url: "aok.heavengames.com"
   https: true
   description: "Community platform around Age of Empires modding"
@@ -430,21 +444,6 @@
   https: true
   description: "Manage Age of Empires 2 Definitive Replays & Downgrade or Upgrade to any version"
   tags:
-    - "Tools"
-  preview: ""
-  contact:
-    - aoezone: ~
-    - email: ~
-    - twitter: ~
-    - discord: ~
-    - form: ~
-    - github: ~
-  repository: ~
-- url: "aoe2-de-tools.herokuapp.com/villagers-required.html"
-  https: true
-  description: "Number of Villagers Required to Sustain Constant Unit Production"
-  tags:
-    - "Calculation"
     - "Tools"
   preview: ""
   contact:
