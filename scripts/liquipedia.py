@@ -36,6 +36,8 @@ def fetch():
             'conditions': '|'.join(CONDITIONS),
             'printouts': '|'.join(PROPS),
             'parameters': '|'.join([f'offset={offset}', f'limit={PAGE_SIZE}'])
+        }, headers={
+            'User-Agent': 'https://github.com/SiegeEngineers/aoc-reference-data'
         })
 
         try:
