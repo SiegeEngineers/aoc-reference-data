@@ -1424,7 +1424,7 @@
       - '208493'
 - name: Hasan
   country: ba
-  twitch: https://www.twitch.tv/nastyhas
+  twitch: https://www.twitch.tv/raidenaoe
   platforms:
     voobly:
       - '123222710'
@@ -1435,6 +1435,7 @@
       - '125321142'
     de:
       - '971296'
+      - '5126520' # _Raijin_
 - name: Juan
   country: ar
   platforms:
