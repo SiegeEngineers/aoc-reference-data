@@ -1781,6 +1781,7 @@
     - '225365'
     - '1515905'
     - '3435966'
+    - '4959296'
 - name: DemonSheep
   country: tw
   aoeelo: 611
@@ -1837,7 +1838,11 @@
 - name: Rodrigus
   country: ar
   aoeelo: 449
-  platforms: []
+  platforms:
+    de:
+    - '2495166'
+    voobly:
+    - '5469'
 - name: Skittle
   country: de
   aoeelo: 122
@@ -2019,6 +2024,7 @@
   platforms:
     de:
     - '290617'
+    - '2598137'
     voobly:
     - '124317014'
 - name: Hallis
