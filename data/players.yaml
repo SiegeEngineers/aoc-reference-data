@@ -1841,6 +1841,7 @@
   platforms:
     de:
     - '2495166'
+    - '1143001'
     voobly:
     - '5469'
 - name: Skittle
@@ -2487,14 +2488,6 @@
     de:
     - '2309468'
     - '2718358'
-- name: Rodrigus
-  country: ar
-  platforms:
-    de:
-    - '2495166'
-    - '1143001'
-    voobly:
-    - '5469'
 - name: Galaxy
   country: hk
   platforms:
