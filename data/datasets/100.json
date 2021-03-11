@@ -108,6 +108,12 @@
     },
     "35": {
       "name": "Lithuanians"
+    },
+    "36": {
+      "name": "Burgundians"
+    },
+    "37": {
+      "name": "Sicilians"
     }
   },
   "maps": {
@@ -2735,6 +2741,7 @@
     "1635": "Waterfall (Background)",
     "1646": "Market",
     "1647": "Trade Workshop",
+    "1665": "Donjon",
     "83": "Villager",
     "293": "Villager"
   }
