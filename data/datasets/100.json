@@ -158,6 +158,9 @@
     "80": "CtR Monsoon",
     "81": "CtR Pyramid Descent",
     "82": "CtR Spiral",
+    "83": "Kilimanjaro",
+    "84": "Mountain Pass",
+    "86": "Serengeti",
     "87": "Socotra",
     "112": "Bog Islands",
     "122": "Alpine Lakes",
@@ -165,7 +168,10 @@
     "126": "Wolf Hill",
     "139": "Golden Swamp",
     "140": "Four Lakes",
-    "150": "Atacama"
+    "148": "Coastal Forest",
+    "149": "African Clearing",
+    "150": "Atacama",
+    "151": "Seize the Mountain"
   },
   "technologies": {
     "0": "",
