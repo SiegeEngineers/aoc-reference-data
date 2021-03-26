@@ -2790,3 +2790,18 @@
     - '551488'
     voobly:
     - '123226583'
+- name: Cooper
+  country: be
+  twitch: https://www.twitch.tv/cooper_aoe
+  team: Mastapizza
+  platforms:
+    de:
+    - '443371'
+    - '2868283'
+- name: Rainmanzd
+  country: us
+  twitch: https://www.twitch.tv/rainmanzd
+  team: Mastapizza
+  platforms:
+    de:
+    - '631646'
