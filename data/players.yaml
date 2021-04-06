@@ -714,6 +714,7 @@
     - '212721'
     - '1630401'
     - '4351237'
+    - '1630401'
 - name: Rubenstock
   country: fi
   aoeelo: 53
@@ -1358,6 +1359,7 @@
     - 'feage'
     de:
     - '300649'
+    - '4956328'
 - name: Noto
   country: cn
   platforms:
@@ -2331,6 +2333,7 @@
     de:
     - '3144451'
     - '1966276'
+    - '3208276'
 - name: OnLeKe
   country: br
   platforms:
@@ -2488,6 +2491,7 @@
     de:
     - '2309468'
     - '2718358'
+    - '5303040'
 - name: Galaxy
   country: hk
   platforms:
@@ -2500,6 +2504,7 @@
     de:
     - '2920057'
     - '3317764'
+    - '4974647'
 - name: WaRRioR
   country: ru
   platforms:
