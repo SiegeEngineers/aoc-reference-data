@@ -1,10 +1,7 @@
 name: Data Updates
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  schedule:
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 jobs:
   liquipedia:
@@ -19,3 +16,9 @@ jobs:
         run: pip install -e .
       - name: Update player and team data from Liquipedia
         run: python scripts/liquipedia.py
+      - name: Update repository
+        run: |
+          git config --local user.name "bot"
+          git config --local user.email "<>"
+          git commit -am "automated liquipedia data update"
+          git push
