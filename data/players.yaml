@@ -65,6 +65,7 @@
     - '1688652'
     - '3077860'
     - '2007655'
+  team: White Wolf Palace
 - name: Yo
   country: cn
   esportsearnings: 14713
@@ -255,6 +256,9 @@
     de:
     - '217905'
     - '728551'
+  liquipedia: chart
+  twitch: https://www.twitch.tv/chartaoc
+  team: DarkSidE
 - name: Valas
   country: fi
   platforms:
@@ -1023,6 +1027,7 @@
     - '2scared'
     gamepark:
     - '2scared'
+  liquipedia: 2scareD
 - name: B1ade # aka Seker
   country: ca
   platforms:
@@ -1070,6 +1075,7 @@
     - 'iori'
     de:
     - '2772600'
+  liquipedia: IORI
 - name: Joe
   country: cn
   platforms:
@@ -1440,6 +1446,7 @@
     - '25709'
     ibp:
     - 'geoffrey'
+  liquipedia: Geoffrey
 - name: Bieber
   country: cn
   platforms:
@@ -1720,6 +1727,7 @@
   platforms:
     zone:
     - 'rukie'
+  liquipedia: RuKie
 - name: DriNkY
   country: de
   platforms:
@@ -1785,6 +1793,7 @@
   platforms:
     zone:
     - 'feeling'
+  liquipedia: feeling
 - name: Cloudy
   country: cn
   platforms:
@@ -2327,6 +2336,9 @@
     de:
     - '2135484'
     - '3088115'
+  liquipedia: BruH
+  youtube: http://www.youtube.com/channel/UC0ohO1gLZWjX1DUG6oTSGZw
+  team: The BrotherHood Kappa
 - name: ashleylynn
   country: us
   twitch: https://www.twitch.tv/aoc_ashleylynn
@@ -2339,6 +2351,7 @@
     - '674899'   # Bubbles
     - '1602128'
     - '4020280'
+  liquipedia: Ashleylynn
 - name: T90
   country: us
   twitch: https://www.twitch.tv/t90official
@@ -2416,6 +2429,8 @@
   platforms:
     de:
     - '2503651'
+  liquipedia: BadBoy
+  team: Vietnam Legends
 - name: RecoN
   country: gb
   platforms:
@@ -2724,6 +2739,7 @@
     - '213534'
     voobly:
     - '123205226'
+  liquipedia: Klavskis
 - name: Mango
   country: cz
   platforms:

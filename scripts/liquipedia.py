@@ -51,7 +51,7 @@ def fetch():
             name = record['Has id'][0]
             twitch = record['Has twitch stream'][0] if record['Has twitch stream'] else None
             youtube = record['Has youtube channel'][0] if record['Has youtube channel'] else None
-            output[name] = dict(liquipedia=name, team=team, twitch=twitch, youtube=youtube)
+            output[name.lower()] = dict(liquipedia=name, team=team, twitch=twitch, youtube=youtube)
 
         offset = data.get('query-continue-offset')
         if not offset:
@@ -64,7 +64,7 @@ def fetch():
 def merge_players(results, players):
     """Merge player data."""
     for player in players:
-        name = player.get('liquipedia', player['name'])
+        name = player.get('liquipedia', player['name']).lower()
         if name not in results:
             continue
         for field in ['liquipedia', 'twitch', 'youtube', 'team']:
@@ -75,15 +75,15 @@ def merge_players(results, players):
 def merge_teams(results, teams, players):
     """Merge team data."""
     abbrs = {t['name']: t['abbreviation'] for t in teams}
-    lookup = {p['liquipedia']: p['name'] for p in players if p.get('liquipedia')}
+    lookup = {p['liquipedia'].lower(): p['name'] for p in players if p.get('liquipedia')}
 
     by_team = defaultdict(list)
     for name, player in results.items():
         if not player.get('team'):
             continue
-        if not lookup.get(name):
+        if not lookup.get(name.lower()):
             continue
-        by_team[player['team']].append(lookup[name])
+        by_team[player['team']].append(lookup[name.lower()])
 
     for team, names in by_team.items():
         yield {
