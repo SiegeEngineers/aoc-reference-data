@@ -4,31 +4,18 @@
     "abbreviation": "VNS",
     "players": [
       "ACCM",
+      "SongSong",
       "Yellow"
     ]
   },
   {
-    "name": "Infinity Legends",
-    "abbreviation": "iL",
-    "players": [
-      "BacT",
-      "Capoch",
-      "Chris",
-      "Belgium",
-      "RiuT"
-    ]
-  },
-  {
-    "name": "White Wolf Palace",
+    "name": "Killing Generation of Brazil",
     "abbreviation": null,
     "players": [
-      "Bad Koala",
-      "CL",
-      "Daniel",
-      "Lyx",
-      "Yo",
-      "StrayDog",
-      "Tim"
+      "Alive",
+      "F1Re",
+      "Goku",
+      "RiuT"
     ]
   },
   {
@@ -37,9 +24,22 @@
     "players": [
       "Biry",
       "Hoang",
-      "SongSong",
       "Twigg",
       "Wisepii"
+    ]
+  },
+  {
+    "name": "White Wolf Palace",
+    "abbreviation": null,
+    "players": [
+      "CL",
+      "Daniel",
+      "Lyx",
+      "Yo",
+      "Paladin",
+      "StrayDog",
+      "Tim",
+      "Whoop"
     ]
   },
   {
@@ -47,16 +47,6 @@
     "abbreviation": null,
     "players": [
       "Cloud"
-    ]
-  },
-  {
-    "name": "SalzZ",
-    "abbreviation": "SalzZ",
-    "players": [
-      "Dark",
-      "Vinch",
-      "WaRRioR",
-      "classicpro"
     ]
   },
   {
@@ -73,8 +63,25 @@
     "abbreviation": "GL",
     "players": [
       "DauT",
+      "JorDan",
+      "Nili",
       "TaToH",
-      "TheViper"
+      "TheViper",
+      "Slam"
+    ]
+  },
+  {
+    "name": "SuNo",
+    "abbreviation": null,
+    "players": [
+      "Daywalker"
+    ]
+  },
+  {
+    "name": "PL",
+    "abbreviation": null,
+    "players": [
+      "Dziamdziak"
     ]
   },
   {
@@ -98,20 +105,13 @@
       "GoldenEnd",
       "Hallis",
       "Kamigawa",
+      "Noisick",
       "Rise",
       "Vodka"
     ]
   },
   {
-    "name": "Team Savages",
-    "abbreviation": null,
-    "players": [
-      "Goku",
-      "St4rk"
-    ]
-  },
-  {
-    "name": "Immortals",
+    "name": "The Immortals",
     "abbreviation": null,
     "players": [
       "Hasan"
@@ -154,13 +154,6 @@
     ]
   },
   {
-    "name": "1907 Fenerbah\u00e7e Esports",
-    "abbreviation": null,
-    "players": [
-      "Kasva"
-    ]
-  },
-  {
     "name": "TyRant",
     "abbreviation": null,
     "players": [
@@ -171,7 +164,8 @@
     "name": "New Chapter",
     "abbreviation": null,
     "players": [
-      "LB10"
+      "LB10",
+      "Skittle"
     ]
   },
   {
@@ -181,13 +175,6 @@
       "Lojza",
       "Mentalist",
       "Spaden"
-    ]
-  },
-  {
-    "name": "Chilean Masters",
-    "abbreviation": null,
-    "players": [
-      "Noisick"
     ]
   },
   {
@@ -216,6 +203,15 @@
     "abbreviation": null,
     "players": [
       "True"
+    ]
+  },
+  {
+    "name": "SalzZ",
+    "abbreviation": "SalzZ",
+    "players": [
+      "Vinch",
+      "WaRRioR",
+      "classicpro"
     ]
   },
   {
