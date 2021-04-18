@@ -20,5 +20,4 @@ jobs:
         run: |
           git config --local user.name "bot"
           git config --local user.email "<>"
-          git commit -am "automated liquipedia data update"
-          git push
+          git commit -am "automated liquipedia data update" && git push || true
