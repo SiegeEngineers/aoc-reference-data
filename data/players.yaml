@@ -130,6 +130,7 @@
     - '1819193'   # sheriff
     - '2602752'
   team: Heresy
+  twitch: https://www.twitch.tv/lan_aoe
 - name: dogao
   country: br
   esportsearnings: 12250
@@ -201,6 +202,7 @@
     - '1364587'
     - '1457840'
   liquipedia: Modri
+  twitch: https://www.twitch.tv/modri_
 - name: Kotex
   country: vn
   platforms:
@@ -222,6 +224,7 @@
     de:
     - '666976'
     - '4014461'
+  twitch: https://www.twitch.tv/b4rles
 - name: Yellow
   country: vn
   aoeelo: 15
@@ -295,6 +298,7 @@
     - '196310'
     - '1819094'   # Leif
   youtube: http://www.youtube.com/channel/UCe5PZxogLEsu5VacKmOiR5g
+  team: Killing Generation of Brazil
 - name: ACCM
   country: vn
   aoeelo: 14
@@ -395,6 +399,7 @@
     - '210601'
     ibp:
     - 'paladin'
+  team: White Wolf Palace
 - name: DauT
   country: rs
   esportsearnings: 12247
@@ -456,6 +461,7 @@
     - 'nili'
     gamepark:
     - 'nili'
+  team: GamerLegion
 - name: Belgium
   country: be
   aoeelo: 75
@@ -547,6 +553,7 @@
     - '125129979-3'   # hc3
     de:
     - '614315'
+  team: GamerLegion
 - name: Daniel
   country: us
   aoeelo: 69
@@ -635,6 +642,7 @@
     - '817'
     de:
     - '2858362'
+  team: GamerLegion
 - name: Melkor
   country: ie
   aoeelo: 10
@@ -907,6 +915,7 @@
     - '879956'
     - '3558975'
   liquipedia: Dziamdziak
+  team: PL
 - name: Ppoc
   country: es
   platforms:
@@ -1098,6 +1107,7 @@
     zone:
     - 'alive'
   liquipedia: Alive
+  team: Killing Generation of Brazil
 - name: Ding
   country: hk
   esportsearnings: 12254
@@ -1217,6 +1227,7 @@
     - '248441'
   liquipedia: Spaden
   team: Nadya's Boys
+  twitch: https://www.twitch.tv/spadenaoc
 - name: 'Monoz'
   country: ar
   platforms:
@@ -1244,6 +1255,8 @@
     - '123236765'
     de:
     - '2783258'
+  liquipedia: Whoop
+  team: White Wolf Palace
 - name: 'Kief'
   country: ru
   platforms:
@@ -1362,6 +1375,7 @@
     zone:
     - 'dreams'
   liquipedia: DreaIVIS
+  twitch: https://www.twitch.tv/aoewithdreaivis
 - name: 'Capoch'
   country: ar
   aoeelo: 273
@@ -1475,6 +1489,7 @@
     de:
     - '582058'
   team: Aftermath
+  youtube: http://www.youtube.com/channel/UCOtdNcfA05JODTx1cBlniyg
 - name: Ra
   country: ca
   esportsearnings: 14735
@@ -1576,6 +1591,7 @@
     - '703045'
   liquipedia: Jupe
   team: Suomi
+  youtube: http://www.youtube.com/channel/UCVMPwOgvRe7pIpGurY6FngA
 - name: Dobbs
   country: dk
   twitch: https://www.twitch.tv/dobbs351
@@ -1907,6 +1923,7 @@
   platforms:
     de:
     - '226697'
+  liquipedia: DemonSheep
 - name: Stefan
   country: de
   aoeelo: 103
@@ -1936,6 +1953,7 @@
     - '223206'
     - '3308789'
   liquipedia: Komtan
+  twitch: https://www.twitch.tv/komtano_o
 - name: Scotty
   country: us
   aoeelo: 78
@@ -1980,6 +1998,9 @@
     - '2976'
     igz:
     - '123225139'
+  liquipedia: Skittle
+  twitch: https://www.twitch.tv/lb10_
+  team: New Chapter
 - name: Jidba
   country: gr
   esportsearnings: 15926
@@ -2151,6 +2172,7 @@
     - 'ugnis'
     voobly:
     - '170776'
+  liquipedia: Ugnis
 - name: NoBoDy
   country: kz
   esportsearnings: 66167
@@ -2178,6 +2200,7 @@
     - '123649340'
   liquipedia: Hallis
   team: Rulers of Rome
+  youtube: http://www.youtube.com/hallisyodaddy
 - name: FletcheR
   country: 'no'
   esportsearnings: 67412
@@ -2219,6 +2242,8 @@
   platforms:
     de:
     - '247224'
+  liquipedia: Survivalist
+  twitch: https://www.twitch.tv/survivalistaoe2de
 - name: YYQ
   country: cn
   esportsearnings: 73955
@@ -2283,6 +2308,8 @@
     de:
     - '211235'
   liquipedia: Daywalker
+  twitch: https://www.twitch.tv/sunodaywalker
+  team: SuNo
 - name: l2aGe
   country: gb
   platforms:
@@ -2347,6 +2374,7 @@
     - '210388'
   liquipedia: Rise
   team: Rulers of Rome
+  twitch: https://www.twitch.tv/riseaoe2
 - name: Dark
   country: ru
   twitch: https://www.twitch.tv/dark_aoe
@@ -2688,6 +2716,7 @@
   liquipedia: WaRRioR
   twitch: https://www.twitch.tv/salzz_warrior
   team: SalzZ
+  youtube: http://www.youtube.com/channel/UCGWx5EtnIi_uOpL2_AuNJrg?view_as=subscriber
 - name: klavskis
   country: lv
   platforms:
