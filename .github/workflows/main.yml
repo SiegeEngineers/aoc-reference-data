@@ -1,0 +1,24 @@
+name: Data Updates
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+jobs:
+  liquipedia:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: pip install -e .
+      - name: Update player and team data from Liquipedia
+        run: python scripts/liquipedia.py
+      - name: Update repository
+        run: |
+          git config --local user.name "bot"
+          git config --local user.email "<>"
+          git commit -am "automated liquipedia data update"
+          git push

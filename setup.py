@@ -10,4 +10,8 @@ setup(
         'data/datasets/*',
         'data/constants.json'
     ]},
+    install_requires=[
+        'requests==2.22.0',
+        'ruamel.yaml==0.16.12'
+    ]
 )

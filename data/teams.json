@@ -1,11 +1,10 @@
 [
   {
-    "name": "Aftermath",
-    "abbreviation": "aM",
+    "name": "Vietnam Legends",
+    "abbreviation": "VNS",
     "players": [
-      "Hearttt",
-      "MbL",
-      "Nicov"
+      "ACCM",
+      "Yellow"
     ]
   },
   {
@@ -15,30 +14,58 @@
       "BacT",
       "Capoch",
       "Chris",
+      "Belgium",
       "RiuT"
     ]
   },
   {
-    "name": "Team Savages",
+    "name": "White Wolf Palace",
     "abbreviation": null,
     "players": [
-      "F1Re",
-      "Goku",
-      "St4rk"
+      "Bad Koala",
+      "CL",
+      "Daniel",
+      "Lyx",
+      "Yo",
+      "StrayDog",
+      "Tim"
     ]
   },
   {
-    "name": "Heresy",
+    "name": "DarkSidE",
     "abbreviation": null,
     "players": [
-      "dogao",
-      "Edie",
-      "Feanor",
-      "Kasva",
-      "LaaaaaN",
-      "Melkor",
-      "Miguel",
-      "Sitaux"
+      "Biry",
+      "Hoang",
+      "SongSong",
+      "Twigg",
+      "Wisepii"
+    ]
+  },
+  {
+    "name": "KYO All Fallen",
+    "abbreviation": null,
+    "players": [
+      "Cloud"
+    ]
+  },
+  {
+    "name": "SalzZ",
+    "abbreviation": "SalzZ",
+    "players": [
+      "Dark",
+      "Vinch",
+      "WaRRioR",
+      "classicpro"
+    ]
+  },
+  {
+    "name": "Clown Legion",
+    "abbreviation": null,
+    "players": [
+      "Darknoob",
+      "DracKeN",
+      "JonSlow"
     ]
   },
   {
@@ -46,48 +73,57 @@
     "abbreviation": "GL",
     "players": [
       "DauT",
-      "JorDan",
-      "Nili",
-      "Slam",
-      "Tatoh",
+      "TaToH",
       "TheViper"
     ]
   },
   {
-    "name": "SalzZ",
-    "abbreviation": "SalzZ",
-    "players": [
-      "classicpro",
-      "Dark",
-      "Vinch",
-      "WaRRioR"
-    ]
-  },
-  {
-    "name": "Slavic Supremacy",
+    "name": "Heresy",
     "abbreviation": null,
     "players": [
-      "Barles"
+      "Edie",
+      "Feanor",
+      "LaaaaaN",
+      "Melkor",
+      "Sitaux",
+      "dogao",
+      "Miguel"
     ]
   },
   {
-    "name": "Vietnam Legends",
-    "abbreviation": "VNS",
+    "name": "Rulers of Rome",
+    "abbreviation": "RoR",
     "players": [
-      "ACCM",
-      "BadBoy",
-      "CooL",
-      "Yellow"
+      "Ganji",
+      "GoldenEnd",
+      "Hallis",
+      "Kamigawa",
+      "Rise",
+      "Vodka"
     ]
   },
   {
-    "name": "AreS",
+    "name": "Team Savages",
     "abbreviation": null,
     "players": [
-      "Ming",
-      "StrayDog",
-      "Whoop",
-      "Xiaoxiong"
+      "Goku",
+      "St4rk"
+    ]
+  },
+  {
+    "name": "Immortals",
+    "abbreviation": null,
+    "players": [
+      "Hasan"
+    ]
+  },
+  {
+    "name": "Aftermath",
+    "abbreviation": "aM",
+    "players": [
+      "Hearttt",
+      "MbL",
+      "Nicov"
     ]
   },
   {
@@ -96,6 +132,13 @@
     "players": [
       "Hera",
       "Liereyy"
+    ]
+  },
+  {
+    "name": "DevilZ",
+    "abbreviation": null,
+    "players": [
+      "DevilZ_High"
     ]
   },
   {
@@ -111,75 +154,75 @@
     ]
   },
   {
+    "name": "1907 Fenerbah\u00e7e Esports",
+    "abbreviation": null,
+    "players": [
+      "Kasva"
+    ]
+  },
+  {
+    "name": "TyRant",
+    "abbreviation": null,
+    "players": [
+      "Koven"
+    ]
+  },
+  {
+    "name": "New Chapter",
+    "abbreviation": null,
+    "players": [
+      "LB10"
+    ]
+  },
+  {
+    "name": "Nadya's Boys",
+    "abbreviation": null,
+    "players": [
+      "Lojza",
+      "Mentalist",
+      "Spaden"
+    ]
+  },
+  {
+    "name": "Chilean Masters",
+    "abbreviation": null,
+    "players": [
+      "Noisick"
+    ]
+  },
+  {
+    "name": "Berserkers",
+    "abbreviation": null,
+    "players": [
+      "Poisn"
+    ]
+  },
+  {
+    "name": "Imperial Clan",
+    "abbreviation": null,
+    "players": [
+      "Sobek"
+    ]
+  },
+  {
     "name": "PetGunPet",
     "abbreviation": "PGP",
     "players": [
-      "AngelinaJolie",
-      "Belgium",
-      "Daniel",
-      "Shed",
       "Stefan"
-    ]
-  },
-  {
-    "name": "Rulers of Rome",
-    "abbreviation": "RoR",
-    "players": [
-      "Ganji",
-      "GoldenEnd",
-      "JonSlow",
-      "Kamigawa",
-      "Kellar",
-      "Luca",
-      "nanimaren",
-      "Pete Martell",
-      "Rise",
-      "Shades",
-      "Sobek",
-      "Sommos",
-      "Vodka"
-    ]
-  },
-  {
-    "name": "DS",
-    "abbreviation": null,
-    "players": [
-      "BL4CK",
-      "Carbo",
-      "Ralber",
-      "TaoPaiPai"
     ]
   },
   {
     "name": "QuEnDi",
     "abbreviation": null,
     "players": [
-      "Clemensor",
-      "cortical_",
-      "ffavorite_1",
-      "l2aGe",
-      "L3af",
-      "PaladiNz",
-      "True",
-      "uNLeAsHeD__",
-      "_zaryab_"
-    ]
-  },
-  {
-    "name": "Brazookas",
-    "abbreviation": "bK",
-    "players": [
-      "BruH"
+      "True"
     ]
   },
   {
     "name": "Fei Mei San Dao",
     "abbreviation": null,
     "players": [
-      "Bad Koala",
-      "Jibatong",
-      "Tim",
-      "Vivi"
+      "Jibatong"
     ]
   }
 ]
