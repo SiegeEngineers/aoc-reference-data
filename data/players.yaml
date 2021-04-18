@@ -170,6 +170,7 @@
     - '968255'
     - '1819863'   # joan
     - '3033716'   # feudalVoy
+    - '5317568'
   team: GamerLegion
 - name: Vinch
   country: ru
@@ -441,7 +442,7 @@
   country: de
   aoeelo: 11
   esportsearnings: 41832
-  liquipedia: Nili_AoE
+  liquipedia: Nili
   twitch: https://www.twitch.tv/nili_aoe
   youtube: https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/videos
   discord: https://discordapp.com/invite/pQG8txM
@@ -534,7 +535,7 @@
   country: ca
   esportsearnings: 12253
   aoeelo: 32
-  liquipedia: Slam
+  liquipedia: slam
   twitch: https://www.twitch.tv/slamjam_/
   youtube: https://www.youtube.com/channel/UC15K06FB4EO98AMBYqraQ3w
   platforms:
@@ -620,7 +621,7 @@
   country: de
   esportsearnings: 12245
   aoeelo: 30
-  liquipedia: JoaDn_105
+  liquipedia: JorDan_AoE
   twitch: https://www.twitch.tv/JorDan_AoE/
   youtube: https://www.youtube.com/channel/UCimCFIisAqXW9udVhN_LpwQ
   discord: https://discord.gg/TWpUYVh
@@ -760,6 +761,8 @@
     - '212721'
     - '1630401'
     - '4351237'
+    - '1630401'
+    - '5230833'
   youtube: http://www.youtube.com/channel/UCyRoER5J4CNYnpvxMy8zmvA
   team: Heresy
 - name: Rubenstock
@@ -1447,6 +1450,7 @@
     - 'feage'
     de:
     - '300649'
+    - '4956328'
   liquipedia: FeAge
 - name: Noto
   country: cn
@@ -1894,6 +1898,7 @@
     - '225365'
     - '1515905'
     - '3435966'
+    - '4959296'
   liquipedia: Obadiah
 - name: DemonSheep
   country: tw
@@ -1958,7 +1963,12 @@
 - name: Rodrigus
   country: ar
   aoeelo: 449
-  platforms: []
+  platforms:
+    de:
+    - '2495166'
+    - '1143001'
+    voobly:
+    - '5469'
 - name: Skittle
   country: de
   aoeelo: 122
@@ -2150,6 +2160,7 @@
   platforms:
     de:
     - '290617'
+    - '2598137'
     voobly:
     - '124317014'
   liquipedia: Sobek
@@ -2474,6 +2485,7 @@
     de:
     - '3144451'
     - '1966276'
+    - '3208276'
 - name: OnLeKe
   country: br
   platforms:
@@ -2641,6 +2653,7 @@
     de:
     - '2309468'
     - '2718358'
+    - '5303040'
   liquipedia: Whocl
   twitch: https://www.twitch.tv/whocl_aoe
 - name: Rodrigus
@@ -2663,6 +2676,7 @@
     de:
     - '2920057'
     - '3317764'
+    - '4974647'
 - name: WaRRioR
   country: ru
   platforms:
@@ -2736,6 +2750,13 @@
     - '4560893'
     - '4863157'
     - '5023709'
+    - '4823219'
+    - '4953408'
+    - '2354416'
+    - '5326887'
+    - '5273347'
+    - '5326887'
+    - '2642796'
 - name: Shades
   country: it
   platforms:

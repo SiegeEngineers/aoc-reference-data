@@ -76,5 +76,11 @@
     "5": "Purple",
     "6": "Gray",
     "7": "Orange"
+  },
+  "formations": {
+    "2": "Line",
+    "4": "Box",
+    "7": "Staggered",
+    "8": "Flank"
   }
 }
