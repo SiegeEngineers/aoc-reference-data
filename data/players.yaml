@@ -1754,11 +1754,13 @@
     zone:
     - 'sorak'
 - name: Moczymorda
-  country: pl
+  country: mt
   esportsearnings: 66451
   platforms:
     zone:
     - 'moczymorda'
+    de:
+    - '5424138'
 - name: Sutra
   country: us
   esportsearnings: 42059
