@@ -42,7 +42,6 @@
     "abbreviation": null,
     "players": [
       "CL",
-      "Daniel",
       "Lyx",
       "Yo",
       "Paladin",
@@ -53,10 +52,27 @@
     ]
   },
   {
+    "name": "Imperial Clan",
+    "abbreviation": null,
+    "players": [
+      "Capoch",
+      "Sobek"
+    ]
+  },
+  {
     "name": "KYO All Fallen",
     "abbreviation": null,
     "players": [
       "Cloud"
+    ]
+  },
+  {
+    "name": "MYinsanity",
+    "abbreviation": null,
+    "players": [
+      "Daniel",
+      "Belgium",
+      "Sitaux"
     ]
   },
   {
@@ -102,7 +118,6 @@
       "Feanor",
       "LaaaaaN",
       "Melkor",
-      "Sitaux",
       "dogao",
       "Miguel"
     ]
@@ -192,13 +207,6 @@
     "abbreviation": null,
     "players": [
       "Poisn"
-    ]
-  },
-  {
-    "name": "Imperial Clan",
-    "abbreviation": null,
-    "players": [
-      "Sobek"
     ]
   },
   {
