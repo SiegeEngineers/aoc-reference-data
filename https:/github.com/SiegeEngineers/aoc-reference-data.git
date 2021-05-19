@@ -1,9 +1,8 @@
- name: Good_Game
-  country: Russia
+- name: Good_Game
+  country: ru
   aoeelo: 87
   liquipedia: Good_Game
   twitch: https://www.twitch.tv/good_game_aoe
-  de:
-   1165138'   
-  # henry
-  team: [Rus-F]
+  platforms:
+    de: '1165138'
+  team: SalzZ
