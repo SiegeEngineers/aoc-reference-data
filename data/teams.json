@@ -5,7 +5,6 @@
     "players": [
       "ACCM",
       "Badboy",
-      "SongSong",
       "Yellow"
     ]
   },
@@ -24,10 +23,8 @@
     "abbreviation": null,
     "players": [
       "Biry",
-      "Hoang",
       "Twigg",
-      "Wisepii",
-      "Chart"
+      "Wisepii"
     ]
   },
   {
@@ -80,8 +77,7 @@
     "abbreviation": null,
     "players": [
       "Darknoob",
-      "DracKeN",
-      "JonSlow"
+      "DracKeN"
     ]
   },
   {
@@ -90,17 +86,7 @@
     "players": [
       "DauT",
       "JorDan",
-      "Nili",
-      "TaToH",
-      "TheViper",
-      "Slam"
-    ]
-  },
-  {
-    "name": "SuNo",
-    "abbreviation": null,
-    "players": [
-      "Daywalker"
+      "Nili"
     ]
   },
   {
@@ -118,7 +104,6 @@
       "Feanor",
       "LaaaaaN",
       "Melkor",
-      "dogao",
       "Miguel"
     ]
   },
@@ -128,18 +113,9 @@
     "players": [
       "Ganji",
       "GoldenEnd",
-      "Hallis",
       "Kamigawa",
       "Noisick",
-      "Rise",
-      "Vodka"
-    ]
-  },
-  {
-    "name": "The Immortals",
-    "abbreviation": null,
-    "players": [
-      "Hasan"
+      "Rise"
     ]
   },
   {
@@ -147,16 +123,7 @@
     "abbreviation": "aM",
     "players": [
       "Hearttt",
-      "MbL",
-      "Nicov"
-    ]
-  },
-  {
-    "name": "Tempo Storm",
-    "abbreviation": "Tempo",
-    "players": [
-      "Hera",
-      "Liereyy"
+      "MbL"
     ]
   },
   {
@@ -173,8 +140,6 @@
       "Jupe",
       "Pike",
       "Rubenstock",
-      "TheMax",
-      "Villese",
       "Zuppi"
     ]
   },
@@ -194,19 +159,18 @@
     ]
   },
   {
-    "name": "Nadya's Boys",
-    "abbreviation": null,
+    "name": "Tempo Storm",
+    "abbreviation": "Tempo",
     "players": [
-      "Lojza",
-      "Mentalist",
-      "Spaden"
+      "Liereyy"
     ]
   },
   {
-    "name": "Berserkers",
+    "name": "Nadya's Boys",
     "abbreviation": null,
     "players": [
-      "Poisn"
+      "Mentalist",
+      "Spaden"
     ]
   },
   {
@@ -235,7 +199,6 @@
     "abbreviation": "SalzZ",
     "players": [
       "Vinch",
-      "WaRRioR",
       "classicpro"
     ]
   },
