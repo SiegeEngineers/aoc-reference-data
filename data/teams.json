@@ -5,6 +5,7 @@
     "players": [
       "ACCM",
       "Badboy",
+      "SongSong",
       "Yellow"
     ]
   },
@@ -23,8 +24,10 @@
     "abbreviation": null,
     "players": [
       "Biry",
+      "Hoang",
       "Twigg",
-      "Wisepii"
+      "Wisepii",
+      "Chart"
     ]
   },
   {
@@ -77,7 +80,8 @@
     "abbreviation": null,
     "players": [
       "Darknoob",
-      "DracKeN"
+      "DracKeN",
+      "JonSlow"
     ]
   },
   {
@@ -86,7 +90,17 @@
     "players": [
       "DauT",
       "JorDan",
-      "Nili"
+      "Nili",
+      "TaToH",
+      "TheViper",
+      "Slam"
+    ]
+  },
+  {
+    "name": "SuNo",
+    "abbreviation": null,
+    "players": [
+      "Daywalker"
     ]
   },
   {
@@ -104,6 +118,7 @@
       "Feanor",
       "LaaaaaN",
       "Melkor",
+      "dogao",
       "Miguel"
     ]
   },
@@ -113,9 +128,18 @@
     "players": [
       "Ganji",
       "GoldenEnd",
+      "Hallis",
       "Kamigawa",
       "Noisick",
-      "Rise"
+      "Rise",
+      "Vodka"
+    ]
+  },
+  {
+    "name": "The Immortals",
+    "abbreviation": null,
+    "players": [
+      "Hasan"
     ]
   },
   {
@@ -123,7 +147,16 @@
     "abbreviation": "aM",
     "players": [
       "Hearttt",
-      "MbL"
+      "MbL",
+      "Nicov"
+    ]
+  },
+  {
+    "name": "Tempo Storm",
+    "abbreviation": "Tempo",
+    "players": [
+      "Hera",
+      "Liereyy"
     ]
   },
   {
@@ -140,6 +173,8 @@
       "Jupe",
       "Pike",
       "Rubenstock",
+      "TheMax",
+      "Villese",
       "Zuppi"
     ]
   },
@@ -159,18 +194,19 @@
     ]
   },
   {
-    "name": "Tempo Storm",
-    "abbreviation": "Tempo",
-    "players": [
-      "Liereyy"
-    ]
-  },
-  {
     "name": "Nadya's Boys",
     "abbreviation": null,
     "players": [
+      "Lojza",
       "Mentalist",
       "Spaden"
+    ]
+  },
+  {
+    "name": "Berserkers",
+    "abbreviation": null,
+    "players": [
+      "Poisn"
     ]
   },
   {
@@ -199,6 +235,7 @@
     "abbreviation": "SalzZ",
     "players": [
       "Vinch",
+      "WaRRioR",
       "classicpro"
     ]
   },
