@@ -1,5 +1,96 @@
 [
   {
+    "name": "Vietnam Legends",
+    "abbreviation": null,
+    "players": [
+      "ACCM",
+      "Badboy",
+      "CooL",
+      "SongSong",
+      "Yellow"
+    ]
+  },
+  {
+    "name": "Killing Generation of Brazil",
+    "abbreviation": null,
+    "players": [
+      "Alive",
+      "F1Re",
+      "Goku",
+      "RiuT"
+    ]
+  },
+  {
+    "name": "DarkSidE",
+    "abbreviation": null,
+    "players": [
+      "Biry",
+      "Hoang",
+      "Twigg",
+      "Wisepii",
+      "Chart"
+    ]
+  },
+  {
+    "name": "The BrotherHood Kappa",
+    "abbreviation": null,
+    "players": [
+      "Bruh"
+    ]
+  },
+  {
+    "name": "White Wolf Palace",
+    "abbreviation": null,
+    "players": [
+      "CL",
+      "Lyx",
+      "Yo",
+      "Paladin",
+      "StrayDog",
+      "Tim",
+      "Whoop",
+      "Vivi"
+    ]
+  },
+  {
+    "name": "Imperial Clan",
+    "abbreviation": null,
+    "players": [
+      "Capoch",
+      "Sobek"
+    ]
+  },
+  {
+    "name": "MYinsanity",
+    "abbreviation": null,
+    "players": [
+      "Daniel",
+      "Belgium",
+      "Sitaux"
+    ]
+  },
+  {
+    "name": "Clown Legion",
+    "abbreviation": null,
+    "players": [
+      "Darknoob",
+      "DracKeN",
+      "JonSlow"
+    ]
+  },
+  {
+    "name": "GamerLegion",
+    "abbreviation": "GL",
+    "players": [
+      "DauT",
+      "JorDan",
+      "Nili",
+      "TaToH",
+      "TheViper",
+      "Slam"
+    ]
+  },
+  {
     "name": "SuNo",
     "abbreviation": null,
     "players": [
@@ -7,10 +98,45 @@
     ]
   },
   {
-    "name": "Killing Generation of Brazil",
+    "name": "PL",
     "abbreviation": null,
     "players": [
-      "Goku"
+      "Dziamdziak"
+    ]
+  },
+  {
+    "name": "Heresy",
+    "abbreviation": null,
+    "players": [
+      "Edie",
+      "Feanor",
+      "LaaaaaN",
+      "Melkor",
+      "dogao",
+      "Miguel"
+    ]
+  },
+  {
+    "name": "Rulers of Rome",
+    "abbreviation": null,
+    "players": [
+      "Ganji",
+      "GoldenEnd",
+      "Hallis",
+      "Kamigawa",
+      "Noisick",
+      "Rise",
+      "Vodka"
+    ]
+  },
+  {
+    "name": "SalzZ",
+    "abbreviation": null,
+    "players": [
+      "Good_Game",
+      "Vinch",
+      "WaRRioR",
+      "classicpro"
     ]
   },
   {
@@ -21,17 +147,70 @@
     ]
   },
   {
-    "name": "GamerLegion",
-    "abbreviation": "GL",
+    "name": "Aftermath",
+    "abbreviation": null,
     "players": [
-      "Nili"
+      "Hearttt",
+      "MbL",
+      "Nicov"
+    ]
+  },
+  {
+    "name": "Tempo Storm",
+    "abbreviation": null,
+    "players": [
+      "Hera",
+      "Liereyy"
+    ]
+  },
+  {
+    "name": "DevilZ",
+    "abbreviation": null,
+    "players": [
+      "DevilZ_High"
     ]
   },
   {
     "name": "Suomi",
     "abbreviation": null,
     "players": [
-      "Pike"
+      "Jupe",
+      "Pike",
+      "Rubenstock",
+      "TheMax",
+      "Villese",
+      "Zuppi"
+    ]
+  },
+  {
+    "name": "TyRant",
+    "abbreviation": null,
+    "players": [
+      "Koven"
+    ]
+  },
+  {
+    "name": "New Chapter",
+    "abbreviation": null,
+    "players": [
+      "LB10",
+      "Skittle"
+    ]
+  },
+  {
+    "name": "Nadya's Boys",
+    "abbreviation": null,
+    "players": [
+      "Lojza",
+      "Mentalist",
+      "Spaden"
+    ]
+  },
+  {
+    "name": "Berserkers",
+    "abbreviation": null,
+    "players": [
+      "Poisn"
     ]
   },
   {
@@ -42,11 +221,17 @@
     ]
   },
   {
-    "name": "White Wolf Palace",
+    "name": "QuEnDi",
     "abbreviation": null,
     "players": [
-      "StrayDog",
-      "Whoop"
+      "True"
+    ]
+  },
+  {
+    "name": "LGe",
+    "abbreviation": null,
+    "players": [
+      "Uzzi"
     ]
   },
   {
