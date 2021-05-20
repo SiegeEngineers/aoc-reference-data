@@ -136,6 +136,16 @@
     ]
   },
   {
+    "name": "SalzZ",
+    "abbreviation": "SalzZ",
+    "players": [
+      "Good_Game",
+      "Vinch",
+      "WaRRioR",
+      "classicpro"
+    ]
+  },
+  {
     "name": "The Immortals",
     "abbreviation": null,
     "players": [
@@ -228,16 +238,6 @@
     "abbreviation": null,
     "players": [
       "Uzzi"
-    ]
-  },
-  {
-    "name": "SalzZ",
-    "abbreviation": "SalzZ",
-    "players": [
-      "Vinch",
-      "WaRRioR",
-      "classicpro",
-      "Good_Game"
     ]
   },
   {
