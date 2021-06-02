@@ -1,10 +1,11 @@
 [
   {
     "name": "Vietnam Legends",
-    "abbreviation": "VNS",
+    "abbreviation": null,
     "players": [
       "ACCM",
       "Badboy",
+      "CooL",
       "SongSong",
       "Yellow"
     ]
@@ -17,6 +18,21 @@
       "F1Re",
       "Goku",
       "RiuT"
+    ]
+  },
+  {
+    "name": "White Wolf Palace",
+    "abbreviation": null,
+    "players": [
+      "Bad Koala",
+      "CL",
+      "Lyx",
+      "Yo",
+      "Paladin",
+      "StrayDog",
+      "Tim",
+      "Whoop",
+      "Vivi"
     ]
   },
   {
@@ -38,25 +54,28 @@
     ]
   },
   {
-    "name": "White Wolf Palace",
+    "name": "Imperial Clan",
     "abbreviation": null,
     "players": [
-      "CL",
-      "Daniel",
-      "Lyx",
-      "Yo",
-      "Paladin",
-      "StrayDog",
-      "Tim",
-      "Whoop",
-      "Vivi"
+      "Capoch",
+      "Sobek"
     ]
   },
   {
     "name": "KYO All Fallen",
     "abbreviation": null,
     "players": [
-      "Cloud"
+      "Cloud",
+      "DemonSheep"
+    ]
+  },
+  {
+    "name": "MYinsanity",
+    "abbreviation": null,
+    "players": [
+      "Daniel",
+      "Belgium",
+      "Sitaux"
     ]
   },
   {
@@ -81,7 +100,7 @@
     ]
   },
   {
-    "name": "SuNo",
+    "name": "Supernova",
     "abbreviation": null,
     "players": [
       "Daywalker"
@@ -102,14 +121,13 @@
       "Feanor",
       "LaaaaaN",
       "Melkor",
-      "Sitaux",
       "dogao",
       "Miguel"
     ]
   },
   {
     "name": "Rulers of Rome",
-    "abbreviation": "RoR",
+    "abbreviation": null,
     "players": [
       "Ganji",
       "GoldenEnd",
@@ -121,6 +139,16 @@
     ]
   },
   {
+    "name": "SalzZ",
+    "abbreviation": null,
+    "players": [
+      "Good_Game",
+      "Vinch",
+      "WaRRioR",
+      "classicpro"
+    ]
+  },
+  {
     "name": "The Immortals",
     "abbreviation": null,
     "players": [
@@ -129,7 +157,7 @@
   },
   {
     "name": "Aftermath",
-    "abbreviation": "aM",
+    "abbreviation": null,
     "players": [
       "Hearttt",
       "MbL",
@@ -138,7 +166,7 @@
   },
   {
     "name": "Tempo Storm",
-    "abbreviation": "Tempo",
+    "abbreviation": null,
     "players": [
       "Hera",
       "Liereyy"
@@ -195,15 +223,8 @@
     ]
   },
   {
-    "name": "Imperial Clan",
-    "abbreviation": null,
-    "players": [
-      "Sobek"
-    ]
-  },
-  {
     "name": "PetGunPet",
-    "abbreviation": "PGP",
+    "abbreviation": null,
     "players": [
       "Stefan"
     ]
@@ -216,19 +237,10 @@
     ]
   },
   {
-    "name": "SalzZ",
-    "abbreviation": "SalzZ",
-    "players": [
-      "Vinch",
-      "WaRRioR",
-      "classicpro"
-    ]
-  },
-  {
-    "name": "Fei Mei San Dao",
+    "name": "LGe",
     "abbreviation": null,
     "players": [
-      "Jibatong"
+      "Uzzi"
     ]
   }
 ]

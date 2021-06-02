@@ -269,6 +269,7 @@
     - '124245294'
     de:
     - '628503'
+  liquipedia: Valas
 - name: StrayDog
   country: cn
   aoeelo: 64
@@ -354,6 +355,7 @@
     zone:
     - 'cool'
   liquipedia: CooL
+  team: Vietnam Legends
 - name: Liereyy
   country: at
   esportsearnings: 41415
@@ -1316,6 +1318,7 @@
     voobly:
     - '123194620'
   liquipedia: CooL
+  team: Vietnam Legends
 - name: 'Air_Abu'
   country: cn
   esportsearnings: 14710
@@ -1476,6 +1479,7 @@
     - '300649'
     - '4956328'
   liquipedia: FeAge
+  youtube: http://www.youtube.com/channel/UCYhsraJ7ht7qYpZuHht-ibA
 - name: Noto
   country: cn
   platforms:
@@ -1675,6 +1679,7 @@
   platforms:
     zone:
     - 'geek'
+  liquipedia: GeeK
 - name: Mimmox
   country: it
   esportsearnings: 41724
@@ -1693,6 +1698,7 @@
     - '4053'
     de:
     - '1657293'
+  liquipedia: bvirus
 - name: Hackl
   country: de
   platforms:
@@ -1938,6 +1944,7 @@
     de:
     - '226697'
   liquipedia: DemonSheep
+  team: KYO All Fallen
 - name: Stefan
   country: de
   aoeelo: 103
@@ -2191,6 +2198,9 @@
   country: kz
   esportsearnings: 66167
   platforms: []
+  liquipedia: Nobody
+  twitch: https://www.twitch.tv/nobodyaoe
+  youtube: http://www.youtube.com/channel/UC3ieLuJmS77c4xrkezv0WNw
 - name: Sobek
   country: cl
   platforms:
@@ -2444,6 +2454,7 @@
     de:
     - '280459'
     - '985308'
+  liquipedia: RecoN
 - name: BL4CK
   country: ar
   platforms:
@@ -2504,6 +2515,9 @@
     - '1451847'
     - '1195260'
     - '1784541'
+  liquipedia: Kellar
+  twitch: https://www.twitch.tv/Kellar_AoE
+  youtube: http://www.youtube.com/channel/UCXcnO_W-YHuIrfGRnEwUlVg
 - name: Carbo
   country: ar
   platforms:
@@ -2613,6 +2627,8 @@
     - '4785288'   # Magikarp
     voobly:
     - '124655527'
+  liquipedia: Uzzi
+  team: LGe
 - name: The Bloodless
   country: us
   platforms:
@@ -2871,3 +2887,32 @@
     - '410691'
   youtube: https://www.youtube.com/channel/UCDAwFPixAVPrUogkwhN0iAg
   team: DarkSidE
+- name: BlinG
+  aka:
+  - 'SamayanKay'
+  country: gb
+  esportsearnings: 1846
+  aoeelo: 178
+  liquipedia: BlinG
+  platforms:
+    voobly:
+    - '963'
+    de:
+    - '570519'
+- name: Good_Game
+  country: ru
+  esportsearnings: 86209
+  aoeelo: 872
+  liquipedia: Good_Game
+  platforms:
+    de:
+    - '1165138'
+  team: SalzZ
+- name: AlperenAoe
+  country: tr
+  platforms:
+    de:
+    - '874604'
+    - '5453798'
+  twitch: https://www.twitch.tv/alperenaoe2
+  youtube: https://www.youtube.com/channel/UCOBwAUsSM0CLzdTJYK4xkzA
