@@ -2916,3 +2916,10 @@
     - '5453798'
   twitch: https://www.twitch.tv/alperenaoe2
   youtube: https://www.youtube.com/channel/UCOBwAUsSM0CLzdTJYK4xkzA
+- name: CX_youwei
+  country: cn
+  platforms:
+    de:
+    - '4168560'
+    voobly:
+    - '123770946'
