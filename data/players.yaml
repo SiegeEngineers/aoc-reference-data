@@ -1292,6 +1292,7 @@
   liquipedia: Edie
   twitch: https://www.twitch.tv/poz_edie
   team: Heresy
+  youtube: http://www.youtube.com/channel/UCBNGV-KCgh8Nb6tHP-WN2_A
 - name: 'SongSong'
   country: vn
   aka:
@@ -1657,6 +1658,7 @@
     - '123988152'
     de:
     - '725502'
+  liquipedia: Kongensgade
 - name: Xiaoxiong
   esportsearnings: 25294
   country: cn
@@ -2501,6 +2503,7 @@
     de:
     - '2598542'
     - '3489772'
+  liquipedia: PaTiN
 - name: Tushen
   country: cn
   platforms:
@@ -2508,6 +2511,7 @@
     - '2544010'
     - '599657'
     - '2343109'
+    - '3212404'
 - name: Kellar
   country: 'no'
   platforms:
@@ -2899,6 +2903,7 @@
     - '963'
     de:
     - '570519'
+  twitch: https://www.twitch.tv/blinguk
 - name: Good_Game
   country: ru
   esportsearnings: 86209
@@ -2908,6 +2913,7 @@
     de:
     - '1165138'
   team: SalzZ
+  twitch: https://www.twitch.tv/salzz_good_game
 - name: AlperenAoe
   country: tr
   platforms:
@@ -2916,3 +2922,10 @@
     - '5453798'
   twitch: https://www.twitch.tv/alperenaoe2
   youtube: https://www.youtube.com/channel/UCOBwAUsSM0CLzdTJYK4xkzA
+- name: CX_youwei
+  country: cn
+  platforms:
+    de:
+    - '4168560'
+    voobly:
+    - '123770946'
