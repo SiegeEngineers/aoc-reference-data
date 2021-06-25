@@ -21,6 +21,18 @@
     ]
   },
   {
+    "name": "DarkSidE",
+    "abbreviation": null,
+    "players": [
+      "BL4CK",
+      "Biry",
+      "Hoang",
+      "Twigg",
+      "Wisepii",
+      "Chart"
+    ]
+  },
+  {
     "name": "White Wolf Palace",
     "abbreviation": null,
     "players": [
@@ -33,17 +45,6 @@
       "Tim",
       "Whoop",
       "Vivi"
-    ]
-  },
-  {
-    "name": "DarkSidE",
-    "abbreviation": null,
-    "players": [
-      "Biry",
-      "Hoang",
-      "Twigg",
-      "Wisepii",
-      "Chart"
     ]
   },
   {
