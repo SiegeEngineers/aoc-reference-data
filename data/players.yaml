@@ -2933,3 +2933,10 @@
     - '4168560'
     voobly:
     - '123770946'
+- name: bobdedestructor
+  country: dk
+  platforms:
+    de:
+    - '2063382'
+    voobly:
+    - '124540576'
