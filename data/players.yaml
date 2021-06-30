@@ -189,6 +189,7 @@
     de:
     - '271202'   # Suma1L
     - '2886954'   # ^^anomeL
+    - '4298865'
   team: SalzZ
 - name: Modri
   country: si
@@ -2463,6 +2464,9 @@
     de:
     - '2792305'
     - '1756760'
+  liquipedia: BL4CK
+  twitch: https://www.twitch.tv/bl4ck_aoe
+  team: DarkSidE
 - name: killpigboy
   country: cn
   platforms:
@@ -2828,6 +2832,7 @@
     - '5326887'
     - '5273347'
     - '5326887'
+    - '5944253'
 - name: Shades
   country: it
   platforms:
