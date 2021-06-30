@@ -1227,6 +1227,7 @@
     - '599689'
     - '2428811'
     - '4497383'
+    - '5632575'
   twitch: https://www.twitch.tv/vodka_l_
   team: Rulers of Rome
 - name: Spaden
@@ -1987,6 +1988,7 @@
     - '301918'
     - '2855233'
     - '4672953'
+    - '5653549'
 - name: Metal
   country: us
   aoeelo: 70
@@ -2634,6 +2636,7 @@
     - '2873733'
     - '2136214'
     - '4785288'   # Magikarp
+    - '5021401'
     voobly:
     - '124655527'
   liquipedia: Uzzi
@@ -2814,6 +2817,7 @@
     de:
     - '219739'
     - '2821779'
+    - '5093301'
 - name: Ertug
   country: tr
   platforms:
@@ -2937,3 +2941,18 @@
     - '4168560'
     voobly:
     - '123770946'
+- name: czczcz
+  country: kr
+  platforms:
+    de:
+    - '620454'
+    - '2777792'
+    - '2684072'
+- name: USb
+  country: mx
+  platforms:
+    de:
+    - '2938425'
+    - '3253348'
+    - '2776293'
+    - '4957841'
