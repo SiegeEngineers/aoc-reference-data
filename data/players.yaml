@@ -2608,6 +2608,7 @@
     - '369536'
     voobly:
     - '2016'
+  liquipedia: Skull
 - name: TaoPaiPai
   country: gt
   platforms:
@@ -2697,6 +2698,7 @@
     - '4747413'
     zone:
     - 'dratek'
+  liquipedia: Dratek
 - name: Funito
   country: ar
   twitch: https://www.twitch.tv/funito
@@ -2784,6 +2786,7 @@
     - '754969'
     voobly:
     - '123793537'
+  liquipedia: Mango
 - name: JoRo
   country: us
   platforms:
