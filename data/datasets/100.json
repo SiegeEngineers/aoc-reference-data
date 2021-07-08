@@ -145,6 +145,7 @@
     "34": "Iberia",
     "37": "Texas",
     "38": "Italy",
+    "39": "Central America",
     "40": "France",
     "41": "Norse Lands",
     "42": "Sea of Japan (East Sea)",
@@ -193,7 +194,18 @@
     "153": "Crossroads",
     "154": "Michi",
     "155": "Team Moats",
-    "156": "Volcanic Island"
+    "156": "Volcanic Island",
+    "157": "Acclivity",
+    "158": "Eruption",
+    "159": "Frigid Lake",
+    "160": "Greenland",
+    "161": "Lowland",
+    "162": "Marketplace",
+    "163": "Meadow",
+    "164": "Mountain Range",
+    "165": "Northern Isles",
+    "166": "Ring Fortress",
+    "167": "Runestones"
   },
   "technologies": {
     "0": "",
