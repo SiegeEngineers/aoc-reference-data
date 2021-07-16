@@ -816,7 +816,7 @@
 - name: AngelinaJolie
   country: nl
   aoeelo: 121
-  liquipedia: AngelinaJollie
+  liquipedia: AngelinaJolie
   platforms:
     voobly:
     - '124134715'
@@ -2971,3 +2971,15 @@
     - '3253348'
     - '2776293'
     - '4957841'
+- name: Annotoph
+  country: de
+  platforms:
+    de:
+    - '222102'
+    - '3238663'
+- name: RookStar
+  country: br
+  platforms:
+    de:
+    - '2265942'
+    - '2948283'
