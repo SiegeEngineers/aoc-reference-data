@@ -21,6 +21,20 @@
     ]
   },
   {
+    "name": "Rulers of Rome",
+    "abbreviation": null,
+    "players": [
+      "AngelinaJolie",
+      "Ganji",
+      "GoldenEnd",
+      "Hallis",
+      "Kamigawa",
+      "Noisick",
+      "Rise",
+      "Vodka"
+    ]
+  },
+  {
     "name": "DarkSidE",
     "abbreviation": null,
     "players": [
@@ -56,7 +70,7 @@
     ]
   },
   {
-    "name": "Imperial Clan",
+    "name": "Imperiales Team",
     "abbreviation": null,
     "players": [
       "Capoch",
@@ -68,7 +82,8 @@
     "abbreviation": null,
     "players": [
       "Cloud",
-      "DemonSheep"
+      "DemonSheep",
+      "Sora Kuma"
     ]
   },
   {
@@ -128,19 +143,6 @@
     ]
   },
   {
-    "name": "Rulers of Rome",
-    "abbreviation": null,
-    "players": [
-      "Ganji",
-      "GoldenEnd",
-      "Hallis",
-      "Kamigawa",
-      "Noisick",
-      "Rise",
-      "Vodka"
-    ]
-  },
-  {
     "name": "SalzZ",
     "abbreviation": null,
     "players": [
@@ -169,8 +171,7 @@
     "name": "Tempo Storm",
     "abbreviation": null,
     "players": [
-      "Hera",
-      "Liereyy"
+      "Hera"
     ]
   },
   {
@@ -193,10 +194,10 @@
     ]
   },
   {
-    "name": "TyRant",
+    "name": "Sons of the Sun",
     "abbreviation": null,
     "players": [
-      "Koven"
+      "Keno"
     ]
   },
   {

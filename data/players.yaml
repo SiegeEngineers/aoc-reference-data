@@ -823,6 +823,8 @@
     - '123493331'
     de:
     - '508080'
+  twitch: https://www.twitch.tv/angelina_jolie
+  team: Rulers of Rome
 - name: Ganji
   country: se
   aoeelo: 458
@@ -912,6 +914,7 @@
     - '239238'
     - '1252385'
     - '2431776'
+  twitch: https://www.twitch.tv/federicov
 - name: Dziamdziak
   country: pl
   aoeelo: 127
@@ -1973,6 +1976,8 @@
     de:
     - '209118'
     - '712465'
+  liquipedia: Sora Kuma
+  team: KYO All Fallen
 - name: Komtan
   country: jp
   aoeelo: 66
@@ -2499,6 +2504,8 @@
     voobly:
     - '124318462'
     - '1431'
+  liquipedia: Keno
+  team: Sons of the Sun
 - name: JackK
   country: pl
   twitch: https://www.twitch.tv/jackk_pl
