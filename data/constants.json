@@ -82,5 +82,11 @@
     "4": "Box",
     "7": "Staggered",
     "8": "Flank"
+  },
+  "stances": {
+    "0": "Aggressive",
+    "1": "Defensive",
+    "2": "Stand Ground",
+    "3": "No Attack"
   }
 }
