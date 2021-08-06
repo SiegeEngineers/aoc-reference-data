@@ -67,12 +67,13 @@
     - '3077860'
     - '2007655'
     - '5602224'
+    - '6109694'
   team: White Wolf Palace
 - name: Yo
   country: cn
   esportsearnings: 14713
   aoeelo: 19
-  liquipedia: Mr_Yo
+  liquipedia: Yo
   douyu: https://www.douyu.com/753676
   platforms:
     voobly:
@@ -1170,6 +1171,7 @@
     - '124682621'
     de:
     - '268565'
+  liquipedia: Luca8761
 - name: Lojza
   country: cz
   aoeelo: 58
@@ -1628,6 +1630,7 @@
     - '246423'
     - '2780825'
     - '4767036'
+  liquipedia: Dobbs351
 - name: Kamigawa
   country: it
   aoeelo: 446
@@ -1837,13 +1840,14 @@
     - '6031'
     gamepark:
     - 'fox'
-- name: Pete Martell
+- name: Nanimaren
   country: it
   platforms:
     voobly:
     - '124483923'
     de:
     - '746777'
+  liquipedia: Nanimaren
 - name: chaos_2_win
   country: de
   platforms:
@@ -2321,6 +2325,7 @@
     - '322858'
     voobly:
     - '123556801'
+  liquipedia: UNLeAsHeD
 - name: Repard
   country: ru
   platforms:
@@ -2358,6 +2363,7 @@
     - '124045298'
     de:
     - '217180'
+  liquipedia: I2aGe
 - name: Bruh
   country: br
   twitch: https://www.twitch.tv/bruhtal_
@@ -2570,6 +2576,7 @@
     - '580573'
     - '2717438'
     - '4388039'
+  liquipedia: Puerco_Black
 - name: Ming
   country: hk
   platforms:
@@ -2602,6 +2609,7 @@
     - '560474'
     voobly:
     - '124546027'
+  liquipedia: Mexican_Psycho
 - name: Darknoob
   country: nl
   platforms:
@@ -2840,6 +2848,7 @@
     - '219739'
     - '2821779'
     - '5093301'
+  liquipedia: Pela
 - name: Ertug
   country: tr
   platforms:
@@ -3011,4 +3020,71 @@
   platforms:
     de:
     - '4796235'
-    twitch: https://www.twitch.tv/roxyc
+  twitch: https://www.twitch.tv/roxyc
+- name: Whitecourt
+  country: cl
+  platforms:
+    de:
+    - '3101322'
+    - '5057225'
+  liquipedia: Whitecourt
+- name: GoldenEnd
+  country: nl
+  platforms:
+    voobly:
+    - '123839438'
+  liquipedia: GoldenEnd
+- name: Gabi
+  country: br
+  platforms:
+    de:
+    - '2444511'
+  liquipedia: Gabi
+- name: Lucky Rox
+  country: ar
+  platforms:
+    de:
+    - '945852'
+    - '3579491'
+  liquipedia: Lucky_Rox
+- name: D3rp
+  country: nl
+  platforms:
+    de:
+    - '212294'
+  liquipedia: D3rp
+- name: Andorin
+  country: de
+  platforms:
+    de:
+    - '200073'
+    voobly:
+    - '123553491'
+  liquipedia: Andorin
+- name: Clemensor
+  country: at
+  platforms:
+    de:
+    - '226437'
+    - '3201121'
+    voobly:
+    - '124074916'      
+  liquipedia: Clemensor
+- name: Cortical
+  country: us
+  platforms:
+    de:
+    - '1566498'
+  liquipedia: Cortical
+- name: ffavorite
+  country: us
+  platforms:
+    de:
+    - '509112'
+  liquipedia: Ffavorite_1
+- name: PaladiNz
+  country: ca
+  platforms:
+    de:
+    - '255376'
+  liquipedia: PaladiNz
