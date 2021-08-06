@@ -88,5 +88,31 @@
     "1": "Defensive",
     "2": "Stand Ground",
     "3": "No Attack"
+  },
+  "orders": {
+    "1": "Pack Trebuchet",
+    "2": "Unpack Trebuchet",
+    "4": "Unqueue",
+    "5": "Garrison"
+  },
+  "commands": {
+    "1": "Speed",
+    "5": "Allied Victory",
+    "6": "Cheat",
+    "10": "Spies",
+    "11": "Strategic Number",
+    "13": "Queue Farm",
+    "14": "Unqueue Farm",
+    "16": "Farm Autoqueue",
+    "17": "Queue Fish Trap",
+    "18": "Unqueue Fish Trap",
+    "19": "Fish Trap Autoqueue",
+    "20": "Default Stance"
+  },
+  "resources": {
+    "0": "Food",
+    "1": "Wood",
+    "2": "Stone",
+    "3": "Gold"
   }
 }
