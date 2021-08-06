@@ -21,6 +21,15 @@
     ]
   },
   {
+    "name": "New Chapter",
+    "abbreviation": null,
+    "players": [
+      "Andorin",
+      "LB10",
+      "Skittle"
+    ]
+  },
+  {
     "name": "Rulers of Rome",
     "abbreviation": null,
     "players": [
@@ -29,9 +38,12 @@
       "GoldenEnd",
       "Hallis",
       "Kamigawa",
+      "Luca",
+      "Nanimaren",
       "Noisick",
       "Rise",
-      "Vodka"
+      "Vodka",
+      "Whitecourt"
     ]
   },
   {
@@ -41,6 +53,8 @@
       "BL4CK",
       "Biry",
       "Carbo",
+      "Dobbs",
+      "Gabi",
       "Hoang",
       "Twigg",
       "Wisepii",
@@ -58,6 +72,7 @@
       "StrayDog",
       "Tim",
       "Whoop",
+      "Yo",
       "Vivi"
     ]
   },
@@ -77,6 +92,17 @@
     ]
   },
   {
+    "name": "QuEnDi",
+    "abbreviation": null,
+    "players": [
+      "Clemensor",
+      "l2aGe",
+      "PaladiNz",
+      "True",
+      "ffavorite"
+    ]
+  },
+  {
     "name": "KYO All Fallen",
     "abbreviation": null,
     "players": [
@@ -86,21 +112,22 @@
     ]
   },
   {
+    "name": "Clown Legion",
+    "abbreviation": null,
+    "players": [
+      "D3rp",
+      "Darknoob",
+      "DracKeN",
+      "JonSlow"
+    ]
+  },
+  {
     "name": "MYinsanity",
     "abbreviation": null,
     "players": [
       "Daniel",
       "Belgium",
       "Sitaux"
-    ]
-  },
-  {
-    "name": "Clown Legion",
-    "abbreviation": null,
-    "players": [
-      "Darknoob",
-      "DracKeN",
-      "JonSlow"
     ]
   },
   {
@@ -196,15 +223,9 @@
     "name": "Sons of the Sun",
     "abbreviation": null,
     "players": [
-      "Keno"
-    ]
-  },
-  {
-    "name": "New Chapter",
-    "abbreviation": null,
-    "players": [
-      "LB10",
-      "Skittle"
+      "Keno",
+      "Tatakae",
+      "Puerco Black"
     ]
   },
   {
@@ -235,13 +256,6 @@
     "abbreviation": null,
     "players": [
       "Stefan"
-    ]
-  },
-  {
-    "name": "QuEnDi",
-    "abbreviation": null,
-    "players": [
-      "True"
     ]
   },
   {
