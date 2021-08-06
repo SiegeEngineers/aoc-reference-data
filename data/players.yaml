@@ -1172,6 +1172,8 @@
     de:
     - '268565'
   liquipedia: Luca8761
+  youtube: http://www.youtube.com/channel/UC1ogVLFWj7WxK1f21kF9kSQ
+  team: Rulers of Rome
 - name: Lojza
   country: cz
   aoeelo: 58
@@ -1631,6 +1633,8 @@
     - '2780825'
     - '4767036'
   liquipedia: Dobbs351
+  youtube: http://www.youtube.com/channel/UCnqNykFBw3U-Gvth4bQCw5A
+  team: DarkSidE
 - name: Kamigawa
   country: it
   aoeelo: 446
@@ -1848,6 +1852,7 @@
     de:
     - '746777'
   liquipedia: Nanimaren
+  team: Rulers of Rome
 - name: chaos_2_win
   country: de
   platforms:
@@ -2364,6 +2369,7 @@
     de:
     - '217180'
   liquipedia: I2aGe
+  team: QuEnDi
 - name: Bruh
   country: br
   twitch: https://www.twitch.tv/bruhtal_
@@ -2577,6 +2583,7 @@
     - '2717438'
     - '4388039'
   liquipedia: Puerco_Black
+  team: Sons of the Sun
 - name: Ming
   country: hk
   platforms:
@@ -2610,6 +2617,7 @@
     voobly:
     - '124546027'
   liquipedia: Mexican_Psycho
+  team: Sons of the Sun
 - name: Darknoob
   country: nl
   platforms:
@@ -3028,18 +3036,24 @@
     - '3101322'
     - '5057225'
   liquipedia: Whitecourt
+  twitch: https://www.twitch.tv/whitecourtt
+  team: Rulers of Rome
 - name: GoldenEnd
   country: nl
   platforms:
     voobly:
     - '123839438'
   liquipedia: GoldenEnd
+  team: Rulers of Rome
 - name: Gabi
   country: br
   platforms:
     de:
     - '2444511'
   liquipedia: Gabi
+  twitch: https://www.twitch.tv/gabiaoe_
+  youtube: http://www.youtube.com/channel/UCMDHXZQfNzVO_1XPBmvIWfQ
+  team: DarkSidE
 - name: Lucky Rox
   country: ar
   platforms:
@@ -3053,6 +3067,8 @@
     de:
     - '212294'
   liquipedia: D3rp
+  twitch: https://www.twitch.tv/d3rp276
+  team: Clown Legion
 - name: Andorin
   country: de
   platforms:
@@ -3061,6 +3077,8 @@
     voobly:
     - '123553491'
   liquipedia: Andorin
+  twitch: https://www.twitch.tv/nc_andorin
+  team: New Chapter
 - name: Clemensor
   country: at
   platforms:
@@ -3068,8 +3086,11 @@
     - '226437'
     - '3201121'
     voobly:
-    - '124074916'      
+    - '124074916'
   liquipedia: Clemensor
+  twitch: https://www.twitch.tv/clemensor
+  youtube: http://www.youtube.com/channel/UCcxztB7oRedOEInIUpY9q_w
+  team: QuEnDi
 - name: Cortical
   country: us
   platforms:
@@ -3082,9 +3103,11 @@
     de:
     - '509112'
   liquipedia: Ffavorite_1
+  team: QuEnDi
 - name: PaladiNz
   country: ca
   platforms:
     de:
     - '255376'
   liquipedia: PaladiNz
+  team: QuEnDi
