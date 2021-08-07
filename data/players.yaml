@@ -6,6 +6,8 @@
   esportsearnings: 25311
   aoeelo: 24
   liquipedia: MbL
+  aka:
+  - TheMbL
   twitch: https://www.twitch.tv/mblaoc
   youtube: http://youtube.com/user/Mortenjeah
   discord: https://discord.gg/5cHqGMx
@@ -75,6 +77,8 @@
   aoeelo: 19
   liquipedia: Yo
   douyu: https://www.douyu.com/753676
+  aka:
+  - Mr_Yo
   platforms:
     voobly:
     - '123636492'
@@ -1670,6 +1674,11 @@
 - name: Kongensgade
   country: dk
   aoeelo: 132
+  aka:
+  - Kongen_42
+  - Kongen
+  - KongeQrnen
+  - Cong4ever
   platforms:
     voobly:
     - '123652655'
@@ -1868,6 +1877,7 @@
     - '182749'
     - '2112598'
     - '3966024'
+  liquipedia: The_Dragonstar
 - name: Free
   country: cn
   platforms:
@@ -2788,6 +2798,8 @@
     - '2622255'
 - name: Lobo
   country: mx
+  aka:
+  - LobodeLaNieve
   platforms:
     de:
     - '2920057'
