@@ -1370,6 +1370,7 @@
     gameranger:
     - 'wonder'
   liquipedia: _8th_wonder
+  team: Nadya's Boys
 - name: 'classicpro'
   country: ua
   aoeelo: 99
@@ -1881,6 +1882,8 @@
     - '2112598'
     - '3966024'
   liquipedia: The_Dragonstar
+  twitch: https://www.twitch.tv/100dragonstar
+  youtube: http://www.youtube.com/100dragonstar
 - name: Free
   country: cn
   platforms:
@@ -3134,18 +3137,21 @@
     de:
     - '293288'
   liquipedia: Bean Dip
+  twitch: https://www.twitch.tv/bean__dip
 - name: Bourbon
   country: ru
   platforms:
     de:
     - '1877180'
   liquipedia: Bourbon
+  team: Russia F
 - name: Ass_Kickerwa
   country: in
   platforms:
     de:
     - '664715'
   liquipedia: Ass_Kickerwa
+  team: The Stackers
 - name: Cl3m3nT
   country: fr
   platforms:
@@ -3153,18 +3159,22 @@
     - '245117'
     - '3567001'
   liquipedia: Cl3m3nT
+  twitch: https://www.twitch.tv/cl3m3nt_aoe
 - name: DarK_KnighT_
   country: mx
   platforms:
     de:
     - '757886'
   liquipedia: DarK_KnighT_
+  team: Vikingos Nómadas
 - name: Ellie4K
   country: ca
   platforms:
     de:
     - '1686373'
   liquipedia: Ellie4K
+  twitch: https://www.twitch.tv/ellie4k
+  youtube: http://www.youtube.com/channel/UCoWEA6fgQOHF4L5Nt3WPA1A
 - name: FreakinAndy
   country: at
   platforms:
@@ -3172,6 +3182,7 @@
     - '1531083'
     - '2559615'
   liquipedia: FreakinAndy
+  twitch: https://www.twitch.tv/freakinandy
 - name: FreakinChris
   country: at
   platforms:
@@ -3184,24 +3195,32 @@
     de:
     - '2653793'
   liquipedia: Frost_9
+  team: Freakin
 - name: GriN
   country: ru
   platforms:
     de:
     - '208812'
   liquipedia: GriN
+  twitch: https://www.twitch.tv/mr_grin_
+  youtube: http://www.youtube.com/ЦитадельСтратегий
+  team: Russia F
 - name: HamRTime
   country: au
   platforms:
     de:
     - '2125259'
   liquipedia: HamRTime
+  twitch: https://www.twitch.tv/hamrtime
 - name: ImComing
   country: au
   platforms:
     de:
     - '839529'
   liquipedia: ImComing
+  twitch: https://www.twitch.tv/ultra_coming
+  youtube: http://www.youtube.com/channel/UCAm-fFhNAhKPnh3C3XxGdBA
+  team: Rising Stars
 - name: Improvise
   country: us
   platforms:
@@ -3220,18 +3239,23 @@
     de:
     - '272182'
   liquipedia: Juan Perotti
+  twitch: https://www.twitch.tv/juanperottiaoe
+  youtube: http://www.youtube.com/channel/UCZ4aiIlpiIn0dUTiXTjqDJw
 - name: KhaLeN
   country: fr
   platforms:
     de:
     - '1060672'
   liquipedia: KhaLeN
+  twitch: https://www.twitch.tv/kha_len
 - name: Kioss3000
   country: fr
   platforms:
     de:
     - '581780'
   liquipedia: Kioss3000
+  twitch: https://www.twitch.tv/kioss3000
+  team: K-GANG
 - name: L3af
   country: us
   platforms:
@@ -3245,12 +3269,14 @@
     - '1700004'
     - '2368367'
   liquipedia: Loris
+  twitch: https://www.twitch.tv/lorisaoe
 - name: MaJoR_Kd
   country: gb
   platforms:
     de:
     - '283216'
   liquipedia: MaJoR_Kd
+  twitch: https://www.twitch.tv/major_kd
 - name: Margougou
   country: fr
   platforms:
@@ -3266,30 +3292,38 @@
     de:
     - '1102458'
   liquipedia: MarineLorD
+  twitch: https://www.twitch.tv/marinelord
 - name: MembTV
   country: es
   platforms:
     de:
     - '196407'
   liquipedia: MembTV
+  twitch: https://www.twitch.tv/membtv
+  youtube: http://www.youtube.com/FoptMembrillo
 - name: Mica_
   country: ar
   platforms:
     de:
     - '2873005'
   liquipedia: Mica_
+  twitch: https://www.twitch.tv/mica_lpz
+  team: Team Maswi
 - name: Moonfaller
   country: nl
   platforms:
     de:
     - '351793'
   liquipedia: Moonfaller
+  twitch: https://www.twitch.tv/moonfaller
+  youtube: http://www.youtube.com/channel/UC_69Nt352RIEMXfhlBeF4VA
 - name: Mr.moon
   country: ru
   platforms:
     de:
     - '701482'
   liquipedia: Mr.moon
+  team: Russia F
 - name: Neromelnick
   country: cl
   platforms:
@@ -3297,36 +3331,46 @@
     - '316555'
     - '2796405'
   liquipedia: Neromelnick
+  twitch: https://www.twitch.tv/neromelnick
 - name: Nick
   country: gb
   platforms:
     de:
     - '209599'
   liquipedia: Nick
+  team: Nadya's Boys
 - name: Ning_
   country: tw
   platforms:
     de:
     - '802944'
   liquipedia: Ning_
+  twitch: https://www.twitch.tv/ningning995
 - name: OLADUSHEK
   country: by
   platforms:
     de:
     - '1853187'
   liquipedia: OLADUSHEK
+  twitch: https://www.twitch.tv/oladushek__
+  youtube: http://www.youtube.com/channel/UCchhChxS5Pqm1-oNtuEF9Rw
+  team: Russia F
 - name: Odette
   country: cz
   platforms:
     de:
     - '207414'
   liquipedia: Odette
+  twitch: https://www.twitch.tv/odetted
+  youtube: http://www.youtube.com/OdetteD
 - name: OfeliaAoE
   country: es
   platforms:
     de:
     - '269143'
   liquipedia: OfeliaAoE
+  twitch: https://www.twitch.tv/ofeliaaoe
+  youtube: http://www.youtube.com/UCh30W9QnXS-XZwNuk-twnyg
 - name: Ondrej94
   country: sk
   platforms:
@@ -3339,12 +3383,15 @@
     de:
     - '197707'
   liquipedia: OrnLu
+  twitch: https://www.twitch.tv/ornlu_aoe
+  youtube: http://www.youtube.com/channel/UCnmc2T9WNYLel3Fv2EzaS4Q
 - name: Ovenka
   country: cz
   platforms:
     de:
     - '280742'
   liquipedia: Ovenka
+  team: CZ
 - name: Overtaken
   country: ee
   platforms:
@@ -3360,6 +3407,8 @@
     - '4541520'
     - '3392644'
   liquipedia: Sebastian2002
+  twitch: https://www.twitch.tv/sebastian2002
+  team: DarkSidE
 - name: StonePleaseAoE
   country: de
   platforms:
@@ -3372,39 +3421,49 @@
     de:
     - '1274728'
   liquipedia: The_queen
+  twitch: https://www.twitch.tv/the_queen_aoe
 - name: TheSniper_AOE
   country: fr
   platforms:
     de:
     - '219493'
   liquipedia: TheSniper_AOE
+  twitch: https://www.twitch.tv/thesniper_aoe
+  youtube: http://www.youtube.com/channel/UCzgJM0WSVuw2Ks9XjTmGxIQ
 - name: Tileä
   country: nz
   platforms:
     de:
     - '2429037'
   liquipedia: Tileä
+  twitch: https://www.twitch.tv/tilea
 - name: TinyTriss
   country: at
   platforms:
     de:
     - '236934'
   liquipedia: TinyTriss
+  twitch: https://www.twitch.tv/tinytriss
+  youtube: http://www.youtube.com/channel/UCpu3umqSx5cA2qkvWCUp02w
+  team: Age of Queens (team)
 - name: kaaaai_
   country: gb
   platforms:
     de:
     - '3436170'
   liquipedia: kaaaai_
+  twitch: https://www.twitch.tv/kaaaai_
 - name: noboru43
   country: jp
   platforms:
     de:
     - '232208'
   liquipedia: noboru43
+  twitch: https://www.twitch.tv/noboru43xxxx
 - name: wAkKo
   country: cl
   platforms:
     de:
     - '267597'
   liquipedia: wAkKo
+  twitch: https://www.twitch.tv/wakko_aoe

@@ -1,5 +1,16 @@
 [
   {
+    "name": "Nadya's Boys",
+    "abbreviation": null,
+    "players": [
+      "8th Wonder",
+      "Lojza",
+      "Mentalist",
+      "Nick",
+      "Spaden"
+    ]
+  },
+  {
     "name": "Vietnam Legends",
     "abbreviation": null,
     "players": [
@@ -47,6 +58,13 @@
     ]
   },
   {
+    "name": "The Stackers",
+    "abbreviation": null,
+    "players": [
+      "Ass_Kickerwa"
+    ]
+  },
+  {
     "name": "DarkSidE",
     "abbreviation": null,
     "players": [
@@ -56,6 +74,7 @@
       "Dobbs",
       "Gabi",
       "Hoang",
+      "Sebastian2002",
       "Twigg",
       "Wisepii",
       "Chart"
@@ -74,6 +93,16 @@
       "Whoop",
       "Yo",
       "Vivi"
+    ]
+  },
+  {
+    "name": "Russia F",
+    "abbreviation": null,
+    "players": [
+      "Bourbon",
+      "GriN",
+      "Mr.moon",
+      "OLADUSHEK"
     ]
   },
   {
@@ -131,6 +160,13 @@
     ]
   },
   {
+    "name": "Vikingos N\u00f3madas",
+    "abbreviation": null,
+    "players": [
+      "DarK_KnighT_"
+    ]
+  },
+  {
     "name": "GamerLegion",
     "abbreviation": "GL",
     "players": [
@@ -165,6 +201,13 @@
       "Melkor",
       "dogao",
       "Miguel"
+    ]
+  },
+  {
+    "name": "Freakin",
+    "abbreviation": null,
+    "players": [
+      "Frost_9"
     ]
   },
   {
@@ -207,6 +250,13 @@
     ]
   },
   {
+    "name": "Rising Stars",
+    "abbreviation": null,
+    "players": [
+      "ImComing"
+    ]
+  },
+  {
     "name": "Suomi",
     "abbreviation": null,
     "players": [
@@ -228,12 +278,24 @@
     ]
   },
   {
-    "name": "Nadya's Boys",
+    "name": "K-GANG",
     "abbreviation": null,
     "players": [
-      "Lojza",
-      "Mentalist",
-      "Spaden"
+      "Kioss3000"
+    ]
+  },
+  {
+    "name": "Team Maswi",
+    "abbreviation": null,
+    "players": [
+      "Mica_"
+    ]
+  },
+  {
+    "name": "CZ",
+    "abbreviation": null,
+    "players": [
+      "Ovenka"
     ]
   },
   {
@@ -255,6 +317,13 @@
     "abbreviation": null,
     "players": [
       "Stefan"
+    ]
+  },
+  {
+    "name": "Age of Queens (team)",
+    "abbreviation": null,
+    "players": [
+      "TinyTriss"
     ]
   },
   {
