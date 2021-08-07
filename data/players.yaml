@@ -590,6 +590,7 @@
   aoeelo: 54
   esportsearnings: 12251
   douyu: https://www.douyu.com/953871
+  liquipedia: LoveCheng
   platforms:
     de:
     - '2806260'
@@ -1368,6 +1369,7 @@
     - '3943624'
     gameranger:
     - 'wonder'
+  liquipedia: _8th_wonder
 - name: 'classicpro'
   country: ua
   aoeelo: 99
@@ -1799,6 +1801,7 @@
     - 'moczymorda'
     de:
     - '5424138'
+  liquipedia: GeNeRaL_Z
 - name: Sutra
   country: us
   esportsearnings: 42059
@@ -3125,3 +3128,283 @@
     - '255376'
   liquipedia: PaladiNz
   team: QuEnDi
+- name: Bean Dip
+  country: us
+  platforms:
+    de:
+    - '293288'
+  liquipedia: Bean Dip
+- name: Bourbon
+  country: ru
+  platforms:
+    de:
+    - '1877180'
+  liquipedia: Bourbon
+- name: Ass_Kickerwa
+  country: in
+  platforms:
+    de:
+    - '664715'
+  liquipedia: Ass_Kickerwa
+- name: Cl3m3nT
+  country: fr
+  platforms:
+    de:
+    - '245117'
+    - '3567001'
+  liquipedia: Cl3m3nT
+- name: DarK_KnighT_
+  country: mx
+  platforms:
+    de:
+    - '757886'
+  liquipedia: DarK_KnighT_
+- name: Ellie4K
+  country: ca
+  platforms:
+    de:
+    - '1686373'
+  liquipedia: Ellie4K
+- name: FreakinAndy
+  country: at
+  platforms:
+    de:
+    - '1531083'
+    - '2559615'
+  liquipedia: FreakinAndy
+- name: FreakinChris
+  country: at
+  platforms:
+    de:
+    - '657052'
+  liquipedia: FreakinChris
+- name: Frost_9
+  country: se
+  platforms:
+    de:
+    - '2653793'
+  liquipedia: Frost_9
+- name: GriN
+  country: ru
+  platforms:
+    de:
+    - '208812'
+  liquipedia: GriN
+- name: HamRTime
+  country: au
+  platforms:
+    de:
+    - '2125259'
+  liquipedia: HamRTime
+- name: ImComing
+  country: au
+  platforms:
+    de:
+    - '839529'
+  liquipedia: ImComing
+- name: Improvise
+  country: us
+  platforms:
+    de:
+    - '3879633'
+  liquipedia: Improvise
+- name: JazBas
+  country: nz
+  platforms:
+    de:
+    - '978577'
+  liquipedia: JazBas
+- name: Juan Perotti
+  country: ar
+  platforms:
+    de:
+    - '272182'
+  liquipedia: Juan Perotti
+- name: KhaLeN
+  country: fr
+  platforms:
+    de:
+    - '1060672'
+  liquipedia: KhaLeN
+- name: Kioss3000
+  country: fr
+  platforms:
+    de:
+    - '581780'
+  liquipedia: Kioss3000
+- name: L3af
+  country: us
+  platforms:
+    de:
+    - '228375'
+  liquipedia: L3af
+- name: Loris
+  country: it
+  platforms:
+    de:
+    - '1700004'
+    - '2368367'
+  liquipedia: Loris
+- name: MaJoR_Kd
+  country: gb
+  platforms:
+    de:
+    - '283216'
+  liquipedia: MaJoR_Kd
+- name: Margougou
+  country: fr
+  platforms:
+    de:
+    - '2368761'
+    - '579679'
+  liquipedia: Margougou
+- name: MarineLorD
+  aka:
+  - Mlord
+  country: fr
+  platforms:
+    de:
+    - '1102458'
+  liquipedia: MarineLorD
+- name: MembTV
+  country: es
+  platforms:
+    de:
+    - '196407'
+  liquipedia: MembTV
+- name: Mica_
+  country: ar
+  platforms:
+    de:
+    - '2873005'
+  liquipedia: Mica_
+- name: Moonfaller
+  country: nl
+  platforms:
+    de:
+    - '351793'
+  liquipedia: Moonfaller
+- name: Mr.moon
+  country: ru
+  platforms:
+    de:
+    - '701482'
+  liquipedia: Mr.moon
+- name: Neromelnick
+  country: cl
+  platforms:
+    de:
+    - '316555'
+    - '2796405'
+  liquipedia: Neromelnick
+- name: Nick
+  country: gb
+  platforms:
+    de:
+    - '209599'
+  liquipedia: Nick
+- name: Ning_
+  country: tw
+  platforms:
+    de:
+    - '802944'
+  liquipedia: Ning_
+- name: OLADUSHEK
+  country: by
+  platforms:
+    de:
+    - '1853187'
+  liquipedia: OLADUSHEK
+- name: Odette
+  country: cz
+  platforms:
+    de:
+    - '207414'
+  liquipedia: Odette
+- name: OfeliaAoE
+  country: es
+  platforms:
+    de:
+    - '269143'
+  liquipedia: OfeliaAoE
+- name: Ondrej94
+  country: sk
+  platforms:
+    de:
+    - '4917502'
+  liquipedia: Ondrej94
+- name: OrnLu
+  country: us
+  platforms:
+    de:
+    - '197707'
+  liquipedia: OrnLu
+- name: Ovenka
+  country: cz
+  platforms:
+    de:
+    - '280742'
+  liquipedia: Ovenka
+- name: Overtaken
+  country: ee
+  platforms:
+    de:
+    - '4632681'
+  liquipedia: Overtaken
+- name: Sebastian2002
+  country: uy
+  platforms:
+    de:
+    - '2783660'
+    - '5194815'
+    - '4541520'
+    - '3392644'
+  liquipedia: Sebastian2002
+- name: StonePleaseAoE
+  country: de
+  platforms:
+    de:
+    - '339835'
+  liquipedia: StonePleaseAoE
+- name: The_queen
+  country: ru
+  platforms:
+    de:
+    - '1274728'
+  liquipedia: The_queen
+- name: TheSniper_AOE
+  country: fr
+  platforms:
+    de:
+    - '219493'
+  liquipedia: TheSniper_AOE
+- name: Tileä
+  country: nz
+  platforms:
+    de:
+    - '2429037'
+  liquipedia: Tileä
+- name: TinyTriss
+  country: at
+  platforms:
+    de:
+    - '236934'
+  liquipedia: TinyTriss
+- name: kaaaai_
+  country: gb
+  platforms:
+    de:
+    - '3436170'
+  liquipedia: kaaaai_
+- name: noboru43
+  country: jp
+  platforms:
+    de:
+    - '232208'
+  liquipedia: noboru43
+- name: wAkKo
+  country: cl
+  platforms:
+    de:
+    - '267597'
+  liquipedia: wAkKo
