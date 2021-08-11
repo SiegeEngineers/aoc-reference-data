@@ -2693,6 +2693,7 @@
     - '4785288'   # Magikarp
     - '5021401'
     - '3583533'
+    - '2621863'
     voobly:
     - '124655527'
   liquipedia: Uzzi
@@ -3489,6 +3490,7 @@
     - '124199201'
 - name: Tomate
   country: es
+  twitch: https://www.twitch.tv/tomateaoe
   platforms:
     de:
     - '77944'
