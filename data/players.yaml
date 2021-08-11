@@ -2458,6 +2458,7 @@
     de:
     - '1407942'
     - '3108145'
+    - '6157837'
   liquipedia: Dark
   team: SalzZ
 - name: Mahya
@@ -3471,3 +3472,18 @@
     - '267597'
   liquipedia: wAkKo
   twitch: https://www.twitch.tv/wakko_aoe
+- name: Ubetnir
+  country: tr
+  platforms:
+    de:
+    - '6069513'
+    - '3392033'
+- name: Rammyy
+  country: tr
+  platforms:
+    de:
+    - '2642796'
+    - '5735995'
+    voobly:
+    - '125101795'
+    - '124199201'
