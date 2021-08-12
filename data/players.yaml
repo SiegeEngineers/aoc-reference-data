@@ -65,7 +65,6 @@
     - '1432837'
     - '1829738' # Charlemagne
     - '3109523'
-    - '1688652'
     - '3077860'
     - '2007655'
     - '5602224'
@@ -882,6 +881,7 @@
     - '124576519'
     de:
     - '227857'
+    - '1688652'
   team: Fei Mei San Dao
 - name: Noisick
   country: cl
@@ -2620,6 +2620,7 @@
     de:
     - '308109'
     - '1696082'
+    - '5123311'
     voobly:
     - '124423817'
 - name: Babaorum
@@ -3354,6 +3355,7 @@
   platforms:
     de:
     - '802944'
+    - '5623928'
   liquipedia: Ning_
   twitch: https://www.twitch.tv/ningning995
 - name: OLADUSHEK
