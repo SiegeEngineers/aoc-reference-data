@@ -1781,6 +1781,7 @@
     - 'drinky'
     de:
     - '258972'
+    - '4972061'
 - name: Canary
   country: jp
   platforms:
@@ -3175,6 +3176,7 @@
   platforms:
     de:
     - '757886'
+    - '3395893'
   liquipedia: DarK_KnighT_
   team: Vikingos Nómadas
 - name: Ellie4K
@@ -3426,6 +3428,7 @@
   platforms:
     de:
     - '339835'
+    - '858709'
   liquipedia: StonePleaseAoE
 - name: The_queen
   country: ru
@@ -3500,3 +3503,29 @@
   platforms:
     de:
     - '77944'
+- name: Rmcoo
+  country: lt
+  platforms:
+    de:
+    - '541127'
+    voobly:
+    - '123465712'
+    - '123718318'
+    - '123664415'
+    - '125205934'
+- name: ThisLove
+  country: vn
+  platforms:
+    de:
+    - '2508809'
+    - '3386065'
+    - '5637473'
+- name: AnTiDeMoN
+  country: br
+  platforms:
+    de:
+    - '238641'
+    - '5375392'
+    - '2659351'
+    voobly:
+    - '124651224'
