@@ -126,6 +126,8 @@
   aoeelo: 62
   liquipedia: LaaaaaN
   esportsearnings: 56830
+  aka:
+  - LaN
   platforms:
     voobly:
     - '124116514' # ByT
@@ -1684,7 +1686,6 @@
   - Kongen_42
   - Kongen
   - KongeQrnen
-  - Cong4ever
   platforms:
     voobly:
     - '123652655'
@@ -2750,6 +2751,7 @@
     - '726223'
     - '3152642'
     - '1251651'
+    - '2276037'
     voobly:
     - 'z40305125'
 - name: Dratek
@@ -3472,7 +3474,7 @@
     - '3367513'
   liquipedia: kaaaai_
   twitch: https://www.twitch.tv/kaaaai_
-- name: noboru43
+- name: noboru
   country: jp
   platforms:
     de:
