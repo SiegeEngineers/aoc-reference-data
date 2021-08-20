@@ -352,6 +352,7 @@
     de:
     - '534438'
     - '1369485'
+    - '6252391'
     zone:
     - 'tim'
   team: White Wolf Palace
@@ -2915,6 +2916,11 @@
     - '6100599'
     - '6122409'
     - '6092315'
+    - '6128178'
+    - '6176771'
+    - '6206234'
+    - '6240092'
+    - '6150436'
 - name: Shades
   country: it
   platforms:
@@ -3006,7 +3012,7 @@
     - '1165138'
   team: SalzZ
   twitch: https://www.twitch.tv/salzz_good_game
-- name: AlperenAoe
+- name: Alperen
   country: tr
   platforms:
     de:
