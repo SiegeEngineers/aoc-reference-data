@@ -1,6 +1,21 @@
 # https://www.aoezone.net/threads/list-of-highest-rm-1v1-rating-reached.138320/
 # https://www.aoezone.net/threads/expert-players-who-already-signed-up-to-king-of-the-desert.135065/
 # https://www.aoezone.net/threads/aoe-2-de-list-of-highest-rm-ratings-reached-1v1-tg.162866/
+- name: Av3stan
+  country: 'in'
+  esportsearnings: 80
+  liquipedia: av3stan
+  twitch: https://www.twitch.tv/av3stan
+  youtube: https://www.youtube.com/channel/UCKGGMVqHFZptA_6mVgfYuag
+  discord: https://discord.gg/mqc6E4Vs
+
+  platforms:
+    voobly:
+    - '123358944'
+
+    de:
+    - '249430'
+    - '6177368'
 - name: MbL
   country: 'no'
   esportsearnings: 25311
@@ -2805,6 +2820,7 @@
     - '6187727'
   liquipedia: Whocl
   twitch: https://www.twitch.tv/whoclaoe
+  team: QueNaNina
 - name: Rodrigus
   country: ar
   platforms:
@@ -3496,6 +3512,7 @@
     - '267597'
   liquipedia: wAkKo
   twitch: https://www.twitch.tv/wakko_aoe
+  team: QueNaNina
 - name: Ubetnir
   country: tr
   platforms:
