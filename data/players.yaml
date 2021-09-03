@@ -3561,3 +3561,28 @@
     - '2659351'
     voobly:
     - '124651224'
+- name: Dr.Kozmonot
+  country: tr
+  platforms:
+    de:
+    - '1827866'
+    - '3446882'
+- name: Yasin
+  country: tr
+  platforms:
+    de:
+    - '2944434'
+    - '5829363'
+- name: TurkEycof_AoE
+  country: tr
+  twitch: https://www.twitch.tv/turkeycof_aoe
+  platforms:
+    de:
+    - '2183026'
+    - '4461247'
+- name: GLX_Rusher
+  country: tr
+  twitch: https://www.twitch.tv/glx_rusher
+  platforms:
+    de:
+    - '788320'
