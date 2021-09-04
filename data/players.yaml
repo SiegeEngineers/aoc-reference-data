@@ -3567,7 +3567,7 @@
     de:
     - '2944434'
     - '5829363'
-- name: TurkEycof_AoE
+- name: TurkEycof
   country: tr
   twitch: https://www.twitch.tv/turkeycof_aoe
   platforms:
