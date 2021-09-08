@@ -1907,6 +1907,7 @@
   liquipedia: The_Dragonstar
   twitch: https://www.twitch.tv/100dragonstar
   youtube: http://www.youtube.com/100dragonstar
+  team: Dark Empire
 - name: Free
   country: cn
   platforms:
@@ -2726,6 +2727,7 @@
     - '124655527'
   liquipedia: Uzzi
   team: LGe
+  youtube: http://www.youtube.com/channel/UCvzCDwMm2unSNpW-PGnmTZA
 - name: The Bloodless
   country: us
   platforms:
@@ -3563,3 +3565,22 @@
     - '2659351'
     voobly:
     - '124651224'
+- name: Yasin
+  country: tr
+  platforms:
+    de:
+    - '2944434'
+    - '5829363'
+- name: TurkEycof
+  country: tr
+  twitch: https://www.twitch.tv/turkeycof_aoe
+  platforms:
+    de:
+    - '2183026'
+    - '4461247'
+- name: GLX_Rusher
+  country: tr
+  twitch: https://www.twitch.tv/glx_rusher
+  platforms:
+    de:
+    - '788320'
