@@ -3584,3 +3584,28 @@
   platforms:
     de:
     - '788320'
+    - '3527288'
+- name: Albis
+  country: tw
+  platforms:
+    de:
+    - '528141'
+  liquipedia: Albis
+- name: PoLaR
+  country: gb
+  platforms:
+    de:
+    - '1802779'
+  liquipedia: PoLaR
+- name: RollsRoyce
+  country: vn
+  platforms:
+    de:
+    - '1763704'
+  liquipedia: RollsRoyce
+- name: Valak
+  country: cl
+  platforms:
+    de:
+    - '3085163'
+  liquipedia: Valak
