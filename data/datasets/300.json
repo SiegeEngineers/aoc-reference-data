@@ -118,7 +118,21 @@
     "25": "Scandinavia",
     "26": "Mongolia",
     "27": "Yucatan",
-    "31": "Oasis"
+    "28": "Salt Marsh",
+    "29": "Arena",
+    "31": "Oasis",
+    "32": "Ghost Lake",
+    "33": "Nomad",
+    "44": "Green Arabia",
+    "51": "Acropolis",
+    "53": "Cenotes",
+    "54": "City of Lakes",
+    "60": "Valley",
+    "61": "MegaRandom",
+    "62": "Hamburger",
+    "63": "Ghost Lake",
+    "70": "Serengeti",
+    "77": "MegaRandom"
   },
   "technologies": {
     "0": "",
