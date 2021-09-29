@@ -374,6 +374,7 @@
   team: White Wolf Palace
 - name: CooL
   country: vn
+  aoeelo: 17
   esportsearnings: 14725
   platforms:
     voobly:
@@ -1354,15 +1355,6 @@
     - '3956300'
   liquipedia: SongSong
   team: DarkSidE
-- name: 'CooL'
-  country: vn
-  aoeelo: 17
-  platforms:
-    voobly:
-    - '123194620'
-  liquipedia: CooL
-  team: Vietnam Legends
-  twitch: https://www.twitch.tv/vnscool
 - name: 'Air_Abu'
   country: cn
   esportsearnings: 14710
@@ -3640,3 +3632,27 @@
     - '125206801'
     de:
     - '1773197'
+- name: Chrazini
+  country: dk
+  platforms:
+    de:
+    - '208418'
+  liquipedia: Chrazini
+- name: RediRodion
+  country: pl
+  platforms:
+    de:
+    - '1670171'
+  liquipedia: RediRodion
+- name: SaladEsc
+  country: dk
+  platforms:
+    de:
+    - '215498'
+  liquipedia: SaladEsc
+- name: V1stima
+  country: cl
+  platforms:
+    de:
+    - '211236'
+  liquipedia: V1stima
