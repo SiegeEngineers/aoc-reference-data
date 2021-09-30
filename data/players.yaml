@@ -1935,6 +1935,8 @@
   platforms:
     voobly:
     - '123839438'
+    de:
+    - '283224'
   liquipedia: GoldenEnd
   team: Rulers of Rome
 - name: Elfanor
@@ -3523,6 +3525,7 @@
     de:
     - '6069513'
     - '3392033'
+    - '4670972'
 - name: Rammyy
   country: tr
   platforms:
