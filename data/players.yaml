@@ -3665,3 +3665,18 @@
   twitch: https://www.twitch.tv/chileaoe
   youtube: http://www.youtube.com/Chileaoe
   team: QueNaNiNa
+- name: Fish
+  country: vn
+  platforms:
+    de:
+    - '2821727'
+  twitch: https://www.twitch.tv/fishvnn
+- name: Somero
+  country: cz
+  platforms:
+    de:
+    - '264353'
+    - '2148675'
+    - '3167925'
+    voobly:
+    - '123975305'
