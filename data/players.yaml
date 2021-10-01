@@ -3464,6 +3464,8 @@
     de:
     - '339835'
     - '858709'
+    - '3654037'
+    - '3712481'
   liquipedia: StonePleaseAoE
 - name: The_queen
   country: ru
@@ -3680,3 +3682,11 @@
     - '3167925'
     voobly:
     - '123975305'
+- name: Emil
+  country: dk
+  platforms:
+    de:
+    - '862991'
+    - '5221317'
+    voobly:
+    - '123197577'
