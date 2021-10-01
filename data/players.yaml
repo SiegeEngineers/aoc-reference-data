@@ -3331,6 +3331,7 @@
     - '2368761'
     - '579679'
     - '4441646'
+    - '6341853'
   liquipedia: Margougou
 - name: MarineLorD
   aka:
@@ -3690,3 +3691,9 @@
     - '5221317'
     voobly:
     - '123197577'
+- name: Falcao
+  country: br
+  platforms:
+    de:
+    - '1829213'
+    - '3038783'
