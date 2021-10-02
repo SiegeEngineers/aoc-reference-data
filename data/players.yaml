@@ -1084,7 +1084,7 @@
   country: us
   aoeelo: 13
   esportsearnings: 41842
-  liquipedia: SpringTV
+  liquipedia: Spring
   twitch: https://www.twitch.tv/springtv/
   discord: https://discord.gg/MrNwsQB
   platforms:
@@ -1102,6 +1102,8 @@
     de:
     - '235623'
     - '1766301'
+  youtube: http://www.youtube.com/channel/UCDNmFkR-F0SLkIB-JlbWWlg
+  team: Dark Empire
 - name: Windy
   country: cn
   platforms:
@@ -2317,6 +2319,13 @@
     voobly:
     - '123188558'
     - '123140760'
+    - '182809'
+    - '123637065'
+    - '168549'
+    de:
+    - '3144451'
+    - '1966276'
+    - '3208276'
   liquipedia: Goodboy
   team: White Wolf Palace
 - name: Kyo
@@ -2398,6 +2407,7 @@
     - '123374407'
     de:
     - '211235'
+    - '4396890'
   liquipedia: Daywalker
   twitch: https://www.twitch.tv/sunodaywalker
   team: SuNo
@@ -2630,13 +2640,6 @@
     - '4388039'
   liquipedia: Puerco_Black
   team: Sons of the Sun
-- name: Ming
-  country: hk
-  platforms:
-    de:
-    - '3144451'
-    - '1966276'
-    - '3208276'
 - name: OnLeKe
   country: br
   platforms:
@@ -2883,6 +2886,7 @@
     de:
     - '3543549'
     - '270449'
+    - '221496'
     voobly:
     - '123904053'   # [RoR]JoRo
 - name: Xhing
