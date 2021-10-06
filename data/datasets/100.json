@@ -181,6 +181,7 @@
     "114": "Pacific Islands",
     "116": "Water Nomad",
     "122": "Alpine Lakes",
+    "123": "Bogland",
     "125": "Ravines",
     "124": "Mountain Ridge",
     "126": "Wolf Hill",
@@ -211,7 +212,14 @@
     "164": "Mountain Range",
     "165": "Northern Isles",
     "166": "Ring Fortress",
-    "167": "Runestones"
+    "167": "Runestones",
+    "168": "Aftermath",
+    "169": "Enclosed",
+    "170": "Haboob",
+    "171": "Kawasan",
+    "172": "Land Madness",
+    "173": "Sacred Springs",
+    "174": "Wade"
   },
   "technologies": {
     "0": "",
