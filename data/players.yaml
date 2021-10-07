@@ -8,11 +8,9 @@
   twitch: https://www.twitch.tv/av3stan
   youtube: https://www.youtube.com/channel/UCKGGMVqHFZptA_6mVgfYuag
   discord: https://discord.gg/mqc6E4Vs
-
   platforms:
     voobly:
     - '123358944'
-
     de:
     - '249430'
     - '6177368'
@@ -3716,3 +3714,16 @@
   platforms:
     de:
     - '1389164'
+- name: FlyLikeDjango
+  country: de
+  platforms:
+    de:
+    - '4865222'
+    - '3014554'
+  esportsearnings: 84448
+  aoeelo: 831
+  liquipedia: FlyLikeDjango
+  twitch: https://www.twitch.tv/flylikedjango
+  youtube: https://www.youtube.com/channel/UC7li9aVSk8b94hNEZdDPAcg
+  discord: https://discord.gg/HXFSj2R
+  
