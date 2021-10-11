@@ -19,7 +19,8 @@
   country: 'no'
   esportsearnings: 25311
   aoeelo: 24
-  steam: 76561197996386232
+  steam:
+  - 76561197996386232
   liquipedia: MbL
   aka:
   - TheMbL
@@ -3710,13 +3711,15 @@
     de:
     - '4129633'
     - '1200049'
-  steam: 76561199013132475
+  steam:
+  - 76561199013132475
 - name: The Illusionist
   country: sk
   platforms:
     de:
     - '1389164'
-  steam: 76561198240662592
+  steam:
+  - 76561198240662592
 - name: FlyLikeDjango
   country: de
   platforms:
@@ -3729,4 +3732,5 @@
   twitch: https://www.twitch.tv/flylikedjango
   youtube: https://www.youtube.com/channel/UC7li9aVSk8b94hNEZdDPAcg
   discord: https://discord.gg/HXFSj2R
-  steam: 76561199072158541
+  steam:
+  - 76561199072158541
