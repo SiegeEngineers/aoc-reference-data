@@ -403,7 +403,7 @@
     de:
     - '506898'
     - '1829588'   # sancho
-  team: Tempo Storm
+  team: Aftermath
 - name: Cloud
   country: tw
   aoeelo: 94
@@ -481,7 +481,7 @@
     - '199325'
     - '1847121'   # Kotyan
     - '3209724'   # WeWinThose
-  team: Tempo Storm
+  team: Aftermath
 - name: Nili
   country: de
   aoeelo: 11
@@ -514,7 +514,7 @@
     - '124892962'
     de:
     - '213305'   # BUGUM
-  team: Infinity Legends
+  team: MYinsanity
 - name: Zuppi
   country: fi
   aoeelo: 50
@@ -604,7 +604,7 @@
     - '123256402'
     de:
     - '265517'
-  team: White Wolf Palace
+  team: MYinsanity
 - name: Yinghua
   aka:
   - LoveCheng
@@ -746,7 +746,7 @@
     - '124340884'   # wsvg
     de:
     - '673196'
-  team: Infinity Legends
+  team: Killing Generation of Brazil
 - name: Miguel
   country: br
   aoeelo: 2
@@ -814,7 +814,7 @@
     - '1630401'
     - '5230833'
   youtube: http://www.youtube.com/channel/UCyRoER5J4CNYnpvxMy8zmvA
-  team: Heresy
+  team: MYinsanity
 - name: Rubenstock
   country: fi
   aoeelo: 53
@@ -919,7 +919,7 @@
     - '2709266'
     - '3557942'
   liquipedia: Noisick
-  team: Chilean Masters
+  team: Rulers of Rome
   aoeelo: 459
 - name: Inc
   country: us
@@ -1259,7 +1259,7 @@
     de:
     - '1893397'
     - '5638708'
-  team: Team Savages
+  team: Killing Generation of Brazil
 - name: Pike
   country: fi
   aoeelo: 44
@@ -1378,7 +1378,7 @@
     - '2733015'
     - '3956300'
   liquipedia: SongSong
-  team: DarkSidE
+  team: Vietnam Legends
   aoeelo: 852
 - name: 'Air_Abu'
   country: cn
@@ -1475,7 +1475,7 @@
     - 'capoch'
   liquipedia: Capoch
   youtube: http://www.youtube.com/capoch
-  team: Infinity Legends
+  team: Imperiales Team
 - name: 'Rami'
   country: il
   esportsearnings: 42063
@@ -1639,7 +1639,7 @@
     - '971296'
     - '5126520'   # _Raijin_
   liquipedia: Hasan
-  team: Immortals
+  team: The Immortals
   aoeelo: 86
 - name: Juan
   country: ar
@@ -2363,7 +2363,7 @@
   liquipedia: Sobek
   twitch: https://www.twitch.tv/sobekaoe
   youtube: http://www.youtube.com/channel/UCVH-sSxnCZtqJJmbtggTCxQ/feed
-  team: Imperial Clan
+  team: Imperiales Team
   aoeelo: 499
 - name: Hallis
   country: gb
@@ -2474,6 +2474,8 @@
     voobly:
     - '123556801'
   liquipedia: UNLeAsHeD__
+  youtube: http://www.youtube.com/channel/UCtFnx53VAZD40AtQPf5SyBQ
+  team: QuEnDi
 - name: Repard
   country: ru
   platforms:
@@ -2506,7 +2508,7 @@
     - '4682069'
   liquipedia: Daywalker
   twitch: https://www.twitch.tv/sunodaywalker
-  team: SuNo
+  team: Supernova
 - name: l2aGe
   country: gb
   platforms:
@@ -3414,7 +3416,7 @@
     de:
     - '2653793'
   liquipedia: Frost_9
-  team: Freakin
+  team: SuperNova
 - name: GriN
   country: ru
   platforms:

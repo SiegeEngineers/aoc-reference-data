@@ -67,8 +67,8 @@ def merge_players(results, players):
         name = player.get('liquipedia', player['name']).lower()
         if name not in results:
             continue
-        for field in ['liquipedia', 'twitch', 'youtube', 'team']:
-            if results[name][field] and not player.get(field):
+        for field, overwrite in [('liquipedia', False), ('twitch', False), ('youtube', False), ('team', True)]:
+            if results[name][field] and (overwrite or not player.get(field)):
                 player[field] = results[name][field]
 
 
