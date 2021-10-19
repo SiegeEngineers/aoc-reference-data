@@ -2378,7 +2378,7 @@
     - '322858'
     voobly:
     - '123556801'
-  liquipedia: UNLeAsHeD
+  liquipedia: UNLeAsHeD__
 - name: Repard
   country: ru
   platforms:
@@ -2407,6 +2407,7 @@
     de:
     - '211235'
     - '4396890'
+    - '4682069'
   liquipedia: Daywalker
   twitch: https://www.twitch.tv/sunodaywalker
   team: SuNo
@@ -3355,6 +3356,8 @@
   platforms:
     de:
     - '196407'
+    voobly:
+    - '11574'
   liquipedia: MembTV
   twitch: https://www.twitch.tv/membtv
   youtube: http://www.youtube.com/FoptMembrillo
