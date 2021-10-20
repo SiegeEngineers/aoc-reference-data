@@ -3937,6 +3937,7 @@
   - 76561199072158541
 - name: TieuQuy
   country: vn
+  test: 1
   platforms:
     de:
     - '2593750'
