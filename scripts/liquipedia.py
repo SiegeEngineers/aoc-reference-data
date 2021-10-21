@@ -10,7 +10,7 @@ from ruamel.yaml import YAML
 
 LOGGER = logging.getLogger(__name__)
 WAIT_SECS = 30
-PAGE_SIZE = 100
+PAGE_SIZE = 200
 CONDITIONS = [
     'Category:Age of Empires II Players',
     'Is player::true'
@@ -68,8 +68,10 @@ def merge_players(results, players):
         if name not in results:
             continue
         for field, overwrite in [('liquipedia', False), ('twitch', False), ('youtube', False), ('team', True)]:
-            if results[name][field] and (overwrite or not player.get(field)):
+            if overwrite or (results[name][field] and not player.get(field)):
                 player[field] = results[name][field]
+            if overwrite and not results[name][field]:
+                del player[field]
 
 
 def merge_teams(results, teams, players):

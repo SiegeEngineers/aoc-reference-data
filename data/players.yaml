@@ -61,7 +61,6 @@
     - '2875412'
     - '1862911'   # henry
     - '5371188'
-  team: Infinity Legends
 - name: Vivi
   aka:
   - FAT_PIG
@@ -136,7 +135,6 @@
     de:
     - '986504'
     - '3884287'
-  team: Team Savages
 - name: LaaaaaN
   country: es
   aoeelo: 62
@@ -906,7 +904,6 @@
     de:
     - '227857'
     - '1688652'
-  team: Fei Mei San Dao
 - name: Noisick
   country: cl
   twitch: https://www.twitch.tv/noisick_aoe
@@ -1018,7 +1015,6 @@
     - 'koven'
     zone:
     - 'koven'
-  team: TyRant
   aoeelo: 392
 - name: Halen
   country: jp
@@ -1062,7 +1058,6 @@
     de:
     - '3230529'
     - '3552644'   # chris.age2.de
-  team: Infinity Legends
   aoeelo: 60
 - name: The_Sheriff
   country: us
@@ -2082,7 +2077,6 @@
     voobly:
     - '124499797'
   liquipedia: Stefan
-  team: PetGunPet
 - name: Sora Kuma
   country: tw
   aoeelo: 445
@@ -2415,7 +2409,6 @@
     - '1966276'
     - '3208276'
   liquipedia: Goodboy
-  team: White Wolf Palace
   aoeelo: 154
 - name: Kyo
   country: hk
@@ -2597,7 +2590,6 @@
     - '3108145'
     - '6157837'
   liquipedia: Dark
-  team: SalzZ
   aoeelo: 752
 - name: Mahya
   country: ma
@@ -2856,7 +2848,6 @@
     voobly:
     - '124655527'
   liquipedia: Uzzi
-  team: LGe
   youtube: http://www.youtube.com/channel/UCvzCDwMm2unSNpW-PGnmTZA
   aoeelo: 502
 - name: The Bloodless
