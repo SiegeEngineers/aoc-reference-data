@@ -2542,6 +2542,7 @@
 - name: T90
   country: us
   twitch: https://www.twitch.tv/t90official
+  facebook_gaming: https://www.facebook.com/gaming/t90official
   discord: https://discord.gg/t90official
   youtube: https://www.youtube.com/t90official
   liquipedia: T90Official
