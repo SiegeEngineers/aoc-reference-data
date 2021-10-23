@@ -811,6 +811,7 @@
     - '4351237'
     - '1630401'
     - '5230833'
+    - '5845322'
   youtube: http://www.youtube.com/channel/UCyRoER5J4CNYnpvxMy8zmvA
   team: MYinsanity
 - name: Rubenstock
@@ -2404,12 +2405,16 @@
     - '182809'
     - '123637065'
     - '168549'
+  liquipedia: Goodboy
+  aoeelo: 154
+- name: Ming
+  country: hk
+  platforms:
     de:
     - '3144451'
     - '1966276'
     - '3208276'
-  liquipedia: Goodboy
-  aoeelo: 154
+  liquipedia: Ming (Hong Kongese player)
 - name: Kyo
   country: hk
   platforms:
