@@ -408,6 +408,7 @@
   liquipedia: Cloud
   youtube: https://www.youtube.com/user/qaws68
   discord: https://discord.gg/dKzquZB
+  facebook_gaming: https://www.facebook.com/gaming/Aoecloud
   platforms:
     voobly:
     - '123198508'
@@ -3910,6 +3911,7 @@
     de:
     - '4129633'
     - '1200049'
+  facebook_gaming: https://www.facebook.com/gaming/DrBinbin
   steam:
   - 76561199013132475
   aoeelo: 814
@@ -3942,3 +3944,9 @@
   platforms:
     de:
     - '2593750'
+- name: Good Luck
+  country: dk
+  platforms:
+    de:
+    - '689666'
+    - '4877844'
