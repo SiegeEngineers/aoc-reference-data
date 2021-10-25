@@ -4,17 +4,20 @@ Reference data for Age of Empires II projects.
 
 ## Contents
 
-- Events
-- Players
-- Teams
-- RMS packs
-- Platforms
-- Datasets
 - Constants
+- Datasets
+- Events
+- Platforms
+- Players
+- RMS packs
+- Streamers/Content creators
+- Teams
+
 
 ## Contributing
 
 Most data changes rarely. However, the player data needs to be consistently updated. Assistance would be welcomed.
+
 
 ### Player Notability
 
@@ -27,6 +30,7 @@ Only notable players may be added. Notability is defined as meeting at least one
 
 Other players may be added based on the maintainer's discretion for the benefit of the community at large.
 
+
 ### Streamer Notability
 
 All content creators and streamers of the Age of Empires universe may be added as long as they have a profile containing *Age of Empires* content on at least _one_ of the following platforms:
@@ -36,7 +40,6 @@ All content creators and streamers of the Age of Empires universe may be added a
 - Facebook Gaming
 - Twitch
 - Youtube
-
 
 If the content creator has a **gaming profile** for games of the franchise (e.g. AoE1, AoE2, AoE3, AoE4) please make sure it is being added as well.
 
