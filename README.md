@@ -29,11 +29,16 @@ Other players may be added based on the maintainer's discretion for the benefit 
 
 ### Streamer Notability
 
-All content creators and streamers of the Age of Empires universe may be added as long as they have a profile containing *Age of Empires* content on at least _one_ of the following platforms: Twitch, Youtube, Facebook Gaming, Douyu, Discord.
+All content creators and streamers of the Age of Empires universe may be added as long as they have a profile containing *Age of Empires* content on at least _one_ of the following platforms:
 
-If the content creator has a **gaming profile** for games of the franchise please make sure it is being added as well.
+- Discord
+- Douyu
+- Facebook Gaming
+- Twitch
+- Youtube
 
 
+If the content creator has a **gaming profile** for games of the franchise (e.g. AoE1, AoE2, AoE3, AoE4) please make sure it is being added as well.
 
 
 ### Team Notability
