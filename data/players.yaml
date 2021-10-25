@@ -3956,3 +3956,21 @@
     de:
     - '689666'
     - '4877844'
+- name: Fanjita
+  country: gb
+  platforms:
+    de:
+    - '2361017'
+  liquipedia: Fanjita
+- name: Sensar
+  country: us
+  platforms:
+    de:
+    - '521395'
+  liquipedia: Sensar
+- name: Zain
+  country: au
+  platforms:
+    de:
+    - '221188'
+  liquipedia: Zain
