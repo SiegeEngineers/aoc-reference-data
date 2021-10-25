@@ -1,4 +1,209 @@
 ---
+- name: 2ScareD
+  country: se
+  content_languages:
+    - se
+  info_platforms:
+    - Liquipedia: 2scareD
+    - AoeElo: 259
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123989812"
+            - "155770"
+            - "8262"
+    - Aoe4: []
+- name: 8th Wonder
+  country: lv
+  content_languages:
+    - lv
+  info_platforms:
+    - Liquipedia: _8th_wonder
+    - AoeElo: 56
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3943624"
+        - Voobly:
+            - "123737920"
+            - "123602533"
+            - "123498438"
+            - "123244296"
+            - "123845061"
+            - "123781126"
+            - "124003159"
+            - "123129305"
+    - Aoe4: []
+- name: ACCM
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/accm_vn"
+    - Youtube: "http://www.youtube.com/channel/UClFrW56x-ZtFIE2J_Qn2Ftg"
+  info_platforms:
+    - Liquipedia: ACCM
+    - AoeElo: 14
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "347269"
+            - "3202763"
+            - "1844119"
+        - Voobly:
+            - "123428504"
+            - "123591487"
+            - "125129982"
+    - Aoe4: []
+- name: Acuo
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 1147
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "801470"
+        - Voobly:
+            - "197995"
+    - Aoe4: []
+- name: Air_Abu
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 519
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3414034"
+        - Voobly:
+            - "30984"
+            - "123999699"
+    - Aoe4: []
+- name: Albis
+  country: tw
+  content_languages:
+    - tw
+  info_platforms:
+    - Liquipedia: Albis
+    - AoeElo: 1132
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "528141"
+        - Voobly: []
+    - Aoe4: []
+- name: Alive
+  country: br
+  content_languages:
+    - br
+  info_platforms:
+    - Liquipedia: Alive
+    - AoeElo: 142
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1629889"
+        - Voobly:
+            - "124097512"
+            - "135459"
+            - "123452158"
+            - "160816"
+            - "610"
+    - Aoe4: []
+- name: Alperen
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/alperenaoe2"
+    - Youtube: "https://www.youtube.com/channel/UCOBwAUsSM0CLzdTJYK4xkzA"
+  info_platforms:
+    - AoeElo: 969
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "874604"
+            - "5453798"
+        - Voobly: []
+    - Aoe4: []
+- name: AnTiDeMoN
+  country: br
+  content_languages:
+    - br
+  info_platforms:
+    - AoeElo: 901
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "238641"
+            - "5375392"
+            - "2659351"
+        - Voobly:
+            - "124651224"
+    - Aoe4: []
+- name: Andorin
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/nc_andorin"
+  info_platforms:
+    - Liquipedia: Andorin
+    - AoeElo: 601
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "200073"
+        - Voobly:
+            - "123553491"
+    - Aoe4: []
+- name: AngelinaJolie
+  country: nl
+  content_languages:
+    - nl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/angelina_jolie"
+  info_platforms:
+    - Liquipedia: AngelinaJolie
+    - AoeElo: 121
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "508080"
+        - Voobly:
+            - "124134715"
+            - "123493331"
+    - Aoe4: []
+- name: Annotoph
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - AoeElo: 981
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "222102"
+            - "3238663"
+            - "6231852"
+        - Voobly: []
+    - Aoe4: []
+- name: Ass_Kickerwa
+  country: in
+  content_languages:
+    - in
+  info_platforms:
+    - Liquipedia: Ass_Kickerwa
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "664715"
+        - Voobly: []
+    - Aoe4: []
 - name: Av3stan
   country: in
   content_languages:
@@ -17,31 +222,66 @@
         - Voobly:
             - "123358944"
     - Aoe4: []
-- name: MbL
-  country: "no"
+- name: B1ade
+  country: ca
   content_languages:
-    - "no"
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/mblaoc"
-    - Youtube: "http://youtube.com/user/Mortenjeah"
-    - Discord: "https://discord.gg/5cHqGMx"
+    - ca
   info_platforms:
-    - Liquipedia: MbL
-    - AoeElo: 24
+    - Liquipedia: B1ade
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "16877"
+            - "127645"
+    - Aoe4: []
+- name: BL4CK
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/bl4ck_aoe"
+  info_platforms:
+    - Liquipedia: BL4CK
+    - AoeElo: 93
   gaming_profiles:
     - Aoe2:
         - De:
-            - "251265"
-            - "1826483"
-            - "2644601"
-            - "4422938"
+            - "2792305"
+            - "1756760"
+            - "5999674"
         - Voobly:
-            - "123844441"
-            - "123422126"
-            - "125375948"
-            - "125129979"
-            - 125129978-2
-            - "124653653"
+            - "123624141"
+    - Aoe4: []
+- name: BT4
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: BT4
+    - AoeElo: 261
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "56555"
+    - Aoe4: []
+- name: Babaorum
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/babaorum_aoe"
+  info_platforms:
+    - Liquipedia: Babaorum
+    - AoeElo: 851
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "576919"
+            - "3335279"
+        - Voobly:
+            - "123145914"
     - Aoe4: []
 - name: BacT
   country: vn
@@ -68,216 +308,35 @@
             - "123887528"
             - "124341247"
     - Aoe4: []
-- name: Vivi
-  country: cn
-  content_languages:
-    - cn
-  content_platforms:
-    - Douyu: "https://www.douyu.com/1052202"
-  info_platforms:
-    - Liquipedia: Vivi
-    - AoeElo: 35
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "215442"
-            - "1432837"
-            - "1829738"
-            - "3109523"
-            - "3077860"
-            - "2007655"
-            - "5602224"
-            - "6109694"
-        - Voobly:
-            - "123493096"
-            - "123303397"
-            - "125129996"
-            - 125129996-11
-    - Aoe4: []
-- name: Yo
-  country: cn
-  content_languages:
-    - cn
-  content_platforms:
-    - Douyu: "https://www.douyu.com/753676"
-  info_platforms:
-    - Liquipedia: Yo
-    - AoeElo: 19
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "197964"
-            - "337428"
-            - "1829754"
-        - Voobly:
-            - "123636492"
-            - 125129990-7
-            - "125227711"
-            - "124341168"
-    - Aoe4: []
-- name: Xiaofan
+- name: Bad Koala
   country: cn
   content_languages:
     - cn
   info_platforms:
-    - Liquipedia: Xiaofan
-    - AoeElo: 36
+    - Liquipedia: Bad Koala
+    - AoeElo: 736
   gaming_profiles:
     - Aoe2:
         - De:
-            - "563078"
-        - Voobly:
-            - "70212"
+            - "211351"
+            - "1435093"
+        - Voobly: []
     - Aoe4: []
-- name: St4rk
-  country: br
-  content_languages:
-    - br
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/st4rk_"
-    - Youtube: "https://www.youtube.com/channel/UCoX5HqFM4qEGJYfj0TEOIpg"
-    - Discord: "https://discord.gg/K4VEGWC"
-  info_platforms:
-    - Liquipedia: St4rk
-    - AoeElo: 18
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "986504"
-            - "3884287"
-        - Voobly:
-            - "123409476"
-            - "125107343"
-            - "123204710"
-    - Aoe4: []
-- name: LaaaaaN
-  country: es
-  content_languages:
-    - es
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/lan_aoe"
-  info_platforms:
-    - Liquipedia: LaaaaaN
-    - AoeElo: 62
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "232410"
-            - 196366-nac3
-            - "1819193"
-            - "2602752"
-        - Voobly:
-            - "124116514"
-            - "123989026"
-            - "124691590"
-    - Aoe4: []
-- name: dogao
-  country: br
-  content_languages:
-    - br
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/dogaoaoe"
-    - Youtube: "http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g"
-  info_platforms:
-    - Liquipedia: dogao
-    - AoeElo: 4
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "199170"
-            - "1486575"
-            - "1830104"
-            - "6097615"
-        - Voobly:
-            - "123186723"
-            - "123444726"
-            - "124469820"
-            - "125227721"
-            - "124340883"
-    - Aoe4: []
-- name: TaToH
-  country: es
-  content_languages:
-    - es
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/tatohaoe"
-    - Youtube: "https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg"
-  info_platforms:
-    - Liquipedia: TaToH
-    - AoeElo: 31
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "197388"
-            - "968255"
-            - "1819863"
-            - "3033716"
-            - "5317568"
-        - Voobly:
-            - "123999216"
-            - "125366410"
-            - "123347503"
-            - "125129995"
-            - 125129998-12
-            - "947"
-            - "124199973"
-    - Aoe4: []
-- name: Vinch
-  country: ru
-  content_languages:
-    - ru
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/salzz_vinchester"
-    - Youtube: "http://www.youtube.com/channel/UCm3BAnotyqfdvm6sO5bs18g"
-  info_platforms:
-    - Liquipedia: Vinchester
-    - AoeElo: 55
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "271202"
-            - "2886954"
-            - "4298865"
-        - Voobly:
-            - "123397463"
-            - "124170820"
-    - Aoe4: []
-- name: Modri
-  country: si
-  content_languages:
-    - si
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/modri_"
-  info_platforms:
-    - Liquipedia: Modri
-    - AoeElo: 598
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "254415"
-            - "1862892"
-            - "1364587"
-            - "1457840"
-            - "1862892"
-        - Voobly:
-            - "124662701"
-            - "124160323"
-            - "124860581"
-            - "124860581"
-    - Aoe4: []
-- name: Kotex
+- name: Badboy
   country: vn
   content_languages:
     - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/badboyaoe"
+  info_platforms:
+    - Liquipedia: BadBoy
+    - AoeElo: 743
   gaming_profiles:
     - Aoe2:
-        - De: []
-        - Voobly:
-            - "124763057"
-            - "124563608"
-            - "124764048"
-            - "124584836"
-            - "124796466"
+        - De:
+            - "2503651"
+            - "5551503"
+        - Voobly: []
     - Aoe4: []
 - name: Barles
   country: pl
@@ -298,285 +357,19 @@
             - "124214626"
             - "123934159"
     - Aoe4: []
-- name: Yellow
-  country: vn
+- name: Bean Dip
+  country: us
   content_languages:
-    - vn
+    - us
   content_platforms:
-    - Twitch: "https://www.twitch.tv/saymyname2909"
-    - Youtube: "http://www.youtube.com/channel/UCjIqdH3_66fmTIjFDtBM_pg"
+    - Twitch: "https://www.twitch.tv/bean__dip"
   info_platforms:
-    - Liquipedia: saymyname
-    - AoeElo: 15
+    - Liquipedia: Bean Dip
   gaming_profiles:
     - Aoe2:
         - De:
-            - "419803"
-        - Voobly:
-            - "124390868"
-            - "123174138"
-            - "123422426"
-            - "165563"
-            - "123193037"
-            - "123991049"
-            - "124793331"
-    - Aoe4: []
-- name: Chart
-  country: jp
-  content_languages:
-    - jp
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/chartaoc"
-  info_platforms:
-    - Liquipedia: chart
-    - AoeElo: 68
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "217905"
-            - "728551"
-        - Voobly:
-            - "124322377"
-            - "124508020"
-            - "124206032"
-    - Aoe4: []
-- name: Valas
-  country: fi
-  content_languages:
-    - fi
-  info_platforms:
-    - Liquipedia: Valas
-    - AoeElo: 853
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "628503"
-        - Voobly:
-            - "124806109"
-            - "124493950"
-            - "124245294"
-    - Aoe4: []
-- name: StrayDog
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: StrayDog
-    - AoeElo: 64
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "716717"
-        - Voobly:
-            - "124489527"
-            - "124297679"
-            - "9747"
-            - "124862194"
-            - "128633"
-            - "125403511"
-    - Aoe4: []
-- name: F1Re
-  country: br
-  content_languages:
-    - br
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/f1reaoe"
-    - Youtube: "http://www.youtube.com/channel/UCe5PZxogLEsu5VacKmOiR5g"
-  info_platforms:
-    - Liquipedia: F1Re
-    - AoeElo: 5
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "196310"
-            - "1819094"
-            - "5551398"
-        - Voobly:
-            - "123658746"
-            - 125129985-6
-    - Aoe4: []
-- name: ACCM
-  country: vn
-  content_languages:
-    - vn
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/accm_vn"
-    - Youtube: "http://www.youtube.com/channel/UClFrW56x-ZtFIE2J_Qn2Ftg"
-  info_platforms:
-    - Liquipedia: ACCM
-    - AoeElo: 14
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "347269"
-            - "3202763"
-            - "1844119"
-        - Voobly:
-            - "123428504"
-            - "123591487"
-            - "125129982"
-    - Aoe4: []
-- name: Tim
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: Tim
-    - AoeElo: 33
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "534438"
-            - "1369485"
-            - "6252391"
-        - Voobly:
-            - "182612"
-            - "125129993"
-            - "124367119"
-            - "123882867"
-            - "43680"
-            - "123536800"
-    - Aoe4: []
-- name: CooL
-  country: vn
-  content_languages:
-    - vn
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/vnscool"
-  info_platforms:
-    - Liquipedia: CooL
-    - AoeElo: 17
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "224786"
-        - Voobly:
-            - "123194620"
-    - Aoe4: []
-- name: Liereyy
-  country: at
-  content_languages:
-    - at
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/liereyy"
-    - Youtube: "https://www.youtube.com/channel/UCaggQmp9gAuB7xYeci26VWA"
-  info_platforms:
-    - Liquipedia: Liereyy
-    - AoeElo: 25
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "506898"
-            - "1829588"
-        - Voobly:
-            - "124147336"
-            - 125129977-1
-            - "125227717"
-    - Aoe4: []
-- name: Cloud
-  country: tw
-  content_languages:
-    - tw
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/gktcloud"
-    - Youtube: "https://www.youtube.com/user/qaws68"
-    - FacebookGaming: "https://www.facebook.com/gaming/Aoecloud"
-    - Discord: "https://discord.gg/dKzquZB"
-  info_platforms:
-    - Liquipedia: Cloud
-    - AoeElo: 94
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "199419"
-            - "872428"
-        - Voobly:
-            - "123198508"
-            - "16640"
-            - "123463926"
-    - Aoe4: []
-- name: Paladin
-  country: cn
-  content_languages:
-    - cn
-  content_platforms:
-    - Douyu: "https://www.douyu.com/294359"
-  info_platforms:
-    - Liquipedia: Paladin
-    - AoeElo: 20
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "210601"
-        - Voobly:
-            - "123835916"
-            - "179227"
-    - Aoe4: []
-- name: DauT
-  country: rs
-  content_languages:
-    - rs
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/daut"
-    - Youtube: "https://www.youtube.com/channel/UC8m8Iah2xOHZvnBbpyOcEOA"
-    - Discord: "https://discord.gg/ckHd3vT"
-  info_platforms:
-    - Liquipedia: DauT
-    - AoeElo: 1
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "198035"
-            - "1832317"
-        - Voobly:
-            - "12926"
-            - 125129993-8
-            - "125129998"
-            - "123345149"
-            - "188639"
-            - "108050"
-    - Aoe4: []
-- name: Hera
-  country: ca
-  content_languages:
-    - ca
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/hera"
-    - Youtube: "https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ"
-    - Discord: "https://discord.gg/DkdJj4D"
-  info_platforms:
-    - Liquipedia: Hera
-    - AoeElo: 28
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "199325"
-            - "1847121"
-            - "3209724"
-        - Voobly:
-            - "124954867"
-            - "123984714"
-            - "125227715"
-            - "124694635"
-    - Aoe4: []
-- name: Nili
-  country: de
-  content_languages:
-    - de
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/nili_aoe"
-    - Youtube: "https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/videos"
-    - Discord: "https://discordapp.com/invite/pQG8txM"
-  info_platforms:
-    - Liquipedia: Nili_AoE
-    - AoeElo: 11
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "197751"
-        - Voobly:
-            - "9267"
-            - "124423938"
+            - "293288"
+        - Voobly: []
     - Aoe4: []
 - name: Belgium
   country: be
@@ -597,635 +390,259 @@
             - "124474647"
             - "124892962"
     - Aoe4: []
-- name: Zuppi
-  country: fi
-  content_languages:
-    - fi
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/zuppiaoe"
-    - Youtube: "https://www.youtube.com/channel/UCxAQeu2SrQjK8-As4-gc9Lg"
-  info_platforms:
-    - Liquipedia: Zuppi
-    - AoeElo: 50
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "575722"
-        - Voobly:
-            - "123961442"
-    - Aoe4: []
-- name: DracKeN
-  country: cz
-  content_languages:
-    - cz
-  content_platforms:
-    - Twitch: "https://wwww.twitch.tv/drackentv"
-    - Youtube: "http://www.youtube.com/channel/UC3FySA4jBTHUXUT2YIzzU3A"
-  info_platforms:
-    - Liquipedia: DracKeN
-    - AoeElo: 100
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "357795"
-        - Voobly:
-            - "124043892"
-            - "124556058"
-            - "124596119"
-            - "124717620"
-            - "124832150"
-            - "125297245"
-    - Aoe4: []
-- name: TheViper
-  country: "no"
-  content_languages:
-    - "no"
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/theviper"
-    - Youtube: "https://www.youtube.com/user/TheViperAOC"
-    - FacebookGaming: "https://www.facebook.com/gaming/theviper"
-    - Discord: "https://discord.gg/WNmHUEH"
-  info_platforms:
-    - Liquipedia: TheViper
-    - AoeElo: 29
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "196240"
-            - "1827609"
-            - "6020446"
-        - Voobly:
-            - "123211439"
-            - "123529195"
-            - "123286363"
-            - "123164797"
-            - "123262516"
-            - "124706302"
-            - 125129980-4
-            - "125129978"
-            - "123906517"
-            - "124638756"
-            - "124341240"
-    - Aoe4: []
-- name: Slam
-  country: ca
-  content_languages:
-    - ca
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/slamjam_"
-    - Youtube: "https://www.youtube.com/channel/UC15K06FB4EO98AMBYqraQ3w"
-  info_platforms:
-    - Liquipedia: slam
-    - AoeElo: 32
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "614315"
-        - Voobly:
-            - "123497926"
-            - "123806830"
-            - "123129489"
-            - "124110342"
-            - 125129979-3
-    - Aoe4: []
-- name: Daniel
-  country: us
-  content_languages:
-    - us
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/aocdaniel"
-  info_platforms:
-    - Liquipedia: Daniel
-    - AoeElo: 69
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "265517"
-        - Voobly:
-            - "123256402"
-    - Aoe4: []
-- name: Yinghua
-  country: cn
-  content_languages:
-    - cn
-  content_platforms:
-    - Douyu: "https://www.douyu.com/953871"
-  info_platforms:
-    - Liquipedia: LoveCheng
-    - AoeElo: 54
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2806260"
-        - Voobly:
-            - "123910183"
-            - "195356"
-            - "127665"
-            - "124341169"
-    - Aoe4: []
-- name: Lyx
-  country: cn
-  content_languages:
-    - cn
-  content_platforms:
-    - Douyu: "https://www.douyu.com/1029928"
-  info_platforms:
-    - Liquipedia: Lyx
-    - AoeElo: 21
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "226575"
-        - Voobly:
-            - "123230853"
-            - "123219958"
-            - "180548"
-    - Aoe4: []
-- name: Nicov
-  country: ar
-  content_languages:
-    - ar
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/nicov_"
-    - Youtube: "https://www.youtube.com/channel/UCzkVZ4Ci33LbQt_UHOvQEFw"
-    - Discord: "https://discord.gg/quRrGhV"
-  info_platforms:
-    - Liquipedia: Nicov
-    - AoeElo: 27
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "208393"
-            - "1827959"
-            - "2609359"
-            - "5400429"
-        - Voobly:
-            - "123807394"
-            - "123477857"
-            - "124178111"
-            - "125129977"
-            - 125129982-5
-            - "124775535"
-    - Aoe4: []
-- name: JorDan
+- name: Bender
   country: de
   content_languages:
     - de
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/JorDan_AoE"
-    - Youtube: "https://www.youtube.com/channel/UCimCFIisAqXW9udVhN_LpwQ"
-    - Discord: "https://discord.gg/TWpUYVh"
   info_platforms:
-    - Liquipedia: JorDan_AoE
-    - AoeElo: 30
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2858362"
-        - Voobly:
-            - "817"
-            - "125129994"
-            - "123195719"
-            - "124340943"
-    - Aoe4: []
-- name: Melkor
-  country: ie
-  content_languages:
-    - ie
-  content_platforms:
-    - Youtube: "http://www.youtube.com/channel/UCawtaF3Ty12hHzQRYvNta7w/videos"
-  info_platforms:
-    - Liquipedia: Melkor
-    - AoeElo: 10
+    - Liquipedia: Bender
+    - AoeElo: 297
   gaming_profiles:
     - Aoe2:
         - De: []
         - Voobly:
-            - "123922182"
-            - "123394463"
-            - "124158935"
+            - "123436221"
     - Aoe4: []
-- name: TheMax
-  country: fi
+- name: Bieber
+  country: cn
   content_languages:
-    - fi
-  info_platforms:
-    - Liquipedia: TheMax
-    - AoeElo: 52
+    - cn
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "572017"
-            - "1832996"
+        - De: []
         - Voobly:
-            - "123282211"
-            - "39623"
-            - "123636616"
-            - "125129980"
+            - "124280794"
+            - "24331"
     - Aoe4: []
-- name: Villese
-  country: fi
-  content_languages:
-    - fi
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/villese"
-  info_platforms:
-    - Liquipedia: Villese
-    - AoeElo: 51
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "208611"
-            - "1829715"
-        - Voobly:
-            - "124166670"
-            - "124240093"
-            - "125129990"
-    - Aoe4: []
-- name: RiuT
-  country: br
-  content_languages:
-    - br
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/riut_aoe"
-    - Youtube: "https://www.youtube.com/channel/UCWk47NDwrg9p696-Usiv8fw"
-  info_platforms:
-    - Liquipedia: RiuT
-    - AoeElo: 3
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "673196"
-        - Voobly:
-            - "56531"
-            - "123696164"
-            - "123747533"
-            - "84542"
-            - "11896"
-            - "86350"
-            - "8643"
-            - 125129995-10
-            - "124340884"
-    - Aoe4: []
-- name: Miguel
-  country: br
-  content_languages:
-    - br
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/miguelaoe"
-  info_platforms:
-    - Liquipedia: miguel
-    - AoeElo: 2
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2090225"
-        - Voobly:
-            - "123600879"
-            - "49541"
-            - "123961542"
-            - "123459695"
-            - "227518"
-            - 125129994-9
-    - Aoe4: []
-- name: Twigg
+- name: Biry
   country: ar
   content_languages:
     - ar
-  info_platforms:
-    - Liquipedia: Twigg
-    - AoeElo: 92
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2621722"
-        - Voobly:
-            - "124042289"
-            - "123784980"
-            - "123975630"
-    - Aoe4: []
-- name: JonSlow
-  country: il
-  content_languages:
-    - il
   content_platforms:
-    - Twitch: "https://www.twitch.tv/jonslow_"
-    - Youtube: "https://www.youtube.com/channel/UCI7xIJYOC2OEb6ttrsH2QHA"
+    - Twitch: "https://www.twitch.tv/biryarg"
+    - Youtube: "http://www.youtube.com/channel/UC1tGtpMFHF88liDp0kYKtEQ"
   info_platforms:
-    - Liquipedia: JonSlow
-    - AoeElo: 101
+    - Liquipedia: Biry
+    - AoeElo: 747
   gaming_profiles:
     - Aoe2:
         - De:
-            - "208269"
+            - "2526695"
+            - "2899276"
+            - "111069"
+            - "4893987"
+            - "6170513"
+            - "6779858"
         - Voobly:
-            - "11486"
-            - "123145092"
-            - "123172587"
+            - "123714392"
+            - "60956"
     - Aoe4: []
-- name: Sitaux
-  country: fr
+- name: BlinG
+  country: gb
   content_languages:
-    - fr
+    - gb
   content_platforms:
-    - Twitch: "https://www.twitch.tv/sitaux"
-    - Youtube: "http://www.youtube.com/channel/UCyRoER5J4CNYnpvxMy8zmvA"
+    - Twitch: "https://www.twitch.tv/blinguk"
   info_platforms:
-    - Liquipedia: Sitaux
-    - AoeElo: 12
+    - Liquipedia: BlinG
+    - AoeElo: 178
   gaming_profiles:
     - Aoe2:
         - De:
-            - "1311198"
-            - "212721"
-            - "1630401"
-            - "4351237"
-            - "1630401"
-            - "5230833"
-            - "5845322"
+            - "570519"
+            - "6151169"
         - Voobly:
-            - "125241102"
-            - "124313135"
-            - "124216278"
-            - "124728574"
-            - "124653323"
+            - "963"
     - Aoe4: []
-- name: Rubenstock
-  country: fi
+- name: Bourbon
+  country: ru
   content_languages:
-    - fi
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/rubenstock"
+    - ru
   info_platforms:
-    - Liquipedia: Rubenstock
-    - AoeElo: 53
+    - Liquipedia: Bourbon
+    - AoeElo: 971
   gaming_profiles:
     - Aoe2:
         - De:
-            - "431744"
-        - Voobly:
-            - "123417449"
+            - "1877180"
+        - Voobly: []
     - Aoe4: []
-- name: Hoang
-  country: vn
+- name: Bruh
+  country: br
   content_languages:
-    - vn
+    - br
   content_platforms:
-    - Twitch: "https://www.twitch.tv/hoangnguyen485"
-    - Youtube: "https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw?view_as=subscriber"
+    - Twitch: "https://www.twitch.tv/bruh_aoe"
+    - Youtube: "http://www.youtube.com/channel/UC0ohO1gLZWjX1DUG6oTSGZw"
   info_platforms:
-    - Liquipedia: Hoang
-    - AoeElo: 457
+    - Liquipedia: BruH
+    - AoeElo: 149
   gaming_profiles:
     - Aoe2:
         - De:
-            - "459658"
-            - "2097181"
-            - "3241077"
+            - "2135484"
+            - "3088115"
         - Voobly:
-            - "123851854"
-            - "124750873"
-            - "124452866"
-            - "124449479"
+            - "123698004"
+            - "123158445"
     - Aoe4: []
-- name: AngelinaJolie
-  country: nl
+- name: Buddha
+  country: bg
   content_languages:
-    - nl
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/angelina_jolie"
+    - bg
   info_platforms:
-    - Liquipedia: AngelinaJolie
-    - AoeElo: 121
+    - Liquipedia: Buddha
+    - AoeElo: 271
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "508080"
-        - Voobly:
-            - "124134715"
-            - "123493331"
+        - De: []
+        - Voobly: []
     - Aoe4: []
-- name: Ganji
-  country: se
+- name: Bvirus
+  country: pt
   content_languages:
-    - se
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/ganji__"
-    - Discord: "https://discord.gg/rtpCfgE"
+    - pt
   info_platforms:
-    - Liquipedia: Ganji
-    - AoeElo: 458
+    - Liquipedia: bvirus
+    - AoeElo: 169
   gaming_profiles:
     - Aoe2:
         - De:
-            - "212746"
-            - "661884"
-            - "965185"
-            - "3496121"
+            - "1657293"
         - Voobly:
-            - "124183501"
+            - "4053"
     - Aoe4: []
-- name: Kasva
-  country: tr
+- name: CL
+  country: cn
   content_languages:
-    - tr
+    - cn
   content_platforms:
-    - Twitch: "https://www.twitch.tv/kasvaoe"
-    - Youtube: "https://www.youtube.com/channel/UCFAiCVX7VqQaqGBPAxLRKnQ?view_as=subscriber"
-    - Discord: "https://discord.gg/CETwWEp"
+    - Douyu: "https://www.douyu.com/556823"
   info_platforms:
-    - Liquipedia: K4SVA
-    - AoeElo: 195
+    - Liquipedia: CL
+    - AoeElo: 34
   gaming_profiles:
     - Aoe2:
         - De:
-            - "1224481"
-            - "2759481"
-            - "4795863"
+            - "3235648"
+            - "2411454"
+            - "2386170"
         - Voobly:
-            - "125101127"
-            - "124473071"
-            - "125040561"
-            - "123507501"
+            - "123916446"
+            - "124139264"
+            - "124443412"
+            - "124520727"
     - Aoe4: []
-- name: Jibatong
+- name: CX_youwei
   country: cn
   content_languages:
     - cn
   info_platforms:
-    - Liquipedia: jibatong
-    - AoeElo: 198
+    - AoeElo: 1148
   gaming_profiles:
     - Aoe2:
         - De:
-            - "227857"
-            - "1688652"
+            - "4168560"
         - Voobly:
-            - "123642997"
-            - "123641000"
-            - "123435951"
+            - "123770946"
     - Aoe4: []
-- name: Noisick
-  country: cl
-  content_languages:
-    - cl
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/noisick_aoe"
-  info_platforms:
-    - Liquipedia: Noisick
-    - AoeElo: 459
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1262725"
-            - "898389"
-            - "2709266"
-            - "3557942"
-        - Voobly:
-            - "124308648"
-    - Aoe4: []
-- name: Inc
-  country: us
-  content_languages:
-    - us
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/incaoe2"
-  info_platforms:
-    - Liquipedia: Inc
-    - AoeElo: 323
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "221997"
-            - "1237326"
-            - "2032611"
-        - Voobly:
-            - "123644749"
-    - Aoe4: []
-- name: Fedex
-  country: ar
-  content_languages:
-    - ar
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/federicov"
-  info_platforms:
-    - Liquipedia: Fedex
-    - AoeElo: 153
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "239238"
-            - "1252385"
-            - "2431776"
-            - "5416282"
-        - Voobly:
-            - "123273973"
-            - "123725868"
-            - "123601190"
-    - Aoe4: []
-- name: Dziamdziak
-  country: pl
-  content_languages:
-    - pl
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/dziamdziak"
-    - Discord: "https://discord.gg/xz7uDPp"
-  info_platforms:
-    - Liquipedia: Dziamdziak
-    - AoeElo: 127
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "879956"
-            - "3558975"
-        - Voobly:
-            - "9806"
-    - Aoe4: []
-- name: Ppoc
-  country: es
-  content_languages:
-    - es
-  info_platforms:
-    - AoeElo: 328
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Yanzi
-  country: hk
-  content_languages:
-    - hk
-  info_platforms:
-    - Liquipedia: Chun_Yu
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: kkab
-  country: kr
-  content_languages:
-    - kr
-  info_platforms:
-    - AoeElo: 203
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "72440"
-    - Aoe4: []
-- name: Grunt
-  country: kr
-  content_languages:
-    - kr
-  info_platforms:
-    - Liquipedia: Grunt
-    - AoeElo: 205
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123189460"
-    - Aoe4: []
-- name: Koven
-  country: kr
-  content_languages:
-    - kr
-  info_platforms:
-    - Liquipedia: Koven
-    - AoeElo: 392
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "13584"
-    - Aoe4: []
-- name: Halen
+- name: Canary
   country: jp
   content_languages:
     - jp
   info_platforms:
-    - Liquipedia: Halen
-    - AoeElo: 210
+    - AoeElo: 268
   gaming_profiles:
     - Aoe2:
-        - De: []
-        - Voobly:
-            - "16205"
+        - De:
+            - "2520503"
+        - Voobly: []
     - Aoe4: []
-- name: RD_ChampioN
-  country: kr
+- name: Capoch
+  country: ar
   content_languages:
-    - kr
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/capoch"
+    - Youtube: "http://www.youtube.com/capoch"
+    - Discord: "https://discord.gg/sjCpquh"
   info_platforms:
-    - Liquipedia: RD_ChampioN
-    - AoeElo: 387
+    - Liquipedia: Capoch
+    - AoeElo: 273
   gaming_profiles:
     - Aoe2:
-        - De: []
+        - De:
+            - "409748"
+            - "2667231"
+            - "2850727"
+            - "2401889"
         - Voobly:
-            - "180938"
+            - "29129"
+    - Aoe4: []
+- name: Carbo
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/carboarg"
+  info_platforms:
+    - Liquipedia: Carbo
+    - AoeElo: 783
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "618731"
+            - "2171446"
+        - Voobly: []
+    - Aoe4: []
+- name: Chart
+  country: jp
+  content_languages:
+    - jp
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/chartaoc"
+  info_platforms:
+    - Liquipedia: chart
+    - AoeElo: 68
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "217905"
+            - "728551"
+        - Voobly:
+            - "124322377"
+            - "124508020"
+            - "124206032"
+    - Aoe4: []
+- name: Chocobo
+  country: jp
+  content_languages:
+    - jp
+  info_platforms:
+    - Liquipedia: Chocobo
+    - AoeElo: 119
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1584462"
+            - "3296370"
+        - Voobly:
+            - "123742000"
+            - "123166866"
+            - "123243709"
+    - Aoe4: []
+- name: Chrazini
+  country: dk
+  content_languages:
+    - dk
+  info_platforms:
+    - Liquipedia: Chrazini
+    - AoeElo: 854
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "208418"
+        - Voobly: []
     - Aoe4: []
 - name: Chris
   country: ca
@@ -1252,1055 +669,61 @@
             - "123586592"
             - "124259825"
     - Aoe4: []
-- name: The_Sheriff
-  country: us
-  content_languages:
-    - us
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: 2ScareD
-  country: se
-  content_languages:
-    - se
-  info_platforms:
-    - Liquipedia: 2scareD
-    - AoeElo: 259
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123989812"
-            - "155770"
-            - "8262"
-    - Aoe4: []
-- name: B1ade
-  country: ca
-  content_languages:
-    - ca
-  info_platforms:
-    - Liquipedia: B1ade
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "16877"
-            - "127645"
-    - Aoe4: []
-- name: Spring
-  country: us
-  content_languages:
-    - us
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/springtv"
-    - Youtube: "http://www.youtube.com/channel/UCDNmFkR-F0SLkIB-JlbWWlg"
-    - Discord: "https://discord.gg/MrNwsQB"
-  info_platforms:
-    - Liquipedia: Spring
-    - AoeElo: 13
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "235623"
-            - "1766301"
-        - Voobly:
-            - "3867"
-            - "124002307"
-            - "123821562"
-            - "123339272"
-            - "3867"
-            - "480"
-            - "123273372"
-            - "124781271"
-    - Aoe4: []
-- name: Windy
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: Windy
-    - AoeElo: 327
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123429442"
-    - Aoe4: []
-- name: Iori
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: IORI
-    - AoeElo: 254
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2772600"
-        - Voobly: []
-    - Aoe4: []
-- name: Joe
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 329
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Ruso
-  country: es
-  content_languages:
-    - es
-  info_platforms:
-    - Liquipedia: Ruso
-    - AoeElo: 168
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1997593"
-        - Voobly:
-            - "123453296"
-            - "9627"
-            - "22303"
-    - Aoe4: []
-- name: Alive
-  country: br
-  content_languages:
-    - br
-  info_platforms:
-    - Liquipedia: Alive
-    - AoeElo: 142
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1629889"
-        - Voobly:
-            - "124097512"
-            - "135459"
-            - "123452158"
-            - "160816"
-            - "610"
-    - Aoe4: []
-- name: Ding
-  country: hk
-  content_languages:
-    - hk
-  info_platforms:
-    - AoeElo: 145
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "722"
-            - "46048"
-    - Aoe4: []
-- name: Vile
-  country: my
-  content_languages:
-    - my
-  info_platforms:
-    - Liquipedia: Vile
-    - AoeElo: 418
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Kmkm
-  country: tw
-  content_languages:
-    - tw
-  info_platforms:
-    - Liquipedia: IamKmkm
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "22956"
-    - Aoe4: []
-- name: Luca
-  country: ca
-  content_languages:
-    - ca
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/luca8761"
-    - Youtube: "http://www.youtube.com/channel/UC1ogVLFWj7WxK1f21kF9kSQ"
-  info_platforms:
-    - Liquipedia: Luca8761
-    - AoeElo: 250
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "268565"
-        - Voobly:
-            - "124682621"
-    - Aoe4: []
-- name: Lojza
-  country: cz
-  content_languages:
-    - cz
-  info_platforms:
-    - Liquipedia: Lojza
-    - AoeElo: 58
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123134558"
-            - "124340942"
-    - Aoe4: []
-- name: Mentalist
-  country: ca
-  content_languages:
-    - ca
-  info_platforms:
-    - Liquipedia: Mentalist
-    - AoeElo: 6
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123805043"
-            - "123936769"
-            - "124195578"
-            - "125091165"
-    - Aoe4: []
-- name: Goku
-  country: br
-  content_languages:
-    - br
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/gokuaoe"
-  info_platforms:
-    - Liquipedia: GoKu
-    - AoeElo: 7
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1893397"
-            - "5638708"
-        - Voobly:
-            - "123984617"
-            - "125143234"
-            - "123529024"
-    - Aoe4: []
-- name: Pike
-  country: fi
-  content_languages:
-    - fi
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/pikeaoc"
-  info_platforms:
-    - Liquipedia: NorthernPike
-    - AoeElo: 44
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "229063"
-            - "3457608"
-        - Voobly:
-            - "123162283"
-            - "123947524"
-            - "123950294"
-    - Aoe4: []
-- name: Vodka
-  country: it
-  content_languages:
-    - it
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/vodka_l_"
-  info_platforms:
-    - Liquipedia: Vodka_L_
-    - AoeElo: 129
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "599689"
-            - "2428811"
-            - "4497383"
-            - "5632575"
-        - Voobly:
-            - "123841591"
-            - "123946886"
-            - "125271720"
-            - "123793404"
-    - Aoe4: []
-- name: Spaden
-  country: se
-  content_languages:
-    - se
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/spadenaoc"
-  info_platforms:
-    - Liquipedia: Spaden
-    - AoeElo: 65
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "248441"
-        - Voobly:
-            - "123210474"
-            - "124166791"
-    - Aoe4: []
-- name: Monoz
-  country: ar
-  content_languages:
-    - ar
-  info_platforms:
-    - AoeElo: 159
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2844691"
-            - "1861822"
-        - Voobly:
-            - "123716297"
-            - "123737313"
-            - "12476384"
-            - "124453257"
-    - Aoe4: []
-- name: Whoop
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: Whoop
-    - AoeElo: 59
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2783258"
-        - Voobly:
-            - "123236765"
-            - "11387"
-            - "124560899"
-            - "124897713"
-    - Aoe4: []
-- name: Kief
-  country: ru
-  content_languages:
-    - ru
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "124511435"
-            - "124351305"
-            - "124220413"
-            - "124657730"
-    - Aoe4: []
-- name: Edie
+- name: Cl3m3nT
   country: fr
   content_languages:
     - fr
   content_platforms:
-    - Twitch: "https://www.twitch.tv/poz_edie"
-    - Youtube: "http://www.youtube.com/channel/UCBNGV-KCgh8Nb6tHP-WN2_A"
+    - Twitch: "https://www.twitch.tv/cl3m3nt_aoe"
   info_platforms:
-    - Liquipedia: Edie
-    - AoeElo: 8
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123666945"
-            - "123771026"
-            - "123442846"
-            - "124222465"
-            - "123741316"
-            - "123321654"
-            - "123189353"
-            - "123741316"
-    - Aoe4: []
-- name: SongSong
-  country: vn
-  content_languages:
-    - vn
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/songsongaoede"
-  info_platforms:
-    - Liquipedia: SongSong
-    - AoeElo: 852
+    - Liquipedia: Cl3m3nT
+    - AoeElo: 605
   gaming_profiles:
     - Aoe2:
         - De:
-            - "2733015"
-            - "3956300"
-        - Voobly:
-            - "123505495"
-            - "123890962"
-            - "123546355"
-            - "124375121"
-            - "123532179"
-            - "124626542"
-            - "125009949"
-    - Aoe4: []
-- name: Air_Abu
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 519
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "3414034"
-        - Voobly:
-            - "30984"
-            - "123999699"
-    - Aoe4: []
-- name: 8th Wonder
-  country: lv
-  content_languages:
-    - lv
-  info_platforms:
-    - Liquipedia: _8th_wonder
-    - AoeElo: 56
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "3943624"
-        - Voobly:
-            - "123737920"
-            - "123602533"
-            - "123498438"
-            - "123244296"
-            - "123845061"
-            - "123781126"
-            - "124003159"
-            - "123129305"
-    - Aoe4: []
-- name: classicpro
-  country: ua
-  content_languages:
-    - ua
-  info_platforms:
-    - Liquipedia: classicpro
-    - AoeElo: 99
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1755520"
-            - "1754629"
-        - Voobly:
-            - "124075494"
-            - "124240304"
-            - "125024125"
-    - Aoe4: []
-- name: Ralber
-  country: es
-  content_languages:
-    - es
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/ralbertv"
-  info_platforms:
-    - Liquipedia: Ralber
-    - AoeElo: 302
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2535067"
-        - Voobly:
-            - "11182"
-            - "24950"
-    - Aoe4: []
-- name: DreaIVIS
-  country: fi
-  content_languages:
-    - fi
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/aoewithdreaivis"
-  info_platforms:
-    - Liquipedia: DreaIVIS
-    - AoeElo: 167
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "3258"
-            - "21627"
-            - "167378"
-    - Aoe4: []
-- name: Capoch
-  country: ar
-  content_languages:
-    - ar
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/capoch"
-    - Youtube: "http://www.youtube.com/capoch"
-    - Discord: "https://discord.gg/sjCpquh"
-  info_platforms:
-    - Liquipedia: Capoch
-    - AoeElo: 273
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "409748"
-            - "2667231"
-            - "2850727"
-            - "2401889"
-        - Voobly:
-            - "29129"
-    - Aoe4: []
-- name: Rami
-  country: il
-  content_languages:
-    - il
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123701126"
-    - Aoe4: []
-- name: Duck
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 206
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123288787"
-    - Aoe4: []
-- name: IamOK
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 90
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2868603"
-            - "1369578"
-            - "3796982"
-        - Voobly:
-            - "187035"
-            - "123831728"
-            - "123700677"
-            - "123999995"
-    - Aoe4: []
-- name: geoffrey
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: Geoffrey
-    - AoeElo: 22
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "25709"
-            - "123714784"
-    - Aoe4: []
-- name: Bieber
-  country: cn
-  content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "124280794"
-            - "24331"
-    - Aoe4: []
-- name: FeAge
-  country: br
-  content_languages:
-    - br
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/feage_"
-    - Youtube: "http://www.youtube.com/channel/UCYhsraJ7ht7qYpZuHht-ibA"
-  info_platforms:
-    - Liquipedia: FeAge
-    - AoeElo: 84
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "300649"
-            - "4956328"
-        - Voobly:
-            - "123203450"
-            - "124170824"
-            - "124297045"
-            - "133714"
-            - "123444736"
-            - "123563868"
-            - "186651"
-    - Aoe4: []
-- name: Noto
-  country: cn
-  content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123193097"
-            - "123190565"
-            - "196922"
-            - "123437085"
-            - "125374"
-    - Aoe4: []
-- name: Hearttt
-  country: pe
-  content_languages:
-    - pe
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/hearttt_"
-    - Youtube: "http://www.youtube.com/channel/UCOtdNcfA05JODTx1cBlniyg"
-  info_platforms:
-    - Liquipedia: Hearttt
-    - AoeElo: 26
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "582058"
-        - Voobly:
-            - "124386524"
-    - Aoe4: []
-- name: Ra
-  country: ca
-  content_languages:
-    - ca
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/ra_aoe"
-  info_platforms:
-    - Liquipedia: Ra
-    - AoeElo: 148
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1098178"
-        - Voobly:
-            - "47262"
-            - "127366"
-    - Aoe4: []
-- name: Miss_Xue
-  country: cn
-  content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "25116"
-            - "123636501"
-            - "123372165"
-            - "123776423"
-            - "121454"
-    - Aoe4: []
-- name: James
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 161
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123797718"
-    - Aoe4: []
-- name: Feanor
-  country: ie
-  content_languages:
-    - ie
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/heresy_feanor"
-  info_platforms:
-    - Liquipedia: Feanor
-    - AoeElo: 9
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "208493"
-        - Voobly:
-            - "123806659"
-    - Aoe4: []
-- name: Hasan
-  country: ba
-  content_languages:
-    - ba
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/raidenaoe"
-  info_platforms:
-    - Liquipedia: Hasan
-    - AoeElo: 86
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "971296"
-            - "5126520"
-        - Voobly:
-            - "123222710"
-            - "7950"
-            - "123142913"
-            - "123370148"
-            - "123180505"
-            - "125321142"
-    - Aoe4: []
-- name: Juan
-  country: ar
-  content_languages:
-    - ar
-  info_platforms:
-    - AoeElo: 80
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123410633"
-            - "124223825"
-            - "123836537"
-    - Aoe4: []
-- name: Xiaohai
-  country: cn
-  content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "3044106"
-        - Voobly:
-            - "124531503"
-    - Aoe4: []
-- name: Lang
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 136
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123864424"
-            - "123826180"
-            - "188112"
-    - Aoe4: []
-- name: Jupe
-  country: fi
-  content_languages:
-    - fi
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/jupeeeeee"
-    - Youtube: "http://www.youtube.com/channel/UCVMPwOgvRe7pIpGurY6FngA"
-  info_platforms:
-    - Liquipedia: Jupe
-    - AoeElo: 249
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "208080"
-            - "703045"
-        - Voobly:
-            - "123451615"
-    - Aoe4: []
-- name: Dobbs
-  country: dk
-  content_languages:
-    - dk
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/dobbs351"
-    - Youtube: "http://www.youtube.com/channel/UCnqNykFBw3U-Gvth4bQCw5A"
-  info_platforms:
-    - Liquipedia: Dobbs351
-    - AoeElo: 664
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "246423"
-            - "2780825"
-            - "4767036"
-        - Voobly:
-            - "124368651"
-    - Aoe4: []
-- name: Kamigawa
-  country: it
-  content_languages:
-    - it
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/kamigawa_"
-  info_platforms:
-    - Liquipedia: Kamigawa
-    - AoeElo: 446
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "213355"
-            - "1349545"
-        - Voobly:
-            - "124287511"
-            - "124505989"
-            - "124378288"
-    - Aoe4: []
-- name: CL
-  country: cn
-  content_languages:
-    - cn
-  content_platforms:
-    - Douyu: "https://www.douyu.com/556823"
-  info_platforms:
-    - Liquipedia: CL
-    - AoeElo: 34
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "3235648"
-            - "2411454"
-            - "2386170"
-        - Voobly:
-            - "123916446"
-            - "124139264"
-            - "124443412"
-            - "124520727"
-    - Aoe4: []
-- name: Kongensgade
-  country: dk
-  content_languages:
-    - dk
-  info_platforms:
-    - Liquipedia: Kongensgade
-    - AoeElo: 132
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "725502"
-        - Voobly:
-            - "123652655"
-            - "123988152"
-    - Aoe4: []
-- name: Xiaoxiong
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 42
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2344276"
-        - Voobly:
-            - "123482913"
-            - "124654721"
-    - Aoe4: []
-- name: hs
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 265
-  gaming_profiles:
-    - Aoe2:
-        - De: []
+            - "245117"
+            - "3567001"
         - Voobly: []
     - Aoe4: []
-- name: Geek
-  country: gb
+- name: Clemensor
+  country: at
   content_languages:
-    - gb
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/clemensor"
+    - Youtube: "http://www.youtube.com/channel/UCcxztB7oRedOEInIUpY9q_w"
   info_platforms:
-    - Liquipedia: GeeK
-    - AoeElo: 285
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Mimmox
-  country: it
-  content_languages:
-    - it
-  info_platforms:
-    - Liquipedia: Mimmox
-    - AoeElo: 384
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Bvirus
-  country: pt
-  content_languages:
-    - pt
-  info_platforms:
-    - Liquipedia: bvirus
-    - AoeElo: 169
+    - Liquipedia: Clemensor
+    - AoeElo: 800
   gaming_profiles:
     - Aoe2:
         - De:
-            - "1657293"
+            - "226437"
+            - "3201121"
         - Voobly:
-            - "4053"
+            - "124074916"
     - Aoe4: []
-- name: Hackl
-  country: de
+- name: Cloud
+  country: tw
   content_languages:
-    - de
+    - tw
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/gktcloud"
+    - Youtube: "https://www.youtube.com/user/qaws68"
+    - FacebookGaming: "https://www.facebook.com/gaming/Aoecloud"
+    - Discord: "https://discord.gg/dKzquZB"
   info_platforms:
-    - AoeElo: 284
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123135274"
-    - Aoe4: []
-- name: black_bear
-  country: cn
-  content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: BT4
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: BT4
-    - AoeElo: 261
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "56555"
-    - Aoe4: []
-- name: PeEl
-  country: pl
-  content_languages:
-    - pl
-  info_platforms:
-    - Liquipedia: PeEl
-    - AoeElo: 281
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "15886"
-    - Aoe4: []
-- name: Rukie
-  country: es
-  content_languages:
-    - es
-  info_platforms:
-    - Liquipedia: RuKie
-    - AoeElo: 279
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: DriNkY
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - AoeElo: 322
+    - Liquipedia: Cloud
+    - AoeElo: 94
   gaming_profiles:
     - Aoe2:
         - De:
-            - "258972"
-            - "4972061"
+            - "199419"
+            - "872428"
         - Voobly:
-            - "123186478"
-    - Aoe4: []
-- name: Canary
-  country: jp
-  content_languages:
-    - jp
-  info_platforms:
-    - AoeElo: 268
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2520503"
-        - Voobly: []
-    - Aoe4: []
-- name: SoraK
-  country: cl
-  content_languages:
-    - cl
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Moczymorda
-  country: mt
-  content_languages:
-    - mt
-  info_platforms:
-    - Liquipedia: GeNeRaL_Z
-    - AoeElo: 283
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "5424138"
-        - Voobly: []
-    - Aoe4: []
-- name: Sutra
-  country: us
-  content_languages:
-    - us
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Poisn
-  country: ca
-  content_languages:
-    - ca
-  info_platforms:
-    - Liquipedia: Poisn
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "3384231"
-        - Voobly:
-            - "12597"
-    - Aoe4: []
-- name: Playboy
-  country: cn
-  content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Hanyu
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 324
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Feeling
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: feeling
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
+            - "123198508"
+            - "16640"
+            - "123463926"
     - Aoe4: []
 - name: Cloudy
   country: cn
@@ -2311,140 +734,53 @@
         - De: []
         - Voobly: []
     - Aoe4: []
-- name: PK
-  country: cn
+- name: CooL
+  country: vn
   content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Fox
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - AoeElo: 296
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "6031"
-    - Aoe4: []
-- name: Nanimaren
-  country: it
-  content_languages:
-    - it
-  info_platforms:
-    - Liquipedia: Nanimaren
-    - AoeElo: 503
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "746777"
-        - Voobly:
-            - "124483923"
-    - Aoe4: []
-- name: chaos_2_win
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - AoeElo: 73
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "4012008"
-        - Voobly:
-            - "123738456"
-    - Aoe4: []
-- name: Dragonstar
-  country: in
-  content_languages:
-    - in
+    - vn
   content_platforms:
-    - Twitch: "https://www.twitch.tv/100dragonstar"
-    - Youtube: "http://www.youtube.com/100dragonstar"
+    - Twitch: "https://www.twitch.tv/vnscool"
   info_platforms:
-    - Liquipedia: The_Dragonstar
-    - AoeElo: 603
+    - Liquipedia: CooL
+    - AoeElo: 17
   gaming_profiles:
     - Aoe2:
         - De:
-            - "182749"
-            - "2112598"
-            - "3966024"
+            - "224786"
         - Voobly:
-            - "124281975"
+            - "123194620"
     - Aoe4: []
-- name: Free
-  country: cn
+- name: Cortical
+  country: us
   content_languages:
-    - cn
+    - us
   info_platforms:
-    - AoeElo: 290
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Mozory
-  country: kr
-  content_languages:
-    - kr
-  info_platforms:
-    - Liquipedia: MoZory
-    - AoeElo: 393
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Kaohen
-  country: tw
-  content_languages:
-    - tw
-  info_platforms:
-    - Liquipedia: Kaohen
-    - AoeElo: 404
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: IamJordan
-  country: tw
-  content_languages:
-    - tw
-  info_platforms:
-    - Liquipedia: JcooL
-    - AoeElo: 362
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: GoldenEnd
-  country: nl
-  content_languages:
-    - nl
-  info_platforms:
-    - Liquipedia: GoldenEnd
-    - AoeElo: 197
+    - Liquipedia: Cortical
   gaming_profiles:
     - Aoe2:
         - De:
-            - "283224"
-        - Voobly:
-            - "123839438"
+            - "1566498"
+        - Voobly: []
     - Aoe4: []
-- name: Elfanor
-  country: be
+- name: Country
+  country: ie
   content_languages:
-    - be
+    - ie
   info_platforms:
-    - AoeElo: 408
+    - AoeElo: 344
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "5958"
+    - Aoe4: []
+- name: Crexis
+  country: ca
+  content_languages:
+    - ca
+  info_platforms:
+    - Liquipedia: Crexis
+    - AoeElo: 403
   gaming_profiles:
     - Aoe2:
         - De: []
@@ -2470,426 +806,36 @@
             - "20404"
             - "123638821"
     - Aoe4: []
-- name: Janik
-  country: cz
-  content_languages:
-    - cz
-  info_platforms:
-    - Liquipedia: Janik
-    - AoeElo: 91
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1134223"
-        - Voobly:
-            - "123753371"
-    - Aoe4: []
-- name: Seoul
-  country: vn
-  content_languages:
-    - vn
-  info_platforms:
-    - AoeElo: 143
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Running
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - Liquipedia: Running
-    - AoeElo: 616
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "256338"
-            - "4620061"
-        - Voobly:
-            - "125045236"
-    - Aoe4: []
-- name: Obadiah
-  country: ca
-  content_languages:
-    - ca
-  info_platforms:
-    - Liquipedia: Obadiah
-    - AoeElo: 602
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "225365"
-            - "1515905"
-            - "3435966"
-            - "4959296"
-            - "5687096"
-        - Voobly: []
-    - Aoe4: []
-- name: DemonSheep
-  country: tw
-  content_languages:
-    - tw
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/demonsheeptw"
-  info_platforms:
-    - Liquipedia: DemonSheep
-    - AoeElo: 611
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "226697"
-        - Voobly: []
-    - Aoe4: []
-- name: Stefan
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - Liquipedia: Stefan
-    - AoeElo: 103
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "370776"
-            - "1832072"
-            - "1221228"
-            - "1597337"
-        - Voobly:
-            - "124499797"
-    - Aoe4: []
-- name: Sora Kuma
-  country: tw
-  content_languages:
-    - tw
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/skyandpeace"
-  info_platforms:
-    - Liquipedia: Sora Kuma
-    - AoeElo: 445
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "209118"
-            - "712465"
-        - Voobly: []
-    - Aoe4: []
-- name: Komtan
-  country: jp
-  content_languages:
-    - jp
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/komtano_o"
-  info_platforms:
-    - Liquipedia: Komtan
-    - AoeElo: 66
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "223206"
-            - "3308789"
-        - Voobly:
-            - "123815728"
-    - Aoe4: []
-- name: Scotty
-  country: us
-  content_languages:
-    - us
-  info_platforms:
-    - AoeElo: 78
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "301918"
-            - "2855233"
-            - "4672953"
-            - "5653549"
-        - Voobly:
-            - "124827272"
-    - Aoe4: []
-- name: Metal
-  country: us
-  content_languages:
-    - us
-  info_platforms:
-    - Liquipedia: Metal
-    - AoeElo: 70
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "124244937"
-    - Aoe4: []
-- name: LB10
-  country: at
-  content_languages:
-    - at
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/lb10_"
-  info_platforms:
-    - Liquipedia: LB10
-    - AoeElo: 74
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1050688"
-        - Voobly:
-            - "123926453"
-    - Aoe4: []
-- name: Rodrigus
-  country: ar
-  content_languages:
-    - ar
-  info_platforms:
-    - AoeElo: 449
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2495166"
-            - "1143001"
-        - Voobly:
-            - "5469"
-    - Aoe4: []
-- name: Skittle
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - Liquipedia: Skittle
-    - AoeElo: 122
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "992381"
-        - Voobly:
-            - "123225139"
-            - "2976"
-    - Aoe4: []
-- name: Jidba
-  country: gr
-  content_languages:
-    - gr
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/jidba"
-  info_platforms:
-    - Liquipedia: Jidba
-    - AoeElo: 622
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "357026"
-            - "1834168"
-        - Voobly:
-            - "978"
-    - Aoe4: []
-- name: IamKen
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: IamKen
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Bender
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - Liquipedia: Bender
-    - AoeElo: 297
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123436221"
-    - Aoe4: []
-- name: Nv
-  country: kr
-  content_languages:
-    - kr
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: GX_Iron
-  country: us
-  content_languages:
-    - us
-  info_platforms:
-    - AoeElo: 409
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: North
-  country: gb
-  content_languages:
-    - gb
-  info_platforms:
-    - AoeElo: 399
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: RIP_Dreams
+- name: D3rp
   country: nl
   content_languages:
     - nl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/d3rp276"
   info_platforms:
-    - AoeElo: 371
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Buddha
-  country: bg
-  content_languages:
-    - bg
-  info_platforms:
-    - Liquipedia: Buddha
-    - AoeElo: 271
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: El KhaLeN
-  country: fr
-  content_languages:
-    - fr
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Kaiser Willhelm
-  country: se
-  content_languages:
-    - se
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Fai
-  country: cn
-  content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: "True"
-  country: us
-  content_languages:
-    - us
-  info_platforms:
-    - Liquipedia: "True"
+    - Liquipedia: D3rp
+    - AoeElo: 614
   gaming_profiles:
     - Aoe2:
         - De:
-            - "584824"
-        - Voobly:
-            - "123188321"
-    - Aoe4: []
-- name: WraTh
-  country: br
-  content_languages:
-    - br
-  info_platforms:
-    - Liquipedia: WraTh
-    - AoeElo: 336
-  gaming_profiles:
-    - Aoe2:
-        - De: []
+            - "212294"
         - Voobly: []
     - Aoe4: []
-- name: Jinx
+- name: Daniel
   country: us
   content_languages:
     - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/aocdaniel"
   info_platforms:
-    - AoeElo: 563
+    - Liquipedia: Daniel
+    - AoeElo: 69
   gaming_profiles:
     - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: MuSe
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - Liquipedia: MuSe
-    - AoeElo: 372
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Crexis
-  country: ca
-  content_languages:
-    - ca
-  info_platforms:
-    - Liquipedia: Crexis
-    - AoeElo: 403
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Myth_Osiris
-  country: nl
-  content_languages:
-    - nl
-  info_platforms:
-    - AoeElo: 402
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Dee
-  country: cn
-  content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De: []
+        - De:
+            - "265517"
         - Voobly:
-            - "123180884"
-    - Aoe4: []
-- name: DevilZ_High
-  country: dk
-  content_languages:
-    - dk
-  info_platforms:
-    - Liquipedia: High
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: HimT
-  country: hk
-  content_languages:
-    - hk
-  info_platforms:
-    - AoeElo: 924
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
+            - "123256402"
     - Aoe4: []
 - name: Dante
   country: us
@@ -2902,464 +848,18 @@
         - De: []
         - Voobly: []
     - Aoe4: []
-- name: HawFchik
-  country: kz
+- name: DarK_KnighT_
+  country: mx
   content_languages:
-    - kz
+    - mx
   info_platforms:
-    - AoeElo: 795
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: n00b
-  country: ie
-  content_languages:
-    - ie
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: RaYaN
-  country: kz
-  content_languages:
-    - kz
-  info_platforms:
-    - Liquipedia: RaYaN
-    - AoeElo: 367
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Jaksal
-  country: kr
-  content_languages:
-    - kr
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Shiri
-  country: kr
-  content_languages:
-    - kr
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Praxes
-  country: us
-  content_languages:
-    - us
-  info_platforms:
-    - Liquipedia: Praxes
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Disciple
-  country: us
-  content_languages:
-    - us
-  info_platforms:
-    - AoeElo: 564
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Ugnis
-  country: lt
-  content_languages:
-    - lt
-  info_platforms:
-    - Liquipedia: Ugnis
-    - AoeElo: 361
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "170776"
-    - Aoe4: []
-- name: NoBoDy
-  country: kz
-  content_languages:
-    - kz
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/nobodyaoe"
-    - Youtube: "http://www.youtube.com/channel/UC3ieLuJmS77c4xrkezv0WNw"
-  info_platforms:
-    - Liquipedia: Nobody
-    - AoeElo: 364
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Sobek
-  country: cl
-  content_languages:
-    - cl
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/sobekaoe"
-    - Youtube: "http://www.youtube.com/channel/UCVH-sSxnCZtqJJmbtggTCxQ/feed"
-  info_platforms:
-    - Liquipedia: Sobek
-    - AoeElo: 499
+    - Liquipedia: DarK_KnighT_
+    - AoeElo: 175
   gaming_profiles:
     - Aoe2:
         - De:
-            - "290617"
-            - "2598137"
-        - Voobly:
-            - "124317014"
-    - Aoe4: []
-- name: Hallis
-  country: gb
-  content_languages:
-    - gb
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/hallisaoc"
-    - Youtube: "http://www.youtube.com/hallisyodaddy"
-  info_platforms:
-    - Liquipedia: Hallis
-    - AoeElo: 613
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "250103"
-        - Voobly:
-            - "123851827"
-            - "123649340"
-    - Aoe4: []
-- name: FletcheR
-  country: "no"
-  content_languages:
-    - "no"
-  info_platforms:
-    - Liquipedia: FletcheR
-    - AoeElo: 333
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Kumruke
-  country: jp
-  content_languages:
-    - jp
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "227647"
-    - Aoe4: []
-- name: Igloo
-  country: gb
-  content_languages:
-    - gb
-  info_platforms:
-    - AoeElo: 257
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "124479620"
-    - Aoe4: []
-- name: Goodboy
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: Goodboy
-    - AoeElo: 154
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123188558"
-            - "123140760"
-            - "182809"
-            - "123637065"
-            - "168549"
-    - Aoe4: []
-- name: Ming
-  country: hk
-  content_languages:
-    - hk
-  info_platforms:
-    - Liquipedia: Ming (Hong Kongese player)
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "3144451"
-            - "1966276"
-            - "3208276"
-        - Voobly: []
-    - Aoe4: []
-- name: Kyo
-  country: hk
-  content_languages:
-    - hk
-  info_platforms:
-    - AoeElo: 164
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "123308350"
-    - Aoe4: []
-- name: Survivalist
-  country: ca
-  content_languages:
-    - ca
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/survivalistaoe2de"
-    - Youtube: "https://www.youtube.com/channel/UCmFJUeU8Oubp5Neldbq0JRA"
-    - Discord: "https://discord.gg/2uJ5Tyh"
-  info_platforms:
-    - Liquipedia: Survivalist
-    - AoeElo: 656
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "247224"
-        - Voobly: []
-    - Aoe4: []
-- name: YYQ
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 355
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: Country
-  country: ie
-  content_languages:
-    - ie
-  info_platforms:
-    - AoeElo: 344
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "5958"
-    - Aoe4: []
-- name: Zeal
-  country: se
-  content_languages:
-    - se
-  info_platforms:
-    - AoeElo: 321
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly:
-            - "17368"
-    - Aoe4: []
-- name: KicK
-  country: es
-  content_languages:
-    - es
-  info_platforms:
-    - AoeElo: 311
-  gaming_profiles:
-    - Aoe2:
-        - De: []
-        - Voobly: []
-    - Aoe4: []
-- name: LeAsH
-  country: us
-  content_languages:
-    - us
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/leash__"
-    - Youtube: "http://www.youtube.com/channel/UCtFnx53VAZD40AtQPf5SyBQ"
-  info_platforms:
-    - Liquipedia: UNLeAsHeD__
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "322858"
-        - Voobly:
-            - "123556801"
-    - Aoe4: []
-- name: Repard
-  country: ru
-  content_languages:
-    - ru
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/repard"
-  info_platforms:
-    - Liquipedia: Repard
-    - AoeElo: 245
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "222528"
-        - Voobly:
-            - "123765859"
-    - Aoe4: []
-- name: TheCode
-  country: tr
-  content_languages:
-    - tr
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/TheCode_AoE"
-  info_platforms:
-    - Liquipedia: TheCode
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1529495"
-            - "2864065"
-            - "489128"
-        - Voobly:
-            - "123369268"
-    - Aoe4: []
-- name: Daywalker
-  country: gb
-  content_languages:
-    - gb
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/sunodaywalker"
-  info_platforms:
-    - Liquipedia: Daywalker
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "211235"
-            - "4396890"
-            - "4682069"
-        - Voobly:
-            - "123374407"
-    - Aoe4: []
-- name: l2aGe
-  country: gb
-  content_languages:
-    - gb
-  info_platforms:
-    - Liquipedia: I2aGe
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "217180"
-        - Voobly:
-            - "124045298"
-    - Aoe4: []
-- name: Bruh
-  country: br
-  content_languages:
-    - br
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/bruh_aoe"
-    - Youtube: "http://www.youtube.com/channel/UC0ohO1gLZWjX1DUG6oTSGZw"
-  info_platforms:
-    - Liquipedia: BruH
-    - AoeElo: 149
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2135484"
-            - "3088115"
-        - Voobly:
-            - "123698004"
-            - "123158445"
-    - Aoe4: []
-- name: ashleylynn
-  country: us
-  content_languages:
-    - us
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/aoc_ashleylynn"
-    - Discord: "https://discord.gg/DFBYNfG"
-  info_platforms:
-    - Liquipedia: Ashleylynn
-    - AoeElo: 889
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "283233"
-            - "674899"
-            - "1602128"
-            - "4020280"
-        - Voobly:
-            - "123866515"
-    - Aoe4: []
-- name: T90
-  country: us
-  content_languages:
-    - us
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/t90official"
-    - Youtube: "https://www.youtube.com/t90official"
-    - FacebookGaming: "https://www.facebook.com/gaming/t90official"
-    - Discord: "https://discord.gg/t90official"
-  info_platforms:
-    - Liquipedia: T90Official
-    - AoeElo: 498
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "197930"
-            - "951203"
-        - Voobly:
-            - "124236797"
-    - Aoe4: []
-- name: Rex
-  country: pl
-  content_languages:
-    - pl
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/tr_rex_"
-    - Youtube: "https://www.youtube.com/channel/UCIQg67br-zXRxyrFRwbfBsQ"
-  info_platforms:
-    - Liquipedia: Rex
-    - AoeElo: 609
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1390516"
-            - "2386652"
-        - Voobly: []
-    - Aoe4: []
-- name: Gluttony
-  country: "no"
-  content_languages:
-    - "no"
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/gluttony_aoe"
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "545512"
-        - Voobly: []
-    - Aoe4: []
-- name: Rise
-  country: it
-  content_languages:
-    - it
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/riseaoe2"
-  info_platforms:
-    - Liquipedia: Rise
-    - AoeElo: 619
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1428813"
-            - "210388"
-            - "4799335"
+            - "757886"
+            - "3395893"
         - Voobly: []
     - Aoe4: []
 - name: Dark
@@ -3380,297 +880,18 @@
         - Voobly:
             - "125137692"
     - Aoe4: []
-- name: Mahya
-  country: ma
+- name: DarkDevil
+  country: it
   content_languages:
-    - ma
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/mahyaoc"
+    - it
   info_platforms:
-    - AoeElo: 128
+    - AoeElo: 125
   gaming_profiles:
     - Aoe2:
         - De:
-            - "2815388"
-            - "2521572"
+            - "1630598"
         - Voobly:
-            - "124090505"
-    - Aoe4: []
-- name: Bad Koala
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - Liquipedia: Bad Koala
-    - AoeElo: 736
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "211351"
-            - "1435093"
-        - Voobly: []
-    - Aoe4: []
-- name: seyaren
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 37
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2461090"
-            - "2876803"
-        - Voobly:
-            - "124646628"
-    - Aoe4: []
-- name: Badboy
-  country: vn
-  content_languages:
-    - vn
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/badboyaoe"
-  info_platforms:
-    - Liquipedia: BadBoy
-    - AoeElo: 743
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2503651"
-            - "5551503"
-        - Voobly: []
-    - Aoe4: []
-- name: RecoN
-  country: gb
-  content_languages:
-    - gb
-  info_platforms:
-    - Liquipedia: RecoN
-    - AoeElo: 962
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "280459"
-            - "985308"
-        - Voobly:
-            - "123514787"
-    - Aoe4: []
-- name: BL4CK
-  country: ar
-  content_languages:
-    - ar
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/bl4ck_aoe"
-  info_platforms:
-    - Liquipedia: BL4CK
-    - AoeElo: 93
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2792305"
-            - "1756760"
-            - "5999674"
-        - Voobly:
-            - "123624141"
-    - Aoe4: []
-- name: killpigboy
-  country: cn
-  content_languages:
-    - cn
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "575279"
-        - Voobly:
-            - "125198457"
-    - Aoe4: []
-- name: Acuo
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 1147
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "801470"
-        - Voobly:
-            - "197995"
-    - Aoe4: []
-- name: Keno
-  country: mx
-  content_languages:
-    - mx
-  info_platforms:
-    - Liquipedia: Keno
-    - AoeElo: 623
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "312774"
-            - "738273"
-            - "4362172"
-        - Voobly:
-            - "124318462"
-            - "1431"
-    - Aoe4: []
-- name: JackK
-  country: pl
-  content_languages:
-    - pl
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/jackk_pl"
-  info_platforms:
-    - Liquipedia: JackK
-    - AoeElo: 615
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "452924"
-            - "2754047"
-            - "6237064"
-            - "3372104"
-        - Voobly: []
-    - Aoe4: []
-- name: PaTiN
-  country: ar
-  content_languages:
-    - ar
-  info_platforms:
-    - Liquipedia: PaTiN
-    - AoeElo: 163
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2598542"
-            - "3489772"
-        - Voobly:
-            - "123921098"
-    - Aoe4: []
-- name: Tushen
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 1028
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2544010"
-            - "599657"
-            - "2343109"
-            - "3212404"
-        - Voobly: []
-    - Aoe4: []
-- name: Kellar
-  country: "no"
-  content_languages:
-    - "no"
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/Kellar_AoE"
-    - Youtube: "http://www.youtube.com/channel/UCXcnO_W-YHuIrfGRnEwUlVg"
-  info_platforms:
-    - Liquipedia: Kellar
-    - AoeElo: 735
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1451847"
-            - "1195260"
-            - "1784541"
-        - Voobly: []
-    - Aoe4: []
-- name: Carbo
-  country: ar
-  content_languages:
-    - ar
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/carboarg"
-  info_platforms:
-    - Liquipedia: Carbo
-    - AoeElo: 783
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "618731"
-            - "2171446"
-        - Voobly: []
-    - Aoe4: []
-- name: pG_Fire
-  country: au
-  content_languages:
-    - au
-  info_platforms:
-    - AoeElo: 369
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2134694"
-        - Voobly: []
-    - Aoe4: []
-- name: Puerco Black
-  country: mx
-  content_languages:
-    - mx
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/puerco_black"
-  info_platforms:
-    - Liquipedia: Puerco_Black
-    - AoeElo: 632
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "580573"
-            - "2717438"
-            - "4388039"
-        - Voobly:
-            - "123797075"
-    - Aoe4: []
-- name: OnLeKe
-  country: br
-  content_languages:
-    - br
-  info_platforms:
-    - AoeElo: 650
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "308109"
-            - "1696082"
-            - "5123311"
-        - Voobly:
-            - "124423817"
-    - Aoe4: []
-- name: Babaorum
-  country: fr
-  content_languages:
-    - fr
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/babaorum_aoe"
-  info_platforms:
-    - Liquipedia: Babaorum
-    - AoeElo: 851
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "576919"
-            - "3335279"
-        - Voobly:
-            - "123145914"
-    - Aoe4: []
-- name: Tatakae
-  country: mx
-  content_languages:
-    - mx
-  info_platforms:
-    - Liquipedia: Mexican_Psycho
-    - AoeElo: 504
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "560474"
-        - Voobly:
-            - "124546027"
+            - "123607994"
     - Aoe4: []
 - name: Darknoob
   country: nl
@@ -3687,172 +908,166 @@
         - Voobly:
             - "124516604"
     - Aoe4: []
-- name: DarkDevil
-  country: it
+- name: DauT
+  country: rs
   content_languages:
-    - it
+    - rs
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/daut"
+    - Youtube: "https://www.youtube.com/channel/UC8m8Iah2xOHZvnBbpyOcEOA"
+    - Discord: "https://discord.gg/ckHd3vT"
   info_platforms:
-    - AoeElo: 125
+    - Liquipedia: DauT
+    - AoeElo: 1
   gaming_profiles:
     - Aoe2:
         - De:
-            - "1630598"
+            - "198035"
+            - "1832317"
         - Voobly:
-            - "123607994"
+            - "12926"
+            - 125129993-8
+            - "125129998"
+            - "123345149"
+            - "188639"
+            - "108050"
     - Aoe4: []
-- name: Skull
-  country: cz
+- name: Daywalker
+  country: gb
   content_languages:
-    - cz
+    - gb
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/sunodaywalker"
   info_platforms:
-    - Liquipedia: Skull
-    - AoeElo: 219
+    - Liquipedia: Daywalker
   gaming_profiles:
     - Aoe2:
         - De:
-            - "369536"
+            - "211235"
+            - "4396890"
+            - "4682069"
         - Voobly:
-            - "2016"
+            - "123374407"
     - Aoe4: []
-- name: TaoPaiPai
-  country: gt
-  content_languages:
-    - gt
-  info_platforms:
-    - AoeElo: 928
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2614814"
-            - "2760394"
-        - Voobly:
-            - "124772915"
-    - Aoe4: []
-- name: Mr Greed
-  country: pt
-  content_languages:
-    - pt
-  info_platforms:
-    - AoeElo: 628
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "738249"
-            - "3082790"
-        - Voobly: []
-    - Aoe4: []
-- name: Idol Brother
+- name: Dee
   country: cn
   content_languages:
     - cn
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "1788064"
-        - Voobly: []
+        - De: []
+        - Voobly:
+            - "123180884"
     - Aoe4: []
-- name: Uzzi
-  country: mx
+- name: DemonSheep
+  country: tw
   content_languages:
-    - mx
+    - tw
   content_platforms:
-    - Twitch: "https://www.twitch.tv/uzzi_aoe"
-    - Youtube: "http://www.youtube.com/channel/UCvzCDwMm2unSNpW-PGnmTZA"
+    - Twitch: "https://www.twitch.tv/demonsheeptw"
   info_platforms:
-    - Liquipedia: Uzzi
-    - AoeElo: 502
+    - Liquipedia: DemonSheep
+    - AoeElo: 611
   gaming_profiles:
     - Aoe2:
         - De:
-            - "229071"
-            - "2873733"
-            - "2136214"
-            - "4785288"
-            - "5021401"
-            - "3583533"
-            - "2621863"
-        - Voobly:
-            - "124655527"
+            - "226697"
+        - Voobly: []
     - Aoe4: []
-- name: The Bloodless
+- name: DevilZ_High
+  country: dk
+  content_languages:
+    - dk
+  info_platforms:
+    - Liquipedia: High
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Ding
+  country: hk
+  content_languages:
+    - hk
+  info_platforms:
+    - AoeElo: 145
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "722"
+            - "46048"
+    - Aoe4: []
+- name: Disciple
   country: us
   content_languages:
     - us
   info_platforms:
-    - AoeElo: 722
+    - AoeElo: 564
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "178430"
+        - De: []
         - Voobly: []
     - Aoe4: []
-- name: Wisepii
-  country: cl
+- name: Dobbs
+  country: dk
   content_languages:
-    - cl
+    - dk
   content_platforms:
-    - Twitch: "https://www.twitch.tv/wisepii"
+    - Twitch: "https://www.twitch.tv/dobbs351"
+    - Youtube: "http://www.youtube.com/channel/UCnqNykFBw3U-Gvth4bQCw5A"
   info_platforms:
-    - Liquipedia: Wisepii
-    - AoeElo: 748
+    - Liquipedia: Dobbs351
+    - AoeElo: 664
   gaming_profiles:
     - Aoe2:
         - De:
-            - "1264695"
-            - "3379989"
+            - "246423"
+            - "2780825"
+            - "4767036"
         - Voobly:
-            - "123911641"
+            - "124368651"
     - Aoe4: []
-- name: Chocobo
-  country: jp
+- name: DracKeN
+  country: cz
   content_languages:
-    - jp
-  info_platforms:
-    - Liquipedia: Chocobo
-    - AoeElo: 119
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1584462"
-            - "3296370"
-        - Voobly:
-            - "123742000"
-            - "123166866"
-            - "123243709"
-    - Aoe4: []
-- name: Scogo
-  country: de
-  content_languages:
-    - de
+    - cz
   content_platforms:
-    - Twitch: "https://www.twitch.tv/scogo"
+    - Twitch: "https://wwww.twitch.tv/drackentv"
+    - Youtube: "http://www.youtube.com/channel/UC3FySA4jBTHUXUT2YIzzU3A"
   info_platforms:
-    - Liquipedia: Scogo
-    - AoeElo: 247
+    - Liquipedia: DracKeN
+    - AoeElo: 100
   gaming_profiles:
     - Aoe2:
         - De:
-            - "208217"
-            - "900950"
-            - "282660"
+            - "357795"
         - Voobly:
-            - "124536623"
+            - "124043892"
+            - "124556058"
+            - "124596119"
+            - "124717620"
+            - "124832150"
+            - "125297245"
     - Aoe4: []
-- name: z40305125
-  country: tw
+- name: Dragonstar
+  country: in
   content_languages:
-    - tw
+    - in
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/100dragonstar"
+    - Youtube: "http://www.youtube.com/100dragonstar"
   info_platforms:
-    - AoeElo: 963
+    - Liquipedia: The_Dragonstar
+    - AoeElo: 603
   gaming_profiles:
     - Aoe2:
         - De:
-            - "726223"
-            - "3152642"
-            - "1251651"
-            - "2276037"
+            - "182749"
+            - "2112598"
+            - "3966024"
         - Voobly:
-            - z40305125
+            - "124281975"
     - Aoe4: []
 - name: Dratek
   country: cz
@@ -3869,207 +1084,138 @@
             - "4747413"
         - Voobly: []
     - Aoe4: []
-- name: Funito
-  country: ar
+- name: DreaIVIS
+  country: fi
   content_languages:
-    - ar
+    - fi
   content_platforms:
-    - Twitch: "https://www.twitch.tv/funito"
+    - Twitch: "https://www.twitch.tv/aoewithdreaivis"
   info_platforms:
-    - AoeElo: 144
+    - Liquipedia: DreaIVIS
+    - AoeElo: 167
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "3258"
+            - "21627"
+            - "167378"
+    - Aoe4: []
+- name: DriNkY
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - AoeElo: 322
   gaming_profiles:
     - Aoe2:
         - De:
-            - "2638400"
+            - "258972"
+            - "4972061"
         - Voobly:
-            - "13052"
+            - "123186478"
     - Aoe4: []
-- name: K0ty
-  country: cz
+- name: Duck
+  country: cn
   content_languages:
-    - cz
+    - cn
   info_platforms:
-    - AoeElo: 278
+    - AoeElo: 206
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "811008"
-            - "4185603"
-            - "3050759"
-            - "4794984"
+        - De: []
         - Voobly:
-            - "123302915"
+            - "123288787"
     - Aoe4: []
-- name: Whocl
-  country: cl
+- name: Dziamdziak
+  country: pl
   content_languages:
-    - cl
+    - pl
   content_platforms:
-    - Twitch: "https://www.twitch.tv/whoclaoe"
+    - Twitch: "https://www.twitch.tv/dziamdziak"
+    - Discord: "https://discord.gg/xz7uDPp"
   info_platforms:
-    - Liquipedia: Whocl
-    - AoeElo: 501
+    - Liquipedia: Dziamdziak
+    - AoeElo: 127
   gaming_profiles:
     - Aoe2:
         - De:
-            - "2309468"
-            - "2718358"
-            - "5303040"
-            - "3422495"
-            - "5703266"
-            - "6187727"
+            - "879956"
+            - "3558975"
         - Voobly:
-            - "124423933"
+            - "9806"
     - Aoe4: []
-- name: Rodrigus
-  country: ar
+- name: Edie
+  country: fr
   content_languages:
-    - ar
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/poz_edie"
+    - Youtube: "http://www.youtube.com/channel/UCBNGV-KCgh8Nb6tHP-WN2_A"
   info_platforms:
-    - AoeElo: 449
+    - Liquipedia: Edie
+    - AoeElo: 8
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "2495166"
-            - "1143001"
+        - De: []
         - Voobly:
-            - "5469"
+            - "123666945"
+            - "123771026"
+            - "123442846"
+            - "124222465"
+            - "123741316"
+            - "123321654"
+            - "123189353"
+            - "123741316"
     - Aoe4: []
-- name: Galaxy
-  country: hk
+- name: El KhaLeN
+  country: fr
   content_languages:
-    - hk
+    - fr
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "2875949"
-            - "2622255"
+        - De: []
         - Voobly: []
     - Aoe4: []
-- name: Lobo
-  country: mx
+- name: Elfanor
+  country: be
   content_languages:
-    - mx
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/lobodelanieve"
+    - be
+  info_platforms:
+    - AoeElo: 408
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "2920057"
-            - "3317764"
-            - "4974647"
-            - "5232076"
+        - De: []
         - Voobly: []
     - Aoe4: []
-- name: WaRRioR
-  country: ru
+- name: Ellie4K
+  country: ca
   content_languages:
-    - ru
+    - ca
   content_platforms:
-    - Twitch: "https://www.twitch.tv/salzz_warrior"
-    - Youtube: "http://www.youtube.com/channel/UCGWx5EtnIi_uOpL2_AuNJrg?view_as=subscriber"
+    - Twitch: "https://www.twitch.tv/ellie4k"
+    - Youtube: "http://www.youtube.com/channel/UCoWEA6fgQOHF4L5Nt3WPA1A"
   info_platforms:
-    - Liquipedia: WaRRioR
-    - AoeElo: 118
+    - Liquipedia: Ellie4K
   gaming_profiles:
     - Aoe2:
         - De:
-            - "1626982"
-            - "2915171"
-        - Voobly:
-            - "123204531"
-    - Aoe4: []
-- name: klavskis
-  country: lv
-  content_languages:
-    - lv
-  info_platforms:
-    - Liquipedia: Klavskis
-    - AoeElo: 737
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "213534"
-        - Voobly:
-            - "123205226"
-    - Aoe4: []
-- name: Mango
-  country: cz
-  content_languages:
-    - cz
-  info_platforms:
-    - Liquipedia: Mango
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1613129"
-            - "272454"
-            - "754969"
-        - Voobly:
-            - "123793537"
-    - Aoe4: []
-- name: JoRo
-  country: us
-  content_languages:
-    - us
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "3543549"
-            - "270449"
-            - "221496"
-        - Voobly:
-            - "123904053"
-    - Aoe4: []
-- name: Xhing
-  country: us
-  content_languages:
-    - us
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/adam_aoe"
-    - Discord: "https://discord.gg/MusuEz"
-  info_platforms:
-    - AoeElo: 76
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "611972"
-            - "3229922"
-        - Voobly:
-            - "124835966"
-            - "124725130"
-    - Aoe4: []
-- name: flightlessbird
-  country: nz
-  content_languages:
-    - nz
-  info_platforms:
-    - AoeElo: 448
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "285508"
-            - "2571777"
-        - Voobly:
-            - "124284205"
-    - Aoe4: []
-- name: Pela
-  country: ar
-  content_languages:
-    - ar
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/pela_aoe"
-    - Youtube: "http://www.youtube.com/channel/UCzhzve1YE9Mq5tIsQbG48XA/videos"
-  info_platforms:
-    - Liquipedia: Pela
-    - AoeElo: 784
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "219739"
-            - "2821779"
-            - "5093301"
+            - "1686373"
         - Voobly: []
+    - Aoe4: []
+- name: Emil
+  country: dk
+  content_languages:
+    - dk
+  info_platforms:
+    - AoeElo: 938
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "862991"
+            - "5221317"
+        - Voobly:
+            - "123197577"
     - Aoe4: []
 - name: Ertug
   country: tr
@@ -4105,487 +1251,174 @@
             - "6150436"
         - Voobly: []
     - Aoe4: []
-- name: Shades
-  country: it
+- name: F1Re
+  country: br
   content_languages:
-    - it
-  info_platforms:
-    - AoeElo: 754
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2462063"
-            - "1793493"
-            - "4367756"
-            - "5722641"
-        - Voobly: []
-    - Aoe4: []
-- name: fatman
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - AoeElo: 864
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "215963"
-            - "3163620"
-            - "3472929"
-        - Voobly: []
-    - Aoe4: []
-- name: Lavie Head
-  country: at
-  content_languages:
-    - at
+    - br
   content_platforms:
-    - Twitch: "https://www.twitch.tv/lavie_head"
-    - Discord: "https://discord.gg/Vhm4gS4fyx"
+    - Twitch: "https://www.twitch.tv/f1reaoe"
+    - Youtube: "http://www.youtube.com/channel/UCe5PZxogLEsu5VacKmOiR5g"
   info_platforms:
-    - AoeElo: 1115
+    - Liquipedia: F1Re
+    - AoeElo: 5
   gaming_profiles:
     - Aoe2:
         - De:
-            - "4304303"
-            - "4345753"
+            - "196310"
+            - "1819094"
+            - "5551398"
         - Voobly:
-            - "123220280"
+            - "123658746"
+            - 125129985-6
     - Aoe4: []
-- name: Gary
-  country: ar
-  content_languages:
-    - ar
-  info_platforms:
-    - Liquipedia: Gary
-    - AoeElo: 173
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "3274563"
-            - "3964432"
-        - Voobly:
-            - "123151277"
-    - Aoe4: []
-- name: Biry
-  country: ar
-  content_languages:
-    - ar
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/biryarg"
-    - Youtube: "http://www.youtube.com/channel/UC1tGtpMFHF88liDp0kYKtEQ"
-  info_platforms:
-    - Liquipedia: Biry
-    - AoeElo: 747
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2526695"
-            - "2899276"
-            - "111069"
-            - "4893987"
-            - "6170513"
-            - "6779858"
-        - Voobly:
-            - "123714392"
-            - "60956"
-    - Aoe4: []
-- name: Win_wu_kong
+- name: Fai
   country: cn
   content_languages:
     - cn
-  info_platforms:
-    - AoeElo: 162
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "551488"
-        - Voobly:
-            - "123226583"
-    - Aoe4: []
-- name: Valeria Huesca
-  country: mx
-  content_languages:
-    - mx
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/valeriahuesca"
-    - Youtube: "https://www.youtube.com/channel/UCDAwFPixAVPrUogkwhN0iAg"
-    - Discord: "https://discord.gg/z7Pvx7g"
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "410691"
+        - De: []
         - Voobly: []
     - Aoe4: []
-- name: BlinG
-  country: gb
-  content_languages:
-    - gb
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/blinguk"
-  info_platforms:
-    - Liquipedia: BlinG
-    - AoeElo: 178
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "570519"
-            - "6151169"
-        - Voobly:
-            - "963"
-    - Aoe4: []
-- name: Good_Game
-  country: ru
-  content_languages:
-    - ru
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/salzz_good_game"
-  info_platforms:
-    - Liquipedia: Good_Game
-    - AoeElo: 872
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1165138"
-        - Voobly: []
-    - Aoe4: []
-- name: Alperen
-  country: tr
-  content_languages:
-    - tr
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/alperenaoe2"
-    - Youtube: "https://www.youtube.com/channel/UCOBwAUsSM0CLzdTJYK4xkzA"
-  info_platforms:
-    - AoeElo: 969
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "874604"
-            - "5453798"
-        - Voobly: []
-    - Aoe4: []
-- name: CX_youwei
-  country: cn
-  content_languages:
-    - cn
-  info_platforms:
-    - AoeElo: 1148
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "4168560"
-        - Voobly:
-            - "123770946"
-    - Aoe4: []
-- name: czczcz
-  country: kr
-  content_languages:
-    - kr
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "620454"
-            - "2777792"
-            - "2684072"
-        - Voobly: []
-    - Aoe4: []
-- name: USb
-  country: mx
-  content_languages:
-    - mx
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/kingston_aoe"
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2938425"
-            - "3253348"
-            - "2776293"
-            - "4957841"
-        - Voobly: []
-    - Aoe4: []
-- name: Annotoph
-  country: de
-  content_languages:
-    - de
-  info_platforms:
-    - AoeElo: 981
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "222102"
-            - "3238663"
-            - "6231852"
-        - Voobly: []
-    - Aoe4: []
-- name: RookStar
+- name: Falcao
   country: br
   content_languages:
     - br
   gaming_profiles:
     - Aoe2:
         - De:
-            - "2265942"
-            - "2948283"
+            - "1829213"
+            - "3038783"
         - Voobly: []
     - Aoe4: []
-- name: grathwrang
-  country: ca
+- name: FeAge
+  country: br
   content_languages:
-    - ca
+    - br
   content_platforms:
-    - Twitch: "https://www.twitch.tv/grathwrang"
-    - Youtube: "https://www.youtube.com/channel/UCkoG0-9ndERgBXWVkGJIb-A"
-    - Discord: "https://discord.com/invite/Cp94ry9"
+    - Twitch: "https://www.twitch.tv/feage_"
+    - Youtube: "http://www.youtube.com/channel/UCYhsraJ7ht7qYpZuHht-ibA"
   info_platforms:
-    - Liquipedia: Grathwrang
+    - Liquipedia: FeAge
+    - AoeElo: 84
   gaming_profiles:
     - Aoe2:
         - De:
-            - "271243"
-        - Voobly: []
+            - "300649"
+            - "4956328"
+        - Voobly:
+            - "123203450"
+            - "124170824"
+            - "124297045"
+            - "133714"
+            - "123444736"
+            - "123563868"
+            - "186651"
     - Aoe4: []
-- name: Roxy
+- name: Feanor
+  country: ie
+  content_languages:
+    - ie
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/heresy_feanor"
+  info_platforms:
+    - Liquipedia: Feanor
+    - AoeElo: 9
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "208493"
+        - Voobly:
+            - "123806659"
+    - Aoe4: []
+- name: Fedex
   country: ar
   content_languages:
     - ar
   content_platforms:
-    - Twitch: "https://www.twitch.tv/roxyc"
+    - Twitch: "https://www.twitch.tv/federicov"
+  info_platforms:
+    - Liquipedia: Fedex
+    - AoeElo: 153
   gaming_profiles:
     - Aoe2:
         - De:
-            - "4796235"
+            - "239238"
+            - "1252385"
+            - "2431776"
+            - "5416282"
+        - Voobly:
+            - "123273973"
+            - "123725868"
+            - "123601190"
+    - Aoe4: []
+- name: Feeling
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: feeling
+  gaming_profiles:
+    - Aoe2:
+        - De: []
         - Voobly: []
     - Aoe4: []
-- name: Whitecourt
-  country: cl
+- name: Fish
+  country: vn
   content_languages:
-    - cl
+    - vn
   content_platforms:
-    - Twitch: "https://www.twitch.tv/whitecourtt"
+    - Twitch: "https://www.twitch.tv/fishvnn"
   info_platforms:
-    - Liquipedia: Whitecourt
-    - AoeElo: 67
+    - AoeElo: 241
   gaming_profiles:
     - Aoe2:
         - De:
-            - "3101322"
-            - "5057225"
+            - "2821727"
         - Voobly: []
     - Aoe4: []
-- name: GoldenEnd
-  country: nl
+- name: FletcheR
+  country: "no"
   content_languages:
-    - nl
+    - "no"
   info_platforms:
-    - Liquipedia: GoldenEnd
-    - AoeElo: 197
+    - Liquipedia: FletcheR
+    - AoeElo: 333
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: FlyLikeDjango
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/flylikedjango"
+    - Youtube: "https://www.youtube.com/channel/UC7li9aVSk8b94hNEZdDPAcg"
+    - Discord: "https://discord.gg/HXFSj2R"
+  info_platforms:
+    - Liquipedia: FlyLikeDjango
+    - AoeElo: 831
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "4865222"
+            - "3014554"
+            - "1826067"
+        - Voobly: []
+    - Aoe4: []
+- name: Fox
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - AoeElo: 296
   gaming_profiles:
     - Aoe2:
         - De: []
         - Voobly:
-            - "123839438"
-    - Aoe4: []
-- name: Gabi
-  country: br
-  content_languages:
-    - br
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/gabiaoe_"
-    - Youtube: "http://www.youtube.com/channel/UCMDHXZQfNzVO_1XPBmvIWfQ"
-  info_platforms:
-    - Liquipedia: Gabi
-    - AoeElo: 782
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2444511"
-            - "2762305"
-        - Voobly: []
-    - Aoe4: []
-- name: Lucky Rox
-  country: ar
-  content_languages:
-    - ar
-  info_platforms:
-    - Liquipedia: Lucky_Rox
-    - AoeElo: 913
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "945852"
-            - "3579491"
-        - Voobly: []
-    - Aoe4: []
-- name: D3rp
-  country: nl
-  content_languages:
-    - nl
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/d3rp276"
-  info_platforms:
-    - Liquipedia: D3rp
-    - AoeElo: 614
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "212294"
-        - Voobly: []
-    - Aoe4: []
-- name: Andorin
-  country: de
-  content_languages:
-    - de
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/nc_andorin"
-  info_platforms:
-    - Liquipedia: Andorin
-    - AoeElo: 601
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "200073"
-        - Voobly:
-            - "123553491"
-    - Aoe4: []
-- name: Clemensor
-  country: at
-  content_languages:
-    - at
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/clemensor"
-    - Youtube: "http://www.youtube.com/channel/UCcxztB7oRedOEInIUpY9q_w"
-  info_platforms:
-    - Liquipedia: Clemensor
-    - AoeElo: 800
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "226437"
-            - "3201121"
-        - Voobly:
-            - "124074916"
-    - Aoe4: []
-- name: Cortical
-  country: us
-  content_languages:
-    - us
-  info_platforms:
-    - Liquipedia: Cortical
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1566498"
-        - Voobly: []
-    - Aoe4: []
-- name: ffavorite
-  country: us
-  content_languages:
-    - us
-  info_platforms:
-    - Liquipedia: Ffavorite_1
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "509112"
-        - Voobly: []
-    - Aoe4: []
-- name: PaladiNz
-  country: ca
-  content_languages:
-    - ca
-  info_platforms:
-    - Liquipedia: PaladiNz
-    - AoeElo: 629
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "255376"
-        - Voobly: []
-    - Aoe4: []
-- name: Bean Dip
-  country: us
-  content_languages:
-    - us
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/bean__dip"
-  info_platforms:
-    - Liquipedia: Bean Dip
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "293288"
-        - Voobly: []
-    - Aoe4: []
-- name: Bourbon
-  country: ru
-  content_languages:
-    - ru
-  info_platforms:
-    - Liquipedia: Bourbon
-    - AoeElo: 971
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1877180"
-        - Voobly: []
-    - Aoe4: []
-- name: Ass_Kickerwa
-  country: in
-  content_languages:
-    - in
-  info_platforms:
-    - Liquipedia: Ass_Kickerwa
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "664715"
-        - Voobly: []
-    - Aoe4: []
-- name: Cl3m3nT
-  country: fr
-  content_languages:
-    - fr
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/cl3m3nt_aoe"
-  info_platforms:
-    - Liquipedia: Cl3m3nT
-    - AoeElo: 605
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "245117"
-            - "3567001"
-        - Voobly: []
-    - Aoe4: []
-- name: DarK_KnighT_
-  country: mx
-  content_languages:
-    - mx
-  info_platforms:
-    - Liquipedia: DarK_KnighT_
-    - AoeElo: 175
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "757886"
-            - "3395893"
-        - Voobly: []
-    - Aoe4: []
-- name: Ellie4K
-  country: ca
-  content_languages:
-    - ca
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/ellie4k"
-    - Youtube: "http://www.youtube.com/channel/UCoWEA6fgQOHF4L5Nt3WPA1A"
-  info_platforms:
-    - Liquipedia: Ellie4K
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1686373"
-        - Voobly: []
+            - "6031"
     - Aoe4: []
 - name: FreakinAndy
   country: at
@@ -4616,6 +1449,17 @@
             - "657052"
         - Voobly: []
     - Aoe4: []
+- name: Free
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 290
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
 - name: Frost_9
   country: se
   content_languages:
@@ -4627,6 +1471,221 @@
         - De:
             - "2653793"
         - Voobly: []
+    - Aoe4: []
+- name: Funito
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/funito"
+  info_platforms:
+    - AoeElo: 144
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2638400"
+        - Voobly:
+            - "13052"
+    - Aoe4: []
+- name: GLX_Rusher
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/glx_rusher"
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "788320"
+            - "3527288"
+        - Voobly: []
+    - Aoe4: []
+- name: GX_Iron
+  country: us
+  content_languages:
+    - us
+  info_platforms:
+    - AoeElo: 409
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Gabi
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/gabiaoe_"
+    - Youtube: "http://www.youtube.com/channel/UCMDHXZQfNzVO_1XPBmvIWfQ"
+  info_platforms:
+    - Liquipedia: Gabi
+    - AoeElo: 782
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2444511"
+            - "2762305"
+        - Voobly: []
+    - Aoe4: []
+- name: Galaxy
+  country: hk
+  content_languages:
+    - hk
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2875949"
+            - "2622255"
+        - Voobly: []
+    - Aoe4: []
+- name: Ganji
+  country: se
+  content_languages:
+    - se
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ganji__"
+    - Discord: "https://discord.gg/rtpCfgE"
+  info_platforms:
+    - Liquipedia: Ganji
+    - AoeElo: 458
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "212746"
+            - "661884"
+            - "965185"
+            - "3496121"
+        - Voobly:
+            - "124183501"
+    - Aoe4: []
+- name: Gary
+  country: ar
+  content_languages:
+    - ar
+  info_platforms:
+    - Liquipedia: Gary
+    - AoeElo: 173
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3274563"
+            - "3964432"
+        - Voobly:
+            - "123151277"
+    - Aoe4: []
+- name: Geek
+  country: gb
+  content_languages:
+    - gb
+  info_platforms:
+    - Liquipedia: GeeK
+    - AoeElo: 285
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Gluttony
+  country: "no"
+  content_languages:
+    - "no"
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/gluttony_aoe"
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "545512"
+        - Voobly: []
+    - Aoe4: []
+- name: Goku
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/gokuaoe"
+  info_platforms:
+    - Liquipedia: GoKu
+    - AoeElo: 7
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1893397"
+            - "5638708"
+        - Voobly:
+            - "123984617"
+            - "125143234"
+            - "123529024"
+    - Aoe4: []
+- name: GoldenEnd
+  country: nl
+  content_languages:
+    - nl
+  info_platforms:
+    - Liquipedia: GoldenEnd
+    - AoeElo: 197
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123839438"
+    - Aoe4: []
+- name: GoldenEnd
+  country: nl
+  content_languages:
+    - nl
+  info_platforms:
+    - Liquipedia: GoldenEnd
+    - AoeElo: 197
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "283224"
+        - Voobly:
+            - "123839438"
+    - Aoe4: []
+- name: Good Luck
+  country: dk
+  content_languages:
+    - dk
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "689666"
+            - "4877844"
+        - Voobly: []
+    - Aoe4: []
+- name: Good_Game
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/salzz_good_game"
+  info_platforms:
+    - Liquipedia: Good_Game
+    - AoeElo: 872
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1165138"
+        - Voobly: []
+    - Aoe4: []
+- name: Goodboy
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: Goodboy
+    - AoeElo: 154
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123188558"
+            - "123140760"
+            - "182809"
+            - "123637065"
+            - "168549"
     - Aoe4: []
 - name: GriN
   country: ru
@@ -4643,6 +1702,62 @@
             - "208812"
         - Voobly: []
     - Aoe4: []
+- name: Grunt
+  country: kr
+  content_languages:
+    - kr
+  info_platforms:
+    - Liquipedia: Grunt
+    - AoeElo: 205
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123189460"
+    - Aoe4: []
+- name: Hackl
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - AoeElo: 284
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123135274"
+    - Aoe4: []
+- name: Halen
+  country: jp
+  content_languages:
+    - jp
+  info_platforms:
+    - Liquipedia: Halen
+    - AoeElo: 210
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "16205"
+    - Aoe4: []
+- name: Hallis
+  country: gb
+  content_languages:
+    - gb
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/hallisaoc"
+    - Youtube: "http://www.youtube.com/hallisyodaddy"
+  info_platforms:
+    - Liquipedia: Hallis
+    - AoeElo: 613
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "250103"
+        - Voobly:
+            - "123851827"
+            - "123649340"
+    - Aoe4: []
 - name: HamRTime
   country: au
   content_languages:
@@ -4657,6 +1772,186 @@
             - "2125259"
             - "2786676"
         - Voobly: []
+    - Aoe4: []
+- name: Hanyu
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 324
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Hasan
+  country: ba
+  content_languages:
+    - ba
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/raidenaoe"
+  info_platforms:
+    - Liquipedia: Hasan
+    - AoeElo: 86
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "971296"
+            - "5126520"
+        - Voobly:
+            - "123222710"
+            - "7950"
+            - "123142913"
+            - "123370148"
+            - "123180505"
+            - "125321142"
+    - Aoe4: []
+- name: HawFchik
+  country: kz
+  content_languages:
+    - kz
+  info_platforms:
+    - AoeElo: 795
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Hearttt
+  country: pe
+  content_languages:
+    - pe
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/hearttt_"
+    - Youtube: "http://www.youtube.com/channel/UCOtdNcfA05JODTx1cBlniyg"
+  info_platforms:
+    - Liquipedia: Hearttt
+    - AoeElo: 26
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "582058"
+        - Voobly:
+            - "124386524"
+    - Aoe4: []
+- name: Hera
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/hera"
+    - Youtube: "https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ"
+    - Discord: "https://discord.gg/DkdJj4D"
+  info_platforms:
+    - Liquipedia: Hera
+    - AoeElo: 28
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "199325"
+            - "1847121"
+            - "3209724"
+        - Voobly:
+            - "124954867"
+            - "123984714"
+            - "125227715"
+            - "124694635"
+    - Aoe4: []
+- name: HimT
+  country: hk
+  content_languages:
+    - hk
+  info_platforms:
+    - AoeElo: 924
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Hoang
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/hoangnguyen485"
+    - Youtube: "https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw?view_as=subscriber"
+  info_platforms:
+    - Liquipedia: Hoang
+    - AoeElo: 457
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "459658"
+            - "2097181"
+            - "3241077"
+        - Voobly:
+            - "123851854"
+            - "124750873"
+            - "124452866"
+            - "124449479"
+    - Aoe4: []
+- name: IamJordan
+  country: tw
+  content_languages:
+    - tw
+  info_platforms:
+    - Liquipedia: JcooL
+    - AoeElo: 362
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: IamKen
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: IamKen
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: IamOK
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 90
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2868603"
+            - "1369578"
+            - "3796982"
+        - Voobly:
+            - "187035"
+            - "123831728"
+            - "123700677"
+            - "123999995"
+    - Aoe4: []
+- name: Idol Brother
+  country: cn
+  content_languages:
+    - cn
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1788064"
+        - Voobly: []
+    - Aoe4: []
+- name: Igloo
+  country: gb
+  content_languages:
+    - gb
+  info_platforms:
+    - AoeElo: 257
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "124479620"
     - Aoe4: []
 - name: ImComing
   country: au
@@ -4685,6 +1980,90 @@
             - "3879633"
         - Voobly: []
     - Aoe4: []
+- name: Inc
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/incaoe2"
+  info_platforms:
+    - Liquipedia: Inc
+    - AoeElo: 323
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "221997"
+            - "1237326"
+            - "2032611"
+        - Voobly:
+            - "123644749"
+    - Aoe4: []
+- name: Iori
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: IORI
+    - AoeElo: 254
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2772600"
+        - Voobly: []
+    - Aoe4: []
+- name: JackK
+  country: pl
+  content_languages:
+    - pl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/jackk_pl"
+  info_platforms:
+    - Liquipedia: JackK
+    - AoeElo: 615
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "452924"
+            - "2754047"
+            - "6237064"
+            - "3372104"
+        - Voobly: []
+    - Aoe4: []
+- name: Jaksal
+  country: kr
+  content_languages:
+    - kr
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: James
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 161
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123797718"
+    - Aoe4: []
+- name: Janik
+  country: cz
+  content_languages:
+    - cz
+  info_platforms:
+    - Liquipedia: Janik
+    - AoeElo: 91
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1134223"
+        - Voobly:
+            - "123753371"
+    - Aoe4: []
 - name: JazBas
   country: nz
   content_languages:
@@ -4696,6 +2075,129 @@
         - De:
             - "978577"
         - Voobly: []
+    - Aoe4: []
+- name: Jibatong
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: jibatong
+    - AoeElo: 198
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "227857"
+            - "1688652"
+        - Voobly:
+            - "123642997"
+            - "123641000"
+            - "123435951"
+    - Aoe4: []
+- name: Jidba
+  country: gr
+  content_languages:
+    - gr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/jidba"
+  info_platforms:
+    - Liquipedia: Jidba
+    - AoeElo: 622
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "357026"
+            - "1834168"
+        - Voobly:
+            - "978"
+    - Aoe4: []
+- name: Jinx
+  country: us
+  content_languages:
+    - us
+  info_platforms:
+    - AoeElo: 563
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: JoRo
+  country: us
+  content_languages:
+    - us
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3543549"
+            - "270449"
+            - "221496"
+        - Voobly:
+            - "123904053"
+    - Aoe4: []
+- name: Joe
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 329
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: JonSlow
+  country: il
+  content_languages:
+    - il
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/jonslow_"
+    - Youtube: "https://www.youtube.com/channel/UCI7xIJYOC2OEb6ttrsH2QHA"
+  info_platforms:
+    - Liquipedia: JonSlow
+    - AoeElo: 101
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "208269"
+        - Voobly:
+            - "11486"
+            - "123145092"
+            - "123172587"
+    - Aoe4: []
+- name: JorDan
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/JorDan_AoE"
+    - Youtube: "https://www.youtube.com/channel/UCimCFIisAqXW9udVhN_LpwQ"
+    - Discord: "https://discord.gg/TWpUYVh"
+  info_platforms:
+    - Liquipedia: JorDan_AoE
+    - AoeElo: 30
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2858362"
+        - Voobly:
+            - "817"
+            - "125129994"
+            - "123195719"
+            - "124340943"
+    - Aoe4: []
+- name: Juan
+  country: ar
+  content_languages:
+    - ar
+  info_platforms:
+    - AoeElo: 80
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123410633"
+            - "124223825"
+            - "123836537"
     - Aoe4: []
 - name: Juan Perotti
   country: ar
@@ -4712,6 +2214,138 @@
             - "272182"
         - Voobly: []
     - Aoe4: []
+- name: Jupe
+  country: fi
+  content_languages:
+    - fi
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/jupeeeeee"
+    - Youtube: "http://www.youtube.com/channel/UCVMPwOgvRe7pIpGurY6FngA"
+  info_platforms:
+    - Liquipedia: Jupe
+    - AoeElo: 249
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "208080"
+            - "703045"
+        - Voobly:
+            - "123451615"
+    - Aoe4: []
+- name: K0ty
+  country: cz
+  content_languages:
+    - cz
+  info_platforms:
+    - AoeElo: 278
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "811008"
+            - "4185603"
+            - "3050759"
+            - "4794984"
+        - Voobly:
+            - "123302915"
+    - Aoe4: []
+- name: Kaiser Willhelm
+  country: se
+  content_languages:
+    - se
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Kamigawa
+  country: it
+  content_languages:
+    - it
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kamigawa_"
+  info_platforms:
+    - Liquipedia: Kamigawa
+    - AoeElo: 446
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "213355"
+            - "1349545"
+        - Voobly:
+            - "124287511"
+            - "124505989"
+            - "124378288"
+    - Aoe4: []
+- name: Kaohen
+  country: tw
+  content_languages:
+    - tw
+  info_platforms:
+    - Liquipedia: Kaohen
+    - AoeElo: 404
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Kasva
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kasvaoe"
+    - Youtube: "https://www.youtube.com/channel/UCFAiCVX7VqQaqGBPAxLRKnQ?view_as=subscriber"
+    - Discord: "https://discord.gg/CETwWEp"
+  info_platforms:
+    - Liquipedia: K4SVA
+    - AoeElo: 195
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1224481"
+            - "2759481"
+            - "4795863"
+        - Voobly:
+            - "125101127"
+            - "124473071"
+            - "125040561"
+            - "123507501"
+    - Aoe4: []
+- name: Kellar
+  country: "no"
+  content_languages:
+    - "no"
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/Kellar_AoE"
+    - Youtube: "http://www.youtube.com/channel/UCXcnO_W-YHuIrfGRnEwUlVg"
+  info_platforms:
+    - Liquipedia: Kellar
+    - AoeElo: 735
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1451847"
+            - "1195260"
+            - "1784541"
+        - Voobly: []
+    - Aoe4: []
+- name: Keno
+  country: mx
+  content_languages:
+    - mx
+  info_platforms:
+    - Liquipedia: Keno
+    - AoeElo: 623
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "312774"
+            - "738273"
+            - "4362172"
+        - Voobly:
+            - "124318462"
+            - "1431"
+    - Aoe4: []
 - name: KhaLeN
   country: fr
   content_languages:
@@ -4725,6 +2359,30 @@
         - De:
             - "1060672"
         - Voobly: []
+    - Aoe4: []
+- name: KicK
+  country: es
+  content_languages:
+    - es
+  info_platforms:
+    - AoeElo: 311
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Kief
+  country: ru
+  content_languages:
+    - ru
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "124511435"
+            - "124351305"
+            - "124220413"
+            - "124657730"
     - Aoe4: []
 - name: Kioss3000
   country: fr
@@ -4740,6 +2398,99 @@
             - "581780"
         - Voobly: []
     - Aoe4: []
+- name: Kmkm
+  country: tw
+  content_languages:
+    - tw
+  info_platforms:
+    - Liquipedia: IamKmkm
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "22956"
+    - Aoe4: []
+- name: Komtan
+  country: jp
+  content_languages:
+    - jp
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/komtano_o"
+  info_platforms:
+    - Liquipedia: Komtan
+    - AoeElo: 66
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "223206"
+            - "3308789"
+        - Voobly:
+            - "123815728"
+    - Aoe4: []
+- name: Kongensgade
+  country: dk
+  content_languages:
+    - dk
+  info_platforms:
+    - Liquipedia: Kongensgade
+    - AoeElo: 132
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "725502"
+        - Voobly:
+            - "123652655"
+            - "123988152"
+    - Aoe4: []
+- name: Kotex
+  country: vn
+  content_languages:
+    - vn
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "124763057"
+            - "124563608"
+            - "124764048"
+            - "124584836"
+            - "124796466"
+    - Aoe4: []
+- name: Koven
+  country: kr
+  content_languages:
+    - kr
+  info_platforms:
+    - Liquipedia: Koven
+    - AoeElo: 392
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "13584"
+    - Aoe4: []
+- name: Kumruke
+  country: jp
+  content_languages:
+    - jp
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "227647"
+    - Aoe4: []
+- name: Kyo
+  country: hk
+  content_languages:
+    - hk
+  info_platforms:
+    - AoeElo: 164
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123308350"
+    - Aoe4: []
 - name: L3af
   country: us
   content_languages:
@@ -4751,6 +2502,139 @@
         - De:
             - "228375"
         - Voobly: []
+    - Aoe4: []
+- name: LB10
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/lb10_"
+  info_platforms:
+    - Liquipedia: LB10
+    - AoeElo: 74
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1050688"
+        - Voobly:
+            - "123926453"
+    - Aoe4: []
+- name: LaaaaaN
+  country: es
+  content_languages:
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/lan_aoe"
+  info_platforms:
+    - Liquipedia: LaaaaaN
+    - AoeElo: 62
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "232410"
+            - 196366-nac3
+            - "1819193"
+            - "2602752"
+        - Voobly:
+            - "124116514"
+            - "123989026"
+            - "124691590"
+    - Aoe4: []
+- name: Lang
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 136
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123864424"
+            - "123826180"
+            - "188112"
+    - Aoe4: []
+- name: Lavie Head
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/lavie_head"
+    - Discord: "https://discord.gg/Vhm4gS4fyx"
+  info_platforms:
+    - AoeElo: 1115
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "4304303"
+            - "4345753"
+        - Voobly:
+            - "123220280"
+    - Aoe4: []
+- name: LeAsH
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/leash__"
+    - Youtube: "http://www.youtube.com/channel/UCtFnx53VAZD40AtQPf5SyBQ"
+  info_platforms:
+    - Liquipedia: UNLeAsHeD__
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "322858"
+        - Voobly:
+            - "123556801"
+    - Aoe4: []
+- name: Liereyy
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/liereyy"
+    - Youtube: "https://www.youtube.com/channel/UCaggQmp9gAuB7xYeci26VWA"
+  info_platforms:
+    - Liquipedia: Liereyy
+    - AoeElo: 25
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "506898"
+            - "1829588"
+        - Voobly:
+            - "124147336"
+            - 125129977-1
+            - "125227717"
+    - Aoe4: []
+- name: Lobo
+  country: mx
+  content_languages:
+    - mx
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/lobodelanieve"
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2920057"
+            - "3317764"
+            - "4974647"
+            - "5232076"
+        - Voobly: []
+    - Aoe4: []
+- name: Lojza
+  country: cz
+  content_languages:
+    - cz
+  info_platforms:
+    - Liquipedia: Lojza
+    - AoeElo: 58
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123134558"
+            - "124340942"
     - Aoe4: []
 - name: Loris
   country: it
@@ -4769,6 +2653,69 @@
             - "2473598"
         - Voobly: []
     - Aoe4: []
+- name: Luca
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/luca8761"
+    - Youtube: "http://www.youtube.com/channel/UC1ogVLFWj7WxK1f21kF9kSQ"
+  info_platforms:
+    - Liquipedia: Luca8761
+    - AoeElo: 250
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "268565"
+        - Voobly:
+            - "124682621"
+    - Aoe4: []
+- name: Lucky Rox
+  country: ar
+  content_languages:
+    - ar
+  info_platforms:
+    - Liquipedia: Lucky_Rox
+    - AoeElo: 913
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "945852"
+            - "3579491"
+        - Voobly: []
+    - Aoe4: []
+- name: Lyx
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/1029928"
+  info_platforms:
+    - Liquipedia: Lyx
+    - AoeElo: 21
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "226575"
+        - Voobly:
+            - "123230853"
+            - "123219958"
+            - "180548"
+    - Aoe4: []
+- name: MORG_11
+  country: ru
+  content_languages:
+    - ru
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1773197"
+        - Voobly:
+            - "124381545"
+            - "125033680"
+            - "125196962"
+            - "125206801"
+    - Aoe4: []
 - name: MaJoR_Kd
   country: gb
   content_languages:
@@ -4782,6 +2729,37 @@
         - De:
             - "283216"
         - Voobly: []
+    - Aoe4: []
+- name: Mahya
+  country: ma
+  content_languages:
+    - ma
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/mahyaoc"
+  info_platforms:
+    - AoeElo: 128
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2815388"
+            - "2521572"
+        - Voobly:
+            - "124090505"
+    - Aoe4: []
+- name: Mango
+  country: cz
+  content_languages:
+    - cz
+  info_platforms:
+    - Liquipedia: Mango
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1613129"
+            - "272454"
+            - "754969"
+        - Voobly:
+            - "123793537"
     - Aoe4: []
 - name: Margougou
   country: fr
@@ -4814,6 +2792,49 @@
             - "1102458"
         - Voobly: []
     - Aoe4: []
+- name: MbL
+  country: "no"
+  content_languages:
+    - "no"
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/mblaoc"
+    - Youtube: "http://youtube.com/user/Mortenjeah"
+    - Discord: "https://discord.gg/5cHqGMx"
+  info_platforms:
+    - Liquipedia: MbL
+    - AoeElo: 24
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "251265"
+            - "1826483"
+            - "2644601"
+            - "4422938"
+        - Voobly:
+            - "123844441"
+            - "123422126"
+            - "125375948"
+            - "125129979"
+            - 125129978-2
+            - "124653653"
+    - Aoe4: []
+- name: Melkor
+  country: ie
+  content_languages:
+    - ie
+  content_platforms:
+    - Youtube: "http://www.youtube.com/channel/UCawtaF3Ty12hHzQRYvNta7w/videos"
+  info_platforms:
+    - Liquipedia: Melkor
+    - AoeElo: 10
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123922182"
+            - "123394463"
+            - "124158935"
+    - Aoe4: []
 - name: MembTV
   country: es
   content_languages:
@@ -4830,6 +2851,35 @@
         - Voobly:
             - "11574"
     - Aoe4: []
+- name: Mentalist
+  country: ca
+  content_languages:
+    - ca
+  info_platforms:
+    - Liquipedia: Mentalist
+    - AoeElo: 6
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123805043"
+            - "123936769"
+            - "124195578"
+            - "125091165"
+    - Aoe4: []
+- name: Metal
+  country: us
+  content_languages:
+    - us
+  info_platforms:
+    - Liquipedia: Metal
+    - AoeElo: 70
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "124244937"
+    - Aoe4: []
 - name: Mica_
   country: ar
   content_languages:
@@ -4843,6 +2893,120 @@
         - De:
             - "2873005"
         - Voobly: []
+    - Aoe4: []
+- name: Miguel
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/miguelaoe"
+  info_platforms:
+    - Liquipedia: miguel
+    - AoeElo: 2
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2090225"
+        - Voobly:
+            - "123600879"
+            - "49541"
+            - "123961542"
+            - "123459695"
+            - "227518"
+            - 125129994-9
+    - Aoe4: []
+- name: Mimmox
+  country: it
+  content_languages:
+    - it
+  info_platforms:
+    - Liquipedia: Mimmox
+    - AoeElo: 384
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Ming
+  country: hk
+  content_languages:
+    - hk
+  info_platforms:
+    - Liquipedia: Ming (Hong Kongese player)
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3144451"
+            - "1966276"
+            - "3208276"
+        - Voobly: []
+    - Aoe4: []
+- name: Miss_Xue
+  country: cn
+  content_languages:
+    - cn
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "25116"
+            - "123636501"
+            - "123372165"
+            - "123776423"
+            - "121454"
+    - Aoe4: []
+- name: Moczymorda
+  country: mt
+  content_languages:
+    - mt
+  info_platforms:
+    - Liquipedia: GeNeRaL_Z
+    - AoeElo: 283
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "5424138"
+        - Voobly: []
+    - Aoe4: []
+- name: Modri
+  country: si
+  content_languages:
+    - si
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/modri_"
+  info_platforms:
+    - Liquipedia: Modri
+    - AoeElo: 598
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "254415"
+            - "1862892"
+            - "1364587"
+            - "1457840"
+            - "1862892"
+        - Voobly:
+            - "124662701"
+            - "124160323"
+            - "124860581"
+            - "124860581"
+    - Aoe4: []
+- name: Monoz
+  country: ar
+  content_languages:
+    - ar
+  info_platforms:
+    - AoeElo: 159
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2844691"
+            - "1861822"
+        - Voobly:
+            - "123716297"
+            - "123737313"
+            - "12476384"
+            - "124453257"
     - Aoe4: []
 - name: Moonfaller
   country: nl
@@ -4859,6 +3023,46 @@
             - "351793"
         - Voobly: []
     - Aoe4: []
+- name: Mozory
+  country: kr
+  content_languages:
+    - kr
+  info_platforms:
+    - Liquipedia: MoZory
+    - AoeElo: 393
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Mr Greed
+  country: pt
+  content_languages:
+    - pt
+  info_platforms:
+    - AoeElo: 628
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "738249"
+            - "3082790"
+        - Voobly: []
+    - Aoe4: []
+- name: Mr.Bean
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - FacebookGaming: "https://www.facebook.com/gaming/DrBinbin"
+  info_platforms:
+    - AoeElo: 814
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "4129633"
+            - "1200049"
+        - Voobly: []
+    - Aoe4: []
 - name: Mr.moon
   country: ru
   content_languages:
@@ -4870,6 +3074,43 @@
         - De:
             - "701482"
         - Voobly: []
+    - Aoe4: []
+- name: MuSe
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - Liquipedia: MuSe
+    - AoeElo: 372
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Myth_Osiris
+  country: nl
+  content_languages:
+    - nl
+  info_platforms:
+    - AoeElo: 402
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Nanimaren
+  country: it
+  content_languages:
+    - it
+  info_platforms:
+    - Liquipedia: Nanimaren
+    - AoeElo: 503
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "746777"
+        - Voobly:
+            - "124483923"
     - Aoe4: []
 - name: Neromelnick
   country: cl
@@ -4900,6 +3141,51 @@
             - "209599"
         - Voobly: []
     - Aoe4: []
+- name: Nicov
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/nicov_"
+    - Youtube: "https://www.youtube.com/channel/UCzkVZ4Ci33LbQt_UHOvQEFw"
+    - Discord: "https://discord.gg/quRrGhV"
+  info_platforms:
+    - Liquipedia: Nicov
+    - AoeElo: 27
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "208393"
+            - "1827959"
+            - "2609359"
+            - "5400429"
+        - Voobly:
+            - "123807394"
+            - "123477857"
+            - "124178111"
+            - "125129977"
+            - 125129982-5
+            - "124775535"
+    - Aoe4: []
+- name: Nili
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/nili_aoe"
+    - Youtube: "https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/videos"
+    - Discord: "https://discordapp.com/invite/pQG8txM"
+  info_platforms:
+    - Liquipedia: Nili_AoE
+    - AoeElo: 11
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "197751"
+        - Voobly:
+            - "9267"
+            - "124423938"
+    - Aoe4: []
 - name: Ning_
   country: tw
   content_languages:
@@ -4913,6 +3199,74 @@
         - De:
             - "802944"
             - "5623928"
+        - Voobly: []
+    - Aoe4: []
+- name: NoBoDy
+  country: kz
+  content_languages:
+    - kz
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/nobodyaoe"
+    - Youtube: "http://www.youtube.com/channel/UC3ieLuJmS77c4xrkezv0WNw"
+  info_platforms:
+    - Liquipedia: Nobody
+    - AoeElo: 364
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Noisick
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/noisick_aoe"
+  info_platforms:
+    - Liquipedia: Noisick
+    - AoeElo: 459
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1262725"
+            - "898389"
+            - "2709266"
+            - "3557942"
+        - Voobly:
+            - "124308648"
+    - Aoe4: []
+- name: North
+  country: gb
+  content_languages:
+    - gb
+  info_platforms:
+    - AoeElo: 399
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Noto
+  country: cn
+  content_languages:
+    - cn
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123193097"
+            - "123190565"
+            - "196922"
+            - "123437085"
+            - "125374"
+    - Aoe4: []
+- name: Nv
+  country: kr
+  content_languages:
+    - kr
+  gaming_profiles:
+    - Aoe2:
+        - De: []
         - Voobly: []
     - Aoe4: []
 - name: OLADUSHEK
@@ -4929,6 +3283,23 @@
     - Aoe2:
         - De:
             - "1853187"
+        - Voobly: []
+    - Aoe4: []
+- name: Obadiah
+  country: ca
+  content_languages:
+    - ca
+  info_platforms:
+    - Liquipedia: Obadiah
+    - AoeElo: 602
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "225365"
+            - "1515905"
+            - "3435966"
+            - "4959296"
+            - "5687096"
         - Voobly: []
     - Aoe4: []
 - name: Odette
@@ -4961,6 +3332,21 @@
         - De:
             - "269143"
         - Voobly: []
+    - Aoe4: []
+- name: OnLeKe
+  country: br
+  content_languages:
+    - br
+  info_platforms:
+    - AoeElo: 650
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "308109"
+            - "1696082"
+            - "5123311"
+        - Voobly:
+            - "124423817"
     - Aoe4: []
 - name: Ondrej94
   country: sk
@@ -5017,157 +3403,265 @@
             - "4632681"
         - Voobly: []
     - Aoe4: []
-- name: Sebastian2002
-  country: uy
+- name: PK
+  country: cn
   content_languages:
-    - uy
+    - cn
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: PaTiN
+  country: ar
+  content_languages:
+    - ar
+  info_platforms:
+    - Liquipedia: PaTiN
+    - AoeElo: 163
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2598542"
+            - "3489772"
+        - Voobly:
+            - "123921098"
+    - Aoe4: []
+- name: PaladiNz
+  country: ca
+  content_languages:
+    - ca
+  info_platforms:
+    - Liquipedia: PaladiNz
+    - AoeElo: 629
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "255376"
+        - Voobly: []
+    - Aoe4: []
+- name: Paladin
+  country: cn
+  content_languages:
+    - cn
   content_platforms:
-    - Twitch: "https://www.twitch.tv/sebastian2002"
+    - Douyu: "https://www.douyu.com/294359"
   info_platforms:
-    - Liquipedia: Sebastian2002
-    - AoeElo: 936
+    - Liquipedia: Paladin
+    - AoeElo: 20
   gaming_profiles:
     - Aoe2:
         - De:
-            - "2783660"
-            - "5194815"
-            - "4541520"
-            - "3392644"
-        - Voobly: []
+            - "210601"
+        - Voobly:
+            - "123835916"
+            - "179227"
     - Aoe4: []
-- name: StonePlease
-  country: de
+- name: PeEl
+  country: pl
   content_languages:
-    - de
+    - pl
   info_platforms:
-    - Liquipedia: StonePleaseAoE
-    - AoeElo: 642
+    - Liquipedia: PeEl
+    - AoeElo: 281
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "339835"
-            - "858709"
-            - "3654037"
-            - "3712481"
-        - Voobly: []
+        - De: []
+        - Voobly:
+            - "15886"
     - Aoe4: []
-- name: The_queen
-  country: ru
+- name: Pela
+  country: ar
   content_languages:
-    - ru
+    - ar
   content_platforms:
-    - Twitch: "https://www.twitch.tv/the_queen_aoe"
+    - Twitch: "https://www.twitch.tv/pela_aoe"
+    - Youtube: "http://www.youtube.com/channel/UCzhzve1YE9Mq5tIsQbG48XA/videos"
   info_platforms:
-    - Liquipedia: The_queen
-    - AoeElo: 802
+    - Liquipedia: Pela
+    - AoeElo: 784
   gaming_profiles:
     - Aoe2:
         - De:
-            - "1274728"
+            - "219739"
+            - "2821779"
+            - "5093301"
         - Voobly: []
     - Aoe4: []
-- name: TheSniper_AOE
-  country: fr
+- name: Pike
+  country: fi
   content_languages:
-    - fr
+    - fi
   content_platforms:
-    - Twitch: "https://www.twitch.tv/thesniper_aoe"
-    - Youtube: "http://www.youtube.com/channel/UCzgJM0WSVuw2Ks9XjTmGxIQ"
+    - Twitch: "https://www.twitch.tv/pikeaoc"
   info_platforms:
-    - Liquipedia: TheSniper_AOE
-    - AoeElo: 627
+    - Liquipedia: NorthernPike
+    - AoeElo: 44
   gaming_profiles:
     - Aoe2:
         - De:
-            - "219493"
-        - Voobly: []
+            - "229063"
+            - "3457608"
+        - Voobly:
+            - "123162283"
+            - "123947524"
+            - "123950294"
     - Aoe4: []
-- name: Tileä
-  country: nz
+- name: Playboy
+  country: cn
   content_languages:
-    - nz
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/tilea"
-  info_platforms:
-    - Liquipedia: Tileä
+    - cn
   gaming_profiles:
     - Aoe2:
-        - De:
-            - "2429037"
+        - De: []
         - Voobly: []
     - Aoe4: []
-- name: TinyTriss
-  country: at
-  content_languages:
-    - at
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/tinytriss"
-    - Youtube: "http://www.youtube.com/channel/UCpu3umqSx5cA2qkvWCUp02w"
-  info_platforms:
-    - Liquipedia: TinyTriss
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "236934"
-        - Voobly: []
-    - Aoe4: []
-- name: kaaaai_
+- name: PoLaR
   country: gb
   content_languages:
     - gb
   content_platforms:
-    - Twitch: "https://www.twitch.tv/kaaaai_"
+    - Twitch: "https://www.twitch.tv/wbpolar"
   info_platforms:
-    - Liquipedia: kaaaai_
+    - Liquipedia: PoLaR
   gaming_profiles:
     - Aoe2:
         - De:
-            - "3436170"
-            - "3367513"
+            - "1802779"
         - Voobly: []
     - Aoe4: []
-- name: noboru
-  country: jp
+- name: Poisn
+  country: ca
   content_languages:
-    - jp
+    - ca
+  info_platforms:
+    - Liquipedia: Poisn
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3384231"
+        - Voobly:
+            - "12597"
+    - Aoe4: []
+- name: Ppoc
+  country: es
+  content_languages:
+    - es
+  info_platforms:
+    - AoeElo: 328
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Praxes
+  country: us
+  content_languages:
+    - us
+  info_platforms:
+    - Liquipedia: Praxes
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Puerco Black
+  country: mx
+  content_languages:
+    - mx
   content_platforms:
-    - Twitch: "https://www.twitch.tv/noboru43xxxx"
+    - Twitch: "https://www.twitch.tv/puerco_black"
   info_platforms:
-    - Liquipedia: noboru43
+    - Liquipedia: Puerco_Black
+    - AoeElo: 632
   gaming_profiles:
     - Aoe2:
         - De:
-            - "232208"
+            - "580573"
+            - "2717438"
+            - "4388039"
+        - Voobly:
+            - "123797075"
+    - Aoe4: []
+- name: RD_ChampioN
+  country: kr
+  content_languages:
+    - kr
+  info_platforms:
+    - Liquipedia: RD_ChampioN
+    - AoeElo: 387
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "180938"
+    - Aoe4: []
+- name: RIP_Dreams
+  country: nl
+  content_languages:
+    - nl
+  info_platforms:
+    - AoeElo: 371
+  gaming_profiles:
+    - Aoe2:
+        - De: []
         - Voobly: []
     - Aoe4: []
-- name: wAkKo
-  country: cl
+- name: Ra
+  country: ca
   content_languages:
-    - cl
+    - ca
   content_platforms:
-    - Twitch: "https://www.twitch.tv/wakko_aoe"
+    - Twitch: "https://www.twitch.tv/ra_aoe"
   info_platforms:
-    - Liquipedia: wAkKo
-    - AoeElo: 150
+    - Liquipedia: Ra
+    - AoeElo: 148
   gaming_profiles:
     - Aoe2:
         - De:
-            - "267597"
+            - "1098178"
+        - Voobly:
+            - "47262"
+            - "127366"
+    - Aoe4: []
+- name: RaYaN
+  country: kz
+  content_languages:
+    - kz
+  info_platforms:
+    - Liquipedia: RaYaN
+    - AoeElo: 367
+  gaming_profiles:
+    - Aoe2:
+        - De: []
         - Voobly: []
     - Aoe4: []
-- name: Ubetnir
-  country: tr
+- name: Ralber
+  country: es
   content_languages:
-    - tr
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ralbertv"
   info_platforms:
-    - AoeElo: 900
+    - Liquipedia: Ralber
+    - AoeElo: 302
   gaming_profiles:
     - Aoe2:
         - De:
-            - "6069513"
-            - "3392033"
-            - "4670972"
-        - Voobly: []
+            - "2535067"
+        - Voobly:
+            - "11182"
+            - "24950"
+    - Aoe4: []
+- name: Rami
+  country: il
+  content_languages:
+    - il
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123701126"
     - Aoe4: []
 - name: Rammyy
   country: tr
@@ -5184,19 +3678,123 @@
             - "125101795"
             - "124199201"
     - Aoe4: []
-- name: Tomate
-  country: es
+- name: RecoN
+  country: gb
   content_languages:
-    - es
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/tomateaoe"
+    - gb
   info_platforms:
-    - AoeElo: 967
+    - Liquipedia: RecoN
+    - AoeElo: 962
   gaming_profiles:
     - Aoe2:
         - De:
-            - "77944"
+            - "280459"
+            - "985308"
+        - Voobly:
+            - "123514787"
+    - Aoe4: []
+- name: RediRodion
+  country: pl
+  content_languages:
+    - pl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/redirodion"
+    - Youtube: "http://www.youtube.com/channel/UC48BWPsl4g3hSSm2OxxmxXg"
+  info_platforms:
+    - Liquipedia: RediRodion
+    - AoeElo: 744
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1670171"
         - Voobly: []
+    - Aoe4: []
+- name: Repard
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/repard"
+  info_platforms:
+    - Liquipedia: Repard
+    - AoeElo: 245
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "222528"
+        - Voobly:
+            - "123765859"
+    - Aoe4: []
+- name: Rex
+  country: pl
+  content_languages:
+    - pl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tr_rex_"
+    - Youtube: "https://www.youtube.com/channel/UCIQg67br-zXRxyrFRwbfBsQ"
+  info_platforms:
+    - Liquipedia: Rex
+    - AoeElo: 609
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1390516"
+            - "2386652"
+        - Voobly: []
+    - Aoe4: []
+- name: Ripvanwinkle
+  country: tr
+  content_languages:
+    - tr
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1820205"
+            - "3853480"
+        - Voobly:
+            - "133845"
+    - Aoe4: []
+- name: Rise
+  country: it
+  content_languages:
+    - it
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/riseaoe2"
+  info_platforms:
+    - Liquipedia: Rise
+    - AoeElo: 619
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1428813"
+            - "210388"
+            - "4799335"
+        - Voobly: []
+    - Aoe4: []
+- name: RiuT
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/riut_aoe"
+    - Youtube: "https://www.youtube.com/channel/UCWk47NDwrg9p696-Usiv8fw"
+  info_platforms:
+    - Liquipedia: RiuT
+    - AoeElo: 3
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "673196"
+        - Voobly:
+            - "56531"
+            - "123696164"
+            - "123747533"
+            - "84542"
+            - "11896"
+            - "86350"
+            - "8643"
+            - 125129995-10
+            - "124340884"
     - Aoe4: []
 - name: Rmcoo
   country: lt
@@ -5216,96 +3814,33 @@
             - "123664415"
             - "125205934"
     - Aoe4: []
-- name: ThisLove
-  country: vn
+- name: Rodrigus
+  country: ar
   content_languages:
-    - vn
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2508809"
-            - "3386065"
-            - "5637473"
-        - Voobly: []
-    - Aoe4: []
-- name: AnTiDeMoN
-  country: br
-  content_languages:
-    - br
+    - ar
   info_platforms:
-    - AoeElo: 901
+    - AoeElo: 449
   gaming_profiles:
     - Aoe2:
         - De:
-            - "238641"
-            - "5375392"
-            - "2659351"
+            - "2495166"
+            - "1143001"
         - Voobly:
-            - "124651224"
+            - "5469"
     - Aoe4: []
-- name: Yasin
-  country: tr
+- name: Rodrigus
+  country: ar
   content_languages:
-    - tr
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2944434"
-            - "5829363"
-        - Voobly: []
-    - Aoe4: []
-- name: TurkEycof
-  country: tr
-  content_languages:
-    - tr
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/turkeycof_aoe"
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2183026"
-            - "4461247"
-        - Voobly: []
-    - Aoe4: []
-- name: GLX_Rusher
-  country: tr
-  content_languages:
-    - tr
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/glx_rusher"
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "788320"
-            - "3527288"
-        - Voobly: []
-    - Aoe4: []
-- name: Albis
-  country: tw
-  content_languages:
-    - tw
+    - ar
   info_platforms:
-    - Liquipedia: Albis
-    - AoeElo: 1132
+    - AoeElo: 449
   gaming_profiles:
     - Aoe2:
         - De:
-            - "528141"
-        - Voobly: []
-    - Aoe4: []
-- name: PoLaR
-  country: gb
-  content_languages:
-    - gb
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/wbpolar"
-  info_platforms:
-    - Liquipedia: PoLaR
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1802779"
-        - Voobly: []
+            - "2495166"
+            - "1143001"
+        - Voobly:
+            - "5469"
     - Aoe4: []
 - name: RollsRoyce
   country: vn
@@ -5319,74 +3854,87 @@
             - "1763704"
         - Voobly: []
     - Aoe4: []
-- name: Valak
-  country: cl
+- name: RookStar
+  country: br
   content_languages:
-    - cl
+    - br
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2265942"
+            - "2948283"
+        - Voobly: []
+    - Aoe4: []
+- name: Roxy
+  country: ar
+  content_languages:
+    - ar
   content_platforms:
-    - Twitch: "https://www.twitch.tv/imvalak"
-  info_platforms:
-    - Liquipedia: Valak
+    - Twitch: "https://www.twitch.tv/roxyc"
   gaming_profiles:
     - Aoe2:
         - De:
-            - "3085163"
+            - "4796235"
         - Voobly: []
     - Aoe4: []
-- name: Ripvanwinkle
-  country: tr
+- name: Rubenstock
+  country: fi
   content_languages:
-    - tr
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1820205"
-            - "3853480"
-        - Voobly:
-            - "133845"
-    - Aoe4: []
-- name: MORG_11
-  country: ru
-  content_languages:
-    - ru
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1773197"
-        - Voobly:
-            - "124381545"
-            - "125033680"
-            - "125196962"
-            - "125206801"
-    - Aoe4: []
-- name: Chrazini
-  country: dk
-  content_languages:
-    - dk
-  info_platforms:
-    - Liquipedia: Chrazini
-    - AoeElo: 854
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "208418"
-        - Voobly: []
-    - Aoe4: []
-- name: RediRodion
-  country: pl
-  content_languages:
-    - pl
+    - fi
   content_platforms:
-    - Twitch: "https://www.twitch.tv/redirodion"
-    - Youtube: "http://www.youtube.com/channel/UC48BWPsl4g3hSSm2OxxmxXg"
+    - Twitch: "https://www.twitch.tv/rubenstock"
   info_platforms:
-    - Liquipedia: RediRodion
-    - AoeElo: 744
+    - Liquipedia: Rubenstock
+    - AoeElo: 53
   gaming_profiles:
     - Aoe2:
         - De:
-            - "1670171"
+            - "431744"
+        - Voobly:
+            - "123417449"
+    - Aoe4: []
+- name: Rukie
+  country: es
+  content_languages:
+    - es
+  info_platforms:
+    - Liquipedia: RuKie
+    - AoeElo: 279
+  gaming_profiles:
+    - Aoe2:
+        - De: []
         - Voobly: []
+    - Aoe4: []
+- name: Running
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - Liquipedia: Running
+    - AoeElo: 616
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "256338"
+            - "4620061"
+        - Voobly:
+            - "125045236"
+    - Aoe4: []
+- name: Ruso
+  country: es
+  content_languages:
+    - es
+  info_platforms:
+    - Liquipedia: Ruso
+    - AoeElo: 168
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1997593"
+        - Voobly:
+            - "123453296"
+            - "9627"
+            - "22303"
     - Aoe4: []
 - name: SaladEsc
   country: dk
@@ -5403,34 +3951,187 @@
             - "215498"
         - Voobly: []
     - Aoe4: []
-- name: V1stima
+- name: Scogo
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/scogo"
+  info_platforms:
+    - Liquipedia: Scogo
+    - AoeElo: 247
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "208217"
+            - "900950"
+            - "282660"
+        - Voobly:
+            - "124536623"
+    - Aoe4: []
+- name: Scotty
+  country: us
+  content_languages:
+    - us
+  info_platforms:
+    - AoeElo: 78
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "301918"
+            - "2855233"
+            - "4672953"
+            - "5653549"
+        - Voobly:
+            - "124827272"
+    - Aoe4: []
+- name: Sebastian2002
+  country: uy
+  content_languages:
+    - uy
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/sebastian2002"
+  info_platforms:
+    - Liquipedia: Sebastian2002
+    - AoeElo: 936
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2783660"
+            - "5194815"
+            - "4541520"
+            - "3392644"
+        - Voobly: []
+    - Aoe4: []
+- name: Seoul
+  country: vn
+  content_languages:
+    - vn
+  info_platforms:
+    - AoeElo: 143
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Shades
+  country: it
+  content_languages:
+    - it
+  info_platforms:
+    - AoeElo: 754
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2462063"
+            - "1793493"
+            - "4367756"
+            - "5722641"
+        - Voobly: []
+    - Aoe4: []
+- name: Shiri
+  country: kr
+  content_languages:
+    - kr
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Sitaux
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/sitaux"
+    - Youtube: "http://www.youtube.com/channel/UCyRoER5J4CNYnpvxMy8zmvA"
+  info_platforms:
+    - Liquipedia: Sitaux
+    - AoeElo: 12
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1311198"
+            - "212721"
+            - "1630401"
+            - "4351237"
+            - "1630401"
+            - "5230833"
+            - "5845322"
+        - Voobly:
+            - "125241102"
+            - "124313135"
+            - "124216278"
+            - "124728574"
+            - "124653323"
+    - Aoe4: []
+- name: Skittle
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - Liquipedia: Skittle
+    - AoeElo: 122
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "992381"
+        - Voobly:
+            - "123225139"
+            - "2976"
+    - Aoe4: []
+- name: Skull
+  country: cz
+  content_languages:
+    - cz
+  info_platforms:
+    - Liquipedia: Skull
+    - AoeElo: 219
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "369536"
+        - Voobly:
+            - "2016"
+    - Aoe4: []
+- name: Slam
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/slamjam_"
+    - Youtube: "https://www.youtube.com/channel/UC15K06FB4EO98AMBYqraQ3w"
+  info_platforms:
+    - Liquipedia: slam
+    - AoeElo: 32
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "614315"
+        - Voobly:
+            - "123497926"
+            - "123806830"
+            - "123129489"
+            - "124110342"
+            - 125129979-3
+    - Aoe4: []
+- name: Sobek
   country: cl
   content_languages:
     - cl
   content_platforms:
-    - Twitch: "https://www.twitch.tv/chileaoe"
-    - Youtube: "http://www.youtube.com/Chileaoe"
+    - Twitch: "https://www.twitch.tv/sobekaoe"
+    - Youtube: "http://www.youtube.com/channel/UCVH-sSxnCZtqJJmbtggTCxQ/feed"
   info_platforms:
-    - Liquipedia: V1stima
+    - Liquipedia: Sobek
+    - AoeElo: 499
   gaming_profiles:
     - Aoe2:
         - De:
-            - "211236"
-        - Voobly: []
-    - Aoe4: []
-- name: Fish
-  country: vn
-  content_languages:
-    - vn
-  content_platforms:
-    - Twitch: "https://www.twitch.tv/fishvnn"
-  info_platforms:
-    - AoeElo: 241
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "2821727"
-        - Voobly: []
+            - "290617"
+            - "2598137"
+        - Voobly:
+            - "124317014"
     - Aoe4: []
 - name: Somero
   country: cz
@@ -5447,44 +4148,281 @@
         - Voobly:
             - "123975305"
     - Aoe4: []
-- name: Emil
-  country: dk
-  content_languages:
-    - dk
-  info_platforms:
-    - AoeElo: 938
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "862991"
-            - "5221317"
-        - Voobly:
-            - "123197577"
-    - Aoe4: []
-- name: Falcao
-  country: br
-  content_languages:
-    - br
-  gaming_profiles:
-    - Aoe2:
-        - De:
-            - "1829213"
-            - "3038783"
-        - Voobly: []
-    - Aoe4: []
-- name: Mr.Bean
+- name: SongSong
   country: vn
   content_languages:
     - vn
   content_platforms:
-    - FacebookGaming: "https://www.facebook.com/gaming/DrBinbin"
+    - Twitch: "https://www.twitch.tv/songsongaoede"
   info_platforms:
-    - AoeElo: 814
+    - Liquipedia: SongSong
+    - AoeElo: 852
   gaming_profiles:
     - Aoe2:
         - De:
-            - "4129633"
-            - "1200049"
+            - "2733015"
+            - "3956300"
+        - Voobly:
+            - "123505495"
+            - "123890962"
+            - "123546355"
+            - "124375121"
+            - "123532179"
+            - "124626542"
+            - "125009949"
+    - Aoe4: []
+- name: Sora Kuma
+  country: tw
+  content_languages:
+    - tw
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/skyandpeace"
+  info_platforms:
+    - Liquipedia: Sora Kuma
+    - AoeElo: 445
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "209118"
+            - "712465"
+        - Voobly: []
+    - Aoe4: []
+- name: SoraK
+  country: cl
+  content_languages:
+    - cl
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Spaden
+  country: se
+  content_languages:
+    - se
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/spadenaoc"
+  info_platforms:
+    - Liquipedia: Spaden
+    - AoeElo: 65
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "248441"
+        - Voobly:
+            - "123210474"
+            - "124166791"
+    - Aoe4: []
+- name: Spring
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/springtv"
+    - Youtube: "http://www.youtube.com/channel/UCDNmFkR-F0SLkIB-JlbWWlg"
+    - Discord: "https://discord.gg/MrNwsQB"
+  info_platforms:
+    - Liquipedia: Spring
+    - AoeElo: 13
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "235623"
+            - "1766301"
+        - Voobly:
+            - "3867"
+            - "124002307"
+            - "123821562"
+            - "123339272"
+            - "3867"
+            - "480"
+            - "123273372"
+            - "124781271"
+    - Aoe4: []
+- name: St4rk
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/st4rk_"
+    - Youtube: "https://www.youtube.com/channel/UCoX5HqFM4qEGJYfj0TEOIpg"
+    - Discord: "https://discord.gg/K4VEGWC"
+  info_platforms:
+    - Liquipedia: St4rk
+    - AoeElo: 18
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "986504"
+            - "3884287"
+        - Voobly:
+            - "123409476"
+            - "125107343"
+            - "123204710"
+    - Aoe4: []
+- name: Stefan
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - Liquipedia: Stefan
+    - AoeElo: 103
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "370776"
+            - "1832072"
+            - "1221228"
+            - "1597337"
+        - Voobly:
+            - "124499797"
+    - Aoe4: []
+- name: StonePlease
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - Liquipedia: StonePleaseAoE
+    - AoeElo: 642
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "339835"
+            - "858709"
+            - "3654037"
+            - "3712481"
+        - Voobly: []
+    - Aoe4: []
+- name: StrayDog
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: StrayDog
+    - AoeElo: 64
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "716717"
+        - Voobly:
+            - "124489527"
+            - "124297679"
+            - "9747"
+            - "124862194"
+            - "128633"
+            - "125403511"
+    - Aoe4: []
+- name: Survivalist
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/survivalistaoe2de"
+    - Youtube: "https://www.youtube.com/channel/UCmFJUeU8Oubp5Neldbq0JRA"
+    - Discord: "https://discord.gg/2uJ5Tyh"
+  info_platforms:
+    - Liquipedia: Survivalist
+    - AoeElo: 656
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "247224"
+        - Voobly: []
+    - Aoe4: []
+- name: Sutra
+  country: us
+  content_languages:
+    - us
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: T90
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/t90official"
+    - Youtube: "https://www.youtube.com/t90official"
+    - FacebookGaming: "https://www.facebook.com/gaming/t90official"
+    - Discord: "https://discord.gg/t90official"
+  info_platforms:
+    - Liquipedia: T90Official
+    - AoeElo: 498
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "197930"
+            - "951203"
+        - Voobly:
+            - "124236797"
+    - Aoe4: []
+- name: TaToH
+  country: es
+  content_languages:
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tatohaoe"
+    - Youtube: "https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg"
+  info_platforms:
+    - Liquipedia: TaToH
+    - AoeElo: 31
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "197388"
+            - "968255"
+            - "1819863"
+            - "3033716"
+            - "5317568"
+        - Voobly:
+            - "123999216"
+            - "125366410"
+            - "123347503"
+            - "125129995"
+            - 125129998-12
+            - "947"
+            - "124199973"
+    - Aoe4: []
+- name: TaoPaiPai
+  country: gt
+  content_languages:
+    - gt
+  info_platforms:
+    - AoeElo: 928
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2614814"
+            - "2760394"
+        - Voobly:
+            - "124772915"
+    - Aoe4: []
+- name: Tatakae
+  country: mx
+  content_languages:
+    - mx
+  info_platforms:
+    - Liquipedia: Mexican_Psycho
+    - AoeElo: 504
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "560474"
+        - Voobly:
+            - "124546027"
+    - Aoe4: []
+- name: The Bloodless
+  country: us
+  content_languages:
+    - us
+  info_platforms:
+    - AoeElo: 722
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "178430"
         - Voobly: []
     - Aoe4: []
 - name: The Illusionist
@@ -5500,23 +4438,122 @@
             - "4122888"
         - Voobly: []
     - Aoe4: []
-- name: FlyLikeDjango
-  country: de
+- name: TheCode
+  country: tr
   content_languages:
-    - de
+    - tr
   content_platforms:
-    - Twitch: "https://www.twitch.tv/flylikedjango"
-    - Youtube: "https://www.youtube.com/channel/UC7li9aVSk8b94hNEZdDPAcg"
-    - Discord: "https://discord.gg/HXFSj2R"
+    - Twitch: "https://www.twitch.tv/TheCode_AoE"
   info_platforms:
-    - Liquipedia: FlyLikeDjango
-    - AoeElo: 831
+    - Liquipedia: TheCode
   gaming_profiles:
     - Aoe2:
         - De:
-            - "4865222"
-            - "3014554"
-            - "1826067"
+            - "1529495"
+            - "2864065"
+            - "489128"
+        - Voobly:
+            - "123369268"
+    - Aoe4: []
+- name: TheMax
+  country: fi
+  content_languages:
+    - fi
+  info_platforms:
+    - Liquipedia: TheMax
+    - AoeElo: 52
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "572017"
+            - "1832996"
+        - Voobly:
+            - "123282211"
+            - "39623"
+            - "123636616"
+            - "125129980"
+    - Aoe4: []
+- name: TheSniper_AOE
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/thesniper_aoe"
+    - Youtube: "http://www.youtube.com/channel/UCzgJM0WSVuw2Ks9XjTmGxIQ"
+  info_platforms:
+    - Liquipedia: TheSniper_AOE
+    - AoeElo: 627
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "219493"
+        - Voobly: []
+    - Aoe4: []
+- name: TheViper
+  country: "no"
+  content_languages:
+    - "no"
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/theviper"
+    - Youtube: "https://www.youtube.com/user/TheViperAOC"
+    - FacebookGaming: "https://www.facebook.com/gaming/theviper"
+    - Discord: "https://discord.gg/WNmHUEH"
+  info_platforms:
+    - Liquipedia: TheViper
+    - AoeElo: 29
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "196240"
+            - "1827609"
+            - "6020446"
+        - Voobly:
+            - "123211439"
+            - "123529195"
+            - "123286363"
+            - "123164797"
+            - "123262516"
+            - "124706302"
+            - 125129980-4
+            - "125129978"
+            - "123906517"
+            - "124638756"
+            - "124341240"
+    - Aoe4: []
+- name: The_Sheriff
+  country: us
+  content_languages:
+    - us
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: The_queen
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/the_queen_aoe"
+  info_platforms:
+    - Liquipedia: The_queen
+    - AoeElo: 802
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1274728"
+        - Voobly: []
+    - Aoe4: []
+- name: ThisLove
+  country: vn
+  content_languages:
+    - vn
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2508809"
+            - "3386065"
+            - "5637473"
         - Voobly: []
     - Aoe4: []
 - name: TieuQuy
@@ -5529,14 +4566,977 @@
             - "2593750"
         - Voobly: []
     - Aoe4: []
-- name: Good Luck
-  country: dk
+- name: Tileä
+  country: nz
   content_languages:
-    - dk
+    - nz
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tilea"
+  info_platforms:
+    - Liquipedia: Tileä
   gaming_profiles:
     - Aoe2:
         - De:
-            - "689666"
-            - "4877844"
+            - "2429037"
         - Voobly: []
+    - Aoe4: []
+- name: Tim
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: Tim
+    - AoeElo: 33
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "534438"
+            - "1369485"
+            - "6252391"
+        - Voobly:
+            - "182612"
+            - "125129993"
+            - "124367119"
+            - "123882867"
+            - "43680"
+            - "123536800"
+    - Aoe4: []
+- name: TinyTriss
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tinytriss"
+    - Youtube: "http://www.youtube.com/channel/UCpu3umqSx5cA2qkvWCUp02w"
+  info_platforms:
+    - Liquipedia: TinyTriss
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "236934"
+        - Voobly: []
+    - Aoe4: []
+- name: Tomate
+  country: es
+  content_languages:
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tomateaoe"
+  info_platforms:
+    - AoeElo: 967
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "77944"
+        - Voobly: []
+    - Aoe4: []
+- name: "True"
+  country: us
+  content_languages:
+    - us
+  info_platforms:
+    - Liquipedia: "True"
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "584824"
+        - Voobly:
+            - "123188321"
+    - Aoe4: []
+- name: TurkEycof
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/turkeycof_aoe"
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2183026"
+            - "4461247"
+        - Voobly: []
+    - Aoe4: []
+- name: Tushen
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 1028
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2544010"
+            - "599657"
+            - "2343109"
+            - "3212404"
+        - Voobly: []
+    - Aoe4: []
+- name: Twigg
+  country: ar
+  content_languages:
+    - ar
+  info_platforms:
+    - Liquipedia: Twigg
+    - AoeElo: 92
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2621722"
+        - Voobly:
+            - "124042289"
+            - "123784980"
+            - "123975630"
+    - Aoe4: []
+- name: USb
+  country: mx
+  content_languages:
+    - mx
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kingston_aoe"
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2938425"
+            - "3253348"
+            - "2776293"
+            - "4957841"
+        - Voobly: []
+    - Aoe4: []
+- name: Ubetnir
+  country: tr
+  content_languages:
+    - tr
+  info_platforms:
+    - AoeElo: 900
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "6069513"
+            - "3392033"
+            - "4670972"
+        - Voobly: []
+    - Aoe4: []
+- name: Ugnis
+  country: lt
+  content_languages:
+    - lt
+  info_platforms:
+    - Liquipedia: Ugnis
+    - AoeElo: 361
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "170776"
+    - Aoe4: []
+- name: Uzzi
+  country: mx
+  content_languages:
+    - mx
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/uzzi_aoe"
+    - Youtube: "http://www.youtube.com/channel/UCvzCDwMm2unSNpW-PGnmTZA"
+  info_platforms:
+    - Liquipedia: Uzzi
+    - AoeElo: 502
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "229071"
+            - "2873733"
+            - "2136214"
+            - "4785288"
+            - "5021401"
+            - "3583533"
+            - "2621863"
+        - Voobly:
+            - "124655527"
+    - Aoe4: []
+- name: V1stima
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/chileaoe"
+    - Youtube: "http://www.youtube.com/Chileaoe"
+  info_platforms:
+    - Liquipedia: V1stima
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "211236"
+        - Voobly: []
+    - Aoe4: []
+- name: Valak
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/imvalak"
+  info_platforms:
+    - Liquipedia: Valak
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3085163"
+        - Voobly: []
+    - Aoe4: []
+- name: Valas
+  country: fi
+  content_languages:
+    - fi
+  info_platforms:
+    - Liquipedia: Valas
+    - AoeElo: 853
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "628503"
+        - Voobly:
+            - "124806109"
+            - "124493950"
+            - "124245294"
+    - Aoe4: []
+- name: Valeria Huesca
+  country: mx
+  content_languages:
+    - mx
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/valeriahuesca"
+    - Youtube: "https://www.youtube.com/channel/UCDAwFPixAVPrUogkwhN0iAg"
+    - Discord: "https://discord.gg/z7Pvx7g"
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "410691"
+        - Voobly: []
+    - Aoe4: []
+- name: Vile
+  country: my
+  content_languages:
+    - my
+  info_platforms:
+    - Liquipedia: Vile
+    - AoeElo: 418
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Villese
+  country: fi
+  content_languages:
+    - fi
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/villese"
+  info_platforms:
+    - Liquipedia: Villese
+    - AoeElo: 51
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "208611"
+            - "1829715"
+        - Voobly:
+            - "124166670"
+            - "124240093"
+            - "125129990"
+    - Aoe4: []
+- name: Vinch
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/salzz_vinchester"
+    - Youtube: "http://www.youtube.com/channel/UCm3BAnotyqfdvm6sO5bs18g"
+  info_platforms:
+    - Liquipedia: Vinchester
+    - AoeElo: 55
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "271202"
+            - "2886954"
+            - "4298865"
+        - Voobly:
+            - "123397463"
+            - "124170820"
+    - Aoe4: []
+- name: Vivi
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/1052202"
+  info_platforms:
+    - Liquipedia: Vivi
+    - AoeElo: 35
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "215442"
+            - "1432837"
+            - "1829738"
+            - "3109523"
+            - "3077860"
+            - "2007655"
+            - "5602224"
+            - "6109694"
+        - Voobly:
+            - "123493096"
+            - "123303397"
+            - "125129996"
+            - 125129996-11
+    - Aoe4: []
+- name: Vodka
+  country: it
+  content_languages:
+    - it
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/vodka_l_"
+  info_platforms:
+    - Liquipedia: Vodka_L_
+    - AoeElo: 129
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "599689"
+            - "2428811"
+            - "4497383"
+            - "5632575"
+        - Voobly:
+            - "123841591"
+            - "123946886"
+            - "125271720"
+            - "123793404"
+    - Aoe4: []
+- name: WaRRioR
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/salzz_warrior"
+    - Youtube: "http://www.youtube.com/channel/UCGWx5EtnIi_uOpL2_AuNJrg?view_as=subscriber"
+  info_platforms:
+    - Liquipedia: WaRRioR
+    - AoeElo: 118
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1626982"
+            - "2915171"
+        - Voobly:
+            - "123204531"
+    - Aoe4: []
+- name: Whitecourt
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/whitecourtt"
+  info_platforms:
+    - Liquipedia: Whitecourt
+    - AoeElo: 67
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3101322"
+            - "5057225"
+        - Voobly: []
+    - Aoe4: []
+- name: Whocl
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/whoclaoe"
+  info_platforms:
+    - Liquipedia: Whocl
+    - AoeElo: 501
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2309468"
+            - "2718358"
+            - "5303040"
+            - "3422495"
+            - "5703266"
+            - "6187727"
+        - Voobly:
+            - "124423933"
+    - Aoe4: []
+- name: Whoop
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: Whoop
+    - AoeElo: 59
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2783258"
+        - Voobly:
+            - "123236765"
+            - "11387"
+            - "124560899"
+            - "124897713"
+    - Aoe4: []
+- name: Win_wu_kong
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 162
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "551488"
+        - Voobly:
+            - "123226583"
+    - Aoe4: []
+- name: Windy
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: Windy
+    - AoeElo: 327
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "123429442"
+    - Aoe4: []
+- name: Wisepii
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/wisepii"
+  info_platforms:
+    - Liquipedia: Wisepii
+    - AoeElo: 748
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1264695"
+            - "3379989"
+        - Voobly:
+            - "123911641"
+    - Aoe4: []
+- name: WraTh
+  country: br
+  content_languages:
+    - br
+  info_platforms:
+    - Liquipedia: WraTh
+    - AoeElo: 336
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Xhing
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/adam_aoe"
+    - Discord: "https://discord.gg/MusuEz"
+  info_platforms:
+    - AoeElo: 76
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "611972"
+            - "3229922"
+        - Voobly:
+            - "124835966"
+            - "124725130"
+    - Aoe4: []
+- name: Xiaofan
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: Xiaofan
+    - AoeElo: 36
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "563078"
+        - Voobly:
+            - "70212"
+    - Aoe4: []
+- name: Xiaohai
+  country: cn
+  content_languages:
+    - cn
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3044106"
+        - Voobly:
+            - "124531503"
+    - Aoe4: []
+- name: Xiaoxiong
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 42
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2344276"
+        - Voobly:
+            - "123482913"
+            - "124654721"
+    - Aoe4: []
+- name: YYQ
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 355
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Yanzi
+  country: hk
+  content_languages:
+    - hk
+  info_platforms:
+    - Liquipedia: Chun_Yu
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: Yasin
+  country: tr
+  content_languages:
+    - tr
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2944434"
+            - "5829363"
+        - Voobly: []
+    - Aoe4: []
+- name: Yellow
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/saymyname2909"
+    - Youtube: "http://www.youtube.com/channel/UCjIqdH3_66fmTIjFDtBM_pg"
+  info_platforms:
+    - Liquipedia: saymyname
+    - AoeElo: 15
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "419803"
+        - Voobly:
+            - "124390868"
+            - "123174138"
+            - "123422426"
+            - "165563"
+            - "123193037"
+            - "123991049"
+            - "124793331"
+    - Aoe4: []
+- name: Yinghua
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/953871"
+  info_platforms:
+    - Liquipedia: LoveCheng
+    - AoeElo: 54
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2806260"
+        - Voobly:
+            - "123910183"
+            - "195356"
+            - "127665"
+            - "124341169"
+    - Aoe4: []
+- name: Yo
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/753676"
+  info_platforms:
+    - Liquipedia: Yo
+    - AoeElo: 19
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "197964"
+            - "337428"
+            - "1829754"
+        - Voobly:
+            - "123636492"
+            - 125129990-7
+            - "125227711"
+            - "124341168"
+    - Aoe4: []
+- name: Zeal
+  country: se
+  content_languages:
+    - se
+  info_platforms:
+    - AoeElo: 321
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "17368"
+    - Aoe4: []
+- name: Zuppi
+  country: fi
+  content_languages:
+    - fi
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/zuppiaoe"
+    - Youtube: "https://www.youtube.com/channel/UCxAQeu2SrQjK8-As4-gc9Lg"
+  info_platforms:
+    - Liquipedia: Zuppi
+    - AoeElo: 50
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "575722"
+        - Voobly:
+            - "123961442"
+    - Aoe4: []
+- name: ashleylynn
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/aoc_ashleylynn"
+    - Discord: "https://discord.gg/DFBYNfG"
+  info_platforms:
+    - Liquipedia: Ashleylynn
+    - AoeElo: 889
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "283233"
+            - "674899"
+            - "1602128"
+            - "4020280"
+        - Voobly:
+            - "123866515"
+    - Aoe4: []
+- name: black_bear
+  country: cn
+  content_languages:
+    - cn
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: chaos_2_win
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - AoeElo: 73
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "4012008"
+        - Voobly:
+            - "123738456"
+    - Aoe4: []
+- name: classicpro
+  country: ua
+  content_languages:
+    - ua
+  info_platforms:
+    - Liquipedia: classicpro
+    - AoeElo: 99
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "1755520"
+            - "1754629"
+        - Voobly:
+            - "124075494"
+            - "124240304"
+            - "125024125"
+    - Aoe4: []
+- name: czczcz
+  country: kr
+  content_languages:
+    - kr
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "620454"
+            - "2777792"
+            - "2684072"
+        - Voobly: []
+    - Aoe4: []
+- name: dogao
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/dogaoaoe"
+    - Youtube: "http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g"
+  info_platforms:
+    - Liquipedia: dogao
+    - AoeElo: 4
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "199170"
+            - "1486575"
+            - "1830104"
+            - "6097615"
+        - Voobly:
+            - "123186723"
+            - "123444726"
+            - "124469820"
+            - "125227721"
+            - "124340883"
+    - Aoe4: []
+- name: fatman
+  country: de
+  content_languages:
+    - de
+  info_platforms:
+    - AoeElo: 864
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "215963"
+            - "3163620"
+            - "3472929"
+        - Voobly: []
+    - Aoe4: []
+- name: ffavorite
+  country: us
+  content_languages:
+    - us
+  info_platforms:
+    - Liquipedia: Ffavorite_1
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "509112"
+        - Voobly: []
+    - Aoe4: []
+- name: flightlessbird
+  country: nz
+  content_languages:
+    - nz
+  info_platforms:
+    - AoeElo: 448
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "285508"
+            - "2571777"
+        - Voobly:
+            - "124284205"
+    - Aoe4: []
+- name: geoffrey
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - Liquipedia: Geoffrey
+    - AoeElo: 22
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "25709"
+            - "123714784"
+    - Aoe4: []
+- name: grathwrang
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/grathwrang"
+    - Youtube: "https://www.youtube.com/channel/UCkoG0-9ndERgBXWVkGJIb-A"
+    - Discord: "https://discord.com/invite/Cp94ry9"
+  info_platforms:
+    - Liquipedia: Grathwrang
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "271243"
+        - Voobly: []
+    - Aoe4: []
+- name: hs
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 265
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: kaaaai_
+  country: gb
+  content_languages:
+    - gb
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kaaaai_"
+  info_platforms:
+    - Liquipedia: kaaaai_
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "3436170"
+            - "3367513"
+        - Voobly: []
+    - Aoe4: []
+- name: killpigboy
+  country: cn
+  content_languages:
+    - cn
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "575279"
+        - Voobly:
+            - "125198457"
+    - Aoe4: []
+- name: kkab
+  country: kr
+  content_languages:
+    - kr
+  info_platforms:
+    - AoeElo: 203
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly:
+            - "72440"
+    - Aoe4: []
+- name: klavskis
+  country: lv
+  content_languages:
+    - lv
+  info_platforms:
+    - Liquipedia: Klavskis
+    - AoeElo: 737
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "213534"
+        - Voobly:
+            - "123205226"
+    - Aoe4: []
+- name: l2aGe
+  country: gb
+  content_languages:
+    - gb
+  info_platforms:
+    - Liquipedia: I2aGe
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "217180"
+        - Voobly:
+            - "124045298"
+    - Aoe4: []
+- name: n00b
+  country: ie
+  content_languages:
+    - ie
+  gaming_profiles:
+    - Aoe2:
+        - De: []
+        - Voobly: []
+    - Aoe4: []
+- name: noboru
+  country: jp
+  content_languages:
+    - jp
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/noboru43xxxx"
+  info_platforms:
+    - Liquipedia: noboru43
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "232208"
+        - Voobly: []
+    - Aoe4: []
+- name: pG_Fire
+  country: au
+  content_languages:
+    - au
+  info_platforms:
+    - AoeElo: 369
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2134694"
+        - Voobly: []
+    - Aoe4: []
+- name: seyaren
+  country: cn
+  content_languages:
+    - cn
+  info_platforms:
+    - AoeElo: 37
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "2461090"
+            - "2876803"
+        - Voobly:
+            - "124646628"
+    - Aoe4: []
+- name: wAkKo
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/wakko_aoe"
+  info_platforms:
+    - Liquipedia: wAkKo
+    - AoeElo: 150
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "267597"
+        - Voobly: []
+    - Aoe4: []
+- name: z40305125
+  country: tw
+  content_languages:
+    - tw
+  info_platforms:
+    - AoeElo: 963
+  gaming_profiles:
+    - Aoe2:
+        - De:
+            - "726223"
+            - "3152642"
+            - "1251651"
+            - "2276037"
+        - Voobly:
+            - z40305125
     - Aoe4: []
