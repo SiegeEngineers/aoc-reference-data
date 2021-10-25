@@ -27,6 +27,15 @@ Only notable players may be added. Notability is defined as meeting at least one
 
 Other players may be added based on the maintainer's discretion for the benefit of the community at large.
 
+### Streamer Notability
+
+All content creators and streamers of the Age of Empires universe may be added as long as they have a profile containing *Age of Empires* content on at least _one_ of the following platforms: Twitch, Youtube, Facebook Gaming, Douyu, Discord.
+
+If the content creator has a **gaming profile** for games of the franchise please make sure it is being added as well.
+
+
+
+
 ### Team Notability
 
 Only notable teams may be added. A team is notable if it has at least one player meeting any of the first three player notability requirements.
