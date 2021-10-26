@@ -552,7 +552,10 @@
   esportsearnings: 12243
   aoeelo: 29
   liquipedia: TheViper
-  youtube: https://www.youtube.com/user/TheViperAOC
+  youtube: 
+    - https://www.youtube.com/user/TheViperAOC
+    - https://www.youtube.com/channel/UC2JGnVDJ1WZ_RdqCJX-kK1A
+    - https://www.youtube.com/channel/UCjUwIOOs3FwLeK0zqo_m4FQ
   facebook_gaming: https://www.facebook.com/gaming/theviper
   twitch: https://www.twitch.tv/theviper
   discord: https://discord.gg/WNmHUEH
@@ -3969,9 +3972,11 @@
     de:
     - '521395'
   liquipedia: Sensar
+  twitch: https://www.twitch.tv/asensar
 - name: Zain
   country: au
   platforms:
     de:
     - '221188'
   liquipedia: Zain
+  twitch: https://www.twitch.tv/zainnaik
