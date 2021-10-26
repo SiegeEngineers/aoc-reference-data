@@ -1,0 +1,1426 @@
+---
+- uid: 1
+  player_id: 1
+  name: Av3stan
+  country: in
+  content_languages:
+    - in
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/av3stan"
+    - Youtube: "https://www.youtube.com/channel/UCKGGMVqHFZptA_6mVgfYuag"
+    - Discord: "https://discord.gg/mqc6E4Vs"
+- uid: 2
+  player_id: 2
+  name: MbL
+  country: "no"
+  content_languages:
+    - "no"
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/mblaoc"
+    - Youtube: "http://youtube.com/user/Mortenjeah"
+    - Discord: "https://discord.gg/5cHqGMx"
+- uid: 3
+  player_id: 3
+  name: BacT
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/bact_"
+    - Youtube: "https://www.youtube.com/channel/UCScpQlZKVLdPMFBdd1gXbRQ"
+- uid: 4
+  player_id: 4
+  name: Vivi
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/1052202"
+- uid: 5
+  player_id: 5
+  name: Yo
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/753676"
+- uid: 6
+  player_id: 7
+  name: St4rk
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/st4rk_"
+    - Youtube: "https://www.youtube.com/channel/UCoX5HqFM4qEGJYfj0TEOIpg"
+    - Discord: "https://discord.gg/K4VEGWC"
+- uid: 7
+  player_id: 8
+  name: LaaaaaN
+  country: es
+  content_languages:
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/lan_aoe"
+- uid: 8
+  player_id: 9
+  name: dogao
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/dogaoaoe"
+    - Youtube: "http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g"
+- uid: 9
+  player_id: 10
+  name: TaToH
+  country: es
+  content_languages:
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tatohaoe"
+    - Youtube: "https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg"
+- uid: 10
+  player_id: 11
+  name: Vinch
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/salzz_vinchester"
+    - Youtube: "http://www.youtube.com/channel/UCm3BAnotyqfdvm6sO5bs18g"
+- uid: 11
+  player_id: 12
+  name: Modri
+  country: si
+  content_languages:
+    - si
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/modri_"
+- uid: 12
+  player_id: 14
+  name: Barles
+  country: pl
+  content_languages:
+    - pl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/b4rles"
+- uid: 13
+  player_id: 15
+  name: Yellow
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/saymyname2909"
+    - Youtube: "http://www.youtube.com/channel/UCjIqdH3_66fmTIjFDtBM_pg"
+- uid: 14
+  player_id: 16
+  name: Chart
+  country: jp
+  content_languages:
+    - jp
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/chartaoc"
+- uid: 15
+  player_id: 19
+  name: F1Re
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/f1reaoe"
+    - Youtube: "http://www.youtube.com/channel/UCe5PZxogLEsu5VacKmOiR5g"
+- uid: 16
+  player_id: 20
+  name: ACCM
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/accm_vn"
+    - Youtube: "http://www.youtube.com/channel/UClFrW56x-ZtFIE2J_Qn2Ftg"
+- uid: 17
+  player_id: 22
+  name: CooL
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/vnscool"
+- uid: 18
+  player_id: 23
+  name: Liereyy
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/liereyy"
+    - Youtube: "https://www.youtube.com/channel/UCaggQmp9gAuB7xYeci26VWA"
+- uid: 19
+  player_id: 24
+  name: Cloud
+  country: tw
+  content_languages:
+    - tw
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/gktcloud"
+    - Youtube: "https://www.youtube.com/user/qaws68"
+    - FacebookGaming: "https://www.facebook.com/gaming/Aoecloud"
+    - Discord: "https://discord.gg/dKzquZB"
+- uid: 20
+  player_id: 25
+  name: Paladin
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/294359"
+- uid: 21
+  player_id: 26
+  name: DauT
+  country: rs
+  content_languages:
+    - rs
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/daut"
+    - Youtube: "https://www.youtube.com/channel/UC8m8Iah2xOHZvnBbpyOcEOA"
+    - Discord: "https://discord.gg/ckHd3vT"
+- uid: 22
+  player_id: 27
+  name: Hera
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/hera"
+    - Youtube: "https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ"
+    - Discord: "https://discord.gg/DkdJj4D"
+- uid: 23
+  player_id: 28
+  name: Nili
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/nili_aoe"
+    - Youtube: "https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/videos"
+    - Discord: "https://discordapp.com/invite/pQG8txM"
+- uid: 24
+  player_id: 29
+  name: Belgium
+  country: be
+  content_languages:
+    - be
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/project_belgium"
+    - Youtube: "https://www.youtube.com/channel/UCtLQsBrf-ugm0g1XitneyIw"
+    - Discord: "https://discord.gg/fV5A4Vr"
+- uid: 25
+  player_id: 30
+  name: Zuppi
+  country: fi
+  content_languages:
+    - fi
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/zuppiaoe"
+    - Youtube: "https://www.youtube.com/channel/UCxAQeu2SrQjK8-As4-gc9Lg"
+- uid: 26
+  player_id: 31
+  name: DracKeN
+  country: cz
+  content_languages:
+    - cz
+  content_platforms:
+    - Twitch: "https://wwww.twitch.tv/drackentv"
+    - Youtube: "http://www.youtube.com/channel/UC3FySA4jBTHUXUT2YIzzU3A"
+- uid: 27
+  player_id: 32
+  name: TheViper
+  country: "no"
+  content_languages:
+    - "no"
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/theviper"
+    - Youtube: "https://www.youtube.com/user/TheViperAOC"
+    - FacebookGaming: "https://www.facebook.com/gaming/theviper"
+    - Discord: "https://discord.gg/WNmHUEH"
+- uid: 28
+  player_id: 33
+  name: Slam
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/slamjam_"
+    - Youtube: "https://www.youtube.com/channel/UC15K06FB4EO98AMBYqraQ3w"
+- uid: 29
+  player_id: 34
+  name: Daniel
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/aocdaniel"
+- uid: 30
+  player_id: 35
+  name: Yinghua
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/953871"
+- uid: 31
+  player_id: 36
+  name: Lyx
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/1029928"
+- uid: 32
+  player_id: 37
+  name: Nicov
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/nicov_"
+    - Youtube: "https://www.youtube.com/channel/UCzkVZ4Ci33LbQt_UHOvQEFw"
+    - Discord: "https://discord.gg/quRrGhV"
+- uid: 33
+  player_id: 38
+  name: JorDan
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/JorDan_AoE"
+    - Youtube: "https://www.youtube.com/channel/UCimCFIisAqXW9udVhN_LpwQ"
+    - Discord: "https://discord.gg/TWpUYVh"
+- uid: 34
+  player_id: 39
+  name: Melkor
+  country: ie
+  content_languages:
+    - ie
+  content_platforms:
+    - Youtube: "http://www.youtube.com/channel/UCawtaF3Ty12hHzQRYvNta7w/videos"
+- uid: 35
+  player_id: 41
+  name: Villese
+  country: fi
+  content_languages:
+    - fi
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/villese"
+- uid: 36
+  player_id: 42
+  name: RiuT
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/riut_aoe"
+    - Youtube: "https://www.youtube.com/channel/UCWk47NDwrg9p696-Usiv8fw"
+- uid: 37
+  player_id: 43
+  name: Miguel
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/miguelaoe"
+- uid: 38
+  player_id: 45
+  name: JonSlow
+  country: il
+  content_languages:
+    - il
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/jonslow_"
+    - Youtube: "https://www.youtube.com/channel/UCI7xIJYOC2OEb6ttrsH2QHA"
+- uid: 39
+  player_id: 46
+  name: Sitaux
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/sitaux"
+    - Youtube: "http://www.youtube.com/channel/UCyRoER5J4CNYnpvxMy8zmvA"
+- uid: 40
+  player_id: 47
+  name: Rubenstock
+  country: fi
+  content_languages:
+    - fi
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/rubenstock"
+- uid: 41
+  player_id: 48
+  name: Hoang
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/hoangnguyen485"
+    - Youtube: "https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw?view_as=subscriber"
+- uid: 42
+  player_id: 49
+  name: AngelinaJolie
+  country: nl
+  content_languages:
+    - nl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/angelina_jolie"
+- uid: 43
+  player_id: 50
+  name: Ganji
+  country: se
+  content_languages:
+    - se
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ganji__"
+    - Discord: "https://discord.gg/rtpCfgE"
+- uid: 44
+  player_id: 51
+  name: Kasva
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kasvaoe"
+    - Youtube: "https://www.youtube.com/channel/UCFAiCVX7VqQaqGBPAxLRKnQ?view_as=subscriber"
+    - Discord: "https://discord.gg/CETwWEp"
+- uid: 45
+  player_id: 53
+  name: Noisick
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/noisick_aoe"
+- uid: 46
+  player_id: 54
+  name: Inc
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/incaoe2"
+- uid: 47
+  player_id: 55
+  name: Fedex
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/federicov"
+- uid: 48
+  player_id: 56
+  name: Dziamdziak
+  country: pl
+  content_languages:
+    - pl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/dziamdziak"
+    - Discord: "https://discord.gg/xz7uDPp"
+- uid: 49
+  player_id: 64
+  name: Chris
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/iamchris_age2"
+    - Youtube: "https://www.youtube.com/channel/UC00u-XPUH-nNhHNU7MsxBPA"
+- uid: 50
+  player_id: 68
+  name: Spring
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/springtv"
+    - Youtube: "http://www.youtube.com/channel/UCDNmFkR-F0SLkIB-JlbWWlg"
+    - Discord: "https://discord.gg/MrNwsQB"
+- uid: 51
+  player_id: 77
+  name: Luca
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/luca8761"
+    - Youtube: "http://www.youtube.com/channel/UC1ogVLFWj7WxK1f21kF9kSQ"
+- uid: 52
+  player_id: 80
+  name: Goku
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/gokuaoe"
+- uid: 53
+  player_id: 81
+  name: Pike
+  country: fi
+  content_languages:
+    - fi
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/pikeaoc"
+- uid: 54
+  player_id: 82
+  name: Vodka
+  country: it
+  content_languages:
+    - it
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/vodka_l_"
+- uid: 55
+  player_id: 83
+  name: Spaden
+  country: se
+  content_languages:
+    - se
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/spadenaoc"
+- uid: 56
+  player_id: 87
+  name: Edie
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/poz_edie"
+    - Youtube: "http://www.youtube.com/channel/UCBNGV-KCgh8Nb6tHP-WN2_A"
+- uid: 57
+  player_id: 88
+  name: SongSong
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/songsongaoede"
+- uid: 58
+  player_id: 92
+  name: Ralber
+  country: es
+  content_languages:
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ralbertv"
+- uid: 59
+  player_id: 93
+  name: DreaIVIS
+  country: fi
+  content_languages:
+    - fi
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/aoewithdreaivis"
+- uid: 60
+  player_id: 94
+  name: Capoch
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/capoch"
+    - Youtube: "http://www.youtube.com/capoch"
+    - Discord: "https://discord.gg/sjCpquh"
+- uid: 61
+  player_id: 100
+  name: FeAge
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/feage_"
+    - Youtube: "http://www.youtube.com/channel/UCYhsraJ7ht7qYpZuHht-ibA"
+- uid: 62
+  player_id: 102
+  name: Hearttt
+  country: pe
+  content_languages:
+    - pe
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/hearttt_"
+    - Youtube: "http://www.youtube.com/channel/UCOtdNcfA05JODTx1cBlniyg"
+- uid: 63
+  player_id: 103
+  name: Ra
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ra_aoe"
+- uid: 64
+  player_id: 106
+  name: Feanor
+  country: ie
+  content_languages:
+    - ie
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/heresy_feanor"
+- uid: 65
+  player_id: 107
+  name: Hasan
+  country: ba
+  content_languages:
+    - ba
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/raidenaoe"
+- uid: 66
+  player_id: 111
+  name: Jupe
+  country: fi
+  content_languages:
+    - fi
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/jupeeeeee"
+    - Youtube: "http://www.youtube.com/channel/UCVMPwOgvRe7pIpGurY6FngA"
+- uid: 67
+  player_id: 112
+  name: Dobbs
+  country: dk
+  content_languages:
+    - dk
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/dobbs351"
+    - Youtube: "http://www.youtube.com/channel/UCnqNykFBw3U-Gvth4bQCw5A"
+- uid: 68
+  player_id: 113
+  name: Kamigawa
+  country: it
+  content_languages:
+    - it
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kamigawa_"
+- uid: 69
+  player_id: 114
+  name: CL
+  country: cn
+  content_languages:
+    - cn
+  content_platforms:
+    - Douyu: "https://www.douyu.com/556823"
+- uid: 70
+  player_id: 140
+  name: Dragonstar
+  country: in
+  content_languages:
+    - in
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/100dragonstar"
+    - Youtube: "http://www.youtube.com/100dragonstar"
+- uid: 71
+  player_id: 147
+  name: Cyclops
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/cyclopsaoe"
+- uid: 72
+  player_id: 152
+  name: DemonSheep
+  country: tw
+  content_languages:
+    - tw
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/demonsheeptw"
+- uid: 73
+  player_id: 154
+  name: Sora Kuma
+  country: tw
+  content_languages:
+    - tw
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/skyandpeace"
+- uid: 74
+  player_id: 155
+  name: Komtan
+  country: jp
+  content_languages:
+    - jp
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/komtano_o"
+- uid: 75
+  player_id: 158
+  name: LB10
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/lb10_"
+- uid: 76
+  player_id: 161
+  name: Jidba
+  country: gr
+  content_languages:
+    - gr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/jidba"
+- uid: 77
+  player_id: 190
+  name: NoBoDy
+  country: kz
+  content_languages:
+    - kz
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/nobodyaoe"
+    - Youtube: "http://www.youtube.com/channel/UC3ieLuJmS77c4xrkezv0WNw"
+- uid: 78
+  player_id: 191
+  name: Sobek
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/sobekaoe"
+    - Youtube: "http://www.youtube.com/channel/UCVH-sSxnCZtqJJmbtggTCxQ/feed"
+- uid: 79
+  player_id: 192
+  name: Hallis
+  country: gb
+  content_languages:
+    - gb
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/hallisaoc"
+    - Youtube: "http://www.youtube.com/hallisyodaddy"
+- uid: 80
+  player_id: 199
+  name: Survivalist
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/survivalistaoe2de"
+    - Youtube: "https://www.youtube.com/channel/UCmFJUeU8Oubp5Neldbq0JRA"
+    - Discord: "https://discord.gg/2uJ5Tyh"
+- uid: 81
+  player_id: 204
+  name: LeAsH
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/leash__"
+    - Youtube: "http://www.youtube.com/channel/UCtFnx53VAZD40AtQPf5SyBQ"
+- uid: 82
+  player_id: 205
+  name: Repard
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/repard"
+- uid: 83
+  player_id: 206
+  name: TheCode
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/TheCode_AoE"
+- uid: 84
+  player_id: 207
+  name: Daywalker
+  country: gb
+  content_languages:
+    - gb
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/sunodaywalker"
+- uid: 85
+  player_id: 209
+  name: Bruh
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/bruh_aoe"
+    - Youtube: "http://www.youtube.com/channel/UC0ohO1gLZWjX1DUG6oTSGZw"
+- uid: 86
+  player_id: 210
+  name: ashleylynn
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/aoc_ashleylynn"
+    - Discord: "https://discord.gg/DFBYNfG"
+- uid: 87
+  player_id: 211
+  name: T90
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/t90official"
+    - Youtube: "https://www.youtube.com/t90official"
+    - FacebookGaming: "https://www.facebook.com/gaming/t90official"
+    - Discord: "https://discord.gg/t90official"
+- uid: 88
+  player_id: 212
+  name: Rex
+  country: pl
+  content_languages:
+    - pl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tr_rex_"
+    - Youtube: "https://www.youtube.com/channel/UCIQg67br-zXRxyrFRwbfBsQ"
+- uid: 89
+  player_id: 213
+  name: Gluttony
+  country: "no"
+  content_languages:
+    - "no"
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/gluttony_aoe"
+- uid: 90
+  player_id: 214
+  name: Rise
+  country: it
+  content_languages:
+    - it
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/riseaoe2"
+- uid: 91
+  player_id: 215
+  name: Dark
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/dark_aoe"
+- uid: 92
+  player_id: 216
+  name: Mahya
+  country: ma
+  content_languages:
+    - ma
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/mahyaoc"
+- uid: 93
+  player_id: 219
+  name: Badboy
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/badboyaoe"
+- uid: 94
+  player_id: 221
+  name: BL4CK
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/bl4ck_aoe"
+- uid: 95
+  player_id: 225
+  name: JackK
+  country: pl
+  content_languages:
+    - pl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/jackk_pl"
+- uid: 96
+  player_id: 228
+  name: Kellar
+  country: "no"
+  content_languages:
+    - "no"
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/Kellar_AoE"
+    - Youtube: "http://www.youtube.com/channel/UCXcnO_W-YHuIrfGRnEwUlVg"
+- uid: 97
+  player_id: 229
+  name: Carbo
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/carboarg"
+- uid: 98
+  player_id: 231
+  name: Puerco Black
+  country: mx
+  content_languages:
+    - mx
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/puerco_black"
+- uid: 99
+  player_id: 233
+  name: Babaorum
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/babaorum_aoe"
+- uid: 100
+  player_id: 241
+  name: Uzzi
+  country: mx
+  content_languages:
+    - mx
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/uzzi_aoe"
+    - Youtube: "http://www.youtube.com/channel/UCvzCDwMm2unSNpW-PGnmTZA"
+- uid: 101
+  player_id: 242
+  name: The Bloodless
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/the__bloodless"
+- uid: 102
+  player_id: 243
+  name: Wisepii
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/wisepii"
+- uid: 103
+  player_id: 245
+  name: Scogo
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/scogo"
+- uid: 104
+  player_id: 248
+  name: Funito
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/funito"
+- uid: 105
+  player_id: 250
+  name: Whocl
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/whoclaoe"
+- uid: 106
+  player_id: 253
+  name: Lobo
+  country: mx
+  content_languages:
+    - mx
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/lobodelanieve"
+- uid: 107
+  player_id: 254
+  name: WaRRioR
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/salzz_warrior"
+    - Youtube: "http://www.youtube.com/channel/UCGWx5EtnIi_uOpL2_AuNJrg?view_as=subscriber"
+- uid: 108
+  player_id: 258
+  name: Xhing
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/adam_aoe"
+    - Discord: "https://discord.gg/MusuEz"
+- uid: 109
+  player_id: 260
+  name: Pela
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/pela_aoe"
+    - Youtube: "http://www.youtube.com/channel/UCzhzve1YE9Mq5tIsQbG48XA/videos"
+- uid: 110
+  player_id: 262
+  name: Shades
+  country: it
+  content_languages:
+    - it
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/shadesaoe"
+- uid: 111
+  player_id: 264
+  name: Lavie Head
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/lavie_head"
+    - Discord: "https://discord.gg/Vhm4gS4fyx"
+- uid: 112
+  player_id: 266
+  name: Biry
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/biryarg"
+    - Youtube: "http://www.youtube.com/channel/UC1tGtpMFHF88liDp0kYKtEQ"
+- uid: 113
+  player_id: 268
+  name: Valeria Huesca
+  country: mx
+  content_languages:
+    - mx
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/valeriahuesca"
+    - Youtube: "https://www.youtube.com/channel/UCDAwFPixAVPrUogkwhN0iAg"
+    - Discord: "https://discord.gg/z7Pvx7g"
+- uid: 114
+  player_id: 269
+  name: BlinG
+  country: gb
+  content_languages:
+    - gb
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/blinguk"
+- uid: 115
+  player_id: 270
+  name: Good_Game
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/salzz_good_game"
+- uid: 116
+  player_id: 271
+  name: Alperen
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/alperenaoe2"
+    - Youtube: "https://www.youtube.com/channel/UCOBwAUsSM0CLzdTJYK4xkzA"
+- uid: 117
+  player_id: 274
+  name: USb
+  country: mx
+  content_languages:
+    - mx
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kingston_aoe"
+- uid: 118
+  player_id: 277
+  name: grathwrang
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/grathwrang"
+    - Youtube: "https://www.youtube.com/channel/UCkoG0-9ndERgBXWVkGJIb-A"
+    - Discord: "https://discord.com/invite/Cp94ry9"
+- uid: 119
+  player_id: 278
+  name: Roxy
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/roxyc"
+- uid: 120
+  player_id: 279
+  name: Whitecourt
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/whitecourtt"
+- uid: 121
+  player_id: 281
+  name: Gabi
+  country: br
+  content_languages:
+    - br
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/gabiaoe_"
+    - Youtube: "http://www.youtube.com/channel/UCMDHXZQfNzVO_1XPBmvIWfQ"
+- uid: 122
+  player_id: 283
+  name: D3rp
+  country: nl
+  content_languages:
+    - nl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/d3rp276"
+- uid: 123
+  player_id: 284
+  name: Andorin
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/nc_andorin"
+- uid: 124
+  player_id: 285
+  name: Clemensor
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/clemensor"
+    - Youtube: "http://www.youtube.com/channel/UCcxztB7oRedOEInIUpY9q_w"
+- uid: 125
+  player_id: 289
+  name: Bean Dip
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/bean__dip"
+- uid: 126
+  player_id: 292
+  name: Cl3m3nT
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/cl3m3nt_aoe"
+- uid: 127
+  player_id: 294
+  name: Ellie4K
+  country: ca
+  content_languages:
+    - ca
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ellie4k"
+    - Youtube: "http://www.youtube.com/channel/UCoWEA6fgQOHF4L5Nt3WPA1A"
+- uid: 128
+  player_id: 295
+  name: FreakinAndy
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/freakinandy"
+- uid: 129
+  player_id: 298
+  name: GriN
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/mr_grin_"
+    - Youtube: "http://www.youtube.com/ЦитадельСтратегий"
+- uid: 130
+  player_id: 299
+  name: HamRTime
+  country: au
+  content_languages:
+    - au
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/hamrtime"
+- uid: 131
+  player_id: 300
+  name: ImComing
+  country: au
+  content_languages:
+    - au
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ultra_coming"
+    - Youtube: "http://www.youtube.com/channel/UCAm-fFhNAhKPnh3C3XxGdBA"
+- uid: 132
+  player_id: 303
+  name: Juan Perotti
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/juanperottiaoe"
+    - Youtube: "http://www.youtube.com/channel/UCZ4aiIlpiIn0dUTiXTjqDJw"
+- uid: 133
+  player_id: 304
+  name: KhaLeN
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kha_len"
+- uid: 134
+  player_id: 305
+  name: Kioss3000
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kioss3000"
+- uid: 135
+  player_id: 307
+  name: Loris
+  country: it
+  content_languages:
+    - it
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/lorisaoe"
+- uid: 136
+  player_id: 308
+  name: MaJoR_Kd
+  country: gb
+  content_languages:
+    - gb
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/major_kd"
+- uid: 137
+  player_id: 310
+  name: MarineLorD
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/marinelord"
+- uid: 138
+  player_id: 311
+  name: MembTV
+  country: es
+  content_languages:
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/membtv"
+    - Youtube: "http://www.youtube.com/FoptMembrillo"
+- uid: 139
+  player_id: 312
+  name: Mica_
+  country: ar
+  content_languages:
+    - ar
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/mica_lpz"
+- uid: 140
+  player_id: 313
+  name: Moonfaller
+  country: nl
+  content_languages:
+    - nl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/moonfaller"
+    - Youtube: "http://www.youtube.com/channel/UC_69Nt352RIEMXfhlBeF4VA"
+- uid: 141
+  player_id: 315
+  name: Neromelnick
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/neromelnick"
+- uid: 142
+  player_id: 317
+  name: Ning_
+  country: tw
+  content_languages:
+    - tw
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ningning995"
+- uid: 143
+  player_id: 318
+  name: OLADUSHEK
+  country: by
+  content_languages:
+    - by
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/oladushek__"
+    - Youtube: "http://www.youtube.com/channel/UCchhChxS5Pqm1-oNtuEF9Rw"
+- uid: 144
+  player_id: 319
+  name: Odette
+  country: cz
+  content_languages:
+    - cz
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/odetted"
+    - Youtube: "http://www.youtube.com/OdetteD"
+- uid: 145
+  player_id: 320
+  name: OfeliaAoE
+  country: es
+  content_languages:
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ofeliaaoe"
+    - Youtube: "http://www.youtube.com/UCh30W9QnXS-XZwNuk-twnyg"
+- uid: 146
+  player_id: 322
+  name: OrnLu
+  country: us
+  content_languages:
+    - us
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/ornlu_aoe"
+    - Youtube: "http://www.youtube.com/channel/UCnmc2T9WNYLel3Fv2EzaS4Q"
+- uid: 147
+  player_id: 325
+  name: Sebastian2002
+  country: uy
+  content_languages:
+    - uy
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/sebastian2002"
+- uid: 148
+  player_id: 327
+  name: The_queen
+  country: ru
+  content_languages:
+    - ru
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/the_queen_aoe"
+- uid: 149
+  player_id: 328
+  name: TheSniper_AOE
+  country: fr
+  content_languages:
+    - fr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/thesniper_aoe"
+    - Youtube: "http://www.youtube.com/channel/UCzgJM0WSVuw2Ks9XjTmGxIQ"
+- uid: 150
+  player_id: 329
+  name: Tileä
+  country: nz
+  content_languages:
+    - nz
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tilea"
+- uid: 151
+  player_id: 330
+  name: TinyTriss
+  country: at
+  content_languages:
+    - at
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tinytriss"
+    - Youtube: "http://www.youtube.com/channel/UCpu3umqSx5cA2qkvWCUp02w"
+- uid: 152
+  player_id: 331
+  name: kaaaai_
+  country: gb
+  content_languages:
+    - gb
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/kaaaai_"
+- uid: 153
+  player_id: 332
+  name: noboru
+  country: jp
+  content_languages:
+    - jp
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/noboru43xxxx"
+- uid: 154
+  player_id: 333
+  name: wAkKo
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/wakko_aoe"
+- uid: 155
+  player_id: 336
+  name: Tomate
+  country: es
+  content_languages:
+    - es
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/tomateaoe"
+- uid: 156
+  player_id: 337
+  name: Rmcoo
+  country: lt
+  content_languages:
+    - lt
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/rmcoothehater_"
+- uid: 157
+  player_id: 341
+  name: TurkEycof
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/turkeycof_aoe"
+- uid: 158
+  player_id: 342
+  name: GLX_Rusher
+  country: tr
+  content_languages:
+    - tr
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/glx_rusher"
+- uid: 159
+  player_id: 344
+  name: PoLaR
+  country: gb
+  content_languages:
+    - gb
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/wbpolar"
+- uid: 160
+  player_id: 346
+  name: Valak
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/imvalak"
+- uid: 161
+  player_id: 350
+  name: RediRodion
+  country: pl
+  content_languages:
+    - pl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/redirodion"
+    - Youtube: "http://www.youtube.com/channel/UC48BWPsl4g3hSSm2OxxmxXg"
+- uid: 162
+  player_id: 351
+  name: SaladEsc
+  country: dk
+  content_languages:
+    - dk
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/saladesc"
+- uid: 163
+  player_id: 352
+  name: V1stima
+  country: cl
+  content_languages:
+    - cl
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/chileaoe"
+    - Youtube: "http://www.youtube.com/Chileaoe"
+- uid: 164
+  player_id: 353
+  name: Fish
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/fishvnn"
+- uid: 165
+  player_id: 357
+  name: Mr.Bean
+  country: vn
+  content_languages:
+    - vn
+  content_platforms:
+    - FacebookGaming: "https://www.facebook.com/gaming/DrBinbin"
+- uid: 166
+  player_id: 359
+  name: FlyLikeDjango
+  country: de
+  content_languages:
+    - de
+  content_platforms:
+    - Twitch: "https://www.twitch.tv/flylikedjango"
+    - Youtube: "https://www.youtube.com/channel/UC7li9aVSk8b94hNEZdDPAcg"
+    - Discord: "https://discord.gg/HXFSj2R"
