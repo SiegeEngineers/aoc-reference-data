@@ -1,7 +1,7 @@
 [
   {
     "name": "Nadya's Boys",
-    "abbreviation": null,
+    "abbreviation": "NaBs",
     "players": [
       "8th Wonder",
       "Lojza",
@@ -23,7 +23,7 @@
   },
   {
     "name": "Killing Generation of Brazil",
-    "abbreviation": null,
+    "abbreviation": "KGB",
     "players": [
       "Alive",
       "F1Re",
@@ -33,7 +33,7 @@
   },
   {
     "name": "New Chapter",
-    "abbreviation": null,
+    "abbreviation": "nC",
     "players": [
       "Andorin",
       "LB10",
@@ -42,7 +42,7 @@
   },
   {
     "name": "Rulers of Rome",
-    "abbreviation": null,
+    "abbreviation": "RoR",
     "players": [
       "AngelinaJolie",
       "Ganji",
@@ -66,7 +66,7 @@
   },
   {
     "name": "DarkSidE",
-    "abbreviation": null,
+    "abbreviation": "DS",
     "players": [
       "BL4CK",
       "Biry",
@@ -232,7 +232,7 @@
   },
   {
     "name": "Aftermath",
-    "abbreviation": null,
+    "abbreviation": "aM",
     "players": [
       "Hearttt",
       "Hera",
@@ -321,7 +321,7 @@
   },
   {
     "name": "Age of Queens (team)",
-    "abbreviation": null,
+    "abbreviation": "AoQ",
     "players": [
       "TinyTriss"
     ]
