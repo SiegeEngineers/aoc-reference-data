@@ -4615,3 +4615,17 @@
     - '994370'
     - '1177662'
   id: 365
+  - name: luci
+  country: cz
+  platforms:
+    de:
+    - '2940229' #Luciana
+    - '5794427' #AtropaBelladonna
+  id: 366
+  - name: pren
+  country: cz
+  platforms:
+    de:
+    - '2014691' #pren
+    - '5363603' #JustSomePlayer
+  id: 367
