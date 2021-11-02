@@ -4615,3 +4615,11 @@
     - '994370'
     - '1177662'
   id: 365
+- name: Quảng Trị
+  country: vn
+  platforms:
+    voobly:
+    - '125387373'
+    de:
+    - '2660491'
+  id: 366
