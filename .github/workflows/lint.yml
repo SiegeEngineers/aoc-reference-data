@@ -1,0 +1,34 @@
+---
+name: Linter
+on: 
+  - push
+  - pull_request
+jobs:
+  lint-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          config_data: |
+            extends: default
+            rules:
+              new-line-at-end-of-file:
+                level: warning
+              trailing-spaces:
+                level: warning
+              indentation:
+                spaces: 4
+              comments:
+                require-starting-space: false
+              document-start:
+                present: false
+  lint-json:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v2
+     - name: json-syntax-check
+       uses: limitusus/json-syntax-check@v1
+       with:
+        pattern: "data\\**\\.json$"
