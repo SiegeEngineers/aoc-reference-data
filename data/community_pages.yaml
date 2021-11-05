@@ -1,7 +1,7 @@
 - url: "aoe2.net"
   https: true
   description: "Leaderboards and Lobbies for AoE2DE"
-  tags: 
+  tags:
     - "Leaderboards"
     - "Lobbies"
     - "API"
@@ -77,7 +77,7 @@
   https: true
   description: "Build orders and uptimes"
   tags:
-      - "Build orders"
+    - "Build orders"
   preview: "./previews/buildorderguide_com.png"
   contact:
     - aoezone: ~
@@ -484,5 +484,3 @@
     - form: ~
     - github: "grishrl"
   repository: "https://github.com/grishrl/grishrl.github.io"
-
-
