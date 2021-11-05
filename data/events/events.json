@@ -15,7 +15,6 @@
       "kotd2"
     ]
   },
-
   {
     "id": "moa2v2",
     "year": 2017,
@@ -39,7 +38,10 @@
     "name": "EGC #1: Strike the Balance",
     "tournaments": [
       "vooblyofficial-egcrrnew",
-      ["egc1-final", "EGC #1 Final"]
+      [
+        "egc1-final",
+        "EGC #1 Final"
+      ]
     ]
   },
   {
@@ -57,7 +59,10 @@
     "name": "Battle of Africa",
     "tournaments": [
       "boa_qual",
-      ["boa_swiss", "Battle of Africa Swiss Stage"],
+      [
+        "boa_swiss",
+        "Battle of Africa Swiss Stage"
+      ],
       "boa_ko"
     ]
   },
@@ -67,7 +72,10 @@
     "name": "Nili's Apartment Cup",
     "tournaments": [
       "NAC_AoE",
-      ["nac_elim", "Nili's Apartment Cup Elimination"]
+      [
+        "nac_elim",
+        "Nili's Apartment Cup Elimination"
+      ]
     ]
   },
   {
@@ -135,45 +143,40 @@
     "year": 2019,
     "name": "Doubles Age",
     "tournaments": [
-        "DoublesAge",
-        "DoublesAgeGL",
-        "DoublesAgeSL"
+      "DoublesAge",
+      "DoublesAgeGL",
+      "DoublesAgeSL"
     ]
   },
   {
     "id": "wic",
     "year": 2015,
     "name": "War is Coming",
-    "tournaments": [
-    ]
+    "tournaments": []
   },
   {
     "id": "vas",
     "year": 2019,
     "name": "Voobly Arena Seasonal",
-    "tournaments": [
-    ]
+    "tournaments": []
   },
   {
     "id": "sync2014",
     "year": 2014,
     "name": "SY Nations Cup 2014",
-    "tournaments": [
-    ]
+    "tournaments": []
   },
   {
     "id": "sync2015",
     "year": 2015,
     "name": "SY Nations Cup 2015",
-    "tournaments": [
-    ]
+    "tournaments": []
   },
   {
     "id": "sync2017",
     "year": 2017,
     "name": "SY Nations Cup 2017",
-    "tournaments": [
-    ]
+    "tournaments": []
   },
   {
     "id": "wsvg",
@@ -188,15 +191,13 @@
     "id": "ms",
     "year": 2019,
     "name": "MembTV Showmatch",
-    "tournaments": [
-    ]
+    "tournaments": []
   },
   {
     "id": "wcl7",
     "year": 2011,
     "name": "World Clan League 7",
-    "tournaments": [
-    ]
+    "tournaments": []
   },
   {
     "id": "msc",
@@ -245,8 +246,14 @@
     "name": "Nili's Apartment Cup 3",
     "tournaments": [
       "NAC3_Qualifier",
-      ["NAC3_Group_Stage", "NAC3 Group Stage"],
-      ["NAC3_Showmatch", "NAC3 Empire Wars Showmatch"],
+      [
+        "NAC3_Group_Stage",
+        "NAC3 Group Stage"
+      ],
+      [
+        "NAC3_Showmatch",
+        "NAC3 Empire Wars Showmatch"
+      ],
       "NAC3_Playoffs"
     ]
   },
@@ -255,8 +262,14 @@
     "name": "Multiple Maps Promo",
     "year": 2019,
     "tournaments": [
-      ["mmp_day1", "Multiple Maps Promo - Day 1"],
-      ["mmp_day2", "Multiple Maps Promo - Day 2"]
+      [
+        "mmp_day1",
+        "Multiple Maps Promo - Day 1"
+      ],
+      [
+        "mmp_day2",
+        "Multiple Maps Promo - Day 2"
+      ]
     ]
   },
   {
@@ -264,7 +277,10 @@
     "year": 2019,
     "name": "TheViper vs Hera Showmatch (2019-12-21)",
     "tournaments": [
-      ["viper_vs_hera_20191221", "TheViper vs Hera Showmatch"]
+      [
+        "viper_vs_hera_20191221",
+        "TheViper vs Hera Showmatch"
+      ]
     ]
   },
   {
@@ -272,7 +288,10 @@
     "year": 2019,
     "name": "TheViper vs Liereyy Showmatch (2019-12-28)",
     "tournaments": [
-      ["viper_vs_liereyy_20191228", "TheViper vs Liereyy Showmatch"]
+      [
+        "viper_vs_liereyy_20191228",
+        "TheViper vs Liereyy Showmatch"
+      ]
     ]
   },
   {
@@ -280,7 +299,10 @@
     "year": 2001,
     "name": "Microsoft International Tournament",
     "tournaments": [
-      ["microsoft_international_playoff", "Microsoft International Playoffs"]
+      [
+        "microsoft_international_playoff",
+        "Microsoft International Playoffs"
+      ]
     ]
   },
   {
@@ -304,7 +326,10 @@
     "year": 2001,
     "name": "World Cyber Games 2001",
     "tournaments": [
-      ["wcg_playoff", "World Cyber Games Playoffs"]
+      [
+        "wcg_playoff",
+        "World Cyber Games Playoffs"
+      ]
     ]
   },
   {
@@ -312,7 +337,10 @@
     "year": 2002,
     "name": "Arbalet Cup I",
     "tournaments": [
-      ["arbalet1_playoff", "Arbalet Cup I Playoffs"]
+      [
+        "arbalet1_playoff",
+        "Arbalet Cup I Playoffs"
+      ]
     ]
   },
   {
@@ -320,7 +348,10 @@
     "year": 2002,
     "name": "Arbalet Cup II",
     "tournaments": [
-      ["arbalet2_playoff", "Arbalet Cup II Playoffs"]
+      [
+        "arbalet2_playoff",
+        "Arbalet Cup II Playoffs"
+      ]
     ]
   },
   {
@@ -345,7 +376,10 @@
     "name": "Hidden Cup 3",
     "tournaments": [
       "hiddencup3qual",
-      ["hc3_showmatches", "Hidden Cup 3 Showmatches"],
+      [
+        "hc3_showmatches",
+        "Hidden Cup 3 Showmatches"
+      ],
       "hiddencup3"
     ]
   },
@@ -354,8 +388,14 @@
     "year": 2004,
     "name": "Legion Cup 3",
     "tournaments": [
-      ["lc3_playoff", "Legion Cup 3 Playoffs"],
-      ["lc3_final", "Legion Cup 3 Finals (Round Robin)"]
+      [
+        "lc3_playoff",
+        "Legion Cup 3 Playoffs"
+      ],
+      [
+        "lc3_final",
+        "Legion Cup 3 Finals (Round Robin)"
+      ]
     ]
   },
   {
@@ -363,7 +403,10 @@
     "year": 2000,
     "name": "Clash of the Titans",
     "tournaments": [
-      ["cott", "Clash of the Titans"]
+      [
+        "cott",
+        "Clash of the Titans"
+      ]
     ]
   },
   {
@@ -371,7 +414,8 @@
     "year": 2012,
     "name": "Masters of Arabia",
     "tournaments": [
-      "vcom-moa", "vcom-moa_"
+      "vcom-moa",
+      "vcom-moa_"
     ]
   },
   {
@@ -379,7 +423,10 @@
     "year": 2003,
     "name": "Masters of AoC",
     "tournaments": [
-      ["moaoc", "Masters of AoC"]
+      [
+        "moaoc",
+        "Masters of AoC"
+      ]
     ]
   },
   {
@@ -387,7 +434,10 @@
     "year": 2003,
     "name": "Arbalet Cup III",
     "tournaments": [
-      ["arbalet3_finals", "Arbalet Cup III Finals (Round Robin)"]
+      [
+        "arbalet3_finals",
+        "Arbalet Cup III Finals (Round Robin)"
+      ]
     ]
   },
   {
@@ -405,7 +455,10 @@
     "name": "Visible Cup",
     "tournaments": [
       "visiblecup",
-      ["visiblecup_showmatches", "Visible Cup Showmatches"]
+      [
+        "visiblecup_showmatches",
+        "Visible Cup Showmatches"
+      ]
     ]
   },
   {
@@ -414,10 +467,22 @@
     "ongoing": true,
     "name": "Showmatches",
     "tournaments": [
-      ["am_secret_showmatch-20200201", "aM vs Secret Showmatch (2020-02-01)"],
-      ["two_pools_showmatch-20200209", "Two Pools Showmatch (2020-02-09)"],
-      ["am_secret_showmatch-20200401", "aM vs Secret Showmatch (2020-04-01)"],
-      ["yo_hera_showmatch-20200422", "Yo vs Hera Showmatch (2020-04-22)"]
+      [
+        "am_secret_showmatch-20200201",
+        "aM vs Secret Showmatch (2020-02-01)"
+      ],
+      [
+        "two_pools_showmatch-20200209",
+        "Two Pools Showmatch (2020-02-09)"
+      ],
+      [
+        "am_secret_showmatch-20200401",
+        "aM vs Secret Showmatch (2020-04-01)"
+      ],
+      [
+        "yo_hera_showmatch-20200422",
+        "Yo vs Hera Showmatch (2020-04-22)"
+      ]
     ]
   },
   {
@@ -437,7 +502,10 @@
     "year": 2016,
     "name": "Showmatches",
     "tournaments": [
-      ["norway-brazil-2v2_showmatch-20160902", "Viper/MbL vs Dogao/F1Re Showmatch (2016-06-02)"]
+      [
+        "norway-brazil-2v2_showmatch-20160902",
+        "Viper/MbL vs Dogao/F1Re Showmatch (2016-06-02)"
+      ]
     ]
   },
   {
@@ -453,7 +521,10 @@
     "year": 2013,
     "name": "Showmatches",
     "tournaments": [
-      ["tim_goodboy-20130111", "Tim vs Goodboy BO21 Showmatch (2013-01-11/21)"]
+      [
+        "tim_goodboy-20130111",
+        "Tim vs Goodboy BO21 Showmatch (2013-01-11/21)"
+      ]
     ]
   },
   {
@@ -461,10 +532,22 @@
     "year": 2014,
     "name": "Showmatches",
     "tournaments": [
-      ["tyrant_war_1-201403", "TyRanT War 1"],
-      ["tyrant_war_2-201405", "TyRanT War 2"],
-      ["tyrant_lan-201404", "TyRanT LAN"],
-      ["viper_jordan_bo21", "TheViper vs Jordan_32 BO21"]
+      [
+        "tyrant_war_1-201403",
+        "TyRanT War 1"
+      ],
+      [
+        "tyrant_war_2-201405",
+        "TyRanT War 2"
+      ],
+      [
+        "tyrant_lan-201404",
+        "TyRanT LAN"
+      ],
+      [
+        "viper_jordan_bo21",
+        "TheViper vs Jordan_32 BO21"
+      ]
     ]
   },
   {
@@ -472,7 +555,10 @@
     "year": 2014,
     "name": "SY Cup III",
     "tournaments": [
-      ["syc3", "SY Cup III"]
+      [
+        "syc3",
+        "SY Cup III"
+      ]
     ]
   },
   {
@@ -496,9 +582,18 @@
     "year": 2020,
     "name": "Red Bull Wololo",
     "tournaments": [
-      ["rb_qualifier_1", "Qualifier 1"],
-      ["rb_qualifier_2", "Qualifier 2"],
-      ["rb_finals", "Finals"]
+      [
+        "rb_qualifier_1",
+        "Qualifier 1"
+      ],
+      [
+        "rb_qualifier_2",
+        "Qualifier 2"
+      ],
+      [
+        "rb_finals",
+        "Finals"
+      ]
     ]
   },
   {
