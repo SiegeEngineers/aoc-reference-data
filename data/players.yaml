@@ -3398,16 +3398,6 @@
   team: 36
   aoeelo: 501
   id: 250
-- name: Rodrigus
-  country: ar
-  platforms:
-    de:
-      - "2495166"
-      - "1143001"
-    voobly:
-      - "5469"
-  aoeelo: 449
-  id: 251
 - name: Galaxy
   country: hk
   platforms:
