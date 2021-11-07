@@ -861,6 +861,7 @@
     - '124340884'   # wsvg
     de:
     - '673196'
+    - '6141967'
   team: 3
   id: 42
 - name: Miguel
@@ -3241,6 +3242,8 @@
     - '2760394'
   aoeelo: 928
   id: 238
+  twitch:
+  - https://www.twitch.tv/ta0paipai
 - name: Mr Greed
   country: pt
   platforms:
