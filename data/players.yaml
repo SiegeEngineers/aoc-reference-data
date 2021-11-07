@@ -4624,3 +4624,9 @@
   twitch:
     - https://www.twitch.tv/salted_pepper
   id: 367
+- name: Mihai
+  country: ro
+  platforms:
+    de:
+      - "288714"
+  id: 368
