@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='aocref',
-    version='1.0.6',
+    version='1.1.0',
     description='Age of Empires reference data',
     url='https://github.com/siegeengineers/aoc-reference-data',
     packages=find_packages(),
@@ -12,6 +12,7 @@ setup(
     ]},
     install_requires=[
         'requests==2.22.0',
-        'ruamel.yaml==0.16.12'
+        'ruamel.yaml==0.16.12',
+        'pycountry==20.7.3'
     ]
 )
