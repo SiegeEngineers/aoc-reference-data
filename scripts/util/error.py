@@ -14,7 +14,9 @@ class LintError(Exception):
 
 
 class InvalidCountryCodeError(LintError):
-    """ Raised when a country with an invalid ISO 3166-alpha2 code was detected """
+    """ 
+    Raised when a country with an invalid ISO 3166-alpha2code was detected
+    """
 
 
 class DoubletteFoundError(PreparationError):

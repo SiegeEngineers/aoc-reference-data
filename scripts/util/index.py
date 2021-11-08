@@ -13,8 +13,8 @@ class Indexable(object):
         """ Returns a unique ID for 'self'.'key'.
 
         Args:
-            key (String): Key part of key:value.
-            sub_key (String, optional): Next level in hierarchy of 'key'.
+            key (str): Key part of key:value.
+            sub_key (str, optional): Next level in hierarchy of 'key'.
                                         Defaults to None.
 
         Returns:
@@ -30,8 +30,8 @@ class Indexable(object):
         """ Checks for duplicates in the indexed keys.
 
         Args:
-            key (String): Key part of key:value.
-            sub_key (String, optional): Next level in hierarchy of 'key'.
+            key (str): Key part of key:value.
+            sub_key (str, optional): Next level in hierarchy of 'key'.
                                         Defaults to None.
             optional (bool, optional): Defines whether the key in the element
                                        is optional. Defaults to True.
@@ -149,6 +149,7 @@ class Indexable(object):
 
         Args:
             lst(list): A list to be checked for a duplicate
+            dupl(list): A list of already detected duplicates in that 'key' 
             start(int, optional): The index from where to start. Defaults to
             None.
 
@@ -168,6 +169,17 @@ class Indexable(object):
         return (False, None)
 
     def get_attribute_name(self, key, sub_key=None):
+        """ Compose an attribute name and return it as string
+
+        Args:
+            key (str): Key part of key:value.
+            sub_key (String, optional): Next level in hierarchy of 'key'.
+                                        Defaults to None.
+
+        Returns:
+            str: Returns the assembled attribute name
+        """
+
         if sub_key is None:
             attribute_name = f"{key}_{INDEX_LIST_SUFFIX}"
         elif sub_key is not None:
@@ -175,6 +187,17 @@ class Indexable(object):
         return attribute_name
 
     def create_attribute(self, key, sub_key=None):
+        """ Composes the name of an attribute and creates it in 'self'
+
+        Args:
+            key (str): Key part of key:value.
+            sub_key (String, optional): Next level in hierarchy of 'key'.
+                                        Defaults to None.
+
+        Returns:
+            str: Returns the assembled attribute name
+        """
+
         if sub_key is None:
             attribute_name = f"{key}_{INDEX_LIST_SUFFIX}"
         elif sub_key is not None:
@@ -185,6 +208,31 @@ class Indexable(object):
 
     def index_sub_key(self, attr, key, sub_key, sub_key_attribute_name=None,
                       optional=True, sub_key_settings=None):
+        """ Indexes a sub-key of a given attribute (e.g. players, teams) 
+
+        Args:
+            attr (str): E.g. player, team (identical with the parsed lists from
+                        the repository)
+            key (str): Key part of key:value.
+            sub_key (str, optional): Next level in hierarchy of 'key'.
+                                        Defaults to None.
+            sub_key_attribute_name (str, optional): Needed to create its own
+                                                    index list.
+                                                    Defaults to None.
+            optional (bool, optional): Mostly needed to check if we should
+                                       throw errors for non-existent 'keys'.
+                                       Defaults to True, meaning we should
+                                       explicitly state whether something
+                                       is non-optional.
+            sub_key_settings (tuple(IndexSetting), optional): IndexSetting
+                                                              tuple to be
+                                                              used in
+                                                              recursive mode.
+                                                              Defaults to None.
+
+        Returns:
+            list: Returns a list of errors that this method throws.
+        """
         errors = []
         err = self.index_key(attr=attr, key=key, sub_key=sub_key,
                              sub_key_attribute_name=sub_key_attribute_name,
@@ -210,6 +258,31 @@ class Indexable(object):
 
     def index_key(self, attr, key, sub_key=None, sub_key_attribute_name=None,
                   optional=True, sub_key_settings=None):
+        """ Indexes a key of a given attribute (e.g. players, teams) 
+
+        Args:
+            attr (str): E.g. player, team (identical with the parsed lists from
+                        the repository)
+            key (str): Key part of key:value.
+            sub_key (str, optional): Next level in hierarchy of 'key'.
+                                        Defaults to None.
+            sub_key_attribute_name (str, optional): Needed to create its own
+                                                    index list.
+                                                    Defaults to None.
+            optional (bool, optional): Mostly needed to check if we should
+                                       throw errors for non-existent 'keys'.
+                                       Defaults to True, meaning we should
+                                       explicitly state whether something
+                                       is non-optional.
+            sub_key_settings (tuple(IndexSetting), optional): IndexSetting
+                                                              tuple to be
+                                                              used in
+                                                              recursive mode.
+                                                              Defaults to None.
+
+        Returns:
+            list: Returns a list of errors that this method throws.
+        """
 
         errors = []
 
