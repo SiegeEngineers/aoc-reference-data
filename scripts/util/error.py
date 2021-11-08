@@ -40,3 +40,13 @@ def unpack_error_list(err_list):
     if isinstance(err_list[0], list):
         return unpack_error_list(err_list[0]) + unpack_error_list(err_list[1:])
     return err_list[:1] + unpack_error_list(err_list[1:])
+
+
+def print_error_summary_header():
+    print(
+        """
+            ############################################################
+            ###################### ERROR SUMMARY #######################
+            ############################################################
+            """
+    )
