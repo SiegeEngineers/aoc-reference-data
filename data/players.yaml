@@ -4626,3 +4626,14 @@
     de:
       - "288714"
   id: 368
+- name: Snapy
+  country: co
+  liquipedia: Snapy
+  twitch:
+    - https://www.twitch.tv/snapyaoe
+  discord:
+    - https://discord.gg/S2Cg5nusrQ
+  platforms:
+    de:
+      - "210256"
+  id: 369
