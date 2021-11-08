@@ -149,7 +149,7 @@ class Indexable(object):
 
         Args:
             lst(list): A list to be checked for a duplicate
-            dupl(list): A list of already detected duplicates in that 'key' 
+            dupl(list): A list of already detected duplicates in that 'key'
             start(int, optional): The index from where to start. Defaults to
             None.
 
@@ -208,7 +208,7 @@ class Indexable(object):
 
     def index_sub_key(self, attr, key, sub_key, sub_key_attribute_name=None,
                       optional=True, sub_key_settings=None):
-        """ Indexes a sub-key of a given attribute (e.g. players, teams) 
+        """ Indexes a sub-key of a given attribute (e.g. players, teams)
 
         Args:
             attr (str): E.g. player, team (identical with the parsed lists from
@@ -258,7 +258,7 @@ class Indexable(object):
 
     def index_key(self, attr, key, sub_key=None, sub_key_attribute_name=None,
                   optional=True, sub_key_settings=None):
-        """ Indexes a key of a given attribute (e.g. players, teams) 
+        """ Indexes a key of a given attribute (e.g. players, teams)
 
         Args:
             attr (str): E.g. player, team (identical with the parsed lists from
