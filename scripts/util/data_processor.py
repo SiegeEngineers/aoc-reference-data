@@ -126,11 +126,12 @@ class DataProcessor(object):
         # raises MissingKeyError in that case
         # Duplicate IDs raise DoubletteFoundError
         for key, unique, optional, sub_key_settings in self.team_list.index_key_settings:
-            err = self.team_list.check_for_doublettes(key=key,
-                                                      optional=optional)
+            if unique:
+                err = self.team_list.check_for_doublettes(key=key,
+                                                          optional=optional)
 
-            if err is not None:
-                errors.append(err)
+                if err is not None:
+                    errors.append(err)
 
         err_len = len(errors)
 

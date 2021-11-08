@@ -43,7 +43,7 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
     # Tuple description
     # (field, unique, optional, sub-key-settings)
     # field: indexed keys
-    # unique: don't check for duplicates here
+    # unique: check for duplicates here
     # optional: Don't throw an exeption for these keys if they are missing
     # sub-key-settings: settings for contained sub-keys
     IndexSetting = namedtuple('IndexSetting', 'key unique optional sub_key_settings')
