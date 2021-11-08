@@ -66,16 +66,13 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
         self.yaml.preserve_quotes = True
 
     def add_player_to_list(self, player):
+        """ Append a player to the players list
+
+        Args:
+            player (Player): Player object
+        """
+
         self.players.append(player)
-
-    def create_indizes(self):
-
-        LOGGER.debug("Indexing player names ...")
-
-        self.lookup_names = []
-        for player in self.players:
-            self.lookup_names.append(player.name)
-        LOGGER.debug("Indexing of names complete.")
 
     def check_country_names_being_valid(self):
         """ Iterates through the list of country names
@@ -92,8 +89,9 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
         LOGGER.debug("Validating country codes ...")
         attribute_name = f"country_{INDEX_LIST_SUFFIX}"
 
-        merged_country_codes = {c.upper() for c in getattr(self,
-                                                           attribute_name)}
+        merged_country_codes = {c.upper() for c in
+                                getattr(self,
+                                        attribute_name)}
 
         for country in merged_country_codes:
             if pycountry.countries.get(alpha_2=country) is None:
@@ -123,6 +121,16 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
     ##
 
     # TODO: For liquipedia.py
+
+    # def create_indizes(self):
+
+    #     LOGGER.debug("Indexing player names ...")
+
+    #     self.lookup_names = []
+    #     for player in self.players:
+    #         self.lookup_names.append(player.name)
+    #     LOGGER.debug("Indexing of names complete.")
+
 
 #     def index_id_list(self, jump_index=None, recursion=False):
 

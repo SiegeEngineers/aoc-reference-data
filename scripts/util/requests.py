@@ -11,25 +11,20 @@ LOGGER = logging.getLogger(__name__)
 class LiquipediaRequest(Importable, Exportable, JsonSerializable):
 
     properties = [
-
         'Has id',
-
         'Has team',
-
         'Has twitch stream',
-
         'Has youtube channel'
-
     ]
 
     url = 'https://liquipedia.net/ageofempires/api.php'
-
     user_agent = 'https://github.com/SiegeEngineers/aoc-reference-data'
 
     def __init__(self, debug=None, cache=None, game="aoe2"):
 
         self.wait_secs = 30
         self.page_size = 200
+        self.export_data = []
 
         if debug is True:
             self.debug = True
@@ -47,17 +42,16 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
                 'Is player::true'
             ]
 
-        self.export_data = []
-
     def fetch(self):
-        """Fetch data from liquipedia API."""
+        """ Fetch data from liquipedia API.
+        """
 
         self.output = []
         offset = 0
 
         while True:
 
-            LOGGER.info(f"querying liquipedia at offset {offset}")
+            LOGGER.debug(f"querying liquipedia at offset {offset}")
 
             resp = requests.get(self.url, params={
                 'action': 'askargs',
@@ -71,7 +65,7 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
             })
 
             if self.debug:
-                LOGGER.info(f"Request url: {resp.request.url}")
+                LOGGER.debug(f"Request url: {resp.request.url}")
 
             try:
                 data = resp.json()
@@ -79,20 +73,27 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
                 LOGGER.exception("failed to fetch: %s", resp.content)
             for result in data['query']['results'].values():
                 record = result['printouts']
-                team = record['Has team'][0]['fulltext'] if record['Has team'] else None
+                team = record['Has team'][0]['fulltext'] \
+                    if record['Has team'] else None
                 name = record['Has id'][0]
-                twitch = record['Has twitch stream'][0] if record['Has twitch stream'] else None
-                youtube = record['Has youtube channel'][0] if record['Has youtube channel'] else None
+                twitch = record['Has twitch stream'][0] \
+                    if record['Has twitch stream'] else None
+                youtube = record['Has youtube channel'][0] \
+                    if record['Has youtube channel'] else None
 
                 # TODO: Query for Facebook Gaming as well
                 facebook_gaming = None
 
-                self.output.append(LiquipediaPlayer(name=name.lower(),
-                                                    liquipedia=name,
-                                                    team=team,
-                                                    twitch=twitch,
-                                                    youtube=youtube,
-                                                    facebook_gaming=facebook_gaming))
+                self.output.append(
+                    LiquipediaPlayer(
+                        name=name.lower(),
+                        liquipedia=name,
+                        team=team,
+                        twitch=twitch,
+                        youtube=youtube,
+                        facebook_gaming=facebook_gaming
+                    )
+                )
 
             offset = data.get('query-continue-offset')
 

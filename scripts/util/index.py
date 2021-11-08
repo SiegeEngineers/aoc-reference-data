@@ -77,12 +77,16 @@ class Indexable(object):
                 offset = 1
                 for duplicate in merged_duplicates:
                     if key == 'id':
-                        errors.append(DoubletteFoundError(
-                            f"We found a duplicate: '{type(self)}::'{key}': "
-                            f"{duplicate}. "
-                            f"Help: If you need a unique id, try 'id: "
-                            f"{self.get_new_unique_id(key=key, offset=offset)}'"
-                        ))
+                        errors.append(
+                            DoubletteFoundError(
+                                f"We found a duplicate: '{type(self)}::"
+                                f"'{key}': {duplicate}. "
+                                f"Help: If you need a unique id, try 'id: "
+                                f"""{self.get_new_unique_id(
+                                    key=key, offset=offset
+                                )}'"""
+                            )
+                        )
                         offset += 1
                     else:
                         errors.append(DoubletteFoundError(

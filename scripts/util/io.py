@@ -35,6 +35,13 @@ class Importable(object):
         pass
 
     def import_from_file(self, file_name, file_type):
+        """ Import data from a file
+
+        Args:
+            file_name (str): file name part of a file
+            file_type (str): file type part of a file
+        """
+
         LOGGER.debug(f"Opening {file_name}.{file_type} ...")
 
         if file_type == "yaml":
@@ -55,6 +62,13 @@ class Exportable(object):
         pass
 
     def export_to_file(self, file_name, file_type):
+        """ Export data to file
+
+        Args:
+            file_name (str): file name part of a file
+            file_type (str): file type part of a file
+        """
+
         LOGGER.debug(f"Writing to {file_name}.{file_type} ...")
 
         if file_type == "yaml":
