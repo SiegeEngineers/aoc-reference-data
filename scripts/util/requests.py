@@ -28,12 +28,12 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
 
     def __init__(self, debug=None, cache=None, game="aoe2"):
 
+        self.wait_secs = 30
+
         if debug is True:
             self.debug = True
-            self.wait_secs = 3
         else:
             self.debug = False
-            self.wait_secs = 30
 
         if cache is True:
             self.cache = True

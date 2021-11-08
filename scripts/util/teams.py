@@ -2,6 +2,8 @@ from ruamel.yaml import YAML
 from .io import Importable, Exportable, JsonSerializable
 from .index import Indexable
 from .error import MissingKeyError
+from collections import namedtuple
+
 import logging
 LOGGER = logging.getLogger(__name__)
 
@@ -29,9 +31,10 @@ class TeamList(Indexable, Importable, Exportable, JsonSerializable):
     # unique: don't check for duplicates here
     # optional: Don't throw an exeption for these keys if they are missing
     # sub-key-settings: settings for contained sub-keys
+    IndexSetting = namedtuple('IndexSetting', 'key unique optional sub_key_settings')
     index_key_settings = [
-        ('id', True, False, None),
-        ('name', True, False, None),
+        IndexSetting('id', True, False, None),
+        IndexSetting('name', True, False, None),
     ]
 
     def __init__(self, _list=list):
@@ -47,7 +50,7 @@ class TeamList(Indexable, Importable, Exportable, JsonSerializable):
         except KeyError:
             return -1
 
-    def index_id_list(self, ci=False):
+    def index_id_list(self):
         LOGGER.info("Creating fresh ID list for teams ...")
         for index, team in enumerate(self.teams):
             try:

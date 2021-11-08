@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
     LOGGER.debug("Data processing started ...")
 
-    data_processor = DataProcessor()
+    data_processor = DataProcessor(ci=CI)
 
     data_processor.new_from(player_list,
 
@@ -58,10 +58,10 @@ if __name__ == '__main__':
     LOGGER.debug("Linting the data files ...")
 
     try:
-        err = data_processor.create_global_index(ci=CI)
+        err = data_processor.create_global_index()
         if err is not None:
             errors.append(err)
-        err = data_processor.lint(ci=CI)
+        err = data_processor.lint()
         if err is not None:
             errors.append(err)
     except LintError as Err:

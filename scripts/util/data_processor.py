@@ -6,13 +6,15 @@ LOGGER = logging.getLogger(__name__)
 
 class DataProcessor(object):
 
-    def __init__(self):
+    def __init__(self, ci=False):
 
-        self.player_list = dict()
+        self.ci = ci
 
-        self.team_list = dict()
+        self.player_list = []
 
-        self.liquipedia_player_list = dict()
+        self.team_list = []
+
+        self.liquipedia_player_list = []
 
         self.overwrite_logic = [
 
@@ -68,15 +70,15 @@ class DataProcessor(object):
 
         pass
 
-    def create_global_index(self, ci=False):
+    def create_global_index(self):
         """ Create indizes for internal handling. """
         LOGGER.debug("Indexing ...")
         errors = []
-        err = self.index_team_keys(ci=ci)
+        err = self.index_team_keys()
         if err is not None:
             errors.append(err)
 
-        err = self.index_player_keys(ci=ci)
+        err = self.index_player_keys()
         if err is not None:
             errors.append(err)
 
@@ -89,20 +91,20 @@ class DataProcessor(object):
             LOGGER.error(f"Indexing finished with {err_len} error(s).")
             return errors
 
-    def lint(self, ci=False):
+    def lint(self):
         errors = []
 
         LOGGER.debug("Linting teams ...")
-        err = self.check_for_doublettes_in_teams(ci=ci)
+        err = self.check_for_doublettes_in_teams()
         if err is not None:
             errors.append(err)
         LOGGER.debug("Linting teams done.")
 
         LOGGER.debug("Linting players ...")
-        err = self.check_for_doublettes_in_players(ci=ci)
+        err = self.check_for_doublettes_in_players()
         if err is not None:
             errors.append(err)
-        err = self.player_list.check_country_names_being_valid(ci=ci)
+        err = self.player_list.check_country_names_being_valid()
         if err is not None:
             errors.append(err)
         LOGGER.debug("Linting players done.")
@@ -116,7 +118,7 @@ class DataProcessor(object):
             LOGGER.error(f"Linting finished with {err_len} error(s).")
             return errors
 
-    def check_for_doublettes_in_teams(self, ci=False):
+    def check_for_doublettes_in_teams(self):
         errors = []
 
         # Actually checking for duplicates in IDs
@@ -125,8 +127,7 @@ class DataProcessor(object):
         # Duplicate IDs raise DoubletteFoundError
         for key, unique, optional, sub_key_settings in self.team_list.index_key_settings:
             err = self.team_list.check_for_doublettes(key=key,
-                                                      optional=optional,
-                                                      ci=ci)
+                                                      optional=optional)
 
             if err is not None:
                 errors.append(err)
@@ -140,7 +141,7 @@ class DataProcessor(object):
             LOGGER.error(f"Checking for duplicates in teams finished with {err_len} error(s).")
             return errors
 
-    def check_for_doublettes_in_players(self, ci=False):
+    def check_for_doublettes_in_players(self):
         errors = []
 
         # Actually checking for duplicates in IDs
@@ -152,8 +153,7 @@ class DataProcessor(object):
             if unique:
                 err = self.player_list.check_for_doublettes(key=key,
                                                             optional=optional,
-                                                            sub_key_settings=sub_key_settings,
-                                                            ci=ci)
+                                                            sub_key_settings=sub_key_settings)
                 if err is not None:
                     errors.append(err)
 
@@ -166,13 +166,13 @@ class DataProcessor(object):
             LOGGER.error(f"Checking for duplicates in players finished with {err_len} error(s).")
             return errors
 
-    def index_team_keys(self, ci=False):
+    def index_team_keys(self):
         errors = []
 
         for key, unique, optional, sub_key_settings in self.team_list.index_key_settings:
             err = self.team_list.index_key(attr="teams", key=key,
                                            sub_key_settings=sub_key_settings,
-                                           optional=optional, ci=ci)
+                                           optional=optional)
 
             if err is not None:
                 errors.append(err)
@@ -186,14 +186,13 @@ class DataProcessor(object):
             LOGGER.error(f"Indexing team keys finished with {err_len} error(s).")
             return errors
 
-    def index_player_keys(self, ci=False):
+    def index_player_keys(self):
         errors = []
 
         for key, unique, optional, sub_key_settings in self.player_list.index_key_settings:
             err = self.player_list.index_key(attr="players", key=key,
                                              optional=optional,
-                                             sub_key_settings=sub_key_settings,
-                                             ci=ci)
+                                             sub_key_settings=sub_key_settings)
 
             if err is not None:
                 errors.append(err)

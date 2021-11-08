@@ -9,17 +9,17 @@ class Indexable(object):
     def __init__(self):
         pass
 
-    # def next_free_id(self, jump_index=None, recursion=False, ci=False):
+    # def next_free_id(self, jump_index=None, recursion=False):
     #     LOGGER.info("Getting next free id ...")
     #     self.index_id_list(jump_index, recursion, ci)
     #     return max(self.id_list) + 1
 
-    def get_new_unique_id(self, key, sub_key=None, ci=False):
+    def get_new_unique_id(self, key, sub_key=None):
         LOGGER.debug("Getting new unique id ...")
         attribute_name = self.get_attribute_name(key, sub_key)
         return max(getattr(self, attribute_name)) + 1
 
-    def check_for_doublettes(self, key, sub_key_settings=None, optional=True, ci=False):
+    def check_for_doublettes(self, key, sub_key_settings=None, optional=True):
         errors = []
 
         if sub_key_settings is not None:
@@ -85,7 +85,7 @@ class Indexable(object):
         return attribute_name
 
     def index_sub_key(self, attr, key, sub_key, sub_key_attribute_name=None,
-                      optional=True, sub_key_settings=None, ci=False):
+                      optional=True, sub_key_settings=None):
         errors = []
         err = self.index_key(attr=attr, key=key, sub_key=sub_key,
                              sub_key_attribute_name=sub_key_attribute_name,
@@ -103,7 +103,7 @@ class Indexable(object):
             return errors
 
     def index_key(self, attr, key, sub_key=None, sub_key_attribute_name=None,
-                  optional=True, sub_key_settings=None, ci=False):
+                  optional=True, sub_key_settings=None):
 
         errors = []
 

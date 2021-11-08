@@ -6,6 +6,8 @@ from .index import Indexable
 
 from .error import MissingKeyError, InvalidCountryCodeError
 
+from collections import namedtuple
+
 from . import INDEX_LIST_SUFFIX
 
 import pycountry
@@ -40,26 +42,23 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
 
     # Tuple description
     # (field, unique, optional, sub-key-settings)
-    # Same tuple description as for 'index_key_settings'
-    index_platform_sub_key_settings = [
-        ('de', True, True, None),
-        ('voobly', True, True, None)
-    ]
-
-    # Tuple description
-    # (field, unique, optional, sub-key-settings)
     # field: indexed keys
-    # unique: check for duplicates here
+    # unique: don't check for duplicates here
     # optional: Don't throw an exeption for these keys if they are missing
     # sub-key-settings: settings for contained sub-keys
+    IndexSetting = namedtuple('IndexSetting', 'key unique optional sub_key_settings')
+
     index_key_settings = [
-        ('id', True, False, None),
-        ('name', True, False, None),
-        ('aoeelo', True, True, None),
-        ('esportsearnings', True, True, None),
-        ('platforms', True, True, index_platform_sub_key_settings),
-        ('liquipedia', True, True, None),
-        ('country', False, True, None)
+        IndexSetting('id', True, False, None),
+        IndexSetting('name', True, False, None),
+        IndexSetting('aoeelo', True, True, None),
+        IndexSetting('esportsearnings', True, True, None),
+        IndexSetting('platforms', True, True, [
+            IndexSetting('de', True, True, None),
+            IndexSetting('voobly', True, True, None)
+        ]),
+        IndexSetting('liquipedia', True, True, None),
+        IndexSetting('country', False, True, None)
     ]
 
     def __init__(self):
@@ -88,7 +87,7 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
 
         LOGGER.debug("Indexing of names complete.")
 
-    def check_country_names_being_valid(self, ci=False):
+    def check_country_names_being_valid(self):
         errors = []
 
         LOGGER.debug("Validating country codes ...")
@@ -120,7 +119,7 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
     # TODO: Refactor with generalisation in indexing
     #
 
-    def index_id_list(self, jump_index=None, recursion=False, ci=False):
+    def index_id_list(self, jump_index=None, recursion=False):
 
         if not recursion:
 
@@ -160,7 +159,7 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
                         # TODO: Refactor to own method?
                         player['id'] = self.next_free_id(jump_index=index,
 
-                                                         recursion=True, ci=ci)
+                                                         recursion=True)
 
                         LOGGER.info(f"Gave {player['name']} new ID: "
 
