@@ -15,7 +15,7 @@ from util.error import LintError
 
 # DEBUGGING FLAGS
 
-DEBUG = False
+DEBUG = True
 CI = True
 
 LOGGER = logging.getLogger(__name__)

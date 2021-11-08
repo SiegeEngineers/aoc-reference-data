@@ -9,36 +9,86 @@ class Indexable(object):
     def __init__(self):
         pass
 
-    # def next_free_id(self, jump_index=None, recursion=False):
-    #     LOGGER.info("Getting next free id ...")
-    #     self.index_id_list(jump_index, recursion, ci)
-    #     return max(self.id_list) + 1
+    def get_new_unique_id(self, key, sub_key=None, offset=1):
+        """ Returns a unique ID for 'self'.'key'.
 
-    def get_new_unique_id(self, key, sub_key=None):
+        Args:
+            key (String): Key part of key:value.
+            sub_key (String, optional): Next level in hierarchy of 'key'.
+                                        Defaults to None.
+
+        Returns:
+            int: a unique ID derived from the maximum ID of a the
+                 index element list with the addition of 1
+        """
+
         LOGGER.debug("Getting new unique id ...")
         attribute_name = self.get_attribute_name(key, sub_key)
-        return max(getattr(self, attribute_name)) + 1
+        return max(getattr(self, attribute_name)) + offset
 
     def check_for_doublettes(self, key, sub_key_settings=None, optional=True):
+        """ Checks for duplicates in the indexed keys.
+
+        Args:
+            key (String): Key part of key:value.
+            sub_key (String, optional): Next level in hierarchy of 'key'.
+                                        Defaults to None.
+            optional (bool, optional): Defines whether the key in the element
+                                       is optional. Defaults to True.
+
+        Returns:
+            DoubletteFoundError: Returns 'DoubletteFoundError(s)' appended to
+                                 a list of Errors
+        """
+
         errors = []
+        dupl = []
 
         if sub_key_settings is not None:
             for sub_key, unique, sk_optional, sk_settings in sub_key_settings:
-                LOGGER.debug(f"Checking for doublettes in '{key}[{sub_key}]' ...")
+                LOGGER.debug(f"Checking for doublettes in '{key}[{sub_key}]' "
+                             "...")
 
                 attribute_name = self.get_attribute_name(key, sub_key)
 
                 (duplicate, duplicate_idx) = Indexable.list_has_duplicate(
                     getattr(self, attribute_name))
 
-                if duplicate:
+                if not duplicate:
+                    LOGGER.debug(f"No duplicates in '{type(self)}::{key}' "
+                                 "found.")
+
+                while duplicate:
                     LOGGER.debug(f"ERROR! '{type(self)}::{key}[{sub_key}]' "
                                  f"list contains a duplicate!")
-                    errors.append(DoubletteFoundError(f"""'{type(self)}::'{key}[{sub_key}]': """
-                                                      f"""{getattr(self, attribute_name)[duplicate_idx]}"""
-                                                      ))
-            else:
-                LOGGER.debug(f"No duplicates in '{type(self)}::{key}[{sub_key}]' found.")
+
+                    # Collect duplicates
+                    dupl.append(getattr(self, attribute_name)[duplicate_idx])
+
+                    # Check if there are more duplicates after this duplicate
+                    (duplicate, duplicate_idx) = Indexable.list_has_duplicate(
+                        getattr(self, attribute_name),
+                        dupl=dupl,
+                        start=duplicate_idx
+                    )
+
+                merged_duplicates = {dup for dup in dupl}
+
+                offset = 1
+                for duplicate in merged_duplicates:
+                    if key == 'id':
+                        errors.append(DoubletteFoundError(
+                            f"We found a duplicate: '{type(self)}::'{key}': "
+                            f"{duplicate}. "
+                            f"Help: If you need a unique id, try 'id: "
+                            f"{self.get_new_unique_id(key=key, offset=offset)}'"
+                        ))
+                        offset += 1
+                    else:
+                        errors.append(DoubletteFoundError(
+                            f"We found a duplicate: '{type(self)}::"
+                            f"'{key}[{sub_key}]': {duplicate}"
+                        ))
 
         elif sub_key_settings is None:
             attribute_name = self.get_attribute_name(key)
@@ -48,31 +98,74 @@ class Indexable(object):
             (duplicate, duplicate_idx) = Indexable.list_has_duplicate(
                 getattr(self, attribute_name))
 
-            if duplicate:
+            if not duplicate:
+                LOGGER.debug(f"No duplicates in '{type(self)}::{key}' found.")
+
+            while duplicate:
                 LOGGER.debug(f"ERROR! '{type(self)}::{key}' "
                              f"list contains a duplicate!")
 
-                errors.append(DoubletteFoundError(f"""'{type(self)}::'{key}': """
-                                                  f"""{getattr(self, attribute_name)[duplicate_idx]}"""
-                                                  ))
+                # Collect duplicates
+                dupl.append(getattr(self, attribute_name)[duplicate_idx])
 
-            else:
-                LOGGER.debug(f"No duplicates in '{type(self)}::{key}' found.")
+                # Check if there are more duplicates after this duplicate
+                (duplicate, duplicate_idx) = Indexable.list_has_duplicate(
+                    getattr(self, attribute_name),
+                    dupl=dupl,
+                    start=duplicate_idx
+                )
+
+            merged_duplicates = {dup for dup in dupl}
+
+            offset = 1
+            for duplicate in merged_duplicates:
+                if key == 'id':
+                    errors.append(DoubletteFoundError(
+                        f"We found a duplicate: '{type(self)}::'{key}': "
+                        f"{duplicate}. "
+                        f"Help: If you need a unique id, try 'id: "
+                        f"{self.get_new_unique_id(key, offset=offset)}'"
+                    ))
+                    offset += 1
+                else:
+                    errors.append(DoubletteFoundError(
+                        f"We found a duplicate: '{type(self)}::'{key}': "
+                        f"{duplicate}"
+                    ))
 
         err_len = len(errors)
 
         if err_len == 0:
-            LOGGER.debug(f"No errors. Checking for duplicates in '{type(self)}::'{key}' finished.")
+            LOGGER.debug(f"No errors. Checking for duplicates in "
+                         f"'{type(self)}::'{key}' finished.")
             return None
         elif err_len > 0:
-            LOGGER.error(f"Checking for duplicates in '{type(self)}::'{key}' finished with {err_len} error(s).")
+            LOGGER.error(f"Checking for duplicates in '{type(self)}::'{key}' "
+                         f"finished with {err_len} error(s).")
             return errors
 
-    def list_has_duplicate(lst):
+    def list_has_duplicate(lst, dupl=None, start=None):
+        """ Checks the input list for a duplicate number
+
+        Args:
+            lst(list): A list to be checked for a duplicate
+            start(int, optional): The index from where to start. Defaults to
+            None.
+
+        Returns:
+            (bool, int): Returns a tuple of True and the index of the duplicate
+                         ID in case a duplicate was found. If no duplicate was
+                         found it returns a tuple of False and None.
+        """
+
         for index, elem in enumerate(lst):
-            if lst.count(elem) > 1:
-                return (True, index)
-        return (False, -1)
+            if start is not None and index <= start:
+                continue
+            elif lst.count(elem) > 1:
+                if ((dupl is not None) and (elem not in dupl)) or dupl is None:
+                    return (True, index)
+
+        return (False, None)
 
     def get_attribute_name(self, key, sub_key=None):
         if sub_key is None:
@@ -95,17 +188,24 @@ class Indexable(object):
         errors = []
         err = self.index_key(attr=attr, key=key, sub_key=sub_key,
                              sub_key_attribute_name=sub_key_attribute_name,
-                             optional=optional, sub_key_settings=sub_key_settings)
+                             optional=optional,
+                             sub_key_settings=sub_key_settings)
         if err is not None:
             errors.append(err)
 
         err_len = len(errors)
 
         if err_len == 0:
-            LOGGER.debug(f"No errors. Indexing '{type(self)}::'{key}[{sub_key}]' finished.")
+            LOGGER.debug(
+                f"No errors. Indexing '{type(self)}::'{key}[{sub_key}]' "
+                "finished."
+            )
             return None
         elif err_len > 0:
-            LOGGER.error(f"Indexing '{type(self)}::'{key}[{sub_key}]' finished with {err_len} error(s).")
+            LOGGER.error(
+                f"Indexing '{type(self)}::'{key}[{sub_key}]' finished with "
+                f"{err_len} error(s)."
+            )
             return errors
 
     def index_key(self, attr, key, sub_key=None, sub_key_attribute_name=None,
@@ -122,7 +222,9 @@ class Indexable(object):
         elif sub_key_settings is not None:
             for sub_key, unique, sk_optional, sk_settings in sub_key_settings:
                 pass
-                LOGGER.debug(f"Creating index for '{attr}['element'][{key}][{sub_key}]'")
+                LOGGER.debug(
+                    f"Creating index for '{attr}['element'][{key}][{sub_key}]'"
+                )
                 attribute_name = self.create_attribute(key, sub_key)
                 err = self.index_sub_key(attr=attr, key=key, sub_key=sub_key,
                                          sub_key_attribute_name=attribute_name,
@@ -134,10 +236,14 @@ class Indexable(object):
             err_len = len(errors)
 
             if err_len == 0:
-                LOGGER.debug(f"No errors. Indexing '{type(self)}'::'{key}[{sub_key}]' finished.")
+                LOGGER.debug(
+                    f"No errors. Indexing '{type(self)}'::'{key}[{sub_key}]' "
+                    "finished."
+                )
                 return None
             elif err_len > 0:
-                LOGGER.error(f"Indexing '{type(self)}'::'{key}[{sub_key}]' finished with {err_len} error(s).")
+                LOGGER.error(f"Indexing '{type(self)}'::'{key}[{sub_key}]' "
+                             f"finished with {err_len} error(s).")
                 return errors
 
         for index, elem in enumerate(getattr(self, attr)):
@@ -147,27 +253,34 @@ class Indexable(object):
                         getattr(self, attribute_name).append(
                             getattr(elem, key))
                     else:
-                        errors.append(MissingKeyError(f"Missing '{key}' "
-                                                      f"for "
-                                                      f"'{getattr(elem,'name')}'"))
+                        errors.append(MissingKeyError(
+                            f"Missing '{key}' "
+                            f"for "
+                            f"'{getattr(elem,'name')}'"))
 
                 except (KeyError, AttributeError):
                     try:
-                        errors.append(MissingKeyError(f"Missing '{key}' "
-                                                      f"for '{getattr(elem, 'name')}'"))
+                        errors.append(MissingKeyError(
+                            f"Missing '{key}' "
+                            f"for '{getattr(elem, 'name')}'"))
                     except AttributeError:
-                        errors.append(MissingKeyError(f"Missing non-optional 'name' key "
-                                                      f"for '{elem}'"))
+                        errors.append(MissingKeyError(
+                            f"Missing non-optional 'name' key "
+                            f"for '{elem}'"))
             elif attr == "players":
                 if sub_key is not None:
                     try:
                         for sk_elem in elem[key][sub_key]:
-                            LOGGER.debug(f"Found: {elem['id']} - {sub_key}::{sk_elem}")
-                            getattr(self, sub_key_attribute_name).append(sk_elem)
+                            LOGGER.debug(f"Found: {elem['id']} - "
+                                         f"{sub_key}::{sk_elem}")
+                            getattr(self,
+                                    sub_key_attribute_name
+                                    ).append(sk_elem)
                     except KeyError:
                         if not optional:
-                            errors.append(MissingKeyError(f"Missing '{key}::{sub_key}' "
-                                                          f"for '{elem['id']}:{elem['name']}'"))
+                            errors.append(MissingKeyError(
+                                f"Missing '{key}::{sub_key}' "
+                                f"for '{elem['id']}:{elem['name']}'"))
                 elif sub_key is None:
                     # As long as we don't parse as a class, this should work.
                     # Otherwise the key is None and existing, see teams above
@@ -176,22 +289,28 @@ class Indexable(object):
                     except KeyError:
                         if not optional:
                             try:
-                                errors.append(MissingKeyError(f"Missing '{key}' "
-                                                              f"for '{elem['name']}'"))
+                                errors.append(
+                                    MissingKeyError(f"Missing '{key}' "
+                                                    f"for '{elem['name']}'"))
                             except KeyError:
-                                errors.append(MissingKeyError(f"Missing non-optional 'name' key "
-                                                              f"for '{elem}'"))
+                                errors.append(
+                                    MissingKeyError(
+                                        f"Missing non-optional 'name' "
+                                        f"key for '{elem}'"))
 
         err_len = len(errors)
 
         if err_len > 0 and key == 'id':
             new_id = self.get_new_unique_id(key)
-            errors.append(f"Help: If you need a next unique ID for {type(self)}'::'{key}' "
+            errors.append(f"Help: If you need a next unique ID "
+                          f"for {type(self)}'::'{key}' "
                           f"try adding 'id: {new_id}'")
 
         if err_len == 0:
-            LOGGER.debug(f"No errors. Indexing '{type(self)}'::'{key}' finished.")
+            LOGGER.debug(
+                f"No errors. Indexing '{type(self)}'::'{key}' finished.")
             return None
         elif err_len > 0:
-            LOGGER.error(f"Indexing '{type(self)}'::'{key}' finished with {err_len} error(s).")
+            LOGGER.error(f"Indexing '{type(self)}'::'{key}' finished with "
+                         f"{err_len} error(s).")
             return errors
