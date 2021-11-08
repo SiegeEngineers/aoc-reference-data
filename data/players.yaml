@@ -2964,7 +2964,7 @@
 - name: Dark
   country: ru
   twitch:
-    - https://www.twitch.tv/dark_aoe
+    - https://www.twitch.tv/darkaoe
   platforms:
     voobly:
       - "125137692"
