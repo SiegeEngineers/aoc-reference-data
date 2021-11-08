@@ -9,42 +9,26 @@ class DataProcessor(object):
     def __init__(self, ci=False):
 
         self.ci = ci
-
         self.player_list = []
-
         self.team_list = []
-
         self.liquipedia_player_list = []
-
         self.overwrite_logic = [
-
-
             ('liquipedia', False), ('twitch', False), ('youtube', False),
-
-            ('team', True)]
+            ('team', True)
+        ]
 
     def new_from(self, player_list, team_list, liquipedia_player_list):
         """ Create new DataProcessor object from data lists
 
-
         Args:
-
-
             player_list (PlayerList): A list of players already contained in
-
             the repository team_list (TeamList): A list of teams already
-
             contained in the repository result_list (Dictionary):
-
             The result of LiquipediaRequest
-
-
         """
 
         self.player_list = player_list
-
         self.team_list = team_list
-
         self.liquipedia_player_list = liquipedia_player_list
 
     def preprocess(self):
@@ -87,7 +71,7 @@ class DataProcessor(object):
         if err_len == 0:
             LOGGER.debug("Indexing finished.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Indexing finished with {err_len} error(s).")
             return errors
 
@@ -114,7 +98,7 @@ class DataProcessor(object):
         if err_len == 0:
             LOGGER.debug("Linting finished.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Linting finished with {err_len} error(s).")
             return errors
 
@@ -138,7 +122,7 @@ class DataProcessor(object):
         if err_len == 0:
             LOGGER.debug("No errors. Checking for duplicates in teams finished.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Checking for duplicates in teams finished with {err_len} error(s).")
             return errors
 
@@ -163,7 +147,7 @@ class DataProcessor(object):
         if err_len == 0:
             LOGGER.debug("No errors. Checking for duplicates in players finished.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Checking for duplicates in players finished with {err_len} error(s).")
             return errors
 
@@ -183,7 +167,7 @@ class DataProcessor(object):
         if err_len == 0:
             LOGGER.debug("No errors. Indexing team keys finished.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Indexing team keys finished with {err_len} error(s).")
             return errors
 
@@ -203,7 +187,7 @@ class DataProcessor(object):
         if err_len == 0:
             LOGGER.debug("No errors. Indexing player keys finished.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Indexing player keys finished with {err_len} error(s).")
             return errors
 
@@ -217,16 +201,13 @@ class DataProcessor(object):
         removed_values = 0
 
         for index, player in enumerate(self.copy_player_list):
-
             name = player.get('liquipedia', player['name']).lower()
 
             # Remove players where we can't get information from Liquipedia
-
             if not self.liquipedia_player_list.contains_name(name):
-
                 removed_values += 1
-
                 self.copy_player_list.pop(index)
+
                 continue
 
         LOGGER.info(f"We removed {removed_values} values.")

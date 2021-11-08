@@ -110,7 +110,7 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
         if err_len == 0:
             LOGGER.debug("Country codes validated.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Country codes validated with {err_len} error(s).")
             return errors
 

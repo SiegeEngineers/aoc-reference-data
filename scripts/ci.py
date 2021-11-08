@@ -15,7 +15,7 @@ from util.error import LintError
 
 # DEBUGGING FLAGS
 
-DEBUG = True
+DEBUG = False
 CI = True
 
 LOGGER = logging.getLogger(__name__)
@@ -25,24 +25,25 @@ if __name__ == '__main__':
 
     #  Setup
     errors = []
-    logging.basicConfig(level=logging.INFO)
+
+    # Set Debug logging if necessary
+    if DEBUG:
+        logging.basicConfig(level=logging.DEBUG)
+    elif not DEBUG:
+        logging.basicConfig(level=logging.INFO)
 
     # Parsing data from repository
 
     # TODO: Parsing into PlayerList type
-
     player_list = PlayerList()
-
     player_list.import_from_file(file_name="data/players", file_type="yaml")
-
     player_list.players = player_list.import_data
 
     imported_team_list = Team()
-
     imported_team_list.import_from_file(
-
         file_name="data/teams", file_type="json")
 
+    # Read into TeamList type
     team_list = TeamList(imported_team_list.import_data)
 
     # Linting of data files
@@ -50,9 +51,7 @@ if __name__ == '__main__':
     LOGGER.debug("Data processing started ...")
 
     data_processor = DataProcessor(ci=CI)
-
     data_processor.new_from(player_list,
-
                             team_list, None)
 
     LOGGER.debug("Linting the data files ...")

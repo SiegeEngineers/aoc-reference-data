@@ -29,6 +29,7 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
     def __init__(self, debug=None, cache=None, game="aoe2"):
 
         self.wait_secs = 30
+        self.page_size = 200
 
         if debug is True:
             self.debug = True
@@ -40,16 +41,10 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
         else:
             self.cache = False
 
-        self.page_size = 200
-
         if game == "aoe2":
-
             self.conditions = [
-
                 'Category:Age of Empires II Players',
-
                 'Is player::true'
-
             ]
 
         self.export_data = []
@@ -58,7 +53,6 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
         """Fetch data from liquipedia API."""
 
         self.output = []
-
         offset = 0
 
         while True:
@@ -66,45 +60,28 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
             LOGGER.info(f"querying liquipedia at offset {offset}")
 
             resp = requests.get(self.url, params={
-
                 'action': 'askargs',
-
                 'format': 'json',
-
                 'conditions': '|'.join(self.conditions),
-
                 'printouts': '|'.join(self.properties),
-
                 'parameters': '|'.join([f'offset={offset}',
                                         f'limit={self.page_size}'])
-
             }, headers={
-
                 'User-Agent': self.user_agent
-
             })
 
             if self.debug:
                 LOGGER.info(f"Request url: {resp.request.url}")
 
             try:
-
                 data = resp.json()
-
             except json.decoder.JSONDecodeError:
-
                 LOGGER.exception("failed to fetch: %s", resp.content)
-
             for result in data['query']['results'].values():
-
                 record = result['printouts']
-
                 team = record['Has team'][0]['fulltext'] if record['Has team'] else None
-
                 name = record['Has id'][0]
-
                 twitch = record['Has twitch stream'][0] if record['Has twitch stream'] else None
-
                 youtube = record['Has youtube channel'][0] if record['Has youtube channel'] else None
 
                 # TODO: Query for Facebook Gaming as well
@@ -120,7 +97,6 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
             offset = data.get('query-continue-offset')
 
             if not offset:
-
                 break
 
             time.sleep(self.wait_secs)

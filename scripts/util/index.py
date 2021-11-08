@@ -25,7 +25,9 @@ class Indexable(object):
         if sub_key_settings is not None:
             for sub_key, unique, sk_optional, sk_settings in sub_key_settings:
                 LOGGER.debug(f"Checking for doublettes in '{key}[{sub_key}]' ...")
+
                 attribute_name = self.get_attribute_name(key, sub_key)
+
                 (duplicate, duplicate_idx) = Indexable.list_has_duplicate(
                     getattr(self, attribute_name))
 
@@ -40,16 +42,20 @@ class Indexable(object):
 
         elif sub_key_settings is None:
             attribute_name = self.get_attribute_name(key)
+
             LOGGER.debug(f"Checking for doublettes in '{key}' ...")
+
             (duplicate, duplicate_idx) = Indexable.list_has_duplicate(
                 getattr(self, attribute_name))
 
             if duplicate:
                 LOGGER.debug(f"ERROR! '{type(self)}::{key}' "
                              f"list contains a duplicate!")
+
                 errors.append(DoubletteFoundError(f"""'{type(self)}::'{key}': """
                                                   f"""{getattr(self, attribute_name)[duplicate_idx]}"""
                                                   ))
+
             else:
                 LOGGER.debug(f"No duplicates in '{type(self)}::{key}' found.")
 
@@ -58,7 +64,7 @@ class Indexable(object):
         if err_len == 0:
             LOGGER.debug(f"No errors. Checking for duplicates in '{type(self)}::'{key}' finished.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Checking for duplicates in '{type(self)}::'{key}' finished with {err_len} error(s).")
             return errors
 
@@ -98,7 +104,7 @@ class Indexable(object):
         if err_len == 0:
             LOGGER.debug(f"No errors. Indexing '{type(self)}::'{key}[{sub_key}]' finished.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Indexing '{type(self)}::'{key}[{sub_key}]' finished with {err_len} error(s).")
             return errors
 
@@ -130,7 +136,7 @@ class Indexable(object):
             if err_len == 0:
                 LOGGER.debug(f"No errors. Indexing '{type(self)}'::'{key}[{sub_key}]' finished.")
                 return None
-            if err_len > 0:
+            elif err_len > 0:
                 LOGGER.error(f"Indexing '{type(self)}'::'{key}[{sub_key}]' finished with {err_len} error(s).")
                 return errors
 
@@ -186,6 +192,6 @@ class Indexable(object):
         if err_len == 0:
             LOGGER.debug(f"No errors. Indexing '{type(self)}'::'{key}' finished.")
             return None
-        if err_len > 0:
+        elif err_len > 0:
             LOGGER.error(f"Indexing '{type(self)}'::'{key}' finished with {err_len} error(s).")
             return errors
