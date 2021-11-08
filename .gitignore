@@ -1,3 +1,6 @@
 aocref.egg-info
 dist
 __pycache__
+.vscode
+cache
+build

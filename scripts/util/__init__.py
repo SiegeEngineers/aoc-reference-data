@@ -1,0 +1,1 @@
+INDEX_LIST_SUFFIX = "list"
