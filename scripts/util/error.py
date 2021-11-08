@@ -1,3 +1,8 @@
+import logging
+
+LOGGER = logging.getLogger(__name__)
+
+
 class PreparationError(Exception):
     """ Base class for errors in the preparation stage """
     pass
@@ -27,3 +32,11 @@ class DoubletteFoundError(PreparationError):
 class MissingKeyError(PreparationError):
     """ Raised when a key is missing e.g. no ID key """
     pass
+
+
+def unpack_error_list(err_list):
+    if len(err_list) == 0:
+        return err_list
+    if isinstance(err_list[0], list):
+        return unpack_error_list(err_list[0]) + unpack_error_list(err_list[1:])
+    return err_list[:1] + unpack_error_list(err_list[1:])

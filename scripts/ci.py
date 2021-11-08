@@ -10,12 +10,12 @@ from util.teams import Team, TeamList
 
 from util.data_processor import DataProcessor
 
-from util.error import LintError
+from util.error import LintError, unpack_error_list
 
 
 # DEBUGGING FLAGS
 
-DEBUG = True
+DEBUG = False
 CI = True
 
 LOGGER = logging.getLogger(__name__)
@@ -71,8 +71,19 @@ if __name__ == '__main__':
 
     if err_len > 0:
         LOGGER.error(f"Linting finished with {err_len} error(s).")
+        print(
+            """
+            ############################################################
+            ###################### ERROR SUMMARY #######################
+            ############################################################
+            """
+        )
+
         for error in errors:
-            LOGGER.error(f"{error}")
+            unpacked_err = unpack_error_list(error)
+            while len(unpacked_err) > 0:
+                error_message = unpacked_err.pop()
+                LOGGER.error(f"{error_message}")
         status = 1
     else:
         LOGGER.info("No errors. Linting finished.")

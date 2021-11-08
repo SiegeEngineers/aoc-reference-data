@@ -9,6 +9,7 @@ class DataProcessor(object):
     def __init__(self, ci=False):
 
         self.ci = ci
+        self.errors = []
         self.player_list = []
         self.team_list = []
         self.liquipedia_player_list = []

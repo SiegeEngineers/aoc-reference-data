@@ -79,14 +79,13 @@ class Indexable(object):
                     if key == 'id':
                         errors.append(
                             DoubletteFoundError(
-                                f"We found a duplicate: '{type(self)}::"
-                                f"'{key}': {duplicate}. "
+                                f"We found a duplicate: '{type(self)}::'{key}'"
+                                f": {duplicate}. "
                                 f"Help: If you need a unique id, try 'id: "
                                 f"""{self.get_new_unique_id(
                                     key=key, offset=offset
                                 )}'"""
-                            )
-                        )
+                            ))
                         offset += 1
                     else:
                         errors.append(DoubletteFoundError(
@@ -331,14 +330,14 @@ class Indexable(object):
                             getattr(elem, key))
                     else:
                         errors.append(MissingKeyError(
-                            f"Missing '{key}' "
+                            f"Missing '{type(self)}'::'{key}' "
                             f"for "
                             f"'{getattr(elem,'name')}'"))
 
                 except (KeyError, AttributeError):
                     try:
                         errors.append(MissingKeyError(
-                            f"Missing '{key}' "
+                            f"Missing '{type(self)}::{key}' "
                             f"for '{getattr(elem, 'name')}'"))
                     except AttributeError:
                         errors.append(MissingKeyError(
@@ -356,7 +355,7 @@ class Indexable(object):
                     except KeyError:
                         if not optional:
                             errors.append(MissingKeyError(
-                                f"Missing '{key}::{sub_key}' "
+                                f"Missing '{type(self)}::{key}::{sub_key}' "
                                 f"for '{elem['id']}:{elem['name']}'"))
                 elif sub_key is None:
                     # As long as we don't parse as a class, this should work.
@@ -367,21 +366,22 @@ class Indexable(object):
                         if not optional:
                             try:
                                 errors.append(
-                                    MissingKeyError(f"Missing '{key}' "
+                                    MissingKeyError(f"Missing {type(self)}:"
+                                                    f":{key}' "
                                                     f"for '{elem['name']}'"))
                             except KeyError:
                                 errors.append(
                                     MissingKeyError(
-                                        f"Missing non-optional 'name' "
-                                        f"key for '{elem}'"))
+                                        f"Missing non-optional {type(self)}::"
+                                        f"'name' key for '{elem}'"))
 
         err_len = len(errors)
 
         if err_len > 0 and key == 'id':
             new_id = self.get_new_unique_id(key)
             errors.append(f"Help: If you need a next unique ID "
-                          f"for {type(self)}'::'{key}' "
-                          f"try adding 'id: {new_id}'")
+                          f"for {type(self)}::{key}' "
+                          f"start from 'id: {new_id}' onwards.")
 
         if err_len == 0:
             LOGGER.debug(
