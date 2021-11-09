@@ -4620,6 +4620,7 @@
   twitch:
     - https://www.twitch.tv/salted_pepper
   id: 367
+  aoeelo: 964
 - name: Mihai
   country: ro
   platforms:
@@ -4645,3 +4646,4 @@
     de:
       - "3759800"
   id: 370
+  aoeelo: 1151
