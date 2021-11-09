@@ -4771,6 +4771,9 @@
   platforms:
     de:
       - '2009315'
+      - '4375138'
+  twitch:
+    - https://www.twitch.tv/raidaoe
   id: 387
 - name: Snyper1
   country: de
