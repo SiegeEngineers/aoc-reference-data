@@ -2754,6 +2754,7 @@
       - "3208276"
   liquipedia: Ming (Hong Kongese player)
   id: 197
+  aoeelo: 1149
 - name: Kyo
   country: hk
   platforms:
@@ -4511,6 +4512,7 @@
       - "1829213"
       - "3038783"
   id: 355
+  aoeelo: 1174
 - name: Mr.Bean
   country: vn
   platforms:
@@ -4565,6 +4567,7 @@
       - "689666"
       - "4877844"
   id: 360
+  aoeelo: 653
 - name: Fanjita
   country: gb
   platforms:
@@ -4572,6 +4575,7 @@
       - "2361017"
   liquipedia: Fanjita
   id: 361
+  aoeelo: 166
 - name: Sensar
   country: us
   platforms:
@@ -4597,6 +4601,7 @@
       - "3208255"
       - "2654967"
   id: 364
+  aoeelo: 953
 - name: Blade
   country: gb
   platforms:
@@ -4604,6 +4609,7 @@
       - "994370"
       - "1177662"
   id: 365
+  aoeelo: 719
 - name: Quảng Trị
   country: vn
   platforms:
@@ -4647,3 +4653,136 @@
       - "3759800"
   id: 370
   aoeelo: 1151
+- name: Andre_2i
+  country: ro
+  aoeelo: 790
+  platforms:
+    de:
+      - '635884'
+  id: 371
+- name: BarneyS
+  country: ca
+  aoeelo: 620
+  platforms:
+    de:
+      - '442163'
+  id: 372
+- name: c.salette
+  country: fr
+  aoeelo: 984
+  platforms:
+    de:
+      - '1920807'
+  id: 373
+- name: Chirris
+  country: mx
+  aoeelo: 957
+  platforms:
+    de:
+      - '395776'
+  id: 374
+- name: darvoi
+  country: gb
+  aoeelo: 753
+  platforms:
+    de:
+      - '234755'
+  id: 375
+- name: Dench
+  country: ru
+  aoeelo: 649
+  platforms:
+    de:
+      - '367774'
+  id: 376
+- name: Dr.Kozmonot
+  country: tr
+  aoeelo: 886
+  platforms:
+    de:
+      - '3446882'
+  id: 377
+- name: emalius
+  country: fi
+  aoeelo: 636
+  platforms:
+    de:
+      - '516841'
+  id: 378
+- name: Gergis
+  country: ar
+  aoeelo: 929
+  platforms:
+    de:
+      - '1618328'
+  id: 379
+- name: GodOfTheGodless
+  country: de
+  aoeelo: 639
+  platforms:
+    de:
+      - '260593'
+  id: 380
+- name: gwfe
+  country: de
+  aoeelo: 444
+  platforms:
+    de:
+      - '213142'
+  id: 381
+- name: iBUYPOWER
+  country: cn
+  aoeelo: 912
+  platforms:
+    de:
+      - '243287'
+  id: 382
+- name: Ivanenko
+  country: ar
+  aoeelo: 826
+  platforms:
+    de:
+      - '267775'
+  id: 383
+- name: King_Marv
+  country: de
+  aoeelo: 715
+  platforms:
+    de:
+      - '1787077'
+  id: 384
+- name: MingudaiLee
+  country: uy
+  aoeelo: 725
+  platforms:
+    de:
+      - '210124'
+  id: 385
+- name: only
+  country: cn
+  aoeelo: 112
+  platforms:
+    de:
+      - '4968670'
+  id: 386
+- name: RaiD
+  country: it
+  aoeelo: 454
+  platforms:
+    de:
+      - '2009315'
+  id: 387
+- name: Snyper1
+  country: de
+  aoeelo: 509
+  platforms:
+    de:
+      - '435965'
+  id: 388
+- name: Socksyy
+  country: au
+  aoeelo: 447
+  platforms:
+    de:
+      - '949573'
+  id: 389
