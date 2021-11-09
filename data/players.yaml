@@ -4660,6 +4660,8 @@
   platforms:
     de:
       - '635884'
+  twitch:
+    - https://www.twitch.tv/Andre_2i
   id: 371
 - name: BarneyS
   country: ca
