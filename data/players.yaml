@@ -4637,3 +4637,11 @@
     de:
       - "210256"
   id: 369
+- name: Minh Anh
+  country: vn
+  facebook_gaming:
+    - https://www.facebook.com/minhanhaoe2
+  platforms:
+    de:
+      - "3759800"
+  id: 370
