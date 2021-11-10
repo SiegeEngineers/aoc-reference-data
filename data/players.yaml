@@ -4794,3 +4794,10 @@
     de:
       - '949573'
   id: 389
+- name: DedlyYetti
+  country: us
+  platforms:
+    de:
+      - '969542'
+  liquipedia: DedlyYetti
+  id: 390
