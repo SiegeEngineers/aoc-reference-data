@@ -4807,3 +4807,9 @@
       - '969542'
   liquipedia: DedlyYetti
   id: 390
+- name: Skillyourself
+  country: 'no'
+  platforms:
+    de:
+      - '371044'
+  id: 391
