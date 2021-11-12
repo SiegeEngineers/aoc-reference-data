@@ -4821,3 +4821,10 @@
   twitch:
     - https://www.twitch.tv/ozoneaoe
   id: 392
+- name: StellarMeesh
+  platforms:
+    de:
+      - '209228'
+  twitch:
+    - https://www.twitch.tv/stellarmeesh
+  id: 393
