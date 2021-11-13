@@ -287,6 +287,10 @@ class Indexable(object):
             list: Returns a list of errors that this method throws.
         """
 
+        #  TODO: a list containing tuples (id, players-id) to also be able to
+        #  make a reverse action and actually find the entry again without
+        #  searching for it
+
         errors = []
 
         if sub_key is None and sub_key_settings is None:
