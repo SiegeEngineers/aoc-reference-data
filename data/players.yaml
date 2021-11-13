@@ -4828,3 +4828,10 @@
   twitch:
     - https://www.twitch.tv/stellarmeesh
   id: 393
+- name: Dave
+  platforms:
+    de:
+      - '3068644'
+  twitch:
+    - https://www.twitch.tv/dave_aoe
+  id: 394
