@@ -163,11 +163,11 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
 
 #                                                          recursion=True)
 
-#                         LOGGER.info(f"Gave {player['name']} new ID: "
+#                         LOGGER.debug(f"Gave {player['name']} new ID: "
 
 #                                     f"{player['id']}")
 
-#                         LOGGER.info("Continuing as usual ...")
+#                         LOGGER.debug("Continuing as usual ...")
 
 #                         self.id_list.append(player['id'])
 

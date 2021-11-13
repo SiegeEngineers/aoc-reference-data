@@ -18,7 +18,6 @@ from util.requests import LiquipediaRequest
 # DEBUGGING FLAGS
 
 DEBUG = True
-
 CACHE = True
 
 
@@ -28,22 +27,24 @@ LOGGER = logging.getLogger(__name__)
 if __name__ == '__main__':
 
     #  Setup
+    errors = []
 
-    logging.basicConfig(level=logging.INFO)
+    # Set Debug logging if necessary
+    if DEBUG:
+        logging.basicConfig(level=logging.DEBUG)
+    elif not DEBUG:
+        logging.basicConfig(level=logging.INFO)
 
     # Check for cache hit
 
     if os.path.exists('cache/liquipedia.json'):
-
         CACHE_HIT = True
-
     else:
-
         CACHE_HIT = False
 
     # Fetching data from Liquipedia
 
-    LOGGER.info("Starting data update")
+    LOGGER.debug("Starting data update")
 
     if not CACHE_HIT:
 
@@ -61,7 +62,7 @@ if __name__ == '__main__':
 
         # DEBUGGING/DEVELOPMENT: Use cache for Liquipedia response
 
-        LOGGER.info("CACHE HIT! We use our cached Liquipedia results!")
+        LOGGER.debug("CACHE HIT! We use our cached Liquipedia results!")
 
         liquipedia_data = LiquipediaPlayer()
 
@@ -103,7 +104,7 @@ if __name__ == '__main__':
 
     # Data processing
 
-    LOGGER.info("Data processing started ...")
+    LOGGER.debug("Data processing started ...")
 
     data_processor = DataProcessor()
 
@@ -111,7 +112,7 @@ if __name__ == '__main__':
 
                             team_list, unprocessed_liquipedia_data)
 
-    LOGGER.info("Linting the data files ...")
+    LOGGER.debug("Linting the data files ...")
 
     # Linting of data files
 

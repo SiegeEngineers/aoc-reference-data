@@ -53,7 +53,7 @@ class TeamList(Indexable, Importable, Exportable, JsonSerializable):
     #         return -1
 
     # def index_id_list(self):
-    #     LOGGER.info("Creating fresh ID list for teams ...")
+    #     LOGGER.debug("Creating fresh ID list for teams ...")
     #     for index, team in enumerate(self.teams):
     #         try:
     #             self.id_list.append(team.id)

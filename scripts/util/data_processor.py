@@ -232,4 +232,4 @@ class DataProcessor(object):
 
     #             continue
 
-    #     LOGGER.info(f"We removed {removed_values} values.")
+    #     LOGGER.debug(f"We removed {removed_values} values.")
