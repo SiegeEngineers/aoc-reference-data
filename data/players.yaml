@@ -4841,3 +4841,16 @@
   twitch:
     - https://www.twitch.tv/dave_aoe
   id: 394
+- name: OGN_EMPIRES
+  country: fr
+  platforms:
+    de:
+      - "228526"
+  liquipedia: OGN_EMPIRES
+  twitch:
+    - https://www.twitch.tv/ogn_empires
+  youtube:
+    - https://www.youtube.com/channel/UCb-8V8oISp0YoLb_-y9kWjA
+  discord:
+    - https://discord.gg/KEkgxXvuxT
+  id: 395
