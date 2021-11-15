@@ -1339,6 +1339,8 @@
     zone:
       - "alive"
   liquipedia: Alive
+  twitch:
+    - https://www.twitch.tv/alive_kgb
   team: 3
   aoeelo: 142
   id: 73
