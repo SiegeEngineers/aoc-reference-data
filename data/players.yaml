@@ -4854,3 +4854,39 @@
   discord:
     - https://discord.gg/KEkgxXvuxT
   id: 395
+- name: Kerpo
+  country: tr
+  platforms:
+    de:
+      - '3543798'
+  twitch:
+    - https://www.twitch.tv/kerpoaoe
+  id: 396
+- name: Pinch3Terneira
+  country: es
+  platforms:
+    de:
+      - '554855'
+  twitch:
+    - https://www.twitch.tv/pinch3terneira
+  id: 397
+- name: Mario Ovalle
+  country: co
+  platforms:
+    de:
+      - '289249'
+  twitch:
+    - https://www.twitch.tv/marioovalle_1992
+- name: HGB
+  country: mx
+  platforms:
+    de:
+      - '4412109'
+      - '5195050'
+  twitch:
+    - https://www.twitch.tv/hgb_aoe
+- name: A bao'
+  country: vn
+  platforms:
+    de:
+      - '1743669'
