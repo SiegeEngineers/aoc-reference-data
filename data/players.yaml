@@ -4892,3 +4892,10 @@
       - '1743669'
     voobly:
       - '125010872'
+- name: Thalounette
+  country: fr
+  platforms:
+    de:
+      - '1957147'
+  twitch:
+    - https://www.twitch.tv/thalounette
