@@ -4877,6 +4877,7 @@
       - '289249'
   twitch:
     - https://www.twitch.tv/marioovalle_1992
+  id: 398
 - name: HGB
   country: mx
   platforms:
@@ -4885,6 +4886,7 @@
       - '5195050'
   twitch:
     - https://www.twitch.tv/hgb_aoe
+  id: 399
 - name: A bao'
   country: vn
   platforms:
@@ -4892,6 +4894,7 @@
       - '1743669'
     voobly:
       - '125010872'
+  id: 400
 - name: Thalounette
   country: fr
   platforms:
@@ -4899,3 +4902,14 @@
       - '1957147'
   twitch:
     - https://www.twitch.tv/thalounette
+  id: 401
+- name: Nacho
+  country: ar
+  platforms:
+    voobly:
+      - '123301799'
+    de:
+      - '4971'
+  twitch:
+    - https://www.twitch.tv/nacho_aoe
+  id: 402
