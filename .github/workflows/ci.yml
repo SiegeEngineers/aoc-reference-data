@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: '3.x'
           cache: 'pip'
-          cache-dependency-path: '**/setup.py'
+          cache-dependency-path: 'setup.py'
 
       - uses: actions/checkout@v2
 
