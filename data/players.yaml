@@ -1500,6 +1500,8 @@
       - "2844691"
       - "1861822"
       - "6779041"
+  twitch:
+    - https://www.twitch.tv/monoz_aoe
   aoeelo: 159
   id: 84
 - name: "Whoop"
@@ -4914,3 +4916,11 @@
   twitch:
     - https://www.twitch.tv/nacho_aoe
   id: 402
+- name: Kumans
+  country: tr
+  platforms:
+    de:
+      - '6375678'
+  twitch:
+    - https://www.twitch.tv/kumans
+  id: 403
