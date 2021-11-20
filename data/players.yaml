@@ -4897,6 +4897,8 @@
       - '1743669'
     voobly:
       - '125010872'
+  twitch:
+    - https://www.twitch.tv/aoruslatam
   id: 400
 - name: Thalounette
   country: fr
@@ -4916,3 +4918,4 @@
   twitch:
     - https://www.twitch.tv/nacho_aoe
   id: 402
+
