@@ -286,7 +286,9 @@
   twitch:
     - https://www.twitch.tv/b4rles
   id: 14
-- name: Yellow
+- name: saymyname
+  aka:
+    - Yellow
   country: vn
   aoeelo: 15
   esportsearnings: 14724
