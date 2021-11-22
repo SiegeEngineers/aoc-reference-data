@@ -4918,3 +4918,11 @@
   twitch:
     - https://www.twitch.tv/nacho_aoe
   id: 402
+- name: TWest
+  country: us
+  platforms:
+    de:
+      - '2866'
+  twitch:
+    - https://www.twitch.tv/twestaoe
+  id: 403
