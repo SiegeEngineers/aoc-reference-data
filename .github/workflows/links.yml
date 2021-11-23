@@ -1,0 +1,38 @@
+name: Links
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: "00 18 * * *"
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Link Checker
+        id: link_check
+        uses: lycheeverse/lychee-action@cb79c9607b37671965f8dbb54cae47795758a440 #1.1.1
+        with:
+          args: --verbose --no-progress **/*.md data/players.yaml
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      
+      - name: Fail on 404s
+        if: steps.link_check.outputs.exit_code != 0
+        run: echo ::set-output name=exit_code::1
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          name: link-check Output
+          path: lychee/out.md
+          if-no-files-found: ignore
