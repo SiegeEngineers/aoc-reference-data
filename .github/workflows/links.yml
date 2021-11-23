@@ -9,8 +9,6 @@ on:
     branches:
       - main
       - master
-  repository_dispatch:
-  workflow_dispatch:
   schedule:
     - cron: "00 18 * * *"
 
@@ -31,3 +29,10 @@ jobs:
       - name: Fail on 404s
         if: steps.link_check.outputs.exit_code != 0
         run: echo ::set-output name=exit_code::1
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          name: link-check Output
+          path: lychee/out.md
+          if-no-files-found: ignore
