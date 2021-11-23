@@ -15,7 +15,7 @@ on:
     - cron: "00 18 * * *"
 
 jobs:
-  linkChecker:
+  link-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -30,4 +30,4 @@ jobs:
       
       - name: Fail on 404s
         if: steps.link_check.outputs.exit_code != 0
-        run: echo ${{ steps.link_check.outputs.exit_code }}
+        run: echo ::set-output name=exit_code::1
