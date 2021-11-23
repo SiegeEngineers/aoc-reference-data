@@ -32,6 +32,7 @@ jobs:
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
+        if: steps.link_check.outputs.exit_code != 0
         with:
           name: link-check Output
           path: lychee/out.md
