@@ -4394,10 +4394,15 @@
 - name: Albis
   country: tw
   platforms:
+    voobly:
+      - '124915733'
+      - '125150015'
     de:
       - "528141"
   liquipedia: Albis
   aoeelo: 1132
+  twitch:
+    - https://www.twitch.tv/albislol
   id: 342
 - name: PoLaR
   country: gb
