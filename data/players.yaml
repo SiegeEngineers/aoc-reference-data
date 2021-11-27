@@ -4932,3 +4932,16 @@
   twitch:
     - https://www.twitch.tv/twestaoe
   id: 403
+- name: PhilippHJS
+  country: de
+  aoeelo: 908
+  steam:
+    - 76561198014542759
+  twitch:
+    - https://www.twitch.tv/philipphjs
+  platforms:
+    de:
+      - "209329"
+      - "1468509"
+  team: 4
+  id: 404
