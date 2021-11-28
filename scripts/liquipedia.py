@@ -51,19 +51,13 @@ if __name__ == '__main__':
     if not CACHE_HIT:
 
         liquipedia_data = LiquipediaRequest(DEBUG, CACHE, game="aoe2")
-
         liquipedia_data.fetch()
 
         if CACHE:
-
             liquipedia_data.export_to_file(
-
                 file_name="cache/liquipedia", file_type="json")
-
     else:
-
         # DEBUGGING/DEVELOPMENT: Use cache for Liquipedia response
-
         LOGGER.debug("CACHE HIT! We use our cached Liquipedia results!")
 
         liquipedia_data = LiquipediaPlayer()

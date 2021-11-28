@@ -174,67 +174,53 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
 #         return self.id_list
 
 
-# class LiquipediaPlayer(Exportable, Importable, JsonSerializable):
+class LiquipediaPlayer(Exportable, Importable, JsonSerializable):
 
-#     def __init__(self, name=None, liquipedia=None, team=None, twitch=None,
+    def __init__(self, name=None, liquipedia=None, team=None, twitch=None,
+                 youtube=None, facebook_gaming=None):
 
-#                  youtube=None, facebook_gaming=None):
-
-#         if name is None:
-#             pass
-
-#         else:
-#             self.name = name
-
-#             self.liquipedia = liquipedia
-#             self.team = team
-
-#             self.twitch = twitch
-
-#             self.youtube = youtube
-
-#             self.facebook_gaming = facebook_gaming
+        if name is None:
+            pass
+        else:
+            self.name = name
+            self.liquipedia = liquipedia
+            self.team = team
+            self.twitch = twitch
+            self.youtube = youtube
+            self.facebook_gaming = facebook_gaming
 
 
-# class LiquipediaPlayerList(Importable, Exportable, JsonSerializable):
+class LiquipediaPlayerList(Importable, Exportable, JsonSerializable):
 
-#     players = []
+    players = []
+    lookup_names = []
 
-#     lookup_names = []
+    def __init__(self, _list):
+        self.players = _list
+        self.create_indizes()
 
-#     def __init__(self, _list):
-#         self.players = _list
+    # TODO: Refactor with generalisation in indexing
+    def contains_name(self, name) -> bool:
 
-#         self.create_indizes()
+        if name in self.lookup_names:
+            return True
+        else:
+            return False
 
-#     # TODO: Refactor with generalisation in indexing
-#     def contains_name(self, name) -> bool:
+    # TODO: Refactor with generalisation in indexing
+    def create_id_list(self):
 
-#         if name in self.lookup_names:
+        LOGGER.debug("Creating fresh ID list for players ...")
 
-#             return True
+        for index, player in enumerate(self.players):
+            self.id_list.append(player.id)
+        return self.id_list
 
-#         else:
+    # TODO: Refactor with generalisation in indexing
+    def create_indizes(self):
 
-#             return False
+        LOGGER.debug("Indexing Liquipedia player names ...")
 
-#     # TODO: Refactor with generalisation in indexing
-#     def create_id_list(self):
-
-#         LOGGER.debug("Creating fresh ID list for players ...")
-
-#         for index, player in enumerate(self.players):
-
-#             self.id_list.append(player.id)
-#         return self.id_list
-
-#     # TODO: Refactor with generalisation in indexing
-#     def create_indizes(self):
-
-#         LOGGER.debug("Indexing Liquipedia player names ...")
-
-#         for player in self.players:
-
-#             self.lookup_names.append(player.name)
-
-#         LOGGER.debug("Indexing of names complete.")
+        for player in self.players:
+            self.lookup_names.append(player.name)
+        LOGGER.debug("Indexing of names complete.")

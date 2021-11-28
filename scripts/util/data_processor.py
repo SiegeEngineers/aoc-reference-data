@@ -39,7 +39,7 @@ class DataProcessor(object):
         # TODO: Clean-up a copy of the player list from
         # items not being able to be updated by Liquipedia
 
-        self.remove_non_liquipedia_from_player_list()
+        # self.remove_non_liquipedia_from_player_list()
 
         # TODO: Check for changes to player_list
 
@@ -50,6 +50,7 @@ class DataProcessor(object):
         # and write them to self.player_diff or self.teams_diff
 
         # alike
+        pass
 
     def merge(self):
 

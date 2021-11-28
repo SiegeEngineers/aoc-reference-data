@@ -20,10 +20,10 @@ LOGGER = logging.getLogger(__name__)
 
 
 class JsonSerializable(object):
-    @classmethod
-    def to_json(cls):
+    # @classmethod
+    def to_json(self):
         return json.dumps(
-            cls.export_data, default=lambda o: o.__dict__, indent=2)
+            self.export_data, default=lambda o: o.__dict__, indent=2)
 
 # class JsonDeserializable(object):
 #     @classmethod
