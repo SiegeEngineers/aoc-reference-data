@@ -1,8 +1,12 @@
 """Query Liquipedia API for data updates."""
 
-import os
-import logging
+from util.requests import LiquipediaRequest
 
+import os
+
+import sys
+
+import logging
 
 from util.players import PlayerList, LiquipediaPlayerList, LiquipediaPlayer
 
@@ -10,16 +14,14 @@ from util.teams import Team, TeamList
 
 from util.data_processor import DataProcessor
 
-from util.error import ProcessingError, PreparationError, LintError
-
-from util.requests import LiquipediaRequest
+from util.error import ProcessingError, PreparationError, LintError, \
+    unpack_error_list, print_error_summary_header
 
 
 # DEBUGGING FLAGS
-
 DEBUG = True
 CACHE = True
-
+CI = True
 
 LOGGER = logging.getLogger(__name__)
 
@@ -106,7 +108,7 @@ if __name__ == '__main__':
 
     LOGGER.debug("Data processing started ...")
 
-    data_processor = DataProcessor()
+    data_processor = DataProcessor(ci=CI)
 
     data_processor.new_from(player_list,
 
@@ -117,11 +119,17 @@ if __name__ == '__main__':
     # Linting of data files
 
     try:
-        data_processor.lint()
-
+        err = data_processor.create_global_index()
+        if err is not None:
+            errors.append(err)
+        err = data_processor.lint()
+        if err is not None:
+            errors.append(err)
     except LintError as Err:
-
         print(f"An error occured in the linting stage: {Err}")
+
+    # Return errors to user
+    err_len = len(errors)
 
     # Preparation for merge e.g. cleanup of unneeded data
 
@@ -142,6 +150,21 @@ if __name__ == '__main__':
 
         print(f"An error occured in the processing stage: {Err}")
 
-    LOGGER.info("Data processing finished.")
+    if err_len > 0:
+        LOGGER.error(f"Linting finished with {err_len} error(s).")
+
+        print_error_summary_header()
+
+        for error in errors:
+            unpacked_err = unpack_error_list(error)
+            while len(unpacked_err) > 0:
+                error_message = unpacked_err.pop()
+                LOGGER.error(f"{error_message}")
+        status = 1
+    else:
+        LOGGER.info("No errors. Linting finished.")
+        status = 0
 
     LOGGER.info("Exit.")
+
+    sys.exit(status)
