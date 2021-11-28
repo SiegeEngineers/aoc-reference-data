@@ -128,27 +128,26 @@ if __name__ == '__main__':
     except LintError as Err:
         print(f"An error occured in the linting stage: {Err}")
 
-    # Return errors to user
-    err_len = len(errors)
-
     # Preparation for merge e.g. cleanup of unneeded data
 
     try:
-        data_processor.preprocess()
-
+        err = data_processor.preprocess()
+        if err is not None:
+            errors.append(err)
     except PreparationError as Err:
-
         print(f"An error occured in the preparation stage: {Err}")
 
     # Merge data
 
     try:
-
-        data_processor.merge()
-
+        err = data_processor.merge()
+        if err is not None:
+            errors.append(err)
     except ProcessingError as Err:
-
         print(f"An error occured in the processing stage: {Err}")
+
+    # Return errors to user
+    err_len = len(errors)
 
     if err_len > 0:
         LOGGER.error(f"Linting finished with {err_len} error(s).")
