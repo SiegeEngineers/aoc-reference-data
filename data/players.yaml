@@ -4823,6 +4823,7 @@
       - '969542'
   liquipedia: DedlyYetti
   id: 390
+  aoeelo: 1186
 - name: Skillyourself
   country: 'no'
   platforms:
@@ -4837,6 +4838,7 @@
   twitch:
     - https://www.twitch.tv/ozoneaoe
   id: 392
+  aoeelo: 1180
 - name: StellarMeesh
   country: us
   platforms:
@@ -4850,9 +4852,11 @@
   platforms:
     de:
       - '3068644'
+      - '260231'
   twitch:
     - https://www.twitch.tv/dave_aoe
   id: 394
+  aoeelo: 1123
 - name: OGN_EMPIRES
   country: fr
   platforms:
@@ -4925,6 +4929,7 @@
   twitch:
     - https://www.twitch.tv/nacho_aoe
   id: 402
+  aoeelo: 116
 - name: TWest
   country: us
   platforms:
