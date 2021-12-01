@@ -4958,3 +4958,11 @@
     de:
       - '221816'
   id: 405
+- name: Capout
+  country: fr
+  platforms:
+    de:
+      - '1867124'
+  twitch:
+    - https://www.twitch.tv/capoutaoe
+  id: 406
