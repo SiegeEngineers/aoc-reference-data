@@ -4974,3 +4974,9 @@
   twitch:
     - https://www.twitch.tv/torrelles
   id: 407
+- name: uno1
+  country: ar
+  platforms:
+    de:
+      - '3400947'
+  id: 408
