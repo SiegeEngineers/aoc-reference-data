@@ -4974,3 +4974,11 @@
   twitch:
     - https://www.twitch.tv/torrelles
   id: 407
+- name: Nahuel_05
+  country: ar
+  platforms:
+    de:
+      - '2826785'
+  twitch:
+    - https://www.twitch.tv/nahuel05_
+  id: 408
