@@ -4982,3 +4982,10 @@
     de:
       - '3400947'
   id: 408
+- name: Bulletchen
+  country: ch
+  platforms:
+    de:
+      - '215801'
+  liquipedia: Bulletchen
+  id: 409
