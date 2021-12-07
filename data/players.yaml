@@ -223,6 +223,7 @@
       - "1819863" # joan
       - "3033716" # feudalVoy
       - "5317568"
+      - "8645496"
   team: 17
   id: 10
 - name: Vinch
@@ -286,7 +287,9 @@
   twitch:
     - https://www.twitch.tv/b4rles
   id: 14
-- name: Yellow
+- name: saymyname
+  aka:
+    - Yellow
   country: vn
   aoeelo: 15
   esportsearnings: 14724
@@ -611,7 +614,7 @@
     - DraconT
   country: cz
   twitch:
-    - https://wwww.twitch.tv/drackentv
+    - https://www.twitch.tv/drackentv
   aoeelo: 100
   platforms:
     voobly:
@@ -1055,7 +1058,6 @@
     de:
       - "1262725"
       - "898389"
-      - "2709266"
       - "3557942"
   liquipedia: Noisick
   team: 5
@@ -1500,6 +1502,8 @@
       - "2844691"
       - "1861822"
       - "6779041"
+  twitch:
+    - https://www.twitch.tv/monoz_aoe
   aoeelo: 159
   id: 84
 - name: "Whoop"
@@ -1792,7 +1796,7 @@
     - http://www.youtube.com/channel/UCOtdNcfA05JODTx1cBlniyg
   aoeelo: 26
   id: 102
-- name: _Ra_
+- name: Ra
   country: ca
   esportsearnings: 14735
   twitch:
@@ -2221,9 +2225,10 @@
       - "182749"
       - "2112598"
       - "3966024"
-      - "5242781"
+      - "8657232"
   liquipedia: The_Dragonstar
   twitch:
+    - https://www.twitch.tv/dragonstar_aoe
     - https://www.twitch.tv/100dragonstar
   youtube:
     - http://www.youtube.com/100dragonstar
@@ -2912,6 +2917,8 @@
   aoeelo: 889
   id: 210
 - name: T90
+  aka:
+    - T90Official
   country: us
   twitch:
     - https://www.twitch.tv/t90official
@@ -3697,6 +3704,7 @@
       - "2776293"
       - "4957841"
   twitch:
+    - https://www.twitch.tv/bazan_aoe
     - https://www.twitch.tv/kingston_aoe
   id: 274
 - name: Annotoph
@@ -4159,7 +4167,7 @@
   twitch:
     - https://www.twitch.tv/ofeliaaoe
   youtube:
-    - http://www.youtube.com/UCh30W9QnXS-XZwNuk-twnyg
+    - https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg
   aoeelo: 640
   id: 319
 - name: Ondrej94
@@ -4315,6 +4323,8 @@
     voobly:
       - "125101795"
       - "124199201"
+  twitch:
+    - https://www.twitch.tv/vancart
   aoeelo: 713
   id: 334
 - name: Tomate
@@ -4388,10 +4398,15 @@
 - name: Albis
   country: tw
   platforms:
+    voobly:
+      - '124915733'
+      - '125150015'
     de:
       - "528141"
   liquipedia: Albis
   aoeelo: 1132
+  twitch:
+    - https://www.twitch.tv/albislol
   id: 342
 - name: PoLaR
   country: gb
@@ -4481,7 +4496,7 @@
   twitch:
     - https://www.twitch.tv/chileaoe
   youtube:
-    - http://www.youtube.com/Chileaoe
+    - https://youtube.com/channel/UCGbhXHGy_j_wNyEzfLb8mkQ
   team: 36
   id: 351
 - name: Fish
@@ -4787,6 +4802,7 @@
       - '2009315'
       - '4375138'
       - "2347189"
+      - "5633172"
   twitch:
     - https://www.twitch.tv/raidaoe
   id: 387
@@ -4811,6 +4827,7 @@
       - '969542'
   liquipedia: DedlyYetti
   id: 390
+  aoeelo: 1186
 - name: Skillyourself
   country: 'no'
   platforms:
@@ -4825,6 +4842,7 @@
   twitch:
     - https://www.twitch.tv/ozoneaoe
   id: 392
+  aoeelo: 1180
 - name: StellarMeesh
   country: us
   platforms:
@@ -4841,3 +4859,135 @@
   twitch:
     - https://www.twitch.tv/dave_aoe
   id: 394
+  aoeelo: 1123
+- name: OGN_EMPIRES
+  country: fr
+  platforms:
+    de:
+      - "228526"
+  liquipedia: OGN_EMPIRES
+  twitch:
+    - https://www.twitch.tv/ogn_empires
+  youtube:
+    - https://www.youtube.com/channel/UCb-8V8oISp0YoLb_-y9kWjA
+  discord:
+    - https://discord.gg/KEkgxXvuxT
+  id: 395
+- name: Kerpo
+  country: tr
+  platforms:
+    de:
+      - '3543798'
+  twitch:
+    - https://www.twitch.tv/kerpoaoe
+  id: 396
+- name: Pinch3Terneira
+  country: es
+  platforms:
+    de:
+      - '554855'
+  twitch:
+    - https://www.twitch.tv/pinch3terneira
+  id: 397
+- name: Mario Ovalle
+  country: co
+  platforms:
+    de:
+      - '289249'
+  twitch:
+    - https://www.twitch.tv/marioovalle_1992
+  id: 398
+- name: HGB
+  country: mx
+  platforms:
+    de:
+      - '4412109'
+      - '5195050'
+  twitch:
+    - https://www.twitch.tv/hgb_aoe
+  id: 399
+- name: A bao'
+  country: vn
+  platforms:
+    de:
+      - '1743669'
+    voobly:
+      - '125010872'
+  id: 400
+- name: Thalounette
+  country: fr
+  platforms:
+    de:
+      - '1957147'
+  twitch:
+    - https://www.twitch.tv/thalounette
+  id: 401
+- name: Nacho
+  country: ar
+  platforms:
+    voobly:
+      - '123301799'
+    de:
+      - '4971'
+  twitch:
+    - https://www.twitch.tv/nacho_aoe
+  id: 402
+  aoeelo: 116
+- name: TWest
+  country: us
+  platforms:
+    de:
+      - '2866'
+  twitch:
+    - https://www.twitch.tv/twestaoe
+  id: 403
+- name: PhilippHJS
+  country: de
+  aoeelo: 908
+  twitch:
+    - https://www.twitch.tv/philipphjs
+  platforms:
+    de:
+      - "209329"
+      - "1468509"
+  team: 4
+  id: 404
+- name: SonyToprano
+  country: tr
+  platforms:
+    voobly:
+      - '124753095'
+    de:
+      - '221816'
+  id: 405
+- name: Capout
+  country: fr
+  platforms:
+    de:
+      - '1867124'
+      - '8656374'
+  twitch:
+    - https://www.twitch.tv/capoutaoe
+  id: 406
+- name: Torrelles
+  country: es
+  platforms:
+    de:
+      - '340002'
+  twitch:
+    - https://www.twitch.tv/torrelles
+  id: 407
+- name: uno1
+  country: ar
+  platforms:
+    de:
+      - '3400947'
+  id: 408
+- name: Bulletchen
+  country: ch
+  platforms:
+    de:
+      - '215801'
+  liquipedia: Bulletchen
+  id: 409
+
