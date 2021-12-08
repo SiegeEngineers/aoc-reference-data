@@ -4990,4 +4990,9 @@
       - '215801'
   liquipedia: Bulletchen
   id: 409
-
+- name: El Matador
+  country: de
+  platforms:
+    de:
+      - '230475'
+  id: 410
