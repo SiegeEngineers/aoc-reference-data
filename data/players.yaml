@@ -4990,9 +4990,17 @@
       - '215801'
   liquipedia: Bulletchen
   id: 409
+- name: VarVarus
+  country: ar
+  platforms:
+    de:
+      - "309572"
+  twitch:
+    - https://www.twitch.tv/varvarus_aoe
+  id: 410
 - name: El Matador
   country: de
   platforms:
     de:
       - '230475'
-  id: 410
+  id 411
