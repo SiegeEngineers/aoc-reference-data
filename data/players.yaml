@@ -5006,7 +5006,7 @@
     de:
       - '230475'
   id: 411
-- name: Nahuel_05
+- name: Nahuel05
   country: ar
   platforms:
     de:
@@ -5014,3 +5014,19 @@
   twitch:
     - https://www.twitch.tv/nahuel05_
   id: 412
+- name: Paganini
+  country: br
+  platforms:
+    de:
+      - '658565'
+  twitch:
+    - https://www.twitch.tv/paganini_aoc
+  id: 413
+- name: TRM
+  country: ch
+  platforms:
+    de:
+      - '4132074'
+  twitch:
+    - https://www.twitch.tv/trm_aoe
+  id: 414
