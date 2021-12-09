@@ -22,7 +22,7 @@ Only notable players may be added. Notability is defined as meeting at least one
 
 1. Has a page on the [Age of Empires Liquipedia](https://liquipedia.net/ageofempires/Main_Page).
 1. Was ever a top 200 player listed on [Aoe Tournament Elo](https://aoe-elo.com/).
-1. Was ever a top 200 player on the [primary 1v1 Age of Empires II competitive ladder](https://aoe2.net/#aoe2de-leaderboard-rm-1v1) for at least three months.
+1. Was ever a top 250 player on the [primary 1v1 Age of Empires II competitive ladder](https://aoe2.net/#aoe2de-leaderboard-rm-1v1) for at least three months.
 1. Is a [Twitch Partner](https://www.twitch.tv/p/partners/) and primarily streams Age of Empires II.
 
 Other players may be added based on the maintainer's discretion for the benefit of the community at large.

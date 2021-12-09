@@ -2225,7 +2225,7 @@
       - "182749"
       - "2112598"
       - "3966024"
-      - "5242781"
+      - "8657232"
   liquipedia: The_Dragonstar
   twitch:
     - https://www.twitch.tv/dragonstar_aoe
@@ -2917,6 +2917,8 @@
   aoeelo: 889
   id: 210
 - name: T90
+  aka:
+    - T90Official
   country: us
   twitch:
     - https://www.twitch.tv/t90official
@@ -4698,6 +4700,8 @@
   platforms:
     de:
       - '1920807'
+  twitch:
+    - https://www.twitch.tv/csalette
   id: 373
 - name: Chirris
   country: mx
@@ -4963,6 +4967,7 @@
   platforms:
     de:
       - '1867124'
+      - '8656374'
   twitch:
     - https://www.twitch.tv/capoutaoe
   id: 406
@@ -4974,6 +4979,33 @@
   twitch:
     - https://www.twitch.tv/torrelles
   id: 407
+- name: uno1
+  country: ar
+  platforms:
+    de:
+      - '3400947'
+  id: 408
+- name: Bulletchen
+  country: ch
+  platforms:
+    de:
+      - '215801'
+  liquipedia: Bulletchen
+  id: 409
+- name: VarVarus
+  country: ar
+  platforms:
+    de:
+      - "309572"
+  twitch:
+    - https://www.twitch.tv/varvarus_aoe
+  id: 410
+- name: El Matador
+  country: de
+  platforms:
+    de:
+      - '230475'
+  id: 411
 - name: Nahuel_05
   country: ar
   platforms:
@@ -4981,4 +5013,4 @@
       - '2826785'
   twitch:
     - https://www.twitch.tv/nahuel05_
-  id: 408
+  id: 412
