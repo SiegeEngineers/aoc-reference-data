@@ -4700,6 +4700,8 @@
   platforms:
     de:
       - '1920807'
+  twitch:
+    - https://www.twitch.tv/csalette
   id: 373
 - name: Chirris
   country: mx
