@@ -5006,3 +5006,11 @@
     de:
       - '230475'
   id: 411
+- name: Nahuel_05
+  country: ar
+  platforms:
+    de:
+      - '2826785'
+  twitch:
+    - https://www.twitch.tv/nahuel05_
+  id: 412
