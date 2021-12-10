@@ -4961,6 +4961,8 @@
       - '124753095'
     de:
       - '221816'
+  twitch:
+    - https://www.twitch.tv/sonytoprano_
   id: 405
 - name: Capout
   country: fr
@@ -5030,3 +5032,10 @@
   twitch:
     - https://www.twitch.tv/trm_aoe
   id: 414
+- name: Tea
+  country: gb
+  platforms:
+    de:
+      - '267698'
+      - '981470'
+  id: 415
