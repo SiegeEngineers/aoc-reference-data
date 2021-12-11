@@ -1067,6 +1067,7 @@
   country: us
   aoeelo: 323
   twitch:
+    - https://www.twitch.tv/inc_aoe
     - https://www.twitch.tv/incaoe2
   platforms:
     voobly:
@@ -1571,7 +1572,7 @@
       - "125009949"
     de:
       - "2733015"
-      #- "3956300"
+    #- "3956300"
       - "6872563"
   liquipedia: SongSong
   team: 2
