@@ -5014,6 +5014,7 @@
   platforms:
     de:
       - '2826785'
+      - '5163081'
   twitch:
     - https://www.twitch.tv/nahuel05_
   id: 412
@@ -5039,4 +5040,11 @@
     de:
       - '267698'
       - '981470'
+  id: 415
+- name: Mullisaukko
+  country: fi
+  platforms:
+    de:
+      - '1885671'
+      - '3496780'
   id: 415
