@@ -4861,6 +4861,7 @@
   platforms:
     de:
       - '3068644'
+      - '196366'
   twitch:
     - https://www.twitch.tv/dave_aoe
   id: 394
@@ -5050,3 +5051,11 @@
       - '1885671'
       - '3496780'
   id: 415
+- name: SilentTV
+  country: ar
+  platforms:
+    de:
+      - "6744520"
+  twitch:
+    - https://www.twitch.tv/silenttv
+  id: 416
