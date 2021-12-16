@@ -365,12 +365,13 @@
   },
   {
     "name": "QueNaNina",
-    "abbreviation": null,
+    "abbreviation": "QNA",
     "players": [
       351,
       345,
       250,
-      332
+      332,
+      418
     ],
     "id": 36
   },
