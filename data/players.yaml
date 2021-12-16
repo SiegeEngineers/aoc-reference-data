@@ -5027,8 +5027,12 @@
   platforms:
     de:
       - '658565'
+      - '4096889'
+      - '5727818'
   twitch:
     - https://www.twitch.tv/paganini_aoc
+  youtube:
+    - https://www.youtube.com/BKPaganini
   id: 413
 - name: TRM
   country: ch
