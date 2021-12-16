@@ -5059,3 +5059,16 @@
   twitch:
     - https://www.twitch.tv/silenttv
   id: 416
+- name: Jesus87
+  country: ch
+  platforms:
+    de:
+      - "237568"
+  liquipedia: Jesus87
+  twitch:
+    - https://www.twitch.tv/jesus87_aoe
+  youtube:
+    - https://www.youtube.com/channel/UC4Q5KS2LmQSVANfi2nH55tA
+  discord:
+    - https://discord.gg/8EuCnsGGtA
+  id: 417
