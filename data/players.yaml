@@ -1972,6 +1972,7 @@
       - "3235648"
       - "2411454"
       - "2386170"
+      - "3386424"
   liquipedia: CL
   team: 8
   id: 114
@@ -5026,6 +5027,7 @@
   platforms:
     de:
       - '658565'
+      - "4096889"
   twitch:
     - https://www.twitch.tv/paganini_aoc
   id: 413
@@ -5059,3 +5061,24 @@
   twitch:
     - https://www.twitch.tv/silenttv
   id: 416
+- name: Zaid
+  country: pk
+  platforms:
+    de:
+      - "3072788"
+      - "4943664"
+      - "4419155"
+  id: 417
+- name: Doomster
+  country: in
+  platforms:
+    de:
+      - "1835774"
+      - "4412452"
+  id: 418
+- name: Macluffy
+  country: be
+  platforms:
+    de:
+      - "453821"
+  id: 419
