@@ -1972,6 +1972,7 @@
       - "3235648"
       - "2411454"
       - "2386170"
+      - "3386424"
   liquipedia: CL
   team: 8
   id: 114
@@ -5026,8 +5027,12 @@
   platforms:
     de:
       - '658565'
+      - '4096889'
+      - '5727818'
   twitch:
     - https://www.twitch.tv/paganini_aoc
+  youtube:
+    - https://www.youtube.com/BKPaganini
   id: 413
 - name: TRM
   country: ch
@@ -5050,7 +5055,7 @@
     de:
       - '1885671'
       - '3496780'
-  id: 415
+  id: 417
 - name: SilentTV
   country: ar
   platforms:
@@ -5059,6 +5064,27 @@
   twitch:
     - https://www.twitch.tv/silenttv
   id: 416
+- name: Zaid
+  country: pk
+  platforms:
+    de:
+      - "3072788"
+      - "4943664"
+      - "4419155"
+  id: 417
+- name: Doomster
+  country: in
+  platforms:
+    de:
+      - "1835774"
+      - "4412452"
+  id: 418
+- name: Macluffy
+  country: be
+  platforms:
+    de:
+      - "453821"
+  id: 419
 - name: Jesus87
   country: cl
   platforms:
@@ -5072,4 +5098,4 @@
   discord:
     - https://discord.gg/8EuCnsGGtA
   team: 36
-  id: 418
+  id: 420
