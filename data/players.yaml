@@ -5027,7 +5027,6 @@
   platforms:
     de:
       - '658565'
-      - "4096889"
   twitch:
     - https://www.twitch.tv/paganini_aoc
   id: 413
