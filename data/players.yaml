@@ -896,6 +896,8 @@
     de:
       - "2621722"
   liquipedia: Twigg
+  twitch:
+    - https://www.twitch.tv/twiggaoe
   team: 7
   id: 44
 - name: JonSlow
