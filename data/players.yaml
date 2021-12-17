@@ -385,6 +385,7 @@
   esportsearnings: 14727
   liquipedia: ACCM
   twitch:
+    - https://www.twitch.tv/theaccm
     - https://www.twitch.tv/accm_vn
   platforms:
     voobly:
@@ -1060,6 +1061,7 @@
       - "898389"
       - "3557942"
       - "4328139"
+      #- "2709266" # acct share
   liquipedia: Noisick
   team: 5
   aoeelo: 459
