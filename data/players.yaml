@@ -5113,5 +5113,13 @@
   youtube:
     - https://www.youtube.com/ObaTheGreatt
   discord:
-    - 	https://discord.gg/EmvAmJe
+    -   https://discord.gg/EmvAmJe
   id: 421
+- name: Marcelo
+  country: vn
+  platforms:
+    de:
+      - "3078289"
+  twitch:
+    - https://www.twitch.tv/marcelo_aoe
+  id: 422
