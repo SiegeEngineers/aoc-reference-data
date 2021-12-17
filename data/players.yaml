@@ -5070,6 +5070,8 @@
 - name: Zaid
   country: pk
   platforms:
+    voobly:
+      - "125294074"
     de:
       - "3072788"
       - "4943664"
