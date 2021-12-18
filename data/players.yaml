@@ -5127,3 +5127,9 @@
   twitch:
     - https://www.twitch.tv/marcelo_aoe
   id: 422
+- name: King Boo
+  country: gb
+  platforms:
+    de:
+      - "180520"
+  id: 423
