@@ -5067,6 +5067,7 @@
   platforms:
     de:
       - "6744520"
+      - "210888"
   twitch:
     - https://www.twitch.tv/silenttv
   id: 416
@@ -5134,3 +5135,13 @@
     de:
       - "180520"
   id: 424
+- name: Poxo
+  country: es
+  platforms:
+    de:
+      - "212135"
+    voobly:
+      - "123429112"
+  twitch:
+    - https://www.twitch.tv/kasaspoxo
+  id: 425
