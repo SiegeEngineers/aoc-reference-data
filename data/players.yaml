@@ -5146,3 +5146,9 @@
   twitch:
     - https://www.twitch.tv/kasaspoxo
   id: 425
+- name: Argh
+  country: pl
+  platforms:
+    de:
+      - "2274072"
+  id: 426
