@@ -1063,7 +1063,7 @@
       - "898389"
       - "3557942"
       - "4328139"
-      #- "2709266" # acct share
+  #- "2709266" # acct share
   liquipedia: Noisick
   team: 5
   aoeelo: 459
@@ -1577,7 +1577,7 @@
       - "125009949"
     de:
       - "2733015"
-    #- "3956300"
+#- "3956300"
       - "6872563"
   liquipedia: SongSong
   team: 2
@@ -3702,6 +3702,7 @@
       - "2777792"
       - "2684072"
       - "1754524"
+      - "4369251"
   id: 273
 - name: USb
   country: mx
@@ -4869,6 +4870,7 @@
     de:
       - '3068644'
       - '196366'
+      - '260231'
   twitch:
     - https://www.twitch.tv/dave_aoe
   id: 394
@@ -4975,6 +4977,7 @@
   twitch:
     - https://www.twitch.tv/sonytoprano_
   id: 405
+  aoeelo: 983
 - name: Capout
   country: fr
   platforms:
@@ -4984,6 +4987,7 @@
   twitch:
     - https://www.twitch.tv/capoutaoe
   id: 406
+  aoeelo: 805
 - name: Torrelles
   country: es
   platforms:
@@ -4998,6 +5002,7 @@
     de:
       - '3400947'
   id: 408
+  aoeelo: 1139
 - name: Bulletchen
   country: ch
   platforms:
@@ -5005,6 +5010,7 @@
       - '215801'
   liquipedia: Bulletchen
   id: 409
+  aoeelo: 1040
 - name: VarVarus
   country: ar
   platforms:
@@ -5013,12 +5019,14 @@
   twitch:
     - https://www.twitch.tv/varvarus_aoe
   id: 410
+  aoeelo: 927
 - name: El Matador
   country: de
   platforms:
     de:
       - '230475'
   id: 411
+  aoeelo: 1071
 - name: Nahuel05
   country: ar
   platforms:
@@ -5041,6 +5049,7 @@
     - https://www.youtube.com/BKPaganini
   team: 10
   id: 413
+  aoeelo: 815
 - name: TRM
   country: ch
   platforms:
@@ -5064,6 +5073,7 @@
       - '1885671'
       - '3496780'
   id: 417
+  aoeelo: 1172
 - name: SilentTV
   country: ar
   platforms:
@@ -5083,6 +5093,7 @@
       - "4943664"
       - "4419155"
   id: 421
+  aoeelo: 1190
 - name: Doomster
   country: in
   platforms:
@@ -5090,12 +5101,14 @@
       - "1835774"
       - "4412452"
   id: 418
+  aoeelo: 1195
 - name: Macluffy
   country: be
   platforms:
     de:
       - "453821"
   id: 419
+  aoeelo: 732
 - name: Jesus87
   country: cl
   platforms:
@@ -5137,6 +5150,7 @@
     de:
       - "180520"
   id: 424
+  aoeelo: 1060
 - name: Poxo
   country: es
   platforms:
@@ -5147,9 +5161,32 @@
   twitch:
     - https://www.twitch.tv/kasaspoxo
   id: 425
+  aoeelo: 612
 - name: Argh
   country: pl
   platforms:
     de:
       - "2274072"
   id: 426
+  aoeelo: 1191
+- name: Uzikoti
+  country: fr
+  platforms:
+    de:
+      - '1143826'
+  liquipedia: Uzikoti
+  id: 427
+  aoeelo: 1140
+- name: cebdos
+  country: fr
+  platforms:
+    de:
+      - '255559'
+  liquipedia: cebdos
+  id: 428
+- name: cHELOOO
+  aoeelo: 1037
+  platforms:
+    de:
+      - '2294850'
+  id: 429
