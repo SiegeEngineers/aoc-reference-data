@@ -5189,4 +5189,14 @@
   platforms:
     de:
       - '2294850'
+      - '5284131'
   id: 429
+- name: _ViRuS_PuLsE
+  country: us
+  platforms:
+    de:
+      - '499661'
+      - '5975282'
+    voobly:
+      - '72549'
+  id: 430
