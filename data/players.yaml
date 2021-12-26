@@ -4055,6 +4055,7 @@
       - "579679"
       - "4441646"
       - "6341853"
+      - "5114558"
   liquipedia: Margougou
   aoeelo: 651
   id: 308
@@ -4386,6 +4387,7 @@
     de:
       - "2944434"
       - "5829363"
+  aoeelo: 898
   id: 339
 - name: TurkEycof
   country: tr
@@ -5200,3 +5202,10 @@
     voobly:
       - '72549'
   id: 430
+- name: Redlash
+  country: ar
+  aoeelo: 1095
+  platforms:
+    de:
+      - '2771618'
+  id: 431
