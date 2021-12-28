@@ -5216,3 +5216,12 @@
       - '3899580'
       - '6758959'
   id: 432
+- name: Kenshin
+  country: br
+  platforms:
+    de:
+      - '36778'
+  twitch:
+    - 'https://www.twitch.tv/kenshin_aoe'
+  team: 10
+  id: 433
