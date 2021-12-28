@@ -2982,6 +2982,7 @@
 - name: Dark
   country: ru
   twitch:
+    - https://www.twitch.tv/3d_dark_
     - https://www.twitch.tv/darkaoe
   platforms:
     voobly:
