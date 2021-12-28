@@ -5012,6 +5012,8 @@
   liquipedia: Bulletchen
   id: 409
   aoeelo: 1040
+  twitch:
+    - https://www.twitch.tv/bulletchen
 - name: VarVarus
   country: ar
   platforms:
@@ -5193,7 +5195,7 @@
       - '2294850'
       - '5284131'
   id: 429
-- name: _ViRuS_PuLsE
+- name: ViRuS_PuLsE
   country: us
   platforms:
     de:
