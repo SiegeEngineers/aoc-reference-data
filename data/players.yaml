@@ -5153,6 +5153,7 @@
   platforms:
     de:
       - "180520"
+      - "4379431"
   id: 424
   aoeelo: 1060
 - name: Poxo
@@ -5224,6 +5225,7 @@
   platforms:
     de:
       - '36778'
+      - '4812351'
   twitch:
     - 'https://www.twitch.tv/kenshin_aoe'
   team: 10
