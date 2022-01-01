@@ -5228,3 +5228,12 @@
     - 'https://www.twitch.tv/kenshin_aoe'
   team: 10
   id: 433
+- name: HumzaCrumza
+  country: us
+  platforms:
+    de:
+      - '1263509'
+      - '3775017'
+  twitch:
+    - https://www.twitch.tv/humzacrumza
+  id: 434
