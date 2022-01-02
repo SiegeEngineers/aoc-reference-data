@@ -5304,3 +5304,11 @@
   twitch:
     - https://www.twitch.tv/AirCooL_xR
   id: 436
+- name: dave_hun
+  country: hu
+  platforms:
+    de:
+      - '260231'
+  twitch:
+    - https://www.twitch.tv/dave_hun
+  id: 437
