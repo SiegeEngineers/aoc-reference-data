@@ -117,7 +117,7 @@
       - "123636492"
     de:
       - "197964"
-      #- "337428" # shared
+    #- "337428" # shared
       - "1829754" # Alaric
     ibp:
       - "yo"
@@ -1063,7 +1063,7 @@
       - "898389"
       - "3557942"
       - "4328139"
-  #- "2709266" # acct share
+#- "2709266" # acct share
   liquipedia: Noisick
   team: 5
   aoeelo: 459
@@ -3685,6 +3685,7 @@
   youtube:
     - https://www.youtube.com/channel/UCOBwAUsSM0CLzdTJYK4xkzA
   aoeelo: 969
+  liquipedia: Alperen
   id: 271
 - name: CX_youwei
   country: cn
@@ -5076,6 +5077,7 @@
     de:
       - '1885671'
       - '3496780'
+      - '5454328'
   id: 417
   aoeelo: 1172
 - name: SilentTV
@@ -5241,3 +5243,18 @@
   youtube:
     - https://www.youtube.com/channel/UCHgjuvs1eqjdS0pyxMh00Sw
   id: 434
+- name: Faraday
+  country: br
+  platforms:
+    de:
+      - '1021651'
+  liquipedia: Faraday
+  id: 435
+- name: AirCooL
+  country: se
+  platforms:
+    de:
+      - '1238767'
+  twitch:
+    - https://www.twitch.tv/AirCooL_xR
+  id: 436
