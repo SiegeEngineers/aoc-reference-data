@@ -933,6 +933,8 @@
 - name: JonSlow
   country: il
   aoeelo: 101
+  twitter:
+    - https://twitter.com/jonslow_aoe
   twitch:
     - https://www.twitch.tv/jonslow_
   youtube:
@@ -2155,6 +2157,7 @@
       - "canary"
     de:
       - "2520503"
+      - "6845183"
   aoeelo: 268
   id: 127
 - name: SoraK
@@ -3909,6 +3912,7 @@
   platforms:
     de:
       - "1877180"
+      - "3156635"
   liquipedia: Bourbon
   team: 9
   aoeelo: 971
@@ -4425,6 +4429,8 @@
       - "2659351"
     voobly:
       - "124651224"
+  twitch:
+    - https://twitch.tv/antidemon_aoe
   aoeelo: 901
   id: 338
 - name: Yasin
@@ -4880,6 +4886,8 @@
   platforms:
     de:
       - '949573'
+  twitch:
+    - https://www.twitch.tv/socksyy
   id: 389
 - name: DedlyYetti
   country: us
@@ -5303,6 +5311,7 @@
       - '1238767'
   twitch:
     - https://www.twitch.tv/AirCooL_xR
+    - https://twitch.tv/peagonmayo
   id: 436
 - name: dave_hun
   country: hu
@@ -5312,3 +5321,10 @@
   twitch:
     - https://www.twitch.tv/dave_hun
   id: 437
+- name: ChrisB
+  country: cl
+  platforms:
+    de:
+      - "2707922"
+      - "4563541"
+  id: 438
