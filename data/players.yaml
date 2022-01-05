@@ -5340,3 +5340,10 @@
   twitch:
     - https://www.twitch.tv/fury_aoe
   id: 439
+- name: Dimo
+  country: pe
+  platforms:
+    de:
+      - '3216208'
+      - '3196816'
+  id: 440
