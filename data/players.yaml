@@ -5328,3 +5328,12 @@
       - "2707922"
       - "4563541"
   id: 438
+- name: Fury
+  country: mx
+  platforms:
+    de:
+      - '4221810'
+      - '8448734'
+  twitch:
+    - https://www.twitch.tv/fury_aoe
+  id: 439
