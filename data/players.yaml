@@ -5351,3 +5351,11 @@
       - '3216208'
       - '3196816'
   id: 440
+- name: DarklyWise
+  country: se
+  platforms:
+    de:
+      - '1073406'
+    voobly:
+      - '123949712'
+  id: 441
