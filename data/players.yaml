@@ -4184,6 +4184,8 @@
   liquipedia: Nick
   team: 1
   aoeelo: 137
+  twitch:
+    - https://www.twitch.tv/nickaoe_
   id: 315
 - name: Ning_
   country: tw
@@ -4952,6 +4954,7 @@
   platforms:
     de:
       - '3543798'
+      - '8033822'
   twitch:
     - https://www.twitch.tv/kerpoaoe
   id: 396
