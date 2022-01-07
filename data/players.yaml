@@ -5382,3 +5382,11 @@
   liquipedia: Influenza
   id: 443
   aoeelo: 123
+- name: MrTempo
+  country: pe
+  platforms:
+    voobly:
+      - '124223693'
+    de:
+      - '633255'
+  id: 444
