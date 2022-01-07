@@ -5311,7 +5311,10 @@
   platforms:
     de:
       - '1021651'
+  twitch:
+    - https://www.twitch.tv/faradayaoe
   liquipedia: Faraday
+  team: 10
   id: 435
   aoeelo: 610
 - name: AirCooL
