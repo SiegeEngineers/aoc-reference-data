@@ -5390,3 +5390,12 @@
     de:
       - '633255'
   id: 444
+- name: FasT
+  country: vn
+  aoeelo: 221
+  platforms:
+    voobly:
+      - '123417524'
+    de:
+      - '5938210'
+  id: 445
