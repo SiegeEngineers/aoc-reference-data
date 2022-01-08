@@ -5418,3 +5418,10 @@
     de:
       - '5938210'
   id: 445
+- name: alphaStar
+  country: br
+  platforms:
+    de:
+      - '289216'
+      - '6370127'
+  id: 446
