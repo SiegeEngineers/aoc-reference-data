@@ -3233,6 +3233,9 @@
   aoeelo: 650
   twitch:
     - https://www.twitch.tv/onleke
+  youtube:
+    - https://www.youtube.com/channel/UCKEZ44XMWCvFs9HnK7J-2Xg
+  liquipedia: OnLeKe
   id: 232
 - name: Babaorum
   country: fr
@@ -4964,8 +4967,13 @@
   platforms:
     de:
       - '554855'
+  liquipedia: Pinch3Terneira
+  twitter:
+    - https://twitter.com/pinch3terneira
   twitch:
     - https://www.twitch.tv/pinch3terneira
+  youtube:
+    - https://www.youtube.com/c/Pinch3Terneira
   id: 397
 - name: Mario Ovalle
   country: co
@@ -5113,6 +5121,7 @@
     - https://www.twitch.tv/paganini_aoc
   youtube:
     - https://www.youtube.com/BKPaganini
+  liquipedia: Paganini
   team: 10
   id: 413
   aoeelo: 815
@@ -5149,6 +5158,9 @@
       - "210888"
   twitch:
     - https://www.twitch.tv/silenttv
+  youtube:
+    - https://www.youtube.com/c/SILENTTV
+  liquipedia: SilentTV
   id: 416
 - name: Zaid
   country: pk
@@ -5195,6 +5207,7 @@
   platforms:
     de:
       - "3496162"
+      - "8803069"
   liquipedia: ObaTheGreatt
   twitch:
     - https://www.twitch.tv/obathegreatt
@@ -5268,6 +5281,8 @@
       - '5975282'
     voobly:
       - '72549'
+  twitch:
+    - https://www.twitch.tv/virus_pulse
   id: 430
   aoeelo: 714
 - name: Redlash
@@ -5311,7 +5326,10 @@
   platforms:
     de:
       - '1021651'
+  twitch:
+    - https://www.twitch.tv/faradayaoe
   liquipedia: Faraday
+  team: 10
   id: 435
   aoeelo: 610
 - name: AirCooL
