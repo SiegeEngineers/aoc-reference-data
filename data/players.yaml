@@ -5149,6 +5149,9 @@
       - "210888"
   twitch:
     - https://www.twitch.tv/silenttv
+  youtube:
+    - https://www.youtube.com/c/SILENTTV
+  liquipedia: SilentTV
   id: 416
 - name: Zaid
   country: pk
