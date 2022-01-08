@@ -3233,6 +3233,9 @@
   aoeelo: 650
   twitch:
     - https://www.twitch.tv/onleke
+  youtube:
+    - https://www.youtube.com/channel/UCKEZ44XMWCvFs9HnK7J-2Xg
+  liquipedia: OnLeKe
   id: 232
 - name: Babaorum
   country: fr
