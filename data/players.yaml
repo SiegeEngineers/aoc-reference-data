@@ -5268,6 +5268,8 @@
       - '5975282'
     voobly:
       - '72549'
+  twitch:
+    - https://www.twitch.tv/virus_pulse
   id: 430
   aoeelo: 714
 - name: Redlash
