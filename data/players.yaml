@@ -4964,8 +4964,13 @@
   platforms:
     de:
       - '554855'
+  liquipedia: Pinch3Terneira
+  twitter:
+    - https://twitter.com/pinch3terneira
   twitch:
     - https://www.twitch.tv/pinch3terneira
+  youtube:
+    - https://www.youtube.com/c/Pinch3Terneira
   id: 397
 - name: Mario Ovalle
   country: co
