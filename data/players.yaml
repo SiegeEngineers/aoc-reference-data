@@ -5516,3 +5516,9 @@
       - '289216'
       - '6370127'
   id: 446
+- name: deaKer
+  country: ar
+  platforms:
+    de:
+      - '3022245'
+  id: 447
