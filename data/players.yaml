@@ -60,6 +60,8 @@
     - https://www.twitch.tv/bact_
   youtube:
     - https://www.youtube.com/channel/UCScpQlZKVLdPMFBdd1gXbRQ
+  twitter:
+    - https://twitter.com/tyrant_bact
   platforms:
     voobly:
       - "123194539" # BacT
@@ -4795,6 +4797,7 @@
   platforms:
     de:
       - '367774'
+      - '3380761'
   id: 376
 - name: Dr.Kozmonot
   country: tr
