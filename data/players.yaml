@@ -95,9 +95,9 @@
       - "215442"
       - "1432837"
       - "1829738" # Charlemagne
-    #- "3109523" # shared
+  #- "3109523" # shared
       - "3077860" # shared
-    #- "2007655" # shared
+  #- "2007655" # shared
       - "5602224"
       - "6109694"
   team: 8
@@ -387,6 +387,8 @@
     - http://www.youtube.com/channel/UCe5PZxogLEsu5VacKmOiR5g
   team: 3
   id: 19
+  twitter:
+    - https://twitter.com/f1reaoe
 - name: ACCM
   country: vn
   aoeelo: 14
@@ -450,6 +452,8 @@
   twitch:
     - https://www.twitch.tv/vnscool
   id: 22
+  youtube:
+    - https://www.youtube.com/channel/UCr5TmYmhh6EkunbRp_-wbzQ
 - name: Liereyy
   country: at
   esportsearnings: 41415
@@ -1140,6 +1144,8 @@
   twitch:
     - https://www.twitch.tv/federicov
   id: 55
+  twitter:
+    - https://twitter.com/fperezponsa
 - name: Dziamdziak
   country: pl
   aoeelo: 127
@@ -1550,6 +1556,7 @@
     - https://www.twitch.tv/monoz_aoe
   aoeelo: 159
   id: 84
+  liquipedia: Monoz
 - name: "Whoop"
   country: cn
   esportsearnings: 43219
@@ -1636,6 +1643,7 @@
       - "3414034"
   aoeelo: 519
   id: 89
+  liquipedia: Air_Abu
 - name: "8th Wonder"
   country: lv
   platforms:
@@ -1768,6 +1776,7 @@
       - "3796982"
   aoeelo: 90
   id: 97
+  liquipedia: IamOK
 - name: "geoffrey"
   country: cn
   esportsearnings: 12256
@@ -2048,6 +2057,7 @@
       - "2344276"
   aoeelo: 42
   id: 116
+  liquipedia: xiaoxiong
 - name: hs
   country: cn
   platforms:
@@ -2283,6 +2293,8 @@
     - http://www.youtube.com/100dragonstar
   team: 34
   id: 140
+  twitter:
+    - https://twitter.com/The_Dragonstar
 - name: Free
   country: cn
   platforms:
@@ -2444,6 +2456,8 @@
   twitch:
     - https://www.twitch.tv/komtano_o
   id: 155
+  twitter:
+    - https://twitter.com/komruke
 - name: Scotty
   country: us
   aoeelo: 78
@@ -2456,6 +2470,7 @@
     voobly:
       - "124827272"
   id: 156
+  liquipedia: Scotty
 - name: Metal
   country: us
   aoeelo: 70
@@ -2487,6 +2502,11 @@
     voobly:
       - "5469"
   id: 159
+  liquipedia: Rodrigus
+  twitch:
+    - https://www.twitch.tv/rodrigus_aoe
+  youtube:
+    - https://www.youtube.com/UCNCY4gGtk099xAm1CYKm2eQ
 - name: Skittle
   country: de
   aoeelo: 122
@@ -2965,6 +2985,8 @@
   liquipedia: Ashleylynn
   aoeelo: 889
   id: 210
+  twitter:
+    - https://twitter.com/aoc_ashleylynn
 - name: T90
   aka:
     - T90Official
@@ -3199,6 +3221,8 @@
   team: 7
   aoeelo: 783
   id: 229
+  twitter:
+    - https://twitter.com/adricalello
 - name: pG_Fire
   country: au
   platforms:
@@ -3223,6 +3247,8 @@
   team: 28
   aoeelo: 632
   id: 231
+  twitter:
+    - https://twitter.com/BlukuuktaN
 - name: OnLeKe
   country: br
   platforms:
@@ -3351,6 +3377,7 @@
   twitch:
     - https://www.twitch.tv/the__bloodless
   id: 242
+  liquipedia: The Bloodless
 - name: Wisepii
   country: cl
   platforms:
@@ -3558,6 +3585,7 @@
       - "2571777"
   aoeelo: 448
   id: 259
+  liquipedia: Flightlessbird
 - name: Pela
   country: ar
   platforms:
@@ -3615,6 +3643,11 @@
     - https://www.twitch.tv/shadesaoe
   aoeelo: 754
   id: 262
+  twitter:
+    - https://twitter.com/Shadesaoe
+  liquipedia: Shades
+  youtube:
+    - https://www.youtube.com/channel/UCE5W05JUi_TIhykdXTa1TWQ
 - name: fatman
   country: de
   platforms:
@@ -3710,6 +3743,8 @@
   twitch:
     - https://www.twitch.tv/blinguk
   id: 269
+  twitter:
+    - https://twitter.com/BlinGAOE
 - name: Good_Game
   country: ru
   esportsearnings: 86209
@@ -3832,6 +3867,8 @@
   team: 7
   aoeelo: 782
   id: 280
+  twitter:
+    - https://twitter.com/Gabi32996955
 - name: Lucky Rox
   country: ar
   platforms:
@@ -3946,6 +3983,8 @@
     - https://www.twitch.tv/cl3m3nt_aoe
   aoeelo: 605
   id: 291
+  twitter:
+    - https://twitter.com/Cl3m3nt_AoE
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -3967,6 +4006,8 @@
   youtube:
     - http://www.youtube.com/channel/UCoWEA6fgQOHF4L5Nt3WPA1A
   id: 293
+  twitter:
+    - https://twitter.com/ellie4k
 - name: FreakinAndy
   country: at
   platforms:
@@ -4053,6 +4094,8 @@
   youtube:
     - http://www.youtube.com/channel/UCZ4aiIlpiIn0dUTiXTjqDJw
   id: 302
+  twitter:
+    - https://twitter.com/juanperotti_aoe
 - name: KhaLeN
   country: fr
   platforms:
@@ -4062,6 +4105,8 @@
   twitch:
     - https://www.twitch.tv/kha_len
   id: 303
+  twitter:
+    - https://twitter.com/ElKhaLeN
 - name: Kioss3000
   country: fr
   platforms:
@@ -4072,6 +4117,8 @@
     - https://www.twitch.tv/kioss3000
   team: 29
   id: 304
+  twitter:
+    - https://twitter.com/Kioss3000_Tv
 - name: L3af
   country: us
   platforms:
@@ -4127,6 +4174,10 @@
     - https://www.twitch.tv/marinelord
   aoeelo: 874
   id: 309
+  twitter:
+    - https://twitter.com/MarineLorDSC2
+  youtube:
+    - https://www.youtube.com/channel/UCHheEmSTX_NaAHSq2uwmlMg
 - name: MembTV
   country: es
   platforms:
@@ -4227,6 +4278,8 @@
   youtube:
     - http://www.youtube.com/OdetteD
   id: 318
+  twitter:
+    - https://twitter.com/odettegaming
 - name: OfeliaAoE
   country: es
   platforms:
@@ -4325,6 +4378,8 @@
     - http://www.youtube.com/channel/UCzgJM0WSVuw2Ks9XjTmGxIQ
   aoeelo: 627
   id: 327
+  twitter:
+    - https://twitter.com/thesniper_aoe
 - name: Tileä
   country: nz
   platforms:
@@ -4346,6 +4401,8 @@
     - http://www.youtube.com/channel/UCpu3umqSx5cA2qkvWCUp02w
   team: 35
   id: 329
+  twitter:
+    - https://twitter.com/tiny_triss
 - name: kaaaai_
   country: gb
   platforms:
@@ -4385,6 +4442,7 @@
       - "4670972"
   aoeelo: 900
   id: 333
+  liquipedia: Ubetnir
 - name: Rammyy
   country: tr
   platforms:
@@ -4509,6 +4567,8 @@
     - https://www.twitch.tv/imvalak
   team: 36
   id: 345
+  twitter:
+    - https://twitter.com/manuechvrr
 - name: Ripvanwinkle
   country: tr
   platforms:
@@ -4539,6 +4599,8 @@
   liquipedia: Chrazini
   aoeelo: 854
   id: 348
+  twitter:
+    - https://twitter.com/chrazini
 - name: RediRodion
   country: pl
   platforms:
@@ -4551,6 +4613,8 @@
     - http://www.youtube.com/channel/UC48BWPsl4g3hSSm2OxxmxXg
   aoeelo: 744
   id: 349
+  twitter:
+    - https://twitter.com/RediRodion
 - name: SaladEsc
   country: dk
   platforms:
@@ -4561,6 +4625,8 @@
     - https://www.twitch.tv/saladesc
   aoeelo: 855
   id: 350
+  twitter:
+    - https://twitter.com/saladesc
 - name: V1stima
   country: cl
   platforms:
@@ -4582,6 +4648,7 @@
     - https://www.twitch.tv/fishvnn
   aoeelo: 241
   id: 352
+  liquipedia: Fish
 - name: Somero
   country: cz
   platforms:
@@ -4593,6 +4660,9 @@
       - "123975305"
   aoeelo: 893
   id: 353
+  liquipedia: Somero
+  twitch:
+    - https://www.twitch.tv/cz_somero
 - name: Emil
   country: dk
   platforms:
@@ -4623,6 +4693,7 @@
     - 76561199013132475
   aoeelo: 814
   id: 356
+  liquipedia: Mr.Bean
 - name: The Illusionist
   country: sk
   platforms:
@@ -4651,6 +4722,8 @@
   steam:
     - 76561199072158541
   id: 358
+  twitter:
+    - https://twitter.com/DjangoFly
 - name: TieuQuy
   country: vn
   platforms:
@@ -4799,6 +4872,7 @@
       - '367774'
       - '3380761'
   id: 376
+  liquipedia: Dench
 - name: Dr.Kozmonot
   country: tr
   aoeelo: 886
@@ -4908,6 +4982,8 @@
   liquipedia: DedlyYetti
   id: 390
   aoeelo: 1186
+  twitch:
+    - https://www.twitch.tv/dedlyyetti
 - name: Skillyourself
   country: 'no'
   platforms:
@@ -5077,6 +5153,7 @@
       - '3400947'
   id: 408
   aoeelo: 1139
+  liquipedia: uno1
 - name: Bulletchen
   country: ch
   platforms:
@@ -5087,6 +5164,10 @@
   aoeelo: 1040
   twitch:
     - https://www.twitch.tv/bulletchen
+  twitter:
+    - https://twitter.com/mYiBulletchen
+  youtube:
+    - https://www.youtube.com/user/MrGamal100
 - name: VarVarus
   country: ar
   platforms:
@@ -5246,6 +5327,7 @@
     - https://www.twitch.tv/kasaspoxo
   id: 425
   aoeelo: 612
+  liquipedia: Poxo
 - name: Argh
   country: pl
   platforms:
@@ -5261,6 +5343,12 @@
   liquipedia: Uzikoti
   id: 427
   aoeelo: 1140
+  twitter:
+    - https://twitter.com/uzikoti
+  twitch:
+    - https://www.twitch.tv/uzikoti
+  youtube:
+    - https://www.youtube.com/channel/UC372upvOX6eiYrdPL55gI4g/videos
 - name: cebdos
   country: fr
   platforms:
