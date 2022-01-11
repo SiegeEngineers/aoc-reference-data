@@ -5525,5 +5525,8 @@
       - '5170240'
   id: 447
 - name: Test
+  platforms:
+    de:
+      - '1234'
   country: us
   id: 448
