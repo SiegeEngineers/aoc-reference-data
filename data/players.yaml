@@ -23,8 +23,6 @@
   country: "no"
   esportsearnings: 25311
   aoeelo: 24
-  steam:
-    - 76561197996386232
   liquipedia: MbL
   aka:
     - TheMbL
@@ -2949,7 +2947,9 @@
       - "124045298"
     de:
       - "217180"
-  liquipedia: I2aGe
+  liquipedia: I2aGE
+  twitch:
+    - https://www.twitch.tv/i2age_
   team: 12
   id: 208
 - name: Bruh
@@ -5428,6 +5428,8 @@
 - name: AirCooL
   country: se
   platforms:
+    voobly:
+      - '125373585'
     de:
       - '1238767'
   twitch:
