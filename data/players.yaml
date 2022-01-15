@@ -5549,6 +5549,9 @@
   platforms:
     de:
       - '553584'
+    voobly:
+      - '124808873'
+      - '123550026'
   liquipedia: Martinhs
   id: 449
   aoeelo: 734
@@ -5559,6 +5562,8 @@
   platforms:
     de:
       - '1832070'
+    voobly:
+      - '124249169'
   liquipedia: speedlimit
   id: 451
   aoeelo: 726
