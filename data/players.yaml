@@ -4197,12 +4197,13 @@
   youtube:
     - http://www.youtube.com/FoptMembrillo
   id: 310
-- name: Mica_
+- name: Mica
   country: ar
   platforms:
     de:
       - "2873005"
-  liquipedia: Mica_
+      - "236757"
+  liquipedia: Mica
   twitch:
     - https://www.twitch.tv/mica_lpz
   team: 30
