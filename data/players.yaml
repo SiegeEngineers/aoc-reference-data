@@ -93,9 +93,9 @@
       - "215442"
       - "1432837"
       - "1829738" # Charlemagne
-  #- "3109523" # shared
+#- "3109523" # shared
       - "3077860" # shared
-  #- "2007655" # shared
+#- "2007655" # shared
       - "5602224"
       - "6109694"
   team: 8
@@ -5511,6 +5511,7 @@
     de:
       - '633255'
   id: 444
+  aoeelo: 974
 - name: FasT
   country: vn
   aoeelo: 211
@@ -5527,6 +5528,7 @@
       - '289216'
       - '6370127'
   id: 446
+  aoeelo: 965
 - name: deaKer
   country: ar
   platforms:
@@ -5534,3 +5536,26 @@
       - '3022245'
       - '5170240'
   id: 447
+- name: ElMago
+  country: ar
+  platforms:
+    de:
+      - '5921178'
+  liquipedia: ElMago
+  id: 448
+- name: Martinhs
+  country: br
+  platforms:
+    de:
+      - '553584'
+  liquipedia: Martinhs
+  id: 449
+  aoeelo: 734
+- name: speedlimit
+  country: ru
+  platforms:
+    de:
+      - '1832070'
+  liquipedia: speedlimit
+  id: 451
+  aoeelo: 726
