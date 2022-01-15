@@ -3342,6 +3342,8 @@
     de:
       - "738249"
       - "3082790"
+  twitch:
+    - https://www.twitch.tv/iamgreed
   aoeelo: 628
   id: 239
 - name: Idol Brother
@@ -5203,6 +5205,8 @@
 - name: Paganini
   country: br
   platforms:
+    voobly:
+      - '124919015'
     de:
       - '658565'
       - '4096889'
@@ -5423,6 +5427,8 @@
 - name: Faraday
   country: br
   platforms:
+    voobly:
+      - "124375438"
     de:
       - '1021651'
   twitch:
@@ -5529,6 +5535,7 @@
       - '289216'
       - '6370127'
   id: 446
+  team: 10
   aoeelo: 965
 - name: deaKer
   country: ar
@@ -5554,6 +5561,7 @@
       - '123550026'
   liquipedia: Martinhs
   id: 449
+  team: 10
   aoeelo: 734
   twitch:
     - https://www.twitch.tv/martinhsbr
