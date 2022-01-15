@@ -4969,6 +4969,7 @@
     de:
       - '435965'
   id: 388
+  liquipedia: Snyper1
 - name: Socksyy
   country: au
   aoeelo: 447
@@ -5551,6 +5552,8 @@
   liquipedia: Martinhs
   id: 449
   aoeelo: 734
+  twitch:
+    - https://www.twitch.tv/martinhsbr
 - name: speedlimit
   country: ru
   platforms:
@@ -5559,3 +5562,5 @@
   liquipedia: speedlimit
   id: 451
   aoeelo: 726
+  twitch:
+    - https://www.twitch.tv/speedlimitspeedlimit
