@@ -22,7 +22,7 @@
   notability:
     - aoe2: true
 - name: MbL
-  country: no
+  country: "no"
   esportsearnings: 25311
   aoeelo: 24
   liquipedia: MbL
@@ -720,7 +720,7 @@
   notability:
     - aoe2: true
 - name: TheViper
-  country: no
+  country: "no"
   esportsearnings: 12243
   aoeelo: 29
   liquipedia: TheViper
@@ -3169,7 +3169,7 @@
   notability:
     - aoe2: true
 - name: FletcheR
-  country: no
+  country: "no"
   esportsearnings: 67412
   platforms:
     zone:
@@ -3451,7 +3451,7 @@
   notability:
     - aoe2: true
 - name: Gluttony
-  country: no
+  country: "no"
   twitch:
     - https://www.twitch.tv/gluttony_aoe
   platforms:
@@ -3654,7 +3654,7 @@
   notability:
     - aoe2: true
 - name: Kellar
-  country: no
+  country: "no"
   platforms:
     rl:
       - "1451847"
@@ -5771,7 +5771,7 @@
   notability:
     - aoe2: true
 - name: Skillyourself
-  country: no
+  country: "no"
   platforms:
     rl:
       - "371044"
