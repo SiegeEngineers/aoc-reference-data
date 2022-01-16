@@ -1,6 +1,6 @@
-# aoc-reference-data
+# aoe-reference-data
 
-Reference data for Age of Empires II projects.
+Reference data for Age of Empires projects.
 
 ## Contents
 
