@@ -14,7 +14,7 @@
   platforms:
     voobly:
       - "123358944"
-    de:
+    rl:
       - "249430"
       - "6177368"
   team: 37
@@ -44,7 +44,7 @@
       - "125129979" # hc: erik the red
       - 125129978-2 # hc2
       - "124653653" # _MbL_
-    de:
+    rl:
       - "251265" # MbL40C
       - "1826483" # William the Conqueror
       - "2644601" # mbl2
@@ -72,7 +72,7 @@
       - "125129985" # hc: La Hire
       - "123887528"
       - "124341247" # wsvg
-    de:
+    rl:
       - "312938"
       - "2875412"
       - "1862911" # henry
@@ -95,7 +95,7 @@
       - "123303397" # Fat_Dragon
       - "125129996" # hc: genghis khan
       - "125129996-11" # hc11
-    de:
+    rl:
       - "215442"
       - "1432837"
       - "1829738" # Charlemagne
@@ -125,7 +125,7 @@
       - "124341168" # wsvg
     vooblycn:
       - "123636492"
-    de:
+    rl:
       - "197964"
       #- "337428" # shared
       - "1829754" # Alaric
@@ -143,7 +143,7 @@
       - "70212"
     vooblycn:
       - "70212"
-    de:
+    rl:
       - "563078"
   liquipedia: Xiaofan
   id: 6
@@ -165,7 +165,7 @@
       - "123409476" # VNA
       - "125107343"
       - "123204710"
-    de:
+    rl:
       - "986504"
       - "3884287"
   id: 7
@@ -183,7 +183,7 @@
       - "124116514" # ByT
       - "123989026" # Heresy
       - "124691590" # Jackie_Chan_
-    de:
+    rl:
       - "232410" # Antagonist
       - 196366-nac3 # Laaaaan
       - "1819193" # sheriff
@@ -210,7 +210,7 @@
       - "124469820" # VEM_MONSTRO
       - "125227721" # hc: tamerlane
       - "124340883"
-    de:
+    rl:
       - "199170"
       - "1486575"
       - "1830104" # emperor in a barrel
@@ -241,7 +241,7 @@
       - 125129998-12 # hc12
       - "947" # ator
       - "124199973"
-    de:
+    rl:
       - "197388"
       - "968255"
       - "1819863" # joan
@@ -266,7 +266,7 @@
     voobly:
       - "123397463" # VIK
       - "124170820" # Vinch
-    de:
+    rl:
       - "271202" # Suma1L
       - "2886954" # ^^anomeL
       - "4298865"
@@ -281,7 +281,7 @@
       - "124662701" # _Modri
       - "124160323"
       - "124860581" # stronglikeNEMAN
-    de:
+    rl:
       - "254415" # 1991
       - "1862892" # ArabiaPlease
       - "1364587"
@@ -314,7 +314,7 @@
       - "123850375" # _Wrachziikle_
       - "124214626" # _Barles_
       - "123934159" # Tia_Harribel
-    de:
+    rl:
       - "666976"
       - "4014461"
   twitch:
@@ -340,7 +340,7 @@
       - "123193037" # ongchutraiheo
       - "123991049" # TuuSac
       - "124793331"
-    de:
+    rl:
       - "419803" # saymyname
   youtube:
     - http://www.youtube.com/channel/UCjIqdH3_66fmTIjFDtBM_pg
@@ -356,7 +356,7 @@
       - "124322377" # RiskyDice
       - "124508020" # chart11
       - "124206032" # PoJ
-    de:
+    rl:
       - "217905"
       - "728551"
   liquipedia: chart
@@ -373,7 +373,7 @@
       - "124806109" # Cyan_Alvein_Fan
       - "124493950" # hyaganeglu
       - "124245294"
-    de:
+    rl:
       - "628503"
   liquipedia: Valas
   aoeelo: 853
@@ -394,7 +394,7 @@
     vooblycn:
       - "9747" # CNA
       - "124489527" # hagouhello
-    de:
+    rl:
       - "716717" # cica_zhou
     gamepark:
       - straydog
@@ -414,7 +414,7 @@
     voobly:
       - "123658746"
       - 125129985-6 # hc6
-    de:
+    rl:
       - "196310"
       - "1819094" # Leif
       - "5551398"
@@ -441,7 +441,7 @@
       - "123428504"
       - "123591487"
       - "125129982" # hc: subotai
-    de:
+    rl:
       - "347269"
       - "3202763"
       - "1844119" # friar
@@ -467,7 +467,7 @@
     vooblycn:
       - "182612"
       - "124539771" # iamsange
-    de:
+    rl:
       - "534438"
       - "1369485"
       - "6252391"
@@ -484,7 +484,7 @@
   platforms:
     voobly:
       - "123194620"
-    de:
+    rl:
       - "224786"
     zone:
       - cool
@@ -513,7 +513,7 @@
       - "124147336"
       - 125129977-1 # hc1
       - "125227717" # hc: king alfonso
-    de:
+    rl:
       - "506898"
       - "1829588" # sancho
   team: 24
@@ -535,7 +535,7 @@
       - "123198508"
       - "16640"
       - "123463926"
-    de:
+    rl:
       - "199419"
       - "872428"
     ibp:
@@ -559,7 +559,7 @@
     voobly:
       - "123835916" # fengxin
       - "179227" # alongkiss
-    de:
+    rl:
       - "210601"
     ibp:
       - paladin
@@ -588,7 +588,7 @@
       - "123345149" # itsover9000
       - "188639" # slina
       - "108050" # shmekerr
-    de:
+    rl:
       - "198035"
       - "1832317" # Yodit
     zone:
@@ -618,7 +618,7 @@
       - "123984714"
       - "125227715" # hc: ornlu the wolf
       - "124694635"
-    de:
+    rl:
       - "199325"
       - "1847121" # Kotyan
       - "3209724" # WeWinThose
@@ -643,7 +643,7 @@
     voobly:
       - "9267"
       - "124423938"
-    de:
+    rl:
       - "197751"
     zone:
       - nili
@@ -669,7 +669,7 @@
     voobly:
       - "124474647"
       - "124892962"
-    de:
+    rl:
       - "213305" # BUGUM
   team: 15
   id: 29
@@ -689,7 +689,7 @@
   platforms:
     voobly:
       - "123961442"
-    de:
+    rl:
       - "575722"
   team: 27
   id: 30
@@ -710,7 +710,7 @@
       - "124717620" # agfdadd
       - "124832150" # Experimental__
       - "125297245" # DracKeN_
-    de:
+    rl:
       - "357795" # DracKeN
   liquipedia: DracKeN
   youtube:
@@ -751,7 +751,7 @@
       - "124341240" # wsvg
     gameranger:
       - viper
-    de:
+    rl:
       - "196240"
       - "1827609" # Saladin
       - "6020446"
@@ -779,7 +779,7 @@
       - "123129489" # Surya
       - "124110342" # 8Giacatluong
       - 125129979-3 # hc3
-    de:
+    rl:
       - "614315"
   team: 17
   id: 33
@@ -796,7 +796,7 @@
   platforms:
     voobly:
       - "123256402"
-    de:
+    rl:
       - "265517"
   team: 15
   id: 34
@@ -812,7 +812,7 @@
     - https://www.douyu.com/953871
   liquipedia: LoveCheng
   platforms:
-    de:
+    rl:
       - "2806260"
     voobly:
       - "123910183" # AreS
@@ -843,7 +843,7 @@
     vooblycn:
       - "123230853" # lyx
       - "180548" # VG_oo3
-    de:
+    rl:
       - "226575"
   team: 8
   id: 36
@@ -870,7 +870,7 @@
       - "125129977" # hc: attila the hun
       - 125129982-5 # hc5
       - "124775535"
-    de:
+    rl:
       - "208393"
       - "1827959" # bad neighbor
       - "2609359" # Nico
@@ -900,7 +900,7 @@
       - "124340943"
     igz:
       - "817"
-    de:
+    rl:
       - "2858362"
   team: 17
   id: 38
@@ -932,7 +932,7 @@
       - "39623" # _TheMax
       - "123636616" # iplaywithgoths
       - "125129980" # hc: nobonaga
-    de:
+    rl:
       - "572017"
       - "1832996" # martel
   team: 27
@@ -949,7 +949,7 @@
       - "124166670"
       - "124240093" # jorgos
       - "125129990" # hc: gods own sling
-    de:
+    rl:
       - "208611"
       - "1829715"
   twitch:
@@ -978,7 +978,7 @@
       - "8643" # lein
       - 125129995-10 # hc10
       - "124340884" # wsvg
-    de:
+    rl:
       - "673196"
       - "6141967"
   team: 3
@@ -1000,7 +1000,7 @@
       - "123459695" # twik
       - "227518" # miguelao
       - 125129994-9 # hc9
-    de:
+    rl:
       - "2090225"
   team: 20
   id: 43
@@ -1014,7 +1014,7 @@
       - "124042289"
       - "123784980" # zamasu
       - "123975630" # rugila
-    de:
+    rl:
       - "2621722"
   liquipedia: Twigg
   twitch:
@@ -1041,7 +1041,7 @@
       - jonslow
     gamepark:
       - jonslow
-    de:
+    rl:
       - "208269"
   liquipedia: JonSlow
   team: 14
@@ -1063,7 +1063,7 @@
       - "124216278"
       - "124728574"
       - "124653323"
-    de:
+    rl:
       - "1311198"
       - "212721"
       - "1630401"
@@ -1084,7 +1084,7 @@
   platforms:
     voobly:
       - "123417449"
-    de:
+    rl:
       - "431744"
   twitch:
     - https://www.twitch.tv/rubenstock
@@ -1105,7 +1105,7 @@
       - "124750873"
       - "124452866"
       - "124449479"
-    de:
+    rl:
       - "459658"
       - "2097181"
       - "3241077"
@@ -1122,7 +1122,7 @@
     voobly:
       - "124134715"
       - "123493331"
-    de:
+    rl:
       - "508080"
   twitch:
     - https://www.twitch.tv/angelina_jolie
@@ -1141,7 +1141,7 @@
   platforms:
     voobly:
       - "124183501"
-    de:
+    rl:
       - "212746"
       - "661884"
       - "965185"
@@ -1168,7 +1168,7 @@
       - "124473071"
       - "125040561"
       - "123507501"
-    de:
+    rl:
       - "1224481"
       - "2759481"
       - "4795863"
@@ -1190,7 +1190,7 @@
     vooblycn:
       - "123642997"
       - "124576519"
-    de:
+    rl:
       - "227857"
       - "1688652"
   id: 52
@@ -1203,7 +1203,7 @@
   platforms:
     voobly:
       - "124308648"
-    de:
+    rl:
       - "1262725"
       - "898389"
       - "3557942"
@@ -1224,7 +1224,7 @@
   platforms:
     voobly:
       - "123644749"
-    de:
+    rl:
       - "221997"
       - "1237326"
       - "2032611"
@@ -1243,7 +1243,7 @@
       - "123273973"
       - "123725868" # gaucho
       - "123601190" # buzz
-    de:
+    rl:
       - "239238"
       - "1252385"
       - "2431776"
@@ -1269,7 +1269,7 @@
       - dziamdziak
     gamepark:
       - dziamdziak
-    de:
+    rl:
       - "879956"
       - "3558975"
   liquipedia: Dziamdziak
@@ -1391,7 +1391,7 @@
       - chris
     gamepark:
       - chris
-    de:
+    rl:
       - "3230529"
       - "3552644" # chris.age2.de
   aoeelo: 60
@@ -1455,7 +1455,7 @@
       - "124781271"
     zone:
       - spring
-    de:
+    rl:
       - "235623"
       - "1766301"
   youtube:
@@ -1482,7 +1482,7 @@
   platforms:
     zone:
       - iori
-    de:
+    rl:
       - "2772600"
   liquipedia: IORI
   aoeelo: 254
@@ -1510,7 +1510,7 @@
       - ruso
     zone:
       - ruso
-    de:
+    rl:
       - "1997593"
   liquipedia: Ruso
   aoeelo: 168
@@ -1527,7 +1527,7 @@
       - "123452158"
       - "160816"
       - "610"
-    de:
+    rl:
       - "1629889"
     gamepark:
       - alive
@@ -1593,7 +1593,7 @@
   platforms:
     voobly:
       - "124682621"
-    de:
+    rl:
       - "268565"
   liquipedia: Luca8761
   youtube:
@@ -1642,7 +1642,7 @@
       - "123984617"
       - "125143234"
       - "123529024"
-    de:
+    rl:
       - "1893397"
       - "5638708"
   team: 3
@@ -1661,7 +1661,7 @@
       - "123162283"
       - "123947524"
       - "123950294"
-    de:
+    rl:
       - "229063"
       - "3457608"
   team: 27
@@ -1678,7 +1678,7 @@
       - "123946886"
       - "125271720"
       - "123793404"
-    de:
+    rl:
       - "599689"
       - "2428811"
       - "4497383"
@@ -1696,7 +1696,7 @@
     voobly:
       - "123210474"
       - "124166791"
-    de:
+    rl:
       - "248441"
   liquipedia: Spaden
   team: 1
@@ -1713,7 +1713,7 @@
       - "123737313"
       - "12476384"
       - "124453257"
-    de:
+    rl:
       - "2844691"
       - "1861822"
       - "6779041"
@@ -1738,7 +1738,7 @@
       - "6246"
       - "30466"
       - "123236765"
-    de:
+    rl:
       - "2783258"
   liquipedia: Whoop
   team: 8
@@ -1793,7 +1793,7 @@
       - "123532179"
       - "124626542"
       - "125009949"
-    de:
+    rl:
       - "2733015"
       #- "3956300"
       - "6872563"
@@ -1814,7 +1814,7 @@
       - "30984"
     ibp:
       - air_abu
-    de:
+    rl:
       - "3414034"
   aoeelo: 519
   id: 89
@@ -1833,7 +1833,7 @@
       - "123781126"
       - "124003159"
       - "123129305"
-    de:
+    rl:
       - "3943624"
     gameranger:
       - wonder
@@ -1851,7 +1851,7 @@
       - "124075494"
       - "124240304"
       - "125024125"
-    de:
+    rl:
       - "1755520"
       - "1754629"
   liquipedia: classicpro
@@ -1871,7 +1871,7 @@
       - ralber
     gamepark:
       - ralber
-    de:
+    rl:
       - "2535067"
   liquipedia: Ralber
   aoeelo: 302
@@ -1911,7 +1911,7 @@
       - "29129"
     zone:
       - capoch
-    de:
+    rl:
       - "409748"
       - "2667231"
       - "2850727"
@@ -1961,7 +1961,7 @@
       - "124569805"
     zone:
       - iamok
-    de:
+    rl:
       - "2868603"
       - "1369578"
       - "3796982"
@@ -2012,7 +2012,7 @@
       - "186651"
     zone:
       - feage
-    de:
+    rl:
       - "300649"
       - "4956328"
   liquipedia: FeAge
@@ -2045,7 +2045,7 @@
   platforms:
     voobly:
       - "124386524"
-    de:
+    rl:
       - "582058"
   team: 24
   youtube:
@@ -2063,7 +2063,7 @@
     voobly:
       - "47262"
       - "127366"
-    de:
+    rl:
       - "1098178"
   liquipedia: _Ra_
   aoeelo: 148
@@ -2086,7 +2086,7 @@
       - "123372165"
     ibp:
       - miss_xue
-    de:
+    rl:
       - "8588069"
   id: 104
   notability:
@@ -2109,7 +2109,7 @@
   platforms:
     voobly:
       - "123806659"
-    de:
+    rl:
       - "208493"
   liquipedia: Feanor
   twitch:
@@ -2130,7 +2130,7 @@
       - "123370148"
       - "123180505"
       - "125321142"
-    de:
+    rl:
       - "971296"
       - "5126520" # _Raijin_
   liquipedia: Hasan
@@ -2157,7 +2157,7 @@
       - "124531503"
     vooblycn:
       - "124531503"
-    de:
+    rl:
       - "3044106"
   id: 109
   notability:
@@ -2185,7 +2185,7 @@
   platforms:
     voobly:
       - "123451615"
-    de:
+    rl:
       - "208080"
       - "703045"
   liquipedia: Jupe
@@ -2203,7 +2203,7 @@
   platforms:
     voobly:
       - "124368651"
-    de:
+    rl:
       - "246423"
       - "2780825"
       - "4767036"
@@ -2224,7 +2224,7 @@
       - "124287511"
       - "124505989"
       - "124378288"
-    de:
+    rl:
       - "213355"
       - "1349545"
   twitch:
@@ -2248,7 +2248,7 @@
     vooblycn:
       - "124566874"
       - "123916446"
-    de:
+    rl:
       - "3235648"
       - "2411454"
       - "2386170"
@@ -2269,7 +2269,7 @@
     voobly:
       - "123652655"
       - "123988152"
-    de:
+    rl:
       - "725502"
   liquipedia: Kongensgade
   id: 115
@@ -2284,7 +2284,7 @@
     voobly:
       - "123482913"
       - "124654721"
-    de:
+    rl:
       - "2344276"
   aoeelo: 42
   id: 116
@@ -2333,7 +2333,7 @@
       - bvirus
     voobly:
       - "4053"
-    de:
+    rl:
       - "1657293"
   liquipedia: bvirus
   aoeelo: 169
@@ -2406,7 +2406,7 @@
       - drinky
     gamepark:
       - drinky
-    de:
+    rl:
       - "258972"
       - "4972061"
   aoeelo: 322
@@ -2420,7 +2420,7 @@
       - canary
     gamepark:
       - canary
-    de:
+    rl:
       - "2520503"
       - "6845183"
   aoeelo: 268
@@ -2441,7 +2441,7 @@
   platforms:
     zone:
       - moczymorda
-    de:
+    rl:
       - "5424138"
       - "7988955"
   liquipedia: GeNeRaL_Z
@@ -2467,7 +2467,7 @@
       - "12597"
     voobly:
       - "12597"
-    de:
+    rl:
       - "3384231"
   liquipedia: Poisn
   team: 33
@@ -2534,7 +2534,7 @@
   platforms:
     voobly:
       - "124483923"
-    de:
+    rl:
       - "746777"
   liquipedia: Nanimaren
   team: 5
@@ -2547,7 +2547,7 @@
   platforms:
     voobly:
       - "123738456"
-    de:
+    rl:
       - "4012008"
   aoeelo: 73
   id: 139
@@ -2559,7 +2559,7 @@
   platforms:
     voobly:
       - "124281975"
-    de:
+    rl:
       - "182749"
       - "2112598"
       - "3966024"
@@ -2624,7 +2624,7 @@
   platforms:
     voobly:
       - "123839438"
-    de:
+    rl:
       - "283224"
   liquipedia: GoldenEnd
   team: 5
@@ -2655,7 +2655,7 @@
     voobly:
       - "20404"
       - "123638821"
-    de:
+    rl:
       - "907464"
       - "3524242"
       - "4976729"
@@ -2670,7 +2670,7 @@
   platforms:
     voobly:
       - "123753371"
-    de:
+    rl:
       - "1134223"
   liquipedia: Janik
   id: 148
@@ -2687,7 +2687,7 @@
   country: de
   aoeelo: 616
   platforms:
-    de:
+    rl:
       - "256338" # Running
       - "4620061"
     voobly:
@@ -2700,7 +2700,7 @@
   country: ca
   aoeelo: 602
   platforms:
-    de:
+    rl:
       - "225365"
       - "1515905"
       - "3435966"
@@ -2716,7 +2716,7 @@
   twitch:
     - https://www.twitch.tv/demonsheeptw
   platforms:
-    de:
+    rl:
       - "226697"
   liquipedia: DemonSheep
   team: 13
@@ -2727,7 +2727,7 @@
   country: de
   aoeelo: 103
   platforms:
-    de:
+    rl:
       - "370776"
       - "1832072"
       - "1221228"
@@ -2744,7 +2744,7 @@
   twitch:
     - https://www.twitch.tv/skyandpeace
   platforms:
-    de:
+    rl:
       - "209118"
       - "712465"
   liquipedia: Sora Kuma
@@ -2758,7 +2758,7 @@
   platforms:
     voobly:
       - "123815728"
-    de:
+    rl:
       - "223206"
       - "3308789"
   liquipedia: Komtan
@@ -2773,7 +2773,7 @@
   country: us
   aoeelo: 78
   platforms:
-    de:
+    rl:
       - "301918"
       - "2855233"
       - "4672953"
@@ -2798,7 +2798,7 @@
   country: at
   aoeelo: 74
   platforms:
-    de:
+    rl:
       - "1050688"
     voobly:
       - "123926453"
@@ -2813,7 +2813,7 @@
   country: ar
   aoeelo: 449
   platforms:
-    de:
+    rl:
       - "2495166"
       - "1143001"
     voobly:
@@ -2830,7 +2830,7 @@
   country: de
   aoeelo: 122
   platforms:
-    de:
+    rl:
       - "992381"
     voobly:
       - "123225139"
@@ -2848,7 +2848,7 @@
   twitch:
     - https://www.twitch.tv/jidba
   platforms:
-    de:
+    rl:
       - "357026"
       - "1834168"
     voobly:
@@ -2955,7 +2955,7 @@
   country: us
   esportsearnings: 15931
   platforms:
-    de:
+    rl:
       - "584824"
     voobly:
       - "123188321"
@@ -3135,7 +3135,7 @@
 - name: Sobek
   country: cl
   platforms:
-    de:
+    rl:
       - "290617"
       - "2598137"
     voobly:
@@ -3155,7 +3155,7 @@
   twitch:
     - https://www.twitch.tv/hallisaoc
   platforms:
-    de:
+    rl:
       - "250103"
     voobly:
       - "123851827"
@@ -3217,7 +3217,7 @@
 - name: Ming
   country: hk
   platforms:
-    de:
+    rl:
       - "3144451"
       - "1966276"
       - "3208276"
@@ -3243,7 +3243,7 @@
   discord:
     - https://discord.gg/2uJ5Tyh
   platforms:
-    de:
+    rl:
       - "247224"
   liquipedia: Survivalist
   twitch:
@@ -3300,7 +3300,7 @@
   twitch:
     - https://www.twitch.tv/leash__
   platforms:
-    de:
+    rl:
       - "322858"
     voobly:
       - "123556801"
@@ -3316,7 +3316,7 @@
   platforms:
     voobly:
       - "123765859"
-    de:
+    rl:
       - "222528"
   liquipedia: Repard
   twitch:
@@ -3333,7 +3333,7 @@
   platforms:
     voobly:
       - "123369268"
-    de:
+    rl:
       - "1529495"
       - "2864065"
       - "489128"
@@ -3345,7 +3345,7 @@
   platforms:
     voobly:
       - "123374407"
-    de:
+    rl:
       - "211235"
       - "4396890"
       - "4682069"
@@ -3361,7 +3361,7 @@
   platforms:
     voobly:
       - "124045298"
-    de:
+    rl:
       - "217180"
   liquipedia: I2aGE
   twitch:
@@ -3378,7 +3378,7 @@
     voobly:
       - "123698004"
       - "123158445"
-    de:
+    rl:
       - "2135484"
       - "3088115"
   liquipedia: BruH
@@ -3398,7 +3398,7 @@
   platforms:
     voobly:
       - "123866515"
-    de:
+    rl:
       - "283233"
       - "674899" # Bubbles
       - "1602128"
@@ -3428,7 +3428,7 @@
   platforms:
     voobly:
       - "124236797"
-    de:
+    rl:
       - "197930"
       - "951203" # HaroldTheDuck
   aoeelo: 498
@@ -3442,7 +3442,7 @@
   youtube:
     - https://www.youtube.com/channel/UCIQg67br-zXRxyrFRwbfBsQ
   platforms:
-    de:
+    rl:
       - "1390516"
       - "2386652"
   liquipedia: Rex
@@ -3455,7 +3455,7 @@
   twitch:
     - https://www.twitch.tv/gluttony_aoe
   platforms:
-    de:
+    rl:
       - "545512"
   id: 213
   notability:
@@ -3463,7 +3463,7 @@
 - name: Rise
   country: it
   platforms:
-    de:
+    rl:
       - "1428813"
       - "210388"
       - "4799335"
@@ -3483,7 +3483,7 @@
   platforms:
     voobly:
       - "125137692"
-    de:
+    rl:
       - "1407942"
       - "3108145"
       - "6157837"
@@ -3499,7 +3499,7 @@
   platforms:
     voobly:
       - "124090505"
-    de:
+    rl:
       - "2815388"
       - "2521572"
   aoeelo: 128
@@ -3509,7 +3509,7 @@
 - name: Bad Koala
   country: cn
   platforms:
-    de:
+    rl:
       - "211351" #main
       - "1435093" #alt
   liquipedia: Bad Koala
@@ -3523,7 +3523,7 @@
   platforms:
     voobly:
       - "124646628"
-    de:
+    rl:
       - "2461090" #main
       - "2876803" #alt
   aoeelo: 37
@@ -3533,7 +3533,7 @@
 - name: Badboy
   country: vn
   platforms:
-    de:
+    rl:
       - "2503651"
       - "5551503"
   liquipedia: BadBoy
@@ -3549,7 +3549,7 @@
   platforms:
     voobly:
       - "123514787"
-    de:
+    rl:
       - "280459"
       - "985308"
   liquipedia: RecoN
@@ -3560,7 +3560,7 @@
 - name: BL4CK
   country: ar
   platforms:
-    de:
+    rl:
       - "2792305"
       - "1756760"
       - "5999674"
@@ -3580,7 +3580,7 @@
   platforms:
     voobly:
       - "125198457"
-    de:
+    rl:
       - "575279"
   id: 222
   notability:
@@ -3590,7 +3590,7 @@
   platforms:
     voobly:
       - "197995"
-    de:
+    rl:
       - "801470"
   aoeelo: 1147
   id: 223
@@ -3599,7 +3599,7 @@
 - name: Keno
   country: mx
   platforms:
-    de:
+    rl:
       - "312774"
       - "738273"
       - "4362172"
@@ -3617,7 +3617,7 @@
   twitch:
     - https://www.twitch.tv/jackk_pl
   platforms:
-    de:
+    rl:
       - "452924"
       - "2754047"
       - "6237064"
@@ -3632,7 +3632,7 @@
   platforms:
     voobly:
       - "123921098"
-    de:
+    rl:
       - "2598542"
       - "3489772"
   liquipedia: PaTiN
@@ -3644,7 +3644,7 @@
 - name: Tushen
   country: cn
   platforms:
-    de:
+    rl:
       - "2544010"
       - "599657"
       - "2343109"
@@ -3656,7 +3656,7 @@
 - name: Kellar
   country: no
   platforms:
-    de:
+    rl:
       - "1451847"
       - "1195260"
       - "1784541"
@@ -3672,7 +3672,7 @@
 - name: Carbo
   country: ar
   platforms:
-    de:
+    rl:
       - "618731"
       - "2171446"
   liquipedia: Carbo
@@ -3688,7 +3688,7 @@
 - name: pG_Fire
   country: au
   platforms:
-    de:
+    rl:
       - "2134694"
     zone:
       - pgfire
@@ -3703,7 +3703,7 @@
   platforms:
     voobly:
       - "123797075"
-    de:
+    rl:
       - "580573"
       - "2717438"
       - "4388039"
@@ -3718,7 +3718,7 @@
 - name: OnLeKe
   country: br
   platforms:
-    de:
+    rl:
       - "308109"
       - "1696082"
       - "5123311"
@@ -3736,7 +3736,7 @@
 - name: Babaorum
   country: fr
   platforms:
-    de:
+    rl:
       - "576919"
       - "3335279"
     voobly:
@@ -3751,7 +3751,7 @@
 - name: Tatakae
   country: mx
   platforms:
-    de:
+    rl:
       - "560474"
     voobly:
       - "124546027"
@@ -3764,7 +3764,7 @@
 - name: Darknoob
   country: nl
   platforms:
-    de:
+    rl:
       - "458029"
       - "3219682"
     voobly:
@@ -3778,7 +3778,7 @@
 - name: DarkDevil
   country: it
   platforms:
-    de:
+    rl:
       - "1630598"
     voobly:
       - "123607994"
@@ -3789,7 +3789,7 @@
 - name: Skull
   country: cz
   platforms:
-    de:
+    rl:
       - "369536"
     voobly:
       - "2016"
@@ -3803,7 +3803,7 @@
   platforms:
     voobly:
       - "124772915"
-    de:
+    rl:
       - "2614814"
       - "2760394"
   aoeelo: 928
@@ -3815,7 +3815,7 @@
 - name: Mr Greed
   country: pt
   platforms:
-    de:
+    rl:
       - "738249"
       - "3082790"
   twitch:
@@ -3827,7 +3827,7 @@
 - name: Idol Brother
   country: cn
   platforms:
-    de:
+    rl:
       - "1788064"
   id: 240
   notability:
@@ -3837,7 +3837,7 @@
   twitch:
     - https://www.twitch.tv/uzzi_aoe
   platforms:
-    de:
+    rl:
       - "229071"
       - "2873733"
       - "2136214"
@@ -3858,7 +3858,7 @@
 - name: The Bloodless
   country: us
   platforms:
-    de:
+    rl:
       - "178430"
   aoeelo: 722
   team: 14
@@ -3871,7 +3871,7 @@
 - name: Wisepii
   country: cl
   platforms:
-    de:
+    rl:
       - "1264695"
       - "3379989"
     voobly:
@@ -3887,7 +3887,7 @@
 - name: Chocobo
   country: jp
   platforms:
-    de:
+    rl:
       - "1584462"
       - "3296370"
     voobly:
@@ -3902,7 +3902,7 @@
 - name: Scogo
   country: de
   platforms:
-    de:
+    rl:
       - "208217"
       - "900950"
       - "282660"
@@ -3918,7 +3918,7 @@
 - name: z40305125
   country: tw
   platforms:
-    de:
+    rl:
       - "726223"
       - "3152642"
       - "1251651"
@@ -3932,7 +3932,7 @@
 - name: Dratek
   country: cz
   platforms:
-    de:
+    rl:
       - "3245050"
       - "270315"
       - "4747413"
@@ -3948,7 +3948,7 @@
   twitch:
     - https://www.twitch.tv/funito
   platforms:
-    de:
+    rl:
       - "2638400"
     voobly:
       - "13052"
@@ -3963,7 +3963,7 @@
 - name: K0ty
   country: cz
   platforms:
-    de:
+    rl:
       - "811008"
       - "4185603"
       - "3050759"
@@ -3981,7 +3981,7 @@
   platforms:
     voobly:
       - "124423933"
-    de:
+    rl:
       - "2309468"
       - "2718358"
       - "5303040"
@@ -4000,7 +4000,7 @@
 - name: Galaxy
   country: hk
   platforms:
-    de:
+    rl:
       - "2875949"
       - "2622255"
   id: 252
@@ -4011,7 +4011,7 @@
   aka:
     - LobodeLaNieve
   platforms:
-    de:
+    rl:
       - "2920057"
       - "3317764"
       - "4974647"
@@ -4024,7 +4024,7 @@
 - name: WaRRioR
   country: ru
   platforms:
-    de:
+    rl:
       - "1626982"
       - "2915171"
     voobly:
@@ -4042,7 +4042,7 @@
 - name: klavskis
   country: lv
   platforms:
-    de:
+    rl:
       - "213534"
     voobly:
       - "123205226"
@@ -4056,7 +4056,7 @@
 - name: Mango
   country: cz
   platforms:
-    de:
+    rl:
       - "1613129"
       - "272454"
       - "754969"
@@ -4069,7 +4069,7 @@
 - name: JoRo
   country: us
   platforms:
-    de:
+    rl:
       - "3543549"
       - "270449"
       - "221496"
@@ -4085,7 +4085,7 @@
   discord:
     - https://discord.gg/MusuEz
   platforms:
-    de:
+    rl:
       - "611972"
       - "3229922"
     voobly:
@@ -4100,7 +4100,7 @@
   platforms:
     voobly:
       - "124284205"
-    de:
+    rl:
       - "285508"
       - "2571777"
   aoeelo: 448
@@ -4111,7 +4111,7 @@
 - name: Pela
   country: ar
   platforms:
-    de:
+    rl:
       - "219739"
       - "2821779"
       - "5093301"
@@ -4128,7 +4128,7 @@
 - name: Ertug
   country: tr
   platforms:
-    de:
+    rl:
       - "4240386"
       - "4013273"
       - "1898283"
@@ -4160,7 +4160,7 @@
 - name: Shades
   country: it
   platforms:
-    de:
+    rl:
       - "2462063"
       - "1793493"
       - "4367756"
@@ -4179,7 +4179,7 @@
 - name: fatman
   country: de
   platforms:
-    de:
+    rl:
       - "215963"
       - "3163620"
       - "3472929"
@@ -4194,7 +4194,7 @@
   discord:
     - https://discord.gg/Vhm4gS4fyx
   platforms:
-    de:
+    rl:
       - "4304303"
       - "4345753"
     voobly:
@@ -4206,7 +4206,7 @@
 - name: Gary
   country: ar
   platforms:
-    de:
+    rl:
       - "3274563"
       - "3964432"
     voobly:
@@ -4219,7 +4219,7 @@
 - name: Biry
   country: ar
   platforms:
-    de:
+    rl:
       - "2526695"
       - "2899276"
       - "111069"
@@ -4244,7 +4244,7 @@
     - fangxiaoqi
   country: cn
   platforms:
-    de:
+    rl:
       - "551488"
     voobly:
       - "123226583"
@@ -4259,7 +4259,7 @@
   discord:
     - https://discord.gg/z7Pvx7g
   platforms:
-    de:
+    rl:
       - "410691"
   youtube:
     - https://www.youtube.com/channel/UCDAwFPixAVPrUogkwhN0iAg
@@ -4277,7 +4277,7 @@
   platforms:
     voobly:
       - "963"
-    de:
+    rl:
       - "570519"
       - "6151169"
   twitch:
@@ -4293,7 +4293,7 @@
   aoeelo: 872
   liquipedia: Good_Game
   platforms:
-    de:
+    rl:
       - "1165138"
   team: 22
   twitch:
@@ -4304,7 +4304,7 @@
 - name: Alperen
   country: tr
   platforms:
-    de:
+    rl:
       - "874604"
       - "5453798"
   twitch:
@@ -4319,7 +4319,7 @@
 - name: CX_youwei
   country: cn
   platforms:
-    de:
+    rl:
       - "4168560"
     voobly:
       - "123770946"
@@ -4330,7 +4330,7 @@
 - name: czczcz
   country: kr
   platforms:
-    de:
+    rl:
       - "620454"
       - "2777792"
       - "2684072"
@@ -4342,7 +4342,7 @@
 - name: USb
   country: mx
   platforms:
-    de:
+    rl:
       - "2938425"
       - "3253348"
       - "2776293"
@@ -4356,7 +4356,7 @@
 - name: Annotoph
   country: de
   platforms:
-    de:
+    rl:
       - "222102"
       - "3238663"
       - "6231852"
@@ -4367,7 +4367,7 @@
 - name: RookStar
   country: br
   platforms:
-    de:
+    rl:
       - "2265942"
       - "2948283"
   id: 276
@@ -4376,7 +4376,7 @@
 - name: grathwrang
   country: ca
   platforms:
-    de:
+    rl:
       - "271243"
   twitch:
     - https://www.twitch.tv/grathwrang
@@ -4391,7 +4391,7 @@
 - name: Roxy
   country: ar
   platforms:
-    de:
+    rl:
       - "4796235"
   twitter:
     - https://twitter.com/RoxyC_Stream
@@ -4403,7 +4403,7 @@
 - name: Whitecourt
   country: cl
   platforms:
-    de:
+    rl:
       - "3101322"
       - "5057225"
       - "8067841"
@@ -4418,7 +4418,7 @@
 - name: Gabi
   country: br
   platforms:
-    de:
+    rl:
       - "2444511"
       - "2762305"
   liquipedia: Gabi
@@ -4436,7 +4436,7 @@
 - name: Lucky Rox
   country: ar
   platforms:
-    de:
+    rl:
       - "945852"
       - "3579491"
   liquipedia: Lucky_Rox
@@ -4447,7 +4447,7 @@
 - name: D3rp
   country: nl
   platforms:
-    de:
+    rl:
       - "212294"
   liquipedia: D3rp
   twitch:
@@ -4460,7 +4460,7 @@
 - name: Andorin
   country: de
   platforms:
-    de:
+    rl:
       - "200073"
     voobly:
       - "123553491"
@@ -4475,7 +4475,7 @@
 - name: Clemensor
   country: at
   platforms:
-    de:
+    rl:
       - "226437"
       - "3201121"
     voobly:
@@ -4493,7 +4493,7 @@
 - name: Cortical
   country: us
   platforms:
-    de:
+    rl:
       - "1566498"
   liquipedia: Cortical
   id: 285
@@ -4502,7 +4502,7 @@
 - name: ffavorite
   country: us
   platforms:
-    de:
+    rl:
       - "509112"
   liquipedia: Ffavorite_1
   team: 12
@@ -4512,7 +4512,7 @@
 - name: PaladiNz
   country: ca
   platforms:
-    de:
+    rl:
       - "255376"
   liquipedia: PaladiNz
   team: 12
@@ -4523,7 +4523,7 @@
 - name: Bean Dip
   country: us
   platforms:
-    de:
+    rl:
       - "293288"
   liquipedia: Bean Dip
   twitch:
@@ -4534,7 +4534,7 @@
 - name: Bourbon
   country: ru
   platforms:
-    de:
+    rl:
       - "1877180"
       - "3156635"
   liquipedia: Bourbon
@@ -4546,7 +4546,7 @@
 - name: Ass_Kickerwa
   country: in
   platforms:
-    de:
+    rl:
       - "664715"
   liquipedia: Ass_Kickerwa
   team: 6
@@ -4558,7 +4558,7 @@
     - Cl3m3nT_AoE
   country: fr
   platforms:
-    de:
+    rl:
       - "245117"
       - "3567001"
       - "4446339"
@@ -4574,7 +4574,7 @@
 - name: DarK_KnighT
   country: mx
   platforms:
-    de:
+    rl:
       - "757886"
       - "3395893"
   liquipedia: DarK_KnighT_
@@ -4586,7 +4586,7 @@
 - name: Ellie4K
   country: ca
   platforms:
-    de:
+    rl:
       - "1686373"
   liquipedia: Ellie4k
   twitch:
@@ -4601,7 +4601,7 @@
 - name: FreakinAndy
   country: at
   platforms:
-    de:
+    rl:
       - "1531083"
       - "2559615"
   liquipedia: FreakinAndy
@@ -4614,7 +4614,7 @@
 - name: FreakinChris
   country: at
   platforms:
-    de:
+    rl:
       - "657052"
   liquipedia: FreakinChris
   aoeelo: 654
@@ -4624,7 +4624,7 @@
 - name: Frost_9
   country: se
   platforms:
-    de:
+    rl:
       - "2653793"
   liquipedia: Frost_9
   team: 21
@@ -4634,7 +4634,7 @@
 - name: GriN
   country: ru
   platforms:
-    de:
+    rl:
       - "208812"
   liquipedia: GriN
   twitch:
@@ -4648,7 +4648,7 @@
 - name: HamRTime
   country: au
   platforms:
-    de:
+    rl:
       - "2125259"
       - "2786676"
   liquipedia: HamRTime
@@ -4660,7 +4660,7 @@
 - name: ImComing
   country: au
   platforms:
-    de:
+    rl:
       - "839529"
   liquipedia: ImComing
   twitch:
@@ -4674,7 +4674,7 @@
 - name: Improvise
   country: us
   platforms:
-    de:
+    rl:
       - "3879633"
   liquipedia: Improvise
   id: 300
@@ -4683,7 +4683,7 @@
 - name: JazBas
   country: nz
   platforms:
-    de:
+    rl:
       - "978577"
   liquipedia: JazBas
   id: 301
@@ -4692,7 +4692,7 @@
 - name: Juan Perotti
   country: ar
   platforms:
-    de:
+    rl:
       - "272182"
   liquipedia: Juan Perotti
   twitch:
@@ -4707,7 +4707,7 @@
 - name: KhaLeN
   country: fr
   platforms:
-    de:
+    rl:
       - "1060672"
   liquipedia: KhaLeN
   twitch:
@@ -4720,7 +4720,7 @@
 - name: Kioss3000
   country: fr
   platforms:
-    de:
+    rl:
       - "581780"
   liquipedia: Kioss3000
   twitch:
@@ -4734,7 +4734,7 @@
 - name: L3af
   country: us
   platforms:
-    de:
+    rl:
       - "228375"
   liquipedia: L3af
   id: 305
@@ -4743,7 +4743,7 @@
 - name: Loris
   country: it
   platforms:
-    de:
+    rl:
       - "1700004"
       - "2368367"
       - "2473598"
@@ -4757,7 +4757,7 @@
 - name: MaJoR_Kd
   country: gb
   platforms:
-    de:
+    rl:
       - "283216"
   liquipedia: MaJoR_Kd
   twitch:
@@ -4768,7 +4768,7 @@
 - name: Margougou
   country: fr
   platforms:
-    de:
+    rl:
       - "2368761"
       - "579679"
       - "4441646"
@@ -4787,7 +4787,7 @@
     - Mlord
   country: fr
   platforms:
-    de:
+    rl:
       - "1102458"
   liquipedia: MarineLorD
   twitch:
@@ -4803,7 +4803,7 @@
 - name: MembTV
   country: es
   platforms:
-    de:
+    rl:
       - "196407"
     voobly:
       - "11574"
@@ -4820,7 +4820,7 @@
 - name: Mica
   country: ar
   platforms:
-    de:
+    rl:
       - "2873005"
       - "236757"
   liquipedia: Mica
@@ -4833,7 +4833,7 @@
 - name: Moonfaller
   country: nl
   platforms:
-    de:
+    rl:
       - "351793"
   liquipedia: Moonfaller
   twitch:
@@ -4846,7 +4846,7 @@
 - name: Mr.moon
   country: ru
   platforms:
-    de:
+    rl:
       - "701482"
   liquipedia: Mr.moon
   team: 9
@@ -4856,7 +4856,7 @@
 - name: Neromelnick
   country: cl
   platforms:
-    de:
+    rl:
       - "316555"
       - "2796405"
   liquipedia: Neromelnick
@@ -4869,7 +4869,7 @@
 - name: Nick
   country: gb
   platforms:
-    de:
+    rl:
       - "209599"
   liquipedia: Nick
   team: 1
@@ -4882,7 +4882,7 @@
 - name: Ning_
   country: tw
   platforms:
-    de:
+    rl:
       - "802944"
       - "5623928"
   liquipedia: Ning_
@@ -4894,7 +4894,7 @@
 - name: OLADUSHEK
   country: by
   platforms:
-    de:
+    rl:
       - "1853187"
   liquipedia: OLADUSHEK
   twitch:
@@ -4909,7 +4909,7 @@
 - name: Odette
   country: cz
   platforms:
-    de:
+    rl:
       - "207414"
   liquipedia: Odette
   twitch:
@@ -4924,7 +4924,7 @@
 - name: OfeliaAoE
   country: es
   platforms:
-    de:
+    rl:
       - "269143"
   liquipedia: OfeliaAoE
   twitch:
@@ -4938,7 +4938,7 @@
 - name: Ondrej94
   country: sk
   platforms:
-    de:
+    rl:
       - "4917502"
       - "331684"
   liquipedia: Ondrej94
@@ -4949,7 +4949,7 @@
 - name: OrnLu
   country: us
   platforms:
-    de:
+    rl:
       - "197707"
   liquipedia: OrnLu
   twitter:
@@ -4964,7 +4964,7 @@
 - name: Ovenka
   country: cz
   platforms:
-    de:
+    rl:
       - "280742"
   liquipedia: Ovenka
   team: 31
@@ -4975,7 +4975,7 @@
 - name: Overtaken
   country: ee
   platforms:
-    de:
+    rl:
       - "4632681"
   liquipedia: Overtaken
   aoeelo: 199
@@ -4985,7 +4985,7 @@
 - name: Sebastian2002
   country: uy
   platforms:
-    de:
+    rl:
       - "2783660"
       - "5194815"
       - "4541520"
@@ -5001,7 +5001,7 @@
 - name: StonePlease
   country: de
   platforms:
-    de:
+    rl:
       - "339835"
       - "858709"
       - "3654037"
@@ -5014,7 +5014,7 @@
 - name: The_queen
   country: ru
   platforms:
-    de:
+    rl:
       - "1274728"
   liquipedia: The_queen
   twitch:
@@ -5026,7 +5026,7 @@
 - name: TheSniper_AOE
   country: fr
   platforms:
-    de:
+    rl:
       - "219493"
   liquipedia: TheSniper_AOE
   twitch:
@@ -5042,7 +5042,7 @@
 - name: Tileä
   country: nz
   platforms:
-    de:
+    rl:
       - "2429037"
   liquipedia: Tileä
   twitch:
@@ -5053,7 +5053,7 @@
 - name: TinyTriss
   country: at
   platforms:
-    de:
+    rl:
       - "236934"
   liquipedia: TinyTriss
   twitch:
@@ -5069,7 +5069,7 @@
 - name: kaaaai_
   country: gb
   platforms:
-    de:
+    rl:
       - "3436170"
       - "3367513"
   liquipedia: kaaaai_
@@ -5081,7 +5081,7 @@
 - name: noboru
   country: jp
   platforms:
-    de:
+    rl:
       - "232208"
   liquipedia: noboru43
   twitch:
@@ -5092,7 +5092,7 @@
 - name: wAkKo
   country: cl
   platforms:
-    de:
+    rl:
       - "267597"
   liquipedia: wAkKo
   twitch:
@@ -5105,7 +5105,7 @@
 - name: Ubetnir
   country: tr
   platforms:
-    de:
+    rl:
       - "6069513"
       - "3392033"
       - "4670972"
@@ -5117,7 +5117,7 @@
 - name: Rammyy
   country: tr
   platforms:
-    de:
+    rl:
       - "2642796"
       - "5735995"
     voobly:
@@ -5134,7 +5134,7 @@
   twitch:
     - https://www.twitch.tv/tomateaoe
   platforms:
-    de:
+    rl:
       - "77944"
   aoeelo: 967
   id: 335
@@ -5143,7 +5143,7 @@
 - name: Rmcoo
   country: lt
   platforms:
-    de:
+    rl:
       - "541127"
     voobly:
       - "123465712"
@@ -5160,7 +5160,7 @@
 - name: ThisLove
   country: vn
   platforms:
-    de:
+    rl:
       - "2508809"
       - "3386065"
       - "5637473"
@@ -5170,7 +5170,7 @@
 - name: AnTiDeMoN
   country: br
   platforms:
-    de:
+    rl:
       - "238641"
       - "5375392"
       - "2659351"
@@ -5185,7 +5185,7 @@
 - name: Yasin
   country: tr
   platforms:
-    de:
+    rl:
       - "2944434"
       - "5829363"
   aoeelo: 898
@@ -5197,7 +5197,7 @@
   twitch:
     - https://www.twitch.tv/turkeycof_aoe
   platforms:
-    de:
+    rl:
       - "2183026"
       - "4461247"
   id: 340
@@ -5208,7 +5208,7 @@
   twitch:
     - https://www.twitch.tv/glx_rusher
   platforms:
-    de:
+    rl:
       - "788320"
       - "3527288"
   id: 341
@@ -5220,7 +5220,7 @@
     voobly:
       - "124915733"
       - "125150015"
-    de:
+    rl:
       - "528141"
   liquipedia: Albis
   aoeelo: 1132
@@ -5232,7 +5232,7 @@
 - name: PoLaR
   country: gb
   platforms:
-    de:
+    rl:
       - "1802779"
   liquipedia: PoLaR
   twitch:
@@ -5244,7 +5244,7 @@
 - name: RollsRoyce
   country: vn
   platforms:
-    de:
+    rl:
       - "1763704"
   liquipedia: RollsRoyce
   id: 344
@@ -5253,7 +5253,7 @@
 - name: Valak
   country: cl
   platforms:
-    de:
+    rl:
       - "3085163"
   liquipedia: Valak
   twitch:
@@ -5267,7 +5267,7 @@
 - name: Ripvanwinkle
   country: tr
   platforms:
-    de:
+    rl:
       - "1820205"
       - "3853480"
     voobly:
@@ -5285,7 +5285,7 @@
       - "125033680"
       - "125196962"
       - "125206801"
-    de:
+    rl:
       - "1773197"
   id: 347
   notability:
@@ -5293,7 +5293,7 @@
 - name: Chrazini
   country: dk
   platforms:
-    de:
+    rl:
       - "208418"
   liquipedia: Chrazini
   aoeelo: 854
@@ -5305,7 +5305,7 @@
 - name: RediRodion
   country: pl
   platforms:
-    de:
+    rl:
       - "1670171"
   liquipedia: RediRodion
   twitch:
@@ -5321,7 +5321,7 @@
 - name: SaladEsc
   country: dk
   platforms:
-    de:
+    rl:
       - "215498"
   liquipedia: SaladEsc
   twitch:
@@ -5335,7 +5335,7 @@
 - name: V1stima
   country: cl
   platforms:
-    de:
+    rl:
       - "211236"
   liquipedia: V1stima
   twitch:
@@ -5349,7 +5349,7 @@
 - name: Fish
   country: vn
   platforms:
-    de:
+    rl:
       - "2821727"
   twitch:
     - https://www.twitch.tv/fishvnn
@@ -5361,7 +5361,7 @@
 - name: Somero
   country: cz
   platforms:
-    de:
+    rl:
       - "264353"
       - "2148675"
       - "3167925"
@@ -5377,7 +5377,7 @@
 - name: Emil
   country: dk
   platforms:
-    de:
+    rl:
       - "862991"
       - "5221317"
     voobly:
@@ -5389,7 +5389,7 @@
 - name: Falcao
   country: br
   platforms:
-    de:
+    rl:
       - "1829213"
       - "3038783"
   id: 355
@@ -5399,7 +5399,7 @@
 - name: Mr.Bean
   country: vn
   platforms:
-    de:
+    rl:
       - "4129633"
       - "1200049"
   facebook_gaming:
@@ -5414,7 +5414,7 @@
 - name: The Illusionist
   country: sk
   platforms:
-    de:
+    rl:
       - "1389164"
       - "4122888"
       - "3232791"
@@ -5425,7 +5425,7 @@
 - name: FlyLikeDjango
   country: de
   platforms:
-    de:
+    rl:
       - "4865222"
       - "3014554"
       - "1826067"
@@ -5448,7 +5448,7 @@
 - name: TieuQuy
   country: vn
   platforms:
-    de:
+    rl:
       - "2593750"
   id: 359
   notability:
@@ -5456,7 +5456,7 @@
 - name: Good Luck
   country: dk
   platforms:
-    de:
+    rl:
       - "689666"
       - "4877844"
   id: 360
@@ -5466,7 +5466,7 @@
 - name: Fanjita
   country: gb
   platforms:
-    de:
+    rl:
       - "2361017"
   liquipedia: Fanjita
   id: 361
@@ -5476,7 +5476,7 @@
 - name: Sensar
   country: us
   platforms:
-    de:
+    rl:
       - "521395"
   liquipedia: Sensar
   twitch:
@@ -5487,7 +5487,7 @@
 - name: Zain
   country: au
   platforms:
-    de:
+    rl:
       - "221188"
   liquipedia: Zain
   twitch:
@@ -5498,7 +5498,7 @@
 - name: DragonBo
   country: hk
   platforms:
-    de:
+    rl:
       - "3208255"
       - "2654967"
   id: 364
@@ -5508,7 +5508,7 @@
 - name: Blade
   country: gb
   platforms:
-    de:
+    rl:
       - "994370"
       - "1177662"
   id: 365
@@ -5520,7 +5520,7 @@
   platforms:
     voobly:
       - "125387373"
-    de:
+    rl:
       - "2660491"
   id: 366
   notability:
@@ -5528,7 +5528,7 @@
 - name: Salted Pepper
   country: nl
   platforms:
-    de:
+    rl:
       - "938639"
   twitch:
     - https://www.twitch.tv/salted_pepper
@@ -5539,7 +5539,7 @@
 - name: Mihai
   country: ro
   platforms:
-    de:
+    rl:
       - "288714"
   id: 368
   notability:
@@ -5552,7 +5552,7 @@
   discord:
     - https://discord.gg/S2Cg5nusrQ
   platforms:
-    de:
+    rl:
       - "210256"
       - "2774706"
       - "5186030"
@@ -5564,7 +5564,7 @@
   facebook_gaming:
     - https://www.facebook.com/gaming/minhanhaoe2
   platforms:
-    de:
+    rl:
       - "3759800"
   id: 370
   aoeelo: 1151
@@ -5574,7 +5574,7 @@
   country: ro
   aoeelo: 790
   platforms:
-    de:
+    rl:
       - "635884"
   twitch:
     - https://www.twitch.tv/Andre_2i
@@ -5585,7 +5585,7 @@
   country: ca
   aoeelo: 620
   platforms:
-    de:
+    rl:
       - "442163"
   id: 372
   notability:
@@ -5594,7 +5594,7 @@
   country: fr
   aoeelo: 984
   platforms:
-    de:
+    rl:
       - "1920807"
   twitch:
     - https://www.twitch.tv/csalette
@@ -5605,7 +5605,7 @@
   country: mx
   aoeelo: 957
   platforms:
-    de:
+    rl:
       - "395776"
   id: 374
   notability:
@@ -5614,7 +5614,7 @@
   country: gb
   aoeelo: 753
   platforms:
-    de:
+    rl:
       - "234755"
   id: 375
   notability:
@@ -5623,7 +5623,7 @@
   country: ru
   aoeelo: 649
   platforms:
-    de:
+    rl:
       - "367774"
       - "3380761"
   id: 376
@@ -5634,7 +5634,7 @@
   country: tr
   aoeelo: 886
   platforms:
-    de:
+    rl:
       - "3446882"
       - "6426678"
   id: 377
@@ -5644,7 +5644,7 @@
   country: fi
   aoeelo: 636
   platforms:
-    de:
+    rl:
       - "516841"
       - "2762038"
   id: 378
@@ -5654,7 +5654,7 @@
   country: ar
   aoeelo: 929
   platforms:
-    de:
+    rl:
       - "1618328"
   id: 379
   notability:
@@ -5663,7 +5663,7 @@
   country: de
   aoeelo: 639
   platforms:
-    de:
+    rl:
       - "260593"
   id: 380
   notability:
@@ -5672,7 +5672,7 @@
   country: de
   aoeelo: 444
   platforms:
-    de:
+    rl:
       - "213142"
   id: 381
   notability:
@@ -5681,7 +5681,7 @@
   country: cn
   aoeelo: 912
   platforms:
-    de:
+    rl:
       - "243287"
   id: 382
   notability:
@@ -5690,7 +5690,7 @@
   country: ar
   aoeelo: 826
   platforms:
-    de:
+    rl:
       - "267775"
   id: 383
   notability:
@@ -5699,7 +5699,7 @@
   country: de
   aoeelo: 715
   platforms:
-    de:
+    rl:
       - "1787077"
   id: 384
   notability:
@@ -5708,7 +5708,7 @@
   country: uy
   aoeelo: 725
   platforms:
-    de:
+    rl:
       - "210124"
   id: 385
   notability:
@@ -5717,7 +5717,7 @@
   country: cn
   aoeelo: 112
   platforms:
-    de:
+    rl:
       - "4968670"
   id: 386
   notability:
@@ -5726,7 +5726,7 @@
   country: it
   aoeelo: 454
   platforms:
-    de:
+    rl:
       - "2009315"
       - "4375138"
       - "2347189"
@@ -5741,7 +5741,7 @@
   country: de
   aoeelo: 509
   platforms:
-    de:
+    rl:
       - "435965"
   id: 388
   liquipedia: Snyper1
@@ -5751,7 +5751,7 @@
   country: au
   aoeelo: 447
   platforms:
-    de:
+    rl:
       - "949573"
   twitch:
     - https://www.twitch.tv/socksyy
@@ -5761,7 +5761,7 @@
 - name: DedlyYetti
   country: us
   platforms:
-    de:
+    rl:
       - "969542"
   liquipedia: DedlyYetti
   id: 390
@@ -5773,7 +5773,7 @@
 - name: Skillyourself
   country: no
   platforms:
-    de:
+    rl:
       - "371044"
   id: 391
   notability:
@@ -5781,7 +5781,7 @@
 - name: Ozone
   country: co
   platforms:
-    de:
+    rl:
       - "2654577"
   twitch:
     - https://www.twitch.tv/ozoneaoe
@@ -5792,7 +5792,7 @@
 - name: StellarMeesh
   country: us
   platforms:
-    de:
+    rl:
       - "209228"
   twitch:
     - https://www.twitch.tv/stellarmeesh
@@ -5802,7 +5802,7 @@
 - name: Dave
   country: ca
   platforms:
-    de:
+    rl:
       - "3068644"
       - "196366"
   twitter:
@@ -5816,7 +5816,7 @@
 - name: OGN_EMPIRES
   country: fr
   platforms:
-    de:
+    rl:
       - "228526"
   liquipedia: OGN_EMPIRES
   twitch:
@@ -5831,7 +5831,7 @@
 - name: Kerpo
   country: tr
   platforms:
-    de:
+    rl:
       - "3543798"
       - "8033822"
   twitch:
@@ -5842,7 +5842,7 @@
 - name: Pinch3Terneira
   country: es
   platforms:
-    de:
+    rl:
       - "554855"
   liquipedia: Pinch3Terneira
   twitter:
@@ -5857,7 +5857,7 @@
 - name: Mario Ovalle
   country: co
   platforms:
-    de:
+    rl:
       - "289249"
   twitch:
     - https://www.twitch.tv/marioovalle_1992
@@ -5867,7 +5867,7 @@
 - name: HGB
   country: mx
   platforms:
-    de:
+    rl:
       - "4412109"
       - "5195050"
       - "8448734"
@@ -5879,7 +5879,7 @@
 - name: A bao'
   country: vn
   platforms:
-    de:
+    rl:
       - "1743669"
     voobly:
       - "125010872"
@@ -5889,7 +5889,7 @@
 - name: Thalounette
   country: fr
   platforms:
-    de:
+    rl:
       - "1957147"
   twitch:
     - https://www.twitch.tv/thalounette
@@ -5901,7 +5901,7 @@
   platforms:
     voobly:
       - "123301799"
-    de:
+    rl:
       - "4971"
       - "5555119"
   twitch:
@@ -5913,7 +5913,7 @@
 - name: TWest
   country: us
   platforms:
-    de:
+    rl:
       - "2866"
   twitch:
     - https://www.twitch.tv/twestaoe
@@ -5926,7 +5926,7 @@
   twitch:
     - https://www.twitch.tv/philipphjs
   platforms:
-    de:
+    rl:
       - "209329"
       - "1468509"
   team: 4
@@ -5938,7 +5938,7 @@
   platforms:
     voobly:
       - "124753095"
-    de:
+    rl:
       - "221816"
   twitch:
     - https://www.twitch.tv/sonytoprano_
@@ -5949,7 +5949,7 @@
 - name: Capout
   country: fr
   platforms:
-    de:
+    rl:
       - "1867124"
       - "8656374"
   twitch:
@@ -5961,7 +5961,7 @@
 - name: Torrelles
   country: es
   platforms:
-    de:
+    rl:
       - "340002"
   twitch:
     - https://www.twitch.tv/torrelles
@@ -5971,7 +5971,7 @@
 - name: uno1
   country: ar
   platforms:
-    de:
+    rl:
       - "3400947"
   id: 408
   aoeelo: 1139
@@ -5981,7 +5981,7 @@
 - name: Bulletchen
   country: ch
   platforms:
-    de:
+    rl:
       - "215801"
   liquipedia: Bulletchen
   id: 409
@@ -5997,7 +5997,7 @@
 - name: VarVarus
   country: ar
   platforms:
-    de:
+    rl:
       - "309572"
   twitch:
     - https://www.twitch.tv/varvarus_aoe
@@ -6008,7 +6008,7 @@
 - name: El Matador
   country: de
   platforms:
-    de:
+    rl:
       - "230475"
   id: 411
   aoeelo: 1071
@@ -6017,7 +6017,7 @@
 - name: Nahuel05
   country: ar
   platforms:
-    de:
+    rl:
       - "2826785"
       - "5163081"
   twitch:
@@ -6030,7 +6030,7 @@
   platforms:
     voobly:
       - "124919015"
-    de:
+    rl:
       - "658565"
       - "4096889"
       - "5727818"
@@ -6048,7 +6048,7 @@
 - name: TRM
   country: ch
   platforms:
-    de:
+    rl:
       - "4132074"
       - "5643458"
   twitch:
@@ -6059,7 +6059,7 @@
 - name: Tea
   country: gb
   platforms:
-    de:
+    rl:
       - "267698"
       - "981470"
   id: 415
@@ -6068,7 +6068,7 @@
 - name: Mullisaukko
   country: fi
   platforms:
-    de:
+    rl:
       - "1885671"
       - "3496780"
       - "5454328"
@@ -6079,7 +6079,7 @@
 - name: SilentTV
   country: ar
   platforms:
-    de:
+    rl:
       - "6744520"
       - "210888"
   twitch:
@@ -6095,7 +6095,7 @@
   platforms:
     voobly:
       - "125294074"
-    de:
+    rl:
       - "3072788"
       - "4943664"
       - "4419155"
@@ -6106,7 +6106,7 @@
 - name: Doomster
   country: in
   platforms:
-    de:
+    rl:
       - "1835774"
       - "4412452"
   id: 418
@@ -6116,7 +6116,7 @@
 - name: Macluffy
   country: be
   platforms:
-    de:
+    rl:
       - "453821"
   id: 419
   aoeelo: 732
@@ -6125,7 +6125,7 @@
 - name: Jesus87
   country: cl
   platforms:
-    de:
+    rl:
       - "237568"
   liquipedia: Jesus87
   twitch:
@@ -6141,7 +6141,7 @@
 - name: ObaTheGreatt
   country: br
   platforms:
-    de:
+    rl:
       - "3496162"
       - "8803069"
   liquipedia: ObaTheGreatt
@@ -6157,7 +6157,7 @@
 - name: Marcelo
   country: vn
   platforms:
-    de:
+    rl:
       - "3078289"
       - "3914511"
   twitch:
@@ -6168,7 +6168,7 @@
 - name: King Boo
   country: gb
   platforms:
-    de:
+    rl:
       - "180520"
       - "4379431"
   id: 424
@@ -6178,7 +6178,7 @@
 - name: Poxo
   country: es
   platforms:
-    de:
+    rl:
       - "212135"
     voobly:
       - "123429112"
@@ -6192,7 +6192,7 @@
 - name: Argh
   country: pl
   platforms:
-    de:
+    rl:
       - "2274072"
   id: 426
   aoeelo: 1191
@@ -6201,7 +6201,7 @@
 - name: Uzikoti
   country: fr
   platforms:
-    de:
+    rl:
       - "1143826"
   liquipedia: Uzikoti
   id: 427
@@ -6217,7 +6217,7 @@
 - name: cebdos
   country: fr
   platforms:
-    de:
+    rl:
       - "255559"
   liquipedia: cebdos
   id: 428
@@ -6227,7 +6227,7 @@
   country: ar
   aoeelo: 1037
   platforms:
-    de:
+    rl:
       - "2294850"
       - "5284131"
   id: 429
@@ -6236,7 +6236,7 @@
 - name: ViRuS_PuLsE
   country: us
   platforms:
-    de:
+    rl:
       - "499661"
       - "5975282"
     voobly:
@@ -6251,7 +6251,7 @@
   country: ar
   aoeelo: 1095
   platforms:
-    de:
+    rl:
       - "2771618"
   id: 431
   notability:
@@ -6259,7 +6259,7 @@
 - name: Hackali
   country: tr
   platforms:
-    de:
+    rl:
       - "3899580"
       - "6758959"
   id: 432
@@ -6268,7 +6268,7 @@
 - name: Kenshin
   country: br
   platforms:
-    de:
+    rl:
       - "36778"
       - "4812351"
   twitch:
@@ -6281,7 +6281,7 @@
 - name: HumzaCrumza
   country: us
   platforms:
-    de:
+    rl:
       - "1263509"
       - "3775017"
   twitch:
@@ -6296,7 +6296,7 @@
   platforms:
     voobly:
       - "124375438"
-    de:
+    rl:
       - "1021651"
   twitch:
     - https://www.twitch.tv/faradayaoe
@@ -6311,7 +6311,7 @@
   platforms:
     voobly:
       - "125373585"
-    de:
+    rl:
       - "1238767"
   twitch:
     - https://www.twitch.tv/AirCooL_xR
@@ -6322,7 +6322,7 @@
 - name: dave_hun
   country: hu
   platforms:
-    de:
+    rl:
       - "260231"
   twitch:
     - https://www.twitch.tv/dave_hun
@@ -6332,7 +6332,7 @@
 - name: ChrisB
   country: cl
   platforms:
-    de:
+    rl:
       - "2707922"
       - "4563541"
       - "6396309"
@@ -6343,7 +6343,7 @@
 - name: Fury
   country: mx
   platforms:
-    de:
+    rl:
       - "4221810"
       - "5303231"
   twitch:
@@ -6355,7 +6355,7 @@
 - name: Dimo
   country: pe
   platforms:
-    de:
+    rl:
       - "3216208"
       - "3196816"
       - "2631079"
@@ -6367,7 +6367,7 @@
 - name: DarklyWise
   country: se
   platforms:
-    de:
+    rl:
       - "1073406"
     voobly:
       - "123949712"
@@ -6377,7 +6377,7 @@
 - name: Aramis
   country: ar
   platforms:
-    de:
+    rl:
       - "413924"
   liquipedia: Aramis
   twitch:
@@ -6389,7 +6389,7 @@
 - name: Influenza
   country: us
   platforms:
-    de:
+    rl:
       - "302474"
   liquipedia: Influenza
   id: 443
@@ -6401,7 +6401,7 @@
   platforms:
     voobly:
       - "124223693"
-    de:
+    rl:
       - "633255"
   id: 444
   aoeelo: 974
@@ -6413,7 +6413,7 @@
   platforms:
     voobly:
       - "123417524"
-    de:
+    rl:
       - "5938210"
   id: 445
   notability:
@@ -6421,7 +6421,7 @@
 - name: alphaStar
   country: br
   platforms:
-    de:
+    rl:
       - "289216"
       - "6370127"
   id: 446
@@ -6432,7 +6432,7 @@
 - name: deaKer
   country: ar
   platforms:
-    de:
+    rl:
       - "3022245"
       - "5170240"
   id: 447
@@ -6441,7 +6441,7 @@
 - name: ElMago
   country: ar
   platforms:
-    de:
+    rl:
       - "5921178"
   liquipedia: ElMago
   id: 448
@@ -6450,7 +6450,7 @@
 - name: Martinhs
   country: br
   platforms:
-    de:
+    rl:
       - "553584"
     voobly:
       - "124808873"
@@ -6466,7 +6466,7 @@
 - name: speedlimit
   country: ru
   platforms:
-    de:
+    rl:
       - "1832070"
     voobly:
       - "124249169"

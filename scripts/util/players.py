@@ -51,7 +51,7 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
         IndexSetting('aoeelo', True, True, None),
         IndexSetting('esportsearnings', True, True, None),
         IndexSetting('platforms', True, True, [
-            IndexSetting('de', True, True, None),
+            IndexSetting('rl', True, True, None),
             IndexSetting('voobly', True, True, None)
         ]),
         IndexSetting('liquipedia', True, True, None),
