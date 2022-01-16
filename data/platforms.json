@@ -18,10 +18,16 @@
     "match_url": "http://aocrec.com/"
   },
   {
-    "id": "de",
-    "name": "Definitive Edition",
+    "id": "rl",
+    "name": "RelicLink",
     "url": "https://www.ageofempires.com/",
-    "match_url": "https://www.ageofempires.com/stats/match-details/?game=age2&gameId="
+    "match_url": "https://www.ageofempires.com/stats/match-details/",
+    "parameters": {
+      "game": [
+        "age2"
+      ],
+      "gameId": null
+    }
   },
   {
     "id": "zone",
