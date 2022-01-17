@@ -5870,7 +5870,6 @@
     rl:
       - "4412109"
       - "5195050"
-      - "8448734"
   twitch:
     - https://www.twitch.tv/hgb_aoe
   id: 399
@@ -6346,6 +6345,7 @@
     rl:
       - "4221810"
       - "5303231"
+      - "8448734"
   twitch:
     - https://www.twitch.tv/fury_aoe
   id: 439
