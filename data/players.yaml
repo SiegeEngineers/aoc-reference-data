@@ -4158,6 +4158,8 @@
   id: 261
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/ertugaoe
 - name: Shades
   country: it
   platforms:
@@ -5940,6 +5942,7 @@
       - "124753095"
     rl:
       - "221816"
+      - "5756442"
   twitch:
     - https://www.twitch.tv/sonytoprano_
   id: 405
