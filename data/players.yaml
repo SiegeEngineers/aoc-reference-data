@@ -4160,6 +4160,8 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/ertugaoe
+  youtube:
+    - https://www.youtube.com/channel/UCO0Gc-6iESBUxe5dvDIEDfg
 - name: Shades
   country: it
   platforms:
@@ -6354,18 +6356,6 @@
     - https://www.twitch.tv/fury_aoe
   id: 439
   aoeelo: 467
-  notability:
-    aoe2: true
-- name: Dimo
-  country: pe
-  platforms:
-    rl:
-      - "3216208"
-      - "3196816"
-      - "2631079"
-      - "2850694"
-      - "3393994"
-  id: 440
   notability:
     aoe2: true
 - name: DarklyWise
