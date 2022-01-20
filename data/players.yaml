@@ -1664,6 +1664,7 @@
     rl:
       - "229063"
       - "3457608"
+      - "9293314"
   team: 27
   id: 81
   notability:
@@ -5922,6 +5923,8 @@
       - "2866"
   twitch:
     - https://www.twitch.tv/twestaoe
+  twitter:
+    - https://twitter.com/TravisWestura
   id: 403
   notability:
     aoe2: true
