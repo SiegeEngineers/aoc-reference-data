@@ -199,7 +199,7 @@ class LiquipediaPlayerList(Importable, Exportable, JsonSerializable):
     def __init__(self, _list):
         self.players = _list
 
-    def map_ids_from(self, players):
+    def map_player_ids_from(self, players):
         """[summary]
 
         Args:

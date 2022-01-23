@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
         # Add our own player list ids to Liquipedia players for
         # easier handling of Liquipedia data in the future
-        unprocessed_liquipedia_data.map_ids_from(player_list.players)
+        unprocessed_liquipedia_data.map_player_ids_from(player_list.players)
 
         # Save cache file
         if SAVE_CACHE:
