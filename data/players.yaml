@@ -4350,6 +4350,9 @@
     aoe2: true
 - name: USb
   country: mx
+  aka:
+    - Bazan
+    - Kingston
   platforms:
     rl:
       - "2938425"
@@ -5939,6 +5942,7 @@
     rl:
       - "209329"
       - "1468509"
+      - "1636659"
   team: 4
   id: 404
   notability:
@@ -6120,6 +6124,7 @@
     rl:
       - "1835774"
       - "4412452"
+      - "5242781"
   id: 418
   aoeelo: 1195
   notability:
