@@ -17,10 +17,9 @@ from util.data_processor import DataProcessor
 from util.error import ProcessingError, PreparationError, LintError, \
     unpack_error_list, print_error_summary_header
 
-
 # DEBUGGING FLAGS
 DEBUG = True
-CACHE = True
+SAVE_CACHE = True
 CI = True
 
 LOGGER = logging.getLogger(__name__)
@@ -37,25 +36,53 @@ if __name__ == '__main__':
     elif not DEBUG:
         logging.basicConfig(level=logging.INFO)
 
-    # Check for cache hit
+    # Parsing data from repository
+    # Do this first so we have easy access to the unique ids
+    # of each player
 
+    # TODO: Parsing into PlayerList type
+
+    player_list = PlayerList()
+    player_list.import_from_file(file_name="data/players", file_type="yaml")
+    player_list.players = player_list.import_data
+
+    imported_team_list = Team()
+    imported_team_list.import_from_file(
+        file_name="data/teams", file_type="json"
+        )
+    team_list = TeamList(imported_team_list.import_data)
+
+    # Check for cache hit
     if os.path.exists('cache/liquipedia.json'):
         CACHE_HIT = True
     else:
         CACHE_HIT = False
 
-    # Fetching data from Liquipedia
-
     LOGGER.debug("Starting data update")
 
     if not CACHE_HIT:
-
-        liquipedia_data = LiquipediaRequest(DEBUG, CACHE, game="aoe2")
+        # Fetching data from Liquipedia
+        liquipedia_data = LiquipediaRequest(
+                DEBUG,
+                SAVE_CACHE,
+                game="aoe2"
+            )
         liquipedia_data.fetch()
 
-        if CACHE:
+        unprocessed_liquipedia_data = LiquipediaPlayerList(
+            liquipedia_data.output
+            )
+
+        # Add our own player list ids to Liquipedia players for
+        # easier handling of Liquipedia data in the future
+        unprocessed_liquipedia_data.map_ids_from(player_list.players)
+
+        # Save cache file
+        if SAVE_CACHE:
             liquipedia_data.export_to_file(
-                file_name="cache/liquipedia", file_type="json")
+                    file_name="cache/liquipedia",
+                    file_type="json"
+                )
     else:
         # DEBUGGING/DEVELOPMENT: Use cache for Liquipedia response
         LOGGER.debug("CACHE HIT! We use our cached Liquipedia results!")
@@ -63,49 +90,18 @@ if __name__ == '__main__':
         liquipedia_data = LiquipediaPlayer()
 
         liquipedia_data.import_from_file(
-
-            file_name="cache/liquipedia", file_type="json")
-
-    # Handle Caching
-
-    if CACHE_HIT:
+            file_name="cache/liquipedia",
+            file_type="json"
+            )
 
         unprocessed_liquipedia_data = LiquipediaPlayerList(
-
             liquipedia_data.import_data)
 
-    else:
-
-        unprocessed_liquipedia_data = LiquipediaPlayerList(
-
-            liquipedia_data.output)
-
-    # Parsing data from repository
-
-    # TODO: Parsing into PlayerList type
-
-    player_list = PlayerList()
-
-    player_list.import_from_file(file_name="data/players", file_type="yaml")
-
-    player_list.players = player_list.import_data
-
-    imported_team_list = Team()
-
-    imported_team_list.import_from_file(
-
-        file_name="data/teams", file_type="json")
-
-    team_list = TeamList(imported_team_list.import_data)
-
     # Data processing
-
     LOGGER.debug("Data processing started ...")
 
     data_processor = DataProcessor(ci=CI)
-
     data_processor.new_from(player_list,
-
                             team_list, unprocessed_liquipedia_data)
 
     LOGGER.debug("Linting the data files ...")

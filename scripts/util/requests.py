@@ -21,7 +21,7 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
     url = 'https://liquipedia.net/ageofempires/api.php'
     user_agent = 'https://github.com/SiegeEngineers/aoc-reference-data'
 
-    def __init__(self, debug=None, cache=None, game="aoe2"):
+    def __init__(self, debug=None, save_cache=None, game="aoe2"):
 
         self.wait_secs = 30
         self.page_size = 200
@@ -32,10 +32,10 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
         else:
             self.debug = False
 
-        if cache is True:
-            self.cache = True
+        if save_cache is True:
+            self.save_cache = True
         else:
-            self.cache = False
+            self.save_cache = False
 
         # TODO: Query for aoe4 as well
         if game == "aoe2":
@@ -104,5 +104,5 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
 
             time.sleep(self.wait_secs)
 
-        if self.cache:
+        if self.save_cache:
             self.export_data = self.output

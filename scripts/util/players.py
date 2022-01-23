@@ -176,12 +176,13 @@ class PlayerList(Player, Indexable, Importable, Exportable, JsonSerializable):
 
 class LiquipediaPlayer(Exportable, Importable, JsonSerializable):
 
-    def __init__(self, name=None, liquipedia=None, team=None, twitch=None,
-                 youtube=None, facebook_gaming=None):
+    def __init__(self, id=None, name=None, liquipedia=None, team=None,
+                 twitch=None, youtube=None, facebook_gaming=None):
 
         if name is None:
             pass
         else:
+            self.id = id
             self.name = name
             self.liquipedia = liquipedia
             self.team = team
@@ -197,13 +198,20 @@ class LiquipediaPlayerList(Importable, Exportable, JsonSerializable):
 
     def __init__(self, _list):
         self.players = _list
-        self.create_indizes()
 
-    # Note:
-    # - use our unique id for looking up players, e.g. \
-    # directly give liquipedia players the id
+    def map_ids_from(self, players):
+        """[summary]
 
-    # TODO: Refactor with generalisation in indexing
+        Args:
+            players ([type]): [description]
+        """
+        # TODO: create lookup table of \
+        # `player_liquipedia_names->players_yaml_id`
+
+        # TODO: iterate through liquipedia players and set `self.id` \
+        # from lookup table value
+
+        pass
 
     def contains_name(self, name) -> bool:
 
@@ -213,19 +221,19 @@ class LiquipediaPlayerList(Importable, Exportable, JsonSerializable):
             return False
 
     # TODO: Refactor with generalisation in indexing
-    def create_id_list(self):
+    # def create_id_list(self):
 
-        LOGGER.debug("Creating fresh ID list for players ...")
+    #     LOGGER.debug("Creating fresh ID list for players ...")
 
-        for index, player in enumerate(self.players):
-            self.id_list.append(player.id)
-        return self.id_list
+    #     for index, player in enumerate(self.players):
+    #         self.id_list.append(player.id)
+    #     return self.id_list
 
     # TODO: Refactor with generalisation in indexing
-    def create_indizes(self):
+    # def create_indizes(self):
 
-        LOGGER.debug("Indexing Liquipedia player names ...")
+    #     LOGGER.debug("Indexing Liquipedia player names ...")
 
-        for player in self.players:
-            self.lookup_names.append(player.name)
-        LOGGER.debug("Indexing of names complete.")
+    #     for player in self.players:
+    #         self.lookup_names.append(player.name)
+    #     LOGGER.debug("Indexing of names complete.")
