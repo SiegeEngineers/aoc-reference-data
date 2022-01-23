@@ -199,7 +199,12 @@ class LiquipediaPlayerList(Importable, Exportable, JsonSerializable):
         self.players = _list
         self.create_indizes()
 
+    # Note:
+    # - use our unique id for looking up players, e.g. \
+    # directly give liquipedia players the id
+
     # TODO: Refactor with generalisation in indexing
+
     def contains_name(self, name) -> bool:
 
         if name in self.lookup_names:

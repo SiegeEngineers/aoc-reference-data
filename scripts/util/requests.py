@@ -2,6 +2,7 @@ import json
 import requests
 import logging
 import time
+
 from .io import Importable, Exportable, JsonSerializable
 from .players import LiquipediaPlayer
 
@@ -36,6 +37,7 @@ class LiquipediaRequest(Importable, Exportable, JsonSerializable):
         else:
             self.cache = False
 
+        # TODO: Query for aoe4 as well
         if game == "aoe2":
             self.conditions = [
                 'Category:Age of Empires II Players',
