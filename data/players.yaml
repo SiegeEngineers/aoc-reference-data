@@ -5258,6 +5258,7 @@
   platforms:
     rl:
       - "1763704"
+      - "5602346"
   liquipedia: RollsRoyce
   id: 344
   notability:
@@ -5608,6 +5609,7 @@
   platforms:
     rl:
       - "1920807"
+      - "9337807"
   twitch:
     - https://www.twitch.tv/csalette
   id: 373
@@ -6314,6 +6316,7 @@
       - "124375438"
     rl:
       - "1021651"
+      - "3211660"
   twitch:
     - https://www.twitch.tv/faradayaoe
   liquipedia: Faraday
@@ -6371,6 +6374,8 @@
     aoe2: true
 - name: DarklyWise
   country: se
+  aka:
+    - Sostratus
   platforms:
     rl:
       - "1073406"
