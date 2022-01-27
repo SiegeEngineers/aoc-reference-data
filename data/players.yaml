@@ -6368,7 +6368,7 @@
     rl:
       - "4221810"
       - "5303231"
-      - "8448734"
+        #- "8448734" shared
   twitch:
     - https://www.twitch.tv/fury_aoe
   id: 439
