@@ -7,7 +7,7 @@ yaml.preserve_quotes = True
 with open("data/players.yaml", encoding="utf8", mode="r") as handle:
     convert = yaml.load(handle)
 
-with open("data/players.json", 'w') as handle:
+with open("data/auto_generated/players.json", "w") as handle:
     # Could also be
     # json.dump(convert, handle, indent=4)
     # but that doubles the file size
