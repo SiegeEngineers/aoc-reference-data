@@ -471,6 +471,7 @@
       - "534438"
       - "1369485"
       - "6252391"
+      - "9235635"
     zone:
       - tim
   team: 8
@@ -6491,6 +6492,8 @@
   notability:
     aoe2: true
 - name: Wraith
+  aka:
+    - Ssik
   country: fr
   platforms:
     rl:
