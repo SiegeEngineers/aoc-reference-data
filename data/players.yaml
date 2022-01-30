@@ -5290,7 +5290,7 @@
   id: 346
   notability:
     aoe2: true
-- name: MORG_11
+- name: Morg
   aka:
     - Ange_111
   country: ru
@@ -5302,6 +5302,8 @@
       - "125206801"
     rl:
       - "1773197"
+  twitch:
+    - https://www.twitch.tv/morgg_11
   id: 347
   notability:
     aoe2: true
@@ -6511,21 +6513,13 @@
   notability:
     aoe2: true
   aoeelo: 621
-- name: Morg
-  country: ru
-  platforms:
-    rl:
-      - '1773197'
-  twitch:
-    - https://www.twitch.tv/morgg_11
-  id: 453
-  notability:
-    aoe2: true
 - name: Tulendeena
   country: au
   platforms:
     rl:
       - '952733'
   liquipedia: Tulendeena
+  notability:
+    aoe2: true
   id: 454
   aoeelo: 1141
