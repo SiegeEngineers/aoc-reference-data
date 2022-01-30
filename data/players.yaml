@@ -99,9 +99,9 @@
       - "215442"
       - "1432837"
       - "1829738" # Charlemagne
-    #- "3109523" # shared
+      #- "3109523" # shared
       - "3077860" # shared
-    #- "2007655" # shared
+      #- "2007655" # shared
       - "5602224"
       - "6109694"
   team: 8
@@ -127,7 +127,7 @@
       - "123636492"
     rl:
       - "197964"
-    #- "337428" # shared
+      #- "337428" # shared
       - "1829754" # Alaric
     ibp:
       - yo
@@ -1795,7 +1795,7 @@
       - "125009949"
     rl:
       - "2733015"
-    #- "3956300"
+      #- "3956300"
       - "6872563"
   liquipedia: SongSong
   team: 2
@@ -4842,6 +4842,8 @@
   id: 311
   notability:
     aoe2: true
+  twitter:
+    - https://twitter.com/aura_lpz
 - name: Moonfaller
   country: nl
   platforms:
@@ -5315,6 +5317,8 @@
     - https://twitter.com/chrazini
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/chrazini
 - name: RediRodion
   country: pl
   platforms:
@@ -5824,7 +5828,6 @@
   twitch:
     - https://www.twitch.tv/dave_aoe
   id: 394
-  aoeelo: 1123
   notability:
     aoe2: true
 - name: OGN_EMPIRES
@@ -6507,6 +6510,7 @@
   id: 452
   notability:
     aoe2: true
+  aoeelo: 621
 - name: Morg
   country: ru
   platforms:
@@ -6520,7 +6524,8 @@
 - name: Tulendeena
   country: au
   platforms:
-    de:
+    rl:
       - '952733'
   liquipedia: Tulendeena
   id: 454
+  aoeelo: 1141
