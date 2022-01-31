@@ -4830,6 +4830,8 @@
   notability:
     aoe2: true
 - name: Mica
+  aka:
+    - Aura
   country: ar
   platforms:
     rl:
