@@ -762,7 +762,7 @@
   id: 32
   notability:
     aoe2: true
-- name: Slam
+- name: slam
   country: ca
   esportsearnings: 12253
   aoeelo: 32
@@ -986,7 +986,7 @@
   id: 42
   notability:
     aoe2: true
-- name: Miguel
+- name: miguel
   country: br
   aoeelo: 2
   esportsearnings: 15928
@@ -3604,6 +3604,7 @@
       - "312774"
       - "738273"
       - "4362172"
+      - "6345180"
     voobly:
       - "124318462"
       - "1431"
@@ -3650,6 +3651,7 @@
       - "599657"
       - "2343109"
       - "3212404"
+      - "6456230"
   aoeelo: 1028
   id: 227
   notability:
@@ -6023,6 +6025,7 @@
   platforms:
     rl:
       - "309572"
+      - "4129359"
   twitch:
     - https://www.twitch.tv/varvarus_aoe
   id: 410
