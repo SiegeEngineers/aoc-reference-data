@@ -6528,3 +6528,13 @@
     aoe2: true
   id: 453
   aoeelo: 1141
+- name: saps
+  country: ro
+  platforms:
+    rl:
+      - '1550842'
+    voobly:
+      - '123161922'
+  notability:
+    aoe2: true
+  idd: 454
