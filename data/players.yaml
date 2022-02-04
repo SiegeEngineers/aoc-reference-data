@@ -2570,7 +2570,6 @@
     - https://www.twitch.tv/100dragonstar
   youtube:
     - http://www.youtube.com/100dragonstar
-  team: 34
   id: 140
   twitter:
     - https://twitter.com/The_Dragonstar
@@ -5206,6 +5205,8 @@
     rl:
       - "2944434"
       - "5829363"
+    voobly:
+      - "133845"
   aoeelo: 898
   id: 339
   notability:
@@ -6271,6 +6272,7 @@
       - "5975282"
     voobly:
       - "72549"
+      - "124485265"
   twitch:
     - https://www.twitch.tv/virus_pulse
   id: 430
