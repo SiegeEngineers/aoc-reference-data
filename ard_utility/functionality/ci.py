@@ -1,17 +1,17 @@
 """CI for aoc-reference-data"""
 
 import logging
-
 import sys
 
-from util.players import PlayerList
-
-from util.teams import Team, TeamList
-
-from util.data_processor import DataProcessor
-
-from util.error import LintError, unpack_error_list, print_error_summary_header
-
+from ..domain.data_processor import DataProcessor
+from ..commons.errors import (
+    LintError,
+    print_error_summary_header,
+    unpack_error_list,
+)
+from ..domain.players import PlayerList
+from ..domain.teams import TeamList
+from ..domain.platforms import PlatformList
 
 # DEBUGGING FLAGS
 
@@ -21,41 +21,23 @@ CI = True
 LOGGER = logging.getLogger(__name__)
 
 
-if __name__ == '__main__':
-
+def run_ci():
     #  Setup
     errors = []
 
-    # Set Debug logging if necessary
-    if DEBUG:
-        logging.basicConfig(level=logging.DEBUG)
-    elif not DEBUG:
-        logging.basicConfig(level=logging.INFO)
-
-    # Parsing data from repository
-
-    # TODO: Parsing into PlayerList type
-    player_list = PlayerList()
-    player_list.import_from_file(file_name="data/players", file_type="yaml")
-    player_list.players = player_list.import_data
-
-    imported_team_list = Team()
-    imported_team_list.import_from_file(
-        file_name="data/teams", file_type="json")
-
-    # Read into TeamList type
-    team_list = TeamList(imported_team_list.import_data)
-
-    # Linting of data files
+    # Importing our data files
+    team_list = TeamList.new_with_data_file("data/teams.json")
+    player_list = PlayerList.new_with_data_file("data/players.yaml")
+    platform_list = PlatformList.new_with_data_file("data/platforms.json")
 
     LOGGER.debug("Data processing started ...")
 
     data_processor = DataProcessor(ci=CI)
-    data_processor.new_from(player_list,
-                            team_list, None)
+    data_processor.new_with(player_list, team_list, platform_list, None)
 
     LOGGER.debug("Linting the data files ...")
 
+    # Indexing and linting of data files
     try:
         err = data_processor.create_global_index()
         if err is not None:
@@ -87,3 +69,7 @@ if __name__ == '__main__':
     LOGGER.info("Exit.")
 
     sys.exit(status)
+
+
+if __name__ == "__main__":
+    run_ci()

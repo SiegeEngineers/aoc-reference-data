@@ -6509,10 +6509,10 @@
   country: fr
   platforms:
     rl:
-      - '273512'
-      - '932058'
+      - "273512"
+      - "932058"
     voobly:
-      - '123397726'
+      - "123397726"
   liquipedia: Wraith
   twitch:
     - https://www.twitch.tv/wraith_aoe
@@ -6526,7 +6526,7 @@
   country: au
   platforms:
     rl:
-      - '952733'
+      - "952733"
   liquipedia: Tulendeena
   notability:
     aoe2: true
@@ -6536,9 +6536,9 @@
   country: ro
   platforms:
     rl:
-      - '1550842'
+      - "1550842"
     voobly:
-      - '123161922'
+      - "123161922"
   notability:
     aoe2: true
   id: 454

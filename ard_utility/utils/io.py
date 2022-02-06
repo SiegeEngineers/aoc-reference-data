@@ -1,6 +1,7 @@
 import json
 
 import logging
+
 LOGGER = logging.getLogger(__name__)
 
 
@@ -20,10 +21,14 @@ LOGGER = logging.getLogger(__name__)
 
 
 class JsonSerializable(object):
-    @classmethod
-    def to_json(cls):
+    # @classmethod
+    def to_json(self):
         return json.dumps(
-            cls.export_data, default=lambda o: o.__dict__, indent=2)
+            self.export_data, default=lambda o: o.__dict__, indent=4
+        )
+        # TODO: How to export a set (team.players)
+        # https://stackoverflow.com/questions/8230315/how-to-json-serialize-sets
+
 
 # class JsonDeserializable(object):
 #     @classmethod
@@ -35,26 +40,25 @@ class Importable(object):
         pass
 
     def import_from_file(self, file_name, file_type):
-        """ Import data from a file
+        """Import data from a file
 
         Args:
             file_name (str): file name part of a file
             file_type (str): file type part of a file
         """
 
-        LOGGER.debug(f"Opening {file_name}.{file_type} ...")
+        LOGGER.debug(f"Opening {file_name}{file_type} ...")
 
-        if file_type == "yaml":
+        if file_type == ".yaml":
             self.import_type = "yaml"
-            with open(f"{file_name}.{file_type}", 'r') as handle:
-                self.import_data = self.yaml.load(
-                    handle)
-
-        if file_type == "json":
+            with open(f"{file_name}{file_type}", "r") as handle:
+                self.import_data = self.yaml.load(handle)
+        elif file_type == ".json":
             self.import_type = "json"
-            with open(f"{file_name}.{file_type}", 'r') as handle:
-                self.import_data = json.loads(
-                    handle.read(), object_hook=lambda d: self.__class__(**d))
+            with open(
+                f"{file_name}{file_type}", mode="r", encoding="utf8"
+            ) as handle:
+                self.import_data = json.load(handle)
 
 
 class Exportable(object):
@@ -62,19 +66,18 @@ class Exportable(object):
         pass
 
     def export_to_file(self, file_name, file_type):
-        """ Export data to file
+        """Export data to file
 
         Args:
             file_name (str): file name part of a file
             file_type (str): file type part of a file
         """
 
-        LOGGER.debug(f"Writing to {file_name}.{file_type} ...")
+        LOGGER.debug(f"Writing to {file_name}{file_type} ...")
 
-        if file_type == "yaml":
-            with open(f"{file_name}.{file_type}", 'w') as handle:
+        if file_type == ".yaml":
+            with open(f"{file_name}{file_type}", "w") as handle:
                 self.yaml.dump(self.export_data, handle)
-        if file_type == "json":
-            # TODO: check for import type?
-            with open(f"{file_name}.{file_type}", 'w') as handle:
+        elif file_type == ".json":
+            with open(f"{file_name}{file_type}", "w") as handle:
                 handle.write(self.to_json())
