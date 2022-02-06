@@ -203,14 +203,6 @@
     "id": 17
   },
   {
-    "name": "Supernova",
-    "abbreviation": null,
-    "players": [
-      207
-    ],
-    "id": 18
-  },
-  {
     "name": "PL",
     "abbreviation": null,
     "players": [
@@ -236,7 +228,8 @@
     "abbreviation": null,
     "players": [
       296,
-      343
+      343,
+      207
     ],
     "id": 21
   },

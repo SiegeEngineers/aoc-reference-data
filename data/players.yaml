@@ -632,7 +632,7 @@
   country: de
   aoeelo: 11
   esportsearnings: 41832
-  liquipedia: Nili_AoE
+  liquipedia: Nili
   twitter:
     - https://twitter.com/Nili_AoE
   twitch:
@@ -3352,7 +3352,7 @@
   liquipedia: Daywalker
   twitch:
     - https://www.twitch.tv/sunodaywalker
-  team: 18
+  team: 21
   id: 207
   notability:
     aoe2: true
@@ -4210,6 +4210,7 @@
     voobly:
       - "123220280"
   aoeelo: 1115
+  liquipedia: Lavie_Head
   id: 264
   notability:
     aoe2: true
@@ -6540,7 +6541,7 @@
       - '123161922'
   notability:
     aoe2: true
-  idd: 454
+  id: 454
 - name: Myx4ever
   country: cn
   platforms:
