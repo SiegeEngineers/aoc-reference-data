@@ -28,8 +28,11 @@
 #           key: ${{ runner.os }}-poetry
 #           restore-keys: ${{ runner.os }}-poetry
 
-#       - name: Install Poetry
-#         uses: snok/install-poetry@v1
+# - name: Install Poetry
+#   uses: snok/install-poetry@v1
+#   with:
+#     virtualenvs-create: true
+#     virtualenvs-in-project: true
 
 #       - name: Venv
 #         run: source $VENV
