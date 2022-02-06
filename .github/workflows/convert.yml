@@ -18,7 +18,7 @@ jobs:
         run: pip install -e .
 
       - name: Run Conversion
-        run: python scripts/convert.py
+        run: python -m ard_utility convert
 
       - name: Update main branch
         shell: bash

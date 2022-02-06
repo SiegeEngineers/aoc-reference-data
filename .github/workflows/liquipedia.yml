@@ -1,0 +1,35 @@
+# name: Liquipedia data update
+
+# on:
+#   schedule:
+#     - cron: "00 */6 * * *"
+
+# jobs:
+#   converter:
+#     name: Run converter
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Set up Python
+#         uses: actions/setup-python@v2
+#         with:
+#           python-version: "3.x"
+
+#       - uses: actions/checkout@v2
+
+#       - name: Install dependencies
+#         run: pip install -e .
+
+#       - name: Run Conversion
+#         run: python -m ard_utility lp_update
+
+#       - name: Update main branch
+#         shell: bash
+#         run: |
+#           if [ -n "$(git status --porcelain)" ]; then
+#               git config --local user.email "action@github.com";
+#               git config --local user.name "LPData Update";
+#               git commit -am "chore: Update data files from Liquipedia";
+#               git push origin HEAD:master;
+#           else
+#             echo "no changes";
+#           fi
