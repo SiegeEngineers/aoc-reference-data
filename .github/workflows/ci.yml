@@ -12,10 +12,13 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+
       - uses: actions/checkout@v2
 
       - name: Install dependencies
-        run: pip install -e .
+        run: poetry install
 
       - name: Run CI
         run: python -m ard_utility ci
