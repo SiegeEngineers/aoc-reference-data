@@ -48,6 +48,4 @@ def main(argv=None):
     if args["lp_update"]:
         run_liquipedia_update()
 
-    print(args)
-
     sys.exit(0)
