@@ -7,21 +7,36 @@ jobs:
     name: Run converter
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: "3.x"
 
-      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip
+          restore-keys: ${{ runner.os }}-pip
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pypoetry/virtualenvs
+          key: ${{ runner.os }}-poetry
+          restore-keys: ${{ runner.os }}-poetry
 
       - name: Install Poetry
         uses: snok/install-poetry@v1
 
       - name: Install dependencies
-        run: poetry install
+        run: poetry install --no-interaction --no-root
+
+      - name: Install library
+        run: poetry install --no-interaction
 
       - name: Run Conversion
-        run: python -m ard_utility convert
+        run: poetry run ard_utility convert
 
       - name: Update main branch
         shell: bash
