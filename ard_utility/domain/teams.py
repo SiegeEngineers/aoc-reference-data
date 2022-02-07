@@ -46,7 +46,7 @@ class TeamList(Indexable, Importable, Exportable, JsonSerializable):
         IndexSetting("players", False, False, None),
     ]
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.errors = []
         self.teams = []
 
@@ -54,7 +54,7 @@ class TeamList(Indexable, Importable, Exportable, JsonSerializable):
         ids = [team.id for team in self.teams]
         return max(ids) + offset
 
-    def initialise_list(self):
+    def initialise_list(self) -> None:
         for team in self.import_data:
             self.teams.append(
                 Team(
@@ -65,7 +65,7 @@ class TeamList(Indexable, Importable, Exportable, JsonSerializable):
                 )
             )
 
-    def new_with_data_file(path="data/teams.json"):
+    def new_with_data_file(path="data/teams.json") -> TeamList:
         t = TeamList()
         file_path, ext = os.path.splitext(path)
         t.import_from_file(file_path, ext)

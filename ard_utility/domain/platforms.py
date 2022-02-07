@@ -4,6 +4,8 @@ from dataclasses import dataclass
 
 from .index_handler import Indexable
 from ..utils.io import Exportable, Importable
+from ruamel.yaml.comments import CommentedSeq
+from typing import Optional
 
 LOGGER = logging.getLogger(__name__)
 
@@ -28,7 +30,9 @@ class PlayerPlatform(object):
 class PlayerPlatformList(object):
     platforms: list[PlayerPlatform]
 
-    def get_platform_ids_for_platform(self, platform_name):
+    def get_platform_ids_for_platform(
+        self, platform_name: str
+    ) -> Optional[CommentedSeq]:
         for platform in self.platforms:
             if platform.id == platform_name:
                 if isinstance(platform.platform_ids, list):
@@ -43,7 +47,15 @@ class PlatformList(Importable, Exportable):
     id: str
     platforms: list[Platform]
 
-    def initialise_list(self):
+    def new_with_data_file(path="data/platforms.json") -> PlatformList:
+        p = PlatformList(None, [])
+        file_path, ext = os.path.splitext(path)
+        p.import_from_file(file_path, ext)
+        p.initialise_list()
+        del p.import_data
+        return p
+
+    def initialise_list(self) -> None:
         for platform in self.import_data:
             self.platforms.append(
                 Platform(
@@ -56,11 +68,3 @@ class PlatformList(Importable, Exportable):
                     else None,
                 )
             )
-
-    def new_with_data_file(path="data/platforms.json"):
-        p = PlatformList(None, [])
-        file_path, ext = os.path.splitext(path)
-        p.import_from_file(file_path, ext)
-        p.initialise_list()
-        del p.import_data
-        return p

@@ -4,3 +4,4 @@ __pycache__
 .vscode
 cache
 build
+monkeytype.sqlite3

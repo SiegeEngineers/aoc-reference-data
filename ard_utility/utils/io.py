@@ -39,7 +39,7 @@ class Importable(object):
     def __init__(self):
         pass
 
-    def import_from_file(self, file_name, file_type):
+    def import_from_file(self, file_name: str, file_type: str) -> None:
         """Import data from a file
 
         Args:

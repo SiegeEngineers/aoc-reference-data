@@ -27,9 +27,10 @@ from .__version__ import __version__
 from .functionality.ci import run_ci
 from .functionality.convert import run_convert
 from .functionality.liquipedia import run_liquipedia_update
+from typing import Optional
 
 
-def main(argv=None):
+def main(argv: Optional = None):
     """entry point for the command line interface"""
 
     args = docopt(

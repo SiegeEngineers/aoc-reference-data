@@ -77,7 +77,7 @@ class PlayerList(Indexable, Importable, Exportable, JsonSerializable):
         IndexSetting("country", False, True, None),
     ]
 
-    def __init__(self, input_source):
+    def __init__(self, input_source: str) -> None:
         self.players = []
         self.input_source = input_source
         self.errors = []
@@ -90,7 +90,7 @@ class PlayerList(Indexable, Importable, Exportable, JsonSerializable):
         ids = [player.id for player in self.players]
         return max(ids) + offset
 
-    def initialise_list(self):
+    def initialise_list(self) -> None:
         if self.input_source == "file":
             for player in self.import_data:
                 self.players.append(
@@ -181,7 +181,7 @@ class PlayerList(Indexable, Importable, Exportable, JsonSerializable):
 
             self.players = [player for player in imported_players.values()]
 
-    def new_with_data_file(path="data/players.yaml"):
+    def new_with_data_file(path="data/players.yaml") -> PlayerList:
         p = PlayerList(input_source="file")
         file_path, ext = os.path.splitext(path)
         p.import_from_file(file_path, ext)
@@ -253,7 +253,7 @@ class PlayerList(Indexable, Importable, Exportable, JsonSerializable):
 
         self.players.append(player)
 
-    def check_country_names_being_valid(self):
+    def check_country_names_being_valid(self) -> None:
         """Iterates through the list of country names
             parsed from the 'players.yaml' and checks if
             they are valid
