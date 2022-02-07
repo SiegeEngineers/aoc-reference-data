@@ -5213,6 +5213,8 @@
   id: 339
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/yax_aoe
 - name: TurkEycof
   country: tr
   twitch:
