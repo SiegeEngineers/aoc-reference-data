@@ -2554,6 +2554,8 @@
   id: 139
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/chaos_2_win
 - name: Dragonstar
   country: in
   aoeelo: 603
@@ -2816,6 +2818,7 @@
     rl:
       - "2495166"
       - "1143001"
+      - "5317095"
     voobly:
       - "5469"
   id: 159
@@ -6094,6 +6097,7 @@
     rl:
       - "267698"
       - "981470"
+      - "2687292"
   id: 415
   notability:
     aoe2: true
