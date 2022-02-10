@@ -99,9 +99,9 @@
       - "215442"
       - "1432837"
       - "1829738" # Charlemagne
-      #- "3109523" # shared
+    #- "3109523" # shared
       - "3077860" # shared
-      #- "2007655" # shared
+    #- "2007655" # shared
       - "5602224"
       - "6109694"
       - "9414010"
@@ -128,7 +128,7 @@
       - "123636492"
     rl:
       - "197964"
-      #- "337428" # shared
+    #- "337428" # shared
       - "1829754" # Alaric
     ibp:
       - yo
@@ -1149,6 +1149,7 @@
       - "661884"
       - "965185"
       - "3496121"
+      - "9555704"
   team: 5
   id: 50
   notability:
@@ -1797,7 +1798,7 @@
       - "125009949"
     rl:
       - "2733015"
-      #- "3956300"
+    #- "3956300"
       - "6872563"
   liquipedia: SongSong
   team: 2
@@ -4672,6 +4673,7 @@
     rl:
       - "2125259"
       - "2786676"
+      - "8079190"
   liquipedia: HamRTime
   twitch:
     - https://www.twitch.tv/hamrtime
@@ -6391,7 +6393,7 @@
     rl:
       - "4221810"
       - "5303231"
-      #- "8448734" shared
+    #- "8448734" shared
   twitch:
     - https://www.twitch.tv/fury_aoe
   id: 439
@@ -6579,3 +6581,26 @@
   notability:
     aoe2: true
   id: 457
+- name: C3mbrich
+  country: es
+  platforms:
+    rl:
+      - '96571'
+      - '2745300'
+      - '2599393'
+  liquipedia: C3mbrich
+  id: 458
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/c3mbrich
+- name: Wineland
+  country: mx
+  platforms:
+    rl:
+      - '238545'
+      - '2828949'
+  liquipedia: Wineland
+  id: 459
+  notability:
+    aoe2: true
