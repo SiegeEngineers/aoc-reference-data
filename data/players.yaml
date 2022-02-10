@@ -6571,3 +6571,11 @@
   notability:
     aoe2: true
   id: 456
+- name: BlackheartB
+  country: de
+  platforms:
+    rl:
+      - '6440047'
+  notability:
+    aoe2: true
+  id: 457
