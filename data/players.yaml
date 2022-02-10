@@ -99,9 +99,9 @@
       - "215442"
       - "1432837"
       - "1829738" # Charlemagne
-    #- "3109523" # shared
+  #- "3109523" # shared
       - "3077860" # shared
-    #- "2007655" # shared
+  #- "2007655" # shared
       - "5602224"
       - "6109694"
       - "9414010"
@@ -128,7 +128,7 @@
       - "123636492"
     rl:
       - "197964"
-    #- "337428" # shared
+  #- "337428" # shared
       - "1829754" # Alaric
     ibp:
       - yo
@@ -1798,7 +1798,7 @@
       - "125009949"
     rl:
       - "2733015"
-    #- "3956300"
+  #- "3956300"
       - "6872563"
   liquipedia: SongSong
   team: 2
@@ -6376,6 +6376,7 @@
   id: 437
   notability:
     aoe2: true
+  aoeelo: 1123
 - name: ChrisB
   country: cl
   platforms:
@@ -6393,7 +6394,7 @@
     rl:
       - "4221810"
       - "5303231"
-    #- "8448734" shared
+  #- "8448734" shared
   twitch:
     - https://www.twitch.tv/fury_aoe
   id: 439
@@ -6554,6 +6555,7 @@
   notability:
     aoe2: true
   id: 454
+  aoeelo: 607
 - name: Myx4ever
   country: cn
   platforms:
@@ -6565,6 +6567,7 @@
     aoe2: true
   id: 455
   esportsearnings: 14741
+  aoeelo: 165
 - name: pren
   country: cz
   platforms:
@@ -6573,6 +6576,7 @@
   notability:
     aoe2: true
   id: 456
+  aoeelo: 1200
 - name: BlackheartB
   country: de
   platforms:
@@ -6594,6 +6598,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/c3mbrich
+  aoeelo: 666
 - name: Wineland
   country: mx
   platforms:
@@ -6604,3 +6609,4 @@
   id: 459
   notability:
     aoe2: true
+  aoeelo: 756
