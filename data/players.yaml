@@ -877,6 +877,7 @@
       - "1827959" # bad neighbor
       - "2609359" # Nico
       - "5400429"
+      - "9473909"
   team: 24
   id: 37
   notability:
@@ -6605,6 +6606,8 @@
     rl:
       - '238545'
       - '2828949'
+    voobly:
+      - '123627685'
   liquipedia: Wineland
   id: 459
   notability:
