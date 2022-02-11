@@ -1863,6 +1863,8 @@
   id: 91
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/salzz_classicpro
 - name: Ralber
   country: es
   twitch:
