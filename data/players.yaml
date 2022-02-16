@@ -1074,6 +1074,7 @@
       - "4351237"
       - "5230833"
       - "5845322"
+      - "9254072"
   youtube:
     - http://www.youtube.com/channel/UCyRoER5J4CNYnpvxMy8zmvA
   team: 15
@@ -5033,6 +5034,8 @@
   id: 324
   notability:
     aoe2: true
+  youtube:
+    - https://www.youtube.com/channel/UCfndZhdX7djV-cwo9bCyEIw
 - name: StonePlease
   country: de
   platforms:
@@ -5046,6 +5049,10 @@
   id: 325
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/StonePleaseAoE
+  youtube:
+    - https://www.youtube.com/channel/UC1GYtCsOfr29vXtB9u4FnWw
 - name: The_queen
   country: ru
   platforms:
@@ -6060,6 +6067,7 @@
   platforms:
     rl:
       - "230475"
+      - "9604749"
   id: 411
   aoeelo: 1071
   notability:
@@ -6287,6 +6295,7 @@
     - https://www.twitch.tv/1chelooo
   notability:
     aoe2: true
+  liquipedia: cHELOOO
 - name: ViRuS_PuLsE
   country: us
   platforms:
