@@ -6631,3 +6631,14 @@
   id: 460
   notability:
     aoe2: true
+- name: MoR_HaraKiri
+  country: ma
+  platforms:
+    rl:
+      - '1650931'
+      - '5367941'
+  notability:
+    aoe2: true
+  id: 461
+    twitch:
+    - https://www.twitch.tv/haraoe
