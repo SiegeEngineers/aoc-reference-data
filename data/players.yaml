@@ -2631,6 +2631,8 @@
   notability:
     aoe2: true
 - name: GoldenEnd
+  aka:
+    - GoldenAcid
   country: nl
   aoeelo: 197
   platforms:
@@ -6413,7 +6415,7 @@
     rl:
       - "4221810"
       - "5303231"
-      #- "8448734" shared
+      - "8448734"
   twitch:
     - https://www.twitch.tv/fury_aoe
   id: 439
@@ -6493,7 +6495,7 @@
     rl:
       - "3022245"
       - "5170240"
-        #- "2903706"
+      - "2903706"
   id: 447
   notability:
     aoe2: true
