@@ -477,6 +477,8 @@
       - tim
   team: 8
   id: 21
+  douyu:
+    - https://www.douyu.com/7833734
   notability:
     aoe2: true
 - name: CooL
