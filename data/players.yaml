@@ -4397,6 +4397,7 @@
       - "222102"
       - "3238663"
       - "6231852"
+  liquipedia: Annotoph
   aoeelo: 981
   id: 275
   notability:
@@ -4421,6 +4422,8 @@
     - https://www.youtube.com/channel/UCkoG0-9ndERgBXWVkGJIb-A
   discord:
     - https://discord.com/invite/Cp94ry9
+  twitter:
+    - https://twitter.com/grathwrang
   liquipedia: Grathwrang
   id: 277
   notability:
@@ -5707,6 +5710,8 @@
     rl:
       - "516841"
       - "2762038"
+  twitch:
+    - https://www.twitch.tv/emalius2
   id: 378
   notability:
     aoe2: true
@@ -5856,6 +5861,8 @@
       - "209228"
   twitch:
     - https://www.twitch.tv/stellarmeesh
+  twitter:
+    - https://twitter.com/stellarmeesh
   id: 393
   notability:
     aoe2: true
@@ -5884,6 +5891,8 @@
     - https://www.youtube.com/channel/UCb-8V8oISp0YoLb_-y9kWjA
   discord:
     - https://discord.gg/KEkgxXvuxT
+  twitter:
+    - https://twitter.com/OGN_EMPIRES
   id: 395
   notability:
     aoe2: true
@@ -5966,6 +5975,8 @@
       - "5555119"
   twitch:
     - https://www.twitch.tv/nacho_aoe
+  twitter:
+    - https://twitter.com/NachoAoe
   id: 402
   aoeelo: 116
   notability:
@@ -6489,6 +6500,8 @@
     rl:
       - "289216"
       - "6370127"
+  twitch:
+    - https://www.twitch.tv/bkalphastar
   id: 446
   team: 10
   aoeelo: 965
@@ -6581,6 +6594,7 @@
       - '123161922'
   notability:
     aoe2: true
+  liquipedia: Saps
   id: 454
   aoeelo: 607
 - name: Myx4ever
@@ -6647,5 +6661,20 @@
       - '2407064'
   liquipedia: Heisen
   id: 460
+  notability:
+    aoe2: true
+- name: Loco_Ser
+  country: ar
+  platforms:
+    rl:
+      - '234479'
+  twitch:
+    - https://www.twitch.tv/locoser
+  youtube:
+    - https://www.youtube.com/c/LocoSer
+  discord:
+    - https://discord.gg/h8Dyrkb
+  liquipedia: Loco_Ser
+  id: 461
   notability:
     aoe2: true
