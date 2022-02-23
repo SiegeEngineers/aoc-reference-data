@@ -6672,6 +6672,8 @@
     - https://www.twitch.tv/locoser
   youtube:
     - https://www.youtube.com/c/LocoSer
+  youtube_live:
+    - https://www.youtube.com/channel/UComwgzPCiFJEOvK0wqUChUw/live 
   discord:
     - https://discord.gg/h8Dyrkb
   liquipedia: Loco_Ser
