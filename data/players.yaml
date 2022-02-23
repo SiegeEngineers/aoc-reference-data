@@ -6648,3 +6648,18 @@
   id: 460
   notability:
     aoe2: true
+- name: Loco_Ser
+  country: ar
+  platforms:
+    rl:
+      - '234479'
+  twitch:
+    - https://www.twitch.tv/locoser
+  youtube:
+    - https://www.youtube.com/c/LocoSer
+  discord:
+    - https://discord.gg/h8Dyrkb
+  liquipedia: Loco_Ser
+  id: 461
+  notability:
+    aoe2: true
