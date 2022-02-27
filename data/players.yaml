@@ -4175,6 +4175,7 @@
       - "6206234"
       - "6240092"
       - "6150436"
+      - "9599374"
   warning: true
   id: 261
   notability:
@@ -5326,7 +5327,7 @@
     rl:
       - "1820205"
       - "3853480"
-    voobly:
+    #voobly:
       #- "133845"
   id: 346
   notability:
@@ -6450,6 +6451,7 @@
   id: 441
   notability:
     aoe2: true
+  aoeelo: 1204
 - name: Aramis
   country: ar
   platforms:
@@ -6673,10 +6675,39 @@
   youtube:
     - https://www.youtube.com/c/LocoSer
   youtube_live:
-    - https://www.youtube.com/channel/UComwgzPCiFJEOvK0wqUChUw/live 
+    - https://www.youtube.com/channel/UComwgzPCiFJEOvK0wqUChUw/live
   discord:
     - https://discord.gg/h8Dyrkb
   liquipedia: Loco_Ser
   id: 461
+  notability:
+    aoe2: true
+- name: Shed
+  country: au
+  platforms:
+    rl:
+      - '208952'
+  liquipedia: Shed
+  id: 462
+  aoeelo: 660
+  notability:
+    aoe2: true
+- name: Yezris
+  country: cz
+  platforms:
+    rl:
+      - '3392442'
+  liquipedia: Yezris
+  id: 463
+  aoeelo: 221
+  notability:
+    aoe2: true
+- name: kelar
+  country: de
+  platforms:
+    rl:
+      - '2048591'
+  liquipedia: kelar
+  id: 464
   notability:
     aoe2: true
