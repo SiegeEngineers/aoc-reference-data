@@ -4742,7 +4742,9 @@
   twitch:
     - https://www.twitch.tv/juanperottiaoe
   youtube:
-    - http://www.youtube.com/channel/UCZ4aiIlpiIn0dUTiXTjqDJw
+    - https://www.youtube.com/c/JuanPerottiAoE
+  youtube_live:
+    - http://www.youtube.com/channel/UCZ4aiIlpiIn0dUTiXTjqDJw/live
   id: 302
   twitter:
     - https://twitter.com/juanperotti_aoe
@@ -5932,8 +5934,13 @@
   platforms:
     rl:
       - "289249"
+  liquipedia: Mario_Ovalle
   twitch:
     - https://www.twitch.tv/marioovalle_1992
+  youtube:
+    - https://www.youtube.com/c/marioovalle
+  youtube_live:
+    - https://www.youtube.com/channel/UCFcYXw_MXaalvq9KbdpV3SA/live
   id: 398
   notability:
     aoe2: true
@@ -6116,7 +6123,7 @@
       - "5727818"
       - "2241917"
   twitch:
-    - https://www.twitch.tv/paganini_aoc
+    - https://www.twitch.tv/paganini_aoe2
   youtube:
     - https://www.youtube.com/BKPaganini
   liquipedia: Paganini
@@ -6711,5 +6718,31 @@
       - '2048591'
   liquipedia: kelar
   id: 464
+  notability:
+    aoe2: true
+- name: ClemoL45
+  country: fr
+  platforms:
+    rl:
+      - '208976'
+  twitch:
+    - https://www.twitch.tv/clemol45
+  youtube:
+    - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
+  liquipedia: ClemoL45
+  id: 465
+  notability:
+    aoe2: true
+- name: LilTrouble
+  country: au
+  platforms:
+    rl:
+      - '272983'
+  twitch:
+    - https://www.twitch.tv/LilTrouble__
+  youtube:
+    - http://www.youtube.com/LilTrouble_AoE
+  liquipedia: LilTrouble
+  id: 466
   notability:
     aoe2: true
