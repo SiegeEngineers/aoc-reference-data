@@ -221,7 +221,6 @@
       - "9714901"
   youtube:
     - http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g
-  team: 20
   id: 9
   notability:
     aoe2: true
@@ -603,7 +602,7 @@
       - daut
     gamepark:
       - daut
-  team: 21
+  team: 13
   id: 26
   notability:
     aoe2: true
@@ -1011,7 +1010,6 @@
       - 125129994-9 # hc9
     rl:
       - "2090225"
-  team: 20
   id: 43
   notability:
     aoe2: true
