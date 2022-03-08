@@ -1,302 +1,272 @@
 [
   {
-    "name": "Nadya's Boys",
-    "abbreviation": "NaBs",
+    "name": "3D!Clan",
     "players": [
-      90,
-      78,
-      79,
-      315,
-      83
+      215
     ],
     "id": 1
   },
   {
-    "name": "Vietnam Legends",
-    "abbreviation": "VN",
+    "name": "Aftermath",
     "players": [
-      20,
-      219,
-      22,
-      88,
-      15
+      2,
+      37,
+      102,
+      23,
+      27
     ],
     "id": 2
   },
   {
-    "name": "Killing Generation of Brazil",
-    "abbreviation": "KGB",
+    "name": "Age of Queens",
     "players": [
-      73,
-      19,
-      80,
-      42
+      329,
+      466
     ],
     "id": 3
   },
   {
-    "name": "New Chapter",
-    "abbreviation": "nC",
+    "name": "Albis Onis Lobias",
     "players": [
-      283,
-      158,
-      160,
-      404
+      220
     ],
     "id": 4
   },
   {
-    "name": "Rulers of Rome",
-    "abbreviation": "RoR",
+    "name": "ChileAoE",
     "players": [
-      49,
-      50,
-      145,
-      192,
-      113,
-      77,
-      138,
-      53,
-      214,
-      82,
-      279
+      345,
+      243,
+      332
     ],
     "id": 5
   },
   {
-    "name": "The Stackers",
-    "abbreviation": null,
+    "name": "Clan Arg",
     "players": [
-      290
+      402
     ],
     "id": 6
   },
   {
-    "name": "DarkSidE",
-    "abbreviation": "DS",
+    "name": "Clan Sigma",
     "players": [
-      221,
-      266,
-      229,
-      112,
-      280,
-      48,
-      260,
-      324,
-      44,
-      243,
-      16
+      442
     ],
     "id": 7
   },
   {
-    "name": "White Wolf Palace",
-    "abbreviation": null,
+    "name": "Clown Legion",
     "players": [
-      217,
-      114,
-      36,
-      25,
-      18,
-      21,
-      85,
-      5,
-      4
+      235,
+      45,
+      336,
+      282,
+      31
     ],
     "id": 8
   },
   {
-    "name": "Russia F",
-    "abbreviation": null,
+    "name": "Dark Empire",
     "players": [
-      289,
-      297,
-      313,
-      317
+      68,
+      390
     ],
     "id": 9
   },
   {
-    "name": "The BrotherHood Kappa",
-    "abbreviation": "bK",
+    "name": "DarkSidE",
     "players": [
-      209,
-      413,
-      433,
-      435,
-      446,
-      449
+      260,
+      324,
+      229,
+      266,
+      268,
+      44,
+      16,
+      112,
+      48,
+      243,
+      280,
+      281,
+      221,
+      159
     ],
     "id": 10
   },
   {
-    "name": "Imperiales Team",
-    "abbreviation": null,
+    "name": "Deities of Death",
     "players": [
-      94,
-      191
+      137,
+      71
     ],
     "id": 11
   },
   {
-    "name": "QuEnDi",
-    "abbreviation": null,
+    "name": "DevilZ",
     "players": [
-      284,
-      208,
-      287,
-      172,
-      286,
-      204
+      179
     ],
     "id": 12
   },
   {
-    "name": "KYO All Fallen",
-    "abbreviation": null,
+    "name": "GamerLegion",
     "players": [
-      24,
-      152,
-      154
+      32,
+      33,
+      38,
+      10,
+      26,
+      28
     ],
     "id": 13
   },
   {
-    "name": "Clown Legion",
-    "abbreviation": null,
+    "name": "Gaucho",
     "players": [
-      282,
-      235,
-      31,
-      45
+      226
     ],
     "id": 14
   },
   {
-    "name": "MYinsanity",
-    "abbreviation": null,
+    "name": "Heresy",
     "players": [
-      34,
-      29,
-      46
+      8,
+      106,
+      87,
+      39
     ],
     "id": 15
   },
   {
-    "name": "Vikingos N\u00f3madas",
-    "abbreviation": null,
+    "name": "Hot Young Masters",
     "players": [
-      292
+      147,
+      215
     ],
     "id": 16
   },
   {
-    "name": "GamerLegion",
-    "abbreviation": "GL",
+    "name": "Imperiales Team",
     "players": [
-      26,
-      38,
-      10,
-      32,
-      33
+      94,
+      191
     ],
     "id": 17
   },
   {
-    "name": "PL",
-    "abbreviation": null,
+    "name": "InDuS",
     "players": [
-      56
+      1,
+      140
+    ],
+    "id": 18
+  },
+  {
+    "name": "Killing Generation of Brazil",
+    "players": [
+      80,
+      73,
+      42,
+      19
     ],
     "id": 19
   },
   {
-    "name": "Heresy",
-    "abbreviation": null,
+    "name": "Kyo All Fallen",
     "players": [
-      87,
-      106,
-      8,
-      39,
-      9,
-      43
+      152,
+      24,
+      154
     ],
     "id": 20
   },
   {
-    "name": "SuperNova",
-    "abbreviation": null,
+    "name": "MMC eSports",
     "players": [
-      296,
-      343,
-      207
+      26
     ],
     "id": 21
   },
   {
-    "name": "SalzZ",
-    "abbreviation": null,
+    "name": "Nadya's Boys",
     "players": [
-      270,
-      11,
-      254,
-      91
+      264,
+      78,
+      79,
+      83,
+      90,
+      315
     ],
     "id": 22
   },
   {
-    "name": "The Immortals",
-    "abbreviation": null,
+    "name": "QuEnDi",
     "players": [
-      103,
-      107
+      172,
+      204,
+      208,
+      209,
+      305,
+      464,
+      284,
+      285,
+      286,
+      287
     ],
     "id": 23
   },
   {
-    "name": "Aftermath",
-    "abbreviation": "aM",
+    "name": "Rulers of Rome",
     "players": [
-      102,
-      27,
-      23,
-      2,
-      37
+      192,
+      257,
+      228,
+      262,
+      138,
+      77,
+      145,
+      82,
+      50,
+      113,
+      53,
+      214,
+      279,
+      49
     ],
     "id": 24
   },
   {
-    "name": "DevilZ",
-    "abbreviation": null,
+    "name": "Russia F",
     "players": [
-      179
+      313,
+      297,
+      317,
+      289
     ],
     "id": 25
   },
   {
-    "name": "Rising Stars",
-    "abbreviation": null,
+    "name": "SY",
     "players": [
-      299
+      89,
+      105,
+      69
     ],
     "id": 26
   },
   {
-    "name": "Suomi",
-    "abbreviation": null,
+    "name": "SalzZ",
     "players": [
-      111,
-      81,
-      47,
-      40,
-      41,
-      30
+      91,
+      11,
+      270,
+      254
     ],
     "id": 27
   },
   {
     "name": "Sons of the Sun",
-    "abbreviation": null,
     "players": [
       224,
       234,
@@ -305,79 +275,251 @@
     "id": 28
   },
   {
-    "name": "K-GANG",
-    "abbreviation": null,
+    "name": "Stackers",
     "players": [
-      304
+      290
     ],
     "id": 29
   },
   {
-    "name": "Team Maswi",
-    "abbreviation": null,
+    "name": "Suomi",
     "players": [
-      311
+      40,
+      41,
+      47,
+      111,
+      81,
+      30
     ],
     "id": 30
   },
   {
-    "name": "CZ",
-    "abbreviation": null,
+    "name": "Team Maswi",
     "players": [
-      322
+      408,
+      460,
+      429,
+      311
     ],
     "id": 31
   },
   {
-    "name": "Clan Gaucho",
-    "abbreviation": null,
+    "name": "The Immortals",
     "players": [
-      226
+      107,
+      103
     ],
     "id": 32
   },
   {
-    "name": "Berserkers",
-    "abbreviation": null,
+    "name": "TyRanT",
     "players": [
-      131
+      161,
+      59,
+      60,
+      62
     ],
     "id": 33
   },
   {
-    "name": "Dark Empire",
-    "abbreviation": null,
+    "name": "Vietnam Legends",
     "players": [
-      68
+      3,
+      15,
+      20,
+      22,
+      88,
+      219
     ],
     "id": 34
   },
   {
-    "name": "Age of Queens (team)",
-    "abbreviation": "AoQ",
+    "name": "Vikingos N\u00f3madas",
     "players": [
-      329
+      459,
+      292
     ],
     "id": 35
   },
   {
-    "name": "QueNaNina",
-    "abbreviation": "QNA",
+    "name": "Vikings",
     "players": [
-      351,
-      345,
-      250,
-      332,
-      418
+      376
     ],
     "id": 36
   },
   {
-    "name": "InDuS",
-    "abbreviation": null,
+    "name": "White Wolf Palace",
     "players": [
-      1
+      89,
+      382,
+      227,
+      4,
+      36,
+      5,
+      197,
+      330,
+      18,
+      114,
+      116,
+      21,
+      85,
+      217,
+      218,
+      25
     ],
     "id": 37
+  },
+  {
+    "name": "XEVER",
+    "players": [
+      448,
+      412,
+      461,
+      84
+    ],
+    "id": 38
+  },
+  {
+    "name": "MYinsanity",
+    "players": [
+      409,
+      34,
+      29,
+      46
+    ],
+    "id": 39
+  },
+  {
+    "name": "New Chapter",
+    "players": [
+      160,
+      388,
+      404,
+      283,
+      158
+    ],
+    "id": 40
+  },
+  {
+    "name": "Pcific",
+    "players": [
+      271
+    ],
+    "id": 41
+  },
+  {
+    "name": "Deceptive Baguettes",
+    "players": [
+      275
+    ],
+    "id": 42
+  },
+  {
+    "name": "The Stackers",
+    "players": [
+      290
+    ],
+    "id": 43
+  },
+  {
+    "name": "The BrotherHood Kappa",
+    "players": [
+      449,
+      209,
+      433,
+      435,
+      413,
+      446
+    ],
+    "id": 44
+  },
+  {
+    "name": "Supernova",
+    "players": [
+      207
+    ],
+    "id": 45
+  },
+  {
+    "name": "PL",
+    "players": [
+      56
+    ],
+    "id": 46
+  },
+  {
+    "name": "SuperNova",
+    "players": [
+      296,
+      343
+    ],
+    "id": 47
+  },
+  {
+    "name": "Rising Stars",
+    "players": [
+      299
+    ],
+    "id": 48
+  },
+  {
+    "name": "\u0130stanbul Wildcats",
+    "players": [
+      51
+    ],
+    "id": 49
+  },
+  {
+    "name": "K-GANG",
+    "players": [
+      304
+    ],
+    "id": 50
+  },
+  {
+    "name": "IziDream",
+    "players": [
+      309
+    ],
+    "id": 51
+  },
+  {
+    "name": "CZ",
+    "players": [
+      322
+    ],
+    "id": 52
+  },
+  {
+    "name": "Berserkers",
+    "players": [
+      131
+    ],
+    "id": 53
+  },
+  {
+    "name": "ORUX",
+    "players": [
+      369
+    ],
+    "id": 54
+  },
+  {
+    "name": "QueNaNina",
+    "players": [
+      345,
+      250,
+      332,
+      351
+    ],
+    "id": 55
+  },
+  {
+    "name": "French Connexion",
+    "players": [
+      452
+    ],
+    "id": 56
   }
 ]
