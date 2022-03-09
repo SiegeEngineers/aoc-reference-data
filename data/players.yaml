@@ -100,9 +100,9 @@
       - "215442"
       - "1432837"
       - "1829738" # Charlemagne
-    #- "3109523" # shared
+  #- "3109523" # shared
       - "3077860" # shared
-    #- "2007655" # shared
+  #- "2007655" # shared
       - "5602224"
       - "6109694"
       - "9414010"
@@ -130,7 +130,7 @@
       - "123636492"
     rl:
       - "197964"
-    #- "337428" # shared
+  #- "337428" # shared
       - "1829754" # Alaric
     ibp:
       - yo
@@ -1810,7 +1810,7 @@
       - "125009949"
     rl:
       - "2733015"
-    #- "3956300"
+  #- "3956300"
       - "6872563"
   liquipedia: SongSong
   team: 34
@@ -4036,6 +4036,7 @@
       - "5703266"
       - "6187727"
       - "6732719"
+      - "5124528"
   liquipedia: Whocl
   twitch:
     - https://www.twitch.tv/whoclaoe
@@ -5277,6 +5278,7 @@
     rl:
       - "2944434"
       - "5829363"
+      - "9298780"
     voobly:
       - "133845"
   aoeelo: 898
@@ -5364,8 +5366,8 @@
     rl:
       - "1820205"
       - "3853480"
-  #voobly:
-    #- "133845"
+#voobly:
+  #- "133845"
   id: 346
   notability:
     aoe2: true
@@ -6797,3 +6799,12 @@
   notability:
     aoe2: true
   team: 3
+- name: Locke
+  country: us
+  platforms:
+    rl:
+      - '382118'
+  liquipedia: Locke
+  id: 467
+  notability:
+    aoe2: true
