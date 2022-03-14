@@ -6773,6 +6773,8 @@
   notability:
     aoe2: true
   team: 23
+  twitch:
+    - https://www.twitch.tv/quendi_kelar
 - name: ClemoL45
   country: fr
   platforms:
