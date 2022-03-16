@@ -5487,6 +5487,8 @@
   id: 354
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/aoemil
 - name: Falcao
   country: br
   platforms:
@@ -5950,6 +5952,7 @@
       - "8033822"
       - "3543798"
       - "6161085"
+      - "9687532"
   twitch:
     - https://www.twitch.tv/kerpoaoe
   id: 396
