@@ -1548,7 +1548,7 @@
       - alive
   liquipedia: Alive
   twitch:
-    - https://www.twitch.tv/alive_kgb
+    - https://www.twitch.tv/aliveaoe
   team: 19
   aoeelo: 142
   id: 73
@@ -5496,6 +5496,8 @@
       - "1829213"
       - "3038783"
       - "9736464"
+  twitch:
+    - https://www.twitch.tv/f47cao
   id: 355
   aoeelo: 1174
   notability:
@@ -6799,7 +6801,7 @@
   twitch:
     - https://www.twitch.tv/LilTrouble__
   youtube:
-    - http://www.youtube.com/LilTrouble_AoE
+    - https://www.youtube.com/LilTrouble_AoE
   liquipedia: LilTrouble
   id: 466
   notability:
@@ -6812,5 +6814,18 @@
       - '382118'
   liquipedia: Locke
   id: 467
+  notability:
+    aoe2: true
+- name: TutusAsylum
+  country: fr
+  platforms:
+    rl:
+      - '4904132'
+  twitch:
+    - https://www.twitch.tv/TutusAsylum
+  youtube:
+    - https://www.youtube.com/c/TutusAsylum
+  liquipedia: TutusAsylum
+  id: 468
   notability:
     aoe2: true
