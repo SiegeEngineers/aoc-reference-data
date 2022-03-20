@@ -6832,7 +6832,7 @@
 - name: Eli
   country: us
   platforms:
-    de:
+    rl:
       - '268051'
   notability:
     aoe2: true
