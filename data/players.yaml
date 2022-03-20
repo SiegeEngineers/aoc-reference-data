@@ -6829,3 +6829,10 @@
   id: 468
   notability:
     aoe2: true
+- name: Eli
+  country: us
+  platforms:
+    de:
+      - '268051'
+  notability:
+    aoe2: true
