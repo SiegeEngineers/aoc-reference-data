@@ -476,6 +476,7 @@
       - "6252391"
       - "9235635"
       - "9615599"
+      - "9798830"
     zone:
       - tim
   team: 37
@@ -6549,6 +6550,8 @@
   aoeelo: 974
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/mrtempooo
 - name: FasT
   country: vn
   aoeelo: 211
