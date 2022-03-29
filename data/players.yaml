@@ -5625,6 +5625,8 @@
   aoeelo: 719
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/iam2k1
 - name: Quảng Trị
   country: vn
   platforms:
@@ -5761,6 +5763,7 @@
     rl:
       - "516841"
       - "2762038"
+      - "3496839"
   twitch:
     - https://www.twitch.tv/emalius2
   id: 378
