@@ -6769,6 +6769,8 @@
   aoeelo: 660
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/shed_au
 - name: Yezris
   country: cz
   platforms:
