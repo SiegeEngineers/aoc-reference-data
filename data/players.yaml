@@ -6852,3 +6852,13 @@
   notability:
     aoe2: true
   id: 469
+- name: Big Scoob
+  country: ee
+  platforms:
+    rl:
+      - '264469'
+      - '5858565'
+      - '3324111'
+  id: 470
+  notability:
+    aoe2: true
