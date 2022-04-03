@@ -5549,6 +5549,7 @@
     - https://www.twitch.tv/flylikedjango
   youtube:
     - https://www.youtube.com/channel/UC7li9aVSk8b94hNEZdDPAcg
+    - https://www.youtube.com/channel/UCkONYmgc8jP97a4AXQ4yGiA
   discord:
     - https://discord.gg/HXFSj2R
   steam:
@@ -6861,6 +6862,20 @@
       - '264469'
       - '5858565'
       - '3324111'
+      - '9109942'
   id: 470
   notability:
     aoe2: true
+- name: Wayne Chang
+  country: tw
+  platforms:
+    rl:
+      - '4814983'
+  id: 471
+  notability:
+    aoe2: true
+  liquipedia: Wayne_Chang
+  youtube_live:
+    - https://www.youtube.com/channel/UC3dM4HsFy6j9AUkzlthRBiA/live
+  youtube:
+    - https://www.youtube.com/channel/UC3dM4HsFy6j9AUkzlthRBiA
