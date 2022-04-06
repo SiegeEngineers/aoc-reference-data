@@ -107,6 +107,7 @@
       - "6109694"
       - "9414010"
       - "9695965"
+      - "9873875"
   team: 37
   id: 4
   notability:
@@ -4782,7 +4783,7 @@
   youtube:
     - https://www.youtube.com/c/JuanPerottiAoE
   youtube_live:
-    - http://www.youtube.com/channel/UCZ4aiIlpiIn0dUTiXTjqDJw/live
+    - https://www.youtube.com/channel/UCZ4aiIlpiIn0dUTiXTjqDJw/live
   id: 302
   twitter:
     - https://twitter.com/juanperotti_aoe
@@ -4899,7 +4900,7 @@
   twitter:
     - https://twitter.com/MembTV
   youtube:
-    - http://www.youtube.com/FoptMembrillo
+    - https://www.youtube.com/FoptMembrillo
   id: 310
   notability:
     aoe2: true
@@ -4929,7 +4930,7 @@
   twitch:
     - https://www.twitch.tv/moonfaller
   youtube:
-    - http://www.youtube.com/channel/UC_69Nt352RIEMXfhlBeF4VA
+    - https://www.youtube.com/channel/UC_69Nt352RIEMXfhlBeF4VA
   id: 312
   notability:
     aoe2: true
@@ -5067,6 +5068,8 @@
   platforms:
     rl:
       - "4632681"
+    voobly:
+      - "124754548"
   liquipedia: Overtaken
   aoeelo: 199
   id: 323
