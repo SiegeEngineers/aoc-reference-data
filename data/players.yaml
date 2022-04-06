@@ -6884,3 +6884,18 @@
     - https://www.youtube.com/channel/UC3dM4HsFy6j9AUkzlthRBiA/live
   youtube:
     - https://www.youtube.com/channel/UC3dM4HsFy6j9AUkzlthRBiA
+- name: Nova
+  country: ar
+  platforms:
+    rl:
+      - '229804'
+  id: 472
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/novaaoe
+  liquipedia: NovaAoE
+  youtube:
+    - https://www.youtube.com/channel/UCE1-6wfKM7QsDq71qFuVmRg
+  discord:
+    - https://discord.gg/EbVbZGU
