@@ -439,7 +439,6 @@
     - https://twitter.com/IamACCM
   twitch:
     - https://www.twitch.tv/theaccm
-    - https://www.twitch.tv/accm_vn
   platforms:
     voobly:
       - "123428504"
@@ -4423,8 +4422,6 @@
       - "4957841"
   twitch:
     - https://www.twitch.tv/kingstone_aoe
-    - https://www.twitch.tv/bazan_aoe
-    - https://www.twitch.tv/kingston_aoe
   id: 274
   notability:
     aoe2: true
