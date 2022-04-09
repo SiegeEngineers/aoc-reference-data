@@ -1788,6 +1788,8 @@
       - "123741316"
       - "123321654"
       - "123189353"
+    de:
+     - '231244'
   liquipedia: Edie
   twitch:
     - https://www.twitch.tv/poz_edie
@@ -3660,6 +3662,8 @@
   id: 224
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/keno_aoe
 - name: JackK
   country: pl
   twitch:
