@@ -3523,7 +3523,6 @@
   country: ru
   twitch:
     - https://www.twitch.tv/3d_dark_
-    - https://www.twitch.tv/darkaoe
   platforms:
     voobly:
       - "125137692"
@@ -3917,7 +3916,7 @@
     rl:
       - "178430"
   aoeelo: 722
-  team: 8
+  team: 9
   twitch:
     - https://www.twitch.tv/the__bloodless
   id: 242
