@@ -6266,6 +6266,8 @@
   aoeelo: 1190
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/zaid__aoc
 - name: Doomster
   country: in
   platforms:
@@ -6906,3 +6908,17 @@
     - https://www.youtube.com/channel/UCE1-6wfKM7QsDq71qFuVmRg
   discord:
     - https://discord.gg/EbVbZGU
+- name: ElNoniro
+  country: pl
+  platforms:
+    rl:
+      - "2924270"
+      - "9720580"
+      - "8803060"
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/elnoniro
+  youtube:
+    - https://www.youtube.com/channel/UCgTNt1bnd_OyPP1Xh5FEKkQ
+  id: 473
