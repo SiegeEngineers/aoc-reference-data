@@ -4217,6 +4217,7 @@
       - "9687739"
       - "9888746"
       - "9926868"
+      - "10041821"
   warning: true
   id: 261
   notability:
@@ -6488,9 +6489,9 @@
       - "125373585"
     rl:
       - "1238767"
+      - "9663595"
   twitch:
     - https://www.twitch.tv/AirCooL_xR
-    - https://twitch.tv/peagonmayo
   id: 436
   notability:
     aoe2: true
