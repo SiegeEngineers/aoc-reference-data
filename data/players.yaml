@@ -6222,6 +6222,7 @@
   id: 414
   notability:
     aoe2: true
+  aoeelo: 1226
 - name: Tea
   country: gb
   platforms:
@@ -6610,8 +6611,8 @@
   platforms:
     rl:
       - "3022245"
-    #- "5170240"
-    #- "2903706"
+#- "5170240"
+#- "2903706"
   id: 447
   notability:
     aoe2: true
@@ -6854,6 +6855,7 @@
   notability:
     aoe2: true
   team: 41
+  aoeelo: 956
 - name: TutusAsylum
   country: fr
   platforms:
@@ -6929,3 +6931,13 @@
   youtube:
     - https://www.youtube.com/channel/UCgTNt1bnd_OyPP1Xh5FEKkQ
   id: 473
+  aoeelo: 1114
+- name: roggy
+  country: tr
+  platforms:
+    rl:
+      - '2413974'
+  liquipedia: roggy
+  id: 474
+  notability:
+    aoe2: true
