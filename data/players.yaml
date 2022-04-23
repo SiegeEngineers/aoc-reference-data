@@ -1951,7 +1951,6 @@
   liquipedia: Capoch
   youtube:
     - http://www.youtube.com/capoch
-  team: 17
   id: 94
   notability:
     aoe2: true
@@ -3538,7 +3537,6 @@
   id: 215
   notability:
     aoe2: true
-  team: 17
 - name: Mahya
   country: ma
   twitch:
@@ -5292,6 +5290,8 @@
   notability:
     aoe2: true
 - name: Yasin
+  aka:
+    - Yax
   country: tr
   platforms:
     rl:
@@ -5301,6 +5301,7 @@
     voobly:
       - "133845"
   aoeelo: 898
+  team: 17
   id: 339
   notability:
     aoe2: true
@@ -6496,6 +6497,7 @@
   twitch:
     - https://www.twitch.tv/AirCooL_xR
   id: 436
+  team: 17
   notability:
     aoe2: true
 - name: dave_hun
