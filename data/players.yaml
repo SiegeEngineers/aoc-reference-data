@@ -633,6 +633,7 @@
       - "199325"
       - "1847121" # Kotyan
       - "3209724" # WeWinThose
+      - "4423546"
   team: 2
   id: 27
   notability:
@@ -5831,6 +5832,7 @@
   platforms:
     rl:
       - "267775"
+      - "2950223"
   id: 383
   notability:
     aoe2: true
