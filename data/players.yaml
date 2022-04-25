@@ -3915,6 +3915,8 @@
     aoe2: true
 - name: The Bloodless
   country: us
+  aka:
+    - ze Bludlass
   platforms:
     rl:
       - "178430"
