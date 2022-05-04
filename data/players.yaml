@@ -6954,3 +6954,86 @@
   id: 474
   notability:
     aoe2: true
+- name: Fresh To Death
+  country: ru
+  platforms:
+    rl:
+      - '223830'
+  liquipedia: Fresh To Death
+  id: 475
+  notability:
+    aoe2: true
+- name: IamZak
+  country: us
+  platforms:
+    rl:
+      - '2672950'
+  liquipedia: IamZak
+  id: 476
+  notability:
+    aoe2: true
+- name: Imperio_cc
+  country: de
+  platforms:
+    rl:
+      - '2524736'
+      - '399375'
+  liquipedia: Imperio_cc
+  id: 477
+  notability:
+    aoe2: true
+- name: Jerry
+  country: us
+  platforms:
+    rl:
+      - '843204'
+  liquipedia: Jerry
+  id: 478
+  notability:
+    aoe2: true
+- name: Matt107
+  country: gb
+  platforms:
+    rl:
+      - '230751'
+  liquipedia: Matt107
+  id: 479
+  notability:
+    aoe2: true
+- name: NoLo
+  country: tr
+  platforms:
+    rl:
+      - '3093864'
+  liquipedia: NoLo
+  id: 480
+  notability:
+    aoe2: true
+- name: Tointoin
+  country: fr
+  platforms:
+    rl:
+      - '213249'
+      - '2896472'
+  liquipedia: Tointoin
+  id: 481
+  notability:
+    aoe2: true
+- name: Zastosy
+  country: pl
+  platforms:
+    rl:
+      - '1510463'
+  liquipedia: Zastosy
+  id: 482
+  notability:
+    aoe2: true
+- name: yanki
+  country: tr
+  platforms:
+    rl:
+      - '1843149'
+  liquipedia: yanki
+  id: 484
+  notability:
+    aoe2: true
