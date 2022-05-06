@@ -1805,6 +1805,8 @@
   id: 87
   notability:
     aoe2: true
+  twitter:
+    - https://twitter.com/edie592
 - name: SongSong
   country: vn
   aka:
@@ -2595,6 +2597,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/chaos_2_win
+  liquipedia: chaos_2_win
 - name: Dragonstar
   country: in
   aoeelo: 603
@@ -4176,6 +4179,10 @@
   liquipedia: Flightlessbird
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/flightlessbirdy
+  youtube:
+    - https://www.youtube.com/channel/UCFWMbF-BP7fc21bDV1eyJtQ
 - name: Pela
   country: ar
   platforms:
@@ -4456,6 +4463,8 @@
   notability:
     aoe2: true
   team: 41
+  twitch:
+    - https://www.twitch.tv/Annotoph
 - name: RookStar
   country: br
   platforms:
@@ -4882,6 +4891,8 @@
     - https://www.twitch.tv/margougou_
   notability:
     aoe2: true
+  twitter:
+    - https://twitter.com/Margougou21
 - name: MarineLorD
   aka:
     - Mlord
@@ -5230,6 +5241,8 @@
   liquipedia: Ubetnir
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/Ubetnir
 - name: Rammyy
   country: tr
   platforms:
@@ -5742,6 +5755,9 @@
   id: 373
   notability:
     aoe2: true
+  twitter:
+    - https://twitter.com/cedric_salette
+  liquipedia: c.salette
 - name: Chirris
   country: mx
   aoeelo: 957
@@ -5907,6 +5923,7 @@
   id: 389
   notability:
     aoe2: true
+  liquipedia: Socksyy
 - name: DedlyYetti
   country: us
   platforms:
@@ -6102,6 +6119,7 @@
   id: 404
   notability:
     aoe2: true
+  liquipedia: PhilippHJS
 - name: SonyToprano
   country: tr
   platforms:
@@ -6594,6 +6612,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/mrtempooo
+  liquipedia: MrTempo
 - name: FasT
   country: vn
   aoeelo: 211
@@ -6868,6 +6887,8 @@
     aoe2: true
   team: 41
   aoeelo: 956
+  twitch:
+    - https://www.twitch.tv/lockeaoe
 - name: TutusAsylum
   country: fr
   platforms:
@@ -6955,6 +6976,8 @@
   id: 474
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/29roggy
 - name: Fresh To Death
   country: ru
   platforms:
@@ -7020,6 +7043,8 @@
   id: 481
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/Tointoiin
 - name: Zastosy
   country: pl
   platforms:
@@ -7029,6 +7054,8 @@
   id: 482
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/zastosy
 - name: yanki
   country: tr
   platforms:
