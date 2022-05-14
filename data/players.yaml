@@ -5999,20 +5999,6 @@
   id: 395
   notability:
     aoe2: true
-- name: Kerpo
-  country: tr
-  platforms:
-    rl:
-      - "3543798"
-      - "8033822"
-      - "3543798"
-      - "6161085"
-      - "9687532"
-  twitch:
-    - https://www.twitch.tv/kerpoaoe
-  id: 396
-  notability:
-    aoe2: true
 - name: Pinch3Terneira
   country: es
   platforms:
@@ -7063,5 +7049,15 @@
       - '1843149'
   liquipedia: yanki
   id: 484
+  notability:
+    aoe2: true
+- name: Cheng
+  country: vn
+  platforms:
+    voobly:
+      - '125201175'
+    rl:
+      - '1280400'
+  id: 485
   notability:
     aoe2: true
