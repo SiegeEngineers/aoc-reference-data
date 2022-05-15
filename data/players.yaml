@@ -7063,3 +7063,11 @@
   id: 485
   notability:
     aoe2: true
+- name: Rayzor
+  country: au
+  platforms:
+    rl:
+      - '292318'
+  id: 486
+  notability:
+    aoe2: true
