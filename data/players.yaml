@@ -5776,6 +5776,8 @@
   id: 375
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/darvoi
 - name: Dench
   country: ru
   aoeelo: 649
