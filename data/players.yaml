@@ -6145,6 +6145,8 @@
   notability:
     aoe2: true
 - name: uno1
+  aka:
+    - Fuller
   country: ar
   platforms:
     rl:
@@ -6609,6 +6611,7 @@
       - "123417524"
     rl:
       - "5938210"
+      - "6921400"
   id: 445
   notability:
     aoe2: true
