@@ -1486,6 +1486,8 @@
   id: 68
   notability:
     aoe2: true
+  twitter:
+    - https://twitter.com/SpringTV7
 - name: Windy
   country: cn
   platforms:
@@ -2728,10 +2730,13 @@
 - name: Seoul
   country: vn
   aoeelo: 143
-  platforms: {}
+  platforms:
+    rl:
+      - "3078289"
   id: 149
   notability:
     aoe2: true
+  liquipedia: SeOul
 - name: Running
   country: de
   aoeelo: 616
@@ -5287,6 +5292,7 @@
   id: 336
   notability:
     aoe2: true
+  liquipedia: Rmcoo
 - name: ThisLove
   country: vn
   platforms:
