@@ -4097,6 +4097,7 @@
   id: 253
   notability:
     aoe2: true
+  liquipedia: LobodeLaNieve
 - name: WaRRioR
   country: ru
   platforms:
@@ -7079,5 +7080,66 @@
     rl:
       - '292318'
   id: 486
+  notability:
+    aoe2: true
+- name: Andrew
+  country: hu
+  platforms:
+    rl:
+      - '4176394'
+  liquipedia: Andrew
+  id: 487
+  notability:
+    aoe2: true
+- name: John
+  country: hu
+  platforms:
+    rl:
+      - '1651354'
+  liquipedia: John
+  id: 488
+  notability:
+    aoe2: true
+- name: Leozim
+  country: br
+  platforms:
+    rl:
+      - '1978249'
+      - '6095441'
+  liquipedia: Leozim
+  id: 489
+  notability:
+    aoe2: true
+- name: MrPlanner
+  country: si
+  platforms:
+    rl:
+      - '4362836'
+      - '6898407'
+      - '5556595'
+  liquipedia: MrPlanner
+  id: 491
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/mrplanneraoe
+- name: Zaryab
+  country: pk
+  platforms:
+    rl:
+      - '5186718'
+  liquipedia: Zaryab
+  id: 492
+  notability:
+    aoe2: true
+- name: squeak
+  country: sk
+  platforms:
+    rl:
+      - '261055'
+      - '5795845'
+      - '6867619'
+  liquipedia: squeak
+  id: 494
   notability:
     aoe2: true
