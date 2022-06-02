@@ -7170,3 +7170,22 @@
   id: 495
   notability:
     aoe2: true
+- name: M4Te
+  country: ar
+  platforms:
+    rl:
+      - '240909'
+      - '2902159'
+  liquipedia: M4Te
+  id: 496
+  notability:
+    aoe2: true
+- name: steak
+  country: gb
+  platforms:
+    rl:
+      - '230432'
+  liquipedia: steak
+  id: 498
+  notability:
+    aoe2: true
