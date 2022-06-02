@@ -4075,6 +4075,8 @@
   id: 250
   notability:
     aoe2: true
+  youtube:
+    - https://www.youtube.com/channel/UC4qu2qgIzsjdWsYRxgfHN6g
 - name: Galaxy
   country: hk
   platforms:
@@ -4474,6 +4476,8 @@
   team: 41
   twitch:
     - https://www.twitch.tv/Annotoph
+  twitter:
+    - https://twitter.com/Annotoph_AoE
 - name: RookStar
   country: br
   platforms:
@@ -6219,6 +6223,7 @@
   notability:
     aoe2: true
   team: 37
+  liquipedia: Nahuel05
 - name: Paganini
   country: br
   platforms:
@@ -6463,6 +6468,9 @@
   id: 431
   notability:
     aoe2: true
+  liquipedia: Redlash
+  twitch:
+    - https://www.twitch.tv/redlash_
 - name: Hackali
   country: tr
   platforms:
@@ -6968,6 +6976,7 @@
     - https://www.youtube.com/channel/UCgTNt1bnd_OyPP1Xh5FEKkQ
   id: 473
   aoeelo: 1114
+  liquipedia: ElNoniro
 - name: roggy
   country: tr
   platforms:
@@ -7134,6 +7143,8 @@
   id: 492
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/zaryab
 - name: squeak
   country: sk
   platforms:
@@ -7145,6 +7156,8 @@
   id: 494
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/squeakaoe
 - name: PY_Blue_Sky
   country: vn
   platforms:
