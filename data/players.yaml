@@ -7150,7 +7150,9 @@
     rl:
       - '836375'
   youtube_live:
-    - https://www.youtube.com/c/AOE2VN/live
+    - https://www.youtube.com/channel/UC-gSSHl13CTFrZMWHJ5i6Gg/live
+  youtube:
+    - https://www.youtube.com/c/AOE2VN
   id: 495
   notability:
     aoe2: true
