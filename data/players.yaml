@@ -409,6 +409,8 @@
   id: 18
   notability:
     aoe2: true
+  douyu:
+    - https://www.douyu.com/891497
 - name: F1Re
   country: br
   esportsearnings: 14714
