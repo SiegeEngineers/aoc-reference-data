@@ -7144,3 +7144,13 @@
   id: 494
   notability:
     aoe2: true
+- name: PY_Blue_Sky
+  country: vn
+  platforms:
+    rl:
+      - '836375'
+  youtube_live:
+    - https://www.youtube.com/c/AOE2VN/live
+  id: 495
+  notability:
+    aoe2: true
