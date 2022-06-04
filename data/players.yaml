@@ -2803,7 +2803,7 @@
     rl:
       - "209118"
       - "712465"
-  liquipedia: Sora Kuma
+  liquipedia: Skybear
   team: 20
   id: 154
   notability:
@@ -6982,6 +6982,8 @@
   platforms:
     rl:
       - '2413974'
+    voobly:
+      - '123642235'
   liquipedia: roggy
   id: 474
   notability:
