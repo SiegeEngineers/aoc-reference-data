@@ -7191,3 +7191,13 @@
   id: 498
   notability:
     aoe2: true
+- name: dog9you
+  country: hk
+  platforms:
+    rl:
+      - '232376'
+  id: 499
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/dog9youaoe2
