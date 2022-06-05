@@ -7201,3 +7201,16 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/dog9youaoe2
+- name: Pablito_Aoe
+  country: ar
+  platforms:
+    rl:
+      - '5046692'
+  liquipedia: Pablito_Aoe
+  id: 500
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/Pablito_Aoe
+  youtube:
+    - https://www.youtube.com/channel/UCETwZ6FOrXhGbSRdcuchKwg
