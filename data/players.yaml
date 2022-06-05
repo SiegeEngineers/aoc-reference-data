@@ -3581,6 +3581,8 @@
   id: 217
   notability:
     aoe2: true
+  douyu:
+    - https://www.douyu.com/9404502
 - name: seyaren
   country: cn
   platforms:
