@@ -4473,7 +4473,7 @@
   id: 275
   notability:
     aoe2: true
-  team: 41
+  team: 38
   twitch:
     - https://www.twitch.tv/Annotoph
   twitter:
@@ -4900,6 +4900,7 @@
   liquipedia: Margougou
   aoeelo: 651
   id: 308
+  team: 38
   twitch:
     - https://www.twitch.tv/margougou_
   notability:
@@ -7132,6 +7133,7 @@
       - '5556595'
   liquipedia: MrPlanner
   id: 491
+  aoeelo: 905
   notability:
     aoe2: true
   twitch:
@@ -7180,6 +7182,7 @@
       - '2902159'
   liquipedia: M4Te
   id: 496
+  aoeelo: 817
   notability:
     aoe2: true
 - name: steak
@@ -7189,6 +7192,7 @@
       - '230432'
   liquipedia: steak
   id: 498
+  aoeelo: 801
   notability:
     aoe2: true
 - name: dog9you
