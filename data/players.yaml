@@ -5823,6 +5823,8 @@
   id: 377
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/drkozmonot
 - name: emalius
   country: fi
   aoeelo: 636
@@ -7225,3 +7227,12 @@
     - https://www.twitch.tv/Pablito_Aoe
   youtube:
     - https://www.youtube.com/channel/UCETwZ6FOrXhGbSRdcuchKwg
+- name: Hazzy
+  country: us
+  platforms:
+    rl:
+      - '2871576'
+  liquipedia: Hazzy
+  id: 501
+  notability:
+    aoe2: true
