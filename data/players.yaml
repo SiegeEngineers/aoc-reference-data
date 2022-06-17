@@ -7227,6 +7227,8 @@
     - https://www.twitch.tv/Pablito_Aoe
   youtube:
     - https://www.youtube.com/channel/UCETwZ6FOrXhGbSRdcuchKwg
+  youtube_live:
+    - https://www.youtube.com/channel/UCETwZ6FOrXhGbSRdcuchKwg/live
 - name: Hazzy
   country: us
   platforms:
