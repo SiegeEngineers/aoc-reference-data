@@ -7349,3 +7349,11 @@
   id: 501
   notability:
     aoe2: true
+- name: SpecD
+  id: 502
+  notability:
+    aoe2: true
+  platforms:
+    rl:
+      - "999999999"
+  discord_id: SpectatorDashboard#0434
