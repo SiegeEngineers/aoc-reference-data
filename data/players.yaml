@@ -7340,6 +7340,7 @@
     - https://www.youtube.com/channel/UCETwZ6FOrXhGbSRdcuchKwg
   youtube_live:
     - https://www.youtube.com/channel/UCETwZ6FOrXhGbSRdcuchKwg/live
+  discord_id: SpectatorDashboard#0434
 - name: Hazzy
   country: us
   platforms:
@@ -7349,4 +7350,3 @@
   id: 501
   notability:
     aoe2: true
-  discord_id: SpectatorDashboard#0434
