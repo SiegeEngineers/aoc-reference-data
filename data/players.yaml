@@ -7351,6 +7351,7 @@
     aoe2: true
 - name: SpecD
   id: 502
+  country: de
   notability:
     aoe2: true
   platforms:
