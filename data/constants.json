@@ -65,7 +65,8 @@
     "168": "Medium",
     "200": "Normal",
     "220": "Large",
-    "240": "Giant"
+    "240": "Giant",
+    "480": "Ludicrous"
   },
   "player_colors": {
     "0": "Blue",
