@@ -2105,6 +2105,8 @@
   id: 100
   notability:
     aoe2: true
+  twitter:
+    - https://twitter.com/FeAgeAoE
 - name: Noto
   country: cn
   platforms:
@@ -2517,6 +2519,7 @@
   id: 127
   notability:
     aoe2: true
+  liquipedia: Canary
 - name: SoraK
   country: cl
   platforms:
@@ -5372,6 +5375,7 @@
   id: 335
   notability:
     aoe2: true
+  liquipedia: Tomate
 - name: Rmcoo
   country: lt
   platforms:
@@ -5470,6 +5474,8 @@
   id: 342
   notability:
     aoe2: true
+  youtube:
+    - https://www.youtube.com/Albislol
 - name: PoLaR
   country: gb
   platforms:
@@ -5928,6 +5934,7 @@
   id: 378
   notability:
     aoe2: true
+  liquipedia: emalius2
   discord_id: emalius2#9866
 - name: Gergis
   country: ar
@@ -5938,6 +5945,9 @@
   id: 379
   notability:
     aoe2: true
+  liquipedia: Gergis
+  twitch:
+    - https://www.twitch.tv/gergis__
 - name: GodOfTheGodless
   country: de
   aoeelo: 639
@@ -7307,6 +7317,8 @@
   aoeelo: 817
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/M4Te_
 - name: steak
   country: gb
   platforms:
@@ -7351,3 +7363,5 @@
   id: 501
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/hazzy_aoe
