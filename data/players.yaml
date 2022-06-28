@@ -3663,6 +3663,7 @@
     rl:
       - "2503651"
       - "5551503"
+      - "5876134"
   liquipedia: BadBoy
   team: 33
   twitch:
@@ -5212,6 +5213,8 @@
   twitch:
     - https://www.twitch.tv/overtaken_aoe
 - name: Sebastian2002
+  aka:
+    - SEBA2002
   country: uy
   platforms:
     rl:
