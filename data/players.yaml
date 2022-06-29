@@ -7379,6 +7379,7 @@
   twitch:
     - https://www.twitch.tv/hazzy_aoe
 - name: AR12
+  country: de
   aoeelo: 1041
   platforms:
     rl:
@@ -7389,6 +7390,7 @@
     aoe2: true
   id: 502
 - name: Dexter
+  country: ar
   aoeelo: 958
   platforms:
     rl:
