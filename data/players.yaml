@@ -412,11 +412,12 @@
       - "9747" # CNA
       - "124489527" # hagouhello
     rl:
-      - "716717" # cica_zhou
+      - "716717" # StrayDog
+      - "233782" # StrayDog
     gamepark:
       - straydog
   liquipedia: StrayDog
-  team: 36
+  team: AreS
   id: 18
   notability:
     aoe2: true
