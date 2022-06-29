@@ -7158,6 +7158,7 @@
   id: 477
   notability:
     aoe2: true
+  aoeelo: 785
 - name: Jerry
   country: us
   platforms:
@@ -7235,6 +7236,7 @@
   id: 486
   notability:
     aoe2: true
+  aoeelo: 960
 - name: Andrew
   country: hu
   platforms:
@@ -7303,6 +7305,7 @@
   twitch:
     - https://www.twitch.tv/squeakaoe
   discord_id: squeak#4636
+  aoeelo: 104
 - name: PY_Blue_Sky
   country: vn
   platforms:
@@ -7348,6 +7351,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/dog9youaoe2
+  aoeelo: 645
 - name: Pablito
   country: ar
   platforms:
@@ -7374,3 +7378,21 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/hazzy_aoe
+- name: AR12
+  aoeelo: 1041
+  platforms:
+    rl:
+      - '229173'
+  twitch:
+    - https://www.twitch.tv/ar12__
+  notability:
+    aoe2: true
+  id: 502
+- name: Dexter
+  aoeelo: 958
+  platforms:
+    rl:
+      - '1195043'
+  notability:
+    aoe2: true
+  id: 503
