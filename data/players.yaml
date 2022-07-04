@@ -4065,6 +4065,8 @@
   notability:
     aoe2: true
 - name: z40305125
+  aka:
+    - z40
   country: tw
   platforms:
     rl:
