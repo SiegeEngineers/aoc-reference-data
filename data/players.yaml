@@ -7402,3 +7402,12 @@
   notability:
     aoe2: true
   id: 503
+- name: Lord Envidiates
+  country: mx
+  platforms:
+    rl:
+      - '401359'
+      - '2498538'
+  notability:
+    aoe2: true
+  id: 504
