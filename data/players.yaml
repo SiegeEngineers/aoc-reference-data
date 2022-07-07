@@ -7414,3 +7414,19 @@
   notability:
     aoe2: true
   id: 504
+- name: robo
+  country: au
+  platforms:
+    rl:
+      - '211321'
+    voobly:
+      - '123905987'
+  notability:
+    aoe2: true
+  liquipedia: Robo
+  twitch:
+    - https://www.twitch.tv/robo_boro_
+  twitter:
+    - https://twitter.com/robo_boro_
+  discord_id: robo_boro#5469
+  id: 505
