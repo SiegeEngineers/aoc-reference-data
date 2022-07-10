@@ -4105,7 +4105,6 @@
   platforms:
     rl:
       - "2638400"
-      - "3408281"
     voobly:
       - "13052"
     gamepark:
