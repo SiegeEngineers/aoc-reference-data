@@ -5821,6 +5821,7 @@
     rl:
       - "288714"
   id: 368
+  liquipedia: Mihai06
   notability:
     aoe2: true
 - name: Snapy
@@ -7396,6 +7397,7 @@
   notability:
     aoe2: true
   id: 502
+  liquipedia: AR12
 - name: Dexter
   country: ar
   aoeelo: 958
@@ -7430,3 +7432,12 @@
     - https://twitter.com/robo_boro_
   discord_id: robo_boro#5469
   id: 505
+- name: webber
+  country: ar
+  platforms:
+    rl:
+      - '368368'
+  liquipedia: webber
+  id: 506
+  notability:
+    aoe2: true
