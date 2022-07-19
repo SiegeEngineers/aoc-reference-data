@@ -3992,6 +3992,7 @@
       - "3583533"
       - "2621863"
       - "6912966"
+      - "9646265"
     voobly:
       - "124655527"
   liquipedia: Uzzi
@@ -6782,6 +6783,7 @@
     rl:
       - "289216"
       - "6370127"
+      - "8092025"
   twitch:
     - https://www.twitch.tv/bkalphastar
   id: 446
@@ -7116,6 +7118,7 @@
       - "2924270"
       - "9720580"
       - "8803060"
+      - "10350782"
   notability:
     aoe2: true
   twitch:
@@ -7441,3 +7444,5 @@
   id: 506
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/webber_aoe
