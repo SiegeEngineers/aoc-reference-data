@@ -7449,3 +7449,14 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/webber_aoe
+- name: paradox303
+  id: 507
+  country: gb
+  platforms:
+    rl:
+      - '243303'
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/paradox303
+  liquipedia: Paradox303
