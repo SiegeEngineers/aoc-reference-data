@@ -4332,12 +4332,15 @@
       - "9888746"
       - "9926868"
       - "10041821"
+      - "10051788"
+      - "10430576"
+      - "10406566"
   warning: true
   id: 261
   notability:
     aoe2: true
   twitch:
-    - https://www.twitch.tv/ertugaoe
+    - https://www.twitch.tv/mastertuq
   youtube:
     - https://www.youtube.com/channel/UCO0Gc-6iESBUxe5dvDIEDfg
   twitter:
@@ -6104,6 +6107,11 @@
   notability:
     aoe2: true
   discord_id: Ozone#4504
+  twitter:
+    - https://twitter.com/OzoneAOE
+  liquipedia: Ozone
+  youtube:
+    - https://www.youtube.com/OzoneAOE
 - name: StellarMeesh
   country: us
   platforms:
@@ -7460,3 +7468,14 @@
   twitch:
     - https://www.twitch.tv/paradox303
   liquipedia: Paradox303
+- name: Julinse
+  country: de
+  platforms:
+    rl:
+      - '624041'
+  liquipedia: Julinse
+  id: 509
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/Julinse
