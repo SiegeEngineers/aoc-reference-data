@@ -7433,6 +7433,8 @@
     aoe2: true
   id: 504
   aoeelo: 972
+  twitch:
+    - https://www.twitch.tv/lord_envidiates
 - name: robo
   country: au
   platforms:
