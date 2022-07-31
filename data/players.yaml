@@ -5767,6 +5767,7 @@
   id: 362
   notability:
     aoe2: true
+  aoeelo: 1242
 - name: Zain
   country: au
   platforms:
@@ -7207,6 +7208,7 @@
   id: 480
   notability:
     aoe2: true
+  aoeelo: 1245
 - name: Tointoin
   country: fr
   platforms:
@@ -7430,6 +7432,7 @@
   notability:
     aoe2: true
   id: 504
+  aoeelo: 972
 - name: robo
   country: au
   platforms:
