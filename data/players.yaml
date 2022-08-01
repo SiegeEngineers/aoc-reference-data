@@ -5853,6 +5853,8 @@
   country: vn
   facebook_gaming:
     - https://www.facebook.com/gaming/minhanhaoe2
+  twitch:
+    - https://www.twitch.tv/minhanhaoe2de
   platforms:
     rl:
       - "3759800"
