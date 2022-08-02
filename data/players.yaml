@@ -7487,3 +7487,14 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/Julinse
+- name: Fox.Ciskhan
+  country: fr
+  platforms:
+    rl:
+      - '1136191'
+  id: 510
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/ciskhan_
+  discord_id: ciskhan#1284
