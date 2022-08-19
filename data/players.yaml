@@ -5661,6 +5661,7 @@
   id: 354
   notability:
     aoe2: true
+  liquipedia: "Emil :D"
   twitch:
     - https://www.twitch.tv/aoemil
   discord_id: Emil#0017
@@ -5918,6 +5919,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/darvoi
+  liquipedia: darvoi
 - name: Dench
   country: ru
   aoeelo: 649
@@ -6020,6 +6022,7 @@
   notability:
     aoe2: true
   discord_id: king_marv#1339
+  liquipedia: King_Marv
 - name: MingudaiLee
   country: uy
   aoeelo: 725
@@ -6886,6 +6889,8 @@
     aoe2: true
   id: 453
   aoeelo: 1141
+  twitch:
+    - https://www.twitch.tv/Tulendeena
 - name: saps
   country: ro
   platforms:
@@ -7085,6 +7090,7 @@
   notability:
     aoe2: true
   id: 469
+  liquipedia: Eli
 - name: Big Scoob
   country: ee
   platforms:
@@ -7439,6 +7445,7 @@
   aoeelo: 972
   twitch:
     - https://www.twitch.tv/lord_envidiates
+  liquipedia: Lord Envidiates
 - name: robo
   country: au
   platforms:
