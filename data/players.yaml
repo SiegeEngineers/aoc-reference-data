@@ -3799,6 +3799,8 @@
       - "1451847"
       - "1195260"
       - "1784541"
+      - "10573031"
+      - "10717176"
   liquipedia: Kellar
   twitch:
     - https://www.twitch.tv/Kellar_AoE
@@ -4833,6 +4835,7 @@
   platforms:
     rl:
       - "657052"
+      - "3214529"
   liquipedia: FreakinChris
   aoeelo: 654
   id: 295
@@ -6920,6 +6923,7 @@
   platforms:
     rl:
       - '2014691'
+      - '5363603'
   notability:
     aoe2: true
   id: 456
