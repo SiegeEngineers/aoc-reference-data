@@ -5399,6 +5399,8 @@
     aoe2: true
   liquipedia: Tomate
 - name: Rmcoo
+  aka:
+    - ramaco
   country: lt
   platforms:
     rl:
