@@ -7513,3 +7513,13 @@
   twitch:
     - https://www.twitch.tv/ciskhan_
   discord_id: ciskhan#1284
+- name: Prisma09
+  country: ar
+  platforms:
+    rl:
+      - '3176045'
+      - '5821885'
+      - '10104438'
+  id: 511
+  notability:
+    aoe2: true
