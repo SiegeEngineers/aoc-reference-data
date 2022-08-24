@@ -6367,6 +6367,8 @@
   aoeelo: 1071
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/el_matador_5
 - name: Nahuel05
   country: ar
   platforms:
