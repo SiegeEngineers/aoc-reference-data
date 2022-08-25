@@ -184,7 +184,7 @@
 - name: LaaaaaN
   country: es
   aoeelo: 62
-  liquipedia: LaaaaaN
+  liquipedia: LaN
   esportsearnings: 56830
   aka:
     - LaN
@@ -1382,6 +1382,7 @@
   notability:
     aoe2: true
   team: 32
+  liquipedia: kkab
 - name: Grunt
   country: kr
   esportsearnings: 2090
@@ -4246,6 +4247,7 @@
   notability:
     aoe2: true
   discord_id: Mango#1689
+  aoeelo: 1257
 - name: JoRo
   country: us
   platforms:
@@ -5478,6 +5480,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/yax_aoe
+  liquipedia: Yasin
 - name: TurkEycof
   country: tr
   twitch:
@@ -7548,6 +7551,7 @@
     - https://www.twitch.tv/ciskhan_
   discord_id: ciskhan#1284
   team: 18
+  aoeelo: 1205
 - name: Prisma09
   country: ar
   platforms:
@@ -7559,3 +7563,4 @@
   notability:
     aoe2: true
   team: 45
+  aoeelo: 1224
