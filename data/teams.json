@@ -1,10 +1,29 @@
 [
   {
+    "name": "CZ",
+    "players": [
+      322,
+      237
+    ],
+    "id": 1
+  },
+  {
+    "name": "Hot Young Masters",
+    "players": [
+      491,
+      333,
+      339,
+      147,
+      377
+    ],
+    "id": 2
+  },
+  {
     "name": "3D!Clan",
     "players": [
       215
     ],
-    "id": 1
+    "id": 3
   },
   {
     "name": "Aftermath",
@@ -15,7 +34,7 @@
       23,
       27
     ],
-    "id": 2
+    "id": 4
   },
   {
     "name": "Age of Queens",
@@ -24,21 +43,21 @@
       466,
       316
     ],
-    "id": 3
+    "id": 5
   },
   {
     "name": "Age4greeks",
     "players": [
       161
     ],
-    "id": 4
+    "id": 6
   },
   {
     "name": "Albis Onis Lobias",
     "players": [
       220
     ],
-    "id": 5
+    "id": 7
   },
   {
     "name": "Berserkers",
@@ -47,7 +66,7 @@
       131,
       62
     ],
-    "id": 6
+    "id": 8
   },
   {
     "name": "ChileAoE",
@@ -56,21 +75,21 @@
       243,
       332
     ],
-    "id": 7
+    "id": 9
   },
   {
     "name": "Clan Arg",
     "players": [
       402
     ],
-    "id": 8
+    "id": 10
   },
   {
     "name": "Clan Sigma",
     "players": [
       442
     ],
-    "id": 9
+    "id": 11
   },
   {
     "name": "Clown Legion",
@@ -82,17 +101,17 @@
       282,
       31
     ],
-    "id": 10
+    "id": 12
   },
   {
     "name": "Combi Team",
     "players": [
       241,
-      274,
       250,
+      274,
       253
     ],
-    "id": 11
+    "id": 13
   },
   {
     "name": "Dark Empire",
@@ -100,14 +119,14 @@
       68,
       390
     ],
-    "id": 12
+    "id": 14
   },
   {
     "name": "DarkSidE",
     "players": [
-      324,
-      229,
       260,
+      229,
+      324,
       266,
       44,
       335,
@@ -118,7 +137,7 @@
       221,
       159
     ],
-    "id": 13
+    "id": 15
   },
   {
     "name": "Deities of Death",
@@ -126,14 +145,14 @@
       137,
       71
     ],
-    "id": 14
+    "id": 16
   },
   {
     "name": "DevilZ",
     "players": [
       179
     ],
-    "id": 15
+    "id": 17
   },
   {
     "name": "Fox",
@@ -142,7 +161,7 @@
       373,
       510
     ],
-    "id": 16
+    "id": 18
   },
   {
     "name": "GamerLegion",
@@ -154,7 +173,7 @@
       26,
       28
     ],
-    "id": 17
+    "id": 19
   },
   {
     "name": "Gaucho",
@@ -162,7 +181,7 @@
       496,
       226
     ],
-    "id": 18
+    "id": 20
   },
   {
     "name": "Heresy",
@@ -172,17 +191,7 @@
       87,
       39
     ],
-    "id": 19
-  },
-  {
-    "name": "Hot Young Masters",
-    "players": [
-      339,
-      491,
-      147,
-      215
-    ],
-    "id": 20
+    "id": 21
   },
   {
     "name": "InDuS",
@@ -190,7 +199,7 @@
       1,
       140
     ],
-    "id": 21
+    "id": 22
   },
   {
     "name": "Killing Generation of Brazil",
@@ -201,16 +210,16 @@
       80,
       19
     ],
-    "id": 22
+    "id": 23
   },
   {
     "name": "Kyo All Fallen",
     "players": [
+      152,
       24,
-      154,
-      152
+      154
     ],
-    "id": 23
+    "id": 24
   },
   {
     "name": "Nadya's Boys",
@@ -222,25 +231,25 @@
       90,
       315
     ],
-    "id": 24
+    "id": 25
   },
   {
     "name": "QuEnDi",
     "players": [
-      172,
       204,
-      492,
       300,
+      172,
+      492,
       208,
       305,
-      464,
       209,
+      464,
       284,
       285,
       286,
       287
     ],
-    "id": 25
+    "id": 26
   },
   {
     "name": "QueNaNiNa",
@@ -254,7 +263,7 @@
       345,
       191
     ],
-    "id": 26
+    "id": 27
   },
   {
     "name": "Rulers of Rome",
@@ -265,16 +274,16 @@
       262,
       138,
       77,
-      49,
-      82,
       145,
       50,
+      82,
+      49,
       53,
       214,
       279,
       113
     ],
-    "id": 27
+    "id": 28
   },
   {
     "name": "Russia F",
@@ -284,26 +293,26 @@
       317,
       297
     ],
-    "id": 28
+    "id": 29
   },
   {
     "name": "SY",
     "players": [
       89,
-      69,
-      105
+      105,
+      69
     ],
-    "id": 29
+    "id": 30
   },
   {
     "name": "SalzZ",
     "players": [
-      91,
       11,
+      91,
       254,
       270
     ],
-    "id": 30
+    "id": 31
   },
   {
     "name": "Sons of the Sun",
@@ -312,26 +321,26 @@
       234,
       231
     ],
-    "id": 31
+    "id": 32
   },
   {
     "name": "Stackers",
     "players": [
       290
     ],
-    "id": 32
+    "id": 33
   },
   {
     "name": "Suomi",
     "players": [
       40,
       41,
-      47,
       111,
+      47,
       81,
       30
     ],
-    "id": 33
+    "id": 34
   },
   {
     "name": "Team Maswi",
@@ -341,7 +350,7 @@
       460,
       429
     ],
-    "id": 34
+    "id": 35
   },
   {
     "name": "The Amigos",
@@ -353,7 +362,7 @@
       17,
       50
     ],
-    "id": 35
+    "id": 36
   },
   {
     "name": "The Immortals",
@@ -361,17 +370,17 @@
       107,
       103
     ],
-    "id": 36
+    "id": 37
   },
   {
     "name": "The Jedi Masters",
     "players": [
       139,
-      494,
       14,
+      494,
       111
     ],
-    "id": 37
+    "id": 38
   },
   {
     "name": "ThuG Life",
@@ -380,7 +389,7 @@
       92,
       125
     ],
-    "id": 38
+    "id": 39
   },
   {
     "name": "TyRanT",
@@ -389,7 +398,7 @@
       60,
       62
     ],
-    "id": 39
+    "id": 40
   },
   {
     "name": "Vietnam Legends",
@@ -401,7 +410,7 @@
       88,
       219
     ],
-    "id": 40
+    "id": 41
   },
   {
     "name": "Vikingos N\u00f3madas",
@@ -409,36 +418,36 @@
       459,
       292
     ],
-    "id": 41
+    "id": 42
   },
   {
     "name": "Vikings",
     "players": [
       376
     ],
-    "id": 42
+    "id": 43
   },
   {
     "name": "White Wolf Palace",
     "players": [
+      89,
       382,
       227,
       4,
-      217,
+      197,
       5,
       36,
-      197,
       330,
       18,
       114,
       116,
       85,
       21,
-      89,
+      217,
       218,
       25
     ],
-    "id": 43
+    "id": 44
   },
   {
     "name": "XEVER",
@@ -449,7 +458,7 @@
       412,
       511
     ],
-    "id": 44
+    "id": 45
   },
   {
     "name": "MYinsanity",
@@ -461,7 +470,7 @@
       409,
       29
     ],
-    "id": 45
+    "id": 46
   },
   {
     "name": "New Chapter",
@@ -472,14 +481,14 @@
       283,
       158
     ],
-    "id": 46
+    "id": 47
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 47
+    "id": 48
   },
   {
     "name": "SuperNova",
@@ -488,14 +497,14 @@
       343,
       207
     ],
-    "id": 48
+    "id": 49
   },
   {
     "name": "PL",
     "players": [
       56
     ],
-    "id": 49
+    "id": 50
   },
   {
     "name": "The BrotherHood Kappa",
@@ -504,47 +513,40 @@
       435,
       413
     ],
-    "id": 50
+    "id": 51
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 51
+    "id": 52
   },
   {
     "name": "\u0130stanbul Wildcats",
     "players": [
       51
     ],
-    "id": 52
+    "id": 53
   },
   {
     "name": "One Punch",
     "players": [
       384
     ],
-    "id": 53
+    "id": 54
   },
   {
     "name": "K-GANG",
     "players": [
       304
     ],
-    "id": 54
+    "id": 55
   },
   {
     "name": "Deceptive Baguettes",
     "players": [
       467
-    ],
-    "id": 55
-  },
-  {
-    "name": "CZ",
-    "players": [
-      322
     ],
     "id": 56
   },
