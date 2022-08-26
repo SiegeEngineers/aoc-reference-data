@@ -2248,6 +2248,9 @@
       - "123410633"
       - "124223825"
       - "123836537"
+    rl:
+      - '3548560'
+      - '575514'
   aoeelo: 80
   id: 108
   notability:
@@ -5048,6 +5051,8 @@
   team: 51
 - name: MembTV
   country: es
+  aka:
+    - Memb
   platforms:
     rl:
       - "196407"
