@@ -3532,6 +3532,7 @@
     - https://www.twitch.tv/aoc_ashleylynn
   discord:
     - https://discord.gg/DFBYNfG
+  discord_id: ashleylynn#0001
   platforms:
     voobly:
       - "123866515"
@@ -4619,6 +4620,7 @@
   id: 277
   notability:
     aoe2: true
+  discord_id: Grathwrang#2148
 - name: Roxy
   country: ar
   platforms:
@@ -5780,6 +5782,8 @@
   notability:
     aoe2: true
   discord_id: Good_luck#0778
+  twitch:
+    - https://www.twitch.tv/good__luck
 - name: Fanjita
   country: gb
   platforms:
@@ -7533,6 +7537,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/paradox303
+  discord_id: paradox303#4691
   liquipedia: Paradox303
 - name: Julinse
   country: de
