@@ -5834,6 +5834,7 @@
     rl:
       - "994370"
       - "1177662"
+      - "3402362"
   id: 365
   aoeelo: 719
   notability:
@@ -7500,6 +7501,8 @@
     - https://www.twitch.tv/lord_envidiates
   liquipedia: Lord Envidiates
   team: 27
+  youtube:
+    - https://www.youtube.com/channel/UCESok43ZyL5f3NIV6dcORqg
 - name: robo
   country: au
   platforms:
@@ -7595,3 +7598,21 @@
     aoe2: true
   youtube_live:
     - https://www.youtube.com/channel/UCkWBCKcqodEcakCQTb2Sc9w/live
+- name: ChriSt
+  country: au
+  platforms:
+    rl:
+      - '209899'
+  liquipedia: ChriSt
+  id: 515
+  notability:
+    aoe2: true
+- name: sunsetfire
+  country: us
+  platforms:
+    rl:
+      - '553794'
+  liquipedia: sunsetfire
+  id: 517
+  notability:
+    aoe2: true
