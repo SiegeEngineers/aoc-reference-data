@@ -5932,6 +5932,7 @@
     rl:
       - "1920807"
       - "9337807"
+      - "4890100"
   twitch:
     - https://www.twitch.tv/csalette
   id: 373
@@ -6996,6 +6997,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/c3mbrich
+  discord_id: c3mbrich#8656
   aoeelo: 666
 - name: Wineland
   country: mx
