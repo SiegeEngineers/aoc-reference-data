@@ -7618,3 +7618,15 @@
   notability:
     aoe2: true
   team: 39
+- name: The Manko
+  country: ar
+  platforms:
+    rl:
+      - '319851'
+  id: 518
+  notability:
+    aoe2: true
+  youtube:
+    - https://www.youtube.com/c/TheManko
+  youtube_live:
+    - https://www.youtube.com/channel/UChWXoxtEWgD5-MStx0omSSg/live
