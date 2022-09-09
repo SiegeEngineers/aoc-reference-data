@@ -5550,6 +5550,8 @@
     rl:
       - "1763704"
       - "5602346"
+    voobly:
+      - "123541346"
   liquipedia: RollsRoyce
   id: 344
   notability:
@@ -5846,6 +5848,8 @@
   twitch:
     - https://www.twitch.tv/iam2k1
 - name: Quảng Trị
+  aka:
+    - Hope
   country: vn
   platforms:
     voobly:
@@ -6304,6 +6308,9 @@
   notability:
     aoe2: true
   discord_id: 'T-West#5555'
+  liquipedia: 'T-West'
+  youtube:
+    - https://www.youtube.com/TWestYT
 - name: PhilippHJS
   country: de
   aoeelo: 908
@@ -7623,6 +7630,8 @@
   notability:
     aoe2: true
   team: 39
+  twitch:
+    - https://www.twitch.tv/sunsetfire
 - name: The Manko
   country: ar
   platforms:
@@ -7635,3 +7644,16 @@
     - https://www.youtube.com/c/TheManko
   youtube_live:
     - https://www.youtube.com/channel/UChWXoxtEWgD5-MStx0omSSg/live
+- name: x0r6zt
+  country: au
+  platforms:
+    rl:
+      - '1361744'
+  liquipedia: x0r6zt
+  id: 521
+  notability:
+    aoe2: true
+  twitter:
+    - https://twitter.com/x0r6zt
+  twitch:
+    - https://www.twitch.tv/x0r6zt
