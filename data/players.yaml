@@ -4025,6 +4025,7 @@
   id: 241
   notability:
     aoe2: true
+  discord_id: Uzzi#9720
   team: 13
 - name: The Bloodless
   country: us
@@ -6468,6 +6469,9 @@
   notability:
     aoe2: true
   aoeelo: 1226
+  liquipedia: TRM
+  youtube:
+    - https://www.youtube.com/channel/UCvFyefzqTqvgAsy7XjXYEwg
 - name: Tea
   country: gb
   platforms:
@@ -7657,3 +7661,12 @@
     - https://twitter.com/x0r6zt
   twitch:
     - https://www.twitch.tv/x0r6zt
+- name: Solara
+  country: il
+  platforms:
+    rl:
+      - '1959055'
+  liquipedia: Solara
+  id: 523
+  notability:
+    aoe2: true
