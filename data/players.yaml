@@ -3280,7 +3280,7 @@
     - https://www.twitch.tv/sobek_aoe
   youtube:
     - http://www.youtube.com/channel/UCVH-sSxnCZtqJJmbtggTCxQ/feed
-  team: 58
+  team: 57
   aoeelo: 499
   id: 191
   notability:
@@ -4976,7 +4976,7 @@
   liquipedia: Kioss3000
   twitch:
     - https://www.twitch.tv/kioss3000
-  team: 55
+  team: 54
   id: 304
   twitter:
     - https://twitter.com/Kioss3000_Tv
@@ -5380,7 +5380,7 @@
   liquipedia: wAkKo
   twitch:
     - https://www.twitch.tv/wakko_aoe
-  team: 58
+  team: 57
   aoeelo: 150
   id: 332
   notability:
@@ -5565,7 +5565,7 @@
   liquipedia: Valak
   twitch:
     - https://www.twitch.tv/imvalak
-  team: 58
+  team: 57
   id: 345
   twitter:
     - https://twitter.com/manuechvrr
@@ -6076,7 +6076,7 @@
     aoe2: true
   discord_id: king_marv#1339
   liquipedia: King_Marv
-  team: 54
+  team: 53
 - name: MingudaiLee
   country: uy
   aoeelo: 725
@@ -6692,7 +6692,7 @@
   liquipedia: Redlash
   twitch:
     - https://www.twitch.tv/redlash_
-  team: 57
+  team: 56
 - name: Hackali
   country: tr
   platforms:
@@ -6941,7 +6941,7 @@
   notability:
     aoe2: true
   aoeelo: 621
-  team: 59
+  team: 58
   discord_id: Wraith#7449
 - name: Tulendeena
   country: au
@@ -6998,6 +6998,7 @@
     aoe2: true
   id: 457
   discord_id: Blackheart#8557
+  team: 12
 - name: C3mbrich
   country: es
   platforms:
@@ -7127,7 +7128,7 @@
   id: 467
   notability:
     aoe2: true
-  team: 56
+  team: 55
   aoeelo: 956
   twitch:
     - https://www.twitch.tv/lockeaoe
@@ -7661,6 +7662,7 @@
     - https://twitter.com/x0r6zt
   twitch:
     - https://www.twitch.tv/x0r6zt
+  team: 59
 - name: Solara
   country: il
   platforms:
@@ -7670,3 +7672,4 @@
   id: 523
   notability:
     aoe2: true
+  team: 26

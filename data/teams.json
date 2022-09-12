@@ -99,7 +99,8 @@
       235,
       242,
       282,
-      336
+      336,
+      457
     ],
     "id": 12
   },
@@ -247,7 +248,8 @@
       300,
       305,
       464,
-      492
+      492,
+      523
     ],
     "id": 26
   },
@@ -521,39 +523,32 @@
     "id": 52
   },
   {
-    "name": "\u0130stanbul Wildcats",
-    "players": [
-      51
-    ],
-    "id": 53
-  },
-  {
     "name": "One Punch",
     "players": [
       384
     ],
-    "id": 54
+    "id": 53
   },
   {
     "name": "K-GANG",
     "players": [
       304
     ],
-    "id": 55
+    "id": 54
   },
   {
     "name": "Deceptive Baguettes",
     "players": [
       467
     ],
-    "id": 56
+    "id": 55
   },
   {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 57
+    "id": 56
   },
   {
     "name": "QueNaNina",
@@ -562,12 +557,19 @@
       332,
       345
     ],
-    "id": 58
+    "id": 57
   },
   {
     "name": "French Connexion",
     "players": [
       452
+    ],
+    "id": 58
+  },
+  {
+    "name": "True Clown Legion",
+    "players": [
+      521
     ],
     "id": 59
   }
