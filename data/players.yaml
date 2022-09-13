@@ -4031,6 +4031,7 @@
   country: us
   aka:
     - ze Bludlass
+    - BloodlessHD
   platforms:
     rl:
       - "178430"
@@ -6998,6 +6999,8 @@
     aoe2: true
   id: 457
   discord_id: Blackheart#8557
+  twitch:
+    - https://www.twitch.tv/blackheartaoe
   team: 12
 - name: C3mbrich
   country: es
