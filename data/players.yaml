@@ -7554,7 +7554,7 @@
   team: 35
 - name: paradox303
   id: 507
-  country: gb
+  country: gb-sct
   platforms:
     rl:
       - '243303'
