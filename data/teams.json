@@ -159,7 +159,9 @@
     "name": "Fox",
     "players": [
       373,
+      406,
       427,
+      481,
       510
     ],
     "id": 18
@@ -334,6 +336,16 @@
     "id": 33
   },
   {
+    "name": "SuPeRNovA",
+    "players": [
+      207,
+      296,
+      343,
+      501
+    ],
+    "id": 34
+  },
+  {
     "name": "Suomi",
     "players": [
       30,
@@ -343,7 +355,7 @@
       81,
       111
     ],
-    "id": 34
+    "id": 35
   },
   {
     "name": "Team Maswi",
@@ -353,7 +365,7 @@
       460,
       506
     ],
-    "id": 35
+    "id": 36
   },
   {
     "name": "The Amigos",
@@ -365,7 +377,7 @@
       228,
       353
     ],
-    "id": 36
+    "id": 37
   },
   {
     "name": "The Immortals",
@@ -373,7 +385,7 @@
       103,
       107
     ],
-    "id": 37
+    "id": 38
   },
   {
     "name": "ThuG Life",
@@ -382,14 +394,14 @@
       125,
       203
     ],
-    "id": 38
+    "id": 39
   },
   {
     "name": "Time To Trolling",
     "players": [
       517
     ],
-    "id": 39
+    "id": 40
   },
   {
     "name": "TyRanT",
@@ -398,7 +410,7 @@
       62,
       161
     ],
-    "id": 40
+    "id": 41
   },
   {
     "name": "Vietnam Legends",
@@ -410,7 +422,7 @@
       88,
       219
     ],
-    "id": 41
+    "id": 42
   },
   {
     "name": "Vikingos N\u00f3madas",
@@ -418,14 +430,14 @@
       292,
       459
     ],
-    "id": 42
+    "id": 43
   },
   {
     "name": "Vikings",
     "players": [
       376
     ],
-    "id": 43
+    "id": 44
   },
   {
     "name": "White Wolf Palace",
@@ -447,7 +459,7 @@
       330,
       382
     ],
-    "id": 44
+    "id": 45
   },
   {
     "name": "XEVER",
@@ -458,7 +470,7 @@
       461,
       511
     ],
-    "id": 45
+    "id": 46
   },
   {
     "name": "MYinsanity",
@@ -470,7 +482,7 @@
       308,
       409
     ],
-    "id": 46
+    "id": 47
   },
   {
     "name": "New Chapter",
@@ -481,21 +493,12 @@
       388,
       404
     ],
-    "id": 47
+    "id": 48
   },
   {
     "name": "Pcific",
     "players": [
       271
-    ],
-    "id": 48
-  },
-  {
-    "name": "SuperNova",
-    "players": [
-      207,
-      296,
-      343
     ],
     "id": 49
   },
