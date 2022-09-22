@@ -286,7 +286,8 @@
       228,
       257,
       262,
-      279
+      279,
+      527
     ],
     "id": 28
   },
@@ -338,6 +339,7 @@
   {
     "name": "SuPeRNovA",
     "players": [
+      206,
       207,
       296,
       343,
@@ -503,18 +505,20 @@
     "id": 49
   },
   {
-    "name": "PL",
+    "name": "The BrotherHood Kappa",
     "players": [
-      56
+      338,
+      413,
+      433,
+      435,
+      449
     ],
     "id": 50
   },
   {
-    "name": "The BrotherHood Kappa",
+    "name": "PL",
     "players": [
-      413,
-      435,
-      449
+      56
     ],
     "id": 51
   },

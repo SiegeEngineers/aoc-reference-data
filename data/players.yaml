@@ -1338,7 +1338,7 @@
       - "879956"
       - "3558975"
   liquipedia: Dziamdziak
-  team: 50
+  team: 51
   id: 56
   notability:
     aoe2: true
@@ -3482,6 +3482,7 @@
   id: 206
   notability:
     aoe2: true
+  team: 34
 - name: Daywalker
   country: gb
   platforms:
@@ -5481,6 +5482,7 @@
   notability:
     aoe2: true
   liquipedia: AnTiDeMoN
+  team: 50
 - name: Yasin
   aka:
     - Yax
@@ -6464,7 +6466,7 @@
   youtube:
     - https://www.youtube.com/BKPaganini
   liquipedia: Paganini
-  team: 51
+  team: 50
   id: 413
   aoeelo: 815
   notability:
@@ -6725,7 +6727,7 @@
       - "4812351"
   twitch:
     - https://www.twitch.tv/kenshin_aoe
-  team: 42
+  team: 50
   id: 433
   aoeelo: 966
   notability:
@@ -6755,7 +6757,7 @@
   twitch:
     - https://www.twitch.tv/faradayaoe
   liquipedia: Faraday
-  team: 51
+  team: 50
   id: 435
   aoeelo: 610
   notability:
@@ -6918,7 +6920,7 @@
       - "123550026"
   liquipedia: Martinhs
   id: 449
-  team: 51
+  team: 50
   aoeelo: 734
   twitch:
     - https://www.twitch.tv/martinhsbr
@@ -7720,3 +7722,4 @@
   id: 527
   notability:
     aoe2: true
+  team: 28
