@@ -1969,6 +1969,8 @@
   notability:
     aoe2: true
   team: 39
+  twitter:
+    - https://twitter.com/rAlbErTV
 - name: DreaIVIS
   country: fi
   platforms:
@@ -2042,6 +2044,7 @@
   id: 96
   notability:
     aoe2: true
+  liquipedia: Duck
 - name: IamOK
   country: cn
   esportsearnings: 12948
@@ -4110,6 +4113,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/z40305125
+  liquipedia: z40
 - name: Dratek
   country: cz
   platforms:
@@ -5476,6 +5480,7 @@
   id: 338
   notability:
     aoe2: true
+  liquipedia: AnTiDeMoN
 - name: Yasin
   aka:
     - Yax
@@ -6002,6 +6007,9 @@
     - https://www.twitch.tv/drkozmonot
   discord_id: Kozmonot#3676
   team: 2
+  liquipedia: Dr.Kozmonot
+  youtube:
+    - https://www.youtube.com/channel/UCADnocq-SCC28Xr5Tq-sF5Q
 - name: emalius
   country: fi
   aoeelo: 636
@@ -6722,6 +6730,7 @@
   aoeelo: 966
   notability:
     aoe2: true
+  liquipedia: Kenshin
 - name: HumzaCrumza
   country: us
   platforms:
@@ -7684,3 +7693,30 @@
   notability:
     aoe2: true
   team: 26
+- name: LeeChia
+  country: tw
+  platforms:
+    rl:
+      - '621969'
+  liquipedia: LeeChia
+  id: 525
+  notability:
+    aoe2: true
+- name: Pyroptere
+  country: ch
+  platforms:
+    rl:
+      - '228572'
+  liquipedia: Pyroptere
+  id: 526
+  notability:
+    aoe2: true
+- name: Rxndy
+  country: de
+  platforms:
+    rl:
+      - '212710'
+  liquipedia: Rxndy
+  id: 527
+  notability:
+    aoe2: true
