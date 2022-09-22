@@ -7112,6 +7112,7 @@
   team: 26
   twitch:
     - https://www.twitch.tv/quendi_kelar
+  aoeelo: 1276
 - name: ClemoL45
   country: fr
   platforms:
@@ -7318,6 +7319,7 @@
   twitch:
     - https://www.twitch.tv/Tointoiin
   team: 18
+  aoeelo: 1275
 - name: Zastosy
   country: pl
   platforms:
@@ -7628,6 +7630,7 @@
   id: 512
   notability:
     aoe2: true
+  aoeelo: 986
 - name: Wiki
   country: vn
   platforms:
@@ -7647,6 +7650,7 @@
   id: 515
   notability:
     aoe2: true
+  aoeelo: 741
 - name: sunsetfire
   country: us
   platforms:
@@ -7685,6 +7689,7 @@
   twitch:
     - https://www.twitch.tv/x0r6zt
   team: 59
+  aoeelo: 1117
 - name: Solara
   country: il
   platforms:
@@ -7695,6 +7700,7 @@
   notability:
     aoe2: true
   team: 26
+  aoeelo: 830
 - name: LeeChia
   country: tw
   platforms:
@@ -7713,6 +7719,7 @@
   id: 526
   notability:
     aoe2: true
+  aoeelo: 885
 - name: Rxndy
   country: de
   platforms:
@@ -7723,3 +7730,4 @@
   notability:
     aoe2: true
   team: 28
+  aoeelo: 797
