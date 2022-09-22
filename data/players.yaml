@@ -1367,6 +1367,7 @@
   notability:
     aoe2: true
   team: 8
+  aoeelo: 274
 - name: kkab
   country: kr
   esportsearnings: 12943
@@ -1661,6 +1662,7 @@
   id: 76
   notability:
     aoe2: true
+  aoeelo: 373
 - name: Luca
   country: ca
   aoeelo: 250
@@ -2194,6 +2196,7 @@
   id: 104
   notability:
     aoe2: true
+  aoeelo: 220
 - name: James
   country: cn
   esportsearnings: 14708
@@ -2594,6 +2597,7 @@
   id: 132
   notability:
     aoe2: true
+  aoeelo: 319
 - name: Hanyu
   country: cn
   platforms:
@@ -3169,6 +3173,7 @@
   id: 179
   notability:
     aoe2: true
+  aoeelo: 433
 - name: HimT
   country: hk
   esportsearnings: 72997
@@ -4216,6 +4221,7 @@
   liquipedia: LobodeLaNieve
   discord_id: LobodeLaNieve#5431
   team: 13
+  aoeelo: 879
 - name: WaRRioR
   country: ru
   platforms:
@@ -5099,6 +5105,7 @@
     aoe2: true
   twitter:
     - https://twitter.com/aura_lpz
+  aoeelo: 1201
 - name: Moonfaller
   country: nl
   platforms:
@@ -5378,6 +5385,7 @@
   id: 331
   notability:
     aoe2: true
+  aoeelo: 239
 - name: wAkKo
   country: cl
   platforms:
@@ -5565,6 +5573,7 @@
   id: 344
   notability:
     aoe2: true
+  aoeelo: 961
 - name: Valak
   country: cl
   platforms:
@@ -5786,6 +5795,7 @@
   id: 359
   notability:
     aoe2: true
+  aoeelo: 1153
 - name: Good Luck
   country: dk
   platforms:
@@ -5868,6 +5878,7 @@
   id: 366
   notability:
     aoe2: true
+  aoeelo: 1220
 - name: Salted Pepper
   country: nl
   platforms:
@@ -5881,6 +5892,8 @@
     aoe2: true
   discord_id: Salted Pepper#4305
 - name: Mihai
+  aka:
+    - Mihai06
   country: ro
   platforms:
     rl:
@@ -5891,6 +5904,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/mihai06_aoe
+  aoeelo: 878
 - name: Snapy
   country: co
   liquipedia: Snapy
@@ -6451,6 +6465,7 @@
   team: 46
   liquipedia: Nahuel05
   discord_id: Nahuel05_#8518
+  aoeelo: 1049
 - name: Paganini
   country: br
   platforms:
@@ -7060,6 +7075,7 @@
     aoe2: true
   team: 36
   discord_id: HeisenN#7109
+  aoeelo: 665
 - name: Loco_Ser
   country: ar
   platforms:
@@ -7078,6 +7094,7 @@
   notability:
     aoe2: true
   team: 46
+  aoeelo: 819
 - name: Shed
   country: au
   platforms:
@@ -7389,6 +7406,7 @@
   notability:
     aoe2: true
   team: 23
+  aoeelo: 947
 - name: MrPlanner
   country: si
   platforms:
