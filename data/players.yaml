@@ -5879,6 +5879,8 @@
   notability:
     aoe2: true
   aoeelo: 1220
+  twitch:
+    - https://www.twitch.tv/hope220594
 - name: Salted Pepper
   country: nl
   platforms:
@@ -6434,7 +6436,9 @@
       - "309572"
       - "4129359"
   twitch:
-    - https://www.twitch.tv/varvarus_aoe
+    - https://www.twitch.tv/varvarus_aoea
+  youtube:
+    - https://www.youtube.com/channel/UCr-daXEOPfoOIFI1nPEyQOQ
   id: 410
   aoeelo: 927
   notability:
@@ -6668,7 +6672,7 @@
   twitch:
     - https://www.twitch.tv/uzikoti
   youtube:
-    - https://www.youtube.com/channel/UC372upvOX6eiYrdPL55gI4g/videos
+    - https://www.youtube.com/channel/UC372upvOX6eiYrdPL55gI4g
   notability:
     aoe2: true
   team: 18
