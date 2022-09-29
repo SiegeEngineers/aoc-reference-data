@@ -162,7 +162,8 @@
       406,
       427,
       481,
-      510
+      510,
+      533
     ],
     "id": 18
   },
@@ -507,6 +508,7 @@
   {
     "name": "The BrotherHood Kappa",
     "players": [
+      232,
       338,
       413,
       433,
@@ -516,46 +518,54 @@
     "id": 50
   },
   {
-    "name": "PL",
+    "name": "Tuna's Wet Market",
     "players": [
-      56
+      529
     ],
     "id": 51
+  },
+  {
+    "name": "PL",
+    "players": [
+      56,
+      530
+    ],
+    "id": 52
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 52
+    "id": 53
   },
   {
     "name": "One Punch",
     "players": [
       384
     ],
-    "id": 53
+    "id": 54
   },
   {
     "name": "K-GANG",
     "players": [
       304
     ],
-    "id": 54
+    "id": 55
   },
   {
     "name": "Deceptive Baguettes",
     "players": [
       467
     ],
-    "id": 55
+    "id": 56
   },
   {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 56
+    "id": 57
   },
   {
     "name": "QueNaNina",
@@ -564,20 +574,34 @@
       332,
       345
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "French Connexion",
     "players": [
       452
     ],
-    "id": 58
+    "id": 59
+  },
+  {
+    "name": "NoobsQad",
+    "players": [
+      534
+    ],
+    "id": 60
+  },
+  {
+    "name": "Gravity",
+    "players": [
+      535
+    ],
+    "id": 61
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 59
+    "id": 62
   }
 ]

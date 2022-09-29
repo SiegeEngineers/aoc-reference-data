@@ -1340,7 +1340,7 @@
       - "879956"
       - "3558975"
   liquipedia: Dziamdziak
-  team: 51
+  team: 52
   id: 56
   notability:
     aoe2: true
@@ -3289,7 +3289,7 @@
     - https://www.twitch.tv/sobek_aoe
   youtube:
     - http://www.youtube.com/channel/UCVH-sSxnCZtqJJmbtggTCxQ/feed
-  team: 57
+  team: 58
   aoeelo: 499
   id: 191
   notability:
@@ -3907,6 +3907,7 @@
   notability:
     aoe2: true
   discord_id: OnLeKe#5721
+  team: 50
 - name: Babaorum
   country: fr
   platforms:
@@ -4929,7 +4930,7 @@
     - https://www.twitch.tv/ultra_coming
   youtube:
     - http://www.youtube.com/channel/UCAm-fFhNAhKPnh3C3XxGdBA
-  team: 52
+  team: 53
   id: 299
   notability:
     aoe2: true
@@ -4990,7 +4991,7 @@
   liquipedia: Kioss3000
   twitch:
     - https://www.twitch.tv/kioss3000
-  team: 54
+  team: 55
   id: 304
   twitter:
     - https://twitter.com/Kioss3000_Tv
@@ -5396,7 +5397,7 @@
   liquipedia: wAkKo
   twitch:
     - https://www.twitch.tv/wakko_aoe
-  team: 57
+  team: 58
   aoeelo: 150
   id: 332
   notability:
@@ -5584,7 +5585,7 @@
   liquipedia: Valak
   twitch:
     - https://www.twitch.tv/imvalak
-  team: 57
+  team: 58
   id: 345
   twitter:
     - https://twitter.com/manuechvrr
@@ -6108,7 +6109,7 @@
     aoe2: true
   discord_id: king_marv#1339
   liquipedia: King_Marv
-  team: 53
+  team: 54
 - name: MingudaiLee
   country: uy
   aoeelo: 725
@@ -6730,7 +6731,7 @@
   liquipedia: Redlash
   twitch:
     - https://www.twitch.tv/redlash_
-  team: 56
+  team: 57
 - name: Hackali
   country: tr
   platforms:
@@ -6980,7 +6981,7 @@
   notability:
     aoe2: true
   aoeelo: 621
-  team: 58
+  team: 59
   discord_id: Wraith#7449
 - name: Tulendeena
   country: au
@@ -7047,6 +7048,7 @@
       - '96571'
       - '2745300'
       - '2599393'
+      - '8359256'
   liquipedia: C3mbrich
   id: 458
   notability:
@@ -7172,7 +7174,7 @@
   id: 467
   notability:
     aoe2: true
-  team: 55
+  team: 56
   aoeelo: 956
   twitch:
     - https://www.twitch.tv/lockeaoe
@@ -7712,7 +7714,7 @@
     - https://twitter.com/x0r6zt
   twitch:
     - https://www.twitch.tv/x0r6zt
-  team: 59
+  team: 62
   aoeelo: 1117
 - name: Solara
   country: il
@@ -7755,3 +7757,76 @@
     aoe2: true
   team: 28
   aoeelo: 797
+- name: Big Tuna
+  country: us
+  platforms:
+    rl:
+      - '303714'
+  liquipedia: Big Tuna
+  id: 529
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/Big__Tuna
+  team: 51
+- name: Hitorek
+  country: pl
+  platforms:
+    rl:
+      - '993449'
+  liquipedia: Hitorek
+  id: 530
+  notability:
+    aoe2: true
+  team: 52
+- name: Kougrialka
+  country: fr
+  platforms:
+    rl:
+      - '209321'
+  liquipedia: Kougrialka
+  id: 531
+  notability:
+    aoe2: true
+- name: Nectarie
+  country: ro
+  platforms:
+    rl:
+      - '250615'
+  liquipedia: Nectarie
+  id: 532
+  notability:
+    aoe2: true
+- name: PLP
+  country: fr
+  platforms:
+    rl:
+      - '1619463'
+      - '3245466'
+  liquipedia: PLP
+  id: 533
+  notability:
+    aoe2: true
+  team: 18
+- name: daehiise
+  country: ch
+  platforms:
+    rl:
+      - '247781'
+  liquipedia: daehiise
+  id: 534
+  notability:
+    aoe2: true
+  twitter:
+    - https://twitter.com/daehiise
+  team: 60
+- name: kunyi
+  country: hu
+  platforms:
+    rl:
+      - '1594220'
+  liquipedia: kunyi
+  id: 535
+  notability:
+    aoe2: true
+  team: 61
