@@ -7808,6 +7808,8 @@
   notability:
     aoe2: true
   team: 18
+  twitch:
+    - https://www.twitch.tv/plp_aoe
 - name: daehiise
   country: ch
   platforms:
