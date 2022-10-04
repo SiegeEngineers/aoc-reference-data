@@ -234,6 +234,7 @@
   notability:
     aoe2: true
   discord_id: dogao#8057
+  team: 61
 - name: TaToH
   country: es
   esportsearnings: 41416
@@ -7555,6 +7556,7 @@
   notability:
     aoe2: true
   id: 503
+  team: 36
 - name: Lord Envidiates
   country: mx
   platforms:
