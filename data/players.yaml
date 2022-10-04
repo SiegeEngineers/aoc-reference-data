@@ -7557,6 +7557,9 @@
     aoe2: true
   id: 503
   team: 36
+  liquipedia: Dexter
+  twitch:
+    - https://www.twitch.tv/TM__Dexter
 - name: Lord Envidiates
   country: mx
   platforms:
@@ -7835,3 +7838,12 @@
   notability:
     aoe2: true
   team: 61
+- name: Rogier505
+  country: nl
+  platforms:
+    rl:
+      - '239883'
+  liquipedia: Rogier505
+  id: 536
+  notability:
+    aoe2: true
