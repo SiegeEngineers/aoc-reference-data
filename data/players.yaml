@@ -7847,3 +7847,13 @@
   id: 536
   notability:
     aoe2: true
+  team: 28
+- name: Bity_kablem
+  country: pl
+  platforms:
+    rl:
+      - '993449'
+  liquipedia: Bity_kablem
+  id: 539
+  notability:
+    aoe2: true
