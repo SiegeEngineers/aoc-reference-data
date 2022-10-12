@@ -112,6 +112,7 @@
       - "9873875"
       - "10198859"
       - "10710012"
+      - "11406458"
   team: 45
   id: 4
   notability:
@@ -5784,6 +5785,7 @@
     - https://www.youtube.com/channel/UCkONYmgc8jP97a4AXQ4yGiA
   discord:
     - https://discord.gg/HXFSj2R
+  discord_id: FlyLikeDjango#0388
   steam:
     - 76561199072158541
   id: 358
@@ -5943,6 +5945,7 @@
   aoeelo: 1151
   notability:
     aoe2: true
+  discord_id: Minh Anh#8792
 - name: Andre_2i
   country: ro
   aoeelo: 790
@@ -7858,3 +7861,14 @@
   id: 539
   notability:
     aoe2: true
+- name: RAY
+  country: us
+  platforms:
+    rl:
+      - '213474'
+  liquipedia: RAY
+  id: 540
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/rayaoe
