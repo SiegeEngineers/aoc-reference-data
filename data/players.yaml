@@ -49,7 +49,7 @@
       - "1826483" # William the Conqueror
       - "2644601" # mbl2
       - "4422938" # mbl3
-  team: 4
+  team: 5
   id: 2
   notability:
     aoe2: true
@@ -112,6 +112,7 @@
       - "9873875"
       - "10198859"
       - "10710012"
+      - "11406458"
       - "11406458"
   team: 45
   id: 4
@@ -551,7 +552,7 @@
     rl:
       - "506898"
       - "1829588" # sancho
-  team: 4
+  team: 5
   id: 23
   notability:
     aoe2: true
@@ -662,7 +663,7 @@
       - "1847121" # Kotyan
       - "3209724" # WeWinThose
       - "4423546"
-  team: 4
+  team: 5
   id: 27
   notability:
     aoe2: true
@@ -924,7 +925,7 @@
       - "2609359" # Nico
       - "5400429"
       - "9473909"
-  team: 4
+  team: 5
   id: 37
   notability:
     aoe2: true
@@ -2154,7 +2155,7 @@
       - "124386524"
     rl:
       - "582058"
-  team: 4
+  team: 5
   youtube:
     - http://www.youtube.com/channel/UCOtdNcfA05JODTx1cBlniyg
   aoeelo: 26
@@ -3644,7 +3645,7 @@
   liquipedia: Dark
   aoeelo: 752
   id: 215
-  team: 3
+  team: 4
   notability:
     aoe2: true
   discord_id: Dark_#6351
@@ -3718,7 +3719,7 @@
   id: 220
   notability:
     aoe2: true
-  team: 7
+  team: 3
 - name: BL4CK
   country: ar
   platforms:
@@ -5175,7 +5176,7 @@
   id: 316
   notability:
     aoe2: true
-  team: 5
+  team: 6
 - name: OLADUSHEK
   country: by
   platforms:
@@ -5360,7 +5361,7 @@
     - https://www.twitch.tv/tinytriss
   youtube:
     - http://www.youtube.com/channel/UCpu3umqSx5cA2qkvWCUp02w
-  team: 5
+  team: 6
   id: 329
   twitter:
     - https://twitter.com/tiny_triss
@@ -7169,7 +7170,7 @@
   id: 466
   notability:
     aoe2: true
-  team: 5
+  team: 6
 - name: Locke
   country: us
   platforms:

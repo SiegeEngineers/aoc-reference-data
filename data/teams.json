@@ -19,11 +19,18 @@
     "id": 2
   },
   {
+    "name": "2k for jesus",
+    "players": [
+      220
+    ],
+    "id": 3
+  },
+  {
     "name": "3D!Clan",
     "players": [
       215
     ],
-    "id": 3
+    "id": 4
   },
   {
     "name": "Aftermath",
@@ -34,7 +41,7 @@
       37,
       102
     ],
-    "id": 4
+    "id": 5
   },
   {
     "name": "Age of Queens",
@@ -43,19 +50,12 @@
       329,
       466
     ],
-    "id": 5
+    "id": 6
   },
   {
     "name": "Age4greeks",
     "players": [
       161
-    ],
-    "id": 6
-  },
-  {
-    "name": "Albis Onis Lobias",
-    "players": [
-      220
     ],
     "id": 7
   },
@@ -365,7 +365,6 @@
     "name": "Team Maswi",
     "players": [
       408,
-      429,
       460,
       503,
       506
