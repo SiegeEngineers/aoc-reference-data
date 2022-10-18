@@ -5506,6 +5506,7 @@
       - "2944434"
       - "5829363"
       - "9298780"
+      - "4124760"
     voobly:
       - "133845"
   aoeelo: 898
@@ -6089,6 +6090,7 @@
       - "243287"
       - "9699534"
       - "3217607"
+      - "3103118"
   id: 382
   notability:
     aoe2: true
@@ -6517,6 +6519,7 @@
   liquipedia: TRM
   youtube:
     - https://www.youtube.com/channel/UCvFyefzqTqvgAsy7XjXYEwg
+  discord_id: TRM#9140
 - name: Tea
   country: gb
   platforms:
