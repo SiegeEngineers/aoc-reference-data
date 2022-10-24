@@ -82,7 +82,7 @@
   notability:
     aoe2: true
   discord_id: BacT#0982
-  team: 42
+  team: 43
 - name: Vivi
   aka:
     - FAT_PIG
@@ -117,7 +117,7 @@
   id: 4
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: Yo
   country: cn
   esportsearnings: 14713
@@ -145,7 +145,7 @@
   notability:
     aoe2: true
   discord_id: Mr_Yo#0944
-  team: 45
+  team: 46
 - name: Xiaofan
   country: cn
   aoeelo: 36
@@ -236,7 +236,7 @@
   notability:
     aoe2: true
   discord_id: dogao#8057
-  team: 61
+  team: 62
 - name: TaToH
   country: es
   esportsearnings: 41416
@@ -290,7 +290,7 @@
   id: 11
   notability:
     aoe2: true
-  team: 31
+  team: 32
 - name: Modri
   country: si
   platforms:
@@ -311,7 +311,7 @@
   notability:
     aoe2: true
   discord_id: Modri#6980
-  team: 37
+  team: 38
 - name: Kotex
   country: vn
   platforms:
@@ -342,7 +342,7 @@
   notability:
     aoe2: true
   discord_id: Barles#8803
-  team: 37
+  team: 38
 - name: saymyname
   aka:
     - Yellow
@@ -369,7 +369,7 @@
   notability:
     aoe2: true
   discord_id: saymyname#1200
-  team: 42
+  team: 43
 - name: Chart
   country: jp
   aoeelo: 68
@@ -404,7 +404,7 @@
   notability:
     aoe2: true
   discord_id: valass#8425
-  team: 37
+  team: 38
 - name: StrayDog
   country: cn
   aoeelo: 64
@@ -430,7 +430,7 @@
     aoe2: true
   douyu:
     - https://www.douyu.com/891497
-  team: 45
+  team: 46
 - name: F1Re
   country: br
   esportsearnings: 14714
@@ -480,7 +480,7 @@
   notability:
     aoe2: true
   discord_id: ACCM#0539
-  team: 42
+  team: 43
 - name: Tim
   country: cn
   esportsearnings: 12949
@@ -513,7 +513,7 @@
     - https://www.douyu.com/7833734
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: CooL
   country: vn
   aoeelo: 17
@@ -533,7 +533,7 @@
     - https://www.youtube.com/channel/UCr5TmYmhh6EkunbRp_-wbzQ
   notability:
     aoe2: true
-  team: 42
+  team: 43
 - name: Liereyy
   country: at
   esportsearnings: 41415
@@ -606,7 +606,7 @@
   id: 25
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: DauT
   country: rs
   esportsearnings: 12247
@@ -718,7 +718,7 @@
   id: 29
   notability:
     aoe2: true
-  team: 47
+  team: 48
 - name: Zuppi
   country: fi
   aoeelo: 50
@@ -739,7 +739,7 @@
   notability:
     aoe2: true
   discord_id: Zuppi#2702
-  team: 35
+  team: 36
 - name: DracKeN
   aka:
     - DraconT
@@ -851,7 +851,7 @@
   notability:
     aoe2: true
   discord_id: Daniel_#5000
-  team: 47
+  team: 48
 - name: Yinghua
   aka:
     - LoveCheng
@@ -899,7 +899,7 @@
   id: 36
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: Nicov
   country: ar
   esportsearnings: 14718
@@ -993,7 +993,7 @@
   notability:
     aoe2: true
   discord_id: TheMax#9145
-  team: 35
+  team: 36
 - name: Villese
   country: fi
   aoeelo: 51
@@ -1013,7 +1013,7 @@
   notability:
     aoe2: true
   discord_id: Villese#1612
-  team: 35
+  team: 36
 - name: RiuT
   country: br
   esportsearnings: 12244
@@ -1137,7 +1137,7 @@
   notability:
     aoe2: true
   discord_id: Sitaux#7654
-  team: 47
+  team: 48
 - name: Rubenstock
   country: fi
   aoeelo: 53
@@ -1154,7 +1154,7 @@
   notability:
     aoe2: true
   discord_id: Rubenstock#5222
-  team: 35
+  team: 36
 - name: Hoang
   country: vn
   liquipedia: Hoang
@@ -1192,7 +1192,7 @@
   id: 49
   notability:
     aoe2: true
-  team: 28
+  team: 29
 - name: Ganji
   country: se
   aoeelo: 458
@@ -1214,7 +1214,7 @@
   notability:
     aoe2: true
   discord_id: Ganji#2171
-  team: 37
+  team: 38
 - name: Kasva
   country: tr
   aoeelo: 195
@@ -1283,7 +1283,7 @@
   notability:
     aoe2: true
   discord_id: Noisick#4419
-  team: 28
+  team: 29
 - name: Inc
   country: us
   aoeelo: 323
@@ -1348,7 +1348,7 @@
   notability:
     aoe2: true
   discord_id: dziam#5626
-  team: 52
+  team: 53
 - name: Ppoc
   country: es
   platforms:
@@ -1404,7 +1404,7 @@
   id: 60
   notability:
     aoe2: true
-  team: 41
+  team: 42
 - name: Koven
   country: kr
   esportsearnings: 22414
@@ -1433,7 +1433,7 @@
   id: 62
   notability:
     aoe2: true
-  team: 41
+  team: 42
 - name: RD_ChampioN
   country: kr
   platforms:
@@ -1555,7 +1555,7 @@
   id: 69
   notability:
     aoe2: true
-  team: 30
+  team: 31
 - name: Iori
   country: cn
   esportsearnings: 66423
@@ -1684,7 +1684,7 @@
   id: 77
   notability:
     aoe2: true
-  team: 28
+  team: 29
 - name: Lojza
   country: cz
   aoeelo: 58
@@ -1752,7 +1752,7 @@
   id: 81
   notability:
     aoe2: true
-  team: 35
+  team: 36
 - name: Vodka
   country: it
   aoeelo: 129
@@ -1774,7 +1774,7 @@
   notability:
     aoe2: true
   discord_id: Vodka#7250
-  team: 28
+  team: 29
 - name: Spaden
   country: se
   aoeelo: 65
@@ -1811,7 +1811,7 @@
   notability:
     aoe2: true
   discord_id: Monoz#8435
-  team: 46
+  team: 47
 - name: Whoop
   country: cn
   esportsearnings: 43219
@@ -1833,7 +1833,7 @@
   id: 85
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: Kief
   country: ru
   platforms:
@@ -1896,7 +1896,7 @@
   notability:
     aoe2: true
   discord_id: songsong#3086
-  team: 42
+  team: 43
 - name: Air_Abu
   country: cn
   esportsearnings: 14710
@@ -1915,7 +1915,7 @@
   liquipedia: Air_Abu
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: 8th Wonder
   country: lv
   platforms:
@@ -1955,7 +1955,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/salzz_classicpro
-  team: 31
+  team: 32
 - name: Ralber
   country: es
   twitch:
@@ -1977,7 +1977,7 @@
     aoe2: true
   twitter:
     - https://twitter.com/rAlbErTV
-  team: 39
+  team: 40
 - name: DreaIVIS
   country: fi
   platforms:
@@ -2179,7 +2179,7 @@
   id: 103
   notability:
     aoe2: true
-  team: 38
+  team: 39
 - name: Miss_Xue
   aka:
     - NO_23
@@ -2214,7 +2214,7 @@
   id: 105
   notability:
     aoe2: true
-  team: 30
+  team: 31
 - name: Feanor
   country: ie
   aoeelo: 9
@@ -2251,7 +2251,7 @@
   id: 107
   notability:
     aoe2: true
-  team: 38
+  team: 39
 - name: Juan
   country: ar
   platforms:
@@ -2312,7 +2312,7 @@
   notability:
     aoe2: true
   discord_id: Jupe#1196
-  team: 35
+  team: 36
 - name: Dobbs
   country: dk
   twitch:
@@ -2350,7 +2350,7 @@
   notability:
     aoe2: true
   discord_id: Kamigawa#3787
-  team: 28
+  team: 29
 - name: CL
   country: cn
   aoeelo: 34
@@ -2373,7 +2373,7 @@
   id: 114
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: Kongensgade
   country: dk
   aoeelo: 132
@@ -2407,7 +2407,7 @@
   liquipedia: xiaoxiong
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: hs
   country: cn
   platforms:
@@ -2514,7 +2514,7 @@
   id: 125
   notability:
     aoe2: true
-  team: 39
+  team: 40
 - name: DriNkY
   country: de
   platforms:
@@ -2662,7 +2662,7 @@
   id: 138
   notability:
     aoe2: true
-  team: 28
+  team: 29
 - name: chaos_2_win
   country: de
   platforms:
@@ -2760,7 +2760,7 @@
   notability:
     aoe2: true
   discord_id: GoldenEnd#2484
-  team: 28
+  team: 29
 - name: Elfanor
   country: be
   platforms:
@@ -2946,7 +2946,7 @@
   id: 158
   notability:
     aoe2: true
-  team: 48
+  team: 49
 - name: Rodrigus
   country: ar
   aoeelo: 449
@@ -2984,7 +2984,7 @@
   twitch:
     - https://www.twitch.tv/nc_skittle_
   discord_id: nC_Skittle_#1100
-  team: 48
+  team: 49
 - name: Jidba
   country: gr
   esportsearnings: 15926
@@ -3001,7 +3001,7 @@
   id: 161
   notability:
     aoe2: true
-  team: 41
+  team: 42
 - name: IamKen
   country: cn
   esportsearnings: 2174
@@ -3106,7 +3106,7 @@
   id: 172
   notability:
     aoe2: true
-  team: 26
+  team: 27
 - name: WraTh
   country: br
   esportsearnings: 12956
@@ -3295,7 +3295,7 @@
   id: 191
   notability:
     aoe2: true
-  team: 58
+  team: 59
 - name: Hallis
   country: gb
   twitch:
@@ -3313,7 +3313,7 @@
   id: 192
   notability:
     aoe2: true
-  team: 28
+  team: 29
 - name: FletcheR
   country: "no"
   esportsearnings: 67412
@@ -3373,7 +3373,7 @@
   aoeelo: 1149
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: Kyo
   country: hk
   platforms:
@@ -3443,7 +3443,7 @@
   id: 203
   notability:
     aoe2: true
-  team: 39
+  team: 40
 - name: LeAsH
   country: us
   twitch:
@@ -3459,7 +3459,7 @@
   id: 204
   notability:
     aoe2: true
-  team: 26
+  team: 27
 - name: Repard
   country: ru
   platforms:
@@ -3490,7 +3490,7 @@
   id: 206
   notability:
     aoe2: true
-  team: 34
+  team: 35
 - name: Daywalker
   country: gb
   platforms:
@@ -3506,7 +3506,7 @@
   id: 207
   notability:
     aoe2: true
-  team: 34
+  team: 35
 - name: l2aGe
   country: gb
   platforms:
@@ -3520,7 +3520,7 @@
   id: 208
   notability:
     aoe2: true
-  team: 26
+  team: 27
 - name: Bruh
   country: br
   twitch:
@@ -3540,7 +3540,7 @@
   notability:
     aoe2: true
   discord_id: bruh#0768
-  team: 26
+  team: 27
 - name: ashleylynn
   country: us
   twitch:
@@ -3629,7 +3629,7 @@
   notability:
     aoe2: true
   discord_id: Rise#6860
-  team: 28
+  team: 29
 - name: Dark
   country: ru
   twitch:
@@ -3675,7 +3675,7 @@
     aoe2: true
   douyu:
     - https://www.douyu.com/9404502
-  team: 45
+  team: 46
 - name: seyaren
   country: cn
   platforms:
@@ -3688,7 +3688,7 @@
   id: 218
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: Badboy
   country: vn
   platforms:
@@ -3704,7 +3704,7 @@
   notability:
     aoe2: true
   discord_id: badboy190791#5677
-  team: 42
+  team: 43
 - name: RecoN
   country: gb
   platforms:
@@ -3777,7 +3777,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/keno_aoe
-  team: 32
+  team: 33
 - name: JackK
   country: pl
   twitch:
@@ -3821,7 +3821,7 @@
   id: 227
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: Kellar
   country: "no"
   platforms:
@@ -3840,7 +3840,7 @@
   id: 228
   notability:
     aoe2: true
-  team: 37
+  team: 38
 - name: Carbo
   country: ar
   platforms:
@@ -3889,7 +3889,7 @@
     - https://twitter.com/BlukuuktaN
   notability:
     aoe2: true
-  team: 32
+  team: 33
 - name: OnLeKe
   country: br
   platforms:
@@ -3909,7 +3909,7 @@
   notability:
     aoe2: true
   discord_id: OnLeKe#5721
-  team: 50
+  team: 51
 - name: Babaorum
   country: fr
   platforms:
@@ -3938,7 +3938,7 @@
   id: 234
   notability:
     aoe2: true
-  team: 32
+  team: 33
 - name: Darknoob
   country: nl
   platforms:
@@ -4243,7 +4243,7 @@
   id: 254
   notability:
     aoe2: true
-  team: 31
+  team: 32
 - name: klavskis
   country: lv
   platforms:
@@ -4285,7 +4285,7 @@
   id: 257
   notability:
     aoe2: true
-  team: 28
+  team: 29
 - name: Xhing
   country: us
   twitch:
@@ -4407,7 +4407,7 @@
     - https://www.youtube.com/channel/UCE5W05JUi_TIhykdXTa1TWQ
   notability:
     aoe2: true
-  team: 28
+  team: 29
 - name: fatman
   country: de
   platforms:
@@ -4537,7 +4537,7 @@
   id: 270
   notability:
     aoe2: true
-  team: 31
+  team: 32
 - name: Alperen
   country: tr
   platforms:
@@ -4553,7 +4553,7 @@
   id: 271
   notability:
     aoe2: true
-  team: 49
+  team: 50
 - name: CX_youwei
   country: cn
   platforms:
@@ -4612,7 +4612,7 @@
   twitter:
     - https://twitter.com/Annotoph_AoE
   discord_id: Annotoph#3948
-  team: 47
+  team: 48
 - name: RookStar
   country: br
   platforms:
@@ -4667,7 +4667,7 @@
   notability:
     aoe2: true
   discord_id: Whitecourt#9227
-  team: 28
+  team: 29
 - name: Gabi
   country: br
   platforms:
@@ -4727,7 +4727,7 @@
   notability:
     aoe2: true
   discord_id: nC_Andorin#3135
-  team: 48
+  team: 49
 - name: Clemensor
   country: at
   platforms:
@@ -4745,7 +4745,7 @@
   id: 284
   notability:
     aoe2: true
-  team: 26
+  team: 27
 - name: Cortical
   country: us
   platforms:
@@ -4755,7 +4755,7 @@
   id: 285
   notability:
     aoe2: true
-  team: 26
+  team: 27
 - name: ffavorite
   country: us
   platforms:
@@ -4765,7 +4765,7 @@
   id: 286
   notability:
     aoe2: true
-  team: 26
+  team: 27
 - name: PaladiNz
   country: ca
   platforms:
@@ -4776,7 +4776,7 @@
   id: 287
   notability:
     aoe2: true
-  team: 26
+  team: 27
 - name: Bean Dip
   country: us
   platforms:
@@ -4800,7 +4800,7 @@
   notability:
     aoe2: true
   discord_id: Bourbon#7787
-  team: 29
+  team: 30
 - name: Ass_Kickerwa
   country: in
   platforms:
@@ -4810,7 +4810,7 @@
   id: 290
   notability:
     aoe2: true
-  team: 33
+  team: 34
 - name: Cl3m3nT
   aka:
     - Cl3m3nT_AoE
@@ -4841,7 +4841,7 @@
   id: 292
   notability:
     aoe2: true
-  team: 43
+  team: 44
 - name: Ellie4K
   country: ca
   platforms:
@@ -4892,7 +4892,7 @@
   id: 296
   notability:
     aoe2: true
-  team: 34
+  team: 35
 - name: GriN
   country: ru
   platforms:
@@ -4906,7 +4906,7 @@
   id: 297
   notability:
     aoe2: true
-  team: 29
+  team: 30
 - name: HamRTime
   country: au
   platforms:
@@ -4933,7 +4933,7 @@
   id: 299
   notability:
     aoe2: true
-  team: 53
+  team: 54
 - name: Improvise
   country: us
   platforms:
@@ -4943,7 +4943,7 @@
   id: 300
   notability:
     aoe2: true
-  team: 26
+  team: 27
 - name: JazBas
   country: nz
   platforms:
@@ -4996,7 +4996,7 @@
     - https://twitter.com/Kioss3000_Tv
   notability:
     aoe2: true
-  team: 55
+  team: 56
 - name: L3af
   country: us
   platforms:
@@ -5006,7 +5006,7 @@
   id: 305
   notability:
     aoe2: true
-  team: 26
+  team: 27
 - name: Loris
   country: it
   platforms:
@@ -5052,7 +5052,7 @@
   twitter:
     - https://twitter.com/Margougou21
   discord_id: Margougou#1764
-  team: 47
+  team: 48
 - name: MarineLorD
   aka:
     - Mlord
@@ -5130,7 +5130,7 @@
   notability:
     aoe2: true
   discord_id: mr.moon#9583
-  team: 29
+  team: 30
 - name: Neromelnick
   country: cl
   platforms:
@@ -5158,7 +5158,7 @@
   notability:
     aoe2: true
   discord_id: NickAoE#4649
-  team: 25
+  team: 26
 - name: Ning_
   country: tw
   platforms:
@@ -5187,7 +5187,7 @@
   notability:
     aoe2: true
   discord_id: OLADUSHEK#8106
-  team: 29
+  team: 30
 - name: Odette
   country: cz
   platforms:
@@ -5374,7 +5374,7 @@
   id: 330
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: noboru
   country: jp
   platforms:
@@ -5400,7 +5400,7 @@
   notability:
     aoe2: true
   discord_id: wAkKo#4028
-  team: 58
+  team: 59
 - name: Ubetnir
   country: tr
   platforms:
@@ -5491,7 +5491,7 @@
   notability:
     aoe2: true
   liquipedia: AnTiDeMoN
-  team: 50
+  team: 51
 - name: Yasin
   aka:
     - Yax
@@ -5562,7 +5562,7 @@
   id: 343
   notability:
     aoe2: true
-  team: 34
+  team: 35
 - name: RollsRoyce
   country: vn
   platforms:
@@ -5589,7 +5589,7 @@
     - https://twitter.com/manuechvrr
   notability:
     aoe2: true
-  team: 58
+  team: 59
 - name: Ripvanwinkle
   country: tr
   platforms:
@@ -5679,7 +5679,7 @@
   id: 351
   notability:
     aoe2: true
-  team: 27
+  team: 28
 - name: Fish
   country: vn
   platforms:
@@ -5709,7 +5709,7 @@
   notability:
     aoe2: true
   discord_id: CZ_Somero#8701
-  team: 37
+  team: 38
 - name: Emil
   country: dk
   platforms:
@@ -5823,6 +5823,7 @@
   notability:
     aoe2: true
   discord_id: Fanjita#1337
+  team: 26
 - name: Sensar
   country: us
   platforms:
@@ -5928,7 +5929,7 @@
   notability:
     aoe2: true
   discord_id: Snapy#0016
-  team: 27
+  team: 28
 - name: Minh Anh
   country: vn
   facebook_gaming:
@@ -6001,6 +6002,7 @@
   twitch:
     - https://www.twitch.tv/darvoi
   liquipedia: darvoi
+  team: 26
 - name: Dench
   country: ru
   aoeelo: 649
@@ -6012,7 +6014,7 @@
   liquipedia: Dench
   notability:
     aoe2: true
-  team: 44
+  team: 45
 - name: Dr.Kozmonot
   country: tr
   aoeelo: 886
@@ -6089,7 +6091,7 @@
   id: 382
   notability:
     aoe2: true
-  team: 45
+  team: 46
 - name: Ivanenko
   country: ar
   aoeelo: 826
@@ -6112,7 +6114,7 @@
     aoe2: true
   discord_id: king_marv#1339
   liquipedia: King_Marv
-  team: 54
+  team: 55
 - name: MingudaiLee
   country: uy
   aoeelo: 725
@@ -6156,7 +6158,7 @@
   liquipedia: Snyper1
   notability:
     aoe2: true
-  team: 48
+  team: 49
 - name: Socksyy
   country: au
   aoeelo: 447
@@ -6363,7 +6365,7 @@
     aoe2: true
   liquipedia: PhilippHJS
   discord_id: PhilippHJS#0944
-  team: 48
+  team: 49
 - name: SonyToprano
   country: tr
   platforms:
@@ -6392,6 +6394,8 @@
     aoe2: true
   discord_id: Capout#8852
   liquipedia: Capout
+  twitter:
+    - https://twitter.com/CapoutFR
   team: 18
 - name: Torrelles
   country: es
@@ -6417,7 +6421,7 @@
   notability:
     aoe2: true
   discord_id: uno1#6661
-  team: 36
+  team: 37
 - name: Bulletchen
   country: ch
   platforms:
@@ -6434,7 +6438,7 @@
     - https://www.youtube.com/user/MrGamal100
   notability:
     aoe2: true
-  team: 47
+  team: 48
 - name: VarVarus
   country: ar
   platforms:
@@ -6475,7 +6479,7 @@
   liquipedia: Nahuel05
   discord_id: Nahuel05_#8518
   aoeelo: 1049
-  team: 46
+  team: 47
 - name: Paganini
   country: br
   platforms:
@@ -6496,7 +6500,7 @@
   notability:
     aoe2: true
   discord_id: Paganini#0214
-  team: 50
+  team: 51
 - name: TRM
   country: ch
   platforms:
@@ -6604,7 +6608,7 @@
   id: 420
   notability:
     aoe2: true
-  team: 27
+  team: 28
 - name: ObaTheGreatt
   country: br
   platforms:
@@ -6734,7 +6738,7 @@
   liquipedia: Redlash
   twitch:
     - https://www.twitch.tv/redlash_
-  team: 57
+  team: 58
 - name: Hackali
   country: tr
   platforms:
@@ -6757,7 +6761,7 @@
   notability:
     aoe2: true
   liquipedia: Kenshin
-  team: 50
+  team: 51
 - name: HumzaCrumza
   country: us
   platforms:
@@ -6787,7 +6791,7 @@
   notability:
     aoe2: true
   discord_id: Faraday#6459
-  team: 50
+  team: 51
 - name: AirCooL
   country: se
   platforms:
@@ -6932,7 +6936,7 @@
   id: 448
   notability:
     aoe2: true
-  team: 46
+  team: 47
 - name: Martinhs
   country: br
   platforms:
@@ -6948,7 +6952,7 @@
     - https://www.twitch.tv/martinhsbr
   notability:
     aoe2: true
-  team: 50
+  team: 51
 - name: speedlimit
   country: ru
   platforms:
@@ -6983,7 +6987,7 @@
     aoe2: true
   aoeelo: 621
   discord_id: Wraith#7449
-  team: 59
+  team: 60
 - name: Tulendeena
   country: au
   platforms:
@@ -7071,7 +7075,7 @@
   notability:
     aoe2: true
   aoeelo: 756
-  team: 43
+  team: 44
 - name: Heisen
   country: ar
   platforms:
@@ -7084,7 +7088,7 @@
     aoe2: true
   discord_id: HeisenN#7109
   aoeelo: 665
-  team: 36
+  team: 37
 - name: Loco_Ser
   country: ar
   platforms:
@@ -7103,7 +7107,7 @@
   notability:
     aoe2: true
   aoeelo: 819
-  team: 46
+  team: 47
 - name: Shed
   country: au
   platforms:
@@ -7138,7 +7142,7 @@
   twitch:
     - https://www.twitch.tv/quendi_kelar
   aoeelo: 1276
-  team: 26
+  team: 27
 - name: ClemoL45
   country: fr
   platforms:
@@ -7179,7 +7183,7 @@
   twitch:
     - https://www.twitch.tv/lockeaoe
   discord_id: Locke#1464
-  team: 56
+  team: 57
 - name: TutusAsylum
   country: fr
   platforms:
@@ -7443,7 +7447,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/zaryab
-  team: 26
+  team: 27
 - name: squeak
   country: sk
   platforms:
@@ -7495,6 +7499,7 @@
   aoeelo: 801
   notability:
     aoe2: true
+  team: 26
 - name: dog9you
   country: hk
   platforms:
@@ -7532,7 +7537,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/hazzy_aoe
-  team: 34
+  team: 35
 - name: AR12
   country: de
   aoeelo: 1041
@@ -7558,7 +7563,7 @@
   liquipedia: Dexter
   twitch:
     - https://www.twitch.tv/TM__Dexter
-  team: 36
+  team: 37
 - name: Lord Envidiates
   country: mx
   platforms:
@@ -7575,7 +7580,7 @@
   liquipedia: Lord Envidiates
   youtube:
     - https://www.youtube.com/channel/UCESok43ZyL5f3NIV6dcORqg
-  team: 27
+  team: 28
 - name: robo
   country: au
   platforms:
@@ -7603,7 +7608,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/webber_aoe
-  team: 36
+  team: 37
 - name: paradox303
   id: 507
   country: gb-sct
@@ -7652,7 +7657,7 @@
   notability:
     aoe2: true
   aoeelo: 1224
-  team: 46
+  team: 47
 - name: TheAntman
   country: fi
   platforms:
@@ -7693,7 +7698,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/sunsetfire
-  team: 40
+  team: 41
 - name: The Manko
   country: ar
   platforms:
@@ -7720,7 +7725,7 @@
   twitch:
     - https://www.twitch.tv/x0r6zt
   aoeelo: 1117
-  team: 62
+  team: 63
 - name: Solara
   country: il
   platforms:
@@ -7731,7 +7736,7 @@
   notability:
     aoe2: true
   aoeelo: 830
-  team: 26
+  team: 27
 - name: LeeChia
   country: tw
   platforms:
@@ -7761,7 +7766,7 @@
   notability:
     aoe2: true
   aoeelo: 797
-  team: 28
+  team: 29
 - name: Big Tuna
   country: us
   platforms:
@@ -7773,7 +7778,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/Big__Tuna
-  team: 51
+  team: 52
 - name: Hitorek
   country: pl
   platforms:
@@ -7783,7 +7788,7 @@
   id: 530
   notability:
     aoe2: true
-  team: 52
+  team: 53
 - name: Kougrialka
   country: fr
   platforms:
@@ -7826,7 +7831,7 @@
     aoe2: true
   twitter:
     - https://twitter.com/daehiise
-  team: 60
+  team: 61
 - name: kunyi
   country: hu
   platforms:
@@ -7845,7 +7850,7 @@
   id: 536
   notability:
     aoe2: true
-  team: 28
+  team: 29
 - name: Bity_kablem
   country: pl
   platforms:
@@ -7866,3 +7871,40 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/rayaoe
+- name: Archlord
+  country: mx
+  platforms:
+    rl:
+      - '1249720'
+  liquipedia: Archlord
+  id: 542
+  notability:
+    aoe2: true
+  team: 44
+- name: Maxi
+  country: ar
+  platforms:
+    rl:
+      - '216073'
+  liquipedia: Maxi
+  id: 545
+  notability:
+    aoe2: true
+  youtube:
+    - https://www.youtube.com/c/maxiarg
+  team: 11
+- name: MrOsoVC8
+  country: mx
+  platforms:
+    rl:
+      - '1485562'
+      - '4839087'
+  liquipedia: MrOsoVC8
+  id: 547
+  notability:
+    aoe2: true
+  twitter:
+    - https://twitter.com/MrOsoVC8
+  twitch:
+    - https://www.twitch.tv/mrosovc8
+  team: 13
