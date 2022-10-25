@@ -5679,8 +5679,8 @@
   id: 351
   notability:
     aoe2: true
-  team: 28
   aoeelo: 1286
+  team: 28
 - name: Fish
   country: vn
   platforms:
@@ -5930,8 +5930,8 @@
   notability:
     aoe2: true
   discord_id: Snapy#0016
-  team: 28
   aoeelo: 1288
+  team: 28
 - name: Minh Anh
   country: vn
   facebook_gaming:
@@ -6649,6 +6649,7 @@
   notability:
     aoe2: true
   discord_id: King_Boo#0227
+  team: 26
 - name: Poxo
   country: es
   platforms:
@@ -7791,8 +7792,8 @@
   id: 530
   notability:
     aoe2: true
-  team: 53
   aoeelo: 1189
+  team: 53
 - name: Kougrialka
   country: fr
   platforms:
@@ -7855,8 +7856,8 @@
   id: 536
   notability:
     aoe2: true
-  team: 29
   aoeelo: 1173
+  team: 29
 - name: Bity_kablem
   country: pl
   platforms:
@@ -7900,8 +7901,8 @@
     aoe2: true
   youtube:
     - https://www.youtube.com/c/maxiarg
-  team: 11
   aoeelo: 882
+  team: 11
 - name: MrOsoVC8
   country: mx
   platforms:
@@ -7916,5 +7917,5 @@
     - https://twitter.com/MrOsoVC8
   twitch:
     - https://www.twitch.tv/mrosovc8
-  team: 13
   aoeelo: 1246
+  team: 13
