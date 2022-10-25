@@ -5680,6 +5680,7 @@
   notability:
     aoe2: true
   team: 28
+  aoeelo: 1286
 - name: Fish
   country: vn
   platforms:
@@ -5930,6 +5931,7 @@
     aoe2: true
   discord_id: Snapy#0016
   team: 28
+  aoeelo: 1288
 - name: Minh Anh
   country: vn
   facebook_gaming:
@@ -7789,6 +7791,7 @@
   notability:
     aoe2: true
   team: 53
+  aoeelo: 1189
 - name: Kougrialka
   country: fr
   platforms:
@@ -7807,6 +7810,7 @@
   id: 532
   notability:
     aoe2: true
+  aoeelo: 925
 - name: PLP
   country: fr
   platforms:
@@ -7851,6 +7855,7 @@
   notability:
     aoe2: true
   team: 29
+  aoeelo: 1173
 - name: Bity_kablem
   country: pl
   platforms:
@@ -7860,6 +7865,7 @@
   id: 539
   notability:
     aoe2: true
+  aoeelo: 796
 - name: RAY
   country: us
   platforms:
@@ -7871,6 +7877,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/rayaoe
+  aoeelo: 1277
 - name: Archlord
   country: mx
   platforms:
@@ -7893,6 +7900,7 @@
   youtube:
     - https://www.youtube.com/c/maxiarg
   team: 11
+  aoeelo: 882
 - name: MrOsoVC8
   country: mx
   platforms:
@@ -7908,3 +7916,4 @@
   twitch:
     - https://www.twitch.tv/mrosovc8
   team: 13
+  aoeelo: 1246
