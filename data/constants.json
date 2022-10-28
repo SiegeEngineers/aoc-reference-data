@@ -98,6 +98,7 @@
     "5": "Garrison"
   },
   "commands": {
+    "0": "Diplomacy",
     "1": "Speed",
     "5": "Allied Victory",
     "6": "Cheat",
@@ -110,6 +111,11 @@
     "18": "Unqueue Fish Trap",
     "19": "Fish Trap Autoqueue",
     "20": "Default Stance"
+  },
+  "diplomacy": {
+    "0": "Allied",
+    "1": "Neutral",
+    "3": "Enemy"
   },
   "resources": {
     "0": "Food",
