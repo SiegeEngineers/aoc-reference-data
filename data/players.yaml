@@ -4287,6 +4287,8 @@
     aoe2: true
   team: 29
 - name: Xhing
+  aka:
+    - Adam
   country: us
   twitch:
     - https://www.twitch.tv/adam_aoe
