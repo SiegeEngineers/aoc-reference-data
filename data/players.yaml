@@ -7930,3 +7930,20 @@
   notability:
     aoe2: true
   id: 548
+- name: Tomahawk
+  country: br
+  platforms:
+    rl:
+      - '278650'
+  liquipedia: Tomahawk
+  notability:
+    aoe2: true
+  twitter:
+    - https://twitter.com/tomahawk_aoe
+  twitch:
+    - https://www.twitch.tv/tomahawk_aoe
+  youtube:
+    - https://www.youtube.com/c/tomahawk_aoe
+  discord:
+    - https://discord.gg/UAFEHvwMad
+  id: 549
