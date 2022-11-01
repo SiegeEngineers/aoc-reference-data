@@ -387,6 +387,7 @@
   id: 16
   notability:
     aoe2: true
+  discord_id: chart#3873
   team: 15
 - name: Valas
   country: fi
@@ -1475,6 +1476,7 @@
   id: 64
   notability:
     aoe2: true
+  discord_id: _IamChris#6661
 - name: The_Sheriff
   country: us
   platforms:
@@ -2129,6 +2131,7 @@
     aoe2: true
   twitter:
     - https://twitter.com/FeAgeAoE
+  discord_id: FeAge#3568
 - name: Noto
   country: cn
   platforms:
@@ -2393,6 +2396,7 @@
     - https://www.twitch.tv/kongen_42
   notability:
     aoe2: true
+  discord_id: Mabov#7375
 - name: Xiaoxiong
   esportsearnings: 25294
   country: cn
@@ -2794,6 +2798,7 @@
   id: 147
   notability:
     aoe2: true
+  discord_id: Cyclops#7566
   team: 2
 - name: Janik
   country: cz
@@ -2859,6 +2864,7 @@
   id: 152
   notability:
     aoe2: true
+  discord_id: DemonSheep#3538
   team: 24
 - name: Stefan
   country: de
@@ -2888,6 +2894,7 @@
   id: 154
   notability:
     aoe2: true
+  discord_id: kumameow!#9619
   team: 24
 - name: Komtan
   country: jp
@@ -3738,6 +3745,7 @@
   notability:
     aoe2: true
   team: 15
+  discord_id: BLACK#1654
 - name: killpigboy
   country: cn
   platforms:
@@ -3857,6 +3865,7 @@
   notability:
     aoe2: true
   team: 15
+  discord_id: Carbo#4493
 - name: pG_Fire
   country: au
   platforms:
@@ -4124,6 +4133,7 @@
   twitch:
     - https://www.twitch.tv/z40305125
   liquipedia: z40
+  discord_id: stu18004077#1634
 - name: Dratek
   country: cz
   platforms:
@@ -4341,6 +4351,7 @@
   notability:
     aoe2: true
   team: 15
+  discord_id: Pela#4044
 - name: Ertug
   country: tr
   platforms:
@@ -5110,6 +5121,7 @@
   twitter:
     - https://twitter.com/aura_lpz
   aoeelo: 1201
+  discord_id: Mica_#8482
 - name: Moonfaller
   country: nl
   platforms:
@@ -5174,6 +5186,7 @@
   id: 316
   notability:
     aoe2: true
+  discord_id: Abby#3159
   team: 6
 - name: OLADUSHEK
   country: by
@@ -5554,6 +5567,7 @@
     aoe2: true
   youtube:
     - https://www.youtube.com/Albislol
+  discord_id: Albislol#7787
 - name: PoLaR
   country: gb
   platforms:
@@ -5696,6 +5710,7 @@
   liquipedia: Fish
   notability:
     aoe2: true
+  discord_id: chutu#5673  
 - name: Somero
   country: cz
   platforms:
@@ -5960,6 +5975,7 @@
   id: 371
   notability:
     aoe2: true
+  discord_id: Andre_2i#3401
 - name: BarneyS
   country: ca
   aoeelo: 620
@@ -5986,6 +6002,7 @@
     - https://twitter.com/cedric_salette
   liquipedia: c.salette
   team: 18
+  discord_id: c.salette#0653
 - name: Chirris
   country: mx
   aoeelo: 957
@@ -5995,6 +6012,7 @@
   id: 374
   notability:
     aoe2: true
+  discord_id: Chirris#8099
 - name: darvoi
   country: gb
   aoeelo: 753
@@ -6008,6 +6026,7 @@
     - https://www.twitch.tv/darvoi
   liquipedia: darvoi
   team: 26
+  discord_id: darvoi#7298
 - name: Dench
   country: ru
   aoeelo: 649
@@ -6066,6 +6085,7 @@
   liquipedia: Gergis
   twitch:
     - https://www.twitch.tv/gergis__
+  discord_id: Gergis#1153
 - name: GodOfTheGodless
   country: de
   aoeelo: 639
@@ -6470,6 +6490,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/el_matador_5
+  discord_id: El_Matador#8675
 - name: Nahuel05
   country: ar
   platforms:
@@ -6693,6 +6714,7 @@
   notability:
     aoe2: true
   team: 18
+  discord_id: Uzikoti#8715
 - name: cebdos
   country: fr
   platforms:
@@ -6767,6 +6789,7 @@
   notability:
     aoe2: true
   liquipedia: Kenshin
+  discord_id: Kenshin#5831
   team: 51
 - name: HumzaCrumza
   country: us
@@ -6923,6 +6946,7 @@
   aoeelo: 965
   notability:
     aoe2: true
+  discord_id: alphastar#3193
 - name: deaKer
   country: ar
   platforms:
@@ -6933,6 +6957,7 @@
   id: 447
   notability:
     aoe2: true
+  discord_id: IgnacioLM#8356
 - name: ElMago
   country: ar
   platforms:
@@ -6958,6 +6983,7 @@
     - https://www.twitch.tv/martinhsbr
   notability:
     aoe2: true
+  discord_id: martinhs#3182
   team: 51
 - name: speedlimit
   country: ru
@@ -7006,6 +7032,7 @@
   aoeelo: 1141
   twitch:
     - https://www.twitch.tv/Tulendeena
+  discord_id: Tulendeena#5871
 - name: saps
   country: ro
   platforms:
@@ -7018,6 +7045,7 @@
   liquipedia: Saps
   id: 454
   aoeelo: 607
+  discord_id: saps#1826
 - name: Myx4ever
   country: cn
   platforms:
@@ -7126,6 +7154,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/shed_au
+  discord_id: Shed#5361
 - name: Yezris
   country: cz
   platforms:
@@ -7272,6 +7301,7 @@
   id: 473
   aoeelo: 1114
   liquipedia: ElNoniro
+  discord_id: ElNoniro#6006
 - name: roggy
   country: tr
   platforms:
@@ -7441,6 +7471,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/mrplanneraoe
+  discord_id: MrPlanner#2160
   team: 2
 - name: Zaryab
   country: pk
@@ -7506,6 +7537,7 @@
   notability:
     aoe2: true
   team: 26
+  discord_id: steak#6915
 - name: dog9you
   country: hk
   platforms:
@@ -7615,6 +7647,7 @@
   twitch:
     - https://www.twitch.tv/webber_aoe
   team: 37
+  discord_id: webber#0098
 - name: paradox303
   id: 507
   country: gb-sct
@@ -7663,6 +7696,7 @@
   notability:
     aoe2: true
   aoeelo: 1224
+  discord_id: prisma09#4624
   team: 47
 - name: TheAntman
   country: fi
@@ -7693,6 +7727,7 @@
   notability:
     aoe2: true
   aoeelo: 741
+  discord_id: ChriSt_AoE#5214
 - name: sunsetfire
   country: us
   platforms:
@@ -7704,6 +7739,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/sunsetfire
+  discord_id: sunsetfire#2472
   team: 41
 - name: The Manko
   country: ar
@@ -7753,6 +7789,7 @@
   id: 525
   notability:
     aoe2: true
+  discord_id: LEECHIA#3754
 - name: Pyroptere
   country: ch
   platforms:
@@ -7786,6 +7823,7 @@
   twitch:
     - https://www.twitch.tv/Big__Tuna
   team: 52
+  discord_id: Big Tuna#4278
 - name: Hitorek
   country: pl
   platforms:
@@ -7806,6 +7844,7 @@
   id: 531
   notability:
     aoe2: true
+  discord_id: Kougrialka#5378
 - name: Nectarie
   country: ro
   platforms:
@@ -7816,6 +7855,7 @@
   notability:
     aoe2: true
   aoeelo: 925
+  discord_id: Nectarie#4346
 - name: PLP
   country: fr
   platforms:
@@ -7829,6 +7869,7 @@
   twitch:
     - https://www.twitch.tv/plp_aoe
   team: 18
+  discord_id: plp#9997
 - name: daehiise
   country: ch
   platforms:
@@ -7921,6 +7962,7 @@
   twitch:
     - https://www.twitch.tv/mrosovc8
   aoeelo: 1246
+  discord_id: MrOsoVC8#1536
   team: 13
 - name: Target331
   country: de
