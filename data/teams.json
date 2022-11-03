@@ -27,18 +27,27 @@
     "id": 3
   },
   {
+    "name": "Dark Empire",
+    "players": [
+      68,
+      258,
+      390
+    ],
+    "id": 4
+  },
+  {
     "name": "2k for jesus",
     "players": [
       220
     ],
-    "id": 4
+    "id": 5
   },
   {
     "name": "3D!Clan",
     "players": [
       215
     ],
-    "id": 5
+    "id": 6
   },
   {
     "name": "Aftermath",
@@ -49,7 +58,7 @@
       37,
       102
     ],
-    "id": 6
+    "id": 7
   },
   {
     "name": "Age of Queens",
@@ -58,14 +67,14 @@
       329,
       466
     ],
-    "id": 7
+    "id": 8
   },
   {
     "name": "Age4greeks",
     "players": [
       161
     ],
-    "id": 8
+    "id": 9
   },
   {
     "name": "Berserkers",
@@ -74,7 +83,7 @@
       62,
       131
     ],
-    "id": 9
+    "id": 10
   },
   {
     "name": "ChileAoE",
@@ -83,14 +92,14 @@
       332,
       345
     ],
-    "id": 10
+    "id": 11
   },
   {
     "name": "Clan Arg",
     "players": [
       402
     ],
-    "id": 11
+    "id": 12
   },
   {
     "name": "Clan Sigma",
@@ -98,7 +107,7 @@
       442,
       545
     ],
-    "id": 12
+    "id": 13
   },
   {
     "name": "Clown Legion",
@@ -111,7 +120,7 @@
       336,
       457
     ],
-    "id": 13
+    "id": 14
   },
   {
     "name": "Combi Team",
@@ -121,14 +130,6 @@
       253,
       274,
       547
-    ],
-    "id": 14
-  },
-  {
-    "name": "Dark Empire",
-    "players": [
-      68,
-      390
     ],
     "id": 15
   },
