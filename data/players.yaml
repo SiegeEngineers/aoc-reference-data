@@ -7997,3 +7997,11 @@
   discord:
     - https://discord.gg/UAFEHvwMad
   id: 549
+- name: salsicciotto1999
+  country: it
+  platforms:
+    rl:
+      - '2532568'
+  notability:
+    aoe2: true
+  id: 550
