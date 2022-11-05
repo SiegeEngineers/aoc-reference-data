@@ -8005,3 +8005,11 @@
   notability:
     aoe2: true
   id: 550
+- name: Lukas
+  country: de
+  platforms:
+    rl:
+      - '1895882'
+  notability:
+    aoe2: true
+  id: 551
