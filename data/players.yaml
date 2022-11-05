@@ -5426,6 +5426,8 @@
 - name: Ubetnir
   country: tr
   platforms:
+    voobly:
+      - '123327605'
     rl:
       - "6069513"
       - "3392033"
@@ -8013,3 +8015,16 @@
   notability:
     aoe2: true
   id: 551
+- name: ronotovi
+  country: tr
+  platforms:
+    rl:
+      - '1993381'
+      - '5748451'
+      - '6261206'
+  liquipedia: ronotovi
+  id: 557
+  notability:
+    aoe2: true
+  twitch:
+    - https://www.twitch.tv/alican_v2
