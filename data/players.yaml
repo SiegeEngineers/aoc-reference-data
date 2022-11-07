@@ -6865,6 +6865,7 @@
   aoeelo: 937
   notability:
     aoe2: true
+  twitch: https://www.twitch.tv/chrisb_aoe
 - name: Fury
   country: mx
   platforms:
@@ -7124,6 +7125,7 @@
     rl:
       - '583791'
       - '2407064'
+      - '7496811'
   liquipedia: Heisen
   id: 460
   notability:
