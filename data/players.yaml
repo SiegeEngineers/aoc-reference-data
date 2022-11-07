@@ -7694,6 +7694,9 @@
   discord_id: ciskhan#1284
   aoeelo: 1205
   team: 20
+  liquipedia: Ciskhan
+  youtube:
+    - https://www.youtube.com/channel/UCaCFrrglvXjOyshYJlZRqGQ/featured
 - name: Prisma09
   country: ar
   platforms:
@@ -7933,6 +7936,8 @@
   twitch:
     - https://www.twitch.tv/rayaoe
   aoeelo: 1277
+  youtube:
+    - https://www.youtube.com/rayaoe
 - name: Archlord
   country: mx
   platforms:
