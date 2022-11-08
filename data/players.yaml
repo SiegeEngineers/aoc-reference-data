@@ -6865,7 +6865,8 @@
   aoeelo: 937
   notability:
     aoe2: true
-  twitch: https://www.twitch.tv/chrisb_aoe
+  twitch:
+    - https://www.twitch.tv/chrisb_aoe
 - name: Fury
   country: mx
   platforms:
