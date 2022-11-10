@@ -4615,6 +4615,7 @@
     aoe2: true
   liquipedia: KingstoNe
   team: 16
+  aoeelo: 976
 - name: Annotoph
   country: de
   platforms:
@@ -7702,6 +7703,7 @@
   youtube:
     - https://www.youtube.com/channel/UCaCFrrglvXjOyshYJlZRqGQ/featured
   team: 20
+  discord_id: ciskhan#1284
 - name: Prisma09
   country: ar
   platforms:
@@ -7941,6 +7943,7 @@
   twitch:
     - https://www.twitch.tv/rayaoe
   aoeelo: 1277
+  discord_id: RAY#8334
   youtube:
     - https://www.youtube.com/rayaoe
 - name: Archlord
