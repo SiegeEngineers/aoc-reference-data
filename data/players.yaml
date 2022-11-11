@@ -4614,8 +4614,8 @@
   notability:
     aoe2: true
   liquipedia: KingstoNe
-  team: 16
   aoeelo: 976
+  team: 16
 - name: Annotoph
   country: de
   platforms:
@@ -5994,6 +5994,7 @@
   id: 372
   notability:
     aoe2: true
+  liquipedia: Barneys
 - name: c.salette
   country: fr
   aoeelo: 984
