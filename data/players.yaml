@@ -5938,6 +5938,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/mihai06_aoe
+  discord_id: Mihai06#5919
   aoeelo: 878
 - name: Snapy
   country: co
@@ -8011,6 +8012,7 @@
     - https://www.youtube.com/c/tomahawk_aoe
   discord:
     - https://discord.gg/UAFEHvwMad
+  discord_id: Tomahawk#9292
   id: 549
 - name: salsicciotto1999
   country: it
