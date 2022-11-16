@@ -2667,6 +2667,7 @@
   id: 138
   notability:
     aoe2: true
+  discord_id: pete_martell#9173
   team: 31
 - name: chaos_2_win
   country: de
@@ -6269,6 +6270,7 @@
     - https://twitter.com/Dave_AoE
   twitch:
     - https://www.twitch.tv/dave_aoe
+  liquipedia: Dave
   id: 394
   notability:
     aoe2: true
@@ -6359,6 +6361,7 @@
     rl:
       - "4971"
       - "5555119"
+  liquipedia: Nacho_AoE
   twitch:
     - https://www.twitch.tv/nacho_aoe
   twitter:
@@ -7645,6 +7648,7 @@
   notability:
     aoe2: true
   liquipedia: Robo
+  aoeelo: 608
   twitch:
     - https://www.twitch.tv/robo_boro_
   twitter:
@@ -7886,6 +7890,7 @@
   id: 533
   notability:
     aoe2: true
+  aoeelo: 1196
   twitch:
     - https://www.twitch.tv/plp_aoe
   discord_id: plp#9997
@@ -8022,6 +8027,8 @@
       - '2532568'
   notability:
     aoe2: true
+  aoeelo: 1183
+  discord_id: salsicciotto1999#3406
   id: 550
 - name: Lukas
   country: de
@@ -8044,8 +8051,10 @@
   id: 557
   notability:
     aoe2: true
+  aoeelo: 723
   twitch:
     - https://www.twitch.tv/alican_v2
+  discord_id: ronotovi#7483
   team: 2
 - name: Karnal
   country: ru
