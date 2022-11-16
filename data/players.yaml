@@ -8047,3 +8047,12 @@
   twitch:
     - https://www.twitch.tv/alican_v2
   team: 2
+- name: Karnal
+  country: ru
+  platforms:
+    rl:
+      - '381021'
+  liquipedia: Karnal
+  id: 561
+  notability:
+    aoe2: true
