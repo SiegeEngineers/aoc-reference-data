@@ -8067,3 +8067,11 @@
   id: 561
   notability:
     aoe2: true
+- name: ValihrAnt
+  country: lv
+  platforms:
+    rl:
+      - '372704'
+  id: 562
+  notability:
+    aoe2: true
