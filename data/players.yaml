@@ -5694,6 +5694,8 @@
     - https://twitter.com/saladesc
   notability:
     aoe2: true
+  youtube:
+    - https://www.youtube.com/channel/UCno0cUsDebtxNIe9T2X0NZQ
 - name: V1stima
   country: cl
   platforms:
@@ -5962,7 +5964,7 @@
     aoe2: true
   discord_id: Snapy#0016
   aoeelo: 1288
-  team: 30
+  team: 16
 - name: Minh Anh
   country: vn
   facebook_gaming:
