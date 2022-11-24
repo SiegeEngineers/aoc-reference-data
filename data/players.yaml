@@ -4475,6 +4475,8 @@
   notability:
     aoe2: true
   discord_id: Gary_#5277
+  twitch:
+    - https://www.twitch.tv/gary_arg
 - name: Biry
   country: ar
   platforms:
