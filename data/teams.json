@@ -112,6 +112,7 @@
   {
     "name": "Clan Sigma",
     "players": [
+      248,
       442,
       545
     ],
@@ -137,7 +138,6 @@
       250,
       253,
       274,
-      369,
       547
     ],
     "id": 16
@@ -429,12 +429,26 @@
     "id": 42
   },
   {
+    "name": "The BrotherHood Kappa",
+    "players": [
+      209,
+      232,
+      338,
+      413,
+      433,
+      435,
+      446,
+      449
+    ],
+    "id": 43
+  },
+  {
     "name": "The Immortals",
     "players": [
       103,
       107
     ],
-    "id": 43
+    "id": 44
   },
   {
     "name": "ThuG Life",
@@ -443,14 +457,14 @@
       125,
       203
     ],
-    "id": 44
+    "id": 45
   },
   {
     "name": "Time To Trolling",
     "players": [
       517
     ],
-    "id": 45
+    "id": 46
   },
   {
     "name": "TyRanT",
@@ -459,7 +473,7 @@
       62,
       161
     ],
-    "id": 46
+    "id": 47
   },
   {
     "name": "Vietnam Legends",
@@ -471,7 +485,7 @@
       88,
       219
     ],
-    "id": 47
+    "id": 48
   },
   {
     "name": "Vikingos N\u00f3madas",
@@ -480,14 +494,14 @@
       459,
       542
     ],
-    "id": 48
+    "id": 49
   },
   {
     "name": "Vikings",
     "players": [
       376
     ],
-    "id": 49
+    "id": 50
   },
   {
     "name": "White Wolf Palace",
@@ -509,18 +523,16 @@
       330,
       382
     ],
-    "id": 50
+    "id": 51
   },
   {
     "name": "XEVER",
     "players": [
-      84,
       412,
       448,
-      461,
-      511
+      461
     ],
-    "id": 51
+    "id": 52
   },
   {
     "name": "MYinsanity",
@@ -532,7 +544,7 @@
       308,
       409
     ],
-    "id": 52
+    "id": 53
   },
   {
     "name": "New Chapter",
@@ -543,24 +555,12 @@
       388,
       404
     ],
-    "id": 53
+    "id": 54
   },
   {
     "name": "Pcific",
     "players": [
       271
-    ],
-    "id": 54
-  },
-  {
-    "name": "The BrotherHood Kappa",
-    "players": [
-      232,
-      338,
-      413,
-      433,
-      435,
-      449
     ],
     "id": 55
   },
