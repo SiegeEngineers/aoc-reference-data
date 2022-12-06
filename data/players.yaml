@@ -125,6 +125,8 @@
   liquipedia: Yo
   douyu:
     - https://www.douyu.com/753676
+  twitch:
+    - https://www.twitch.tv/sy_yo
   aka:
     - Mr_Yo
   platforms:
@@ -8095,9 +8097,21 @@
   platforms:
     rl:
       - '249653'
+      - '2916893'
   liquipedia: Moneimon
   id: 567
   notability:
     aoe2: true
   twitch:
     - https://www.twitch.tv/moneimon
+- name: Kugelblitz
+  country: de
+  platforms:
+    rl:
+      - '2419773'
+      - '3983466'
+      - '9547213'
+      - '3282264'
+  id: 568
+  notability:
+    aoe2: true
