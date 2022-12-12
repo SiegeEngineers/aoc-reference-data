@@ -8118,3 +8118,24 @@
   id: 568
   notability:
     aoe2: true
+- name: Zuccolo
+  country: it
+  platforms:
+    rl:
+      - '3135672'
+  liquipedia: IKill UDie
+  id: 572
+  aoeelo: 989
+  notability:
+    aoe2: true
+- name: Ezio
+  country: de
+  platforms:
+    rl:
+      - '281038'
+      - '3966488'
+      - '9746939'
+  twitch:
+    - https://www.twitch.tv/ezio__aoe
+  notability:
+    aoe2: true
