@@ -6702,6 +6702,8 @@
     aoe2: true
   discord_id: King_Boo#0227
   team: 28
+  twitch:
+    - https://www.twitch.tv/king_b0o
 - name: Poxo
   country: es
   platforms:
