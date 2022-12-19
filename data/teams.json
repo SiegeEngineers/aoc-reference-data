@@ -114,7 +114,8 @@
     "players": [
       248,
       442,
-      545
+      545,
+      577
     ],
     "id": 14
   },
@@ -135,7 +136,6 @@
     "name": "Combi Team",
     "players": [
       241,
-      250,
       253,
       274,
       547
@@ -263,7 +263,8 @@
       361,
       375,
       424,
-      498
+      498,
+      576
     ],
     "id": 28
   },
@@ -432,7 +433,6 @@
     "name": "The BrotherHood Kappa",
     "players": [
       209,
-      232,
       338,
       413,
       433,
@@ -451,20 +451,28 @@
     "id": 44
   },
   {
+    "name": "TheUnCrapAbles",
+    "players": [
+      572
+    ],
+    "id": 45
+  },
+  {
     "name": "ThuG Life",
     "players": [
       92,
       125,
       203
     ],
-    "id": 45
+    "id": 46
   },
   {
     "name": "Time To Trolling",
     "players": [
-      517
+      517,
+      579
     ],
-    "id": 46
+    "id": 47
   },
   {
     "name": "TyRanT",
@@ -473,7 +481,7 @@
       62,
       161
     ],
-    "id": 47
+    "id": 48
   },
   {
     "name": "Vietnam Legends",
@@ -485,7 +493,7 @@
       88,
       219
     ],
-    "id": 48
+    "id": 49
   },
   {
     "name": "Vikingos N\u00f3madas",
@@ -494,14 +502,14 @@
       459,
       542
     ],
-    "id": 49
+    "id": 50
   },
   {
     "name": "Vikings",
     "players": [
       376
     ],
-    "id": 50
+    "id": 51
   },
   {
     "name": "White Wolf Palace",
@@ -523,7 +531,7 @@
       330,
       382
     ],
-    "id": 51
+    "id": 52
   },
   {
     "name": "XEVER",
@@ -532,7 +540,7 @@
       448,
       461
     ],
-    "id": 52
+    "id": 53
   },
   {
     "name": "MYinsanity",
@@ -541,10 +549,11 @@
       34,
       46,
       275,
+      293,
       308,
       409
     ],
-    "id": 53
+    "id": 54
   },
   {
     "name": "New Chapter",
@@ -555,21 +564,21 @@
       388,
       404
     ],
-    "id": 54
+    "id": 55
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 55
+    "id": 56
   },
   {
     "name": "Tuna's Wet Market",
     "players": [
       529
     ],
-    "id": 56
+    "id": 57
   },
   {
     "name": "PL",
@@ -577,55 +586,55 @@
       56,
       530
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "K-GANG",
     "players": [
       304
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "Deceptive Baguettes",
     "players": [
       467
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "NoobsQad",
     "players": [
       534
     ],
-    "id": 62
+    "id": 63
   },
   {
     "name": "CDUB Esports",
     "players": [
       9
     ],
-    "id": 63
+    "id": 64
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 64
+    "id": 65
   }
 ]
