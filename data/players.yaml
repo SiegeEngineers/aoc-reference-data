@@ -1606,6 +1606,8 @@
   id: 72
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/mr_gpb
 - name: Alive
   country: br
   esportsearnings: 12947
@@ -6981,6 +6983,7 @@
       - "289216"
       - "6370127"
       - "8092025"
+      - "4057020"
   twitch:
     - https://www.twitch.tv/bkalphastar
   id: 446
