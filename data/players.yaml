@@ -6605,6 +6605,8 @@
   notability:
     aoe2: true
   discord_id: Mullisaukko#1334
+  twitch:
+    - https://www.twitch.tv/mullisaukk0
 - name: SilentTV
   country: ar
   platforms:
