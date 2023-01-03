@@ -7405,6 +7405,8 @@
   id: 478
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/jerry_aoe
 - name: Matt107
   country: gb
   platforms:
@@ -8172,6 +8174,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/Capybara_AoE
+  discord_id: Capy#0423
   team: 28
 - name: Eärnur
   country: ec
@@ -8204,3 +8207,14 @@
   notability:
     aoe2: true
   team: 47
+- name: kw
+  country: tw
+  platforms:
+    rl:
+      - '372422'
+      - '452917'
+  liquipedia: kw
+  id: 586
+  aoeelo: 647
+  notability:
+    aoe2: true
