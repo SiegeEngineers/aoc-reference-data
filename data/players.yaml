@@ -5831,8 +5831,6 @@
   discord:
     - https://discord.gg/HXFSj2R
   discord_id: FlyLikeDjango#0388
-  steam:
-    - 76561199072158541
   id: 358
   twitter:
     - https://twitter.com/DjangoFly
@@ -8218,3 +8216,12 @@
   aoeelo: 647
   notability:
     aoe2: true
+- name: Mettiu
+  country: it
+  platforms:
+    rl:
+      - '211777'
+      - '10960083'
+  notability:
+    aoe2: true
+  id: 587
