@@ -8216,6 +8216,8 @@
   aoeelo: 647
   notability:
     aoe2: true
+  twitch:
+    - https://www.twitch.tv/kw91078
 - name: Mettiu
   country: it
   platforms:
