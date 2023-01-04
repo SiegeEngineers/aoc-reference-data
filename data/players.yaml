@@ -8148,6 +8148,8 @@
   notability:
     aoe2: true
   team: 45
+  twitch:
+    - https://www.twitch.tv/zuccolander
 - name: Ezio
   country: de
   platforms:
