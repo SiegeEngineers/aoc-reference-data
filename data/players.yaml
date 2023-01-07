@@ -723,7 +723,6 @@
   id: 29
   notability:
     aoe2: true
-  team: 54
 - name: Zuppi
   country: fi
   aoeelo: 50
@@ -8147,9 +8146,9 @@
   aoeelo: 989
   notability:
     aoe2: true
-  team: 45
   twitch:
     - https://www.twitch.tv/zuccolander
+  team: 45
 - name: Ezio
   country: de
   platforms:
