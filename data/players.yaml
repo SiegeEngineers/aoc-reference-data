@@ -5211,6 +5211,7 @@
     aoe2: true
   discord_id: Abby#3159
   team: 9
+  aoeelo: 1303
 - name: OLADUSHEK
   country: by
   platforms:
@@ -7005,6 +7006,7 @@
   notability:
     aoe2: true
   discord_id: IgnacioLM#8356
+  aoeelo: 1304
 - name: ElMago
   country: ar
   platforms:
@@ -8104,6 +8106,7 @@
   id: 561
   notability:
     aoe2: true
+  aoeelo: 721
 - name: ValihrAnt
   country: lv
   platforms:
@@ -8112,6 +8115,7 @@
   id: 562
   notability:
     aoe2: true
+  aoeelo: 880
 - name: Moneimon
   country: es
   platforms:
@@ -8124,6 +8128,7 @@
     aoe2: true
   twitch:
     - https://www.twitch.tv/moneimon
+  aoeelo: 1210
 - name: Kugelblitz
   country: de
   platforms:
@@ -8161,6 +8166,7 @@
   notability:
     aoe2: true
   id: 573
+  aoeelo: 1068
 - name: Capy
   country: gb
   platforms:
@@ -8228,3 +8234,14 @@
   notability:
     aoe2: true
   id: 587
+  aoeelo: 1229
+- name: Nixishin
+  country: ru
+  platforms:
+    rl:
+      - '1284176'
+  liquipedia: Nixishin
+  id: 592
+  aoeelo:
+  notability:
+    aoe2: true
