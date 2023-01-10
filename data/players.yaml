@@ -7807,6 +7807,7 @@
   platforms:
     rl:
       - '319851'
+      - '11575429'
   id: 518
   notability:
     aoe2: true
