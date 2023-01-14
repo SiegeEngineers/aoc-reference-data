@@ -486,8 +486,8 @@
   notability:
     aoe2: true
   discord_id: ACCM#0539
-  team: 49
   city: Da Nang
+  team: 49
 - name: Tim
   country: cn
   esportsearnings: 12949
@@ -647,8 +647,8 @@
   notability:
     aoe2: true
   discord_id: Daut#9673
-  team: 21
   city: Belgrade
+  team: 21
 - name: Hera
   country: ca
   esportsearnings: 25296
@@ -1249,8 +1249,8 @@
   id: 51
   notability:
     aoe2: true
-  team: 5
   city: Ankara
+  team: 5
 - name: Jibatong
   aka:
     - Pain Master
@@ -3884,8 +3884,8 @@
   notability:
     aoe2: true
   discord_id: Carbo#4493
-  team: 17
   city: Quilmes
+  team: 17
 - name: pG_Fire
   country: au
   platforms:
@@ -5050,8 +5050,8 @@
     - https://twitter.com/Kioss3000_Tv
   notability:
     aoe2: true
-  team: 60
   city: Saint-Malo
+  team: 60
 - name: L3af
   country: us
   platforms:
@@ -5653,8 +5653,8 @@
     - https://twitter.com/manuechvrr
   notability:
     aoe2: true
-  team: 40
   city: Concepción
+  team: 40
 - name: Ripvanwinkle
   country: tr
   platforms:
@@ -7854,8 +7854,8 @@
   twitch:
     - https://www.twitch.tv/x0r6zt
   aoeelo: 1117
-  team: 65
   city: Melbourne
+  team: 65
 - name: Solara
   country: il
   platforms:
@@ -8061,8 +8061,8 @@
     - https://www.twitch.tv/mrosovc8
   aoeelo: 1246
   discord_id: MrOsoVC8#1536
-  team: 16
   city: San Luis Potosí
+  team: 16
 - name: Target331
   country: de
   platforms:
@@ -8230,8 +8230,8 @@
     - https://www.twitch.tv/earnuraoe
   youtube:
     - https://www.youtube.com//channel/UCC2RQZVMTpEjeHOjm5z25Zg
-  team: 14
   city: Cuenca
+  team: 14
 - name: IAnTaGoNiStI
   country: ru
   platforms:
@@ -8278,4 +8278,3 @@
   notability:
     aoe2: true
   team: 47
-
