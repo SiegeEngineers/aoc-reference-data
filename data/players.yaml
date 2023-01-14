@@ -4168,6 +4168,8 @@
   platforms:
     rl:
       - "2638400"
+      - "484649"
+      - "10261408"
     voobly:
       - "13052"
     gamepark:
@@ -5212,8 +5214,8 @@
   notability:
     aoe2: true
   discord_id: Abby#3159
-  team: 9
   aoeelo: 1303
+  team: 9
 - name: OLADUSHEK
   country: by
   platforms:
@@ -7638,6 +7640,7 @@
   platforms:
     rl:
       - '229173'
+      - '2800693'
   twitch:
     - https://www.twitch.tv/ar12__
   notability:
@@ -8249,3 +8252,5 @@
   aoeelo:
   notability:
     aoe2: true
+  team: 47
+
