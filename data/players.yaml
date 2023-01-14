@@ -242,6 +242,7 @@
   team: 64
 - name: TaToH
   country: es
+  city: Madrid
   esportsearnings: 41416
   aoeelo: 31
   liquipedia: TaToH
@@ -486,6 +487,7 @@
     aoe2: true
   discord_id: ACCM#0539
   team: 49
+  city: Da Nang
 - name: Tim
   country: cn
   esportsearnings: 12949
@@ -646,6 +648,7 @@
     aoe2: true
   discord_id: Daut#9673
   team: 21
+  city: Belgrade
 - name: Hera
   country: ca
   esportsearnings: 25296
@@ -1247,6 +1250,7 @@
   notability:
     aoe2: true
   team: 5
+  city: Ankara
 - name: Jibatong
   aka:
     - Pain Master
@@ -1334,6 +1338,7 @@
   notability:
     aoe2: true
   discord_id: Fedex#2075
+  city: Buenos Aires
 - name: Dziamdziak
   country: pl
   aoeelo: 127
@@ -2039,6 +2044,7 @@
   notability:
     aoe2: true
   discord_id: Capoch#4093
+  city: Buenos Aires
 - name: Rami
   country: il
   esportsearnings: 42063
@@ -3582,6 +3588,7 @@
     - https://twitter.com/aoc_ashleylynn
   notability:
     aoe2: true
+  city: Boston
 - name: T90
   aka:
     - T90Official
@@ -3878,6 +3885,7 @@
     aoe2: true
   discord_id: Carbo#4493
   team: 17
+  city: Quilmes
 - name: pG_Fire
   country: au
   platforms:
@@ -4372,6 +4380,7 @@
   team: 17
 - name: Ertug
   country: tr
+  city: İzmir
   platforms:
     rl:
       - "4240386"
@@ -4560,6 +4569,7 @@
     - https://twitter.com/BlinGAOE
   notability:
     aoe2: true
+  city: Cornwall
 - name: Good_Game
   country: ru
   esportsearnings: 86209
@@ -4678,6 +4688,7 @@
   notability:
     aoe2: true
   discord_id: Grathwrang#2148
+  city: Toronto
 - name: Roxy
   country: ar
   platforms:
@@ -5011,6 +5022,7 @@
     - https://twitter.com/juanperotti_aoe
   notability:
     aoe2: true
+  city: Laboulaye
 - name: KhaLeN
   country: fr
   platforms:
@@ -5024,6 +5036,7 @@
     - https://twitter.com/ElKhaLeN
   notability:
     aoe2: true
+  city: Toulon
 - name: Kioss3000
   country: fr
   platforms:
@@ -5038,6 +5051,7 @@
   notability:
     aoe2: true
   team: 60
+  city: Saint-Malo
 - name: L3af
   country: us
   platforms:
@@ -5248,6 +5262,7 @@
     - https://twitter.com/odettegaming
   notability:
     aoe2: true
+  city: Prague
 - name: OfeliaAoE
   country: es
   platforms:
@@ -5288,6 +5303,7 @@
   id: 321
   notability:
     aoe2: true
+  city: Grayslake
 - name: Ovenka
   country: cz
   platforms:
@@ -5638,6 +5654,7 @@
   notability:
     aoe2: true
   team: 40
+  city: Concepción
 - name: Ripvanwinkle
   country: tr
   platforms:
@@ -6275,6 +6292,7 @@
   liquipedia: Ozone
   youtube:
     - https://www.youtube.com/OzoneAOE
+  city: Bogotá
 - name: StellarMeesh
   country: us
   platforms:
@@ -6287,6 +6305,7 @@
   id: 393
   notability:
     aoe2: true
+  city: Raleigh
 - name: Dave
   country: ca
   platforms:
@@ -6333,6 +6352,7 @@
   id: 397
   notability:
     aoe2: true
+  city: Málaga
 - name: Mario Ovalle
   country: co
   platforms:
@@ -7835,6 +7855,7 @@
     - https://www.twitch.tv/x0r6zt
   aoeelo: 1117
   team: 65
+  city: Melbourne
 - name: Solara
   country: il
   platforms:
@@ -8041,6 +8062,7 @@
   aoeelo: 1246
   discord_id: MrOsoVC8#1536
   team: 16
+  city: San Luis Potosí
 - name: Target331
   country: de
   platforms:
@@ -8069,6 +8091,7 @@
     - https://discord.gg/UAFEHvwMad
   discord_id: Tomahawk#9292
   id: 549
+  city: Curitiba
 - name: salsicciotto1999
   country: it
   platforms:
@@ -8208,6 +8231,7 @@
   youtube:
     - https://www.youtube.com//channel/UCC2RQZVMTpEjeHOjm5z25Zg
   team: 14
+  city: Cuenca
 - name: IAnTaGoNiStI
   country: ru
   platforms:
