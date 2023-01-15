@@ -8279,3 +8279,11 @@
   notability:
     aoe2: true
   team: 47
+- name: biscuit
+  country: us
+  platforms:
+    rl:
+      - '2059578'
+  id: 593
+  notability:
+    aoe2: true
