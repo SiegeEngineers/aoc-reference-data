@@ -1468,6 +1468,8 @@
     - https://www.twitch.tv/iamchris_age2
   youtube:
     - https://www.youtube.com/channel/UC00u-XPUH-nNhHNU7MsxBPA
+  youtube_live:
+    - https://www.youtube.com/channel/UC00u-XPUH-nNhHNU7MsxBPA/live
   platforms:
     voobly:
       - "123397426"
