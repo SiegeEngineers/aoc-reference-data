@@ -8290,3 +8290,11 @@
   id: 593
   notability:
     aoe2: true
+- name: Dooidy
+  country: cn
+  platforms:
+    rl:
+      - '2594552'
+  id: 594
+  notability:
+    aoe2: true
