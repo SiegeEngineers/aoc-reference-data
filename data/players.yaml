@@ -6864,6 +6864,8 @@
   liquipedia: LeeChia
   id: 525
   discord_id: LEECHIA#3754
+  twitch:
+    - https://www.twitch.tv/ts01383840
 - name: Pyroptere
   country: ch
   platforms:
