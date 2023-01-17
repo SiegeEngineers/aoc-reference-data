@@ -6246,6 +6246,7 @@
   aoeelo: 1200
 - name: Blackheart
   country: de
+  aoeelo: 1121
   platforms:
     rl:
       - '6440047'
@@ -7197,7 +7198,7 @@
       - '1284176'
   liquipedia: Nixishin
   id: 592
-  aoeelo:
+  aoeelo: 1263
   team: 47
 - name: biscuit
   country: us
@@ -7218,3 +7219,44 @@
     rl:
       - '573282'
   id: 594
+- name: m0re
+  country: es
+  aoeelo: 1208
+  platforms:
+    rl:
+      - '279036'
+  id: 595
+- name: Dfx2
+  country: fr
+  aoeelo: 1019
+  platforms:
+    rl:
+      - '383445'
+      - '11931570'
+      - '4519458'
+      - '11410593'
+      - '8368899'
+  id: 596
+- name: Lighty
+  country: fr
+  aoeelo: 1243
+  platforms:
+    rl:
+      - '38035'
+  id: 597
+- name: Tatengue
+  country: ar
+  aoeelo: 1212
+  platforms:
+    rl:
+      - '1361923'
+      - '5418224'
+  id: 598
+- name: LePoséidon
+  country: fr
+  aoeelo: 985
+  platforms:
+    rl:
+      - '1444675'
+      - '11149951'
+  id: 599
