@@ -5475,6 +5475,7 @@
   platforms:
     rl:
       - "949573"
+      - "10910496"
   twitch:
     - https://www.twitch.tv/socksyy
   id: 389
@@ -7209,4 +7210,11 @@
   platforms:
     rl:
       - '2594552'
+  id: 594
+- name: Terz
+  country: de
+  aoeelo: 1066
+  platforms:
+    rl:
+      - '573282'
   id: 594
