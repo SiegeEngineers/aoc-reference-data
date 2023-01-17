@@ -7243,7 +7243,10 @@
   platforms:
     rl:
       - '38035'
+      - '3463661'
   id: 597
+  twitch:
+    - https://www.twitch.tv/lighty_gg
 - name: Tatengue
   country: ar
   aoeelo: 1212
