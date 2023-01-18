@@ -474,6 +474,7 @@
       - "6381504"
       - "11255662"
       - "11957022"
+      - "12269448"
     zone:
       - tim
   id: 21
@@ -7251,6 +7252,7 @@
   id: 597
   twitch:
     - https://www.twitch.tv/lighty_gg
+  team: 20
 - name: Tatengue
   country: ar
   aoeelo: 1212
@@ -7259,6 +7261,10 @@
       - '1361923'
       - '5418224'
   id: 598
+  liquipedia: Tatengue
+  twitch:
+    - https://www.twitch.tv/tatengue_
+  team: 53
 - name: LePoséidon
   country: fr
   aoeelo: 985
