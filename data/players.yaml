@@ -7246,9 +7246,9 @@
 - name: Lighty
   country: fr
   aoeelo: 1243
+  discord_id: Lighty#9982
   platforms:
     rl:
-      - '38035'
       - '738035'
       - '3463661'
   id: 597
