@@ -6777,6 +6777,8 @@
   liquipedia: Ciskhan
   youtube:
     - https://www.youtube.com/channel/UCaCFrrglvXjOyshYJlZRqGQ/featured
+  twitter:
+    - https://twitter.com/ciskhan_
   team: 20
 - name: Prisma09
   country: ar
@@ -7284,3 +7286,9 @@
       - '6906024'
       - '3240946'
   id: 600
+- name: XuanLv
+  country: cn
+  platforms:
+    rl:
+      - '2972505'
+  id: 601
