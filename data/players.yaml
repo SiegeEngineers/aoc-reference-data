@@ -7358,10 +7358,28 @@
     rl:
       - '5689359'
       - '10092761'
-  id: 601
+  id: 602
 - name: Gadjo Dilo
   country: gr
   platforms:
     rl:
       - '210372'
-  id: 602
+  id: 603
+- name: Rooster
+  country: us
+  platforms:
+    rl:
+      - '1273427'
+  liquipedia: Rooster (American_player)
+  id: 604
+  twitch:
+    - https://www.twitch.tv/roosteraoe
+  team: 57
+- name: Mystigan
+  country: in
+  platforms:
+    rl:
+      - '234995'
+  liquipedia: Mystigan
+  id: 605
+  team: 57
