@@ -4399,6 +4399,7 @@
   country: au
   platforms:
     rl:
+      - "347521"
       - "2125259"
       - "2786676"
       - "8079190"
@@ -7361,11 +7362,19 @@
     rl:
       - '5689359'
       - '10092761'
-  id: 601
+  id: 602
 - name: Gadjo Dilo
   country: gr
   platforms:
     rl:
       - '210372'
-  id: 602
-  x: 1
+  id: 603
+- name: Acro17
+  country: de
+  platforms:
+    rl:
+      - "907793"
+      - "10908042"
+  twitch:
+    - https://www.twitch.tv/acro17_aoe
+  id: 604
