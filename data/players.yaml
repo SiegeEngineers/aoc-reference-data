@@ -7378,3 +7378,10 @@
   twitch:
     - https://www.twitch.tv/acro17_aoe
   id: 604
+- name: BBQTurkman
+  country: au
+  platforms:
+    rl:
+      - "11650897"
+  liquipedia: BBQTurkman
+  id: 605
