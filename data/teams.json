@@ -346,20 +346,11 @@
     "id": 34
   },
   {
-    "name": "Sons of the Sun",
-    "players": [
-      224,
-      231,
-      234
-    ],
-    "id": 35
-  },
-  {
     "name": "Stackers",
     "players": [
       290
     ],
-    "id": 36
+    "id": 35
   },
   {
     "name": "SuPeRNovA",
@@ -370,14 +361,14 @@
       343,
       501
     ],
-    "id": 37
+    "id": 36
   },
   {
     "name": "Sucky WizZards",
     "players": [
       452
     ],
-    "id": 38
+    "id": 37
   },
   {
     "name": "Suomi",
@@ -390,7 +381,7 @@
       81,
       111
     ],
-    "id": 39
+    "id": 38
   },
   {
     "name": "Team Honor",
@@ -404,17 +395,18 @@
       345,
       351
     ],
-    "id": 40
+    "id": 39
   },
   {
     "name": "Team Maswi",
     "players": [
       408,
+      429,
       460,
       503,
       506
     ],
-    "id": 41
+    "id": 40
   },
   {
     "name": "The Amigos",
@@ -426,7 +418,7 @@
       228,
       353
     ],
-    "id": 42
+    "id": 41
   },
   {
     "name": "The BrotherHood Kappa",
@@ -439,7 +431,7 @@
       446,
       449
     ],
-    "id": 43
+    "id": 42
   },
   {
     "name": "The Immortals",
@@ -447,14 +439,14 @@
       103,
       107
     ],
-    "id": 44
+    "id": 43
   },
   {
     "name": "TheUnCrapAbles",
     "players": [
       572
     ],
-    "id": 45
+    "id": 44
   },
   {
     "name": "ThuG Life",
@@ -463,7 +455,7 @@
       125,
       203
     ],
-    "id": 46
+    "id": 45
   },
   {
     "name": "Time To Trolling",
@@ -472,7 +464,7 @@
       579,
       592
     ],
-    "id": 47
+    "id": 46
   },
   {
     "name": "TyRanT",
@@ -481,7 +473,7 @@
       62,
       161
     ],
-    "id": 48
+    "id": 47
   },
   {
     "name": "Vietnam Legends",
@@ -493,7 +485,7 @@
       88,
       219
     ],
-    "id": 49
+    "id": 48
   },
   {
     "name": "Vikingos N\u00f3madas",
@@ -502,14 +494,14 @@
       459,
       542
     ],
-    "id": 50
+    "id": 49
   },
   {
     "name": "Vikings",
     "players": [
       376
     ],
-    "id": 51
+    "id": 50
   },
   {
     "name": "White Wolf Palace",
@@ -531,7 +523,7 @@
       330,
       382
     ],
-    "id": 52
+    "id": 51
   },
   {
     "name": "XEVER",
@@ -541,7 +533,7 @@
       461,
       598
     ],
-    "id": 53
+    "id": 52
   },
   {
     "name": "MYinsanity",
@@ -550,10 +542,11 @@
       46,
       275,
       293,
+      294,
       308,
       409
     ],
-    "id": 54
+    "id": 53
   },
   {
     "name": "New Chapter",
@@ -564,21 +557,21 @@
       388,
       404
     ],
-    "id": 55
+    "id": 54
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 56
+    "id": 55
   },
   {
     "name": "Tuna's Wet Market",
     "players": [
       529
     ],
-    "id": 57
+    "id": 56
   },
   {
     "name": "PL",
@@ -586,12 +579,21 @@
       56,
       530
     ],
-    "id": 58
+    "id": 57
   },
   {
     "name": "Rising Stars",
     "players": [
       299
+    ],
+    "id": 58
+  },
+  {
+    "name": "Sons of the Sun",
+    "players": [
+      224,
+      231,
+      234
     ],
     "id": 59
   },
