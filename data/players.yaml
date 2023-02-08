@@ -7403,3 +7403,21 @@
   liquipedia: Sunset
   id: 612
   aoeelo:
+- name: Rooster
+  country: us
+  platforms:
+    rl:
+      - '1273427'
+  liquipedia: Rooster (American_player)
+  id: 613
+  twitch:
+    - https://www.twitch.tv/roosteraoe
+  team: 57
+- name: Mystigan
+  country: in
+  platforms:
+    rl:
+      - '234995'
+  liquipedia: Mystigan
+  id: 614
+  team: 57
