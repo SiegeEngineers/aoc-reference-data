@@ -7400,7 +7400,6 @@
       - "11650897"
   liquipedia: BBQTurkman
   id: 605
-  x: 1
 - name: Sunset
   country: fi
   platforms:
@@ -7413,4 +7412,11 @@
   platforms:
     rl:
       - '2429762'
+  id: 613
+- name: TeMo
+  country: ma
+  platforms:
+    rl:
+      - '6815493'
+      - '12059289'
   id: 613
