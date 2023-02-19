@@ -7420,3 +7420,11 @@
       - '6815493'
       - '12059289'
   id: 613
+- name: Dai
+  country: tw
+  platforms:
+    rl:
+      - '9750845'
+  id: 614
+  twitch:
+    - https://www.twitch.tv/ares_dai
