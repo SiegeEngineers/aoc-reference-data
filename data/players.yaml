@@ -4528,7 +4528,7 @@
   twitter:
     - https://twitter.com/Margougou21
   discord_id: Margougou#1764
-  team: 53
+  team: 20
 - name: MarineLorD
   aka:
     - Mlord
@@ -6375,6 +6375,7 @@
   twitch:
     - https://www.twitch.tv/shed_au
   discord_id: Shed#5361
+  team: 51
 - name: Yezris
   country: cz
   platforms:
@@ -7333,6 +7334,7 @@
   id: 597
   twitch:
     - https://www.twitch.tv/lighty_gg
+  liquipedia: Lighty
   team: 20
 - name: Tatengue
   country: ar
@@ -7434,3 +7436,11 @@
   liquipedia: Prydz
   id: 620
   twitch: https://www.twitch.tv/prydz_z
+- name: Muhammed
+  country: tr
+  platforms:
+    rl:
+      - '3500355'
+    voobly:
+      - '125944'
+  id: 621
