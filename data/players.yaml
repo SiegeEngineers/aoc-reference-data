@@ -3333,6 +3333,7 @@
       - "5999674"
       - "9231165"
       - "9572827"
+      - "11410187"
     voobly:
       - "123624141"
   liquipedia: BL4CK
@@ -6098,6 +6099,8 @@
   youtube:
     - https://www.youtube.com/@dave_hun9682
   discord_id: dave#1129
+  twitter:
+    - https://twitter.com/davehun8
   team: 28
 - name: ChrisB
   country: cl
