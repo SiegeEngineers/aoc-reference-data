@@ -7450,4 +7450,10 @@
       - '125944'
   id: 621
   discord_id: Muhammed33#9993
-  x: 1
+- name: Wanderbraun
+  country: ua
+  platforms:
+    rl:
+      - 1835221
+  twitch:
+    - https://www.twitch.tv/wanderbraun
