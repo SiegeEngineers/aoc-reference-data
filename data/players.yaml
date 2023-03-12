@@ -7131,6 +7131,8 @@
   aoeelo: 1183
   discord_id: salsicciotto1999#3406
   id: 550
+  twitch:
+    - https://www.twitch.tv/salsicciotto999
 - name: Lukas
   country: de
   platforms:
@@ -7457,3 +7459,4 @@
       - 1835221
   twitch:
     - https://www.twitch.tv/wanderbraun
+  id: 622
