@@ -7443,7 +7443,8 @@
       - '1254139'
   liquipedia: Prydz
   id: 620
-  twitch: https://www.twitch.tv/prydz_z
+  twitch:
+    - https://www.twitch.tv/prydz_z
 - name: Muhammed
   country: tr
   platforms:
