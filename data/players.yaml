@@ -7461,3 +7461,10 @@
   twitch:
     - https://www.twitch.tv/wanderbraun
   id: 622
+- name: DontCallMeChris
+  country: ua
+  platforms:
+    rl:
+      - '6001124'
+  twitch:
+    - https://www.twitch.tv/dontcallmechris
