@@ -390,7 +390,6 @@
       243,
       279,
       314,
-      332,
       345,
       351
     ],
@@ -565,26 +564,33 @@
     "id": 55
   },
   {
+    "name": "Australia",
+    "players": [
+      515
+    ],
+    "id": 56
+  },
+  {
     "name": "PL",
     "players": [
       56,
       530
     ],
-    "id": 56
+    "id": 57
   },
   {
     "name": "LACA Gaming",
     "players": [
       358
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "Sons of the Sun",
@@ -593,41 +599,41 @@
       231,
       234
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "Deceptive Baguettes",
     "players": [
       467
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "NoobsQad",
     "players": [
       534
     ],
-    "id": 62
+    "id": 63
   },
   {
     "name": "CDUB Esports",
     "players": [
       9
     ],
-    "id": 63
+    "id": 64
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 64
+    "id": 65
   }
 ]

@@ -221,7 +221,7 @@
     - http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g
   id: 9
   discord_id: dogao#8057
-  team: 63
+  team: 64
 - name: TaToH
   country: es
   city: Madrid
@@ -1252,7 +1252,7 @@
   liquipedia: Dziamdziak
   id: 56
   discord_id: dziam#5626
-  team: 56
+  team: 57
 - name: Ppoc
   country: es
   platforms:
@@ -3376,7 +3376,7 @@
   twitch:
     - https://www.twitch.tv/keno_aoe
   discord_id: Keno#6318
-  team: 59
+  team: 60
 - name: JackK
   country: pl
   twitch:
@@ -3476,7 +3476,7 @@
   id: 231
   twitter:
     - https://twitter.com/BlukuuktaN
-  team: 59
+  team: 60
 - name: OnLeKe
   country: br
   platforms:
@@ -3518,7 +3518,7 @@
   liquipedia: Mexican_Psycho
   aoeelo: 504
   id: 234
-  team: 59
+  team: 60
 - name: Darknoob
   country: nl
   platforms:
@@ -3635,6 +3635,8 @@
   aoeelo: 748
   id: 243
   discord_id: Wisepiii#0369
+  twitter:
+    - https://twitter.com/Wisepii_aoe
   team: 39
 - name: Chocobo
   country: jp
@@ -4387,6 +4389,8 @@
       - "2653793"
   liquipedia: Frost_9
   id: 296
+  twitch:
+    - https://www.twitch.tv/Frost_9AoE
   team: 36
 - name: GriN
   country: ru
@@ -4424,7 +4428,7 @@
   youtube:
     - http://www.youtube.com/channel/UCAm-fFhNAhKPnh3C3XxGdBA
   id: 299
-  team: 58
+  team: 59
 - name: Improvise
   country: us
   platforms:
@@ -4838,7 +4842,7 @@
   aoeelo: 150
   id: 332
   discord_id: wAkKo#4028
-  team: 39
+  team: 12
 - name: Ubetnir
   country: tr
   platforms:
@@ -5187,7 +5191,7 @@
   id: 358
   twitter:
     - https://twitter.com/DjangoFly
-  team: 57
+  team: 58
 - name: TieuQuy
   country: vn
   platforms:
@@ -5217,6 +5221,8 @@
   id: 361
   aoeelo: 166
   discord_id: Fanjita#1337
+  twitch:
+    - https://www.twitch.tv/fanjita
   team: 28
 - name: Sensar
   country: us
@@ -6030,7 +6036,7 @@
   twitch:
     - https://www.twitch.tv/redlash_
   discord_id: Redlash#0658
-  team: 61
+  team: 62
 - name: Hackali
   country: tr
   platforms:
@@ -6434,7 +6440,7 @@
   twitch:
     - https://www.twitch.tv/lockeaoe
   discord_id: Locke#1464
-  team: 60
+  team: 61
 - name: TutusAsylum
   country: fr
   platforms:
@@ -6883,6 +6889,7 @@
   id: 515
   aoeelo: 741
   discord_id: ChriSt_AoE#5214
+  team: 56
 - name: sunsetfire
   country: us
   platforms:
@@ -6919,7 +6926,7 @@
   aoeelo: 1117
   city: Melbourne
   discord_id: x0r6zt#0339
-  team: 64
+  team: 65
 - name: Solara
   country: il
   platforms:
@@ -6979,7 +6986,7 @@
   id: 530
   aoeelo: 1189
   discord_id: PL_Hitorek#2188
-  team: 56
+  team: 57
 - name: Kougrialka
   country: fr
   platforms:
@@ -7019,7 +7026,7 @@
   id: 534
   twitter:
     - https://twitter.com/daehiise
-  team: 62
+  team: 63
 - name: kunyi
   country: hu
   platforms:
