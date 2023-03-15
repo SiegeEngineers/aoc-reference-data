@@ -7477,3 +7477,11 @@
   twitch:
     - https://www.twitch.tv/dontcallmechris
   id: 623
+- name: Dash
+  country: us
+  platforms:
+    rl:
+      - '210103'
+  twitch:
+    - https://www.twitch.tv/thejamesdash 
+  id: 624
