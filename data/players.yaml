@@ -7486,3 +7486,11 @@
   twitch:
     - https://www.twitch.tv/thejamesdash 
   id: 624
+- name: Wes Iwobi
+  country: de
+  platforms:
+    rl:
+      - '253145'
+      - '4171293'
+  id: 625
+  discord_id: Wes Jasper#5905
