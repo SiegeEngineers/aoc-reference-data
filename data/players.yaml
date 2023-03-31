@@ -622,7 +622,6 @@
       - "3209724" # WeWinThose
       - "4423546"
       - "12934666"
-      - "14192577"
   id: 27
   discord_id: Hera#4278
   team: 57
@@ -4175,6 +4174,7 @@
   platforms:
     rl:
       - "4796235"
+      - "14192577"
   twitter:
     - https://twitter.com/RoxyC_Stream
   twitch:
