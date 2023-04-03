@@ -7309,12 +7309,14 @@
       - '2059578'
   id: 593
   discord_id: biscuit#5049
+  aoeelo: 1290
 - name: Dooidy
   country: cn
   platforms:
     rl:
       - '2594552'
   id: 594
+  aoeelo: 1144
 - name: Terz
   country: de
   aoeelo: 1066
@@ -7391,6 +7393,7 @@
       - '6906024'
       - '3240946'
   id: 600
+  aoeelo: 577
 - name: XuanLv
   country: cn
   platforms:
@@ -7420,6 +7423,7 @@
     - https://www.twitch.tv/acro17_aoe
   id: 604
   discord_id: Acro17#6437
+  aoeelo: 1309
 - name: BBQTurkman
   country: au
   platforms:
@@ -7447,6 +7451,7 @@
       - '6815493'
       - '12059289'
   id: 613
+  aoeelo: 1322
 - name: Dai
   country: tw
   platforms:
@@ -7505,6 +7510,7 @@
       - '4171293'
   id: 625
   discord_id: Wes Jasper#5905
+  aoeelo: 1206
 - name: Dabighead
   country: pe
   platforms:
