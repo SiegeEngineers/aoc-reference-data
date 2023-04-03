@@ -102,29 +102,19 @@
     "id": 12
   },
   {
-    "name": "Combi Team",
-    "players": [
-      241,
-      253,
-      274,
-      547
-    ],
-    "id": 13
-  },
-  {
     "name": "Deities of Death",
     "players": [
       71,
       137
     ],
-    "id": 14
+    "id": 13
   },
   {
     "name": "DevilZ",
     "players": [
       179
     ],
-    "id": 15
+    "id": 14
   },
   {
     "name": "Fox",
@@ -138,7 +128,7 @@
       533,
       597
     ],
-    "id": 16
+    "id": 15
   },
   {
     "name": "GamerLegion",
@@ -149,7 +139,7 @@
       32,
       38
     ],
-    "id": 17
+    "id": 16
   },
   {
     "name": "Gaucho",
@@ -157,7 +147,7 @@
       226,
       496
     ],
-    "id": 18
+    "id": 17
   },
   {
     "name": "InDuS",
@@ -165,7 +155,7 @@
       1,
       140
     ],
-    "id": 19
+    "id": 18
   },
   {
     "name": "Killing Generation of Brazil",
@@ -176,7 +166,7 @@
       80,
       489
     ],
-    "id": 20
+    "id": 19
   },
   {
     "name": "Nadya's Boys",
@@ -187,7 +177,7 @@
       90,
       264
     ],
-    "id": 21
+    "id": 20
   },
   {
     "name": "PUB",
@@ -201,7 +191,7 @@
       498,
       576
     ],
-    "id": 22
+    "id": 21
   },
   {
     "name": "QuEnDi",
@@ -220,7 +210,7 @@
       492,
       523
     ],
-    "id": 23
+    "id": 22
   },
   {
     "name": "QueNaNiNa",
@@ -228,7 +218,7 @@
       420,
       504
     ],
-    "id": 24
+    "id": 23
   },
   {
     "name": "Russia F",
@@ -238,7 +228,7 @@
       313,
       317
     ],
-    "id": 25
+    "id": 24
   },
   {
     "name": "SY",
@@ -247,14 +237,14 @@
       89,
       105
     ],
-    "id": 26
+    "id": 25
   },
   {
     "name": "Stackers",
     "players": [
       290
     ],
-    "id": 27
+    "id": 26
   },
   {
     "name": "SuPeRNovA",
@@ -265,14 +255,14 @@
       343,
       501
     ],
-    "id": 28
+    "id": 27
   },
   {
     "name": "Sucky WizZards",
     "players": [
       452
     ],
-    "id": 29
+    "id": 28
   },
   {
     "name": "Team Honor",
@@ -285,7 +275,7 @@
       345,
       351
     ],
-    "id": 30
+    "id": 29
   },
   {
     "name": "Team Maswi",
@@ -296,7 +286,7 @@
       503,
       506
     ],
-    "id": 31
+    "id": 30
   },
   {
     "name": "The Amigos",
@@ -308,7 +298,7 @@
       228,
       353
     ],
-    "id": 32
+    "id": 31
   },
   {
     "name": "The BrotherHood Kappa",
@@ -321,7 +311,7 @@
       446,
       449
     ],
-    "id": 33
+    "id": 32
   },
   {
     "name": "The Immortals",
@@ -329,14 +319,14 @@
       103,
       107
     ],
-    "id": 34
+    "id": 33
   },
   {
     "name": "TheUnCrapAbles",
     "players": [
       572
     ],
-    "id": 35
+    "id": 34
   },
   {
     "name": "ThuG Life",
@@ -345,7 +335,7 @@
       125,
       203
     ],
-    "id": 36
+    "id": 35
   },
   {
     "name": "Time To Trolling",
@@ -354,7 +344,7 @@
       579,
       592
     ],
-    "id": 37
+    "id": 36
   },
   {
     "name": "TyRanT",
@@ -363,7 +353,7 @@
       62,
       161
     ],
-    "id": 38
+    "id": 37
   },
   {
     "name": "Vietnam Legends",
@@ -374,7 +364,7 @@
       88,
       219
     ],
-    "id": 39
+    "id": 38
   },
   {
     "name": "Vikingos N\u00f3madas",
@@ -383,14 +373,14 @@
       459,
       542
     ],
-    "id": 40
+    "id": 39
   },
   {
     "name": "Vikings",
     "players": [
       376
     ],
-    "id": 41
+    "id": 40
   },
   {
     "name": "White Wolf Palace",
@@ -412,7 +402,7 @@
       382,
       462
     ],
-    "id": 42
+    "id": 41
   },
   {
     "name": "XEVER",
@@ -422,7 +412,7 @@
       461,
       598
     ],
-    "id": 43
+    "id": 42
   },
   {
     "name": "MYinsanity",
@@ -434,7 +424,7 @@
       294,
       409
     ],
-    "id": 44
+    "id": 43
   },
   {
     "name": "New Chapter",
@@ -445,7 +435,7 @@
       388,
       404
     ],
-    "id": 45
+    "id": 44
   },
   {
     "name": "Rulers of Rome",
@@ -462,21 +452,21 @@
       527,
       536
     ],
-    "id": 46
+    "id": 45
   },
   {
     "name": "3D!Clan",
     "players": [
       215
     ],
-    "id": 47
+    "id": 46
   },
   {
     "name": "Tuna's Wet Market",
     "players": [
       529
     ],
-    "id": 48
+    "id": 47
   },
   {
     "name": "DarkSidE",
@@ -492,14 +482,7 @@
       324,
       511
     ],
-    "id": 49
-  },
-  {
-    "name": "Australia",
-    "players": [
-      515
-    ],
-    "id": 50
+    "id": 48
   },
   {
     "name": "Kyo All Fallen",
@@ -509,7 +492,7 @@
       154,
       246
     ],
-    "id": 51
+    "id": 49
   },
   {
     "name": "Clown Legion",
@@ -521,7 +504,7 @@
       282,
       336
     ],
-    "id": 52
+    "id": 50
   },
   {
     "name": "PL",
@@ -529,7 +512,7 @@
       56,
       530
     ],
-    "id": 53
+    "id": 51
   },
   {
     "name": "Heresy",
@@ -538,14 +521,14 @@
       87,
       106
     ],
-    "id": 54
+    "id": 52
   },
   {
     "name": "LACA Gaming",
     "players": [
       358
     ],
-    "id": 55
+    "id": 53
   },
   {
     "name": "SalzZ",
@@ -555,7 +538,7 @@
       254,
       270
     ],
-    "id": 56
+    "id": 54
   },
   {
     "name": "Aftermath",
@@ -566,14 +549,14 @@
       37,
       102
     ],
-    "id": 57
+    "id": 55
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 58
+    "id": 56
   },
   {
     "name": "Suomi",
@@ -584,7 +567,7 @@
       47,
       111
     ],
-    "id": 59
+    "id": 57
   },
   {
     "name": "Sons of the Sun",
@@ -593,33 +576,50 @@
       231,
       234
     ],
-    "id": 60
+    "id": 58
+  },
+  {
+    "name": "Combi eSports",
+    "players": [
+      241,
+      253,
+      274,
+      547
+    ],
+    "id": 59
   },
   {
     "name": "Deceptive Baguettes",
     "players": [
       467
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 62
+    "id": 61
   },
   {
     "name": "NoobsQad",
     "players": [
       534
     ],
-    "id": 63
+    "id": 62
   },
   {
     "name": "CDUB Esports",
     "players": [
       9
+    ],
+    "id": 63
+  },
+  {
+    "name": "Dango Esports",
+    "players": [
+      595
     ],
     "id": 64
   },
