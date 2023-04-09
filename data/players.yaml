@@ -1792,6 +1792,7 @@
     rl:
       - "1755520"
       - "1754629"
+      - "14665996"
   liquipedia: classicpro
   id: 91
   twitch:
@@ -7522,3 +7523,5 @@
     voobly:
       - '125025549'
   id: 626
+  twitch:
+    - https://www.twitch.tv/dabighead117
