@@ -60,8 +60,6 @@
     - https://www.twitch.tv/bact_
   youtube:
     - https://www.youtube.com/channel/UCScpQlZKVLdPMFBdd1gXbRQ
-  twitter:
-    - https://twitter.com/tyrant_bact
   platforms:
     voobly:
       - "123194539" # BacT
@@ -1954,8 +1952,6 @@
   youtube:
     - http://www.youtube.com/channel/UCYhsraJ7ht7qYpZuHht-ibA
   id: 100
-  twitter:
-    - https://twitter.com/FeAgeAoE
   discord_id: FeAge#3568
 - name: Noto
   country: cn
@@ -4213,8 +4209,6 @@
     - http://www.youtube.com/channel/UCMDHXZQfNzVO_1XPBmvIWfQ
   aoeelo: 782
   id: 280
-  twitter:
-    - https://twitter.com/Gabi32996955
 - name: Lucky Rox
   country: ar
   platforms:
