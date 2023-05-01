@@ -7535,6 +7535,12 @@
       - '1877180'
   liquipedia: Bourbоn
   id: 629
-  aoeelo:
-  x: 1
   team: 27
+- name: Youpudding
+  country: tw
+  platforms:
+    rl:
+      - '1617161'
+      - '5376904'
+      - '6456674'
+  id: 630
