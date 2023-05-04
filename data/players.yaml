@@ -4567,6 +4567,7 @@
   platforms:
     rl:
       - "196407"
+      - "244176" # rorarimbo, temporary
     voobly:
       - "11574"
   liquipedia: MembTV
