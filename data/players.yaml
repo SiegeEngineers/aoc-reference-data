@@ -75,6 +75,8 @@
       - "5371188"
   id: 3
   discord_id: BacT#0982
+  twitter:
+    - https://twitter.com/tyrant_bact
   team: 41
 - name: Vivi
   aka:
@@ -1953,6 +1955,8 @@
     - http://www.youtube.com/channel/UCYhsraJ7ht7qYpZuHht-ibA
   id: 100
   discord_id: FeAge#3568
+  twitter:
+    - https://twitter.com/FeAgeAoE
 - name: Noto
   country: cn
   platforms:
@@ -4212,6 +4216,8 @@
     - http://www.youtube.com/channel/UCMDHXZQfNzVO_1XPBmvIWfQ
   aoeelo: 782
   id: 280
+  twitter:
+    - https://twitter.com/Gabi32996955
 - name: Lucky Rox
   country: ar
   platforms:
@@ -5621,6 +5627,7 @@
     - https://www.youtube.com/c/Pinch3Terneira
   id: 397
   city: Málaga
+  discord_id: Pinch3Terneira#5212
 - name: Mario Ovalle
   country: co
   platforms:
@@ -7544,3 +7551,10 @@
       - '5376904'
       - '6456674'
   id: 630
+- name: Mununez
+  country: us
+  platforms:
+    rl:
+      - '3444509'
+  liquipedia: Mununez
+  id: 636
