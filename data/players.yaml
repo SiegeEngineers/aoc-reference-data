@@ -7559,3 +7559,12 @@
       - '3444509'
   liquipedia: Mununez
   id: 636
+- name: Lucho
+  country: ar
+  platforms:
+    rl:
+      - '10921131'
+      - '9423131'
+  id: 637
+  aoeelo: 1332
+  discord_id: Lucho#7623
