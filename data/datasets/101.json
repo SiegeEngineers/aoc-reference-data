@@ -1,0 +1,69 @@
+{
+  "dataset": {
+    "name": "Return of Rome"
+  },
+  "civilizations": {
+    "1": {
+      "name": "Egyptians"
+    },
+    "2": {
+      "name": "Greece"
+    },
+    "3": {
+      "name": "Babylonians"
+    },
+    "4": {
+      "name": "Assyrians"
+    },
+    "5": {
+      "name": "Minoans"
+    },
+    "6": {
+      "name": "Hittites"
+    },
+    "7": {
+      "name": "Phoenecians"
+    },
+    "8": {
+      "name": "Sumerians"
+    },
+    "9": {
+      "name": "Persians"
+    },
+    "10": {
+      "name": "Shang"
+    },
+    "11": {
+      "name": "Yamato"
+    },
+    "12": {
+      "name": "Choson"
+    },
+    "13": {
+      "name": "Romans"
+    },
+    "14": {
+      "name": "Carthigians"
+    },
+    "16": {
+      "name": "Macedonians"
+    },
+    "17": {
+      "name": "Lac Viet"
+    }
+  },
+  "maps": {
+    "140": "Alliance",
+    "141": "Citadel",
+    "144": "Continental",
+    "146": "Desert Ridge",
+    "147": "Gold Mountain",
+    "149": "Hill Country",
+    "154": "Mediterranean",
+    "158": "Nomad",
+    "162": "Plateaus",
+    "165": "Sahara"
+  },
+  "technologies": {},
+  "objects": {}
+}
