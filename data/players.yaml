@@ -610,6 +610,8 @@
     - https://www.twitch.tv/hera
   youtube:
     - https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ
+  youtube_live:
+    - https://www.youtube.com/@HeraAgeofEmpires2/live
   discord:
     - https://discord.gg/DkdJj4D
   platforms:
@@ -7568,3 +7570,27 @@
   id: 637
   aoeelo: 1332
   discord_id: Lucho#7623
+- name: Noszombie
+  country: au
+  platforms:
+    rl:
+      - '322534'
+  liquipedia: Noszombie
+  twitch:
+    - https://www.twitch.tv/noszombie
+  discord_id: Noszombie#2051
+  id: 638
+- name: Daniela_AoE
+  country: ro
+  platforms:
+    rl:
+      - '9462465'
+  liquipedia: Daniela_AoE
+  twitch:
+    - https://www.twitch.tv/daniela_aoe
+  twitter:
+    - https://twitter.com/daniela_aoe
+  youtube:
+    - http://youtube.com/channel/UCUjaaULhgNOJs-eurX4sW4g
+  discord_id: Daniela_AoE#9540
+  id: 639
