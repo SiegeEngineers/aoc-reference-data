@@ -7,7 +7,7 @@
       "name": "Egyptians"
     },
     "2": {
-      "name": "Greece"
+      "name": "Greeks"
     },
     "3": {
       "name": "Babylonians"
@@ -22,7 +22,7 @@
       "name": "Hittites"
     },
     "7": {
-      "name": "Phoenecians"
+      "name": "Phoenicians"
     },
     "8": {
       "name": "Sumerians"
@@ -43,7 +43,10 @@
       "name": "Romans"
     },
     "14": {
-      "name": "Carthigians"
+      "name": "Carthagians"
+    },
+    "15": {
+      "name": "Palmyrans"
     },
     "16": {
       "name": "Macedonians"
@@ -58,9 +61,11 @@
     "144": "Continental",
     "146": "Desert Ridge",
     "147": "Gold Mountain",
+    "148": "Highland",
     "149": "Hill Country",
     "154": "Mediterranean",
     "158": "Nomad",
+    "159": "Oasis",
     "162": "Plateaus",
     "165": "Sahara"
   },
