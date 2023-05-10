@@ -7597,3 +7597,11 @@
     - http://youtube.com/channel/UCUjaaULhgNOJs-eurX4sW4g
   discord_id: Daniela_AoE#9540
   id: 639
+- name: Hannibal
+  country: eg
+  platforms:
+    rl:
+      - '1350868'
+      - '5013857'
+      - '3309475'
+  id: 640
