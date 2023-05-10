@@ -7582,11 +7582,12 @@
     - https://www.twitch.tv/noszombie
   discord_id: Noszombie#2051
   id: 638
-- name: Daniela_AoE
+- name: Daniela
   country: ro
   platforms:
     rl:
       - '9462465'
+      - '9773810'
   liquipedia: Daniela_AoE
   twitch:
     - https://www.twitch.tv/daniela_aoe
