@@ -3757,9 +3757,9 @@
       - "5124528"
       - "10296719"
       - "12251606"
-  liquipedia: Whocl
+  liquipedia: DreamCl
   twitch:
-    - https://www.twitch.tv/whoclaoe
+    - https://www.twitch.tv/dreamcl_aoe
   aoeelo: 501
   id: 250
   youtube:
@@ -7132,6 +7132,7 @@
   id: 548
   aoeelo: 1126
   discord_id: Target331#9006
+  liquipedia: Target331
 - name: Tomahawk
   country: br
   platforms:
