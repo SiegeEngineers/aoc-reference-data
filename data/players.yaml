@@ -4570,6 +4570,7 @@
     rl:
       - "196407"
       - "244176" # rorarimbo, temporary
+      - "208418" # chrazini, temporary
     voobly:
       - "11574"
   liquipedia: MembTV
@@ -5056,7 +5057,7 @@
   country: dk
   platforms:
     rl:
-      - "208418"
+      - "2084180000"
   liquipedia: Chrazini
   aoeelo: 854
   id: 348
