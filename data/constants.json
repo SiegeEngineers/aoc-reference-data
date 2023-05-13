@@ -5,14 +5,15 @@
     "2": "Deathmatch",
     "3": "Scenario",
     "4": "Campaign",
-    "5": "King of the Hill",
-    "6": "Wonder Race",
-    "7": "Defend the Wonder",
-    "8": "Turbo Random",
+    "6": "King of the Hill",
+    "7": "Wonder Race",
+    "8": "Defend the Wonder",
+    "9": "Turbo Random",
     "10": "Capture the Relic",
     "11": "Sudden Death",
     "12": "Battle Royale",
-    "13": "Empire Wars"
+    "13": "Empire Wars",
+    "15": "Co-op Campaign"
   },
   "starting_resources": {
     "0": "Standard",
@@ -122,5 +123,13 @@
     "1": "Wood",
     "2": "Stone",
     "3": "Gold"
+  },
+  "leaderboards": {
+    "1": "Deathmatch 1v1",
+    "2": "Deathmatch TG",
+    "3": "Random Map 1v1",
+    "4": "Random Map TG",
+    "13": "Empire Wars 1v1",
+    "14": "Empire Wars TG"
   }
 }
