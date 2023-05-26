@@ -222,7 +222,6 @@
     - http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g
   id: 9
   discord_id: dogao#8057
-  team: 64
 - name: TaToH
   country: es
   city: Madrid
@@ -4539,6 +4538,8 @@
   twitter:
     - https://twitter.com/Margougou21
   discord_id: Margougou#1764
+  youtube:
+    - https://www.youtube.com/@margougou4744
   team: 17
 - name: MarineLorD
   aka:
@@ -6939,7 +6940,7 @@
   aoeelo: 1117
   city: Melbourne
   discord_id: x0r6zt#0339
-  team: 66
+  team: 65
 - name: Solara
   country: il
   platforms:
@@ -7155,6 +7156,7 @@
   id: 550
   twitch:
     - https://www.twitch.tv/salsicciotto999
+  liquipedia: salsicciotto1999
 - name: Lukas
   country: de
   platforms:
@@ -7334,6 +7336,7 @@
       - '573282'
   discord_id: Terz#8397
   id: 594
+  liquipedia: Terz
 - name: m0re
   country: es
   aoeelo: 1208
@@ -7348,7 +7351,7 @@
   liquipedia: m0re
   twitch:
     - https://www.twitch.tv/m0re_aoe
-  team: 65
+  team: 64
 - name: Dfx2
   country: fr
   aoeelo: 1019
@@ -7521,6 +7524,7 @@
   id: 625
   discord_id: Wes Jasper#5905
   aoeelo: 1206
+  liquipedia: Wes Iwobi
 - name: Dabighead
   country: pe
   platforms:

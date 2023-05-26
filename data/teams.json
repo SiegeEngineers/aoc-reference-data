@@ -610,24 +610,17 @@
     "id": 63
   },
   {
-    "name": "CDUB Esports",
-    "players": [
-      9
-    ],
-    "id": 64
-  },
-  {
     "name": "Dango Esports",
     "players": [
       595
     ],
-    "id": 65
+    "id": 64
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 66
+    "id": 65
   }
 ]
