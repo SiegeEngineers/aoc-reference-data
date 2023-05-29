@@ -528,6 +528,8 @@
   liquipedia: Cloud
   youtube:
     - https://www.youtube.com/user/qaws68
+  youtube_live:
+    - https://www.youtube.com/channel/UChOSBHAdhDG8J0yGHJrPoNQ/live
   discord:
     - https://discord.gg/dKzquZB
   facebook_gaming:
@@ -611,7 +613,7 @@
   youtube:
     - https://www.youtube.com/channel/UCeqc9aYVAZcRQq9Ey0x26AQ
   youtube_live:
-    - https://www.youtube.com/@HeraAgeofEmpires2/live
+    - https://www.youtube.com/channel/UCFYYkZosXVL2t9w1DIkBCNg/live
   discord:
     - https://discord.gg/DkdJj4D
   platforms:
