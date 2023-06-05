@@ -4760,7 +4760,7 @@
   youtube:
     - https://www.youtube.com/channel/UCfndZhdX7djV-cwo9bCyEIw
   discord_id: sebastian2002#2613
-  team: 51
+  team: 17
 - name: StonePlease
   country: de
   platforms:
@@ -5314,6 +5314,7 @@
   aoeelo: 878
   youtube:
     - https://www.youtube.com/@mihai06-ageofempires25
+  team: 17
 - name: Snapy
   country: co
   liquipedia: Snapy
@@ -6050,7 +6051,7 @@
   twitch:
     - https://www.twitch.tv/redlash_
   discord_id: Redlash#0658
-  team: 62
+  team: 63
 - name: Hackali
   country: tr
   platforms:
@@ -6947,7 +6948,7 @@
   aoeelo: 1117
   city: Melbourne
   discord_id: x0r6zt#0339
-  team: 65
+  team: 66
 - name: Solara
   country: il
   platforms:
@@ -7047,7 +7048,7 @@
   id: 534
   twitter:
     - https://twitter.com/daehiise
-  team: 63
+  team: 64
 - name: kunyi
   country: hu
   platforms:
@@ -7344,6 +7345,7 @@
   discord_id: Terz#8397
   id: 594
   liquipedia: Terz
+  team: 62
 - name: m0re
   country: es
   aoeelo: 1208
@@ -7358,7 +7360,7 @@
   liquipedia: m0re
   twitch:
     - https://www.twitch.tv/m0re_aoe
-  team: 64
+  team: 65
 - name: Dfx2
   country: fr
   aoeelo: 1019
@@ -7534,6 +7536,7 @@
   discord_id: Wes Jasper#5905
   aoeelo: 1206
   liquipedia: Wes Iwobi
+  team: 62
 - name: Dabighead
   country: pe
   platforms:
@@ -7632,3 +7635,11 @@
   id: 645
   aoeelo:
   team: 21
+- name: Madtomski
+  country: de
+  platforms:
+    rl:
+      - '989253'
+  liquipedia: Madtomski
+  id: 650
+  team: 62

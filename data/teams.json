@@ -136,6 +136,8 @@
     "name": "Fox",
     "players": [
       308,
+      324,
+      368,
       373,
       406,
       427,
@@ -498,8 +500,7 @@
       229,
       260,
       266,
-      281,
-      324
+      281
     ],
     "id": 51
   },
@@ -596,31 +597,40 @@
     "id": 61
   },
   {
+    "name": "LACA Gaming",
+    "players": [
+      594,
+      625,
+      650
+    ],
+    "id": 62
+  },
+  {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 62
+    "id": 63
   },
   {
     "name": "NoobsQad",
     "players": [
       534
     ],
-    "id": 63
+    "id": 64
   },
   {
     "name": "Dango Esports",
     "players": [
       595
     ],
-    "id": 64
+    "id": 65
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 65
+    "id": 66
   }
 ]
