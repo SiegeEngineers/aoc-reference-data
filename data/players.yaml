@@ -7630,7 +7630,7 @@
       - '3079181'
       - '6851129'
   liquipedia: HELLRAZER
-  id: 645
+  id: 642
   aoeelo:
   team: 21
 - name: Madtomski
@@ -7639,7 +7639,7 @@
     rl:
       - '989253'
   liquipedia: Madtomski
-  id: 650
+  id: 643
   team: 62
 - name: Tiggerr
   country: ca
@@ -7647,7 +7647,15 @@
     rl:
       - '1995414'
   liquipedia: Tiggerr
-  id: 656
+  id: 644
   aoeelo:
   team: 40
-  y: 1
+- name: sologhost
+  country: us
+  platforms:
+    rl:
+      - '12484696'
+  liquipedia: Sologhost
+  twitch:
+    - https://www.twitch.tv/sologhostak47
+  id: 645
