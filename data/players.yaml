@@ -4565,8 +4565,6 @@
   platforms:
     rl:
       - "196407"
-      - "244176" # rorarimbo, temporary
-      - "208418" # chrazini, temporary
     voobly:
       - "11574"
   liquipedia: MembTV
@@ -6820,6 +6818,7 @@
     - https://twitter.com/robo_boro_
   discord_id: robo_boro#5469
   id: 505
+  team: 64
 - name: webber
   country: ar
   platforms:
