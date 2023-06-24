@@ -7570,6 +7570,8 @@
       - '3444509'
   liquipedia: Mununez
   id: 636
+  twitch:
+    - https://www.twitch.tv/mununez
 - name: Lucho
   country: ar
   platforms:
