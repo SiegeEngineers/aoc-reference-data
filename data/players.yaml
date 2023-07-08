@@ -5533,6 +5533,8 @@
     rl:
       - "949573"
       - "10910496"
+    voobly:
+      - "123914116"
   twitch:
     - https://www.twitch.tv/socksyy
   id: 389
@@ -7663,3 +7665,12 @@
   twitch:
     - https://www.twitch.tv/sologhostak47
   id: 645
+- name: hoi
+  country: at
+  platforms:
+    rl:
+      - '2952768'
+      - '2280616'
+      - '9928982'
+      - '10679577'
+  id: 646
