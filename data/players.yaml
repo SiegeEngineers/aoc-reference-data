@@ -7674,3 +7674,11 @@
       - '9928982'
       - '10679577'
   id: 646
+- name: DuDuZhu
+  country: cn
+  platforms:
+    rl:
+      - '6251969'
+      - '8589691'
+  discord_id: DuDu#1345
+  id: 647
