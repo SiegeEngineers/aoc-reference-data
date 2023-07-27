@@ -7687,3 +7687,11 @@
       - '8589691'
   discord_id: DuDu#1345
   id: 647
+- name: 1ron_chef
+  country: us
+  platforms:
+    rl:
+      - '237403'
+  twitch:
+    - https://www.twitch.tv/1ron_chef
+  id: 648
