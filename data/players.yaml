@@ -7687,3 +7687,10 @@
       - '8589691'
   discord_id: DuDu#1345
   id: 647
+- name: Parawhas
+  country: pe
+  id: 648
+  platforms:
+    rl:
+      - '4744495'
+      - '3020814'
