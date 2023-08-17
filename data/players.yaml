@@ -3329,6 +3329,7 @@
   aoeelo: 93
   id: 221
   discord_id: BLACK#1654
+  team: 50
 - name: killpigboy
   country: cn
   platforms:
@@ -5799,6 +5800,7 @@
   liquipedia: Nahuel05
   discord_id: Nahuel05_#8518
   aoeelo: 1049
+  team: 50
 - name: Paganini
   country: br
   platforms:
@@ -6369,6 +6371,7 @@
   id: 461
   aoeelo: 819
   discord_id: LocoSer#4916
+  team: 50
 - name: Shed
   country: au
   platforms:
@@ -6863,6 +6866,7 @@
   aoeelo: 1224
   discord_id: prisma09#4624
   liquipedia: Prisma09
+  team: 50
 - name: TheAntman
   country: fi
   platforms:
@@ -7375,6 +7379,7 @@
   twitch:
     - https://www.twitch.tv/tatengue_
   discord_id: Tatengue_#9944
+  team: 50
 - name: LePoséidon
   country: fr
   aoeelo: 985
@@ -7612,6 +7617,7 @@
       - '4438140'
   id: 641
   liquipedia: Wide
+  team: 27
 - name: Hellrazer
   country: in
   platforms:
