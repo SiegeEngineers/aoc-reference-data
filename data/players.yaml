@@ -7679,3 +7679,11 @@
     rl:
       - '4744495'
       - '3020814'
+- name: GTyellowjacket
+  country: us
+  id: 649
+  platforms:
+    rl:
+      - '301822'
+  twitch:
+    - https://www.twitch.tv/gtyellowjacket
