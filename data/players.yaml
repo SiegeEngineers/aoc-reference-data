@@ -5891,6 +5891,8 @@
       - "5242781"
   id: 418
   aoeelo: 1195
+  twitch:
+    - https://www.twitch.tv/doomster_d
 - name: Macluffy
   country: ma
   platforms:
