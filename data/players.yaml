@@ -205,6 +205,8 @@
     - https://twitter.com/dogaoAoE
   twitch:
     - https://www.twitch.tv/dogaoaoe
+  kick:
+    - https://kick.com/dogaoaoe
   platforms:
     voobly:
       - "123186723" # GiveMeYourSmile
@@ -1843,6 +1845,8 @@
     - https://discord.gg/sjCpquh
   youtube_live:
     - https://www.youtube.com/channel/UC0bSvZvJdiZCN4V7kOVwKEg/live
+  kick:
+    - https://kick.com/capoch
   platforms:
     voobly:
       - "29129"
@@ -5627,6 +5631,7 @@
     - https://www.youtube.com/c/marioovalle
   youtube_live:
     - https://www.youtube.com/channel/UCFcYXw_MXaalvq9KbdpV3SA/live
+  discord_id: marioovalle
   id: 398
 - name: HGB
   country: mx
@@ -5671,6 +5676,9 @@
     - https://www.youtube.com/channel/UCPi7qn4OydOUSfHQqU0XDQg/live
   id: 402
   aoeelo: 116
+  discord_id: nachoaoe
+  discord:
+    - https://discord.gg/T3X5FJngJj
   team: 9
 - name: TWest
   country: us
@@ -5915,7 +5923,8 @@
   youtube:
     - https://www.youtube.com/channel/UC4Q5KS2LmQSVANfi2nH55tA
   discord:
-    - https://discord.gg/8EuCnsGGtA
+    - https://discord.gg/SptSx7HcpM
+  discord_id: Jesus87#6807
   id: 420
   team: 13
 - name: ObaTheGreatt
