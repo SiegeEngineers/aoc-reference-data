@@ -205,6 +205,8 @@
     - https://twitter.com/dogaoAoE
   twitch:
     - https://www.twitch.tv/dogaoaoe
+  kick:
+    - https://kick.com/dogaoaoe
   platforms:
     voobly:
       - "123186723" # GiveMeYourSmile
@@ -1843,6 +1845,8 @@
     - https://discord.gg/sjCpquh
   youtube_live:
     - https://www.youtube.com/channel/UC0bSvZvJdiZCN4V7kOVwKEg/live
+  kick:
+    - https://kick.com/capoch
   platforms:
     voobly:
       - "29129"
