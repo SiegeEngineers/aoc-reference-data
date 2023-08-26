@@ -7324,19 +7324,6 @@
       - '2594552'
   id: 594
   aoeelo: 1144
-- name: Terz
-  country: de
-  aoeelo: 1066
-  platforms:
-    rl:
-      - '573282'
-      - '15465466'
-  discord_id: Terz#8397
-  id: 650
-  liquipedia: Terz
-  twitch:
-    - https://www.twitch.tv/terz_aoe
-  team: 22
 - name: m0re
   country: es
   aoeelo: 1208
@@ -7457,17 +7444,6 @@
     rl:
       - '2429762'
   id: 613
-- name: TeMo
-  country: ma
-  platforms:
-    rl:
-      - '6815493'
-      - '12059289'
-      - '14910497'
-      - '14650521'
-      - '15345163'
-  id: 613
-  aoeelo: 1322
 - name: Dai
   country: tw
   platforms:
@@ -7696,3 +7672,27 @@
       - '301822'
   twitch:
     - https://www.twitch.tv/gtyellowjacket
+- name: Terz
+  country: de
+  aoeelo: 1066
+  platforms:
+    rl:
+      - '573282'
+      - '15465466'
+  discord_id: Terz#8397
+  id: 650
+  liquipedia: Terz
+  twitch:
+    - https://www.twitch.tv/terz_aoe
+  team: 22
+- name: TeMo
+  country: ma
+  platforms:
+    rl:
+      - '6815493'
+      - '12059289'
+      - '14910497'
+      - '14650521'
+      - '15345163'
+  id: 651
+  aoeelo: 1322
