@@ -2677,8 +2677,6 @@
   liquipedia: Rodrigus
   twitch:
     - https://www.twitch.tv/rodrigus_aoe
-  youtube:
-    - https://www.youtube.com/UCNCY4gGtk099xAm1CYKm2eQ
   team: 38
 - name: Skittle
   country: de
@@ -4135,8 +4133,6 @@
   twitter:
     - https://twitter.com/Annotoph_AoE
   discord_id: Annotoph#3948
-  youtube:
-    - https://www.youtube.com/@annotophaoe2894
   team: 42
 - name: RookStar
   country: br
@@ -4205,8 +4201,6 @@
     - http://www.youtube.com/channel/UCMDHXZQfNzVO_1XPBmvIWfQ
   aoeelo: 782
   id: 280
-  twitter:
-    - https://twitter.com/Gabi32996955
 - name: Lucky Rox
   country: ar
   platforms:
@@ -5299,7 +5293,7 @@
   discord_id: Mihai06#5919
   aoeelo: 878
   youtube:
-    - https://www.youtube.com/@mihai06-ageofempires25
+    - https://www.youtube.com/channel/UCegNY_dhXXwubSHZofyQeKg
   team: 14
 - name: Snapy
   country: co
@@ -5768,8 +5762,6 @@
     - https://www.twitch.tv/bulletchen
   twitter:
     - https://twitter.com/mYiBulletchen
-  youtube:
-    - https://www.youtube.com/user/MrGamal100
   discord_id: Bulletchen#5213
   team: 42
 - name: VarVarus
@@ -5822,7 +5814,7 @@
   twitch:
     - https://www.twitch.tv/paganini_aoe2
   youtube:
-    - https://www.youtube.com/BKPaganini
+    - https://www.youtube.com/c/PaganiniAOE2
   liquipedia: Paganini
   id: 413
   aoeelo: 815
@@ -7074,8 +7066,6 @@
     - https://www.twitch.tv/rayaoe
   aoeelo: 1277
   discord_id: RAY#8334
-  youtube:
-    - https://www.youtube.com/rayaoe
 - name: Archlord
   country: mx
   platforms:
@@ -7091,8 +7081,6 @@
       - '216073'
   liquipedia: Maxi
   id: 545
-  youtube:
-    - https://www.youtube.com/c/maxiarg
   aoeelo: 882
   discord_id: Maxi#1566
   team: 10
