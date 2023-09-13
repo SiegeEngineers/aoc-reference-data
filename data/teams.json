@@ -17,7 +17,8 @@
   {
     "name": "One Punch",
     "players": [
-      263
+      263,
+      384
     ],
     "id": 3
   },
@@ -56,7 +57,9 @@
     "name": "Heresy",
     "players": [
       8,
-      87
+      39,
+      87,
+      106
     ],
     "id": 8
   },
@@ -166,6 +169,13 @@
     "id": 18
   },
   {
+    "name": "Sucky WizZards",
+    "players": [
+      452
+    ],
+    "id": 19
+  },
+  {
     "name": "Team Honor",
     "players": [
       53,
@@ -176,7 +186,7 @@
       345,
       351
     ],
-    "id": 19
+    "id": 20
   },
   {
     "name": "The BrotherHood Kappa",
@@ -189,7 +199,7 @@
       446,
       449
     ],
-    "id": 20
+    "id": 21
   },
   {
     "name": "HOWL Esports",
@@ -199,7 +209,7 @@
       377,
       557
     ],
-    "id": 21
+    "id": 22
   },
   {
     "name": "LACA Gaming",
@@ -209,7 +219,7 @@
       643,
       650
     ],
-    "id": 22
+    "id": 23
   },
   {
     "name": "Tuna's Wet Market",
@@ -219,7 +229,7 @@
       640,
       644
     ],
-    "id": 23
+    "id": 24
   },
   {
     "name": "Rulers of Rome",
@@ -236,7 +246,7 @@
       527,
       536
     ],
-    "id": 24
+    "id": 25
   },
   {
     "name": "Taiwan Aoe Gamer",
@@ -247,7 +257,7 @@
       471,
       630
     ],
-    "id": 25
+    "id": 26
   },
   {
     "name": "Dreamers",
@@ -257,9 +267,10 @@
       87,
       265,
       281,
+      311,
       448
     ],
-    "id": 26
+    "id": 27
   },
   {
     "name": "SalzZ",
@@ -270,7 +281,7 @@
       270,
       641
     ],
-    "id": 27
+    "id": 28
   },
   {
     "name": "QuEnDi",
@@ -289,7 +300,7 @@
       492,
       523
     ],
-    "id": 28
+    "id": 29
   },
   {
     "name": "Vikingos N\u00f3madas",
@@ -298,7 +309,7 @@
       459,
       542
     ],
-    "id": 29
+    "id": 30
   },
   {
     "name": "Russia F",
@@ -307,7 +318,7 @@
       297,
       313
     ],
-    "id": 30
+    "id": 31
   },
   {
     "name": "GamerLegion",
@@ -318,14 +329,14 @@
       32,
       38
     ],
-    "id": 31
+    "id": 32
   },
   {
     "name": "Stackers",
     "players": [
       290
     ],
-    "id": 32
+    "id": 33
   },
   {
     "name": "InDuS",
@@ -334,7 +345,7 @@
       140,
       642
     ],
-    "id": 33
+    "id": 34
   },
   {
     "name": "White Wolf Palace",
@@ -346,6 +357,8 @@
       25,
       36,
       85,
+      89,
+      97,
       116,
       197,
       217,
@@ -355,14 +368,14 @@
       382,
       462
     ],
-    "id": 34
+    "id": 35
   },
   {
     "name": "DevilZ",
     "players": [
       179
     ],
-    "id": 35
+    "id": 36
   },
   {
     "name": "ChileAoE",
@@ -371,25 +384,28 @@
       332,
       345
     ],
-    "id": 36
+    "id": 37
   },
   {
     "name": "The Immortals",
     "players": [
-      103
+      103,
+      107
     ],
-    "id": 37
+    "id": 38
   },
   {
     "name": "DarkSidE",
     "players": [
       44,
+      112,
       159,
       229,
       260,
-      266
+      266,
+      410
     ],
-    "id": 38
+    "id": 39
   },
   {
     "name": "New Chapter",
@@ -400,7 +416,7 @@
       388,
       404
     ],
-    "id": 39
+    "id": 40
   },
   {
     "name": "Age of Queens",
@@ -410,7 +426,7 @@
       466,
       639
     ],
-    "id": 40
+    "id": 41
   },
   {
     "name": "Killing Generation of Brazil",
@@ -419,9 +435,10 @@
       42,
       73,
       80,
-      365
+      365,
+      489
     ],
-    "id": 41
+    "id": 42
   },
   {
     "name": "MYinsanity",
@@ -434,7 +451,7 @@
       409,
       534
     ],
-    "id": 42
+    "id": 43
   },
   {
     "name": "SuPeRNovA",
@@ -445,7 +462,7 @@
       343,
       501
     ],
-    "id": 43
+    "id": 44
   },
   {
     "name": "Aftermath",
@@ -456,7 +473,7 @@
       37,
       102
     ],
-    "id": 44
+    "id": 45
   },
   {
     "name": "Deities of Death",
@@ -464,25 +481,27 @@
       71,
       137
     ],
-    "id": 45
+    "id": 46
   },
   {
     "name": "Suomi",
     "players": [
       17,
+      30,
       40,
       41,
       47,
+      81,
       111
     ],
-    "id": 46
+    "id": 47
   },
   {
     "name": "TheUnCrapAbles",
     "players": [
       572
     ],
-    "id": 47
+    "id": 48
   },
   {
     "name": "Team Maswi",
@@ -494,14 +513,14 @@
       506,
       637
     ],
-    "id": 48
+    "id": 49
   },
   {
     "name": "3D!Clan",
     "players": [
       215
     ],
-    "id": 49
+    "id": 50
   },
   {
     "name": "XEVER",
@@ -512,6 +531,141 @@
       511,
       598
     ],
-    "id": 50
+    "id": 51
+  },
+  {
+    "name": "mYinsanity",
+    "players": [
+      34,
+      46,
+      275,
+      293,
+      294,
+      409,
+      534
+    ],
+    "id": 52
+  },
+  {
+    "name": "Deceptive Cadence",
+    "players": [
+      467
+    ],
+    "id": 53
+  },
+  {
+    "name": "Deceptive Baguettes",
+    "players": [
+      467
+    ],
+    "id": 54
+  },
+  {
+    "name": "AAOE",
+    "players": [
+      431
+    ],
+    "id": 55
+  },
+  {
+    "name": "True Clown Legion",
+    "players": [
+      521
+    ],
+    "id": 56
+  },
+  {
+    "name": "Nadya's Boys",
+    "players": [
+      78,
+      83,
+      90,
+      264
+    ],
+    "id": 57
+  },
+  {
+    "name": "PL",
+    "players": [
+      56,
+      530
+    ],
+    "id": 58
+  },
+  {
+    "name": "UNUR",
+    "players": [
+      529
+    ],
+    "id": 59
+  },
+  {
+    "name": "NoobsQad",
+    "players": [
+      505,
+      534
+    ],
+    "id": 60
+  },
+  {
+    "name": "MetaTensei Esports",
+    "players": [
+      9
+    ],
+    "id": 61
+  },
+  {
+    "name": "IziDream",
+    "players": [
+      309
+    ],
+    "id": 62
+  },
+  {
+    "name": "St clan",
+    "players": [
+      299
+    ],
+    "id": 63
+  },
+  {
+    "name": "Rising Stars",
+    "players": [
+      299
+    ],
+    "id": 64
+  },
+  {
+    "name": "new Chapter",
+    "players": [
+      158,
+      160,
+      283,
+      388,
+      404
+    ],
+    "id": 65
+  },
+  {
+    "name": "Sons of the Sun",
+    "players": [
+      234
+    ],
+    "id": 66
+  },
+  {
+    "name": "Rookies",
+    "players": [
+      224,
+      231
+    ],
+    "id": 67
+  },
+  {
+    "name": "Pcific",
+    "players": [
+      271
+    ],
+    "id": 68
   }
 ]
