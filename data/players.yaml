@@ -7730,3 +7730,16 @@
     rl:
       - '622641'
   id: 652
+- name: Rayz
+  country: tw
+  platforms:
+    rl:
+      - '6456674'
+      - '8584614'
+      - '11604775'
+      - '11457005'
+      - '11800743'
+      - '11604775'
+  twitch:
+    - https://www.twitch.tv/rayz_aoe
+  id: 653
