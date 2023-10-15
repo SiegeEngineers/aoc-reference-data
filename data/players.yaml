@@ -4186,7 +4186,7 @@
   platforms:
     rl:
       - "4796235"
-    # - "14192577" do not enable
+  # - "14192577" do not enable
   twitter:
     - https://twitter.com/RoxyC_Stream
   twitch:
@@ -5278,7 +5278,6 @@
   aoeelo: 719
   twitch:
     - https://www.twitch.tv/iam2k1
-  team: 42
 - name: Quảng Trị
   aka:
     - Hope
