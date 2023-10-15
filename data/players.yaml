@@ -4186,7 +4186,7 @@
   platforms:
     rl:
       - "4796235"
-      # - "14192577" do not enable
+    # - "14192577" do not enable
   twitter:
     - https://twitter.com/RoxyC_Stream
   twitch:
@@ -4386,7 +4386,6 @@
   discord_id: FreakinAndy#7698
   twitter:
     - https://twitter.com/FreakinAndy
-  team: 52
 - name: FreakinChris
   country: at
   platforms:
@@ -5385,7 +5384,6 @@
     - https://twitter.com/cedric_salette
   liquipedia: c.salette
   discord_id: c.salette#0653
-  team: 14
 - name: Chirris
   country: mx
   aoeelo: 957
@@ -6019,7 +6017,6 @@
   youtube:
     - https://www.youtube.com/channel/UC372upvOX6eiYrdPL55gI4g
   discord_id: Uzikoti#8715
-  team: 14
 - name: cebdos
   country: fr
   platforms:
@@ -7584,7 +7581,7 @@
   twitch:
     - https://www.twitch.tv/Lucho_AoE
   liquipedia: Lucho
-  team: 49
+  team: 27
 - name: Noszombie
   country: au
   platforms:
@@ -7743,3 +7740,4 @@
   twitch:
     - https://www.twitch.tv/rayz_aoe
   id: 653
+  team: 26
