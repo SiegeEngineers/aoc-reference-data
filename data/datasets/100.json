@@ -132,6 +132,12 @@
     },
     "43": {
       "name": "Romans"
+    },
+    "44": {
+      "name": "Armenians"
+    },
+    "45": {
+      "name": "Georgians"
     }
   },
   "maps": {
@@ -3003,6 +3009,9 @@
     "1740": "Elite Ratha",
     "1761": "Elite Ratha",
     "1750": "Thirisadai",
-    "1755": "Camel Scout"
+    "1755": "Camel Scout",
+    "1800": "Composite Bowman",
+    "1803": "Monaspa",
+    "1811": "Warrior Priest"
   }
 }
