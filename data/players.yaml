@@ -7742,3 +7742,12 @@
     - https://www.twitch.tv/rayz_aoe
   id: 653
   team: 26
+- name: TomS
+  country: ar
+  platforms:
+    rl:
+      - "403270"
+      - "2066895"
+  id: 654
+  liquipedia: TomS
+  aoeelo: 1219
