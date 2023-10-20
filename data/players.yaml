@@ -2592,6 +2592,10 @@
   aoeelo: 611
   twitch:
     - https://www.twitch.tv/demonsheeptw
+  youtube:
+    - https://www.youtube.com/@DemonsheepTW_
+  youtube_live:
+    - https://www.youtube.com/channel/UCyUKYRY9JYwyhhhVbGLgSCg/live
   platforms:
     rl:
       - "226697"
@@ -2617,6 +2621,10 @@
   aoeelo: 445
   twitch:
     - https://www.twitch.tv/skyandpeace
+  youtube:
+    - https://www.youtube.com/@SoraKumaAoE
+  youtube_live:
+    - https://www.youtube.com/channel/UCae02KfwuahRPH8UtJCghNA/live
   platforms:
     rl:
       - "209118"
@@ -4415,7 +4423,9 @@
   twitch:
     - https://www.twitch.tv/mr_grin_
   youtube:
-    - http://www.youtube.com/ЦитадельСтратегий
+    - https://www.youtube.com/@kiborg51
+  youtube_live:
+    - https://www.youtube.com/channel/UCT_Y1oUhPB3HPr7e3EiUyMw/live
   id: 297
   team: 31
 - name: HamRTime
@@ -6487,6 +6497,7 @@
       - '268051'
       - '9754039'
   id: 469
+  aoeelo: 1070
   liquipedia: Eli
 - name: Big Scoob
   country: ee
@@ -6848,6 +6859,7 @@
       - '368368'
   liquipedia: webber
   id: 506
+  aoeelo: 1077
   twitch:
     - https://www.twitch.tv/webber_aoe
   discord_id: webber#0098
@@ -7447,6 +7459,7 @@
     - https://www.twitch.tv/acro17_aoe
   id: 604
   discord_id: Acro17#6437
+  liquipedia: Acro17
   aoeelo: 1309
   team: 23
 - name: BBQTurkman
@@ -7502,6 +7515,11 @@
       - '1835221'
   twitch:
     - https://www.twitch.tv/wanderbraun
+  youtube:
+    - https://www.youtube.com/@Wanderbraun-AgeofEmpires
+  youtube_live:
+    - https://www.youtube.com/channel/UCLqdi5MHui0yr8D6LFDWBBA/live
+  liquipedia: Wanderbraun
   id: 622
 - name: DontCallMeChris
   country: ua
@@ -7560,6 +7578,7 @@
       - '5376904'
       - '6456674'
   id: 630
+  aoeelo: 1187
   team: 26
 - name: Mununez
   country: us
@@ -7568,6 +7587,7 @@
       - '3444509'
   liquipedia: Mununez
   id: 636
+  aoeelo: 1345
   twitch:
     - https://www.twitch.tv/mununez
 - name: Lucho
@@ -7627,6 +7647,7 @@
       - '10892656'
       - '4438140'
   id: 641
+  aoeelo: 1317
   liquipedia: Wide
   team: 28
 - name: Hellrazer
@@ -7647,6 +7668,7 @@
       - '2482407'
   liquipedia: Madtomski
   id: 643
+  aoeelo: 1315
   team: 23
 - name: Tiggerr
   country: ca
@@ -7675,6 +7697,7 @@
       - '9928982'
       - '10679577'
   id: 646
+  aoeelo: 1375
 - name: DuDuZhu
   country: cn
   platforms:
@@ -7686,6 +7709,7 @@
 - name: Parawhas
   country: pe
   id: 648
+  aoeelo: 1319
   platforms:
     rl:
       - '4744495'
@@ -7741,6 +7765,7 @@
   twitch:
     - https://www.twitch.tv/rayz_aoe
   id: 653
+  aoeelo: 1302
   team: 26
 - name: TomS
   country: ar
