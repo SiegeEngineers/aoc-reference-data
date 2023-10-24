@@ -736,6 +736,8 @@
     - https://www.facebook.com/gaming/theviper
   twitch:
     - https://www.twitch.tv/theviper
+  kick:
+    - https://kick.com/TheViperAoE
   discord:
     - https://discord.gg/WNmHUEH
   platforms:
@@ -4989,6 +4991,7 @@
       - "788320"
       - "3527288"
   id: 341
+  aoeelo: 765
 - name: Albis
   country: tw
   platforms:
@@ -7790,3 +7793,10 @@
       - "10355928"
       - "10020002"
   id: 655
+- name: Wean Dinchester
+  country: de
+  platforms:
+    rl:
+      - "300565"
+  aoeelo: 1160
+  id: 656
