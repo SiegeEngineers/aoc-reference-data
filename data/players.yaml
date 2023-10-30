@@ -1181,8 +1181,8 @@
       - "1688652"
       - "6268226"
       - "6169169"
-    #- "10141634"
-    #- "2827445"
+#- "10141634"
+#- "2827445"
   id: 52
   douyin: https://live.douyin.com/785583361067
 - name: Noisick
@@ -7694,7 +7694,7 @@
   platforms:
     rl:
       - '12484696'
-  liquipedia: Sologhost
+  liquipedia: SologhostAK47
   twitch:
     - https://www.twitch.tv/sologhostak47
   id: 645
@@ -7811,3 +7811,47 @@
     rl:
       - "2912198"
   id: 657
+- name: Mr.Dobbsn
+  country: de
+  platforms:
+    rl:
+      - '2808827'
+      - '12217131'
+      - '10373124'
+  liquipedia: Mr.Dobbsn
+  id: 658
+- name: ReyO
+  country: es
+  platforms:
+    rl:
+      - '429847'
+      - '3283985'
+  liquipedia: ReyO
+  id: 666
+  aoeelo: 823
+- name: Eskabe
+  country: ar
+  platforms:
+    rl:
+      - '880057'
+      - '10984325'
+  liquipedia: Eskabe
+  id: 667
+  aoeelo: 1223
+- name: Nobu
+  country: ar
+  platforms:
+    rl:
+      - '217485'
+      - '3110281'
+      - '5841610'
+  liquipedia: Nobu
+  id: 668
+- name: AssKickerwa
+  country: in
+  platforms:
+    rl:
+      - '664715'
+      - '4888277'
+  liquipedia: AssKickerwa
+  id: 669
