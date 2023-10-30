@@ -4339,7 +4339,7 @@
     rl:
       - "664715"
       - "4888277"
-  liquipedia: Ass_Kickerwa
+  liquipedia: AssKickerwa
   id: 290
   team: 33
 - name: Cl3m3nT
@@ -7805,6 +7805,7 @@
       - "300565"
   aoeelo: 1160
   id: 656
+  team: 23
 - name: Dennis
   country: hk
   platforms:
@@ -7820,6 +7821,7 @@
       - '10373124'
   liquipedia: Mr.Dobbsn
   id: 658
+  team: 23
 - name: ReyO
   country: es
   platforms:
@@ -7838,6 +7840,7 @@
   liquipedia: Eskabe
   id: 667
   aoeelo: 1223
+  team: 51
 - name: Nobu
   country: ar
   platforms:
@@ -7847,11 +7850,4 @@
       - '5841610'
   liquipedia: Nobu
   id: 668
-- name: AssKickerwa
-  country: in
-  platforms:
-    rl:
-      - '664715'
-      - '4888277'
-  liquipedia: AssKickerwa
-  id: 669
+  team: 10
