@@ -4593,6 +4593,7 @@
     rl:
       - "196407"
       - "17519780" # membtv events
+      - "312663" #test
     voobly:
       - "11574"
   liquipedia: MembTV
