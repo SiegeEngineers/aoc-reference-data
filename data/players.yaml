@@ -4592,6 +4592,7 @@
   platforms:
     rl:
       - "196407"
+      - "17519780" # membtv events
     voobly:
       - "11574"
   liquipedia: MembTV
