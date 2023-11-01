@@ -3049,6 +3049,8 @@
   country: ca
   youtube:
     - https://www.youtube.com/channel/UCmFJUeU8Oubp5Neldbq0JRA
+  youtube_live:
+    - https://www.youtube.com/channel/UCmFJUeU8Oubp5Neldbq0JRA/live
   mixer: https://mixer.com/SurvivalistAOE2DE
   discord:
     - https://discord.gg/2uJ5Tyh
@@ -3770,7 +3772,7 @@
       - "12251606"
   liquipedia: DreamCl
   twitch:
-    - https://www.twitch.tv/dreamcl_aoe
+    - https://www.twitch.tv/whocl_aoe
   aoeelo: 501
   id: 250
   youtube:
