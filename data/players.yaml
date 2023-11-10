@@ -2150,7 +2150,6 @@
   aoeelo: 664
   id: 112
   discord_id: Dobbs351#2210
-  team: 38
 - name: Kamigawa
   country: it
   aoeelo: 446
@@ -2961,6 +2960,7 @@
       - "290617"
       - "2598137"
       - "5658345"
+      - "2598137"
     voobly:
       - "124317014"
   liquipedia: Sobek
