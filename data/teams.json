@@ -109,6 +109,7 @@
   {
     "name": "Fox",
     "players": [
+      215,
       308,
       324,
       368,
@@ -506,13 +507,6 @@
     "id": 48
   },
   {
-    "name": "3D!Clan",
-    "players": [
-      215
-    ],
-    "id": 49
-  },
-  {
     "name": "XEVER",
     "players": [
       221,
@@ -522,28 +516,28 @@
       598,
       667
     ],
-    "id": 50
+    "id": 49
   },
   {
     "name": "mYinsanity",
     "players": [
       534
     ],
-    "id": 51
+    "id": 50
   },
   {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 52
+    "id": 51
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 53
+    "id": 52
   },
   {
     "name": "Nadya's Boys",
@@ -553,7 +547,7 @@
       90,
       264
     ],
-    "id": 54
+    "id": 53
   },
   {
     "name": "PL",
@@ -561,14 +555,14 @@
       56,
       530
     ],
-    "id": 55
+    "id": 54
   },
   {
     "name": "UNUR",
     "players": [
       529
     ],
-    "id": 56
+    "id": 55
   },
   {
     "name": "NoobsQad",
@@ -576,42 +570,42 @@
       505,
       534
     ],
-    "id": 57
+    "id": 56
   },
   {
     "name": "MetaTensei Esports",
     "players": [
       9
     ],
-    "id": 58
+    "id": 57
   },
   {
     "name": "IziDream",
     "players": [
       309
     ],
-    "id": 59
+    "id": 58
   },
   {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 60
+    "id": 59
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 62
+    "id": 61
   },
   {
     "name": "Rookies",
@@ -619,13 +613,13 @@
       224,
       231
     ],
-    "id": 63
+    "id": 62
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 64
+    "id": 63
   }
 ]
