@@ -224,7 +224,7 @@
     - http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g
   id: 9
   discord_id: dogao#8057
-  team: 57
+  team: 58
 - name: TaToH
   country: es
   city: Madrid
@@ -3395,7 +3395,7 @@
   twitch:
     - https://www.twitch.tv/keno_aoe
   discord_id: Keno#6318
-  team: 62
+  team: 63
 - name: JackK
   country: pl
   twitch:
@@ -3497,7 +3497,7 @@
   id: 231
   twitter:
     - https://twitter.com/BlukuuktaN
-  team: 62
+  team: 63
 - name: OnLeKe
   country: br
   platforms:
@@ -3540,7 +3540,7 @@
   liquipedia: Mexican_Psycho
   aoeelo: 504
   id: 234
-  team: 61
+  team: 62
 - name: Darknoob
   country: nl
   platforms:
@@ -4118,7 +4118,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 63
+  team: 64
 - name: CX_youwei
   country: cn
   platforms:
@@ -4461,7 +4461,7 @@
   youtube:
     - http://www.youtube.com/channel/UCAm-fFhNAhKPnh3C3XxGdBA
   id: 299
-  team: 60
+  team: 61
 - name: Improvise
   country: us
   platforms:
@@ -4585,7 +4585,7 @@
     - https://twitter.com/MarineLorDSC2
   youtube:
     - https://www.youtube.com/channel/UCHheEmSTX_NaAHSq2uwmlMg
-  team: 58
+  team: 59
 - name: MembTV
   country: es
   aka:
@@ -5943,6 +5943,7 @@
   aoeelo: 1195
   twitch:
     - https://www.twitch.tv/doomster_d
+  team: 57
 - name: Macluffy
   country: ma
   platforms:

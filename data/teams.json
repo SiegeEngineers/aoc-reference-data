@@ -573,39 +573,46 @@
     "id": 56
   },
   {
+    "name": "BLACKSAILS",
+    "players": [
+      418
+    ],
+    "id": 57
+  },
+  {
     "name": "MetaTensei Esports",
     "players": [
       9
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "IziDream",
     "players": [
       309
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "Rookies",
@@ -613,13 +620,13 @@
       224,
       231
     ],
-    "id": 62
+    "id": 63
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 63
+    "id": 64
   }
 ]
