@@ -1146,6 +1146,8 @@
     - https://www.twitch.tv/kasvaoe
   youtube:
     - https://www.youtube.com/channel/UCFAiCVX7VqQaqGBPAxLRKnQ?view_as=subscriber
+  youtube_live:
+    - https://www.youtube.com/channel/UCFAiCVX7VqQaqGBPAxLRKnQ/live
   discord:
     - https://discord.gg/CETwWEp
   platforms:
