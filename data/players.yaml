@@ -3399,7 +3399,7 @@
   twitch:
     - https://www.twitch.tv/keno_aoe
   discord_id: Keno#6318
-  team: 63
+  team: 64
 - name: JackK
   country: pl
   twitch:
@@ -3501,7 +3501,7 @@
   id: 231
   twitter:
     - https://twitter.com/BlukuuktaN
-  team: 63
+  team: 64
 - name: OnLeKe
   country: br
   platforms:
@@ -3544,7 +3544,7 @@
   liquipedia: Mexican_Psycho
   aoeelo: 504
   id: 234
-  team: 62
+  team: 63
 - name: Darknoob
   country: nl
   platforms:
@@ -4122,7 +4122,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 64
+  team: 65
 - name: CX_youwei
   country: cn
   platforms:
@@ -4369,6 +4369,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
+  team: 62
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -6474,6 +6475,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
+  team: 62
 - name: BasicallyBebe
   country: au
   platforms:
@@ -7424,7 +7426,6 @@
   twitch:
     - https://www.twitch.tv/lighty_gg
   liquipedia: Lighty
-  team: 14
 - name: Tatengue
   country: ar
   aoeelo: 1212
