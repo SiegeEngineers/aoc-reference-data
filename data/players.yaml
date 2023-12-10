@@ -646,6 +646,8 @@
     - https://www.twitch.tv/nili_aoe
   youtube:
     - https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/videos
+  youtube_live:
+    https://www.youtube.com/channel/UCXeY7zz-1LsyZdnpFbffdqA/live
   discord:
     - https://discordapp.com/invite/pQG8txM
   platforms:
