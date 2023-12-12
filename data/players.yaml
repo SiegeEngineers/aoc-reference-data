@@ -1797,7 +1797,6 @@
   liquipedia: _8th_wonder
   aoeelo: 56
   id: 90
-  team: 54
 - name: classicpro
   country: ua
   aoeelo: 99
@@ -4112,7 +4111,6 @@
   twitch:
     - https://www.twitch.tv/salzz_good_game
   id: 270
-  team: 28
 - name: Alperen
   country: tr
   platforms:
