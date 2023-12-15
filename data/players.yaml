@@ -7873,3 +7873,10 @@
   liquipedia: Nobu
   id: 668
   team: 10
+- name: Piter
+  country: pl
+  platforms:
+    rl:
+      - '329985'
+  id: 669
+  liquipedia: Piter
