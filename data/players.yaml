@@ -7885,3 +7885,10 @@
       - '329985'
   id: 669
   liquipedia: Piter
+- name: Lamo
+  country: lv
+  platforms:
+    rl:
+      - "5188554"
+      - "17232549"
+  id: 670
