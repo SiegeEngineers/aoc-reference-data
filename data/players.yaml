@@ -634,7 +634,7 @@
       - "12934666"
   id: 27
   discord_id: Hera#4278
-  team: 45
+  team: 32
 - name: Nili
   country: de
   aoeelo: 11
@@ -4703,6 +4703,8 @@
     - https://www.twitch.tv/oladushek__
   youtube:
     - http://www.youtube.com/channel/UCchhChxS5Pqm1-oNtuEF9Rw
+  youtube_live:
+    - http://www.youtube.com/channel/UCchhChxS5Pqm1-oNtuEF9Rw/live
   aoeelo: 606
   id: 317
   discord_id: OLADUSHEK#8106
