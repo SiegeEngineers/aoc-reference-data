@@ -7897,7 +7897,6 @@
   id: 670
 - name: Matze
   country: de
-  x: 1
   platforms:
     rl:
       - "12293895"
@@ -7905,3 +7904,11 @@
       - "4914770"
       - "9420975"
   id: 671
+- name: Lewis
+  country: gb
+  platforms:
+    rl:
+      - "8793414"
+  twitch:
+    - https://www.twitch.tv/lewisaoe
+  id: 672
