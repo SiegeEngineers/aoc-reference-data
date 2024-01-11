@@ -564,47 +564,40 @@
     "id": 55
   },
   {
-    "name": "UNUR",
-    "players": [
-      529
-    ],
-    "id": 56
-  },
-  {
     "name": "NoobsQad",
     "players": [
       505,
       534
     ],
-    "id": 57
+    "id": 56
   },
   {
     "name": "MetaTensei Esports",
     "players": [
       9
     ],
-    "id": 58
+    "id": 57
   },
   {
     "name": "IziDream",
     "players": [
       309
     ],
-    "id": 59
+    "id": 58
   },
   {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 60
+    "id": 59
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "AoeFrance",
@@ -612,14 +605,14 @@
       291,
       465
     ],
-    "id": 62
+    "id": 61
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 63
+    "id": 62
   },
   {
     "name": "Rookies",
@@ -627,13 +620,13 @@
       224,
       231
     ],
-    "id": 64
+    "id": 63
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 65
+    "id": 64
   }
 ]
