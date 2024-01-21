@@ -7258,6 +7258,7 @@
   platforms:
     rl:
       - '381021'
+      - '9698681'
   liquipedia: Karnal
   id: 561
   aoeelo: 721
@@ -7910,7 +7911,6 @@
       - "4914770"
       - "9420975"
       - "18558404"
-  x: 1
   id: 671
 - name: Lewis
   country: gb
@@ -7920,3 +7920,13 @@
   twitch:
     - https://www.twitch.tv/lewisaoe
   id: 672
+- name: Felipe
+  id: 673
+  country: cl
+  platforms:
+    rl:
+      - '2111224'
+      - '5706199'
+      - '6301465'
+      - '10220596'
+      - '2677445'
