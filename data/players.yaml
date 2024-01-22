@@ -7912,6 +7912,8 @@
       - "9420975"
       - "18558404"
   id: 671
+  twitch:
+    - https://www.twitch.tv/matzeaoe
 - name: Lewis
   country: gb
   platforms:
