@@ -45,7 +45,7 @@
       - "124653653" # _MbL_
     rl:
       - "251265" # MbL40C
-      - "1826483" # William the Conqueror
+      - "1826483-hc" # William the Conqueror
       - "2644601" # mbl2
       - "4422938" # mbl3
       - "15150039"
@@ -72,7 +72,7 @@
     rl:
       - "312938"
       - "2875412"
-      - "1862911" # henry
+      - "1862911-hc" # henry
       - "5371188"
   id: 3
   discord_id: BacT#0982
@@ -97,7 +97,7 @@
     rl:
       - "215442"
       - "1432837"
-      - "1829738" # Charlemagne
+      - "1829738-hc" # Charlemagne
 #- "3109523" # shared
       - "3077860" # shared
 #- "2007655" # shared
@@ -136,7 +136,7 @@
     rl:
       - "197964"
 #- "337428" # shared
-      - "1829754" # Alaric
+      - "1829754-hc" # Alaric
       - "17908304"
     ibp:
       - yo
@@ -191,7 +191,7 @@
     rl:
       - "232410" # Antagonist
       - 196366-nac3 # Laaaaan
-      - "1819193" # sheriff
+      - "1819193-hc" # sheriff
       - "2602752"
       - "6892418"
   twitch:
@@ -220,7 +220,7 @@
     rl:
       - "199170"
       - "1486575"
-      - "1830104" # emperor in a barrel
+      - "1830104-hc" # emperor in a barrel
       - "6097615"
       - "9714901"
   youtube:
@@ -252,7 +252,7 @@
     rl:
       - "197388"
       - "968255"
-      - "1819863" # joan
+      - "1819863-hc" # joan
       - "3033716" # feudalVoy
       - "5317568"
       - "8645496"
@@ -420,7 +420,7 @@
       - 125129985-6 # hc6
     rl:
       - "196310"
-      - "1819094" # Leif
+      - "1819094-hc" # Leif
       - "5551398"
       - "9997273"
       - "14500794"
@@ -448,7 +448,7 @@
     rl:
       - "347269"
       - "3202763"
-      - "1844119" # friar
+      - "1844119-hc" # friar
   youtube:
     - http://www.youtube.com/channel/UClFrW56x-ZtFIE2J_Qn2Ftg
   id: 20
@@ -524,7 +524,7 @@
       - "125227717" # hc: king alfonso
     rl:
       - "506898"
-      - "1829588" # sancho
+      - "1829588-hc" # sancho
   id: 23
   discord_id: liereyy#5813
   team: 44
@@ -598,7 +598,7 @@
       - "108050" # shmekerr
     rl:
       - "198035"
-      - "1832317" # Yodit
+      - "1832317-hc" # Yodit
     zone:
       - daut
     gamepark:
@@ -630,7 +630,7 @@
       - "124694635"
     rl:
       - "199325"
-      - "1847121" # Kotyan
+      - "1847121-hc" # Kotyan
       - "3209724" # WeWinThose
       - "4423546"
       - "12934666"
@@ -763,7 +763,7 @@
       - viper
     rl:
       - "196240"
-      - "1827609" # Saladin
+      - "1827609-hc" # Saladin
       - "6020446"
     zone:
       - viper
@@ -851,6 +851,7 @@
       - "180548" # VG_oo3
     rl:
       - "226575"
+      - "8906900"
   id: 36
   team: 34
 - name: Nicov
@@ -876,7 +877,7 @@
       - "124775535"
     rl:
       - "208393"
-      - "1827959" # bad neighbor
+      - "1827959-hc" # bad neighbor
       - "2609359" # Nico
       - "5400429"
       - "9473909"
@@ -934,7 +935,7 @@
       - "125129980" # hc: nobonaga
     rl:
       - "572017"
-      - "1832996" # martel
+      - "1832996-hc" # martel
   id: 40
   discord_id: TheMax#9145
   team: 46
@@ -1969,6 +1970,7 @@
       - "300649"
       - "4956328"
       - "13996455"
+      - "15483248"
   liquipedia: FeAge
   youtube:
     - http://www.youtube.com/channel/UCYhsraJ7ht7qYpZuHht-ibA
@@ -3231,6 +3233,8 @@
     - https://discord.gg/t90official
   youtube:
     - https://www.youtube.com/t90official
+  youtube_live:
+    - https://www.youtube.com/channel/UCZUT79WUUpZlZ-XMF7l4CFg/live
   liquipedia: T90Official
   platforms:
     voobly:
@@ -7930,6 +7934,7 @@
   twitch:
     - https://www.twitch.tv/lewisaoe
   id: 672
+  team: 38
 - name: Felipe
   id: 673
   country: cl
