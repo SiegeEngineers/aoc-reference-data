@@ -1050,6 +1050,7 @@
   aoeelo: 12
   twitch:
     - https://www.twitch.tv/sitaux
+    - https://www.twitch.tv/sitauxfr
   twitter:
     - https://twitter.com/Sitaux
   liquipedia: Sitaux
@@ -7960,3 +7961,9 @@
       - '3386424'
       - '2411454'
       - '2386170'
+- name: shiXo.#
+  id: 675
+  country: de
+  platforms:
+    rl:
+      - '1137086'
