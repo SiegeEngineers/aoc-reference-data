@@ -7964,6 +7964,7 @@
 - name: shiXo.#
   id: 675
   country: de
+  liquipedia: ShiXo.
   platforms:
     rl:
       - '1137086'
