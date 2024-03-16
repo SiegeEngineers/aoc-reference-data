@@ -2221,6 +2221,8 @@
   id: 115
   twitch:
     - https://www.twitch.tv/kongen_42
+  kick:
+    - https://kick.com/kongen-42
   discord_id: Mabov#7375
 - name: Xiaoxiong
   esportsearnings: 25294
