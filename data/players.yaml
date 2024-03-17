@@ -2295,6 +2295,7 @@
     zone:
       - black_bear
   id: 122
+  aoeelo: 1457
 - name: BT4
   country: cn
   platforms:
@@ -3027,6 +3028,7 @@
     voobly:
       - "227647"
   id: 194
+  aoeelo: 1403
 - name: Igloo
   country: gb
   platforms:
@@ -3985,6 +3987,7 @@
     - https://www.youtube.com/channel/UCO0Gc-6iESBUxe5dvDIEDfg
   twitter:
     - https://twitter.com/ertugaoe
+  aoeelo: 1420
 - name: Shades
   country: it
   platforms:
@@ -4455,6 +4458,7 @@
   twitch:
     - https://www.twitch.tv/Frost_9AoE
   team: 43
+  aoeelo: 1351
 - name: GriN
   country: ru
   platforms:
@@ -4469,6 +4473,7 @@
     - https://www.youtube.com/channel/UCT_Y1oUhPB3HPr7e3EiUyMw/live
   id: 297
   team: 31
+  aoeelo: 1484
 - name: HamRTime
   country: au
   platforms:
@@ -4482,6 +4487,7 @@
     - https://www.twitch.tv/hamrtime
   id: 298
   discord_id: Hamrtime#9049
+  aoeelo: 1347
 - name: ImComing
   country: au
   platforms:
@@ -5110,6 +5116,7 @@
   twitch:
     - https://www.twitch.tv/morg__11
   id: 347
+  aoeelo: 1380
 - name: Chrazini
   country: dk
   platforms:
@@ -6132,6 +6139,7 @@
       - "3899580"
       - "6758959"
   id: 432
+  aoeelo: 1327
 - name: Kenshin
   country: br
   platforms:
@@ -6311,6 +6319,7 @@
   liquipedia: ElMago
   id: 448
   team: 25
+  aoeelo: 1590
 - name: Martinhs
   country: br
   platforms:
@@ -6734,6 +6743,7 @@
   liquipedia: John
   id: 488
   discord_id: __John__#6906
+  aoeelo: 1563
 - name: Leozim
   country: br
   platforms:
@@ -7538,12 +7548,14 @@
       - '256356'
   liquipedia: Sunset
   id: 612
+  aoeelo: 1490
 - name: Ny4JyN
   country: br
   platforms:
     rl:
       - '2429762'
   id: 613
+  aoeelo: 1494
 - name: Dai
   country: tw
   platforms:
@@ -7561,6 +7573,7 @@
   id: 620
   twitch:
     - https://www.twitch.tv/prydz_z
+  aoeelo: 1355
 - name: Muhammed
   country: tr
   platforms:
@@ -7570,6 +7583,7 @@
       - '125944'
   id: 621
   discord_id: Muhammed33#9993
+  aoeelo: 1373
 - name: Wanderbraun
   country: ua
   platforms:
@@ -7771,6 +7785,7 @@
       - '8589691'
   discord_id: DuDu#1345
   id: 647
+  aoeelo: 1514
 - name: Parawhas
   country: pe
   id: 648
@@ -7856,6 +7871,7 @@
       - "10020002"
       - "17568258"
   id: 655
+  aoeelo: 1025
 - name: Wean Dinchester
   country: de
   platforms:
@@ -7880,6 +7896,7 @@
   liquipedia: Mr.Dobbsn
   id: 658
   team: 21
+  aoeelo: 1310
 - name: ReyO
   country: es
   platforms:
@@ -7909,6 +7926,7 @@
   liquipedia: Nobu
   id: 668
   team: 9
+  aoeelo: 1090
 - name: Piter
   country: pl
   platforms:
@@ -7916,6 +7934,7 @@
       - '329985'
   id: 669
   liquipedia: Piter
+  aoeelo: 1359
 - name: Lamo
   country: lv
   platforms:
@@ -7923,6 +7942,7 @@
       - "5188554"
       - "17232549"
   id: 670
+  aoeelo: 1544
 - name: Matze
   country: de
   platforms:
@@ -7935,6 +7955,7 @@
   id: 671
   twitch:
     - https://www.twitch.tv/matzeaoe
+  aoeelo: 1326
 - name: Lewis
   country: gb
   platforms:
@@ -7954,6 +7975,7 @@
       - '6301465'
       - '10220596'
       - '2677445'
+  aoeelo: 1287
 - name: ShenMing
   id: 674
   country: cn
@@ -7962,6 +7984,7 @@
       - '3386424'
       - '2411454'
       - '2386170'
+  aoeelo: 1271
 - name: shiXo.#
   id: 675
   country: de
