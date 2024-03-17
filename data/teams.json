@@ -117,7 +117,8 @@
       241,
       253,
       274,
-      547
+      547,
+      676
     ],
     "id": 14
   },
@@ -538,21 +539,12 @@
     "id": 52
   },
   {
-    "name": "Nadya's Boys",
-    "players": [
-      78,
-      83,
-      264
-    ],
-    "id": 53
-  },
-  {
     "name": "PL",
     "players": [
       56,
       530
     ],
-    "id": 54
+    "id": 53
   },
   {
     "name": "NoobsQad",
@@ -560,35 +552,37 @@
       505,
       534
     ],
-    "id": 55
+    "id": 54
   },
   {
     "name": "MetaTensei Esports",
     "players": [
       9
     ],
-    "id": 56
-  },
-  {
-    "name": "IziDream",
-    "players": [
-      309
-    ],
-    "id": 57
+    "id": 55
   },
   {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 58
+    "id": 56
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 59
+    "id": 57
+  },
+  {
+    "name": "Nadya's Boys",
+    "players": [
+      78,
+      83,
+      264
+    ],
+    "id": 58
   },
   {
     "name": "AoeFrance",
@@ -596,14 +590,14 @@
       291,
       465
     ],
-    "id": 60
+    "id": 59
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "Rookies",
@@ -611,13 +605,13 @@
       224,
       231
     ],
-    "id": 62
+    "id": 61
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 63
+    "id": 62
   }
 ]

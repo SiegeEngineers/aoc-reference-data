@@ -227,7 +227,7 @@
     - http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g
   id: 9
   discord_id: dogao#8057
-  team: 56
+  team: 55
 - name: TaToH
   country: es
   city: Madrid
@@ -1277,7 +1277,7 @@
   liquipedia: Dziamdziak
   id: 56
   discord_id: dziam#5626
-  team: 54
+  team: 53
 - name: Ppoc
   country: es
   platforms:
@@ -1584,7 +1584,7 @@
       - "124340942"
   liquipedia: Lojza
   id: 78
-  team: 53
+  team: 58
 - name: Mentalist
   country: ca
   esportsearnings: 14737
@@ -1671,7 +1671,7 @@
     - https://www.twitch.tv/spadenaoc
   id: 83
   discord_id: Spaden#8516
-  team: 53
+  team: 58
 - name: Monoz
   country: ar
   platforms:
@@ -3422,7 +3422,7 @@
   twitch:
     - https://www.twitch.tv/keno_aoe
   discord_id: Keno#6318
-  team: 62
+  team: 61
 - name: JackK
   country: pl
   twitch:
@@ -3524,7 +3524,7 @@
   id: 231
   twitter:
     - https://twitter.com/BlukuuktaN
-  team: 62
+  team: 61
 - name: OnLeKe
   country: br
   platforms:
@@ -3567,7 +3567,7 @@
   liquipedia: Mexican_Psycho
   aoeelo: 504
   id: 234
-  team: 61
+  team: 60
 - name: Darknoob
   country: nl
   platforms:
@@ -4034,7 +4034,7 @@
   aoeelo: 1115
   liquipedia: Lavie_Head
   id: 264
-  team: 53
+  team: 58
 - name: Gary
   country: ar
   platforms:
@@ -4146,7 +4146,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 63
+  team: 62
 - name: CX_youwei
   country: cn
   platforms:
@@ -4395,7 +4395,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 60
+  team: 59
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -4493,7 +4493,7 @@
   youtube:
     - http://www.youtube.com/channel/UCAm-fFhNAhKPnh3C3XxGdBA
   id: 299
-  team: 59
+  team: 57
 - name: Improvise
   country: us
   platforms:
@@ -4617,7 +4617,6 @@
     - https://twitter.com/MarineLorDSC2
   youtube:
     - https://www.youtube.com/channel/UCHheEmSTX_NaAHSq2uwmlMg
-  team: 57
 - name: MembTV
   country: es
   aka:
@@ -6507,7 +6506,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 60
+  team: 59
 - name: BasicallyBebe
   country: au
   platforms:
@@ -6909,7 +6908,7 @@
     - https://twitter.com/robo_boro_
   discord_id: robo_boro#5469
   id: 505
-  team: 55
+  team: 54
 - name: webber
   country: ar
   platforms:
@@ -7095,7 +7094,7 @@
   id: 530
   aoeelo: 1189
   discord_id: PL_Hitorek#2188
-  team: 54
+  team: 53
 - name: Kougrialka
   country: fr
   platforms:
@@ -7136,7 +7135,7 @@
   id: 534
   twitter:
     - https://twitter.com/daehiise
-  team: 55
+  team: 54
 - name: kunyi
   country: hu
   platforms:
@@ -7971,3 +7970,12 @@
   platforms:
     rl:
       - '1137086'
+- name: GUKI
+  id: 676
+  country: mx
+  liquipedia: GUKI
+  platforms:
+    rl:
+      - '9666666'
+  aoeelo: 1581
+  team: 14
