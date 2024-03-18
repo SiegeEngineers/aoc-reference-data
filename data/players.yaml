@@ -7354,7 +7354,7 @@
       - '2116604'
   liquipedia: Capy
   id: 576
-  aoeelo:
+  aoeelo: 1228
   twitch:
     - https://www.twitch.tv/capyphract
   discord_id: Capy#0423
@@ -7737,7 +7737,7 @@
       - '6851129'
   liquipedia: HELLRAZER
   id: 642
-  aoeelo:
+  aoeelo: 1376
   team: 27
 - name: Madtomski
   country: de
@@ -7964,6 +7964,7 @@
   twitch:
     - https://www.twitch.tv/lewisaoe
   id: 672
+  aoeelo: 1342
   team: 38
 - name: Felipe
   id: 673
