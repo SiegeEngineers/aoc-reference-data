@@ -136,6 +136,13 @@
     "id": 15
   },
   {
+    "name": "La M\u00e3 Ph\u1ee5c H\u01b0ng",
+    "players": [
+      58
+    ],
+    "id": 16
+  },
+  {
     "name": "Vietnam Legends",
     "players": [
       3,
@@ -144,7 +151,7 @@
       88,
       219
     ],
-    "id": 16
+    "id": 17
   },
   {
     "name": "PUB",
@@ -158,14 +165,14 @@
       498,
       576
     ],
-    "id": 17
+    "id": 18
   },
   {
     "name": "Sucky WizZards",
     "players": [
       452
     ],
-    "id": 18
+    "id": 19
   },
   {
     "name": "Team Honor",
@@ -178,7 +185,7 @@
       345,
       351
     ],
-    "id": 19
+    "id": 20
   },
   {
     "name": "The BrotherHood Kappa",
@@ -190,7 +197,7 @@
       446,
       449
     ],
-    "id": 20
+    "id": 21
   },
   {
     "name": "LACA Gaming",
@@ -202,7 +209,7 @@
       656,
       658
     ],
-    "id": 21
+    "id": 22
   },
   {
     "name": "Tuna's Wet Market",
@@ -212,7 +219,7 @@
       640,
       644
     ],
-    "id": 22
+    "id": 23
   },
   {
     "name": "Rulers of Rome",
@@ -229,7 +236,7 @@
       527,
       536
     ],
-    "id": 23
+    "id": 24
   },
   {
     "name": "Taiwan Aoe Gamer",
@@ -241,7 +248,7 @@
       630,
       653
     ],
-    "id": 24
+    "id": 25
   },
   {
     "name": "Dreamers",
@@ -255,14 +262,14 @@
       448,
       637
     ],
-    "id": 25
+    "id": 26
   },
   {
     "name": "JuStice Strikes",
     "players": [
       220
     ],
-    "id": 26
+    "id": 27
   },
   {
     "name": "BLACKSAILS",
@@ -273,7 +280,7 @@
       421,
       642
     ],
-    "id": 27
+    "id": 28
   },
   {
     "name": "SalzZ",
@@ -284,7 +291,7 @@
       579,
       641
     ],
-    "id": 28
+    "id": 29
   },
   {
     "name": "QuEnDi",
@@ -303,7 +310,7 @@
       492,
       523
     ],
-    "id": 29
+    "id": 30
   },
   {
     "name": "Vikingos N\u00f3madas",
@@ -312,7 +319,7 @@
       459,
       542
     ],
-    "id": 30
+    "id": 31
   },
   {
     "name": "Russia F",
@@ -321,7 +328,7 @@
       297,
       313
     ],
-    "id": 31
+    "id": 32
   },
   {
     "name": "GamerLegion",
@@ -331,14 +338,14 @@
       27,
       32
     ],
-    "id": 32
+    "id": 33
   },
   {
     "name": "Stackers",
     "players": [
       290
     ],
-    "id": 33
+    "id": 34
   },
   {
     "name": "White Wolf Palace",
@@ -360,14 +367,14 @@
       330,
       382
     ],
-    "id": 34
+    "id": 35
   },
   {
     "name": "DevilZ",
     "players": [
       179
     ],
-    "id": 35
+    "id": 36
   },
   {
     "name": "ChileAoE",
@@ -376,7 +383,7 @@
       332,
       345
     ],
-    "id": 36
+    "id": 37
   },
   {
     "name": "The Immortals",
@@ -384,7 +391,7 @@
       103,
       107
     ],
-    "id": 37
+    "id": 38
   },
   {
     "name": "DarkSidE",
@@ -397,7 +404,7 @@
       410,
       672
     ],
-    "id": 38
+    "id": 39
   },
   {
     "name": "New Chapter",
@@ -408,7 +415,7 @@
       388,
       404
     ],
-    "id": 39
+    "id": 40
   },
   {
     "name": "Age of Queens",
@@ -418,7 +425,7 @@
       466,
       639
     ],
-    "id": 40
+    "id": 41
   },
   {
     "name": "Killing Generation of Brazil",
@@ -429,7 +436,7 @@
       80,
       489
     ],
-    "id": 41
+    "id": 42
   },
   {
     "name": "MYinsanity",
@@ -442,7 +449,7 @@
       409,
       534
     ],
-    "id": 42
+    "id": 43
   },
   {
     "name": "SuPeRNovA",
@@ -452,16 +459,6 @@
       296,
       343,
       501
-    ],
-    "id": 43
-  },
-  {
-    "name": "Aftermath",
-    "players": [
-      2,
-      23,
-      37,
-      102
     ],
     "id": 44
   },
@@ -555,25 +552,32 @@
     "id": 54
   },
   {
+    "name": "Aftermath",
+    "players": [
+      102
+    ],
+    "id": 55
+  },
+  {
     "name": "MetaTensei Esports",
     "players": [
       9
     ],
-    "id": 55
+    "id": 56
   },
   {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 56
+    "id": 57
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "Nadya's Boys",
@@ -582,7 +586,7 @@
       83,
       264
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "AoeFrance",
@@ -590,14 +594,14 @@
       291,
       465
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "Rookies",
@@ -605,13 +609,13 @@
       224,
       231
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 62
+    "id": 63
   }
 ]
