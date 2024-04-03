@@ -3331,6 +3331,8 @@
   id: 217
   douyu:
     - https://www.douyu.com/9404502
+  douyin:
+    - https://live.douyin.com/318465225449
   team: 36
 - name: seyaren
   country: cn
@@ -8007,4 +8009,3 @@
       - '9666666'
   aoeelo: 1581
   team: 14
-  x: 1
