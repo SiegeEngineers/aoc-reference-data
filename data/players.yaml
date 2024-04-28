@@ -87,7 +87,7 @@
   liquipedia: Vivi
   douyin:
     - https://live.douyin.com/328693937643
-  #- https://live.douyin.com/431102660165
+#- https://live.douyin.com/431102660165
   douyu:
     - https://www.douyu.com/1052202
   platforms:
@@ -1195,8 +1195,8 @@
       - "6268226"
       - "6169169"
       - "19455781"
-    #- "10141634"
-    #- "2827445"
+  #- "10141634"
+  #- "2827445"
   id: 52
   douyin:
     - https://live.douyin.com/785583361067
