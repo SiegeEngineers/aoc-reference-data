@@ -8019,3 +8019,11 @@
   twitch:
     - https://www.twitch.tv/soyguki
   team: 14
+- name: kei
+  id: 677
+  country: jp
+  platforms:
+    rl:
+      - '1762409'
+  twitch:
+    - https://www.twitch.tv/kei_aoe
