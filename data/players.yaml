@@ -8028,3 +8028,10 @@
       - '1762409'
   twitch:
     - https://www.twitch.tv/kei_aoe
+- name: Nacho_10
+  id: 678
+  country: ar
+  platforms:
+    rl:
+      - '1749894'
+      - '2899104'
