@@ -8037,3 +8037,12 @@
     rl:
       - '1749894'
       - '2899104'
+- name: ThunderboltX
+  id: 679
+  country: bg
+  platforms:
+    rl:
+      - '3169100'
+      - '19561073'
+  twitch:
+    - https://www.twitch.tv/thunderboltxaoc
