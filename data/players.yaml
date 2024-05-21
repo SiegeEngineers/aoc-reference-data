@@ -2223,6 +2223,8 @@
   id: 115
   twitch:
     - https://www.twitch.tv/kongen_42
+  youtube_live:
+    - https://www.youtube.com/channel/UCOhqo075XEWZuoFJQbN2YnA
   kick:
     - https://kick.com/kongen-42
   discord_id: Mabov#7375
