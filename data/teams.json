@@ -530,11 +530,18 @@
     "id": 51
   },
   {
+    "name": "WeSports",
+    "players": [
+      507
+    ],
+    "id": 52
+  },
+  {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 52
+    "id": 53
   },
   {
     "name": "PL",
@@ -542,7 +549,7 @@
       56,
       530
     ],
-    "id": 53
+    "id": 54
   },
   {
     "name": "NoobsQad",
@@ -550,28 +557,28 @@
       505,
       534
     ],
-    "id": 54
+    "id": 55
   },
   {
     "name": "FellowSheep Gaming",
     "players": [
       9
     ],
-    "id": 55
+    "id": 56
   },
   {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 56
+    "id": 57
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "Nadya's Boys",
@@ -580,7 +587,7 @@
       83,
       264
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "AoeFrance",
@@ -588,14 +595,14 @@
       291,
       465
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "Rookies",
@@ -603,13 +610,13 @@
       224,
       231
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 62
+    "id": 63
   }
 ]
