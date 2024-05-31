@@ -113,7 +113,7 @@
       - "11406458"
       - "11406458"
   id: 4
-  team: 35
+  team: 56
 - name: Yo
   country: cn
   esportsearnings: 14713
@@ -229,7 +229,7 @@
     - http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g
   id: 9
   discord_id: dogao#8057
-  team: 56
+  team: 57
 - name: TaToH
   country: es
   city: Madrid
@@ -1200,6 +1200,7 @@
   id: 52
   douyin:
     - https://live.douyin.com/785583361067
+  team: 56
 - name: Noisick
   country: cl
   twitch:
@@ -1587,7 +1588,7 @@
       - "124340942"
   liquipedia: Lojza
   id: 78
-  team: 59
+  team: 60
 - name: Mentalist
   country: ca
   esportsearnings: 14737
@@ -1674,7 +1675,7 @@
     - https://www.twitch.tv/spadenaoc
   id: 83
   discord_id: Spaden#8516
-  team: 59
+  team: 60
 - name: Monoz
   country: ar
   platforms:
@@ -2018,6 +2019,7 @@
   aoeelo: 26
   id: 102
   discord_id: Hearttt#5450
+  team: 52
 - name: Ra
   country: ca
   esportsearnings: 14735
@@ -3337,7 +3339,7 @@
     - https://www.douyu.com/9404502
   douyin:
     - https://live.douyin.com/318465225449
-  team: 35
+  team: 56
 - name: seyaren
   country: cn
   platforms:
@@ -3430,7 +3432,7 @@
   twitch:
     - https://www.twitch.tv/keno_aoe
   discord_id: Keno#6318
-  team: 62
+  team: 63
 - name: JackK
   country: pl
   twitch:
@@ -3532,7 +3534,7 @@
   id: 231
   twitter:
     - https://twitter.com/BlukuuktaN
-  team: 62
+  team: 63
 - name: OnLeKe
   country: br
   platforms:
@@ -3576,7 +3578,7 @@
   liquipedia: Mexican_Psycho
   aoeelo: 504
   id: 234
-  team: 61
+  team: 62
 - name: Darknoob
   country: nl
   platforms:
@@ -4044,7 +4046,7 @@
   aoeelo: 1115
   liquipedia: Lavie_Head
   id: 264
-  team: 59
+  team: 60
 - name: Gary
   country: ar
   platforms:
@@ -4157,7 +4159,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 63
+  team: 64
 - name: CX_youwei
   country: cn
   platforms:
@@ -4407,7 +4409,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 60
+  team: 61
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -4508,7 +4510,7 @@
   youtube:
     - http://www.youtube.com/channel/UCAm-fFhNAhKPnh3C3XxGdBA
   id: 299
-  team: 58
+  team: 59
 - name: Improvise
   country: us
   platforms:
@@ -4541,6 +4543,7 @@
   twitter:
     - https://twitter.com/juanperotti_aoe
   city: Laboulaye
+  team: 13
 - name: KhaLeN
   country: fr
   platforms:
@@ -6527,7 +6530,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 60
+  team: 61
 - name: BasicallyBebe
   country: au
   platforms:

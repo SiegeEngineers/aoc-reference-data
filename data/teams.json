@@ -101,6 +101,7 @@
     "name": "Fox",
     "players": [
       215,
+      302,
       308,
       324,
       368,
@@ -532,6 +533,7 @@
   {
     "name": "WeSports",
     "players": [
+      102,
       507
     ],
     "id": 52
@@ -560,25 +562,34 @@
     "id": 55
   },
   {
+    "name": "LingYuan",
+    "players": [
+      4,
+      52,
+      217
+    ],
+    "id": 56
+  },
+  {
     "name": "FellowSheep Gaming",
     "players": [
       9
     ],
-    "id": 56
+    "id": 57
   },
   {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "Nadya's Boys",
@@ -587,7 +598,7 @@
       83,
       264
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "AoeFrance",
@@ -595,14 +606,14 @@
       291,
       465
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "Rookies",
@@ -610,13 +621,13 @@
       224,
       231
     ],
-    "id": 62
+    "id": 63
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 63
+    "id": 64
   }
 ]
