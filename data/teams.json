@@ -352,18 +352,14 @@
   {
     "name": "White Wolf Palace",
     "players": [
-      4,
-      5,
       18,
       21,
       25,
-      36,
       85,
       89,
       97,
       116,
       197,
-      217,
       218,
       227,
       330,
@@ -565,6 +561,8 @@
     "name": "LingYuan",
     "players": [
       4,
+      5,
+      36,
       52,
       217
     ],
@@ -578,18 +576,26 @@
     "id": 57
   },
   {
+    "name": "SY",
+    "players": [
+      35,
+      98
+    ],
+    "id": 58
+  },
+  {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "Nadya's Boys",
@@ -598,7 +604,7 @@
       83,
       264
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "AoeFrance",
@@ -606,14 +612,14 @@
       291,
       465
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 62
+    "id": 63
   },
   {
     "name": "Rookies",
@@ -621,13 +627,13 @@
       224,
       231
     ],
-    "id": 63
+    "id": 64
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 64
+    "id": 65
   }
 ]
