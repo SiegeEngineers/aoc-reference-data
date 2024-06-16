@@ -5054,6 +5054,7 @@
       - "3527288"
   id: 341
   aoeelo: 765
+  liquipedia: Rusher
 - name: Albis
   country: tw
   platforms:
@@ -7666,6 +7667,7 @@
       - '1877180'
   liquipedia: Bourbоn
   id: 629
+  team: 34
 - name: Youpudding
   country: tw
   platforms:
@@ -8052,3 +8054,18 @@
       - '19561073'
   twitch:
     - https://www.twitch.tv/thunderboltxaoc
+- name: Mratin
+  country: se
+  platforms:
+    rl:
+      - '210382'
+  liquipedia: Mratin
+  id: 680
+  aoeelo: 731
+- name: Faith2Adventure
+  country: us
+  platforms:
+    rl:
+      - '11804277'
+  liquipedia: Faith2Adventure
+  id: 681
