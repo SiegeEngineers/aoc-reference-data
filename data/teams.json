@@ -113,7 +113,7 @@
     "id": 13
   },
   {
-    "name": "Combi eSports",
+    "name": "Combi Esports",
     "players": [
       241,
       253,
@@ -130,7 +130,6 @@
       14,
       17,
       50,
-      228,
       353,
       636
     ],
@@ -442,7 +441,8 @@
     "players": [
       316,
       329,
-      466
+      466,
+      639
     ],
     "id": 43
   },
@@ -492,7 +492,6 @@
   {
     "name": "Suomi",
     "players": [
-      17,
       30,
       40,
       41,
@@ -548,11 +547,18 @@
     "id": 53
   },
   {
+    "name": "Sweety Boys",
+    "players": [
+      317
+    ],
+    "id": 54
+  },
+  {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 54
+    "id": 55
   },
   {
     "name": "PL",
@@ -560,7 +566,7 @@
       56,
       530
     ],
-    "id": 55
+    "id": 56
   },
   {
     "name": "NoobsQad",
@@ -568,14 +574,14 @@
       505,
       534
     ],
-    "id": 56
+    "id": 57
   },
   {
     "name": "FellowSheep Gaming",
     "players": [
       9
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "SY",
@@ -583,28 +589,28 @@
       35,
       98
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "Nadya's Boys",
     "players": [
       83
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "AoeFrance",
@@ -612,14 +618,14 @@
       291,
       465
     ],
-    "id": 62
+    "id": 63
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 63
+    "id": 64
   },
   {
     "name": "Rookies",
@@ -627,13 +633,13 @@
       224,
       231
     ],
-    "id": 64
+    "id": 65
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 65
+    "id": 66
   }
 ]

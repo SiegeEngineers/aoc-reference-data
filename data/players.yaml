@@ -229,7 +229,7 @@
     - http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g
   id: 9
   discord_id: dogao#8057
-  team: 57
+  team: 58
 - name: TaToH
   country: es
   city: Madrid
@@ -385,7 +385,7 @@
   aoeelo: 853
   id: 17
   discord_id: valass#8425
-  team: 48
+  team: 15
 - name: StrayDog
   country: cn
   aoeelo: 64
@@ -837,7 +837,7 @@
     ibp:
       - yinghua
   id: 35
-  team: 58
+  team: 59
 - name: Lyx
   country: cn
   aoeelo: 21
@@ -1283,7 +1283,7 @@
   liquipedia: Dziamdziak
   id: 56
   discord_id: dziam#5626
-  team: 55
+  team: 56
 - name: Ppoc
   country: es
   platforms:
@@ -1676,7 +1676,7 @@
     - https://www.twitch.tv/spadenaoc
   id: 83
   discord_id: Spaden#8516
-  team: 61
+  team: 62
 - name: Monoz
   country: ar
   platforms:
@@ -1953,7 +1953,7 @@
   liquipedia: Geoffrey
   aoeelo: 22
   id: 98
-  team: 58
+  team: 59
 - name: Bieber
   country: cn
   platforms:
@@ -3434,7 +3434,7 @@
   twitch:
     - https://www.twitch.tv/keno_aoe
   discord_id: Keno#6318
-  team: 64
+  team: 65
 - name: JackK
   country: pl
   twitch:
@@ -3490,7 +3490,6 @@
     - http://www.youtube.com/channel/UCXcnO_W-YHuIrfGRnEwUlVg
   aoeelo: 735
   id: 228
-  team: 15
 - name: Carbo
   country: ar
   platforms:
@@ -3536,7 +3535,7 @@
   id: 231
   twitter:
     - https://twitter.com/BlukuuktaN
-  team: 64
+  team: 65
 - name: OnLeKe
   country: br
   platforms:
@@ -3580,7 +3579,7 @@
   liquipedia: Mexican_Psycho
   aoeelo: 504
   id: 234
-  team: 63
+  team: 64
 - name: Darknoob
   country: nl
   platforms:
@@ -4160,7 +4159,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 65
+  team: 66
 - name: CX_youwei
   country: cn
   platforms:
@@ -4411,7 +4410,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 62
+  team: 63
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -4512,7 +4511,7 @@
   youtube:
     - http://www.youtube.com/channel/UCAm-fFhNAhKPnh3C3XxGdBA
   id: 299
-  team: 60
+  team: 61
 - name: Improvise
   country: us
   platforms:
@@ -4750,6 +4749,7 @@
   aoeelo: 606
   id: 317
   discord_id: OLADUSHEK#8106
+  team: 54
 - name: Odette
   country: cz
   platforms:
@@ -6533,7 +6533,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 62
+  team: 63
 - name: BasicallyBebe
   country: au
   platforms:
@@ -6938,7 +6938,7 @@
     - https://twitter.com/robo_boro_
   discord_id: robo_boro#5469
   id: 505
-  team: 56
+  team: 57
 - name: webber
   country: ar
   platforms:
@@ -7065,7 +7065,7 @@
   aoeelo: 1117
   city: Melbourne
   discord_id: x0r6zt#0339
-  team: 54
+  team: 55
 - name: Solara
   country: il
   platforms:
@@ -7125,7 +7125,7 @@
   id: 530
   aoeelo: 1189
   discord_id: PL_Hitorek#2188
-  team: 55
+  team: 56
 - name: Kougrialka
   country: fr
   platforms:
@@ -7166,7 +7166,7 @@
   id: 534
   twitter:
     - https://twitter.com/daehiise
-  team: 56
+  team: 57
 - name: kunyi
   country: hu
   platforms:
@@ -7731,7 +7731,7 @@
     - http://youtube.com/channel/UCUjaaULhgNOJs-eurX4sW4g
   discord_id: Daniela_AoE#9540
   id: 639
-  team: 31
+  team: 43
 - name: Hannibal
   country: eg
   platforms:
