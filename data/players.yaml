@@ -4839,7 +4839,6 @@
   youtube:
     - https://www.youtube.com/channel/UCfndZhdX7djV-cwo9bCyEIw
   discord_id: sebastian2002#2613
-  team: 13
 - name: StonePlease
   country: de
   platforms:
@@ -7418,6 +7417,7 @@
     rl:
       - '372422'
       - '452917'
+      - '873559'
   liquipedia: kw
   id: 586
   aoeelo: 647
