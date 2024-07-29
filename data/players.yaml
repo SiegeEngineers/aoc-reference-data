@@ -8080,3 +8080,12 @@
       - '11804277'
   liquipedia: Faith2Adventure
   id: 681
+- name: ALBO
+  country: uy
+  platforms:
+    rl:
+      - '583716'
+      - '4410907'
+      - '18157440'
+      - '11268920'
+  id: 681
