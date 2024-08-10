@@ -5155,21 +5155,6 @@
   twitch:
     - https://www.twitch.tv/chrazini
   discord_id: Chrazini#5687
-- name: RediRodion
-  country: pl
-  platforms:
-    rl:
-      - "1670171"
-  liquipedia: RediRodion
-  twitch:
-    - https://www.twitch.tv/redirodion
-  youtube:
-    - http://www.youtube.com/channel/UC48BWPsl4g3hSSm2OxxmxXg
-  aoeelo: 744
-  id: 349
-  twitter:
-    - https://twitter.com/RediRodion
-  discord_id: Redi#3884
 - name: SaladEsc
   country: dk
   platforms:
@@ -8122,6 +8107,13 @@
       - '4121889'
       - '11670645'
   liquipedia: Feige
-  id: 701
-  aoeelo: 744
   team: 46
+  twitch:
+    - https://www.twitch.tv/redirodion
+  youtube:
+    - http://www.youtube.com/channel/UC48BWPsl4g3hSSm2OxxmxXg
+  aoeelo: 744
+  id: 349
+  twitter:
+    - https://twitter.com/RediRodion
+  discord_id: Redi#3884
