@@ -4441,7 +4441,7 @@
   twitter:
     - https://twitter.com/ellie4k
   discord_id: Ellie4K#0875
-  team: 46
+  team: 53
 - name: FreakinAndy
   country: at
   platforms:
@@ -8105,3 +8105,23 @@
       - '2888687'
       - '14230268'
   id: 682
+- name: Jouds
+  country: de
+  platforms:
+    rl:
+      - '1778055'
+  liquipedia: Jouds
+  id: 696
+  aoeelo: 786
+- name: Feige
+  country: ch
+  platforms:
+    rl:
+      - '1670171'
+      - '16276315'
+      - '4121889'
+      - '11670645'
+  liquipedia: Feige
+  id: 701
+  aoeelo: 744
+  team: 46
