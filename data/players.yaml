@@ -2623,6 +2623,7 @@
       - "5687096"
       - "6894634"
       - "9405527"
+      - "20436390"
   liquipedia: Obadiah
   id: 151
 - name: DemonSheep
@@ -8107,7 +8108,6 @@
       - '4121889'
       - '11670645'
   liquipedia: Feige
-  team: 46
   twitch:
     - https://www.twitch.tv/redirodion
   youtube:
@@ -8117,3 +8117,4 @@
   twitter:
     - https://twitter.com/RediRodion
   discord_id: Redi#3884
+  team: 46
