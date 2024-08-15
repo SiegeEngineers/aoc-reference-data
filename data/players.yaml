@@ -4247,6 +4247,7 @@
   id: 277
   discord_id: Grathwrang#2148
   city: Toronto
+  aoeelo: 1689
 - name: Roxy
   country: ar
   platforms:
@@ -4401,6 +4402,7 @@
   liquipedia: AssKickerwa
   id: 290
   team: 37
+  aoeelo: 1637
 - name: Cl3m3nT
   aka:
     - Cl3m3nT_AoE
@@ -6962,6 +6964,7 @@
   discord_id: paradox303#4691
   liquipedia: Paradox303
   team: 32
+  aoeelo: 1674
 - name: Julinse
   country: de
   platforms:
@@ -7134,6 +7137,7 @@
   liquipedia: Kougrialka
   id: 531
   discord_id: Kougrialka#5378
+  aoeelo: 1651
 - name: Nectarie
   country: ro
   platforms:
@@ -7913,6 +7917,7 @@
     rl:
       - "2912198"
   id: 657
+  aoeelo: 1676
 - name: Mr.Dobbsn
   country: de
   platforms:
@@ -8050,6 +8055,7 @@
     rl:
       - '1749894'
       - '2899104'
+  aoeelo: 834
 - name: ThunderboltX
   id: 679
   country: bg
@@ -8059,6 +8065,7 @@
       - '19561073'
   twitch:
     - https://www.twitch.tv/thunderboltxaoc
+  aoeelo: 1203
 - name: mratin
   country: se
   platforms:
@@ -8083,6 +8090,7 @@
       - '18157440'
       - '11268920'
   id: 681
+  aoeelo: 1280
 - name: SiNisTeR
   country: mx
   platforms:
