@@ -7999,6 +7999,8 @@
       - "8793414"
   twitch:
     - https://www.twitch.tv/lewisaoe
+  youtube_live:
+    - https://www.youtube.com/channel/UCvGb8jm6or4TItb10yNJKQw/live
   id: 672
   aoeelo: 1342
   team: 42
