@@ -171,7 +171,6 @@
     "name": "Team Honor",
     "players": [
       53,
-      191,
       243,
       279,
       314,
@@ -428,6 +427,7 @@
     "players": [
       44,
       159,
+      191,
       229,
       260,
       266,
@@ -475,8 +475,10 @@
       34,
       46,
       275,
+      293,
       349,
-      409
+      409,
+      534
     ],
     "id": 46
   },
@@ -544,33 +546,25 @@
     "id": 52
   },
   {
-    "name": "mYinsanity",
-    "players": [
-      293,
-      534
-    ],
-    "id": 53
-  },
-  {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 54
+    "id": 53
   },
   {
     "name": "Sweety Boys",
     "players": [
       317
     ],
-    "id": 55
+    "id": 54
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 56
+    "id": 55
   },
   {
     "name": "PL",
@@ -578,7 +572,7 @@
       56,
       530
     ],
-    "id": 57
+    "id": 56
   },
   {
     "name": "NoobsQad",
@@ -586,7 +580,7 @@
       505,
       534
     ],
-    "id": 58
+    "id": 57
   },
   {
     "name": "SY",
@@ -594,28 +588,28 @@
       35,
       98
     ],
-    "id": 59
+    "id": 58
   },
   {
     "name": "St clan",
     "players": [
       299
     ],
-    "id": 60
+    "id": 59
   },
   {
     "name": "Rising Stars",
     "players": [
       299
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "Nadya's Boys",
     "players": [
       83
     ],
-    "id": 62
+    "id": 61
   },
   {
     "name": "AoeFrance",
@@ -623,14 +617,14 @@
       291,
       465
     ],
-    "id": 63
+    "id": 62
   },
   {
     "name": "Sons of the Sun",
     "players": [
       234
     ],
-    "id": 64
+    "id": 63
   },
   {
     "name": "Rookies",
@@ -638,13 +632,13 @@
       224,
       231
     ],
-    "id": 65
+    "id": 64
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 66
+    "id": 65
   }
 ]
