@@ -6234,6 +6234,7 @@
       - "4563541"
       - "6396309"
       - "5257573"
+      - "10755238"
   id: 438
   aoeelo: 937
   twitch:
@@ -7892,10 +7893,13 @@
     rl:
       - "403270"
       - "2066895"
+      - "3270645"
   id: 654
   liquipedia: TomS
   aoeelo: 1219
   team: 51
+  twitch:
+    - https://www.twitch.tv/toms_aoe
 - name: Nezzar
   country: hk
   platforms:
