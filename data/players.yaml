@@ -8176,3 +8176,42 @@
       - '9841253'
   id: 700
   team: 19
+- name: Anakin
+  country: ar
+  platforms:
+    rl:
+      - '4799871'
+      - '9826446'
+  liquipedia: Anakin
+  id: 713
+  aoeelo: 1483
+  twitch:
+    - https://www.twitch.tv/anakinaoe
+- name: Rodrixs
+  country: ar
+  platforms:
+    rl:
+      - '11440407'
+      - '11209546'
+  liquipedia: Rodrixs
+  id: 714
+  aoeelo: 1350
+- name: Rivux
+  country: ar
+  platforms:
+    rl:
+      - '3035292'
+      - '6024575'
+  liquipedia: RivuxTV
+  id: 715
+  aoeelo: 1058
+  twitch:
+    - https://www.twitch.tv/rivuxtv
+- name: Sziky
+  country: hu
+  platforms:
+    rl:
+      - '12187190'
+      - '14725904'
+  liquipedia: Sziky
+  id: 718
