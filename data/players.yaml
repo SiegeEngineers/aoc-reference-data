@@ -5657,6 +5657,7 @@
     rl:
       - "2654577"
       - "11962856"
+      - "15499337"
   twitch:
     - https://www.twitch.tv/ozoneaoe
   id: 392
@@ -6637,6 +6638,7 @@
       - "14701877"
       - "17890046"
       - "18405474"
+      - "19995996"
   twitch:
     - https://www.twitch.tv/elnoniro
   youtube:
@@ -7898,9 +7900,9 @@
   id: 654
   liquipedia: TomS
   aoeelo: 1219
-  team: 51
   twitch:
     - https://www.twitch.tv/toms_aoe
+  team: 51
 - name: Nezzar
   country: hk
   platforms:
@@ -8196,6 +8198,7 @@
   liquipedia: Rodrixs
   id: 714
   aoeelo: 1350
+  team: 52
 - name: Rivux
   country: ar
   platforms:
