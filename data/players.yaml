@@ -4253,6 +4253,7 @@
   discord_id: Grathwrang#2148
   city: Toronto
   aoeelo: 1689
+  team: 4
 - name: Roxy
   country: ar
   platforms:
@@ -8214,6 +8215,7 @@
   aoeelo: 1058
   twitch:
     - https://www.twitch.tv/rivuxtv
+  team: 52
 - name: Sziky
   country: hu
   platforms:
@@ -8222,3 +8224,14 @@
       - '14725904'
   liquipedia: Sziky
   id: 718
+- name: BuLLeT
+  country: se
+  platforms:
+    rl:
+      - '548824'
+      - '4694723'
+      - '11352622'
+  liquipedia: BuLLeT
+  twitch:
+    - https://www.twitch.tv/scn_bullet__
+  id: 728
