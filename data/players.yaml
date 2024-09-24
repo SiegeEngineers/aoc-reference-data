@@ -7014,7 +7014,7 @@
   discord_id: prisma09#4624
   liquipedia: Prisma09
   twitch:
-    - https://www.twitch.tv/prisma092020
+    - https://www.twitch.tv/prisma09_
   team: 50
 - name: TheAntman
   country: fi
@@ -7420,6 +7420,8 @@
       - '2589331'
       - '6280447'
       - '9605132'
+      - '10982116'
+      - '19628110'
   liquipedia: IAnTaGoNiStI
   id: 579
   aoeelo: 1259
