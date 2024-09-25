@@ -542,18 +542,11 @@
     "id": 51
   },
   {
-    "name": "Sons of the Sun",
-    "players": [
-      234
-    ],
-    "id": 52
-  },
-  {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 53
+    "id": 52
   },
   {
     "name": "Sweety Boys",
@@ -561,21 +554,21 @@
       317,
       592
     ],
-    "id": 54
+    "id": 53
   },
   {
     "name": "One Punch",
     "players": [
       384
     ],
-    "id": 55
+    "id": 54
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 56
+    "id": 55
   },
   {
     "name": "NoobsQad",
@@ -583,14 +576,14 @@
       505,
       534
     ],
-    "id": 57
+    "id": 56
   },
   {
     "name": "Nadya's Boys",
     "players": [
       83
     ],
-    "id": 58
+    "id": 57
   },
   {
     "name": "SY",
@@ -598,7 +591,7 @@
       35,
       98
     ],
-    "id": 59
+    "id": 58
   },
   {
     "name": "new Chapter",
@@ -609,7 +602,7 @@
       388,
       404
     ],
-    "id": 60
+    "id": 59
   },
   {
     "name": "AoeFrance",
@@ -617,7 +610,7 @@
       291,
       465
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "Rookies",
@@ -625,13 +618,13 @@
       224,
       231
     ],
-    "id": 62
+    "id": 61
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 63
+    "id": 62
   }
 ]
