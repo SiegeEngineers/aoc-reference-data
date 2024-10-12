@@ -3634,6 +3634,7 @@
       - "2614814"
       - "2760394"
       - "5318040"
+      - "15156081"
   aoeelo: 928
   id: 238
   twitch:
@@ -8060,6 +8061,7 @@
   aoeelo: 1581
   twitch:
     - https://www.twitch.tv/soyguki
+  team: 9
 - name: kei
   id: 677
   country: jp
@@ -8232,6 +8234,7 @@
       - '548824'
       - '4694723'
       - '11352622'
+      - '14783432'
   liquipedia: BuLLeT
   twitch:
     - https://www.twitch.tv/scn_bullet__
