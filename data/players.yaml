@@ -8264,3 +8264,16 @@
   platforms:
     rl:
       - '1945281'
+- name: Eren
+  country: mx
+  id: 732
+  platforms:
+    rl:
+      - '2295504'
+      - '6234396'
+      - '9683105'
+      - '5400817'
+      - '3314032'
+      - '11226478'
+  twitch:
+    - https://www.twitch.tv/eren_aoe
