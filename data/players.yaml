@@ -8250,3 +8250,11 @@
   id: 729
   aoeelo: 1638
   team: 24
+- name: Wade
+  country: hk
+  id: 730
+  platforms:
+    rl:
+      - '4933932'
+      - '16361183'
+      - '17529637'
