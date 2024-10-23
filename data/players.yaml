@@ -8277,3 +8277,12 @@
       - '11226478'
   twitch:
     - https://www.twitch.tv/eren_aoe
+- name: Vrothmans
+  id: 733
+  country: ru
+  platforms:
+    rl:
+      - '5251192'
+      - '15542278'
+      - '10990536'
+      - '15204950'
