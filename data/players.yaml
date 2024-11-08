@@ -389,7 +389,7 @@
   aoeelo: 853
   id: 17
   discord_id: valass#8425
-  team: 47
+  team: 46
 - name: StrayDog
   country: cn
   aoeelo: 64
@@ -437,7 +437,7 @@
   twitter:
     - https://twitter.com/f1reaoe
   discord_id: F1Re#7692
-  team: 42
+  team: 41
 - name: ACCM
   country: vn
   aoeelo: 14
@@ -461,7 +461,7 @@
   id: 20
   discord_id: ACCM#0539
   city: Da Nang
-  team: 44
+  team: 43
 - name: Tim
   country: cn
   esportsearnings: 12949
@@ -708,7 +708,7 @@
       - "575722"
   id: 30
   discord_id: Zuppi#2702
-  team: 47
+  team: 46
 - name: DracKeN
   aka:
     - DraconT
@@ -816,7 +816,7 @@
       - "11447758"
   id: 34
   discord_id: Daniel_#5000
-  team: 44
+  team: 43
 - name: Yinghua
   aka:
     - LoveCheng
@@ -946,7 +946,7 @@
       - "1832996-hc" # martel
   id: 40
   discord_id: TheMax#9145
-  team: 47
+  team: 46
 - name: Villese
   country: fi
   aoeelo: 51
@@ -964,7 +964,7 @@
     - https://www.twitch.tv/villese
   id: 41
   discord_id: Villese#1612
-  team: 47
+  team: 46
 - name: RiuT
   country: br
   esportsearnings: 12244
@@ -990,7 +990,7 @@
       - "6141967"
   id: 42
   discord_id: RiuTAoE#9691
-  team: 42
+  team: 41
 - name: miguel
   country: br
   aoeelo: 2
@@ -1026,7 +1026,7 @@
   twitch:
     - https://www.twitch.tv/twiggaoe
   id: 44
-  team: 39
+  team: 38
 - name: JonSlow
   country: il
   aoeelo: 101
@@ -1097,7 +1097,7 @@
     - https://www.twitch.tv/rubenstock
   id: 47
   discord_id: Rubenstock#5222
-  team: 47
+  team: 46
 - name: Hoang
   country: vn
   liquipedia: Hoang
@@ -1117,7 +1117,7 @@
       - "3241077"
   aoeelo: 457
   id: 48
-  team: 39
+  team: 38
 - name: AngelinaJolie
   country: nl
   aoeelo: 121
@@ -1463,7 +1463,7 @@
   twitter:
     - https://twitter.com/SpringTV7
   discord_id: SpringTV#1011
-  team: 48
+  team: 47
 - name: Windy
   country: cn
   platforms:
@@ -1492,7 +1492,7 @@
       - cath_joe
   aoeelo: 329
   id: 71
-  team: 46
+  team: 45
 - name: Ruso
   country: es
   esportsearnings: 66433
@@ -1534,7 +1534,7 @@
   aoeelo: 142
   id: 73
   discord_id: Alive#1249
-  team: 42
+  team: 41
 - name: Ding
   country: hk
   esportsearnings: 12254
@@ -1631,7 +1631,7 @@
       - "5638708"
   id: 80
   discord_id: goku#8383
-  team: 42
+  team: 41
 - name: Pike
   country: fi
   aoeelo: 44
@@ -1650,7 +1650,7 @@
       - "9293314"
       - "18623653"
   id: 81
-  team: 47
+  team: 46
 - name: Vodka
   country: it
   aoeelo: 129
@@ -1946,6 +1946,7 @@
   aoeelo: 90
   id: 97
   liquipedia: IamOK
+  team: 35
 - name: geoffrey
   country: cn
   esportsearnings: 12256
@@ -2044,7 +2045,7 @@
   liquipedia: _Ra_
   aoeelo: 148
   id: 103
-  team: 38
+  team: 37
 - name: Miss_Xue
   aka:
     - NO_23
@@ -2109,7 +2110,7 @@
   liquipedia: Hasan
   aoeelo: 86
   id: 107
-  team: 38
+  team: 37
 - name: Juan
   country: ar
   platforms:
@@ -2164,7 +2165,7 @@
   aoeelo: 249
   id: 111
   discord_id: Jupe#1196
-  team: 47
+  team: 46
 - name: Dobbs
   country: dk
   twitch:
@@ -2453,7 +2454,7 @@
       - fox
   aoeelo: 296
   id: 137
-  team: 46
+  team: 45
 - name: Nanimaren
   country: it
   platforms:
@@ -2583,7 +2584,7 @@
   liquipedia: Cyclops
   id: 147
   discord_id: Cyclops#7566
-  team: 43
+  team: 42
 - name: Janik
   country: cz
   aoeelo: 91
@@ -2745,7 +2746,7 @@
   liquipedia: Rodrigus
   twitch:
     - https://www.twitch.tv/rodrigus_aoe
-  team: 39
+  team: 38
 - name: Skittle
   country: de
   aoeelo: 122
@@ -2918,7 +2919,6 @@
   platforms: {}
   id: 179
   aoeelo: 433
-  team: 36
 - name: HimT
   country: hk
   esportsearnings: 72997
@@ -3015,7 +3015,7 @@
   aoeelo: 499
   id: 191
   discord_id: Sobek#3676
-  team: 39
+  team: 38
 - name: Hallis
   country: gb
   twitch:
@@ -3182,7 +3182,7 @@
       - "2864065"
       - "489128"
   id: 206
-  team: 45
+  team: 44
 - name: Daywalker
   country: gb
   platforms:
@@ -3196,7 +3196,7 @@
   twitch:
     - https://www.twitch.tv/sunodaywalker
   id: 207
-  team: 45
+  team: 44
 - name: l2aGe
   country: gb
   platforms:
@@ -3413,7 +3413,7 @@
   aoeelo: 93
   id: 221
   discord_id: BLACK#1654
-  team: 51
+  team: 50
 - name: killpigboy
   country: cn
   platforms:
@@ -3521,7 +3521,7 @@
     - https://twitter.com/adricalello
   discord_id: Carbo#4493
   city: Quilmes
-  team: 39
+  team: 38
 - name: pG_Fire
   country: au
   platforms:
@@ -3712,7 +3712,7 @@
   discord_id: Wisepiii#0369
   twitter:
     - https://twitter.com/Wisepii_aoe
-  team: 37
+  team: 36
 - name: Chocobo
   country: jp
   platforms:
@@ -3930,7 +3930,7 @@
   id: 258
   liquipedia: Xhing
   discord_id: Adamantium#4545
-  team: 48
+  team: 47
 - name: flightlessbird
   country: nz
   platforms:
@@ -3963,7 +3963,7 @@
   aoeelo: 784
   id: 260
   discord_id: Pela#4044
-  team: 39
+  team: 38
 - name: Ertug
   country: tr
   city: İzmir
@@ -4104,7 +4104,7 @@
   aoeelo: 747
   id: 266
   discord_id: El Biry De LAmour#3157
-  team: 39
+  team: 60
 - name: Win_wu_kong
   aka:
     - fangxiaoqi
@@ -4174,7 +4174,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 61
+  team: 62
 - name: CX_youwei
   country: cn
   platforms:
@@ -4228,7 +4228,7 @@
   twitter:
     - https://twitter.com/Annotoph_AoE
   discord_id: Annotoph#3948
-  team: 44
+  team: 43
 - name: RookStar
   country: br
   platforms:
@@ -4256,7 +4256,7 @@
   discord_id: Grathwrang#2148
   city: Toronto
   aoeelo: 1689
-  team: 48
+  team: 47
 - name: Roxy
   country: ar
   platforms:
@@ -4431,7 +4431,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 60
+  team: 61
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -4456,7 +4456,7 @@
   twitter:
     - https://twitter.com/ellie4k
   discord_id: Ellie4K#0875
-  team: 44
+  team: 43
 - name: FreakinAndy
   country: at
   platforms:
@@ -4491,7 +4491,7 @@
   twitch:
     - https://www.twitch.tv/Frost_9AoE
   aoeelo: 1351
-  team: 45
+  team: 44
 - name: GriN
   country: ru
   platforms:
@@ -4752,7 +4752,7 @@
   id: 316
   discord_id: Abby#3159
   aoeelo: 1303
-  team: 41
+  team: 40
 - name: OLADUSHEK
   country: by
   platforms:
@@ -4921,7 +4921,7 @@
   id: 329
   twitter:
     - https://twitter.com/tiny_triss
-  team: 41
+  team: 40
 - name: kaaaai_
   country: gb
   platforms:
@@ -4955,7 +4955,7 @@
   aoeelo: 150
   id: 332
   discord_id: wAkKo#4028
-  team: 37
+  team: 36
 - name: Ubetnir
   country: tr
   platforms:
@@ -5057,7 +5057,7 @@
   twitch:
     - https://www.twitch.tv/yax_aoe
   liquipedia: Yasin
-  team: 43
+  team: 42
 - name: TurkEycof
   country: tr
   twitch:
@@ -5103,7 +5103,7 @@
   twitch:
     - https://www.twitch.tv/wbpolar
   id: 343
-  team: 45
+  team: 44
 - name: RollsRoyce
   country: vn
   platforms:
@@ -5127,7 +5127,7 @@
   twitter:
     - https://twitter.com/manuechvrr
   city: Concepción
-  team: 37
+  team: 36
 - name: Ripvanwinkle
   country: tr
   platforms:
@@ -5590,7 +5590,7 @@
   id: 384
   discord_id: king_marv#1339
   liquipedia: King_Marv
-  team: 54
+  team: 53
 - name: MingudaiLee
   country: uy
   aoeelo: 725
@@ -5652,7 +5652,7 @@
   aoeelo: 1186
   twitch:
     - https://www.twitch.tv/dedlyyetti
-  team: 48
+  team: 47
 - name: Skillyourself
   country: "no"
   platforms:
@@ -5869,7 +5869,7 @@
   aoeelo: 1139
   liquipedia: Fuller
   discord_id: uno1#6661
-  team: 50
+  team: 49
 - name: Bulletchen
   country: ch
   platforms:
@@ -5883,7 +5883,7 @@
   twitter:
     - https://twitter.com/mYiBulletchen
   discord_id: Bulletchen#5213
-  team: 44
+  team: 43
 - name: VarVarus
   country: ar
   platforms:
@@ -5896,7 +5896,7 @@
     - https://www.youtube.com/channel/UCr-daXEOPfoOIFI1nPEyQOQ
   id: 410
   aoeelo: 927
-  team: 39
+  team: 38
 - name: El_Matador
   country: de
   platforms:
@@ -5922,7 +5922,7 @@
   liquipedia: Nahuel05
   discord_id: Nahuel05_#8518
   aoeelo: 1049
-  team: 51
+  team: 50
 - name: Paganini
   country: br
   platforms:
@@ -6136,7 +6136,7 @@
     - https://www.twitch.tv/1chelooo
   liquipedia: cHELOOO
   discord_id: Chelo#4156
-  team: 50
+  team: 49
 - name: ViRuS_PuLsE
   country: us
   platforms:
@@ -6162,7 +6162,7 @@
   twitch:
     - https://www.twitch.tv/redlash_
   discord_id: Redlash#0658
-  team: 53
+  team: 52
 - name: Hackali
   country: tr
   platforms:
@@ -6354,7 +6354,7 @@
   liquipedia: ElMago
   id: 448
   aoeelo: 1590
-  team: 51
+  team: 50
 - name: Martinhs
   country: br
   platforms:
@@ -6489,7 +6489,7 @@
   id: 460
   discord_id: HeisenN#7109
   aoeelo: 665
-  team: 50
+  team: 49
 - name: Loco_Ser
   country: ar
   platforms:
@@ -6507,7 +6507,7 @@
   id: 461
   aoeelo: 819
   discord_id: LocoSer#4916
-  team: 51
+  team: 50
 - name: Shed
   country: au
   platforms:
@@ -6550,7 +6550,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 60
+  team: 61
 - name: BasicallyBebe
   country: au
   platforms:
@@ -6562,7 +6562,7 @@
     - https://www.youtube.com/LilTrouble_AoE
   liquipedia: LilTrouble
   id: 466
-  team: 41
+  team: 40
 - name: Locke
   country: us
   platforms:
@@ -6574,7 +6574,7 @@
   twitch:
     - https://www.twitch.tv/lockeaoe
   discord_id: Locke#1464
-  team: 52
+  team: 51
 - name: TutusAsylum
   country: fr
   platforms:
@@ -6792,7 +6792,7 @@
   liquipedia: Leozim
   id: 489
   aoeelo: 947
-  team: 42
+  team: 41
 - name: MrPlanner
   country: si
   platforms:
@@ -6900,7 +6900,7 @@
   id: 501
   twitch:
     - https://www.twitch.tv/hazzy_aoe
-  team: 45
+  team: 44
 - name: AR12
   country: de
   aoeelo: 1041
@@ -6925,7 +6925,7 @@
   twitch:
     - https://www.twitch.tv/TM__Dexter
   discord_id: Dexter#2863
-  team: 50
+  team: 49
 - name: EnvyZ
   country: mx
   platforms:
@@ -6970,7 +6970,7 @@
   twitch:
     - https://www.twitch.tv/webber_aoe
   discord_id: webber#0098
-  team: 50
+  team: 49
 - name: paradox303
   id: 507
   country: gb-sct
@@ -7024,7 +7024,7 @@
   liquipedia: Prisma09
   twitch:
     - https://www.twitch.tv/prisma09_
-  team: 51
+  team: 50
 - name: TheAntman
   country: fi
   platforms:
@@ -7086,7 +7086,7 @@
   aoeelo: 1117
   city: Melbourne
   discord_id: x0r6zt#0339
-  team: 55
+  team: 54
 - name: Solara
   country: il
   platforms:
@@ -7146,6 +7146,7 @@
   id: 530
   aoeelo: 1189
   discord_id: PL_Hitorek#2188
+  team: 55
 - name: Kougrialka
   country: fr
   platforms:
@@ -7328,7 +7329,7 @@
   twitch:
     - https://www.twitch.tv/ronotovi
   discord_id: ronotovi#7483
-  team: 43
+  team: 42
 - name: Karnal
   country: ru
   platforms:
@@ -7381,7 +7382,7 @@
   twitch:
     - https://www.twitch.tv/zuccolander
   discord_id: Zuccolo#2521
-  team: 49
+  team: 48
 - name: Ezio
   country: de
   platforms:
@@ -7498,7 +7499,7 @@
   liquipedia: m0re
   twitch:
     - https://www.twitch.tv/m0re_aoe
-  team: 51
+  team: 50
 - name: Dfx2
   country: fr
   aoeelo: 1019
@@ -7535,7 +7536,7 @@
   twitch:
     - https://www.twitch.tv/tatengue_
   discord_id: Tatengue_#9944
-  team: 51
+  team: 50
 - name: LePoséidon
   country: fr
   aoeelo: 985
@@ -7761,7 +7762,7 @@
     - http://youtube.com/channel/UCUjaaULhgNOJs-eurX4sW4g
   discord_id: Daniela_AoE#9540
   id: 639
-  team: 41
+  team: 40
 - name: Hannibal
   country: eg
   platforms:
@@ -7977,7 +7978,7 @@
   liquipedia: Eskabe
   id: 667
   aoeelo: 1223
-  team: 51
+  team: 50
 - name: Nobu
   country: ar
   platforms:
@@ -8159,7 +8160,7 @@
   twitter:
     - https://twitter.com/RediRodion
   discord_id: Redi#3884
-  team: 44
+  team: 43
 - name: R4v3N
   country: ro
   platforms:
@@ -8214,7 +8215,7 @@
   liquipedia: Rodrixs
   id: 714
   aoeelo: 1350
-  team: 51
+  team: 50
 - name: Rivux
   country: ar
   platforms:
@@ -8226,7 +8227,7 @@
   aoeelo: 1058
   twitch:
     - https://www.twitch.tv/rivuxtv
-  team: 51
+  team: 50
 - name: Sziky
   country: hu
   platforms:
