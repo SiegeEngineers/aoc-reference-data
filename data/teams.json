@@ -584,18 +584,25 @@
     "id": 56
   },
   {
+    "name": "Owned eSport",
+    "players": [
+      597
+    ],
+    "id": 57
+  },
+  {
     "name": "Dumbos",
     "players": [
       654
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "SY",
     "players": [
       35
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "new Chapter",
@@ -605,13 +612,6 @@
       283,
       388,
       404
-    ],
-    "id": 59
-  },
-  {
-    "name": "Imperio SUD",
-    "players": [
-      266
     ],
     "id": 60
   },

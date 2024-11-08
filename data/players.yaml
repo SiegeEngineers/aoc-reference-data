@@ -841,7 +841,7 @@
     ibp:
       - yinghua
   id: 35
-  team: 58
+  team: 59
 - name: Lyx
   country: cn
   aoeelo: 21
@@ -2731,7 +2731,7 @@
     - https://www.twitch.tv/lb10_
   id: 158
   discord_id: '#6511'
-  team: 59
+  team: 60
 - name: Rodrigus
   country: ar
   aoeelo: 449
@@ -2764,7 +2764,7 @@
   twitch:
     - https://www.twitch.tv/nc_skittle_
   discord_id: nC_Skittle_#1100
-  team: 59
+  team: 60
 - name: Jidba
   country: gr
   esportsearnings: 15926
@@ -4104,7 +4104,7 @@
   aoeelo: 747
   id: 266
   discord_id: El Biry De LAmour#3157
-  team: 60
+  team: 38
 - name: Win_wu_kong
   aka:
     - fangxiaoqi
@@ -4340,7 +4340,7 @@
   aoeelo: 601
   id: 283
   discord_id: nC_Andorin#3135
-  team: 59
+  team: 60
 - name: Clemensor
   country: at
   platforms:
@@ -5369,6 +5369,7 @@
 - name: Quảng Trị
   aka:
     - Hope
+    - Thành Cổ Quảng Trị
   country: vn
   platforms:
     voobly:
@@ -5627,7 +5628,7 @@
       - "435965"
   id: 388
   liquipedia: Snyper1
-  team: 59
+  team: 60
 - name: Socksyy
   country: au
   aoeelo: 447
@@ -5821,7 +5822,7 @@
   id: 404
   liquipedia: PhilippHJS
   discord_id: PhilippHJS#0944
-  team: 59
+  team: 60
 - name: SonyToprano
   country: tr
   platforms:
@@ -7524,6 +7525,7 @@
   twitch:
     - https://www.twitch.tv/lighty_gg
   liquipedia: Lighty
+  team: 57
 - name: Tatengue
   country: ar
   aoeelo: 1212
@@ -7919,7 +7921,7 @@
   aoeelo: 1219
   twitch:
     - https://www.twitch.tv/toms_aoe
-  team: 57
+  team: 58
 - name: Nezzar
   country: hk
   platforms:
