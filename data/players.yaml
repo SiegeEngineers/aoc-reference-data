@@ -1294,6 +1294,8 @@
   id: 56
   discord_id: dziam#5626
 - name: Ppoc
+  aka:
+    - Olympus PPoc
   country: es
   platforms:
     lan:
