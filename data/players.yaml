@@ -1909,6 +1909,7 @@
 - name: Rami
   country: il
   esportsearnings: 42063
+  liquipedia: Ramirez
   platforms:
     voobly:
       - "123701126"
@@ -8300,3 +8301,4 @@
       - '10990536'
       - '15204950'
       - '15542278'
+  x: 1
