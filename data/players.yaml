@@ -2511,6 +2511,8 @@
   discord_id: Dragonstar#1233
   team: 23
 - name: Free
+  aka:
+    - Free2
   country: cn
   platforms:
     zone:
@@ -4303,6 +4305,7 @@
       - "2444511"
       - "2762305"
       - "14595118"
+      - '21060585'
   liquipedia: Gabi
   twitch:
     - https://www.twitch.tv/gabiaoe_
