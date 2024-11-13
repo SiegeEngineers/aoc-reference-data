@@ -132,7 +132,11 @@
     "62": "Hamburger",
     "63": "Ghost Lake",
     "70": "Serengeti",
-    "77": "MegaRandom"
+    "76": "Valley",
+    "77": "MegaRandom",
+    "87": "Serengeti",
+    "112": "Bog Islands",
+    "116": "Water Nomad"
   },
   "technologies": {
     "0": "",

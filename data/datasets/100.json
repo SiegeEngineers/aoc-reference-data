@@ -138,6 +138,15 @@
     },
     "45": {
       "name": "Georgians"
+    },
+    "46": {
+      "name": "Achaemenids"
+    },
+    "47": {
+      "name": "Athenians"
+    },
+    "48": {
+      "name": "Spartans"
     }
   },
   "maps": {
@@ -405,7 +414,7 @@
     "10960": "Enclosed",
     "10961": "Haboob",
     "10962": "Kawasan",
-    "10963": "LandMadness",
+    "10963": "Land Madness",
     "10964": "Sacred Springs",
     "10965": "Wade",
     "10966": "Morass",
