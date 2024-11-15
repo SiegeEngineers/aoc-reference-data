@@ -4291,6 +4291,7 @@
       - "19586160"
       - "20355345"
       - "20748037"
+      - "21103735"
   liquipedia: Whitecourt
   twitch:
     - https://www.twitch.tv/whitecourtt
@@ -6949,7 +6950,7 @@
   liquipedia: Lord Envidiates
   youtube:
     - https://www.youtube.com/channel/UCESok43ZyL5f3NIV6dcORqg
-  team: 7
+  team: 38
 - name: robo
   country: au
   platforms:
@@ -8193,7 +8194,6 @@
       - '10507607'
       - '12409153'
   id: 699
-  team: 8
 - name: AboKeiTo
   country: cl
   platforms:
