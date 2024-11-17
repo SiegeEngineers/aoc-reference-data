@@ -596,13 +596,6 @@
     "id": 58
   },
   {
-    "name": "SY",
-    "players": [
-      35
-    ],
-    "id": 59
-  },
-  {
     "name": "new Chapter",
     "players": [
       158,
@@ -611,7 +604,7 @@
       388,
       404
     ],
-    "id": 60
+    "id": 59
   },
   {
     "name": "AoeFrance",
@@ -619,13 +612,13 @@
       291,
       465
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 62
+    "id": 61
   }
 ]

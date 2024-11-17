@@ -841,7 +841,6 @@
     ibp:
       - yinghua
   id: 35
-  team: 59
 - name: Lyx
   country: cn
   aoeelo: 21
@@ -2738,7 +2737,7 @@
     - https://www.twitch.tv/lb10_
   id: 158
   discord_id: '#6511'
-  team: 60
+  team: 59
 - name: Rodrigus
   country: ar
   aoeelo: 449
@@ -2771,7 +2770,7 @@
   twitch:
     - https://www.twitch.tv/nc_skittle_
   discord_id: nC_Skittle_#1100
-  team: 60
+  team: 59
 - name: Jidba
   country: gr
   esportsearnings: 15926
@@ -4182,7 +4181,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 62
+  team: 61
 - name: CX_youwei
   country: cn
   platforms:
@@ -4350,7 +4349,7 @@
   aoeelo: 601
   id: 283
   discord_id: nC_Andorin#3135
-  team: 60
+  team: 59
 - name: Clemensor
   country: at
   platforms:
@@ -4441,7 +4440,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 61
+  team: 60
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -5391,6 +5390,7 @@
     - https://www.twitch.tv/thanhcoquangtri_hope
   youtube_live:
     - https://www.youtube.com/channel/UC50eAGV8wBYCIS_0fMjpPpw/live
+  liquipedia: Thành_Cổ_Quảng_Trị
 - name: Salted Pepper
   country: nl
   platforms:
@@ -5637,7 +5637,7 @@
       - "435965"
   id: 388
   liquipedia: Snyper1
-  team: 60
+  team: 59
 - name: Socksyy
   country: au
   aoeelo: 447
@@ -5831,7 +5831,7 @@
   id: 404
   liquipedia: PhilippHJS
   discord_id: PhilippHJS#0944
-  team: 60
+  team: 59
 - name: SonyToprano
   country: tr
   platforms:
@@ -6560,7 +6560,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 61
+  team: 60
 - name: BasicallyBebe
   country: au
   platforms:
@@ -8309,4 +8309,3 @@
       - '10990536'
       - '15204950'
       - '15542278'
-  x: 1
