@@ -1921,6 +1921,7 @@
     gamepark:
       - rami
   id: 95
+  aoeelo: 277
 - name: Duck
   country: cn
   platforms:
@@ -7573,6 +7574,7 @@
     rl:
       - '2972505'
   id: 601
+  aoeelo: 1715
 - name: BuloaSaky
   country: vn
   platforms:
@@ -8146,6 +8148,7 @@
       - '2888687'
       - '14230268'
   id: 682
+  aoeelo: 1745
 - name: Jouds
   country: de
   platforms:
@@ -8197,6 +8200,7 @@
       - '10507607'
       - '12409153'
   id: 699
+  aoeelo: 1714
 - name: AboKeiTo
   country: cl
   platforms:
@@ -8208,6 +8212,7 @@
     - https://www.twitch.tv/abokeito
   id: 700
   team: 14
+  aoeelo: 1254
 - name: Anakin
   country: ar
   platforms:
@@ -8252,6 +8257,7 @@
   twitch:
     - https://www.twitch.tv/szikyyyy
   id: 718
+  aoeelo: 1628
 - name: BuLLeT
   country: se
   platforms:
@@ -8264,6 +8270,7 @@
   twitch:
     - https://www.twitch.tv/scn_bullet__
   id: 728
+  aoeelo: 115
 - name: adduOP
   aka:
     - Addu
@@ -8289,6 +8296,7 @@
   platforms:
     rl:
       - '1945281'
+  aoeelo: 1371
 - name: Eren
   country: mx
   id: 732
@@ -8302,6 +8310,7 @@
       - '11226478'
   twitch:
     - https://www.twitch.tv/eren_aoe
+  aoeelo: 1162
 - name: Vrothmans
   id: 733
   country: ru
