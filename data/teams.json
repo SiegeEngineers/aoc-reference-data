@@ -220,7 +220,6 @@
     "players": [
       55,
       84,
-      87,
       265,
       281,
       637
@@ -569,6 +568,7 @@
   {
     "name": "PL",
     "players": [
+      56,
       530
     ],
     "id": 55
@@ -582,25 +582,18 @@
     "id": 56
   },
   {
-    "name": "The Wolf Pack",
-    "players": [
-      30
-    ],
-    "id": 57
-  },
-  {
     "name": "Owned eSport",
     "players": [
       597
     ],
-    "id": 58
+    "id": 57
   },
   {
     "name": "Dumbos",
     "players": [
       654
     ],
-    "id": 59
+    "id": 58
   },
   {
     "name": "new Chapter",
@@ -611,7 +604,7 @@
       388,
       404
     ],
-    "id": 60
+    "id": 59
   },
   {
     "name": "AoeFrance",
@@ -619,20 +612,20 @@
       291,
       465
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "hkbb",
     "players": [
       197
     ],
-    "id": 62
+    "id": 61
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 63
+    "id": 62
   }
 ]

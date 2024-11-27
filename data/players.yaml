@@ -708,7 +708,7 @@
       - "575722"
   id: 30
   discord_id: Zuppi#2702
-  team: 57
+  team: 46
 - name: DracKeN
   aka:
     - DraconT
@@ -1292,6 +1292,7 @@
   liquipedia: Dziamdziak
   id: 56
   discord_id: dziam#5626
+  team: 55
 - name: Ppoc
   aka:
     - Olympus PPoc
@@ -1759,7 +1760,6 @@
   id: 87
   twitter:
     - https://twitter.com/edie592
-  team: 21
 - name: SongSong
   country: vn
   aka:
@@ -2738,7 +2738,7 @@
     - https://www.twitch.tv/lb10_
   id: 158
   discord_id: '#6511'
-  team: 60
+  team: 59
 - name: Rodrigus
   country: ar
   aoeelo: 449
@@ -2771,7 +2771,7 @@
   twitch:
     - https://www.twitch.tv/nc_skittle_
   discord_id: nC_Skittle_#1100
-  team: 60
+  team: 59
 - name: Jidba
   country: gr
   esportsearnings: 15926
@@ -3089,7 +3089,7 @@
   liquipedia: Ming (Hong Kongese player)
   id: 197
   aoeelo: 1149
-  team: 62
+  team: 61
 - name: Kyo
   country: hk
   platforms:
@@ -4183,7 +4183,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 63
+  team: 62
 - name: CX_youwei
   country: cn
   platforms:
@@ -4351,7 +4351,7 @@
   aoeelo: 601
   id: 283
   discord_id: nC_Andorin#3135
-  team: 60
+  team: 59
 - name: Clemensor
   country: at
   platforms:
@@ -4442,7 +4442,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 61
+  team: 60
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -5639,7 +5639,7 @@
       - "435965"
   id: 388
   liquipedia: Snyper1
-  team: 60
+  team: 59
 - name: Socksyy
   country: au
   aoeelo: 447
@@ -5833,7 +5833,7 @@
   id: 404
   liquipedia: PhilippHJS
   discord_id: PhilippHJS#0944
-  team: 60
+  team: 59
 - name: SonyToprano
   country: tr
   platforms:
@@ -6562,7 +6562,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 61
+  team: 60
 - name: BasicallyBebe
   country: au
   platforms:
@@ -7536,7 +7536,7 @@
   twitch:
     - https://www.twitch.tv/lighty_gg
   liquipedia: Lighty
-  team: 58
+  team: 57
 - name: Tatengue
   country: ar
   aoeelo: 1212
@@ -7933,7 +7933,7 @@
   aoeelo: 1219
   twitch:
     - https://www.twitch.tv/toms_aoe
-  team: 59
+  team: 58
 - name: Nezzar
   country: hk
   platforms:
@@ -8211,8 +8211,8 @@
   twitch:
     - https://www.twitch.tv/abokeito
   id: 700
-  team: 14
   aoeelo: 1254
+  team: 14
 - name: Anakin
   country: ar
   platforms:
@@ -8321,3 +8321,4 @@
       - '10990536'
       - '15204950'
       - '15542278'
+  aoeelo: 1606
