@@ -8331,3 +8331,12 @@
     voobly:
       - '124351305'
   aoeelo: 98
+- name: Red Phosphoru
+  country: us
+  id: 735
+  platforms:
+    rl:
+      - '10266593'
+      - '19313591'
+      - '20822864'
+  twitch: https://www.twitch.tv/redphosphoru
