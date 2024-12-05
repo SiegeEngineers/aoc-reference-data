@@ -8347,3 +8347,14 @@
       - '19313591'
       - '20822864'
   twitch: https://www.twitch.tv/redphosphoru
+- name: Shulk
+  country: fr
+  id: 736
+  platforms:
+    rl:
+      - '289473'
+      - '2596121'
+  twitch:
+    - https://www.twitch.tv/shulk___
+  liquipedia: Shulk
+  aoeelo: 1067
