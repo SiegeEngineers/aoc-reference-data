@@ -8326,6 +8326,8 @@
       - '15204950'
       - '15542278'
   aoeelo: 1606
+  twitch:
+    - https://www.twitch.tv/wallager_aoe
 - name: Keif
   country: ru
   id: 734
