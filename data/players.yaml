@@ -8347,7 +8347,8 @@
       - '10266593'
       - '19313591'
       - '20822864'
-  twitch: https://www.twitch.tv/redphosphoru
+  twitch:
+    - https://www.twitch.tv/redphosphoru
 - name: Shulk
   country: fr
   id: 736
