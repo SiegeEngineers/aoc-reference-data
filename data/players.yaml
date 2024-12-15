@@ -4114,6 +4114,8 @@
     - https://www.twitch.tv/biryarg
   youtube:
     - http://www.youtube.com/channel/UC1tGtpMFHF88liDp0kYKtEQ
+  youtube_live:
+    - http://www.youtube.com/channel/UC1tGtpMFHF88liDp0kYKtEQ/live
   aoeelo: 747
   id: 266
   discord_id: El Biry De LAmour#3157
@@ -7125,6 +7127,7 @@
   discord_id: LEECHIA#3754
   twitch:
     - https://www.twitch.tv/ts01383840
+  aoeelo: 1749
 - name: Pyroptere
   country: ch
   platforms:
@@ -8353,6 +8356,7 @@
       - '20822864'
   twitch:
     - https://www.twitch.tv/redphosphoru
+  aoeelo: 1750
 - name: Shulk
   country: fr
   id: 736
