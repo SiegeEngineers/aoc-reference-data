@@ -8327,6 +8327,9 @@
     - https://www.twitch.tv/eren_aoe
   aoeelo: 1162
 - name: Vrothmans
+  aka:
+    - Sueta
+    - Nyarlathotep
   id: 733
   country: ru
   platforms:
@@ -8339,6 +8342,7 @@
   aoeelo: 1606
   twitch:
     - https://www.twitch.tv/wallager_aoe
+  team: 31
 - name: Keif
   country: ru
   id: 734
