@@ -8302,9 +8302,7 @@
   id: 729
   aoeelo: 1638
   team: 22
-- name: Wade
-  aka:
-    - Wade77
+- name: Wade77
   country: hk
   id: 730
   platforms:
@@ -8313,6 +8311,8 @@
       - '16361183'
       - '17529637'
   team: 28
+  twitch:
+    - https://www.twitch.tv/wade7741
 - name: Smokey
   country: us
   id: 731
