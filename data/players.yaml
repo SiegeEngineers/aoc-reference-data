@@ -2742,7 +2742,7 @@
     - https://www.twitch.tv/lb10_
   id: 158
   discord_id: '#6511'
-  team: 62
+  team: 61
 - name: Rodrigus
   country: ar
   aoeelo: 449
@@ -2775,7 +2775,7 @@
   twitch:
     - https://www.twitch.tv/nc_skittle_
   discord_id: nC_Skittle_#1100
-  team: 62
+  team: 61
 - name: Jidba
   country: gr
   esportsearnings: 15926
@@ -3093,7 +3093,7 @@
   liquipedia: Ming (Hong Kongese player)
   id: 197
   aoeelo: 1149
-  team: 64
+  team: 63
 - name: Kyo
   country: hk
   platforms:
@@ -3941,7 +3941,7 @@
       - "124725130"
   aoeelo: 76
   id: 258
-  liquipedia: Xhing
+  liquipedia: Adam_(Mexican_player)
   discord_id: Adamantium#4545
   team: 49
 - name: flightlessbird
@@ -4190,7 +4190,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 65
+  team: 64
 - name: CX_youwei
   country: cn
   platforms:
@@ -4357,7 +4357,7 @@
   aoeelo: 601
   id: 283
   discord_id: nC_Andorin#3135
-  team: 62
+  team: 61
 - name: Clemensor
   country: at
   platforms:
@@ -4448,7 +4448,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 63
+  team: 62
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -5400,7 +5400,6 @@
   youtube_live:
     - https://www.youtube.com/channel/UC50eAGV8wBYCIS_0fMjpPpw/live
   liquipedia: Thành_Cổ_Quảng_Trị
-  team: 59
 - name: Salted Pepper
   country: nl
   platforms:
@@ -5649,7 +5648,7 @@
       - "435965"
   id: 388
   liquipedia: Snyper1
-  team: 62
+  team: 61
 - name: Socksyy
   country: au
   aoeelo: 447
@@ -5844,7 +5843,7 @@
   id: 404
   liquipedia: PhilippHJS
   discord_id: PhilippHJS#0944
-  team: 62
+  team: 61
 - name: SonyToprano
   country: tr
   platforms:
@@ -5890,7 +5889,7 @@
       - "5733905"
   id: 408
   aoeelo: 1139
-  liquipedia: Fuller
+  liquipedia: Uno1
   discord_id: uno1#6661
   team: 51
 - name: Bulletchen
@@ -6573,7 +6572,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 63
+  team: 62
 - name: BasicallyBebe
   country: au
   platforms:
@@ -6583,7 +6582,7 @@
     - https://www.twitch.tv/basicallybebe
   youtube:
     - https://www.youtube.com/LilTrouble_AoE
-  liquipedia: LilTrouble
+  liquipedia: BasicallyBebe
   id: 466
   team: 42
 - name: Locke
@@ -7550,7 +7549,7 @@
   twitch:
     - https://www.twitch.tv/lighty_gg
   liquipedia: Lighty
-  team: 60
+  team: 59
 - name: Tatengue
   country: ar
   aoeelo: 1212
@@ -7949,7 +7948,7 @@
   aoeelo: 1219
   twitch:
     - https://www.twitch.tv/toms_aoe
-  team: 61
+  team: 60
 - name: Nezzar
   country: hk
   platforms:
@@ -8310,9 +8309,9 @@
       - '4933932'
       - '16361183'
       - '17529637'
-  team: 28
   twitch:
     - https://www.twitch.tv/wade7741
+  team: 28
 - name: Smokey
   country: us
   id: 731

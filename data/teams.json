@@ -604,25 +604,18 @@
     "id": 58
   },
   {
-    "name": "Trademark Gamers",
-    "players": [
-      366
-    ],
-    "id": 59
-  },
-  {
     "name": "Owned eSport",
     "players": [
       597
     ],
-    "id": 60
+    "id": 59
   },
   {
     "name": "Dumbos",
     "players": [
       654
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "new Chapter",
@@ -633,7 +626,7 @@
       388,
       404
     ],
-    "id": 62
+    "id": 61
   },
   {
     "name": "AoeFrance",
@@ -641,20 +634,20 @@
       291,
       465
     ],
-    "id": 63
+    "id": 62
   },
   {
     "name": "hkbb",
     "players": [
       197
     ],
-    "id": 64
+    "id": 63
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 65
+    "id": 64
   }
 ]
