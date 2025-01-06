@@ -7804,6 +7804,8 @@
   id: 640
   team: 17
 - name: widy
+  aka:
+    - wide
   country: ru
   platforms:
     rl:
