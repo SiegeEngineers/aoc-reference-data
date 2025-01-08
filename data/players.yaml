@@ -7920,6 +7920,8 @@
   id: 651
   aoeelo: 1322
   team: 27
+  twitch:
+    - https://www.twitch.tv/temo_aoe
 - name: Draconian
   country: gb
   platforms:
