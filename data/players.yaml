@@ -8413,9 +8413,11 @@
   team: 27
 - name: Yukgit
   id: 739
-  country: cn
+  country: ca
   platforms:
     rl:
       - '16812056'
   bilibili:
     - https://live.bilibili.com/941027
+  twitter:
+    - https://x.com/Yukgit
