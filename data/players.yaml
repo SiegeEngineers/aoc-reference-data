@@ -8411,3 +8411,11 @@
   twitch:
     - https://www.twitch.tv/neozz_usdt
   team: 27
+- name: Yukgit
+  id: 739
+  country: cn
+  platforms:
+    rl:
+      - '16812056'
+  bilibili:
+    - https://live.bilibili.com/941027
