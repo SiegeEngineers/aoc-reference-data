@@ -7397,6 +7397,7 @@
       - '3282264'
       - '11470508'
       - '21386175'
+      - '21608326'
   id: 568
 - name: Zuccolo
   country: it
@@ -7919,9 +7920,9 @@
       - '19219486'
   id: 651
   aoeelo: 1322
-  team: 27
   twitch:
     - https://www.twitch.tv/temo_aoe
+  team: 27
 - name: Draconian
   country: gb
   platforms:
