@@ -2038,6 +2038,7 @@
   aoeelo: 26
   id: 102
   discord_id: Hearttt#5450
+  team: 31
 - name: Ra
   country: ca
   esportsearnings: 14735
@@ -3092,7 +3093,7 @@
   liquipedia: Ming (Hong Kongese player)
   id: 197
   aoeelo: 1149
-  team: 64
+  team: 65
 - name: Kyo
   country: hk
   platforms:
@@ -4192,7 +4193,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 65
+  team: 66
 - name: CX_youwei
   country: cn
   platforms:
@@ -4450,7 +4451,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 63
+  team: 64
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -4490,6 +4491,7 @@
   discord_id: FreakinAndy#7698
   twitter:
     - https://twitter.com/FreakinAndy
+  team: 63
 - name: FreakinChris
   country: at
   platforms:
@@ -6183,6 +6185,7 @@
     rl:
       - "2771618"
       - "9343412"
+      - "11404343"
   id: 431
   liquipedia: Redlash
   twitch:
@@ -6576,7 +6579,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 63
+  team: 64
 - name: BasicallyBebe
   country: au
   platforms:
@@ -8104,6 +8107,7 @@
   platforms:
     rl:
       - '1137086'
+  team: 27
 - name: GUKI
   id: 676
   country: mx
