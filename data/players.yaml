@@ -7705,6 +7705,11 @@
       - '210103'
   twitch:
     - https://www.twitch.tv/thejamesdash
+  youtube:
+    - https://www.youtube.com/@JamesDashAoE
+  twitter:
+    - https://twitter.com/JamesDash
+  liquipedia: Dash
   id: 624
 - name: Wes Iwobi
   country: de
@@ -7928,6 +7933,7 @@
   aoeelo: 1322
   twitch:
     - https://www.twitch.tv/temo_aoe
+  liquipedia: TeMo
   team: 27
 - name: Draconian
   country: gb
@@ -7948,6 +7954,7 @@
       - '15214143'
   twitch:
     - https://www.twitch.tv/rayz_aoe
+  liquipedia: Rayz
   id: 653
   aoeelo: 1302
   team: 19
@@ -7982,6 +7989,7 @@
   platforms:
     rl:
       - "300565"
+  liquipedia: Wean_Dinchester
   aoeelo: 1160
   id: 656
   team: 16
@@ -8049,6 +8057,7 @@
     rl:
       - "5188554"
       - "17232549"
+  liquipedia: Lamo
   id: 670
   aoeelo: 1544
   twitch:
@@ -8076,6 +8085,7 @@
     - https://www.twitch.tv/lewisaoe
   youtube_live:
     - https://www.youtube.com/channel/UCvGb8jm6or4TItb10yNJKQw/live
+  liquipedia: Lewis
   id: 672
   aoeelo: 1342
   team: 31
@@ -8217,6 +8227,7 @@
   platforms:
     rl:
       - "7684383"
+  liquipedia: R4v3N
   aoeelo: 1247
   id: 697
 - name: Kiko
@@ -8245,6 +8256,7 @@
       - '9841253'
   twitch:
     - https://www.twitch.tv/abokeito
+  liquipedia: AboKeiTo
   id: 700
   aoeelo: 1254
   team: 13
