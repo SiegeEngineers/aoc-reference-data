@@ -2629,6 +2629,7 @@
   liquipedia: Running
   id: 150
   discord_id: Running_#5214
+  team: 15
 - name: Obadiah
   country: ca
   aoeelo: 602
@@ -4249,7 +4250,7 @@
   twitter:
     - https://twitter.com/Annotoph_AoE
   discord_id: Annotoph#3948
-  team: 47
+  team: 15
 - name: RookStar
   country: br
   platforms:
@@ -5853,7 +5854,7 @@
   id: 404
   liquipedia: PhilippHJS
   discord_id: PhilippHJS#0944
-  team: 63
+  team: 15
 - name: SonyToprano
   country: tr
   platforms:
@@ -5941,6 +5942,7 @@
     - https://www.twitch.tv/el_matador_5
   discord_id: El_Matador#8675
   liquipedia: El_Matador
+  team: 15
 - name: Nahuel05
   country: ar
   platforms:
@@ -7305,6 +7307,7 @@
   aoeelo: 1126
   discord_id: Target331#9006
   liquipedia: Target331
+  team: 15
 - name: Tomahawk
   country: br
   platforms:
@@ -8089,7 +8092,7 @@
   liquipedia: Lewis
   id: 672
   aoeelo: 1342
-  team: 30
+  team: 33
 - name: Felipe
   id: 673
   country: cl
