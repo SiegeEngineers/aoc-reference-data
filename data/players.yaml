@@ -8441,6 +8441,7 @@
   country: ca
   platforms:
     rl:
+      - '3386339'
       - '16812056'
   bilibili:
     - https://live.bilibili.com/941027
