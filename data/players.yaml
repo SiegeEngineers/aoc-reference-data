@@ -5552,6 +5552,8 @@
   liquipedia: Dr.Kozmonot
   youtube:
     - https://www.youtube.com/channel/UCADnocq-SCC28Xr5Tq-sF5Q
+  youtube_live:
+    - https://www.youtube.com/channel/UCADnocq-SCC28Xr5Tq-sF5Q/live
   team: 21
 - name: emalius
   country: fi
