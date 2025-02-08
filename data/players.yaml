@@ -4636,6 +4636,7 @@
   aoeelo: 1069
   id: 306
   discord_id: Loris#2773
+  team: 17
 - name: MaJoR_Kd
   country: gb
   platforms:
@@ -7343,6 +7344,7 @@
   twitch:
     - https://www.twitch.tv/salsicciotto999
   liquipedia: salsicciotto1999
+  team: 17
 - name: Lukas
   country: de
   platforms:
@@ -7502,6 +7504,7 @@
   discord_id: Mettiu#2068
   twitch:
     - https://www.twitch.tv/mettiusmalo
+  team: 17
 - name: Nixishin
   country: ru
   platforms:
