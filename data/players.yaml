@@ -4703,6 +4703,7 @@
   youtube_live:
     - https://www.youtube.com/channel/UCZWm0WjyGzP6CEtm22zVvCQ/live
   id: 310
+  team: 32
 - name: Mica
   aka:
     - Aura
