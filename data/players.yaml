@@ -376,6 +376,7 @@
     - https://www.twitch.tv/chartaoe
   id: 16
   discord_id: chart#3873
+  team: 25
 - name: Valas
   country: fi
   platforms:
@@ -5440,6 +5441,7 @@
   aoeelo: 878
   youtube:
     - https://www.youtube.com/channel/UCegNY_dhXXwubSHZofyQeKg
+  team: 17
 - name: Snapy
   country: co
   liquipedia: Snapy
@@ -8488,3 +8490,11 @@
       - '16847348'
       - '19124429'
   id: 743
+- name: Mauricioae13
+  country: mx
+  platforms:
+    rl:
+      - '9449579'
+      - '19831974'
+      - '13164223'
+  id: 744
