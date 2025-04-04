@@ -1203,7 +1203,6 @@
       - "123642997"
       - "124576519"
     rl:
-      - "1688652"
       - "6268226"
       - "6169169"
       - "19455781"
@@ -8350,6 +8349,7 @@
   twitch:
     - https://www.twitch.tv/wade7741
   team: 25
+  aoeelo: 1712
 - name: Smokey
   country: us
   id: 731
@@ -8428,6 +8428,7 @@
       - '12207441'
       - '10790113'
       - '11294919'
+  aoeelo: 1751
 - name: NeoZz
   aka:
     - SOL/USDT
@@ -8441,6 +8442,7 @@
   twitch:
     - https://www.twitch.tv/neozz_usdt
   team: 25
+  aoeelo: 1725
 - name: Yukgit
   id: 739
   country: ca
@@ -8490,6 +8492,7 @@
       - '16847348'
       - '19124429'
   id: 743
+  aoeelo: 1737
 - name: Mauricioae13
   country: mx
   platforms:
@@ -8498,3 +8501,11 @@
       - '19831974'
       - '13164223'
   id: 744
+- name: GGOut
+  country: se
+  platforms:
+    rl:
+      - '2897756'
+  liquipedia: GGOut
+  id: 745
+  aoeelo: 1650
