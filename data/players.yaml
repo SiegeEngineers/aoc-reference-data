@@ -4869,6 +4869,7 @@
 - name: Sebastian
   aka:
     - SEBA2002
+    - Sebastian2002
   country: uy
   platforms:
     rl:
@@ -8347,8 +8348,8 @@
       - '17529637'
   twitch:
     - https://www.twitch.tv/wade7741
-  team: 25
   aoeelo: 1712
+  team: 25
 - name: Smokey
   country: us
   id: 731
@@ -8440,8 +8441,8 @@
       - '19867271'
   twitch:
     - https://www.twitch.tv/neozz_usdt
-  team: 25
   aoeelo: 1725
+  team: 25
 - name: Yukgit
   id: 739
   country: ca
