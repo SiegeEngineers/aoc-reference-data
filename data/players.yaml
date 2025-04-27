@@ -8509,3 +8509,9 @@
   liquipedia: GGOut
   id: 745
   aoeelo: 1650
+- name: IXAM
+  country: ar
+  platforms:
+    rl:
+      - '10309103'
+  id: 746
