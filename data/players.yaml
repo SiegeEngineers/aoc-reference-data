@@ -8135,6 +8135,8 @@
     rl:
       - '1137086'
   team: 25
+  twitch:
+    - https://www.twitch.tv/shixo_aoe
 - name: GUKI
   id: 676
   country: mx
@@ -8516,6 +8518,8 @@
   liquipedia: GGOut
   id: 745
   aoeelo: 1650
+  twitch:
+    - https://www.twitch.tv/ggout1
 - name: IXAM
   country: ar
   platforms:
