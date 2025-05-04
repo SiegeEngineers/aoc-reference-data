@@ -8134,9 +8134,9 @@
   platforms:
     rl:
       - '1137086'
-  team: 25
   twitch:
     - https://www.twitch.tv/shixo_aoe
+  team: 25
 - name: GUKI
   id: 676
   country: mx
