@@ -7325,6 +7325,8 @@
     - https://www.twitch.tv/tomahawk_aoe
   youtube:
     - https://www.youtube.com/c/tomahawk_aoe
+  youtube_live:
+    - https://www.youtube.com/channel/UCJ0vp6VTn7JuFNEMj5YIRcQ/live
   discord:
     - https://discord.gg/UAFEHvwMad
   discord_id: Tomahawk#9292
@@ -8147,6 +8149,10 @@
   aoeelo: 1581
   twitch:
     - https://www.twitch.tv/soyguki
+  youtube:
+    - https://www.youtube.com/@soyguki
+  youtube_live:
+    - https://www.youtube.com/channel/UCQeDHBCmsBD_exYJrGSXIOQ/live
 - name: kei
   id: 677
   country: jp
@@ -8449,6 +8455,7 @@
       - '19867271'
   twitch:
     - https://www.twitch.tv/neozz_aoe
+  liquipedia: NeoZz
   aoeelo: 1725
   team: 25
 - name: Yukgit
