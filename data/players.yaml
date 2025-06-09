@@ -7379,7 +7379,7 @@
   twitch:
     - https://www.twitch.tv/ronotovi
   discord_id: ronotovi#7483
-  team: 45
+  team: 20
 - name: Karnal
   country: ru
   platforms:
@@ -7853,6 +7853,7 @@
     rl:
       - '3079181'
       - '6851129'
+      - '22202460'
   liquipedia: HELLRAZER
   id: 642
   aoeelo: 1376
