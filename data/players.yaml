@@ -8545,3 +8545,18 @@
       - '10309103'
   id: 746
   aoeelo: 1721
+- name: VoNDutcH
+  country: bg
+  id: 747
+  team: 65
+  liquipedia: VoNDutcH
+  twitch:
+    - https://www.twitch.tv/vondutch
+  discord:
+    - https://discord.gg/AJ9DadZU
+  platforms:
+    rl:
+      - "3942539"   # VoNDutcH
+    voobly:
+      - "123472671" # L_Clan_VoNDutcH
+  discord_id: os_vondutch
