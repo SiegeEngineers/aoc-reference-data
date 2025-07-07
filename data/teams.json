@@ -93,22 +93,6 @@
     "id": 10
   },
   {
-    "name": "Team Honor",
-    "players": [
-      53,
-      243,
-      250,
-      279,
-      314,
-      345,
-      351,
-      438,
-      673,
-      700
-    ],
-    "id": 11
-  },
-  {
     "name": "The BrotherHood Kappa",
     "players": [
       338,
@@ -118,7 +102,7 @@
       446,
       449
     ],
-    "id": 12
+    "id": 11
   },
   {
     "name": "Rookies",
@@ -126,7 +110,7 @@
       224,
       231
     ],
-    "id": 13
+    "id": 12
   },
   {
     "name": "Nocturna eSports",
@@ -143,7 +127,7 @@
       656,
       658
     ],
-    "id": 14
+    "id": 13
   },
   {
     "name": "Tuna's Wet Market",
@@ -152,7 +136,7 @@
       529,
       640
     ],
-    "id": 15
+    "id": 14
   },
   {
     "name": "Rulers of Rome",
@@ -172,7 +156,7 @@
       550,
       587
     ],
-    "id": 16
+    "id": 15
   },
   {
     "name": "Taiwan Aoe Gamer",
@@ -187,7 +171,7 @@
       471,
       653
     ],
-    "id": 17
+    "id": 16
   },
   {
     "name": "Dreamers",
@@ -195,18 +179,17 @@
       265,
       281
     ],
-    "id": 18
+    "id": 17
   },
   {
     "name": "FellowSheep Gaming",
     "players": [
-      9,
       43,
       73,
       100,
       549
     ],
-    "id": 19
+    "id": 18
   },
   {
     "name": "BLACKSAILS",
@@ -221,7 +204,7 @@
       729,
       739
     ],
-    "id": 20
+    "id": 19
   },
   {
     "name": "SalzZ",
@@ -232,7 +215,7 @@
       579,
       641
     ],
-    "id": 21
+    "id": 20
   },
   {
     "name": "QuEnDi",
@@ -251,14 +234,14 @@
       492,
       523
     ],
-    "id": 22
+    "id": 21
   },
   {
     "name": "Gentle Mates",
     "players": [
       309
     ],
-    "id": 23
+    "id": 22
   },
   {
     "name": "LingYuan",
@@ -270,7 +253,7 @@
       52,
       217
     ],
-    "id": 24
+    "id": 23
   },
   {
     "name": "Old School",
@@ -281,12 +264,11 @@
       644,
       651,
       675,
-      679,
       718,
       730,
       738
     ],
-    "id": 25
+    "id": 24
   },
   {
     "name": "Sweety Boys",
@@ -294,14 +276,14 @@
       317,
       592
     ],
-    "id": 26
+    "id": 25
   },
   {
     "name": "Dagorhir Gaming",
     "players": [
       713
     ],
-    "id": 27
+    "id": 26
   },
   {
     "name": "Saint Hell",
@@ -309,7 +291,7 @@
       670,
       733
     ],
-    "id": 28
+    "id": 27
   },
   {
     "name": "Wonders",
@@ -320,17 +302,18 @@
       94,
       102,
       324,
+      461,
       511,
       637
     ],
-    "id": 29
+    "id": 28
   },
   {
     "name": "Olympus",
     "players": [
       57
     ],
-    "id": 30
+    "id": 29
   },
   {
     "name": "R1",
@@ -338,26 +321,46 @@
       595,
       666
     ],
-    "id": 31
+    "id": 30
   },
   {
     "name": "Onimaru Esports",
     "players": [
       19,
-      23,
       80,
       294,
       310,
       672
     ],
-    "id": 32
+    "id": 31
   },
   {
     "name": "CDSG",
     "players": [
       198
     ],
+    "id": 32
+  },
+  {
+    "name": "Virtus Nova",
+    "players": [
+      53,
+      191,
+      279,
+      345,
+      351,
+      673,
+      700
+    ],
     "id": 33
+  },
+  {
+    "name": "ANKR",
+    "players": [
+      630,
+      743
+    ],
+    "id": 34
   },
   {
     "name": "Vikingos N\u00f3madas",
@@ -366,7 +369,7 @@
       459,
       542
     ],
-    "id": 34
+    "id": 35
   },
   {
     "name": "Russia F",
@@ -376,7 +379,7 @@
       297,
       313
     ],
-    "id": 35
+    "id": 36
   },
   {
     "name": "GamerLegion",
@@ -386,14 +389,14 @@
       27,
       32
     ],
-    "id": 36
+    "id": 37
   },
   {
     "name": "Stackers",
     "players": [
       290
     ],
-    "id": 37
+    "id": 38
   },
   {
     "name": "White Wolf Palace",
@@ -411,7 +414,7 @@
       330,
       382
     ],
-    "id": 38
+    "id": 39
   },
   {
     "name": "ChileAoE",
@@ -420,7 +423,7 @@
       332,
       345
     ],
-    "id": 39
+    "id": 40
   },
   {
     "name": "The Immortals",
@@ -428,7 +431,7 @@
       103,
       107
     ],
-    "id": 40
+    "id": 41
   },
   {
     "name": "DarkSidE",
@@ -436,7 +439,6 @@
       44,
       48,
       159,
-      191,
       229,
       241,
       253,
@@ -447,7 +449,7 @@
       410,
       504
     ],
-    "id": 41
+    "id": 42
   },
   {
     "name": "New Chapter",
@@ -457,7 +459,7 @@
       283,
       388
     ],
-    "id": 42
+    "id": 43
   },
   {
     "name": "Age of Queens",
@@ -467,7 +469,7 @@
       466,
       639
     ],
-    "id": 43
+    "id": 44
   },
   {
     "name": "Killing Generation of Brazil",
@@ -475,7 +477,7 @@
       42,
       489
     ],
-    "id": 44
+    "id": 45
   },
   {
     "name": "Hot Young Masters",
@@ -483,7 +485,7 @@
       147,
       339
     ],
-    "id": 45
+    "id": 46
   },
   {
     "name": "MYinsanity",
@@ -496,7 +498,7 @@
       510,
       534
     ],
-    "id": 46
+    "id": 47
   },
   {
     "name": "SuPeRNovA",
@@ -507,7 +509,7 @@
       343,
       501
     ],
-    "id": 47
+    "id": 48
   },
   {
     "name": "Deities of Death",
@@ -516,7 +518,7 @@
       137,
       482
     ],
-    "id": 48
+    "id": 49
   },
   {
     "name": "Suomi",
@@ -529,7 +531,7 @@
       81,
       111
     ],
-    "id": 49
+    "id": 50
   },
   {
     "name": "Dark Empire",
@@ -539,14 +541,14 @@
       277,
       390
     ],
-    "id": 50
+    "id": 51
   },
   {
     "name": "TheUnCrapAbles",
     "players": [
       572
     ],
-    "id": 51
+    "id": 52
   },
   {
     "name": "Team Maswi",
@@ -557,49 +559,47 @@
       503,
       506
     ],
-    "id": 52
+    "id": 53
   },
   {
     "name": "XEVER",
     "players": [
       221,
-      412,
       448,
-      461,
       598,
       667,
       714,
       715
     ],
-    "id": 53
+    "id": 54
   },
   {
     "name": "Deceptive Baguettes",
     "players": [
       467
     ],
-    "id": 54
+    "id": 55
   },
   {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 55
+    "id": 56
   },
   {
     "name": "One Punch",
     "players": [
       384
     ],
-    "id": 56
+    "id": 57
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "PL",
@@ -607,7 +607,7 @@
       56,
       530
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "NoobsQad",
@@ -615,14 +615,14 @@
       505,
       534
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "Dumbos",
     "players": [
       654
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "new Chapter",
@@ -632,7 +632,7 @@
       283,
       388
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "AoeFrance",
@@ -640,20 +640,20 @@
       291,
       465
     ],
-    "id": 62
+    "id": 63
   },
   {
     "name": "hkbb",
     "players": [
       197
     ],
-    "id": 63
+    "id": 64
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 64
+    "id": 65
   }
 ]
