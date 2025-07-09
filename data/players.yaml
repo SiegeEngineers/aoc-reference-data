@@ -235,6 +235,7 @@
     - http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g
   id: 9
   discord_id: dogao#8057
+  team: 31
 - name: TaToH
   country: es
   city: Madrid
@@ -921,6 +922,7 @@
       - "2858362"
   id: 38
   discord_id: JorDan_AoE#7705
+  team: 31
 - name: Melkor
   country: ie
   aoeelo: 10
@@ -2043,7 +2045,6 @@
   aoeelo: 26
   id: 102
   discord_id: Hearttt#5450
-  team: 28
 - name: Ra
   country: ca
   esportsearnings: 14735
