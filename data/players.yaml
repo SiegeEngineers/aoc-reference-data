@@ -8226,6 +8226,8 @@
       - '14230268'
   id: 682
   aoeelo: 1745
+  twitch:
+    - https://www.twitch.tv/kevinazorj20
 - name: Jouds
   country: de
   platforms:
@@ -8529,6 +8531,8 @@
       - '19831974'
       - '13164223'
   id: 744
+  twitch:
+    - https://www.twitch.tv/mauriciocg1
 - name: GGOut
   country: se
   platforms:
