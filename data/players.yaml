@@ -8558,3 +8558,14 @@
       - '16550341'
       - '21914183'
   id: 747
+- name: VortiX
+  country: es
+  platforms:
+    rl:
+      - '60328'
+      - '6000037'
+      - '5364911'
+      - '9767283'
+  id: 748
+  twitch:
+    - https://www.twitch.tv/vortix93
