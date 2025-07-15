@@ -1,2 +1,3 @@
 include aocref/data/datasets/*
 include aocref/data/constants.json
+prune scripts
