@@ -878,7 +878,9 @@
   twitch:
     - https://www.twitch.tv/nicov_
   youtube:
-    - https://www.youtube.com/channel/UCzkVZ4Ci33LbQt_UHOvQEFw
+    - https://www.youtube.com/channel/UCzkVZ4Ci33LbQt_UHOvQEFwa
+  kick:
+    - https://kick.com/nicovaoe
   discord:
     - https://discord.gg/quRrGhV
   platforms:
@@ -4590,6 +4592,8 @@
     - https://www.youtube.com/c/JuanPerottiAoE
   youtube_live:
     - https://www.youtube.com/channel/UCZ4aiIlpiIn0dUTiXTjqDJw/live
+  kick:
+    - https://kick.com/juanperottiaoe
   id: 302
   twitter:
     - https://twitter.com/juanperotti_aoe
@@ -6546,6 +6550,8 @@
     - https://www.youtube.com/c/LocoSer
   youtube_live:
     - https://www.youtube.com/channel/UComwgzPCiFJEOvK0wqUChUw/live
+  kick:
+    - https://kick.com/locoser
   discord:
     - https://discord.gg/h8Dyrkb
   liquipedia: Loco_Ser
