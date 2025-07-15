@@ -1716,6 +1716,8 @@
       - "17331610"
   twitch:
     - https://www.twitch.tv/monoz_aoe
+  kick:
+    - https://kick.com/monoz_aoe
   aoeelo: 159
   id: 84
   liquipedia: Monoz
@@ -8572,7 +8574,6 @@
       - '5364911'
       - '9767283'
   id: 748
-  x: 1
   twitch:
     - https://www.twitch.tv/vortix93
   liquipedia: VortiX
