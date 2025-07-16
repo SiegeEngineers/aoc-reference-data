@@ -246,6 +246,8 @@
     - https://twitter.com/tatohaoe
   youtube:
     - https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg
+  youtube_live:
+    - https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg/live
   twitch:
     - https://www.twitch.tv/tatohaoe
   platforms:
@@ -467,7 +469,6 @@
   id: 20
   discord_id: ACCM#0539
   city: Da Nang
-  team: 47
 - name: Tim
   country: cn
   esportsearnings: 12949
@@ -5987,6 +5988,8 @@
     - https://www.twitch.tv/paganini_aoe2
   youtube:
     - https://www.youtube.com/c/PaganiniAOE2
+  youtube_live:
+    - https://www.youtube.com/channel/UC2cwQBtuzOQd5C3tzQy3_8g/live
   liquipedia: Paganini
   id: 413
   aoeelo: 815
@@ -7967,7 +7970,6 @@
   twitch:
     - https://www.twitch.tv/temo_aoe
   liquipedia: TeMo
-  team: 24
 - name: Draconian
   country: gb
   platforms:
@@ -8322,7 +8324,6 @@
   liquipedia: Rodrixs
   id: 714
   aoeelo: 1350
-  team: 54
 - name: Rivux
   country: ar
   platforms:
