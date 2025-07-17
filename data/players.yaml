@@ -4852,6 +4852,8 @@
     - https://www.twitch.tv/ornlu_aoe
   youtube:
     - http://www.youtube.com/channel/UCnmc2T9WNYLel3Fv2EzaS4Q
+  youtube_live:
+    - http://www.youtube.com/channel/UCnmc2T9WNYLel3Fv2EzaS4Q/live
   id: 321
   city: Grayslake
   discord_id: OrnLu#7228
@@ -5859,6 +5861,8 @@
   liquipedia: 'T-West'
   youtube:
     - https://www.youtube.com/TWestYT
+  youtube_live:
+    - https://www.youtube.com/channel/UCkH00DEvivJzUfQk2KVsA4A/live
 - name: PhilippHJS
   country: de
   aoeelo: 908
