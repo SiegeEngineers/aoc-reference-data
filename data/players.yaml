@@ -3448,6 +3448,8 @@
       - "575279"
       - "3212737"
   id: 222
+  douyin:
+    - https://live.douyin.com/551813689674
 - name: Acuo
   country: cn
   platforms:
