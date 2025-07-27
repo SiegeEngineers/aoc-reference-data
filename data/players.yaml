@@ -1115,7 +1115,9 @@
   twitch:
     - https://www.twitch.tv/hoangnguyen485
   youtube:
-    - https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw?view_as=subscriber
+    - https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw
+  youtube_live:
+    - https://www.youtube.com/channel/UC4mChawns11BR-CFYxhd9zw/live
   platforms:
     voobly:
       - "123851854"
