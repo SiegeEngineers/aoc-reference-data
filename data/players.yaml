@@ -218,6 +218,8 @@
     - https://www.twitch.tv/dogaoaoe
   kick:
     - https://kick.com/dogaoaoe
+  youtube_live:
+    - http://www.youtube.com/channel/UC1X4jNWubqPI9g6bomo9q3g/live
   platforms:
     voobly:
       - "123186723" # GiveMeYourSmile
@@ -5420,7 +5422,7 @@
   id: 365
   aoeelo: 719
   twitch:
-    - https://www.twitch.tv/iam2k1
+    - https://www.twitch.tv/iam2k3
 - name: Quảng Trị
   aka:
     - Hope
