@@ -8612,3 +8612,31 @@
   twitch:
     - https://www.twitch.tv/vortix93
   liquipedia: VortiX
+- name: CC
+  aka:
+    - Westbrook
+  country: cn
+  platforms:
+    rl:
+    - '446371'
+    - '17471701'
+    - '8736908'
+    - '10748832'
+    - '17722347'
+    - '15733322'
+    - '15808628'
+    - '16244717'
+    - '16538411'
+    - '16639397'
+    - '22069556'
+  id: 749
+- name: Jian Hei
+  country: tw
+  platforms:
+    rl:
+    - '22249146'
+    - '15507566'
+    - '15507280'
+  twitch:
+    - https://www.twitch.tv/ytjianhei
+  id: 749
