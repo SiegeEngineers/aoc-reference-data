@@ -2527,6 +2527,8 @@
     - http://www.youtube.com/100dragonstar
   youtube_live:
     - https://www.youtube.com/channel/UC91-JykOVR2PUWXAfyAG0Rg/live
+  kick:
+    - https://kick.com/dragonstar-aoe
   id: 140
   twitter:
     - https://twitter.com/The_Dragonstar
