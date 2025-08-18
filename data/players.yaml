@@ -4911,6 +4911,8 @@
   id: 324
   youtube:
     - https://www.youtube.com/channel/UCfndZhdX7djV-cwo9bCyEIw
+  youtube_live:
+    - https://www.youtube.com/channel/UCfndZhdX7djV-cwo9bCyEIw/live
   discord_id: sebastian2002#2613
   team: 28
 - name: StonePlease
