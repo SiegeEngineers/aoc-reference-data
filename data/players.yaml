@@ -1216,7 +1216,7 @@
       - "6268226"
       - "6169169"
       - "19455781"
-  #- "5875851"
+#- "5875851"
       - "19592234"
       - "20747143"
       - "22099280"
@@ -4256,6 +4256,7 @@
   id: 274
   liquipedia: KingstoNe
   aoeelo: 976
+  team: 31
 - name: Annotoph
   country: de
   platforms:
@@ -7810,9 +7811,9 @@
   id: 630
   aoeelo: 1187
   liquipedia: Youpudding
-  team: 34
   youtube_live:
     - https://www.youtube.com/channel/UCkjs3vbXvY-_G25Dq1VlJpQ/live
+  team: 34
 - name: Mununez
   country: us
   platforms:
