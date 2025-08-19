@@ -1051,6 +1051,8 @@
     - https://www.twitch.tv/jonslow_
   youtube:
     - https://www.youtube.com/channel/UCI7xIJYOC2OEb6ttrsH2QHA
+  youtube_live:
+    - https://www.youtube.com/channel/UCI7xIJYOC2OEb6ttrsH2QHA/live
   platforms:
     voobly:
       - "11486"
