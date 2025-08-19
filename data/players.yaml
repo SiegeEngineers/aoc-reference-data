@@ -7811,6 +7811,8 @@
   aoeelo: 1187
   liquipedia: Youpudding
   team: 34
+  youtube_live:
+    - https://www.youtube.com/channel/UCkjs3vbXvY-_G25Dq1VlJpQ/live
 - name: Mununez
   country: us
   platforms:
