@@ -91,6 +91,8 @@
 #- https://live.douyin.com/431102660165
   douyu:
     - https://www.douyu.com/1052202
+  bilibili:
+    - https://live.bilibili.com/1825835036
   platforms:
     voobly:
       - "123493096" # Reallydiao
