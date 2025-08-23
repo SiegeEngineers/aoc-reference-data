@@ -2164,6 +2164,8 @@
     rl:
       - "3044106"
   id: 109
+  douyin:
+    - https://live.douyin.com/913471222156
 - name: Lang
   country: cn
   esportsearnings: 65185
