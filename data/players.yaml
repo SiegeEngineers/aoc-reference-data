@@ -1783,8 +1783,6 @@
   youtube:
     - http://www.youtube.com/channel/UCBNGV-KCgh8Nb6tHP-WN2_A
   id: 87
-  twitter:
-    - https://twitter.com/edie592
 - name: SongSong
   country: vn
   aka:
@@ -6484,8 +6482,6 @@
   liquipedia: Wraith
   twitch:
     - https://www.twitch.tv/wraith_aoe
-  twitter:
-    - https://twitter.com/wraith_aoe
   id: 452
   aoeelo: 621
   discord_id: Wraith#7449
@@ -7887,9 +7883,9 @@
       - '3309475'
   id: 640
   team: 14
-- name: widy
+- name: wide
   aka:
-    - wide
+    - widy
   country: ru
   platforms:
     rl:
