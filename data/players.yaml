@@ -8654,4 +8654,12 @@
   twitch:
     - https://www.twitch.tv/ytjianhei
   id: 749
-  test: 1
+- name: Rory
+  country: tw
+  liquipedia: Rory
+  platforms:
+    rl:
+      - '438920'
+      - '790834'
+  id: 750
+  team: 34
