@@ -8663,4 +8663,10 @@
       - '790834'
   id: 750
   team: 34
-  x: 1
+- name: Emu Warrior
+  country: us
+  platforms:
+    rl:
+      - '3970269'
+      - '11810903'
+  id: 751
