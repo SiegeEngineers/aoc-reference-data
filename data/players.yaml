@@ -5980,6 +5980,8 @@
   aoeelo: 927
   team: 42
 - name: El_Matador
+  aka:
+    - Mati
   country: de
   platforms:
     rl:
