@@ -4226,7 +4226,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 65
+  team: 66
 - name: CX_youwei
   country: cn
   platforms:
@@ -5497,6 +5497,7 @@
   id: 369
   discord_id: Snapy#0016
   aoeelo: 1288
+  team: 65
 - name: Minh Anh
   country: vn
   facebook_gaming:
