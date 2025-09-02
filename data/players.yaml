@@ -8689,5 +8689,12 @@
       - '6838238'
       - '15293475'
   id: 752
-  team: 35
   liquipedia: AngelR
+  team: 35
+- name: Thofou
+  country: be
+  platforms:
+    rl:
+      - '18803434'
+      - '2859256'
+  id: 753
