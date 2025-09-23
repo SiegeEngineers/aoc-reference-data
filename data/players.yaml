@@ -8035,7 +8035,6 @@
   liquipedia: Rayz
   id: 653
   aoeelo: 1302
-  team: 16
 - name: TomS
   country: ar
   platforms:
@@ -8697,3 +8696,11 @@
       - '18803434'
       - '2859256'
   id: 753
+- name: Gali
+  country: ve
+  platforms:
+    rl:
+      - '5232543'
+  id: 753
+  twitch:
+    - https://www.twitch.tv/gali_aoe
