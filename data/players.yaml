@@ -8704,3 +8704,10 @@
   id: 753
   twitch:
     - https://www.twitch.tv/gali_aoe
+- name: Benanji
+  country: de
+  platforms:
+    rl:
+      - '2463959'
+      - '23770308'
+  id: 754
