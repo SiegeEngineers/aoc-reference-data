@@ -5219,6 +5219,7 @@
       - "9046904"
       - "1915475"
       - "12127564"
+      - "15322827"
   twitch:
     - https://www.twitch.tv/morg__11
   id: 347
@@ -5227,7 +5228,7 @@
   country: dk
   platforms:
     rl:
-      - "2084180000"
+      - "208418"
   liquipedia: Chrazini
   aoeelo: 854
   id: 348
