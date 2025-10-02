@@ -6190,6 +6190,7 @@
   platforms:
     rl:
       - "212135"
+      - "4859547"
     voobly:
       - "123429112"
   twitch:
@@ -8687,11 +8688,14 @@
   country: tw
   platforms:
     rl:
+      - '9992415'
       - '22249146'
       - '15507566'
       - '15507280'
   twitch:
     - https://www.twitch.tv/ytjianhei
+  youtube_live:
+    - https://www.youtube.com/channel/UClOax0dxE-7ydItkifPg4tg/live
   id: 749
 - name: Rory
   country: tw
