@@ -1314,7 +1314,6 @@
   liquipedia: Dziamdziak
   id: 56
   discord_id: dziam#5626
-  team: 60
 - name: Ppoc
   aka:
     - Olympus PPoc
@@ -7174,6 +7173,7 @@
   twitch:
     - https://www.twitch.tv/sunsetfire
   discord_id: sunsetfire#2472
+  aoeelo: 1799
 - name: The Manko
   country: ar
   platforms:
@@ -8713,6 +8713,7 @@
       - '3970269'
       - '11810903'
   id: 751
+  aoeelo: 1546
 - name: AngelR
   country: co
   platforms:
@@ -8723,6 +8724,7 @@
   id: 752
   liquipedia: AngelR
   team: 35
+  aoeelo: 1776
 - name: Thofou
   country: be
   platforms:
@@ -8738,6 +8740,7 @@
   id: 753
   twitch:
     - https://www.twitch.tv/gali_aoe
+  aoeelo: 1295
 - name: Benanji
   country: de
   platforms:
@@ -8745,6 +8748,7 @@
       - '2463959'
       - '23770308'
   id: 754
+  aoeelo: 1729
 - name: develement
   country: us
   platforms:
@@ -8754,6 +8758,7 @@
       - '11326454'
       - '20131724'
   id: 755
+  aoeelo: 1641
 - name: Faneth
   country: nl
   platforms:
@@ -8761,3 +8766,4 @@
       - "2482098"
       - "4933344"
   id: 756
+  aoeelo: 1694
