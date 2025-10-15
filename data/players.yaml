@@ -8181,6 +8181,8 @@
   id: 671
   twitch:
     - https://www.twitch.tv/matzeaoe
+  youtube:
+    - https://www.youtube.com/@Matzeaoe
   liquipedia: Matze
   aoeelo: 1326
 - name: Lewis
