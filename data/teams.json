@@ -271,7 +271,6 @@
   {
     "name": "Sweety Boys",
     "players": [
-      317,
       592
     ],
     "id": 25
@@ -344,7 +343,7 @@
     "id": 32
   },
   {
-    "name": "Virtus Nova",
+    "name": "Team Virtus",
     "players": [
       53,
       191,
@@ -386,7 +385,8 @@
     "players": [
       270,
       297,
-      313
+      313,
+      317
     ],
     "id": 37
   },
@@ -641,25 +641,33 @@
     "id": 63
   },
   {
+    "name": "Virtus Nova",
+    "players": [
+      53,
+      700
+    ],
+    "id": 64
+  },
+  {
     "name": "AoeFrance",
     "players": [
       291,
       465
     ],
-    "id": 64
+    "id": 65
   },
   {
     "name": "hkbb",
     "players": [
       197
     ],
-    "id": 65
+    "id": 66
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 66
+    "id": 67
   }
 ]

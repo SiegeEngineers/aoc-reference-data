@@ -1224,7 +1224,7 @@
 #- "5875851"
       - "19592234"
       - "20747143"
-        #- "22099280"
+      #- "22099280"
       - "22250489"
 #- "10141634"
 #- "2827445"
@@ -1255,7 +1255,7 @@
   aoeelo: 459
   id: 53
   discord_id: Noisick#4419
-  team: 33
+  team: 64
 - name: Inc
   country: us
   aoeelo: 323
@@ -3121,7 +3121,7 @@
   liquipedia: Ming_(Hong_Kongese_player)
   id: 197
   aoeelo: 1149
-  team: 65
+  team: 66
 - name: Kyo
   country: hk
   platforms:
@@ -4232,7 +4232,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 66
+  team: 67
 - name: CX_youwei
   country: cn
   platforms:
@@ -4492,7 +4492,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 64
+  team: 65
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -4833,7 +4833,7 @@
   aoeelo: 606
   id: 317
   discord_id: OLADUSHEK#8106
-  team: 25
+  team: 37
 - name: Odette
   country: cz
   platforms:
@@ -5250,6 +5250,7 @@
   platforms:
     rl:
       - "215498"
+      - "3061082"
   liquipedia: SaladEsc
   twitch:
     - https://www.twitch.tv/saladesc
@@ -6662,7 +6663,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 64
+  team: 65
 - name: BasicallyBebe
   country: au
   platforms:
@@ -8378,7 +8379,7 @@
   liquipedia: AboKeiTo
   id: 700
   aoeelo: 1254
-  team: 33
+  team: 64
 - name: Anakin
   country: ar
   platforms:
@@ -8729,8 +8730,8 @@
       - '15079805'
   id: 752
   liquipedia: AngelR
-  team: 35
   aoeelo: 1776
+  team: 35
 - name: Thofou
   country: be
   platforms:
