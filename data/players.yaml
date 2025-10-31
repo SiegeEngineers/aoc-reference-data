@@ -1095,6 +1095,7 @@
       - "9254072"
       - "3289923"
       - "19046934"
+      - "1782156"
   youtube:
     - http://www.youtube.com/channel/UCyRoER5J4CNYnpvxMy8zmvA
   id: 46
@@ -3044,6 +3045,7 @@
       - "2598137"
       - "5658345"
       - "2598137"
+      - "3562003"
     voobly:
       - "124317014"
   liquipedia: Sobek
@@ -3504,6 +3506,7 @@
       - "6237064"
       - "3372104"
       - "10726574"
+      - "4829402"
   liquipedia: JackK
   aoeelo: 615
   id: 225
@@ -3591,6 +3594,8 @@
       - "21395499"
       - "20710182"
       - "17582292"
+      - "4822090"
+      - "5369403"
   liquipedia: Puerco_Black
   aoeelo: 632
   id: 231
@@ -4524,6 +4529,7 @@
     rl:
       - "1531083"
       - "2559615"
+      - "5557379"
   liquipedia: FreakinAndy
   twitch:
     - https://www.twitch.tv/freakinandy
@@ -5651,6 +5657,7 @@
   platforms:
     rl:
       - "213142"
+      - "6335547"
   id: 381
 - name: iBUYPOWER
   country: cn
@@ -5729,6 +5736,7 @@
       - "949573"
       - "10910496"
       - "8808940"
+      - "2423564"
     voobly:
       - "123914116"
   twitch:
@@ -6084,6 +6092,8 @@
       - "3496780"
       - "5454328"
       - "18860778"
+      - "521267"
+      - "3060654"
   id: 417
   aoeelo: 1172
   discord_id: Mullisaukko#1334
@@ -6137,6 +6147,7 @@
     rl:
       - "453821"
       - "17929703"
+      - "4102146"
   id: 419
   aoeelo: 732
   discord_id: Macluffy#4746
@@ -6184,6 +6195,7 @@
     rl:
       - "180520"
       - "4379431"
+      - "5410087"
   id: 424
   aoeelo: 1060
   discord_id: King_Boo#0227
@@ -6765,6 +6777,12 @@
       - "18405474"
       - "19995996"
       - "23164035"
+      - "5135378"
+      - "5819235"
+      - "6314626"
+      - "6402310"
+      - "5598218"
+      - "6836970"
   twitch:
     - https://www.twitch.tv/elnoniro
   youtube:
@@ -7374,6 +7392,7 @@
       - '3759883'
       - '9175056'
       - '15636676'
+      - '5778141'
   liquipedia: MrOsoVC8
   id: 547
   twitter:
@@ -7887,6 +7906,7 @@
     rl:
       - '322534'
       - '4424586'
+      - '6711665'
   liquipedia: Noszombie
   twitch:
     - https://www.twitch.tv/noszombie
@@ -7937,6 +7957,8 @@
       - '3079181'
       - '6851129'
       - '22202460'
+      - '6174071'
+      - '10286882'
   liquipedia: HELLRAZER
   id: 642
   aoeelo: 1376
@@ -8007,6 +8029,7 @@
     rl:
       - '301822'
       - "19139856"
+      - "4552260"
   twitch:
     - https://www.twitch.tv/gtyellowjacket
 - name: Terz
@@ -8213,6 +8236,7 @@
       - '6301465'
       - '10220596'
       - '2677445'
+      - '8811208'
   aoeelo: 1287
   team: 33
 - name: ShenMing
@@ -8283,6 +8307,11 @@
   platforms:
     rl:
       - '210382'
+      - '2697628'
+      - '1751332'
+      - '6434876'
+      - '3387892'
+      - '3387237'
   liquipedia: Mratin
   id: 680
   aoeelo: 731
@@ -8484,6 +8513,7 @@
       - '5400817'
       - '3314032'
       - '11226478'
+      - '5605001'
   twitch:
     - https://www.twitch.tv/eren_aoe
   aoeelo: 1162
@@ -8501,6 +8531,7 @@
       - '15204950'
       - '15542278'
       - '18436292'
+      - '5794933'
   aoeelo: 1606
   twitch:
     - https://www.twitch.tv/wallager_aoe
@@ -8674,8 +8705,6 @@
     - https://www.twitch.tv/vortix93
   liquipedia: VortiX
 - name: CC
-  aka:
-    - Westbrook
   country: cn
   platforms:
     rl:
@@ -8690,6 +8719,8 @@
       - '16538411'
       - '16639397'
       - '22069556'
+      - '4426580'
+      - '6045302'
   id: 749
   bilibili:
     - https://live.bilibili.com/1880054694
