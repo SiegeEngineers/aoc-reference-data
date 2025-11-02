@@ -7921,6 +7921,7 @@
   platforms:
     rl:
       - '9462465'
+      - '23891751'
   liquipedia: Daniela_AoE
   twitch:
     - https://www.twitch.tv/daniela_aoe
@@ -8694,6 +8695,8 @@
       - '18317143'
   id: 747
   aoeelo: 1632
+  twitch:
+    - https://www.twitch.tv/s0ycombito
 - name: VortiX
   country: es
   platforms:
@@ -8757,6 +8760,8 @@
       - '11810903'
   id: 751
   aoeelo: 1546
+  twitch:
+    - https://www.twitch.tv/emu_warrior1
 - name: AngelR
   country: co
   platforms:
