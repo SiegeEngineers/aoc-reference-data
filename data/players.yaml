@@ -1225,7 +1225,7 @@
 #- "5875851"
       - "19592234"
       - "20747143"
-  #- "22099280"
+#- "22099280"
       - "22250489"
 #- "10141634"
 #- "2827445"
@@ -4929,6 +4929,8 @@
   liquipedia: Sebastian
   twitch:
     - https://www.twitch.tv/sebastian2002
+  kick:
+    - https://kick.com/sebastian-aoe
   aoeelo: 936
   id: 324
   youtube:
