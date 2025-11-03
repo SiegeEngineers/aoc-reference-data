@@ -8799,6 +8799,8 @@
       - '23930318'
   id: 754
   aoeelo: 1729
+  twitch:
+    - https://www.twitch.tv/benanji_aoe
 - name: develement
   country: us
   platforms:
