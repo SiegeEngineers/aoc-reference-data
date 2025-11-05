@@ -162,6 +162,15 @@
     },
     "53": {
       "name": "Khitans"
+    },
+    "54": {
+      "name": "Macedonians"
+    },
+    "55": {
+      "name": "Thracians"
+    },
+    "56": {
+      "name": "Puru"
     }
   },
   "maps": {
@@ -3207,6 +3216,7 @@
     "1978": "Sun Jian",
     "2150": "War Chariot",
     "2151": "Elite War Chariot",
+    "2320": "Rhodian Slinger",
     "2321": "Mercenary Hoplite",
     "2331": "Sickle Warrior",
     "2332": "Thracian Peltast",
