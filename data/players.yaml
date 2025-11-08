@@ -2059,6 +2059,8 @@
       - "582058"
   youtube:
     - http://www.youtube.com/channel/UCOtdNcfA05JODTx1cBlniyg
+  youtube_live:
+    - http://www.youtube.com/channel/UCOtdNcfA05JODTx1cBlniyg/live
   aoeelo: 26
   id: 102
   discord_id: Hearttt#5450
