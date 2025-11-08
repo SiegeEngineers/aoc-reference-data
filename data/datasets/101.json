@@ -4,55 +4,72 @@
   },
   "civilizations": {
     "1": {
-      "name": "Egyptians"
+      "name": "Egyptians",
+      "id": 0
     },
     "2": {
-      "name": "Greeks"
+      "name": "Greeks",
+      "id": 1
     },
     "3": {
-      "name": "Babylonians"
+      "name": "Babylonians",
+      "id": 2
     },
     "4": {
-      "name": "Assyrians"
+      "name": "Assyrians",
+      "id": 3
     },
     "5": {
-      "name": "Minoans"
+      "name": "Minoans",
+      "id": 4
     },
     "6": {
-      "name": "Hittites"
+      "name": "Hittites",
+      "id": 5
     },
     "7": {
-      "name": "Phoenicians"
+      "name": "Phoenicians",
+      "id": 6
     },
     "8": {
-      "name": "Sumerians"
+      "name": "Sumerians",
+      "id": 7
     },
     "9": {
-      "name": "Persians"
+      "name": "Persians",
+      "id": 8
     },
     "10": {
-      "name": "Shang"
+      "name": "Shang",
+      "id": 9
     },
     "11": {
-      "name": "Yamato"
+      "name": "Yamato",
+      "id": 10
     },
     "12": {
-      "name": "Choson"
+      "name": "Choson",
+      "id": 11
     },
     "13": {
-      "name": "Romans"
+      "name": "Romans",
+      "id": 12
     },
     "14": {
-      "name": "Carthagians"
+      "name": "Carthagians",
+      "id": 13
     },
     "15": {
-      "name": "Palmyrans"
+      "name": "Palmyrans",
+      "id": 14
     },
     "16": {
-      "name": "Macedonians"
+      "name": "Macedonians",
+      "id": 15
     },
     "17": {
-      "name": "Lac Viet"
+      "name": "Lac Viet",
+      "id": 16
     }
   },
   "maps": {
