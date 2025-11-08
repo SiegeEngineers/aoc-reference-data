@@ -5,172 +5,228 @@
   },
   "civilizations": {
     "1": {
-      "name": "Britons"
+      "name": "Britons",
+      "id": 5
     },
     "2": {
-      "name": "Franks"
+      "name": "Franks",
+      "id": 15
     },
     "3": {
-      "name": "Goths"
+      "name": "Goths",
+      "id": 17
     },
     "4": {
-      "name": "Teutons"
+      "name": "Teutons",
+      "id": 41
     },
     "5": {
-      "name": "Japanese"
+      "name": "Japanese",
+      "id": 23
     },
     "6": {
-      "name": "Chinese"
+      "name": "Chinese",
+      "id": 11
     },
     "7": {
-      "name": "Byzantines"
+      "name": "Byzantines",
+      "id": 9
     },
     "8": {
-      "name": "Persians"
+      "name": "Persians",
+      "id": 32
     },
     "9": {
-      "name": "Saracens"
+      "name": "Saracens",
+      "id": 36
     },
     "10": {
-      "name": "Turks"
+      "name": "Turks",
+      "id": 42
     },
     "11": {
-      "name": "Vikings"
+      "name": "Vikings",
+      "id": 44
     },
     "12": {
-      "name": "Mongols"
+      "name": "Mongols",
+      "id": 31
     },
     "13": {
-      "name": "Celts"
+      "name": "Celts",
+      "id": 10
     },
     "14": {
-      "name": "Spanish"
+      "name": "Spanish",
+      "id": 39
     },
     "15": {
-      "name": "Aztecs"
+      "name": "Aztecs",
+      "id": 1
     },
     "16": {
-      "name": "Mayans"
+      "name": "Mayans",
+      "id": 30
     },
     "17": {
-      "name": "Huns"
+      "name": "Huns",
+      "id": 19
     },
     "18": {
-      "name": "Koreans"
+      "name": "Koreans",
+      "id": 25
     },
     "19": {
-      "name": "Italians"
+      "name": "Italians",
+      "id": 22
     },
     "20": {
-      "name": "Hindustanis"
+      "name": "Hindustanis",
+      "id": 21
     },
     "21": {
-      "name": "Incas"
+      "name": "Incas",
+      "id": 20
     },
     "22": {
-      "name": "Magyars"
+      "name": "Magyars",
+      "id": 27
     },
     "23": {
-      "name": "Slavs"
+      "name": "Slavs",
+      "id": 38
     },
     "24": {
-      "name": "Portuguese"
+      "name": "Portuguese",
+      "id": 34
     },
     "25": {
-      "name": "Ethiopians"
+      "name": "Ethiopians",
+      "id": 14
     },
     "26": {
-      "name": "Malians"
+      "name": "Malians",
+      "id": 29
     },
     "27": {
-      "name": "Berbers"
+      "name": "Berbers",
+      "id": 3
     },
     "28": {
-      "name": "Khmer"
+      "name": "Khmer",
+      "id": 24
     },
     "29": {
-      "name": "Malay"
+      "name": "Malay",
+      "id": 28
     },
     "30": {
-      "name": "Burmese"
+      "name": "Burmese",
+      "id": 8
     },
     "31": {
-      "name": "Vietnamese"
+      "name": "Vietnamese",
+      "id": 43
     },
     "32": {
-      "name": "Bulgarians"
+      "name": "Bulgarians",
+      "id": 6
     },
     "33": {
-      "name": "Tatars"
+      "name": "Tatars",
+      "id": 40
     },
     "34": {
-      "name": "Cumans"
+      "name": "Cumans",
+      "id": 12
     },
     "35": {
-      "name": "Lithuanians"
+      "name": "Lithuanians",
+      "id": 26
     },
     "36": {
-      "name": "Burgundians"
+      "name": "Burgundians",
+      "id": 7
     },
     "37": {
-      "name": "Sicilians"
+      "name": "Sicilians",
+      "id": 37
     },
     "38": {
-      "name": "Poles"
+      "name": "Poles",
+      "id": 33
     },
     "39": {
-      "name": "Bohemians"
+      "name": "Bohemians",
+      "id": 5
     },
     "40": {
-      "name": "Dravidians"
+      "name": "Dravidians",
+      "id": 13
     },
     "41": {
-      "name": "Bengalis"
+      "name": "Bengalis",
+      "id": 2
     },
     "42": {
-      "name": "Gurjaras"
+      "name": "Gurjaras",
+      "id": 18
     },
     "43": {
-      "name": "Romans"
+      "name": "Romans",
+      "id": 35
     },
     "44": {
-      "name": "Armenians"
+      "name": "Armenians",
+      "id": 0
     },
     "45": {
-      "name": "Georgians"
+      "name": "Georgians",
+      "id": 16
     },
     "46": {
-      "name": "Achaemenids"
+      "name": "Achaemenids",
+      "id": 45
     },
     "47": {
-      "name": "Athenians"
+      "name": "Athenians",
+      "id": 46
     },
     "48": {
-      "name": "Spartans"
+      "name": "Spartans",
+      "id": 47
     },
     "49": {
-      "name": "Shu"
+      "name": "Shu",
+      "id": 48
     },
     "50": {
-      "name": "Wu"
+      "name": "Wu",
+      "id": 49
     },
     "51": {
-      "name": "Wei"
+      "name": "Wei",
+      "id": 50
     },
     "52": {
-      "name": "Jurchens"
+      "name": "Jurchens",
+      "id": 51
     },
     "53": {
-      "name": "Khitans"
+      "name": "Khitans",
+      "id": 52
     },
     "54": {
-      "name": "Macedonians"
+      "name": "Macedonians",
+      "id": 53
     },
     "55": {
-      "name": "Thracians"
+      "name": "Thracians",
+      "id": 54
     },
     "56": {
-      "name": "Puru"
+      "name": "Puru",
+      "id": 55
     }
   },
   "maps": {
