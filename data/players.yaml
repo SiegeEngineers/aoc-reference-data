@@ -8839,3 +8839,20 @@
     rl:
       - "262710"
   id: 757
+- name: Tomppa
+  country: fi
+  platforms:
+    rl:
+      - "1878835"
+      - "18871570"
+      - "22958582"
+  id: 758
+- name: TheKroks
+  country: pl
+  platforms:
+    rl:
+      - "1038375"
+      - "17254059"
+  twitch:
+    - https://www.twitch.tv/thekroks
+  id: 759
