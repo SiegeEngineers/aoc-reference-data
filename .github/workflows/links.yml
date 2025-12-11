@@ -25,13 +25,13 @@ jobs:
           args: --verbose --no-progress **/*.md data/community_pages.yaml data/players.yaml data/platforms.json
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      
+
       - name: Fail on 404s
         if: steps.link_check.outputs.exit_code != 0
         run: echo ::set-output name=exit_code::1
 
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.4
+        uses: actions/upload-artifact@v4
         if: steps.link_check.outputs.exit_code != 0
         with:
           name: link-check Output
