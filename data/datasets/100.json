@@ -1429,7 +1429,10 @@
     "921": "Fereters",
     "922": "Cilician Fleet",
     "923": "Svan Towers",
-    "924": "Aznauri Cavalry"
+    "924": "Aznauri Cavalry",
+    "1012": "Transhumance",
+    "1013": "Pastoralism",
+    "1014": "Domestication"
   },
   "terrain": {
     "0": {
