@@ -5790,6 +5790,8 @@
   liquipedia: Ozone
   youtube:
     - https://www.youtube.com/OzoneAOE
+  youtube_live:
+    - https://www.youtube.com/channel/UCnOQQ24Hj9cLOJtW0IGWKqQ/live
   city: Bogotá
   team: 44
 - name: StellarMeesh
