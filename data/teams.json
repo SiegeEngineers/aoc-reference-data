@@ -463,7 +463,6 @@
       253,
       260,
       266,
-      392,
       402,
       410
     ],
@@ -597,39 +596,32 @@
     "id": 57
   },
   {
-    "name": "Corvinian Army",
-    "players": [
-      488
-    ],
-    "id": 58
-  },
-  {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 59
+    "id": 58
   },
   {
     "name": "One Punch",
     "players": [
       384
     ],
-    "id": 60
+    "id": 59
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 61
+    "id": 60
   },
   {
     "name": "PL",
     "players": [
       530
     ],
-    "id": 62
+    "id": 61
   },
   {
     "name": "NoobsQad",
@@ -637,14 +629,14 @@
       505,
       534
     ],
-    "id": 63
+    "id": 62
   },
   {
     "name": "Dumbos",
     "players": [
       654
     ],
-    "id": 64
+    "id": 63
   },
   {
     "name": "new Chapter",
@@ -654,7 +646,7 @@
       283,
       388
     ],
-    "id": 65
+    "id": 64
   },
   {
     "name": " AreS ",
@@ -662,7 +654,7 @@
       18,
       85
     ],
-    "id": 66
+    "id": 65
   },
   {
     "name": "AoeFrance",
@@ -670,20 +662,20 @@
       291,
       465
     ],
-    "id": 67
+    "id": 66
   },
   {
     "name": "hkbb",
     "players": [
       197
     ],
-    "id": 68
+    "id": 67
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 69
+    "id": 68
   }
 ]
