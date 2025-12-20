@@ -8877,3 +8877,10 @@
     - https://www.twitch.tv/thekroks
   id: 759
   team: 24
+- name: BoyWonder
+  country: tr
+  platforms:
+    rl:
+      - "4240317"
+      - "13742307"
+  id: 760
