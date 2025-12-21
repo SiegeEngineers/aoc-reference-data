@@ -3715,6 +3715,7 @@
   platforms:
     rl:
       - "1788064"
+      - "24073212"
   id: 240
 - name: Uzzi
   country: mx
@@ -7900,6 +7901,7 @@
   platforms:
     rl:
       - '3444509'
+      - '3754333'
   liquipedia: Mununez
   id: 636
   aoeelo: 1345
