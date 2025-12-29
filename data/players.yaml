@@ -8889,3 +8889,10 @@
   id: 760
   twitch:
     - https://www.twitch.tv/boywonder_aoe
+- name: Alzza0112
+  country: jp
+  platforms:
+    rl:
+      - "352685"
+  id: 761
+  team: 24
