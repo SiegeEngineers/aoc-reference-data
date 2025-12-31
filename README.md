@@ -22,7 +22,7 @@ Only notable players for games of the Age of Empires franchise may be added. Not
 
 1. Has a notable player page on the [Age of Empires Liquipedia](https://liquipedia.net/ageofempires/Main_Page) and was ever a top 400 player on the [primary competitive 1v1 ladder](https://www.ageofempires.com/stats/).
 1. Was ever a top 100 player listed on [Aoe Tournament Elo](https://aoe-elo.com/).
-1. Was ever a top 250 player on the [primary competitive 1v1 ladder](https://www.ageofempires.com/stats/) for at least one month while actively playing.
+1. Was ever a top 250 player on the [primary competitive 1v1 ladder](https://www.ageofempires.com/stats/) for at least one month while actively playing at least 30 games.
 1. Is a [Twitch Partner](https://www.twitch.tv/p/partners/) and primarily streams a game of the Age of Empires franchise.
 
 Other players may be added based on the maintainer's discretion for the benefit of the community at large.
