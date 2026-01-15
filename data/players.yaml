@@ -7801,6 +7801,8 @@
   id: 614
   twitch:
     - https://www.twitch.tv/ares_dai
+  youtube_live:
+    - https://www.youtube.com/channel/UCNvxbVqfxBpXdQBPJJtYWCQ/live
 - name: Prydz
   country: tw
   platforms:
