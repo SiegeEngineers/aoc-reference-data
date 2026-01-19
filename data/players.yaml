@@ -253,6 +253,8 @@
     - https://www.youtube.com/channel/UCtPQLL9KACyYzoYXiMl1Nkg/live
   twitch:
     - https://www.twitch.tv/tatohaoe
+  kick:
+    - https://kick.com/tatohaoe
   platforms:
     voobly:
       - "123999216" # Secret
