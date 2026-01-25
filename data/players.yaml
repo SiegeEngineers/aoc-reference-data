@@ -8921,3 +8921,13 @@
       - "352685"
   id: 761
   team: 24
+- name: Hjörleif
+  country: fi
+  platforms:
+    r1:
+      - "160099"
+  youtube:
+    - https://www.youtube.com/hjoerleif
+  twitch:
+    - https://www.twitch.tv/hjoerleif
+  id: 762
