@@ -9,10 +9,11 @@
 import csv
 import platform
 from pathlib import Path
+from typing import Annotated, Literal
 
 import vdf
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class DEMap(BaseModel):
@@ -58,6 +59,105 @@ class DEMaps(BaseModel):
     map_list: list[DEMap]
 
 
+class DECivBuilding(BaseModel):
+    model_config = ConfigDict(strict=True, extra="forbid")
+
+    age_id: Annotated[int, Field(alias="Age ID")]
+    building_id: Annotated[int, Field(alias="Building ID")]
+    building_new_column: Annotated[bool, Field(alias="Building in new column")]
+    building_upgraded_from_id: Annotated[int, Field(alias="Building upgraded from ID")]
+    draw_node_type: Annotated[str, Field(alias="Draw Node Type")]
+    help_string_id: Annotated[int, Field(alias="Help String ID")]
+    link_id: Annotated[int, Field(alias="Link ID")]
+    link_node_type: Annotated[str, Field(alias="Link Node Type")]
+    name: Annotated[str, Field(alias="Name")]
+    name_string_id: Annotated[int, Field(alias="Name String ID")]
+    node_id: Annotated[int, Field(alias="Node ID")]
+    node_status: Annotated[str, Field(alias="Node Status")]
+    node_type: Annotated[str, Field(alias="Node Type")]
+    picture_index: Annotated[int, Field(alias="Picture Index")]
+    prerequisite_ids: Annotated[list[int], Field(alias="Prerequisite IDs")]
+    prerequisite_types: Annotated[list[str], Field(alias="Prerequisite Types")]
+    trigger_tech_id: Annotated[int, Field(alias="Trigger Tech ID")]
+    use_type: Annotated[str, Field(alias="Use Type")]
+
+
+class DECivUnit(BaseModel):
+    model_config = ConfigDict(strict=True, extra="forbid")
+
+    age_id: Annotated[int, Field(alias="Age ID")]
+    building_id: Annotated[int, Field(alias="Building ID")]
+    building_new_column: Annotated[bool, Field(alias="Building in new column")] = False
+    building_upgraded_from_id: Annotated[
+        int, Field(alias="Building upgraded from ID")
+    ] = -1
+    draw_node_type: Annotated[str, Field(alias="Draw Node Type")]
+    help_string_id: Annotated[int, Field(alias="Help String ID")]
+    link_id: Annotated[int, Field(alias="Link ID")]
+    link_node_type: Annotated[str, Field(alias="Link Node Type")]
+    name: Annotated[str, Field(alias="Name")]
+    name_string_id: Annotated[int, Field(alias="Name String ID")]
+    node_id: Annotated[int, Field(alias="Node ID")]
+    node_status: Annotated[str, Field(alias="Node Status")]
+    node_type: Annotated[str, Field(alias="Node Type")]
+    picture_index: Annotated[int, Field(alias="Picture Index")]
+    prerequisite_ids: Annotated[list[int], Field(alias="Prerequisite IDs")]
+    prerequisite_types: Annotated[list[str], Field(alias="Prerequisite Types")]
+    trigger_tech_id: Annotated[int, Field(alias="Trigger Tech ID")]
+    use_type: Annotated[str, Field(alias="Use Type")]
+
+
+class DECivTechTree(BaseModel):
+    model_config = ConfigDict(strict=True, extra="forbid")
+
+    civ_id: str
+    civ_techs_buildings: list[DECivBuilding]
+    civ_techs_units: list[DECivUnit]
+
+
+class DECivTechTrees(BaseModel):
+    model_config = ConfigDict(strict=True, extra="forbid")
+
+    civs: list[DECivTechTree]
+
+
+class UnitStringIds(BaseModel):
+    model_config = ConfigDict(strict=True, extra="forbid")
+
+    name: int
+    description: int
+
+
+class DECivilization(BaseModel):
+    model_config = ConfigDict(strict=True, extra="forbid")
+
+    internal_name: str
+    tech_tree_name: str
+    data_name: str
+    hud_style: str
+    tech_tree_image_path: Path | None = None
+    emblem_image_path: Path | None = None
+    unique_unit_image_paths: Annotated[list[Path], Field(default_factory=list[Path])]
+    name_string_id: int
+    computer_name_string_table_offset: int = -1
+    unique_tech_id_1: int = -1
+    unique_tech_id_2: int = -1
+    unique_unit_line: int = -1
+    unique_unit_upgrade_id: int = -1
+    unique_unit_id: int = -1
+    elite_unique_unit_id: int = -1
+    unique_unit_string_ids: Annotated[
+        list[UnitStringIds], Field(default_factory=list[UnitStringIds])
+    ]
+    era: Literal["base"] | Literal["antiquity"]
+
+
+class DECivilizations(BaseModel):
+    model_config = ConfigDict(strict=True, extra="forbid")
+
+    civilization_list: list[DECivilization]
+
+
 class AoCDatasetMeta(BaseModel):
     model_config = ConfigDict(strict=True, extra="forbid")
 
@@ -97,6 +197,34 @@ class AoCDataset(BaseModel):
                 "maps": {
                     str(map_name): new_maps[str(map_name)]
                     for map_name in sorted([int(k) for k in new_maps.keys()])
+                }
+            }
+        )
+        return new_dataset
+
+    def with_civ_techs(self, civs: list[DECivTechTree], key_values: dict[str, str]):
+        new_techs = {
+            **self.technologies,
+            **{
+                str(unit.trigger_tech_id): key_values.get(
+                    str(unit.name_string_id), unit.name
+                )
+                for civ in civs
+                for unit in civ.civ_techs_units
+                if unit.trigger_tech_id != -1
+            },
+            **{
+                str(unit.node_id): key_values.get(str(unit.name_string_id), unit.name)
+                for civ in civs
+                for unit in civ.civ_techs_units
+                if unit.node_type == "Research"
+            },
+        }
+        new_dataset = self.model_copy(
+            update={
+                "technologies": {
+                    str(tech_name): new_techs[str(tech_name)]
+                    for tech_name in sorted([int(k) for k in new_techs.keys()])
                 }
             }
         )
@@ -179,6 +307,7 @@ def read_english_strings(resources_dir: Path) -> dict[str, str]:
     key_values = {}
     with strings_file.open("rt", newline="\r\n") as file:
         for line in file:
+            line = line.replace("\\n", " ")
             if line.lstrip().startswith("//") or line.strip() == "":
                 continue
             if "//" in line:
@@ -226,13 +355,19 @@ def read_english_strings(resources_dir: Path) -> dict[str, str]:
                     raise Exception(
                         f"Key {key} is not unique: {value=} - {key_values[key]=}"
                     )
-                key_values[key] = value.strip().replace('"', "")
+                key_values[key] = value.strip().replace('"', "").replace("\n", " ")
 
     return key_values
 
 
 def read_civ_tech_tree(resources_dir: Path):
+    civ_json = resources_dir / "_common" / "dat" / "civTechTrees.json"
+    return DECivTechTrees.model_validate_json(civ_json.read_text(encoding="utf8"))
+
+
+def read_civilizations(resources_dir: Path):
     civ_json = resources_dir / "_common" / "dat" / "civilizations.json"
+    return DECivilizations.model_validate_json(civ_json.read_text(encoding="utf8"))
 
 
 def read_maps(resources_dir: Path):
@@ -251,7 +386,17 @@ def main() -> None:
     resources_dir = game_dir / "resources"
     key_values = read_english_strings(resources_dir)
     maps = read_maps(resources_dir)
-    new_dataset = dataset.with_maps(maps, key_values)
+    civs = read_civilizations(resources_dir)
+    tech_tree = read_civ_tech_tree(resources_dir)
+
+    aoe2_civs = {
+        civ.tech_tree_name for civ in civs.civilization_list if civ.era == "base"
+    }
+    filtered_civs = [civ for civ in tech_tree.civs if civ.civ_id in aoe2_civs]
+    new_dataset = dataset.with_maps(maps, key_values).with_civ_techs(
+        filtered_civs, key_values
+    )
+
     print(new_dataset.model_dump_json(indent=2))
 
 
