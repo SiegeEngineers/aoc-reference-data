@@ -5557,6 +5557,8 @@
       - "11801213"
   twitch:
     - https://www.twitch.tv/Andre_2i
+  youtube_live:
+    - https://www.youtube.com/channel/UCbDzWQFqK2nMtDI1OlJ6FGg/live
   id: 371
   discord_id: Andre_2i#3401
 - name: BarneyS
