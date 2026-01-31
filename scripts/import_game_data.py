@@ -208,13 +208,15 @@ class AoCDataset(BaseModel):
             **{
                 str(unit.trigger_tech_id): key_values.get(
                     str(unit.name_string_id), unit.name
-                )
+                ).replace("E.", "Elite")
                 for civ in civs
                 for unit in civ.civ_techs_units
                 if unit.trigger_tech_id != -1
             },
             **{
-                str(unit.node_id): key_values.get(str(unit.name_string_id), unit.name)
+                str(unit.node_id): key_values.get(
+                    str(unit.name_string_id), unit.name
+                ).replace("E.", "Elite")
                 for civ in civs
                 for unit in civ.civ_techs_units
                 if unit.node_type == "Research"
