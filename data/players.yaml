@@ -8929,3 +8929,24 @@
       - "352685"
   id: 761
   team: 24
+- name: JonnyOhneH
+  country: de
+  platforms:
+    rl:
+      - "8447899"
+  twitch:
+    - https://www.twitch.tv/jonnyohneh_aoe2
+  id: 762
+- name: JOHA
+  country: de
+  platforms:
+    rl:
+      - "5112522"
+  id: 763
+- name: xanaína
+  country: br
+  platforms:
+    rl:
+      - "5772003"
+      - "1959139"
+  id: 764
