@@ -5925,6 +5925,7 @@
   discord_id: nachoaoe
   discord:
     - https://discord.gg/T3X5FJngJj
+  team: 31
 - name: TWest
   country: us
   platforms:
@@ -8957,4 +8958,6 @@
       - "7240746"
       - "21402563"
       - "20244423"
+  bilibili:
+    - https://live.bilibili.com/1709467438
   id: 764
