@@ -227,6 +227,18 @@
     "56": {
       "name": "Puru",
       "id": 55
+    },
+    "57": {
+      "name": "Muisca",
+      "id": 56
+    },
+    "58": {
+      "name": "Mapuche",
+      "id": 57
+    },
+    "59": {
+      "name": "Tupi",
+      "id": 58
     }
   },
   "maps": {
