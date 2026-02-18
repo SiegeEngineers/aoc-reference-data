@@ -2764,6 +2764,7 @@
   id: 156
   liquipedia: Scotty
   discord_id: scotty#3359
+  team: 24
 - name: Metal
   country: us
   aoeelo: 70
@@ -8960,4 +8961,16 @@
       - "20244423"
   bilibili:
     - https://live.bilibili.com/1709467438
-  id: 764
+  id: 765
+- name: AceRx
+  country: ar
+  platforms:
+    rl:
+      - "754845"
+      - "3302487"
+      - "5381641"
+      - "10179567"
+  twitch:
+    - https://www.twitch.tv/acerx
+  id: 766
+
