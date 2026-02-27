@@ -333,6 +333,8 @@
     "players": [
       9,
       11,
+      26,
+      32,
       38,
       43,
       80,
@@ -709,12 +711,18 @@
     "id": 71
   },
   {
-    "name": " AreS ",
+    "name": "AreS",
     "players": [
-      18,
-      85
+      18
     ],
     "id": 72
+  },
+  {
+    "name": " AreS ",
+    "players": [
+      85
+    ],
+    "id": 73
   },
   {
     "name": "AoeFrance",
@@ -722,27 +730,27 @@
       291,
       465
     ],
-    "id": 73
+    "id": 74
   },
   {
     "name": "Austral imperium",
     "players": [
       250
     ],
-    "id": 74
+    "id": 75
   },
   {
     "name": "hkbb",
     "players": [
       197
     ],
-    "id": 75
+    "id": 76
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 76
+    "id": 77
   }
 ]

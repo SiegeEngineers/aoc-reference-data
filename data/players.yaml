@@ -628,6 +628,7 @@
   id: 26
   discord_id: Daut#9673
   city: Belgrade
+  team: 31
 - name: Hera
   country: ca
   esportsearnings: 25296
@@ -792,6 +793,7 @@
       - viper
   id: 32
   discord_id: TheViper#3589
+  team: 31
 - name: slam
   country: ca
   esportsearnings: 12253
@@ -1762,7 +1764,7 @@
   liquipedia: Whoop
   aoeelo: 59
   id: 85
-  team: 72
+  team: 73
 - name: Kief
   country: ru
   platforms:
@@ -3139,7 +3141,7 @@
   liquipedia: Ming_(Hong_Kongese_player)
   id: 197
   aoeelo: 1149
-  team: 75
+  team: 76
 - name: Kyo
   country: hk
   platforms:
@@ -3906,7 +3908,7 @@
   kick:
     - https://kick.com/whocl
   discord_id: Whocl#7918
-  team: 74
+  team: 75
 - name: Galaxy
   country: hk
   platforms:
@@ -4259,7 +4261,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 76
+  team: 77
 - name: CX_youwei
   country: cn
   platforms:
@@ -4520,7 +4522,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 73
+  team: 74
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -6708,7 +6710,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 73
+  team: 74
 - name: BasicallyBebe
   country: au
   platforms:
