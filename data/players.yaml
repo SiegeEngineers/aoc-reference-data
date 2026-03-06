@@ -6654,6 +6654,8 @@
   platforms:
     rl:
       - '234479'
+      - '3255937'
+      - '3057839'
   twitch:
     - https://www.twitch.tv/locoser
   youtube:
