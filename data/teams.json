@@ -150,7 +150,6 @@
       145,
       214,
       262,
-      289,
       306,
       357,
       527,
@@ -568,13 +567,20 @@
     "id": 54
   },
   {
+    "name": "Clan Chileno",
+    "players": [
+      332
+    ],
+    "id": 55
+  },
+  {
     "name": "Deities of Death",
     "players": [
       71,
       137,
       482
     ],
-    "id": 55
+    "id": 56
   },
   {
     "name": "Suomi",
@@ -587,7 +593,7 @@
       81,
       111
     ],
-    "id": 56
+    "id": 57
   },
   {
     "name": "Dark Empire",
@@ -597,14 +603,14 @@
       277,
       390
     ],
-    "id": 57
+    "id": 58
   },
   {
     "name": "TheUnCrapAbles",
     "players": [
       572
     ],
-    "id": 58
+    "id": 59
   },
   {
     "name": "Team Maswi",
@@ -615,7 +621,7 @@
       503,
       506
     ],
-    "id": 59
+    "id": 60
   },
   {
     "name": "XEVER",
@@ -626,35 +632,35 @@
       667,
       715
     ],
-    "id": 60
+    "id": 61
   },
   {
     "name": "Deceptive Baguettes",
     "players": [
       467
     ],
-    "id": 61
+    "id": 62
   },
   {
     "name": "AAOE",
     "players": [
       431
     ],
-    "id": 62
+    "id": 63
   },
   {
     "name": "One Punch",
     "players": [
       384
     ],
-    "id": 63
+    "id": 64
   },
   {
     "name": "True Clown Legion",
     "players": [
       521
     ],
-    "id": 64
+    "id": 65
   },
   {
     "name": "The Legion Clan",
@@ -662,14 +668,14 @@
       144,
       161
     ],
-    "id": 65
+    "id": 66
   },
   {
     "name": "PL",
     "players": [
       530
     ],
-    "id": 66
+    "id": 67
   },
   {
     "name": "NoobsQad",
@@ -677,28 +683,28 @@
       505,
       534
     ],
-    "id": 67
+    "id": 68
   },
   {
     "name": "Berserkers",
     "players": [
       62
     ],
-    "id": 68
+    "id": 69
   },
   {
     "name": "Poison of Zone",
     "players": [
       120
     ],
-    "id": 69
+    "id": 70
   },
   {
     "name": "Dumbos",
     "players": [
       654
     ],
-    "id": 70
+    "id": 71
   },
   {
     "name": "new Chapter",
@@ -708,21 +714,21 @@
       283,
       388
     ],
-    "id": 71
+    "id": 72
   },
   {
     "name": "AreS",
     "players": [
       18
     ],
-    "id": 72
+    "id": 73
   },
   {
     "name": " AreS ",
     "players": [
       85
     ],
-    "id": 73
+    "id": 74
   },
   {
     "name": "AoeFrance",
@@ -730,27 +736,27 @@
       291,
       465
     ],
-    "id": 74
+    "id": 75
   },
   {
     "name": "Austral imperium",
     "players": [
       250
     ],
-    "id": 75
+    "id": 76
   },
   {
     "name": "hkbb",
     "players": [
       197
     ],
-    "id": 76
+    "id": 77
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 77
+    "id": 78
   }
 ]
