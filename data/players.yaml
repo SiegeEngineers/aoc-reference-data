@@ -8983,3 +8983,22 @@
     rl:
       - "277618"
   id: 767
+- name: Yurizono Seia
+  country: cn
+  platforms:
+    rl:
+      - '20566459'
+      - '22978592'
+      - '20728369'
+      - '22446561'
+  bilibili:
+    - https://live.bilibili.com/31366859
+  id: 768
+- name: Leonidas
+  country: fr
+  platforms:
+    rl:
+      - '1210686'
+  twitch:
+    - https://www.twitch.tv/leonidas_aoe
+  id: 769
