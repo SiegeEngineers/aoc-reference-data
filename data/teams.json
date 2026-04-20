@@ -292,15 +292,15 @@
     "name": "El Penal",
     "players": [
       667,
-      714
+      714,
+      746
     ],
     "id": 27
   },
   {
     "name": "Saint Hell",
     "players": [
-      670,
-      733
+      670
     ],
     "id": 28
   },
@@ -339,6 +339,7 @@
     "name": "Onimaru Esports",
     "players": [
       9,
+      10,
       11,
       26,
       32,
@@ -414,7 +415,8 @@
       547,
       682,
       740,
-      744
+      744,
+      755
     ],
     "id": 39
   },
@@ -727,16 +729,10 @@
   {
     "name": "AreS",
     "players": [
-      18
-    ],
-    "id": 74
-  },
-  {
-    "name": " AreS ",
-    "players": [
+      18,
       85
     ],
-    "id": 75
+    "id": 74
   },
   {
     "name": "AoeFrance",
@@ -744,27 +740,27 @@
       291,
       465
     ],
-    "id": 76
+    "id": 75
   },
   {
     "name": "Austral imperium",
     "players": [
       250
     ],
-    "id": 77
+    "id": 76
   },
   {
     "name": "hkbb",
     "players": [
       197
     ],
-    "id": 78
+    "id": 77
   },
   {
     "name": "Pcific",
     "players": [
       271
     ],
-    "id": 79
+    "id": 78
   }
 ]

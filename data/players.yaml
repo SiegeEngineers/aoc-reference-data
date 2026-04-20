@@ -280,6 +280,7 @@
       - "24994665"
   id: 10
   discord_id: tatoh89#2456
+  team: 32
 - name: Vinch
   country: ru
   aoeelo: 55
@@ -1765,7 +1766,7 @@
   liquipedia: Whoop
   aoeelo: 59
   id: 85
-  team: 75
+  team: 74
 - name: Kief
   country: ru
   platforms:
@@ -3142,7 +3143,7 @@
   liquipedia: Ming_(Hong_Kongese_player)
   id: 197
   aoeelo: 1149
-  team: 78
+  team: 77
 - name: Kyo
   country: hk
   platforms:
@@ -3909,7 +3910,7 @@
   kick:
     - https://kick.com/whocl
   discord_id: Whocl#7918
-  team: 77
+  team: 76
 - name: Galaxy
   country: hk
   platforms:
@@ -4262,7 +4263,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 79
+  team: 78
 - name: CX_youwei
   country: cn
   platforms:
@@ -4523,7 +4524,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 76
+  team: 75
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -6714,7 +6715,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 76
+  team: 75
 - name: BasicallyBebe
   country: au
   platforms:
@@ -8608,7 +8609,6 @@
   aoeelo: 1606
   twitch:
     - https://www.twitch.tv/wallager_aoe
-  team: 28
 - name: Keif
   country: ru
   id: 734
@@ -8758,6 +8758,7 @@
       - '10309103'
   id: 746
   aoeelo: 1721
+  team: 27
 - name: Combito
   country: mx
   platforms:
@@ -8888,6 +8889,7 @@
       - '20131724'
   id: 755
   aoeelo: 1641
+  team: 39
 - name: Faneth
   country: nl
   platforms:
