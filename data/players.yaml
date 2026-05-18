@@ -818,6 +818,7 @@
       - "614315"
   id: 33
   discord_id: slam#3973
+  team: 24
 - name: Daniel
   country: us
   aoeelo: 69
@@ -1224,7 +1225,7 @@
       - "123642997"
       - "124576519"
     rl:
-    #- "227857"
+  #- "227857"
       - "6268226"
       - "6169169"
       - "19455781"
@@ -8463,6 +8464,7 @@
   liquipedia: R4v3N
   aoeelo: 1247
   id: 697
+  team: 24
 - name: Kiko
   country: do
   platforms:
