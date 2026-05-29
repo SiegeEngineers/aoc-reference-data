@@ -9030,3 +9030,12 @@
   twitch:
     - https://www.twitch.tv/leonidas_aoe
   id: 769
+- name: William
+  country: pe
+  platforms:
+    rl:
+      - '9558892'
+      - '10795310'
+  twitch:
+    - https://www.twitch.tv/williams_zx
+  id: 770
