@@ -9051,3 +9051,16 @@
     - '23221600'
     - '22089825'
   id: 771
+- name: zankoku
+  country: tr
+  platforms:
+    rl:
+      - '4625368'
+      - '22210642'
+  twitch:
+    - https://www.twitch.tv/zankokusekainoakuma
+  youtube:
+    - https://www.youtube.com/channel/UCz2SkceueJPJei4cDBD8Xjw/live
+  kick:
+    - https://kick.com/zankokuaoe
+  id: 772
