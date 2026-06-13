@@ -9041,3 +9041,13 @@
   twitch:
     - https://www.twitch.tv/williams_zx
   id: 770
+- name: DongHaiDi
+  country: cn
+  platforms:
+    rl:
+    - '15097184'
+    - '20607294'
+    - '21046917'
+    - '23221600'
+    - '22089825'
+  id: 771
