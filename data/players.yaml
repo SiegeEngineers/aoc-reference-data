@@ -9066,3 +9066,12 @@
   kick:
     - https://kick.com/zankokuaoe
   id: 772
+- name: Mymy
+  country: cn
+  platforms:
+    rl:
+      - '17266239'
+      - '22493751'
+      - '25358400'
+      - '21547256'
+  id: 773
