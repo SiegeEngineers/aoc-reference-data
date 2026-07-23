@@ -114,14 +114,6 @@
     "id": 12
   },
   {
-    "name": "Rookies",
-    "players": [
-      224,
-      231
-    ],
-    "id": 13
-  },
-  {
     "name": "Nocturna eSports",
     "players": [
       150,
@@ -136,7 +128,7 @@
       656,
       658
     ],
-    "id": 14
+    "id": 13
   },
   {
     "name": "Tuna's Wet Market",
@@ -145,7 +137,7 @@
       529,
       640
     ],
-    "id": 15
+    "id": 14
   },
   {
     "name": "Rulers of Rome",
@@ -169,7 +161,7 @@
       753,
       754
     ],
-    "id": 16
+    "id": 15
   },
   {
     "name": "Taiwan Aoe Gamer",
@@ -183,7 +175,7 @@
       368,
       471
     ],
-    "id": 17
+    "id": 16
   },
   {
     "name": "Dreamers",
@@ -191,7 +183,7 @@
       265,
       281
     ],
-    "id": 18
+    "id": 17
   },
   {
     "name": "FellowSheep Gaming",
@@ -200,7 +192,7 @@
       100,
       549
     ],
-    "id": 19
+    "id": 18
   },
   {
     "name": "BLACKSAILS",
@@ -215,7 +207,7 @@
       729,
       739
     ],
-    "id": 20
+    "id": 19
   },
   {
     "name": "SalzZ",
@@ -225,7 +217,7 @@
       579,
       641
     ],
-    "id": 21
+    "id": 20
   },
   {
     "name": "QuEnDi",
@@ -244,14 +236,14 @@
       492,
       523
     ],
-    "id": 22
+    "id": 21
   },
   {
     "name": "Gentle Mates",
     "players": [
       309
     ],
-    "id": 23
+    "id": 22
   },
   {
     "name": "LingYuan",
@@ -260,7 +252,7 @@
       5,
       36
     ],
-    "id": 24
+    "id": 23
   },
   {
     "name": "Old School",
@@ -278,35 +270,35 @@
       738,
       759
     ],
-    "id": 25
+    "id": 24
   },
   {
     "name": "Sweety Boys",
     "players": [
       592
     ],
-    "id": 26
+    "id": 25
   },
   {
     "name": "Dagorhir Gaming",
     "players": [
       713
     ],
-    "id": 27
+    "id": 26
   },
   {
     "name": "El Penal",
     "players": [
       667
     ],
-    "id": 28
+    "id": 27
   },
   {
     "name": "Saint Hell",
     "players": [
       733
     ],
-    "id": 29
+    "id": 28
   },
   {
     "name": "Wonders",
@@ -322,14 +314,14 @@
       511,
       637
     ],
-    "id": 30
+    "id": 29
   },
   {
     "name": "Olympus",
     "players": [
       57
     ],
-    "id": 31
+    "id": 30
   },
   {
     "name": "R1",
@@ -337,7 +329,7 @@
       595,
       666
     ],
-    "id": 32
+    "id": 31
   },
   {
     "name": "Onimaru Esports",
@@ -355,14 +347,14 @@
       402,
       672
     ],
-    "id": 33
+    "id": 32
   },
   {
     "name": "CDSG",
     "players": [
       198
     ],
-    "id": 34
+    "id": 33
   },
   {
     "name": "ANKR",
@@ -371,7 +363,7 @@
       743,
       750
     ],
-    "id": 35
+    "id": 34
   },
   {
     "name": "NuMa",
@@ -379,7 +371,7 @@
       369,
       752
     ],
-    "id": 36
+    "id": 35
   },
   {
     "name": "ELEOS",
@@ -387,7 +379,7 @@
       473,
       530
     ],
-    "id": 37
+    "id": 36
   },
   {
     "name": "Uxmal Esports",
@@ -397,7 +389,7 @@
       392,
       747
     ],
-    "id": 38
+    "id": 37
   },
   {
     "name": "Team Venon Esports",
@@ -409,7 +401,7 @@
       744,
       755
     ],
-    "id": 39
+    "id": 38
   },
   {
     "name": "Unholy Disciples",
@@ -418,7 +410,7 @@
       76,
       162
     ],
-    "id": 40
+    "id": 39
   },
   {
     "name": "Team Vitality",
@@ -427,7 +419,7 @@
       27,
       102
     ],
-    "id": 41
+    "id": 40
   },
   {
     "name": "Gaberianss",
@@ -435,14 +427,14 @@
       280,
       594
     ],
-    "id": 42
+    "id": 41
   },
   {
     "name": "STORM",
     "players": [
       638
     ],
-    "id": 43
+    "id": 42
   },
   {
     "name": "Club Olimpo Esports",
@@ -450,7 +442,7 @@
       714,
       746
     ],
-    "id": 44
+    "id": 43
   },
   {
     "name": "CN ZhongSheng",
@@ -462,6 +454,15 @@
       647,
       739,
       771
+    ],
+    "id": 44
+  },
+  {
+    "name": "Holkan Nuukuli",
+    "players": [
+      224,
+      231,
+      732
     ],
     "id": 45
   },
