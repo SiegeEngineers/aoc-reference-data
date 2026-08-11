@@ -431,7 +431,7 @@
   id: 18
   douyu:
     - https://www.douyu.com/891497
-  team: 80
+  team: 79
 - name: F1Re
   country: br
   esportsearnings: 14714
@@ -1266,7 +1266,7 @@
   aoeelo: 459
   id: 53
   discord_id: Noisick#4419
-  team: 79
+  team: 78
 - name: Inc
   country: us
   aoeelo: 323
@@ -1769,7 +1769,7 @@
   liquipedia: Whoop
   aoeelo: 59
   id: 85
-  team: 80
+  team: 79
 - name: Kief
   country: ru
   platforms:
@@ -2347,7 +2347,7 @@
   liquipedia: bvirus
   aoeelo: 169
   id: 120
-  team: 76
+  team: 75
 - name: Hackl
   country: de
   platforms:
@@ -2559,7 +2559,7 @@
   twitter:
     - https://twitter.com/The_Dragonstar
   discord_id: Dragonstar#1233
-  team: 19
+  team: 51
 - name: Free
   aka:
     - Free2
@@ -2792,7 +2792,7 @@
     - https://www.twitch.tv/lb10_
   id: 158
   discord_id: '#6511'
-  team: 78
+  team: 77
 - name: Rodrigus
   country: ar
   aoeelo: 449
@@ -2825,7 +2825,7 @@
   twitch:
     - https://www.twitch.tv/nc_skittle_
   discord_id: nC_Skittle_#1100
-  team: 78
+  team: 77
 - name: Jidba
   country: gr
   esportsearnings: 15926
@@ -3144,7 +3144,7 @@
   liquipedia: Ming_(Hong_Kongese_player)
   id: 197
   aoeelo: 1149
-  team: 83
+  team: 82
 - name: Kyo
   country: hk
   platforms:
@@ -3911,7 +3911,7 @@
   kick:
     - https://kick.com/whocl
   discord_id: Whocl#7918
-  team: 82
+  team: 81
 - name: Galaxy
   country: hk
   platforms:
@@ -4264,7 +4264,7 @@
   aoeelo: 969
   liquipedia: Alperen
   id: 271
-  team: 84
+  team: 83
 - name: CX_youwei
   country: cn
   platforms:
@@ -4438,7 +4438,7 @@
   aoeelo: 601
   id: 283
   discord_id: nC_Andorin#3135
-  team: 78
+  team: 77
 - name: Clemensor
   country: at
   platforms:
@@ -4528,7 +4528,7 @@
   twitter:
     - https://twitter.com/Cl3m3nt_AoE
   discord_id: Cl3m3nT#2748
-  team: 81
+  team: 80
 - name: DarK_KnighT
   country: mx
   platforms:
@@ -5765,7 +5765,7 @@
       - "435965"
   id: 388
   liquipedia: Snyper1
-  team: 78
+  team: 77
 - name: Socksyy
   country: au
   aoeelo: 447
@@ -6722,7 +6722,7 @@
     - https://www.youtube.com/channel/UCcW8qpvJJT_eUKo1fRh3NCg
   liquipedia: ClemoL45
   id: 465
-  team: 81
+  team: 80
 - name: BasicallyBebe
   country: au
   platforms:
@@ -7732,7 +7732,6 @@
   twitch:
     - https://www.twitch.tv/lighty_gg
   liquipedia: Lighty
-  team: 75
 - name: Tatengue
   country: ar
   aoeelo: 1212
@@ -8178,7 +8177,7 @@
   aoeelo: 1219
   twitch:
     - https://www.twitch.tv/toms_aoe
-  team: 77
+  team: 76
 - name: Nezzar
   country: hk
   platforms:
@@ -8342,6 +8341,7 @@
       - '1137086'
   twitch:
     - https://www.twitch.tv/shixo_aoe
+  team: 13
 - name: GUKI
   id: 676
   country: mx
@@ -8496,7 +8496,7 @@
   liquipedia: AboKeiTo
   id: 700
   aoeelo: 1254
-  team: 79
+  team: 78
 - name: Anakin
   country: ar
   platforms:
