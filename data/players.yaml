@@ -2043,7 +2043,7 @@
   discord_id: FeAge#3568
   twitter:
     - https://twitter.com/FeAgeAoE
-  team: 18
+  team: 32
 - name: Noto
   country: cn
   platforms:
@@ -9076,3 +9076,15 @@
       - '25358400'
       - '21547256'
   id: 773
+- name: VoNDutcH
+  country: bg
+  platforms:
+    rl:
+      - '3942539'
+      - '19641743'
+      - '19527664'
+  liquipedia: VoNDutcH
+  twitch:
+    - https://www.twitch.tv/vondutch
+  id: 774
+  team: 24
