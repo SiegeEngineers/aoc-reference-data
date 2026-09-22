@@ -239,6 +239,18 @@
     "59": {
       "name": "Tupi",
       "id": 60
+    },
+    "60": {
+      "name": "Saxons",
+      "id": 61,
+    },
+    "61": {
+      "name": "Varangians",
+      "id": 62,
+    },
+    "62": {
+      "name": "Danes",
+      "id": 63
     }
   },
   "maps": {
@@ -3342,6 +3354,16 @@
     "2626": "Hulk",
     "2627": "War Hulk",
     "2628": "Carrack",
-    "2633": "Catapult Galleon"
+    "2633": "Catapult Galleon",
+    "2700": "Mounted Crossbowman",
+    "2701": "Heavy Mounted Crossbowman",
+    "2703": "Varangian Guard",
+    "2704": "Elite Varangian Guard",
+    "2705": "Hearth Troop",
+    "2706": "Elite Hearth Troop",
+    "2708": "Jarl",
+    "2709": "Elite Jarl",
+    "2711": "Jomsviking",
+    "2712": "Elite Jomsviking"
   }
 }
