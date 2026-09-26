@@ -9102,3 +9102,10 @@
   twitch:
     - https://www.twitch.tv/zenta_aoe
   id: 774
+- name: BingBing
+  country: cn
+  platforms:
+    rl:
+      - '290430'
+      - '16815454'
+  id: 775
