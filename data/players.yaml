@@ -472,7 +472,8 @@
     rl:
       - "347269"
       - "3202763"
-      - "1844119-hc" # friar
+      - "1844119-hc" # friarA
+      - "26080062"
   youtube:
     - http://www.youtube.com/channel/UClFrW56x-ZtFIE2J_Qn2Ftg
   id: 20
@@ -3931,6 +3932,7 @@
       - "3317764"
       - "4974647"
       - "5232076"
+      - "5653221"
   twitch:
     - https://www.twitch.tv/lobodelanieve
   id: 253
@@ -4563,6 +4565,7 @@
       - "1531083"
       - "2559615"
       - "5557379"
+      - "26047101"
   liquipedia: FreakinAndy
   twitch:
     - https://www.twitch.tv/freakinandy
@@ -6088,6 +6091,7 @@
       - "11408958"
       - "22846286"
       - "23727514"
+      - "22228108"
   twitch:
     - https://www.twitch.tv/paganini_aoe2
   youtube:
@@ -6299,6 +6303,7 @@
     rl:
       - "2294850"
       - "5284131"
+      - "25044142"
   id: 429
   twitch:
     - https://www.twitch.tv/1chelooo
@@ -7721,6 +7726,11 @@
       - '4519458'
       - '11410593'
       - '8368899'
+      - '23416990'
+      - '25842012'
+      - '2596322'
+      - '2876957'
+      - '15593019'
   id: 596
   discord_id: Dfx2#9161
 - name: Lighty
@@ -8478,6 +8488,7 @@
     rl:
       - '1516024'
       - '14669191'
+      - '26128920'
   id: 698
 - name: Beigu
   aka:
@@ -9108,4 +9119,5 @@
     rl:
       - '290430'
       - '16815454'
+      - '6352753'
   id: 775
