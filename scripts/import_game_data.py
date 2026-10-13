@@ -1,6 +1,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
+#     "genieutils-py",
 #     "pydantic",
 #     "vdf",
 # ]
@@ -12,6 +13,7 @@ from pathlib import Path
 from typing import Annotated, Literal
 
 import vdf
+from genieutils.datfile import DatFile
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -64,21 +66,21 @@ class DECivBuilding(BaseModel):
 
     age_id: Annotated[int, Field(alias="Age ID")]
     building_id: Annotated[int, Field(alias="Building ID")]
-    building_new_column: Annotated[bool, Field(alias="Building in new column")]
-    building_upgraded_from_id: Annotated[int, Field(alias="Building upgraded from ID")]
-    draw_node_type: Annotated[str, Field(alias="Draw Node Type")]
+    building_new_column: Annotated[bool, Field(alias="Building in new column")] = False
+    building_upgraded_from_id: Annotated[int, Field(alias="Building upgraded from ID")] = -1
+    draw_node_type: Annotated[str, Field(alias="Draw Node Type")] = ""
     help_string_id: Annotated[int, Field(alias="Help String ID")]
-    link_id: Annotated[int, Field(alias="Link ID")]
-    link_node_type: Annotated[str, Field(alias="Link Node Type")]
+    link_id: Annotated[int, Field(alias="Link ID")] = -1
+    link_node_type: Annotated[str, Field(alias="Link Node Type")] = ""
     name: Annotated[str, Field(alias="Name")]
     name_string_id: Annotated[int, Field(alias="Name String ID")]
     node_id: Annotated[int, Field(alias="Node ID")]
     node_status: Annotated[str, Field(alias="Node Status")]
-    node_type: Annotated[str, Field(alias="Node Type")]
+    node_type: Annotated[str, Field(alias="Node Type")] = ""
     picture_index: Annotated[int, Field(alias="Picture Index")]
-    prerequisite_ids: Annotated[list[int], Field(alias="Prerequisite IDs")]
-    prerequisite_types: Annotated[list[str], Field(alias="Prerequisite Types")]
-    trigger_tech_id: Annotated[int, Field(alias="Trigger Tech ID")]
+    prerequisite_ids: Annotated[list[int], Field(alias="Prerequisite IDs")] = []
+    prerequisite_types: Annotated[list[str], Field(alias="Prerequisite Types")] = []
+    trigger_tech_id: Annotated[int, Field(alias="Trigger Tech ID")] = -1
     use_type: Annotated[str, Field(alias="Use Type")]
 
 
@@ -91,19 +93,19 @@ class DECivUnit(BaseModel):
     building_upgraded_from_id: Annotated[
         int, Field(alias="Building upgraded from ID")
     ] = -1
-    draw_node_type: Annotated[str, Field(alias="Draw Node Type")]
+    draw_node_type: Annotated[str, Field(alias="Draw Node Type")] = ""
     help_string_id: Annotated[int, Field(alias="Help String ID")]
-    link_id: Annotated[int, Field(alias="Link ID")]
-    link_node_type: Annotated[str, Field(alias="Link Node Type")]
+    link_id: Annotated[int, Field(alias="Link ID")] = -1
+    link_node_type: Annotated[str, Field(alias="Link Node Type")] = ""
     name: Annotated[str, Field(alias="Name")]
     name_string_id: Annotated[int, Field(alias="Name String ID")]
     node_id: Annotated[int, Field(alias="Node ID")]
     node_status: Annotated[str, Field(alias="Node Status")]
-    node_type: Annotated[str, Field(alias="Node Type")]
+    node_type: Annotated[str, Field(alias="Node Type")] = ""
     picture_index: Annotated[int, Field(alias="Picture Index")]
-    prerequisite_ids: Annotated[list[int], Field(alias="Prerequisite IDs")]
-    prerequisite_types: Annotated[list[str], Field(alias="Prerequisite Types")]
-    trigger_tech_id: Annotated[int, Field(alias="Trigger Tech ID")]
+    prerequisite_ids: Annotated[list[int], Field(alias="Prerequisite IDs")] = []
+    prerequisite_types: Annotated[list[str], Field(alias="Prerequisite Types")] = []
+    trigger_tech_id: Annotated[int, Field(alias="Trigger Tech ID")] = -1
     use_type: Annotated[str, Field(alias="Use Type")]
 
 
@@ -139,6 +141,7 @@ class DECivilization(BaseModel):
     emblem_image_path: Path | None = None
     unique_unit_image_paths: Annotated[list[Path], Field(default_factory=list[Path])]
     name_string_id: int
+    tech_tree_description_string_id: int = -1
     computer_name_string_table_offset: int = -1
     unique_tech_id_1: int = -1
     unique_tech_id_2: int = -1
@@ -231,6 +234,73 @@ class AoCDataset(BaseModel):
             }
         )
         return new_dataset
+
+    def with_objects(self, dat: DatFile, key_values: dict[str, str]):
+        """Add the gaia objects (trees, animals, bushes, mines, ...) the dataset lacks.
+
+        Existing entries are kept as they are, even where the game has renamed the
+        object since: other tools match on these names.
+        """
+        units = dat.civs[0].units
+        new_objects = {
+            **{
+                str(unit.id): key_values[str(unit.language_dll_name)]
+                for unit in units
+                if unit is not None
+                and unit.class_ in GAIA_CLASSES
+                and key_values.get(str(unit.language_dll_name))
+            },
+            **self.objects,
+        }
+        return self.model_copy(
+            update={
+                "objects": {
+                    str(object_id): new_objects[str(object_id)]
+                    for object_id in sorted([int(k) for k in new_objects.keys()])
+                }
+            }
+        )
+
+    def with_terrain(
+        self, dat: DatFile, palette: list[str], key_values: dict[str, str]
+    ):
+        """Add the terrains the dataset lacks, with their minimap colors.
+
+        A terrain's three minimap colors are indices into original.pal, and the
+        existing up/level/down values are exactly those colors. Existing entries
+        are kept as they are.
+        """
+        new_terrain = {
+            **{
+                str(index): {
+                    "name": key_values.get(str(terrain.string_id), terrain.name),
+                    "colors": {
+                        "up": palette[terrain.colors[0]],
+                        "level": palette[terrain.colors[1]],
+                        "down": palette[terrain.colors[2]],
+                    },
+                }
+                for index, terrain in enumerate(dat.terrain_block.terrains)
+                if terrain.enabled
+                and terrain.name
+                and "OBSOLETE" not in terrain.name.upper()
+            },
+            **self.terrain,
+        }
+        return self.model_copy(
+            update={
+                "terrain": {
+                    str(terrain_id): new_terrain[str(terrain_id)]
+                    for terrain_id in sorted([int(k) for k in new_terrain.keys()])
+                }
+            }
+        )
+
+
+# Unit classes of the gaia objects worth naming: 5 fish, 7 forage, 8 livestock,
+# 9 prey animal, 10 predator animal, 11 bird, 14 flora, 15 tree, 32 stone mine,
+# 33 gold mine. Classes 34 (cliffs) and 30 (placeholders) have no English names.
+GAIA_CLASSES = {5, 7, 8, 9, 10, 11, 14, 15, 32, 33}
 
 
 def get_steam_path() -> Path:
@@ -362,7 +432,31 @@ def read_english_strings(resources_dir: Path) -> dict[str, str]:
     return key_values
 
 
+def read_dat(resources_dir: Path) -> DatFile:
+    return DatFile.parse(resources_dir / "_common" / "dat" / "empires2_x2_p1.dat")
+
+
+def read_palette(resources_dir: Path) -> list[str]:
+    """original.pal as hex colors: a JASC palette, three header lines then r g b."""
+    lines = (resources_dir / "_common" / "palettes" / "original.pal").read_text().splitlines()
+    return [
+        "#{:02x}{:02x}{:02x}".format(*map(int, line.split()[:3]))
+        for line in lines[3:]
+        if line.strip()
+    ]
+
+
 def read_civ_tech_tree(resources_dir: Path):
+    # Newer builds ship one CivTechTrees/<CIV>.json per civilization instead of
+    # the single civTechTrees.json.
+    civ_dir = resources_dir / "_common" / "dat" / "CivTechTrees"
+    if civ_dir.is_dir():
+        return DECivTechTrees(
+            civs=[
+                DECivTechTree.model_validate_json(path.read_text(encoding="utf8"))
+                for path in sorted(civ_dir.glob("*.json"))
+            ]
+        )
     civ_json = resources_dir / "_common" / "dat" / "civTechTrees.json"
     return DECivTechTrees.model_validate_json(civ_json.read_text(encoding="utf8"))
 
@@ -395,8 +489,13 @@ def main() -> None:
         civ.tech_tree_name for civ in civs.civilization_list if civ.era == "base"
     }
     filtered_civs = [civ for civ in tech_tree.civs if civ.civ_id in aoe2_civs]
-    new_dataset = dataset.with_maps(maps, key_values).with_civ_techs(
-        filtered_civs, key_values
+    dat = read_dat(resources_dir)
+    palette = read_palette(resources_dir)
+    new_dataset = (
+        dataset.with_maps(maps, key_values)
+        .with_civ_techs(filtered_civs, key_values)
+        .with_objects(dat, key_values)
+        .with_terrain(dat, palette, key_values)
     )
 
     print(new_dataset.model_dump_json(indent=2))
