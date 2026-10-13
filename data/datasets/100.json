@@ -2154,9 +2154,9 @@
     "111": {
       "name": "Swamp",
       "colors": {
-        "up": "#f8c98a",
-        "level": "#e8b478",
-        "down": "#bd966f"
+        "up": "#5492b0",
+        "level": "#5492b0",
+        "down": "#5492b0"
       }
     },
     "112": {
@@ -2194,17 +2194,17 @@
     "116": {
       "name": "Water, Yellow Deep",
       "colors": {
-        "up": "#004aa1",
-        "level": "#004aa1",
-        "down": "#004aa1"
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
       }
     },
     "117": {
       "name": "Pasture1",
       "colors": {
-        "up": "#8a8b57",
-        "level": "#82884d",
-        "down": "#768241"
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
       }
     },
     "118": {
@@ -2218,25 +2218,25 @@
     "119": {
       "name": "Pasture Cnst1",
       "colors": {
-        "up": "#8a8b57",
-        "level": "#82884d",
-        "down": "#768241"
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
       }
     },
     "120": {
       "name": "Pasture Cnst2",
       "colors": {
-        "up": "#8a8b57",
-        "level": "#82884d",
-        "down": "#768241"
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
       }
     },
     "121": {
       "name": "Pasture Cnst3",
       "colors": {
-        "up": "#8a8b57",
-        "level": "#82884d",
-        "down": "#768241"
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
       }
     },
     "122": {
@@ -2258,9 +2258,9 @@
     "124": {
       "name": "Snow Soft",
       "colors": {
-        "up": "#8a8b57",
-        "level": "#82884d",
-        "down": "#768241"
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
       }
     },
     "125": {
