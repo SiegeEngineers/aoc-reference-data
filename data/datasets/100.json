@@ -2142,6 +2142,198 @@
         "level": "#e8b478",
         "down": "#bd966f"
       }
+    },
+    "110": {
+      "name": "Forest, Birch",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "111": {
+      "name": "Swamp",
+      "colors": {
+        "up": "#f8c98a",
+        "level": "#e8b478",
+        "down": "#bd966f"
+      }
+    },
+    "112": {
+      "name": "Forest, Palm Grass",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "113": {
+      "name": "Forest, Lush Bamboo",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "114": {
+      "name": "Water, Yellow Shallow",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "115": {
+      "name": "Shallows, Yellow",
+      "colors": {
+        "up": "#5492b0",
+        "level": "#5492b0",
+        "down": "#5492b0"
+      }
+    },
+    "116": {
+      "name": "Water, Yellow Deep",
+      "colors": {
+        "up": "#004aa1",
+        "level": "#004aa1",
+        "down": "#004aa1"
+      }
+    },
+    "117": {
+      "name": "Pasture1",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "118": {
+      "name": "Pasture2",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "119": {
+      "name": "Pasture Cnst1",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "120": {
+      "name": "Pasture Cnst2",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "121": {
+      "name": "Pasture Cnst3",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "122": {
+      "name": "Grass Flowers 1",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "123": {
+      "name": "Grass Flowers 2",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "124": {
+      "name": "Snow Soft",
+      "colors": {
+        "up": "#8a8b57",
+        "level": "#82884d",
+        "down": "#768241"
+      }
+    },
+    "125": {
+      "name": "Snow Soft Light",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "126": {
+      "name": "Snow Soft Deep",
+      "colors": {
+        "up": "#00a900",
+        "level": "#339727",
+        "down": "#008d00"
+      }
+    },
+    "127": {
+      "name": "Ice Soft",
+      "colors": {
+        "up": "#98c0f0",
+        "level": "#98c0f0",
+        "down": "#98c0f0"
+      }
+    },
+    "128": {
+      "name": "Forest, Dry South American",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "129": {
+      "name": "Black (Walkable)",
+      "colors": {
+        "up": "#1c1c1c",
+        "level": "#1c1c1c",
+        "down": "#1c1c1c"
+      }
+    },
+    "130": {
+      "name": "Water, Weeds",
+      "colors": {
+        "up": "#305db6",
+        "level": "#305db6",
+        "down": "#305db6"
+      }
+    },
+    "131": {
+      "name": "Forest, Spruce",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "132": {
+      "name": "Forest, Spruce Snow",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
+    },
+    "133": {
+      "name": "Forest, Oak Green",
+      "colors": {
+        "up": "#257439",
+        "level": "#157615",
+        "down": "#007200"
+      }
     }
   },
   "objects": {
@@ -3147,6 +3339,69 @@
     "1800": "Composite Bowman",
     "1803": "Monaspa",
     "1808": "Mule Cart",
-    "1811": "Warrior Priest"
+    "1811": "Warrior Priest",
+    "1717": "Tree (Birch)",
+    "1796": "Gazelle",
+    "1896": "Argali",
+    "1924": "Walrus",
+    "1965": "Arctic Wolf",
+    "1967": "Rock (Mossy)",
+    "1984": "Tree (Lush Bamboo Forest)",
+    "2016": "Tree (Asian Pine)",
+    "2017": "Tree (Peach Blossom)",
+    "2025": "Tree (Willow)",
+    "2027": "Tree (Asian Maple, Green)",
+    "2028": "Tree (Asian Maple, Autumn)",
+    "2084": "Wild Chicken A",
+    "2086": "Wild Chicken B",
+    "2088": "Wild Chicken C",
+    "2089": "Black Bear",
+    "2090": "Polar Bear",
+    "2091": "Arabian Wolf",
+    "2092": "Wild Horse B",
+    "2093": "Wild Horse C",
+    "2094": "Wild Horse D",
+    "2095": "Wild Horse E",
+    "2096": "Monkey",
+    "2097": "Penguin",
+    "2098": "Hare A",
+    "2099": "Hare B",
+    "2100": "Arctic Hare",
+    "2178": "Marble Cliff 1",
+    "2179": "Marble Cliff 2",
+    "2180": "Marble Cliff 3",
+    "2181": "Marble Cliff 4",
+    "2182": "Marble Cliff 5",
+    "2183": "Marble Cliff 6",
+    "2184": "Marble Cliff 7",
+    "2185": "Marble Cliff 8",
+    "2186": "Marble Cliff 9",
+    "2340": "Mouflon",
+    "2537": "Peacock",
+    "2567": "Tree (Oak Green)",
+    "2570": "Tree (Monkey Puzzle)",
+    "2578": "Raven",
+    "2580": "Tree (Brazilwood)",
+    "2583": "Tree (Wax Palm)",
+    "2589": "Tapir",
+    "2591": "Guanaco",
+    "2592": "Snake",
+    "2593": "Condor",
+    "2594": "Caiman",
+    "2595": "Black Panther",
+    "2596": "Flamingo",
+    "2597": "Rhea",
+    "2599": "Papaya Tree",
+    "2615": "Wild Alpaca",
+    "2650": "Pineapple Bush",
+    "2731": "Tree (Spruce)",
+    "2732": "Tree (Spruce Snow)",
+    "2733": "Bush D",
+    "2734": "Rock (Snow)",
+    "2735": "Seal",
+    "2736": "Lynx",
+    "2737": "Elk",
+    "2739": "Pheasant",
+    "2743": "Plant (Heather)"
   }
 }
