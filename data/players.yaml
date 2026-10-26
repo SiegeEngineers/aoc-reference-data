@@ -1270,7 +1270,7 @@
   aoeelo: 459
   id: 53
   discord_id: Noisick#4419
-  team: 79
+  team: 78
 - name: Inc
   country: us
   aoeelo: 323
@@ -2352,7 +2352,7 @@
   liquipedia: bvirus
   aoeelo: 169
   id: 120
-  team: 76
+  team: 75
 - name: Hackl
   country: de
   platforms:
@@ -2797,7 +2797,7 @@
     - https://www.twitch.tv/lb10_
   id: 158
   discord_id: '#6511'
-  team: 78
+  team: 77
 - name: Rodrigus
   country: ar
   aoeelo: 449
@@ -2830,7 +2830,7 @@
   twitch:
     - https://www.twitch.tv/nc_skittle_
   discord_id: nC_Skittle_#1100
-  team: 78
+  team: 77
 - name: Jidba
   country: gr
   esportsearnings: 15926
@@ -4444,7 +4444,7 @@
   aoeelo: 601
   id: 283
   discord_id: nC_Andorin#3135
-  team: 78
+  team: 77
 - name: Clemensor
   country: at
   platforms:
@@ -5148,6 +5148,7 @@
       - "238641"
       - "5375392"
       - "2659351"
+      - "24770928"
     voobly:
       - "124651224"
   twitch:
@@ -5715,7 +5716,7 @@
       - "3217607"
       - "3103118"
   id: 382
-  team: 49
+  team: 44
 - name: Ivanenko
   country: ar
   aoeelo: 826
@@ -5773,7 +5774,7 @@
       - "435965"
   id: 388
   liquipedia: Snyper1
-  team: 78
+  team: 77
 - name: Socksyy
   country: au
   aoeelo: 447
@@ -7465,7 +7466,7 @@
   aoeelo: 1246
   discord_id: MrOsoVC8#1536
   city: San Luis Potosí
-  team: 75
+  team: 38
 - name: Target331
   country: de
   platforms:
@@ -8102,7 +8103,7 @@
   liquipedia: DuDuZhu
   bilibili:
     - https://live.bilibili.com/30941352
-  team: 44
+  team: 41
 - name: Parawhas
   country: pe
   id: 648
@@ -8192,7 +8193,7 @@
   aoeelo: 1219
   twitch:
     - https://www.twitch.tv/toms_aoe
-  team: 77
+  team: 76
 - name: Nezzar
   country: hk
   platforms:
@@ -8514,7 +8515,7 @@
   liquipedia: AboKeiTo
   id: 700
   aoeelo: 1254
-  team: 79
+  team: 78
 - name: Anakin
   country: ar
   platforms:
@@ -8730,7 +8731,7 @@
     - https://www.twitch.tv/themariach1
   liquipedia: Themariach1
   aoeelo: 1356
-  team: 75
+  team: 79
 - name: Dimo
   id: 741
   country: pe
@@ -9044,6 +9045,7 @@
   bilibili:
     - https://live.bilibili.com/31366859
   id: 768
+  team: 44
 - name: Leonidas
   country: fr
   platforms:
