@@ -840,7 +840,6 @@
       - "11447758"
   id: 34
   discord_id: Daniel_#5000
-  team: 44
 - name: Yinghua
   aka:
     - LoveCheng
@@ -1251,7 +1250,6 @@
   id: 52
   douyin:
     - https://live.douyin.com/785583361067
-  team: 44
 - name: Noisick
   country: cl
   twitch:
@@ -3427,7 +3425,6 @@
     - https://www.douyu.com/9404502
   douyin:
     - https://live.douyin.com/318465225449
-  team: 44
 - name: seyaren
   country: cn
   platforms:
@@ -4390,6 +4387,7 @@
       - "25383458"
       - "25787183"
       - "25837876"
+      - "26145778"
   liquipedia: Whitecourt
   twitch:
     - https://www.twitch.tv/whitecourtt
@@ -7797,7 +7795,6 @@
       - '25110471'
   id: 601
   aoeelo: 1715
-  team: 44
 - name: BuloaSaky
   country: vn
   platforms:
@@ -9132,3 +9129,29 @@
       - '16815454'
       - '6352753'
   id: 775
+- name: Gengar
+  country: ar
+  platforms:
+    rl:
+      - '3055068'
+      - '11313292'
+  id: 775
+- name: SoyLaHostia
+  country: mx
+  platforms:
+    rl:
+      - '310739'
+  id: 776
+  twitch:
+    - https://www.twitch.tv/soylahostiaa
+  team: 45
+- name: Abu abdullah
+  country: sa
+  platforms:
+    rl:
+      - '5839022'
+      - '10844303'
+      - '15415425'
+  id: 777
+  twitch:
+    - https://www.twitch.tv/abu__abdullah_
